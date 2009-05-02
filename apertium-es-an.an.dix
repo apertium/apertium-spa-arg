@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
   <alphabet>AaÁáBbCcDdEeÉéFfGgHhIiÍíJjKkLlMmNnÑñOoÓóPpQqRrSsTtUuÚúÜüVvWwXxYyZz</alphabet>
   <sdefs>
@@ -241,7 +241,7 @@
       </e>
       <e>
         <p>
-          <l>arianos</l>
+          <l>aríanos</l>
           <r>ar<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
@@ -253,7 +253,7 @@
       </e>
       <e>
         <p>
-          <l>iaz</l>
+          <l>aríaz</l>
           <r>ar<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
@@ -741,23 +741,23 @@
       </e>
       <e>
         <p>
-          <l>abíu</l>
+          <l>abiu</l>
           <r>aber<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
-      <e> <!-- FIXME! Guess! -->
+      <e>
         <p>
-          <l>abíus</l>
+          <l>abius</l>
           <r>aber<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
-      <e> <!-- FIXME! Guess! -->
+      <e>
         <p>
           <l>abida</l>
           <r>aber<s n="vbhaver"/><s n="pp"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
-      <e> <!-- FIXME! Guess! -->
+      <e>
         <p>
           <l>abidas</l>
           <r>aber<s n="vbhaver"/><s n="pp"/><s n="f"/><s n="pl"/></r>
@@ -769,19 +769,19 @@
           <r>aber<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
-      <e r="LR"> <!-- FIXME! Guess! -->
+      <e r="LR">
         <p>
           <l>abitos</l>
           <r>aber<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
-      <e r="LR"> <!-- FIXME! Guess! -->
+      <e r="LR">
         <p>
           <l>abita</l>
           <r>aber<s n="vbhaver"/><s n="pp"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
-      <e r="LR"> <!-- FIXME! Guess! -->
+      <e r="LR">
         <p>
           <l>abitas</l>
           <r>aber<s n="vbhaver"/><s n="pp"/><s n="f"/><s n="pl"/></r>
