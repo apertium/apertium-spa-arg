@@ -69,6 +69,7 @@
     <sdef n="lpar"/>
     <sdef n="rpar"/>
     <sdef n="lquest"/>
+    <sdef n="web"/>
   </sdefs>
   <pardefs>
     <pardef n="numeros">
@@ -76,7 +77,9 @@
         <re>[0-9]+([.,][0-9]+)?(%)?</re>
         <p>
           <l/>
-          <r><s n="num"/></r>
+          <r>
+            <s n="num"/>
+          </r>
         </p>
       </e>
     </pardef>
@@ -85,7 +88,9 @@
         <re>[.\?;:!]</re>
         <p>
           <l/>
-          <r><s n="sent"/></r>
+          <r>
+            <s n="sent"/>
+          </r>
         </p>
       </e>
     </pardef>
@@ -94,7 +99,9 @@
         <re>,</re>
         <p>
           <l/>
-          <r><s n="cm"/></r>
+          <r>
+            <s n="cm"/>
+          </r>
         </p>
       </e>
     </pardef>
@@ -103,7 +110,9 @@
         <re>¿</re>
         <p>
           <l/>
-          <r><s n="lquest"/></r>
+          <r>
+            <s n="lquest"/>
+          </r>
         </p>
       </e>
     </pardef>
@@ -112,7 +121,9 @@
         <re>[\(\[]</re>
         <p>
           <l/>
-          <r><s n="lpar"/></r>
+          <r>
+            <s n="lpar"/>
+          </r>
         </p>
       </e>
     </pardef>
@@ -121,78 +132,120 @@
         <re>[\)\]]</re>
         <p>
           <l/>
-          <r><s n="rpar"/></r>
+          <r>
+            <s n="rpar"/>
+          </r>
         </p>
       </e>
     </pardef>
-    
+    <pardef n="emails">
+      <e>
+        <re>[a-z.]+@[a-z.]+</re>
+        <p>
+          <l/>
+          <r>
+            <s n="num"/>
+          </r>
+        </p>
+      </e>
+    </pardef>    
+    <pardef n="urls">
+    <e>
+      <re>(((www.)|(http://))[a-z0-9\-]+([.][a-z]+)+(/[a-z0-9_]+)*([.][a-z]+)*)</re>
+      <p>
+        <l></l> 
+        <r><s n="num"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="ip">
+    <e>
+      <re>(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9])(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))</re>
+      <p>
+        <l></l> 
+        <r><s n="web"/></r> 
+      </p>
+    </e>
+    </pardef>
     <pardef n="/él__prn">
       <e>
         <p>
-          <l>él</l> 
-          <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r> 
+          <l>él</l>
+          <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ellos</l> 
-          <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r> 
+          <l>ellos</l>
+          <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ella</l> 
-          <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r> 
+          <l>ella</l>
+          <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>ellas</l> 
-          <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r> 
+          <l>ellas</l>
+          <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
     <pardef n="nusatr/os__prn">
       <e>
         <p>
-          <l>os</l> 
-          <r>os<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r> 
+          <l>os</l>
+          <r>os<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>as</l> 
-          <r>os<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></r> 
+          <l>as</l>
+          <r>os<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
     <pardef n="busatr/os__prn">
       <e>
         <p>
-          <l>os</l> 
-          <r>os<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></r> 
+          <l>os</l>
+          <r>os<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>as</l> 
-          <r>os<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></r> 
+          <l>as</l>
+          <r>os<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
     <pardef n="yo__prn">
       <e>
         <p>
-          <l></l> 
-          <r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r> 
+          <l/>
+          <r>
+            <s n="prn"/>
+            <s n="tn"/>
+            <s n="p1"/>
+            <s n="mf"/>
+            <s n="sg"/>
+          </r>
         </p>
       </e>
     </pardef>
     <pardef n="tú__prn">
       <e>
         <p>
-          <l></l> 
-          <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r> 
+          <l/>
+          <r>
+            <s n="prn"/>
+            <s n="tn"/>
+            <s n="p2"/>
+            <s n="mf"/>
+            <s n="sg"/>
+          </r>
         </p>
       </e>
     </pardef>
@@ -763,7 +816,7 @@
           <r>aber<s n="vbhaver"/><s n="pp"/><s n="f"/><s n="pl"/></r>
         </p>
       </e>
-      <e r="LR"> 
+      <e r="LR">
         <p>
           <l>abito</l>
           <r>aber<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="sg"/></r>
@@ -915,29 +968,126 @@
     <pardef n="luenga__n">
       <e>
         <p>
-          <l></l>
-          <r><s n="n"/><s n="f"/><s n="sg"/></r>
+          <l/>
+          <r>
+            <s n="n"/>
+            <s n="f"/>
+            <s n="sg"/>
+          </r>
         </p>
       </e>
       <e>
         <p>
           <l>s</l>
-          <r><s n="n"/><s n="f"/><s n="pl"/></r>
+          <r>
+            <s n="n"/>
+            <s n="f"/>
+            <s n="pl"/>
+          </r>
         </p>
       </e>
     </pardef>
-</pardefs>
-<section id="main" type="standard">
-  <e lm="yo"><i>yo</i><par n="yo__prn"/></e>
-  <e lm="tú"><i>tú</i><par n="tú__prn"/></e>
-  <e lm="él"><i></i><par n="/él__prn"/></e>
-  <e lm="nusatros"><i>nusatr</i><par n="nusatr/os__prn"/></e>
-  <e lm="busatros"><i>busatr</i><par n="busatr/os__prn"/></e>
-  <e lm="o"><i></i><par n="o__det"/></e>
-  <e lm="aber"><i></i><par n="/aber__vbhaver"/></e>
-  <e lm="cantar"><i>cant</i><par n="cant/ar__vblex"/></e>
-  <e lm="aragonés"><i>aragon</i><par n="aragon/és__adj"/></e>
-  <e lm="luenga"><i>luenga</i><par n="luenga__n"/></e>
-  <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
-</section>
+    <pardef n="contde__pr">
+      <e r="LR">
+        <p>
+          <l>de</l>
+          <r>de<s n="pr"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>de</l>
+          <r>de<s n="pr"/></r>
+        </p>
+      </e>
+    </pardef>
+  </pardefs>
+  <section id="main" type="standard">
+    <e lm="yo">
+      <i>yo</i>
+      <par n="yo__prn"/>
+    </e>
+    <e lm="tú">
+      <i>tú</i>
+      <par n="tú__prn"/>
+    </e>
+    <e lm="él">
+      <i/>
+      <par n="/él__prn"/>
+    </e>
+    <e lm="nusatros">
+      <i>nusatr</i>
+      <par n="nusatr/os__prn"/>
+    </e>
+    <e lm="busatros">
+      <i>busatr</i>
+      <par n="busatr/os__prn"/>
+    </e>
+    <e lm="o">
+      <i/>
+      <par n="/o__det"/>
+    </e>
+    <e lm="aber">
+      <i/>
+      <par n="/aber__vbhaver"/>
+    </e>
+    <e lm="cantar">
+      <i>cant</i>
+      <par n="cant/ar__vblex"/>
+    </e>
+    <e lm="aragonés">
+      <i>aragon</i>
+      <par n="aragon/és__adj"/>
+    </e>
+    <e lm="luenga">
+      <i>luenga</i>
+      <par n="luenga__n"/>
+    </e>
+    <e lm="augua">
+      <i>augua</i>
+      <par n="luenga__n"/>
+    </e>
+    <e lm="de">
+      <par n="contde__pr"/>
+    </e>
+  </section>
+  <section id="apostrophes" type="postblank">
+    <e r="LR" lm="d'">
+      <p>
+        <l>d'</l>
+        <r>de<s n="pr"/></r>
+      </p>
+    </e>
+  </section>
+  <section id="regexp" type="standard">
+    <e>
+      <par n="numeros"/>
+    </e>
+    <e>
+      <par n="emails"/>
+    </e>
+    <e>
+      <par n="urls"/>
+    </e>
+    <e>
+      <par n="ip"/>
+    </e>
+  </section>
+  <section id="final" type="inconditional">
+    <e>
+      <par n="separa"/>
+    </e>
+    <e>
+      <par n="coma"/>
+    </e>
+    <e>
+      <par n="paresq"/>
+    </e>
+    <e>
+      <par n="pardret"/>
+    </e>
+    <e>
+      <par n="separ"/>
+    </e>
+  </section>
 </dictionary>
