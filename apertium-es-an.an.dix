@@ -2,7 +2,7 @@
 <dictionary>
   <alphabet>AaÁáBbCcDdEeÉéFfGgHhIiÍíJjKkLlMmNnÑñOoÓóPpQqRrSsTtUuÚúÜüVvWwXxYyZz</alphabet>
   <sdefs>
-    <sdef n="acr"/>
+    <sdef n="acr" c="Acronimo"/>
     <sdef n="predet"/>
     <sdef n="detnt"/>
     <sdef n="loc"/>
@@ -10,17 +10,17 @@
     <sdef n="al"/>
     <sdef n="atn"/>
     <sdef n="enc"/>
-    <sdef n="pro"/>
+    <sdef n="pro" c="Pronombre"/>
     <sdef n="tn"/>
     <sdef n="n"/>
     <sdef n="np"/>
-    <sdef n="adj"/>
-    <sdef n="f"/>
-    <sdef n="m"/>
-    <sdef n="mf"/>
-    <sdef n="sg"/>
-    <sdef n="pl"/>
-    <sdef n="adv"/>
+    <sdef n="adj" c="Achetibo"/>
+    <sdef n="f" c="femenino"/>
+    <sdef n="m" c="masculino"/>
+    <sdef n="mf" c="masc-fem"/>
+    <sdef n="sg" c="singular"/>
+    <sdef n="pl" c="plural"/>
+    <sdef n="adv" c="alberbio"/>
     <sdef n="preadv"/>
     <sdef n="pr"/>
     <sdef n="prn"/>
@@ -1170,17 +1170,13 @@
       <e>
         <p>
           <l/>
-          <r>
-            <s n="n"/><s n="f"/><s n="sg"/>
-          </r>
+          <r><s n="n"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>s</l>
-          <r>
-            <s n="n"/><s n="f"/><s n="pl"/>
-          </r>
+          <r><s n="n"/><s n="f"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -1188,20 +1184,65 @@
       <e>
         <p>
           <l/>
-          <r>
-            <s n="n"/><s n="m"/><s n="sg"/>
-          </r>
+          <r><s n="n"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>s</l>
-          <r>
-            <s n="n"/><s n="m"/><s n="pl"/>
-          </r>
+          <r><s n="n"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>    
+        
+    
+    <pardef n="con__pr">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="pr"/></r> 
+      </p>
+    </e>
+ 
+     </pardef>
+     
+    <pardef n="conta__pr">
+    <e r="LR">
+      <p>
+        <l>á</l> 
+        <r>á<s n="pr"/></r> 
+      </p>
+    </e>
+   <e r="LR">
+      <p>
+        <l>a</l> 
+        <r>á<s n="pr"/></r> 
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l><a/>á</l> 
+        <r>á<s n="pr"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="contde__pr">
+    <e r="LR">
+      <p>
+        <l>de</l> 
+        <r>de<s n="pr"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l><a/>de</l> 
+        <r>de<s n="pr"/></r> 
+      </p>
+    </e>
+
+</pardef>
     
     <pardef n="contde__pr">
       <e r="LR">
@@ -1217,6 +1258,36 @@
         </p>
       </e>
     </pardef>
+    
+        <pardef n="contta__pr">
+      <e r="LR">
+        <p>
+          <l>ta</l>
+          <r>ta<s n="pr"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>ta</l>
+          <r>ta<s n="pr"/></r>
+        </p>
+      </e>
+    </pardef>
+
+       <pardef n="conten__pr">
+      <e r="LR">
+        <p>
+          <l>en</l>
+          <r>en<s n="pr"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>en</l>
+          <r>en<s n="pr"/></r>
+        </p>
+      </e>
+    </pardef>    
   </pardefs>
   <section id="main" type="standard">
     <e lm="yo"><i>yo</i><par n="yo__prn"/></e>
@@ -1240,9 +1311,61 @@
     <e lm="libro"><i>libro</i><par n="libro__n"/></e>
     <e lm="güello"><i>güello</i><par n="libro__n"/></e>
     
-    <e lm="de"><par n="contde__pr"/></e>
+    <e lm="á"><i/><par n="conta__pr"/></e>
+    <e lm="baixo"><i>baixo</i><par n="con__pr"/></e> 
+    <e lm="baxo" r="LR"><p><l>baxo</l><r>baixo</r></p><par n="con__pr"/></e>
+    <e lm="cara"><i>cara</i><par n="con__pr"/></e> 
+    <e lm="cata"><i>cata</i><par n="con__pr"/></e>
+    <e lm="con"><i>con</i><par n="con__pr"/></e>
+    <e lm="contra"><i>contra</i><par n="con__pr"/></e>
+    <e lm="de"><i/><par n="contde__pr"/></e>
+    <e lm="debant"><i>debant</i><par n="con__pr"/></e> 
+    <e lm="debán" r="LR"><p><l>debán</l><r>debant</r></p><par n="con__pr"/></e>     
+    <e lm="debaixo"><i>debaixo</i><par n="con__pr"/></e> 
+    <e lm="debaixo" r="LR"><p><l>debaxo</l><r>debaixo</r></p><par n="con__pr"/></e>
+    <e lm="dende"><i>dende</i><par n="con__pr"/></e>
+    <e lm="dezaga"><i>dezaga</i><par n="con__pr"/></e>
+    <e lm="dica"><i>dica</i><par n="con__pr"/></e>
+    <e lm="asta"><i>asta</i><par n="con__pr"/></e>
+    <e lm="chus"><i>chus</i><par n="con__pr"/></e>
+    <e lm="en"><i/><par n="conten__pr"/></e>
+    <e lm="enta"><i>en</i><par n="contta__pr"/></e>
+    <e lm="entre"><i>entre</i><par n="con__pr"/></e>    
+    <e lm="pa"><i>pa</i><par n="con__pr"/></e>     
+    <e lm="por"><i>por</i><par n="con__pr"/></e>    
+    <e lm="per" r="LR"><p><l>per</l><r>por</r></p><par n="con__pr"/></e>    
+    <e lm="seguntes"><i>seguntes</i><par n="con__pr"/></e>    
+    <e lm="sin"><i>sin</i><par n="con__pr"/></e>
+    <e lm="sin de"><i>sin<b/></i><par n="contde__pr"/></e>     
+    <e lm="sobre"><i>sobre</i><par n="con__pr"/></e>    
+    <e lm="ta"><i/><par n="contta__pr"/></e>
+    <e lm="amás de"><i>amás<b/></i><par n="contde__pr"/></e>
+    <e lm="antes de"><i>antes<b/></i><par n="contde__pr"/></e>
+    <e lm="antes de" r="LR"><p><l>antis<b/></l><r>antes<b/></r></p><par n="contde__pr"/></e>    
+    <e lm="debaixo de"><i>debaixo<b/></i><par n="contde__pr"/></e>
+    <e lm="debaixo de" r="LR"><p><l>debaxo<b/></l><r>debaixo<b/></r></p><par n="contde__pr"/></e>    
+    <e lm="dezaga de"><i>dezaga<b/></i><par n="contde__pr"/></e>
+    <e lm="dimpués de"><i>dimpués<b/></i><par n="contde__pr"/></e>
+    <e lm="dimpués de" r="LR"><p><l>dispués<b/></l><r>dimpués<b/></r></p><par n="contde__pr"/></e>        
+    <e lm="luen de"><i>luen<b/></i><par n="contde__pr"/></e>
+    <e lm="por baixo de"><i>por<b/>baixo<b/></i><par n="contde__pr"/></e>
+    <e lm="por baixo de" r="LR"><p><l>por<b/>baxo<b/></l><r>por<b/>baixo<b/></r></p><par n="contde__pr"/></e>    
+    <e lm="per baixo de" r="LR"><p><l>per<b/>baxo<b/></l><r>por<b/>baixo<b/></r></p><par n="contde__pr"/></e>    
+    <e lm="per baixo de" r="LR"><p><l>per<b/>baixo<b/></l><r>por<b/>baixo<b/></r></p><par n="contde__pr"/></e>    
+    <e lm="por meyo de"><i>por<b/>meyo<b/></i><par n="contde__pr"/></e>
+    <e lm="per meyo de" r="LR"><p><l>per<b/>meyo<b/></l><r>por<b/>meyo<b/></r></p><par n="contde__pr"/></e>    
+    <e lm="ta par de"><i>ta<b/>par<b/></i><par n="contde__pr"/></e>
+    <e lm="enta par de"><i>enta<b/>par<b/></i><par n="contde__pr"/></e>    
+    <e lm="dica ta"><i>dica<b/></i><par n="contta__pr"/></e>
+    <e lm="cara ta"><i>cara<b/></i><par n="contta__pr"/></e>
+    <e lm="entre que"><i>entre<b/>que</i><par n="con__pr"/></e>
+    <e lm="chunto á"><i>chunto<b/></i><par n="conta__pr"/></e>
+    <e lm="entro á"><i>chunto<b/></i><par n="conta__pr"/></e>        
+    
+    
     
   </section>
+  
   <section id="apostrophes" type="postblank">
     <e r="LR" lm="d'">
       <p>
