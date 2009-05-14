@@ -171,6 +171,24 @@
         </p>
       </e>
     </pardef>
+    
+  <pardef n="ix_x__var">
+    <e r="LR">
+      <p>
+        <l>x</l>
+        <r>ix</r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ix</l>
+        <r>ix</r>
+      </p>
+    </e>
+  </pardef>
+    
+    
+    
     <pardef n="/él__prn">
       <e>
         <p>
@@ -1288,6 +1306,125 @@
         </p>
       </e>
     </pardef>    
+    
+    <pardef n="pero__cnjcoo">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="cnjcoo"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="/u__cnjcoo">
+    <e>
+      <p>
+        <l>u</l> 
+        <r>u<s n="cnjcoo"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>o</l> 
+        <r>u<s n="cnjcoo"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+    <pardef n="que__cnjsub">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="cnjsub"/></r> 
+      </p>
+    </e>
+    </pardef>    
+    
+    <pardef n="porque__cnjadv">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="cnjadv"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+   
+    <pardef n="ABC__np">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="np"/><s n="al"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="Ferrari__np">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="np"/><s n="al"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="np"/><s n="ant"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="Abad__np">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="np"/><s n="ant"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="Belén__np">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="np"/><s n="ant"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="np"/><s n="loc"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="Soria__np">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="np"/><s n="al"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="np"/><s n="loc"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="Afganistan__np">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="np"/><s n="loc"/></r> 
+      </p>
+    </e>
+</pardef>    
+    
+ 
   </pardefs>
   <section id="main" type="standard">
     <e lm="yo"><i>yo</i><par n="yo__prn"/></e>
@@ -1311,9 +1448,11 @@
     <e lm="libro"><i>libro</i><par n="libro__n"/></e>
     <e lm="güello"><i>güello</i><par n="libro__n"/></e>
     
+
+    
+    
     <e lm="á"><i/><par n="conta__pr"/></e>
-    <e lm="baixo"><i>baixo</i><par n="con__pr"/></e> 
-    <e lm="baxo" r="LR"><p><l>baxo</l><r>baixo</r></p><par n="con__pr"/></e>
+    <e lm="baixo"><i>ba</i><par n="ix_x__var"/><i>o</i><par n="con__pr"/></e>     
     <e lm="cara"><i>cara</i><par n="con__pr"/></e> 
     <e lm="cata"><i>cata</i><par n="con__pr"/></e>
     <e lm="con"><i>con</i><par n="con__pr"/></e>
@@ -1321,8 +1460,7 @@
     <e lm="de"><i/><par n="contde__pr"/></e>
     <e lm="debant"><i>debant</i><par n="con__pr"/></e> 
     <e lm="debán" r="LR"><p><l>debán</l><r>debant</r></p><par n="con__pr"/></e>     
-    <e lm="debaixo"><i>debaixo</i><par n="con__pr"/></e> 
-    <e lm="debaixo" r="LR"><p><l>debaxo</l><r>debaixo</r></p><par n="con__pr"/></e>
+    <e lm="debaixo"><i>deba</i><par n="ix_x__var"/><i>o</i><par n="con__pr"/></e> 
     <e lm="dende"><i>dende</i><par n="con__pr"/></e>
     <e lm="dezaga"><i>dezaga</i><par n="con__pr"/></e>
     <e lm="dica"><i>dica</i><par n="con__pr"/></e>
@@ -1342,26 +1480,35 @@
     <e lm="amás de"><i>amás<b/></i><par n="contde__pr"/></e>
     <e lm="antes de"><i>antes<b/></i><par n="contde__pr"/></e>
     <e lm="antes de" r="LR"><p><l>antis<b/></l><r>antes<b/></r></p><par n="contde__pr"/></e>    
-    <e lm="debaixo de"><i>debaixo<b/></i><par n="contde__pr"/></e>
-    <e lm="debaixo de" r="LR"><p><l>debaxo<b/></l><r>debaixo<b/></r></p><par n="contde__pr"/></e>    
+    <e lm="debaixo de"><i>deba</i><par n="ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
     <e lm="dezaga de"><i>dezaga<b/></i><par n="contde__pr"/></e>
     <e lm="dimpués de"><i>dimpués<b/></i><par n="contde__pr"/></e>
     <e lm="dimpués de" r="LR"><p><l>dispués<b/></l><r>dimpués<b/></r></p><par n="contde__pr"/></e>        
     <e lm="luen de"><i>luen<b/></i><par n="contde__pr"/></e>
-    <e lm="por baixo de"><i>por<b/>baixo<b/></i><par n="contde__pr"/></e>
-    <e lm="por baixo de" r="LR"><p><l>por<b/>baxo<b/></l><r>por<b/>baixo<b/></r></p><par n="contde__pr"/></e>    
-    <e lm="per baixo de" r="LR"><p><l>per<b/>baxo<b/></l><r>por<b/>baixo<b/></r></p><par n="contde__pr"/></e>    
-    <e lm="per baixo de" r="LR"><p><l>per<b/>baixo<b/></l><r>por<b/>baixo<b/></r></p><par n="contde__pr"/></e>    
+    <e lm="por baixo de"><i>por<b/>ba</i><par n="ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
+    <e lm="por baixo de" r="LR"><i>per<b/>ba</i><par n="ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
     <e lm="por meyo de"><i>por<b/>meyo<b/></i><par n="contde__pr"/></e>
-    <e lm="per meyo de" r="LR"><p><l>per<b/>meyo<b/></l><r>por<b/>meyo<b/></r></p><par n="contde__pr"/></e>    
+    <e lm="por meyo de" r="LR"><p><l>per<b/>meyo<b/></l><r>por<b/>meyo<b/></r></p><par n="contde__pr"/></e>    
     <e lm="ta par de"><i>ta<b/>par<b/></i><par n="contde__pr"/></e>
     <e lm="enta par de"><i>enta<b/>par<b/></i><par n="contde__pr"/></e>    
     <e lm="dica ta"><i>dica<b/></i><par n="contta__pr"/></e>
     <e lm="cara ta"><i>cara<b/></i><par n="contta__pr"/></e>
-    <e lm="entre que"><i>entre<b/>que</i><par n="con__pr"/></e>
     <e lm="chunto á"><i>chunto<b/></i><par n="conta__pr"/></e>
-    <e lm="entro á"><i>chunto<b/></i><par n="conta__pr"/></e>        
-    
+    <e lm="entro á"><i>entro<b/></i><par n="conta__pr"/></e>        
+    <e r="LR" lm="e"><p><l>e</l><r>y<s n="cnjcoo"/></r></p></e>
+    <e lm="y"><i>y</i><par n="pero__cnjcoo"/></e>
+    <e lm="ni"><i>ni</i><par n="pero__cnjcoo"/></e>
+    <e lm="u"><i></i><par n="/u__cnjcoo"/></e>
+    <e lm="sin dembargo"><i>sin<b/>dembargo</i><par n="pero__cnjcoo"/></e>
+    <e lm="manimenos"><i>manimenos</i><par n="pero__cnjcoo"/></e>
+    <e lm="mas"><i>mas</i><par n="pero__cnjcoo"/></e>
+    <e r="LR" lm="mes"><p><l>mes</l><r>mas</r></p><par n="pero__cnjcoo"/></e>
+    <e lm="sino"><i>sino</i><par n="pero__cnjcoo"/></e>
+    <e lm="pero"><i>pero</i><par n="pero__cnjcoo"/></e>
+
+
+
+    <e lm="entre que"><i>entre<b/>que</i><par n="porque__cnjadv"/></e>
     
     
   </section>
