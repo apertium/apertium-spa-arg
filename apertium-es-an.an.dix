@@ -186,6 +186,21 @@
       </p>
     </e>
   </pardef>
+
+    <pardef n="/por__var">
+    <e>
+      <p>
+        <l>por</l> 
+        <r>por</r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>per</l> 
+        <r>por</r> 
+      </p>
+    </e>
+     </pardef>
     
     
     
@@ -1221,8 +1236,8 @@
         <r><s n="pr"/></r> 
       </p>
     </e>
- 
      </pardef>
+
      
     <pardef n="conta__pr">
     <e r="LR">
@@ -1315,6 +1330,22 @@
       </p>
     </e>
     </pardef>
+
+    <pardef n="/y__cnjcoo">
+    <e>
+      <p>
+        <l>y</l> 
+        <r>y<s n="cnjcoo"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>e</l> 
+        <r>y<s n="cnjcoo"/></r> 
+      </p>
+    </e>
+    </pardef>    
+    
     <pardef n="/u__cnjcoo">
     <e>
       <p>
@@ -1322,7 +1353,6 @@
         <r>u<s n="cnjcoo"/></r> 
       </p>
     </e>
-
     <e r="LR">
       <p>
         <l>o</l> 
@@ -1330,6 +1360,21 @@
       </p>
     </e>
     </pardef>
+
+    <pardef n="/si__cnjadv">
+    <e>
+      <p>
+        <l>si</l> 
+        <r>si<s n="cnjadv"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>se</l> 
+        <r>si<s n="cnjadv"/></r> 
+      </p>
+    </e>
+    </pardef>    
 
     <pardef n="que__cnjsub">
     <e>
@@ -1347,7 +1392,15 @@
         <r><s n="cnjadv"/></r> 
       </p>
     </e>
-
+  </pardef>
+  
+    <pardef n="adiós__ij">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="ij"/></r> 
+      </p>
+    </e>
     </pardef>
    
     <pardef n="ABC__np">
@@ -1357,8 +1410,8 @@
         <r><s n="np"/><s n="al"/></r> 
       </p>
     </e>
-
     </pardef>
+    
     <pardef n="Ferrari__np">
     <e>
       <p>
@@ -1390,7 +1443,6 @@
         <r><s n="np"/><s n="ant"/></r> 
       </p>
     </e>
-
     <e>
       <p>
         <l></l> 
@@ -1406,7 +1458,6 @@
         <r><s n="np"/><s n="al"/></r> 
       </p>
     </e>
-
     <e>
       <p>
         <l></l> 
@@ -1448,8 +1499,6 @@
     <e lm="libro"><i>libro</i><par n="libro__n"/></e>
     <e lm="güello"><i>güello</i><par n="libro__n"/></e>
     
-
-    
     
     <e lm="á"><i/><par n="conta__pr"/></e>
     <e lm="baixo"><i>ba</i><par n="ix_x__var"/><i>o</i><par n="con__pr"/></e>     
@@ -1470,8 +1519,7 @@
     <e lm="enta"><i>en</i><par n="contta__pr"/></e>
     <e lm="entre"><i>entre</i><par n="con__pr"/></e>    
     <e lm="pa"><i>pa</i><par n="con__pr"/></e>     
-    <e lm="por"><i>por</i><par n="con__pr"/></e>    
-    <e lm="per" r="LR"><p><l>per</l><r>por</r></p><par n="con__pr"/></e>    
+    <e lm="por"><i></i><par n="/por__var"/><par n="con__pr"/></e>        
     <e lm="seguntes"><i>seguntes</i><par n="con__pr"/></e>    
     <e lm="sin"><i>sin</i><par n="con__pr"/></e>
     <e lm="sin de"><i>sin<b/></i><par n="contde__pr"/></e>     
@@ -1485,31 +1533,83 @@
     <e lm="dimpués de"><i>dimpués<b/></i><par n="contde__pr"/></e>
     <e lm="dimpués de" r="LR"><p><l>dispués<b/></l><r>dimpués<b/></r></p><par n="contde__pr"/></e>        
     <e lm="luen de"><i>luen<b/></i><par n="contde__pr"/></e>
-    <e lm="por baixo de"><i>por<b/>ba</i><par n="ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
-    <e lm="por baixo de" r="LR"><i>per<b/>ba</i><par n="ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
-    <e lm="por meyo de"><i>por<b/>meyo<b/></i><par n="contde__pr"/></e>
-    <e lm="por meyo de" r="LR"><p><l>per<b/>meyo<b/></l><r>por<b/>meyo<b/></r></p><par n="contde__pr"/></e>    
+    <e lm="por baixo de"><par n="/por__var"/><i><b/>ba</i><par n="ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
+    <e lm="por meyo de"><par n="/por__var"/><i><b/>meyo<b/></i><par n="contde__pr"/></e>
     <e lm="ta par de"><i>ta<b/>par<b/></i><par n="contde__pr"/></e>
     <e lm="enta par de"><i>enta<b/>par<b/></i><par n="contde__pr"/></e>    
     <e lm="dica ta"><i>dica<b/></i><par n="contta__pr"/></e>
     <e lm="cara ta"><i>cara<b/></i><par n="contta__pr"/></e>
     <e lm="chunto á"><i>chunto<b/></i><par n="conta__pr"/></e>
     <e lm="entro á"><i>entro<b/></i><par n="conta__pr"/></e>        
-    <e r="LR" lm="e"><p><l>e</l><r>y<s n="cnjcoo"/></r></p></e>
-    <e lm="y"><i>y</i><par n="pero__cnjcoo"/></e>
+    <e lm="en cuenta de"><i>en<b/>cuenta<b/></i><par n="contde__pr"/></e>
+    <e lm="en puesto de"><i>en<b/>puesto<b/></i><par n="contde__pr"/></e>    
+    
+    <e lm="y"><i></i><par n="/y__cnjcoo"/></e>
     <e lm="ni"><i>ni</i><par n="pero__cnjcoo"/></e>
     <e lm="u"><i></i><par n="/u__cnjcoo"/></e>
     <e lm="sin dembargo"><i>sin<b/>dembargo</i><par n="pero__cnjcoo"/></e>
+    <e r="LR" lm="sin dembargo"><p><l>sin<b/>d'embargo</l><r>sin<b/>dembargo</r></p><par n="pero__cnjcoo"/></e>
     <e lm="manimenos"><i>manimenos</i><par n="pero__cnjcoo"/></e>
     <e lm="mas"><i>mas</i><par n="pero__cnjcoo"/></e>
     <e r="LR" lm="mes"><p><l>mes</l><r>mas</r></p><par n="pero__cnjcoo"/></e>
     <e lm="sino"><i>sino</i><par n="pero__cnjcoo"/></e>
     <e lm="pero"><i>pero</i><par n="pero__cnjcoo"/></e>
-
-
-
-    <e lm="entre que"><i>entre<b/>que</i><par n="porque__cnjadv"/></e>
+    <e lm="con tot y con ixo"><i>con<b/>tot<b/></i><par n="/y__cnjcoo"/><i><b/>con<b/>ixo</i><par n="pero__cnjcoo"/></e>
     
+    <e lm="mientres que"><i>mientres<b/>que</i><par n="porque__cnjadv"/></e>    
+    <e r="LR" lm="mientres que"><p><l>mientras<b/>que</l><r>mientres<b/>que</r></p><par n="porque__cnjadv"/></e>
+    <e lm="mientras tanto que"><i>mientras<b/>tanto<b/>que</i><par n="porque__cnjadv"/></e>    
+    <e lm="bien se bale que"><i>bien<b/>se<b/>bale<b/>que</i><par n="porque__cnjadv"/></e>
+    <e lm="entre que"><i>entre<b/>que</i><par n="porque__cnjadv"/></e>
+    <e lm="porque"><par n="/por__var"/><i>que</i><par n="porque__cnjadv"/></e>    
+    <e lm="pues"><i>pues</i><par n="porque__cnjadv"/></e>
+    <e lm="pos"><p><l>pos</l><r>pos</r></p><par n="porque__cnjadv"/></e>
+    <e r="LR" lm="pos"><p><l>pus</l><r>pos</r></p><par n="porque__cnjadv"/></e>
+    <e lm="ya que"><i>ya<b/>que</i><par n="porque__cnjadv"/></e>
+    <e lm="como que"><i>como<b/>que</i><par n="porque__cnjadv"/></e>
+    <e lm="dau que"><i>dau<b/>que</i><par n="porque__cnjadv"/></e>
+    <e lm="por tal que"><i>por<b/>tal<b/>que</i><par n="porque__cnjadv"/></e>
+    <e lm="por tal como"><i>por<b/>tal<b/>que</i><par n="porque__cnjadv"/></e>
+    <e lm="anque"><i>anque</i><par n="porque__cnjadv"/></e>
+    <e lm="onque"><p><l>onque</l><r>anque</r></p><par n="porque__cnjadv"/></e>
+    <e lm="encara que"><i>encara<b/>que</i><par n="porque__cnjadv"/></e>
+    <e lm="por más que"><i>por<b/>más<b/>que</i><par n="porque__cnjadv"/></e>
+    <e lm="a despeito de"><i>a<b/>despeito<b/></i><par n="contde__pr"/></e>
+    <e lm="a penar de"><i>a<b/>penar<b/></i><par n="contde__pr"/></e>
+    <e lm="maguera"><i>maguera</i><par n="porque__cnjadv"/></e>
+    <e lm="empero"><i>empero</i><par n="porque__cnjadv"/></e>        
+    <e lm="car"><i>car</i><par n="porque__cnjadv"/></e>        
+    <e lm="doncas"><i>doncas</i><par n="porque__cnjadv"/></e>        
+    <e lm="ya sía que"><i>ya<b/>sía<b/>que</i><par n="porque__cnjadv"/></e>
+    <e lm="asinas que"><i>asinas<b/>que</i><par n="porque__cnjadv"/></e>
+    <e r="LR" lm="asinas que"><p><l>asina<b/>que</l><r>asinas<b/>que</r></p><par n="porque__cnjadv"/></e>    
+    <e lm="por consiguient"><i>por<b/>consiguient</i><par n="porque__cnjadv"/></e>
+    <e lm="conque"><i>conque</i><par n="porque__cnjadv"/></e>        
+    <e lm="como"><i>como</i><par n="porque__cnjadv"/></e>
+    <e r="LR" lm="como"><p><l>coma</l><r>como</r></p><par n="porque__cnjadv"/></e>
+    <e lm="a fin de que"><i>a<b/>fin<b/>de<b/>que</i><par n="porque__cnjadv"/></e>            
+    <e lm="ta que"><i>ta<b/>que</i><par n="porque__cnjadv"/></e>    
+    <e r="LR" lm="ta que"><p><l>pa<b/>que</l><r>ta<b/>que</r></p><par n="porque__cnjadv"/></e>    
+    <e lm="malas que"><i>malas<b/>que</i><par n="porque__cnjadv"/></e>        
+    <e lm="a lo que"><i>a<b/>lo<b/>que</i><par n="porque__cnjadv"/></e>            
+    <e lm="en que"><i>en<b/>que</i><par n="porque__cnjadv"/></e>            
+    <e lm="entre que"><i>entre<b/>que</i><par n="porque__cnjadv"/></e>            
+    <e lm="en cuanti que"><i>en<b/>cuanti<b/>que</i><par n="porque__cnjadv"/></e>            
+    <e lm="dimpués que"><i>dimpués<b/>que</i><par n="porque__cnjadv"/></e>                
+    <e lm="antis que"><i>antis<b/>que</i><par n="porque__cnjadv"/></e>                    
+    
+    <e lm="si"><i/><par n="/si__cnjadv"/></e>
+    
+    <e lm="si no por"><i>si<b/>no<b/></i><par n="/por__var"/><par n="con__pr"/></e>
+
+    <e lm="que"><i>que</i><par n="que__cnjsub"/></e>
+    <e lm="que no"><i>que<b/>no</i><par n="que__cnjsub"/></e>
+    <e lm="que no pas"><i>que<b/>no<b/>pas</i><par n="que__cnjsub"/></e>
+    
+
+
+
+    <!--estoi que, cuento que, bisé que, biesé que, me pa que-->
     
   </section>
   
