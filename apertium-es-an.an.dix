@@ -557,6 +557,12 @@
           <r>ar<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
+      <e r="LR" c="v='rib'">
+        <p>
+          <l>aríam</l>
+          <r>ar<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>arías</l>
@@ -653,6 +659,12 @@
           <r>ar<s n="vblex"/><s n="inf"/></r>
         </p>
       </e>
+      <e r="LR" c="v='rib'">
+        <p>
+          <l>are</l>
+          <r>ar<s n="vblex"/><s n="inf"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>aba</l>
@@ -667,7 +679,7 @@
       </e>
       <e>
         <p>
-          <l>ábanos</l>
+          <l>abanos</l>
           <r>ar<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
@@ -685,7 +697,7 @@
       </e>
       <e>
         <p>
-          <l>ábaz</l>
+          <l>abaz</l>
           <r>ar<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
@@ -707,9 +719,27 @@
           <r>ar<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
+      <e r="LR" c="v='chi'">
+        <p>
+          <l>ás</l>
+          <r>ar<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>ásenos</l>
+          <r>ar<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR" c="v='chi'">
+        <p>
+          <l>ásen</l>
+          <r>ar<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR" c="v='rib'">
+        <p>
+          <l>ásem</l>
           <r>ar<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
@@ -731,9 +761,21 @@
           <r>ar<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
+      <e r="LR" c="v='chi'">
+        <p>
+          <l>ás</l>
+          <r>ar<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>asen</l>
+          <r>ar<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR" c="v='chi'">
+        <p>
+          <l>ésen</l>
           <r>ar<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
@@ -803,6 +845,12 @@
           <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
+      <e r="LR" c="v='rib'">
+        <p>
+          <l>em</l>
+          <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>as</l>
@@ -812,6 +860,12 @@
       <e>
         <p>
           <l>az</l>
+          <r>ar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR" c="v='rib'">
+        <p>
+          <l>ás</l>
           <r>ar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
@@ -836,6 +890,18 @@
       <e>
         <p>
           <l>emos</l>
+          <r>ar<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR" c="v='chi'">
+        <p>
+          <l>én</l>
+          <r>ar<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR" c="v='rib'">
+        <p>
+          <l>em</l>
           <r>ar<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
@@ -1978,6 +2044,7 @@
 <e r="LR" lm="á saber que"><p><l>asaber<b/>que</l><r>á<b/>saber<b/>que</r></p><par n="bien__preadv"/></e>
 
 <!--Adverbios-->
+<e lm="autualment"><i>autualment</i><par n="agora__adv"/></e>
 <e lm="acá"><i>acá</i><par n="agora__adv"/></e>
 <e lm="adebant"><i>adebant</i><par n="agora__adv"/></e>
 <e r="LR" lm="adebant"><p><l>adebán</l><r>adebant</r></p><par n="agora__adv"/></e>

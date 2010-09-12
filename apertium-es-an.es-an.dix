@@ -14,6 +14,7 @@
     <sdef n="n"/>
     <sdef n="np"/>
     <sdef n="adj"/>
+    <sdef n="adv"/>
     <sdef n="f"/>
     <sdef n="m"/>
     <sdef n="mf"/>
@@ -87,6 +88,8 @@
     <e><p><l>español<s n="adj"/></l><r>español<s n="adj"/></r></p></e>
     <e><p><l>catalán<s n="adj"/></l><r>catalán<s n="adj"/></r></p></e>
     <e><p><l>italiano<s n="adj"/></l><r>italiano<s n="adj"/></r></p></e>
+
+    <e><p><l>actualmente<s n="adv"/></l><r>autualment<s n="adv"/></r></p></e>
 
     <e><p><l>lengua<s n="n"/></l><r>luenga<s n="n"/></r></p></e>
     <e><p><l>agua<s n="n"/></l><r>augua<s n="n"/></r></p></e>
