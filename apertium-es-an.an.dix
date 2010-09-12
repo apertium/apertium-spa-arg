@@ -1359,6 +1359,84 @@
         </p>
       </e>
     </pardef>
+    <pardef n="oczit/án__adj">
+      <e>
+        <p>
+          <l>án</l>
+          <r>án<s n="adj"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ans</l>
+          <r>án<s n="adj"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ana</l>
+          <r>án<s n="adj"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>anas</l>
+          <r>án<s n="adj"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="español__adj">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="adj"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r><s n="adj"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r><s n="adj"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>as</l>
+          <r><s n="adj"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="italian/o__adj">
+      <e>
+        <p>
+          <l>o</l>
+          <r>o<s n="adj"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>os</l>
+          <r>o<s n="adj"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>o<s n="adj"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>as</l>
+          <r>o<s n="adj"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="luenga__n">
       <e>
         <p>
@@ -1578,7 +1656,7 @@
         <r><s n="cnjadv"/></r> 
       </p>
     </e>
-  </pardef>
+    </pardef>
   
     <pardef n="adiós__ij">
     <e>
@@ -1681,6 +1759,10 @@
     <e lm="polonés"><i>polon</i><par n="aragon/és__adj"/></e>
     <e lm="masculín"><i>mascul</i><par n="mascul/ín__adj"/></e>
     <e lm="femenín"><i>femen</i><par n="mascul/ín__adj"/></e>
+    <e lm="oczitán"><i>oczit</i><par n="oczit/án__adj"/></e>
+    <e lm="catalán"><i>catal</i><par n="oczit/án__adj"/></e>
+    <e lm="español"><i>español</i><par n="español__adj"/></e>
+    <e lm="italiano"><i>italian</i><par n="italian/o__adj"/></e>
 
     <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
     <e lm="luenga"><i>luenga</i><par n="luenga__n"/></e>
@@ -1688,6 +1770,7 @@
     
     <e lm="libro"><i>libro</i><par n="libro__n"/></e>
     <e lm="güello"><i>güello</i><par n="libro__n"/></e>
+    <e lm="ababol"><i>ababol</i><par n="libro__n"/></e>
     <e lm="alchetibo"><i>alchetibo</i><par n="libro__n"/></e>
     
     <e lm="á"><i/><par n="conta__pr"/></e>
