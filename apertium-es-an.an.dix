@@ -902,31 +902,31 @@
         </p>
       </e>
       
-    <e r="LR">
+      <e r="LR">
         <p>
           <l>aberba</l>
           <r>aber<s n="vbhaver"/><s n="cni"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
-    <e r="LR">
+      <e r="LR">
         <p>
           <l>abérbanos</l>
           <r>aber<s n="vbhaver"/><s n="cni"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
-    <e r="LR">
+      <e r="LR">
         <p>
           <l>aberbas</l>
           <r>aber<s n="vbhaver"/><s n="cni"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
-    <e r="LR">
+      <e r="LR">
         <p>
           <l>abérbaz</l>
           <r>aber<s n="vbhaver"/><s n="cni"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
-    <e r="LR">
+      <e r="LR">
         <p>
           <l>aberba</l>
           <r>aber<s n="vbhaver"/><s n="cni"/><s n="p3"/><s n="sg"/></r>
@@ -1333,6 +1333,32 @@
         </p>
       </e>
     </pardef>
+    <pardef n="mascul/ín__adj">
+      <e>
+        <p>
+          <l>ín</l>
+          <r>ín<s n="adj"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ins</l>
+          <r>ín<s n="adj"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ina</l>
+          <r>ín<s n="adj"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>inas</l>
+          <r>ín<s n="adj"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="luenga__n">
       <e>
         <p>
@@ -1650,15 +1676,19 @@
     <e lm="cantar"><i>cant</i><par n="cant/ar__vblex"/></e>
     <e lm="plorar"><i>plorar</i><par n="cant/ar__vblex"/></e>
     
-    <e lm="aragonés"><i>aragon</i>      <par n="aragon/és__adj"/></e>
-    
+    <e lm="aragonés"><i>aragon</i><par n="aragon/és__adj"/></e>
+    <e lm="portugués"><i>portugu</i><par n="aragon/és__adj"/></e>
+    <e lm="polonés"><i>polon</i><par n="aragon/és__adj"/></e>
+    <e lm="masculín"><i>mascul</i><par n="mascul/ín__adj"/></e>
+    <e lm="femenín"><i>femen</i><par n="mascul/ín__adj"/></e>
+
     <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
     <e lm="luenga"><i>luenga</i><par n="luenga__n"/></e>
     <e lm="puerta"><i>puerta</i><par n="luenga__n"/></e>    
     
     <e lm="libro"><i>libro</i><par n="libro__n"/></e>
     <e lm="güello"><i>güello</i><par n="libro__n"/></e>
-    
+    <e lm="alchetibo"><i>alchetibo</i><par n="libro__n"/></e>
     
     <e lm="á"><i/><par n="conta__pr"/></e>
     <e lm="baixo"><i>ba</i><par n="ix_x__var"/><i>o</i><par n="con__pr"/></e>     
