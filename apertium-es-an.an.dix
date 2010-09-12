@@ -1539,6 +1539,20 @@
         </p>
       </e>
     </pardef>
+    <pardef n="social__adj">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="adj"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r><s n="adj"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="luenga__n">
       <e>
         <p>
@@ -1550,6 +1564,26 @@
         <p>
           <l>s</l>
           <r><s n="n"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="divisi/ón__n">
+      <e>
+        <p>
+          <l>ón</l>
+          <r>ón<s n="n"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ons</l>
+          <r>ón<s n="n"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ones</l>
+          <r>ón<s n="n"/><s n="f"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -1866,12 +1900,19 @@
     <e lm="catalán"><i>catal</i><par n="oczit/án__adj"/></e>
     <e lm="español"><i>español</i><par n="español__adj"/></e>
     <e lm="italiano"><i>italian</i><par n="italian/o__adj"/></e>
+    <e lm="sovietico"><i>sovietic</i><par n="italian/o__adj"/></e>
+    <e lm="social"><i>social</i><par n="social__adj"/></e>
 
     <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
     <e lm="luenga"><i>luenga</i><par n="luenga__n"/></e>
     <e lm="puerta"><i>puerta</i><par n="luenga__n"/></e>    
     <e lm="biera"><i>biera</i><par n="luenga__n"/></e>    
+    <e lm="estrela"><i>estrela</i><par n="luenga__n"/></e>    
+    <e lm="categoría"><i>categoría</i><par n="luenga__n"/></e>    
+    <e lm="subcategoría"><i>subcategoría</i><par n="luenga__n"/></e>    
     
+    <e lm="división"><i>divisi</i><par n="divisi/ón__n"/></e>    
+
     <e lm="libro"><i>libro</i><par n="libro__n"/></e>
     <e lm="güello"><i>güello</i><par n="libro__n"/></e>
     <e lm="ababol"><i>ababol</i><par n="libro__n"/></e>
