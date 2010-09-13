@@ -2798,6 +2798,24 @@
         <r>de<s n="pr"/></r>
       </p>
     </e>
+    <e r="LR" lm="s'">
+      <p>
+        <l>s'</l>
+        <r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+    <e r="LR" lm="l'">
+      <p>
+        <l>l'</l>
+        <r>o<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR" lm="l'">
+      <p>
+        <l>l'</l>
+        <r>o<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
   </section>
   <section id="regexp" type="standard">
     <e>
