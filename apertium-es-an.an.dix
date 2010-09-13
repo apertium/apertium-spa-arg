@@ -77,9 +77,7 @@
         <re>[0-9]+([.,][0-9]+)?(%)?</re>
         <p>
           <l/>
-          <r>
-            <s n="num"/>
-          </r>
+          <r><s n="num"/></r>
         </p>
       </e>
     </pardef>
@@ -88,9 +86,7 @@
         <re>[.\?;:!]</re>
         <p>
           <l/>
-          <r>
-            <s n="sent"/>
-          </r>
+          <r><s n="sent"/></r>
         </p>
       </e>
     </pardef>
@@ -99,9 +95,7 @@
         <re>,</re>
         <p>
           <l/>
-          <r>
-            <s n="cm"/>
-          </r>
+          <r><s n="cm"/></r>
         </p>
       </e>
     </pardef>
@@ -337,7 +331,94 @@
     </e>
      </pardef>            
     
-    
+    <pardef n="S__cantar">
+<!-- mostly TODO...
+    <e>
+      <p>
+        <l>me</l> 
+        <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>nos</l> 
+        <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>te</l> 
+        <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>os</l> 
+        <r>os<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>les</l> 
+        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>le</l> 
+        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>las</l> 
+        <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>la</l> 
+        <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>los</l> 
+        <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>lo</l> 
+        <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>lo</l> 
+        <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r> 
+      </p>
+    </e>
+-->
+    <e>
+      <p>
+        <l>-se</l> 
+        <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+
+
     <pardef n="/él__prn">
       <e>
         <p>
@@ -474,9 +555,7 @@
       <e>
         <p>
           <l/>
-          <r>
-            <s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/>
-          </r>
+          <r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -484,9 +563,7 @@
       <e>
         <p>
           <l/>
-          <r>
-            <s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/>
-          </r>
+          <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -2239,9 +2316,11 @@
     <e lm="oczitán"><i>oczit</i><par n="oczit/án__adj"/></e>
     <e lm="catalán"><i>catal</i><par n="oczit/án__adj"/></e>
     <e lm="español"><i>español</i><par n="español__adj"/></e>
+    <e lm="uman"><i>uman</i><par n="español__adj"/></e>
     <e lm="italiano"><i>italian</i><par n="italian/o__adj"/></e>
     <e lm="sovietico"><i>sovietic</i><par n="italian/o__adj"/></e>
     <e lm="social"><i>social</i><par n="social__adj"/></e>
+    <e lm="internazional"><i>internazional</i><par n="social__adj"/></e>
 
     <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
     <e lm="luenga"><i>luenga</i><par n="luenga__n"/></e>
@@ -2539,6 +2618,8 @@
     <e lm="güello"><i>güello</i><par n="libro__n"/></e>
     <e lm="ababol"><i>ababol</i><par n="libro__n"/></e>
     <e lm="alchetibo"><i>alchetibo</i><par n="libro__n"/></e>
+    <e lm="dreito"><i>dreito</i><par n="libro__n"/></e>
+    <e lm="anyo"><i>anyo</i><par n="libro__n"/></e>
     
     <e lm="á"><i/><par n="conta__pr"/></e>
     <e lm="baixo"><i>ba</i><par n="ix_x__var"/><i>o</i><par n="con__pr"/></e>     
