@@ -2410,14 +2410,26 @@
         <r><s n="n"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
-
     <e>
       <p>
         <l>s</l>
         <r><s n="n"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
-
+    </pardef>
+    <pardef n="privacida/t__n">
+    <e>
+      <p>
+        <l>t</l>
+        <r>t<s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>z</l>
+        <r>t<s n="n"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
     </pardef>
         
     <pardef n="bien__preadv">
@@ -2765,11 +2777,16 @@
     <e lm="uman"><i>uman</i><par n="español__adj"/></e>
     <e lm="italiano"><i>italian</i><par n="italian/o__adj"/></e>
     <e lm="sovietico"><i>sovietic</i><par n="italian/o__adj"/></e>
+    <e lm="subchuntibo"><i>subchuntib</i><par n="italian/o__adj"/></e>
+    <e lm="imperfeuto"><i>imperfeut</i><par n="italian/o__adj"/></e>
+    <e lm="perfeuto"><i>perfeut</i><par n="italian/o__adj"/></e>
+    <e lm="imperatibo"><i>imperatib</i><par n="italian/o__adj"/></e>
     <e lm="social"><i>social</i><par n="social__adj"/></e>
     <e lm="internazional"><i>internazional</i><par n="social__adj"/></e>
     <e lm="cheneral"><i>cheneral</i><par n="social__adj"/></e>
     <e lm="universal"><i>universal</i><par n="social__adj"/></e>
     <e lm="unibersal"><i>unibersal</i><par n="social__adj"/></e>
+    <e lm="presonal"><i>presonal</i><par n="social__adj"/></e>
 
     <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
     <e lm="luenga"><i>luenga</i><par n="luenga__n"/></e>
@@ -2780,6 +2797,7 @@
     <e lm="subcategoría"><i>subcategoría</i><par n="luenga__n"/></e>
     <e lm="presona"><i>presona</i><par n="luenga__n"/></e>
     <e lm="casa"><i>casa</i><par n="luenga__n"/></e>
+    <e lm="forma"><i>forma</i><par n="luenga__n"/></e>
 
     <e lm="libro"><i>libro</i><par n="libro__n"/></e>
     <e lm="güello"><i>güello</i><par n="libro__n"/></e>
@@ -2790,6 +2808,9 @@
     <e lm="articlo"><i>articlo</i><par n="libro__n"/></e>
     
     <e lm="división"><i>divisi</i><par n="divisi/ón__n"/></e>
+    <e lm="información"><i>informaci</i><par n="divisi/ón__n"/></e>
+    <e lm="privacidat"><i>privacida</i><par n="privacida/t__n"/></e>
+    <e lm="particularidat"><i>particularida</i><par n="privacida/t__n"/></e>
 
     <e lm="abdicación"><i>abdica</i><par n="actua/ción__n"/></e>
     <e lm="abiación"><i>abia</i><par n="actua/ción__n"/></e>

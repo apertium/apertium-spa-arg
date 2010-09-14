@@ -89,6 +89,10 @@
     <e r="RL"><p><l></l><r>bi<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
     <e r="RL"><p><l></l><r>bi<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
 
+    <e><p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+    <e><p><l>sobre<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+    <e><p><l>con<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
+
     <e><p><l>aragonés<s n="adj"/></l><r>aragonés<s n="adj"/></r></p></e>
     <e><p><l>portugués<s n="adj"/></l><r>portugués<s n="adj"/></r></p></e>
     <e><p><l>polaco<s n="adj"/></l><r>polonés<s n="adj"/></r></p></e>
@@ -99,11 +103,16 @@
     <e><p><l>catalán<s n="adj"/></l><r>catalán<s n="adj"/></r></p></e>
     <e><p><l>italiano<s n="adj"/></l><r>italiano<s n="adj"/></r></p></e>
     <e><p><l>soviético<s n="adj"/></l><r>sovietico<s n="adj"/></r></p></e>
+    <e><p><l>subjuntivo<s n="adj"/></l><r>subchuntibo<s n="adj"/></r></p></e>
+    <e><p><l>perfecto<s n="adj"/></l><r>perfeuto<s n="adj"/></r></p></e>
+    <e><p><l>imperfecto<s n="adj"/></l><r>imperfeuto<s n="adj"/></r></p></e>
+    <e><p><l>imperativo<s n="adj"/></l><r>imperatibo<s n="adj"/></r></p></e>
     <e><p><l>social<s n="adj"/></l><r>social<s n="adj"/></r></p></e>
     <e><p><l>general<s n="adj"/></l><r>cheneral<s n="adj"/></r></p></e>
     <e><p><l>internacional<s n="adj"/></l><r>internazional<s n="adj"/></r></p></e>
     <e><p><l>universal<s n="adj"/></l><r>unibersal<s n="adj"/></r></p></e>
     <e r="RL"><p><l>universal<s n="adj"/></l><r>universal<s n="adj"/></r></p></e>
+    <e><p><l>personal<s n="adj"/></l><r>presonal<s n="adj"/></r></p></e>
     <e><p><l>humano<s n="adj"/></l><r>uman<s n="adj"/></r></p></e>
     <e><p><l>mío<s n="adj"/></l><r>mío<s n="adj"/></r></p></e>
     <e><p><l>tuyo<s n="adj"/></l><r>tuyo<s n="adj"/></r></p></e>
@@ -118,6 +127,7 @@
     <e><p><l>lengua<s n="n"/></l><r>luenga<s n="n"/></r></p></e>
     <e><p><l>libro<s n="n"/></l><r>libro<s n="n"/></r></p></e>
     <e><p><l>casa<s n="n"/></l><r>casa<s n="n"/></r></p></e>
+    <e><p><l>forma<s n="n"/></l><r>forma<s n="n"/></r></p></e>
     <e><p><l>agua<s n="n"/></l><r>augua<s n="n"/></r></p></e>
     <e><p><l>persona<s n="n"/></l><r>presona<s n="n"/></r></p></e>
     <e><p><l>adjetivo<s n="n"/></l><r>alchetibo<s n="n"/></r></p></e>
@@ -130,6 +140,9 @@
     <e><p><l>categoría<s n="n"/></l><r>categoría<s n="n"/></r></p></e>
     <e><p><l>subcategoría<s n="n"/></l><r>subcategoría<s n="n"/></r></p></e>
     <e><p><l>división<s n="n"/></l><r>división<s n="n"/></r></p></e>
+    <e><p><l>información<s n="n"/></l><r>información<s n="n"/></r></p></e>
+    <e><p><l>privacidad<s n="n"/></l><r>privacidat<s n="n"/></r></p></e>
+    <e><p><l>particularidad<s n="n"/></l><r>particularidat<s n="n"/></r></p></e>
 
     <e><p><l>abdicación<s n="n"/></l><r>abdicación<s n="n"/></r></p></e>
     <e><p><l>aviación<s n="n"/></l><r>abiación<s n="n"/></r></p></e>
