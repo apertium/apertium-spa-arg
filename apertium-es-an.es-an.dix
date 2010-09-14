@@ -75,9 +75,15 @@
     <e><p><l>yo<s n="prn"/><s n="tn"/></l><r>yo<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>tú<s n="prn"/><s n="tn"/></l><r>tú<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>él<s n="prn"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>aquello<s n="prn"/><s n="tn"/></l><r>ixo<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>esto<s n="prn"/><s n="tn"/></l><r>isto<s n="prn"/><s n="tn"/></r></p></e>
+    <e r="RL"><p><l>esto<s n="prn"/><s n="tn"/></l><r>esto<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>nosotros<s n="prn"/><s n="tn"/></l><r>nusatros<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>vosotros<s n="prn"/><s n="tn"/></l><r>busatros<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>el<s n="det"/></l><r>o<s n="det"/></r></p></e>
+    <e><p><l>ese<s n="det"/></l><r>ixe<s n="det"/></r></p></e>
+    <e><p><l>este<s n="det"/></l><r>iste<s n="det"/></r></p></e>
+    <e r="RL"><p><l>este<s n="det"/></l><r>este<s n="det"/></r></p></e>
     <e r="RL"><p><l></l><r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
     <e r="RL"><p><l></l><r>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="RL"><p><l></l><r>bi<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
@@ -99,11 +105,19 @@
     <e><p><l>universal<s n="adj"/></l><r>unibersal<s n="adj"/></r></p></e>
     <e r="RL"><p><l>universal<s n="adj"/></l><r>universal<s n="adj"/></r></p></e>
     <e><p><l>humano<s n="adj"/></l><r>uman<s n="adj"/></r></p></e>
+    <e><p><l>mío<s n="adj"/></l><r>mío<s n="adj"/></r></p></e>
+    <e><p><l>tuyo<s n="adj"/></l><r>tuyo<s n="adj"/></r></p></e>
+    <e><p><l>suyo<s n="adj"/></l><r>suyo<s n="adj"/></r></p></e>
+    <e><p><l>nuestro<s n="adj"/></l><r>nuestro<s n="adj"/></r></p></e>
+    <e><p><l>vuestro<s n="adj"/></l><r>buestro<s n="adj"/></r></p></e>
 
+    <e><p><l>no<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
     <e><p><l>actualmente<s n="adv"/></l><r>autualment<s n="adv"/></r></p></e>
     <e><p><l>fonéticamente<s n="adv"/></l><r>foneticament<s n="adv"/></r></p></e>
 
     <e><p><l>lengua<s n="n"/></l><r>luenga<s n="n"/></r></p></e>
+    <e><p><l>libro<s n="n"/></l><r>libro<s n="n"/></r></p></e>
+    <e><p><l>casa<s n="n"/></l><r>casa<s n="n"/></r></p></e>
     <e><p><l>agua<s n="n"/></l><r>augua<s n="n"/></r></p></e>
     <e><p><l>persona<s n="n"/></l><r>presona<s n="n"/></r></p></e>
     <e><p><l>adjetivo<s n="n"/></l><r>alchetibo<s n="n"/></r></p></e>
