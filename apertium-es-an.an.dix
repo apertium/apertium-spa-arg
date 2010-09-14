@@ -950,6 +950,12 @@
         <r>estar<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
+    <e r="LR">
+      <p>
+        <l>e</l>
+        <r>estar<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
 
     <e>
       <p>
@@ -3223,7 +3229,10 @@
     <e lm="do"><i>do</i><par n="agora__adv"/></e>   <!-- Iste igual ye un rel  -->
     <e lm="on"><i>on</i><par n="agora__adv"/></e>
 
+    <e r="LR" lm="me'n"><p><l>me'n</l><r>me<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="LR" lm="te'n"><p><l>te'n</l><r>te<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    <e r="LR" lm="le'n"><p><l>le'n</l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    <e r="LR" lm="se'n"><p><l>se'n</l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
   </section>
   <section id="apostrophes" type="postblank">
     <e r="LR" lm="d'"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
