@@ -460,6 +460,12 @@
         <r>bi<s n="prn"/><s n="enc"/><s n="adv"/></r> 
       </p>
     </e>
+    <e r="LR">
+      <p>
+        <l>-ie</l> 
+        <r>bi<s n="prn"/><s n="enc"/><s n="adv"/></r> 
+      </p>
+    </e>
 
     <e>
       <p>
@@ -1065,6 +1071,12 @@
     <e r="LR" c="v='chi'">
       <p>
         <l>arén</l>
+        <r>ar<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR" c="v='rib'">
+      <p>
+        <l>arem</l>
         <r>ar<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r>
       </p>
     </e>
@@ -1783,6 +1795,19 @@
       </p>
       <par n="S__cantar"/>
     </e>
+    <e r="LR" c="v='rib'">
+      <p>
+        <l>abere</l>
+        <r>aber<s n="vbhaver"/><s n="inf"/></r>
+      </p>
+    </e>
+    <e r="LR" c="v='rib'">
+      <p>
+        <l>abere</l>
+        <r>aber<s n="vbhaver"/><s n="inf"/><j/></r>
+      </p>
+      <par n="S__cantar"/>
+    </e>
 
     <e>
       <p>
@@ -1946,6 +1971,12 @@
     <e>
       <p>
         <l>emos</l>
+        <r>aber<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR" c="v='rib'">
+      <p>
+        <l>em</l>
         <r>aber<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
       </p>
     </e>
