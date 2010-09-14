@@ -360,83 +360,107 @@
     </pardef>
     
     <pardef n="S__cantar">
-<!-- mostly TODO...
     <e>
       <p>
-        <l>me</l> 
+        <l>-me</l> 
         <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>nos</l> 
+        <l>-nos</l> 
+        <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>-mos</l> 
         <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>te</l> 
+        <l>-te</l> 
         <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>os</l> 
-        <r>os<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r> 
+        <l>-bos</l> 
+        <r>bos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>-tos</l> 
+        <r>bos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>les</l> 
+        <l>-les</l> 
         <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>le</l> 
+        <l>-le</l> 
         <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>las</l> 
+        <l>-las</l> 
         <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>la</l> 
+        <l>-la</l> 
         <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>los</l> 
+        <l>-los</l> 
         <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
     <e>
       <p>
-        <l>lo</l> 
+        <l>-lo</l> 
         <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
     <e>
       <p>
-        <l>lo</l> 
+        <l>-lo</l> 
         <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r> 
       </p>
     </e>
--->
+
+    <e>
+      <p>
+        <l>-en</l> 
+        <r>en<s n="prn"/><s n="enc"/><s n="adv"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>-bi</l> 
+        <r>bi<s n="prn"/><s n="enc"/><s n="adv"/></r> 
+      </p>
+    </e>
+
     <e>
       <p>
         <l>-se</l>
@@ -716,6 +740,13 @@
         <l>estar</l>
         <r>estar<s n="vbser"/><s n="inf"/></r>
       </p>
+    </e>
+    <e>
+      <p>
+        <l>estar</l>
+        <r>estar<s n="vbser"/><s n="inf"/><j/></r>
+      </p>
+      <par n="S__cantar"/>
     </e>
 
     <e>
@@ -1167,12 +1198,26 @@
         <r>ar<s n="vblex"/><s n="inf"/></r>
       </p>
     </e>
+    <e>
+      <p>
+        <l>ar</l>
+        <r>ar<s n="vblex"/><s n="inf"/><j/></r>
+      </p>
+      <par n="S__cantar"/>
+    </e>
 
     <e r="LR" c="v='rib'">
       <p>
         <l>are</l>
         <r>ar<s n="vblex"/><s n="inf"/></r>
       </p>
+    </e>
+    <e r="LR" c="v='rib'">
+      <p>
+        <l>are</l>
+        <r>ar<s n="vblex"/><s n="inf"/><j/></r>
+      </p>
+      <par n="S__cantar"/>
     </e>
 
     <e>
@@ -1673,6 +1718,13 @@
         <l>aber</l>
         <r>aber<s n="vbhaver"/><s n="inf"/></r>
       </p>
+    </e>
+    <e>
+      <p>
+        <l>aber</l>
+        <r>aber<s n="vbhaver"/><s n="inf"/><j/></r>
+      </p>
+      <par n="S__cantar"/>
     </e>
 
     <e>
@@ -2615,6 +2667,9 @@
     <e lm="sovietico"><i>sovietic</i><par n="italian/o__adj"/></e>
     <e lm="social"><i>social</i><par n="social__adj"/></e>
     <e lm="internazional"><i>internazional</i><par n="social__adj"/></e>
+    <e lm="cheneral"><i>cheneral</i><par n="social__adj"/></e>
+    <e lm="universal"><i>universal</i><par n="social__adj"/></e>
+    <e lm="unibersal"><i>unibersal</i><par n="social__adj"/></e>
 
     <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
     <e lm="luenga"><i>luenga</i><par n="luenga__n"/></e>
@@ -2623,6 +2678,15 @@
     <e lm="estrela"><i>estrela</i><par n="luenga__n"/></e>
     <e lm="categoría"><i>categoría</i><par n="luenga__n"/></e>
     <e lm="subcategoría"><i>subcategoría</i><par n="luenga__n"/></e>
+    <e lm="presona"><i>presona</i><par n="luenga__n"/></e>
+
+    <e lm="libro"><i>libro</i><par n="libro__n"/></e>
+    <e lm="güello"><i>güello</i><par n="libro__n"/></e>
+    <e lm="ababol"><i>ababol</i><par n="libro__n"/></e>
+    <e lm="alchetibo"><i>alchetibo</i><par n="libro__n"/></e>
+    <e lm="dreito"><i>dreito</i><par n="libro__n"/></e>
+    <e lm="anyo"><i>anyo</i><par n="libro__n"/></e>
+    <e lm="articlo"><i>articlo</i><par n="libro__n"/></e>
     
     <e lm="división"><i>divisi</i><par n="divisi/ón__n"/></e>
 
@@ -2908,12 +2972,6 @@
     <e lm="equitación"><i>equita</i><par n="actua/ción__n"/></e>
     <e lm="eradicación"><i>eradica</i><par n="actua/ción__n"/></e>
     <e lm="erradicación"><i>erradica</i><par n="actua/ción__n"/></e>
-    <e lm="libro"><i>libro</i><par n="libro__n"/></e>
-    <e lm="güello"><i>güello</i><par n="libro__n"/></e>
-    <e lm="ababol"><i>ababol</i><par n="libro__n"/></e>
-    <e lm="alchetibo"><i>alchetibo</i><par n="libro__n"/></e>
-    <e lm="dreito"><i>dreito</i><par n="libro__n"/></e>
-    <e lm="anyo"><i>anyo</i><par n="libro__n"/></e>
     
     <e lm="á"><i></i><par n="conta__pr"/></e>
     <e lm="baixo"><i>ba</i><par n="ix_x__var"/><i>o</i><par n="con__pr"/></e>
@@ -3164,6 +3222,7 @@
     <e r="LR" lm="s'"><p><l>s'</l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="l'"><p><l>l'</l><r>o<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="LR" lm="l'"><p><l>l'</l><r>o<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="n'"><p><l>n'</l><r>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
   </section>
   <section id="regexp" type="standard">
     <e><par n="numeros"/></e>
