@@ -625,6 +625,32 @@
       </p>
     </e>
     </pardef>
+    <pardef n="to/t__predet">
+    <e>
+      <p>
+        <l>das</l> 
+        <r>t<s n="predet"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>da</l> 
+        <r>t<s n="predet"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>z</l> 
+        <r>t<s n="predet"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>t</l> 
+        <r>t<s n="predet"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
     <pardef n="ix/e__det">
     <e>
       <p>
@@ -2790,6 +2816,7 @@
     <e lm="ixo"><i>ixo</i><par n="ixo__prn"/></e>
     <e lm="isto"><i>isto</i><par n="ixo__prn"/></e>
     <e lm="esto"><i>esto</i><par n="ixo__prn"/></e>
+    <e lm="tot"><i>to</i><par n="to/t__predet"/></e>
     <e lm="ixe"><i>ix</i><par n="ix/e__det"/></e>
     <e lm="iste"><i>ist</i><par n="ix/e__det"/></e>
     <e lm="este"><i>est</i><par n="ix/e__det"/></e>
