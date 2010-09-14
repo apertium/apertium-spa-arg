@@ -610,7 +610,40 @@
         <r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
       </p>
     </e>
-
+    </pardef>
+    <pardef n="ixo__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="tn"/><s n="nt"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="ix/e__det">
+    <e>
+      <p>
+        <l>as</l> 
+        <r>e<s n="det"/><s n="dem"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>a</l> 
+        <r>e<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>os</l> 
+        <r>e<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>e</l> 
+        <r>e<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
     </pardef>
     <pardef n="tú__prn">
     <e>
@@ -2106,6 +2139,32 @@
     </e>
 
     </pardef>
+    <pardef n="mí/o__adj">
+    <e>
+      <p>
+        <l>as</l> 
+        <r>o<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>a</l> 
+        <r>o<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>os</l> 
+        <r>o<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>o</l> 
+        <r>o<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
     <pardef n="aragon/és__adj">
     <e>
       <p>
@@ -2655,9 +2714,20 @@
     <e lm="yo"><i>yo</i><par n="yo__prn"/></e>
     <e lm="tú"><i>tú</i><par n="tú__prn"/></e>
     <e lm="él"><i></i><par n="/él__prn"/></e>
+    <e lm="ixo"><i>ixo</i><par n="ixo__prn"/></e>
+    <e lm="isto"><i>isto</i><par n="ixo__prn"/></e>
+    <e lm="esto"><i>esto</i><par n="ixo__prn"/></e>
+    <e lm="ixe"><i>ix</i><par n="ix/e__det"/></e>
+    <e lm="iste"><i>ist</i><par n="ix/e__det"/></e>
+    <e lm="este"><i>est</i><par n="ix/e__det"/></e>
     <e lm="nusatros"><i>nus</i><par n="nus/atros__prn"/></e>
     <e lm="busatros"><i>bus</i><par n="bus/atros__prn"/></e>
         
+    <e lm="mío"><i>mí</i><par n="mí/o__adj"/></e>
+    <e lm="tuyo"><i>tuy</i><par n="mí/o__adj"/></e>
+    <e lm="suyo"><i>suy</i><par n="mí/o__adj"/></e>
+    <e lm="nuestro"><i>nuestr</i><par n="mí/o__adj"/></e>
+    <e lm="buestro"><i>buestr</i><par n="mí/o__adj"/></e>
     <e lm="o"><i></i><par n="/o__det"/></e>
     
     <e lm="aber"><i></i><par n="/aber__vbhaver"/></e>
@@ -2691,6 +2761,7 @@
     <e lm="categoría"><i>categoría</i><par n="luenga__n"/></e>
     <e lm="subcategoría"><i>subcategoría</i><par n="luenga__n"/></e>
     <e lm="presona"><i>presona</i><par n="luenga__n"/></e>
+    <e lm="casa"><i>casa</i><par n="luenga__n"/></e>
 
     <e lm="libro"><i>libro</i><par n="libro__n"/></e>
     <e lm="güello"><i>güello</i><par n="libro__n"/></e>
@@ -3228,6 +3299,7 @@
     <e r="LR" lm="ande"><i>ande</i><par n="agora__adv"/></e>
     <e lm="do"><i>do</i><par n="agora__adv"/></e>   <!-- Iste igual ye un rel  -->
     <e lm="on"><i>on</i><par n="agora__adv"/></e>
+    <e lm="no"><i>no</i><par n="agora__adv"/></e>
 
     <e r="LR" lm="me'n"><p><l>me'n</l><r>me<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="LR" lm="te'n"><p><l>te'n</l><r>te<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
