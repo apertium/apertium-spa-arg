@@ -112,6 +112,7 @@
     <e><p><l>imperfecto<s n="adj"/></l><r>imperfeuto<s n="adj"/></r></p></e>
     <e><p><l>imperativo<s n="adj"/></l><r>imperatibo<s n="adj"/></r></p></e>
     <e><p><l>social<s n="adj"/></l><r>social<s n="adj"/></r></p></e>
+    <e><p><l>cultural<s n="adj"/></l><r>cultural<s n="adj"/></r></p></e>
     <e><p><l>general<s n="adj"/></l><r>cheneral<s n="adj"/></r></p></e>
     <e><p><l>internacional<s n="adj"/></l><r>internazional<s n="adj"/></r></p></e>
     <e><p><l>universal<s n="adj"/></l><r>unibersal<s n="adj"/></r></p></e>
@@ -120,8 +121,11 @@
     <e r="RL"><p><l>universal<s n="adj"/></l><r>universal<s n="adj"/></r></p></e>
     <e><p><l>personal<s n="adj"/></l><r>presonal<s n="adj"/></r></p></e>
     <e><p><l>oral<s n="adj"/></l><r>oral<s n="adj"/></r></p></e>
+    <e><p><l>actual<s n="adj"/></l><r>actual<s n="adj"/></r></p></e>
     <e><p><l>humano<s n="adj"/></l><r>uman<s n="adj"/></r></p></e>
     <e><p><l>externo<s n="adj"/></l><r>externo<s n="adj"/></r></p></e>
+    <e><p><l>jurídico<s n="adj"/></l><r>churidico<s n="adj"/></r></p></e>
+    <e><p><l>honorario<s n="adj"/></l><r>honorario<s n="adj"/></r></p></e>
     <e><p><l>extraordinario<s n="adj"/></l><r>extraordinario<s n="adj"/></r></p></e>
     <e><p><l>lingüístico<s n="adj"/></l><r>lingüistico<s n="adj"/></r></p></e>
     <e><p><l>mío<s n="adj"/></l><r>mío<s n="adj"/></r></p></e>
@@ -135,6 +139,7 @@
     <e><p><l>fonéticamente<s n="adv"/></l><r>foneticament<s n="adv"/></r></p></e>
 
     <e><p><l>lengua<s n="n"/></l><r>luenga<s n="n"/></r></p></e>
+    <e><p><l>honor<s n="n"/></l><r>honor<s n="n"/></r></p></e>
     <e><p><l>libro<s n="n"/></l><r>libro<s n="n"/></r></p></e>
     <e><p><l>julio<s n="n"/></l><r>chulio<s n="n"/></r></p></e>
     <e><p><l>objetivo<s n="n"/></l><r>obchectivo<s n="n"/></r></p></e>
@@ -147,6 +152,8 @@
     <e><p><l>adjetivo<s n="n"/></l><r>alchetibo<s n="n"/></r></p></e>
     <e><p><l>derecho<s n="n"/></l><r>dreito<s n="n"/></r></p></e>
     <e><p><l>artículo<s n="n"/></l><r>articlo<s n="n"/></r></p></e>
+    <e><p><l>miembro<s n="n"/></l><r>miembro<s n="n"/></r></p></e>
+    <e><p><l>toponimia<s n="n"/></l><r>toponimia<s n="n"/></r></p></e>
     <e><p><l>año<s n="n"/></l><r>anyo<s n="n"/></r></p></e>
     <e><p><l>amapola<s n="n"/><s n="f"/></l><r>ababol<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cerveza<s n="n"/></l><r>biera<s n="n"/></r></p></e>
@@ -154,6 +161,7 @@
     <e><p><l>categoría<s n="n"/></l><r>categoría<s n="n"/></r></p></e>
     <e><p><l>subcategoría<s n="n"/></l><r>subcategoría<s n="n"/></r></p></e>
     <e><p><l>división<s n="n"/></l><r>división<s n="n"/></r></p></e>
+    <e><p><l>investigación<s n="n"/></l><r>investigación<s n="n"/></r></p></e>
     <e><p><l>ordinación<s n="n"/></l><r>ordinación<s n="n"/></r></p></e>
     <e><p><l>manifestación<s n="n"/></l><r>manifestación<s n="n"/></r></p></e>
     <e><p><l>información<s n="n"/></l><r>información<s n="n"/></r></p></e>
@@ -781,6 +789,9 @@
 
     <e><p><l>haber<s n="vbhaver"/></l><r>aber<s n="vbhaver"/></r></p></e>
     <e><p><l>cantar<s n="vblex"/></l><r>cantar<s n="vblex"/></r></p></e>
+    <e><p><l>procurar<s n="vblex"/></l><r>procurar<s n="vblex"/></r></p></e>
+    <e><p><l>ayudar<s n="vblex"/></l><r>aduyar<s n="vblex"/></r></p></e>
+    <e><p><l>actualizar<s n="vblex"/></l><r>actualizar<s n="vblex"/></r></p></e>
 
     <e><i>Caixa<b/>Catalunya<s n="np"/></i></e>
     <e><i>Efe<s n="np"/></i></e>

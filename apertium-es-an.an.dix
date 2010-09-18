@@ -2834,6 +2834,8 @@
     <e lm="cantar"><i>cant</i><par n="cant/ar__vblex"/></e>
     <e lm="plorar"><i>plor</i><par n="cant/ar__vblex"/></e>
     <e lm="aduyar"><i>aduy</i><par n="cant/ar__vblex"/></e>
+    <e lm="procurar"><i>procur</i><par n="cant/ar__vblex"/></e>
+    <e lm="actualizar"><i>actualiz</i><par n="cant/ar__vblex"/></e>
     <e lm="estar"><i></i><par n="/estar__vbser"/></e>
     
     <e lm="aragonés"><i>aragon</i><par n="aragon/és__adj"/></e>
@@ -2853,12 +2855,15 @@
     <e lm="perfeuto"><i>perfeut</i><par n="italian/o__adj"/></e>
     <e lm="imperatibo"><i>imperatib</i><par n="italian/o__adj"/></e>
     <e lm="externo"><i>extern</i><par n="italian/o__adj"/></e>
+    <e lm="churidico"><i>churidic</i><par n="italian/o__adj"/></e>
     <e lm="extraordinario"><i>extraordinari</i><par n="italian/o__adj"/></e>
+    <e lm="honorario"><i>honorari</i><par n="italian/o__adj"/></e>
     <e lm="lingüistico"><i>lingüistic</i><par n="italian/o__adj"/></e>
     <e lm="fonetico"><i>fonetic</i><par n="italian/o__adj"/></e>
     <e lm="academico"><i>academic</i><par n="italian/o__adj"/></e>
     <e lm="social"><i>social</i><par n="social__adj"/></e>
     <e lm="oral"><i>oral</i><par n="social__adj"/></e>
+    <e lm="actual"><i>actual</i><par n="social__adj"/></e>
     <e lm="internazional"><i>internazional</i><par n="social__adj"/></e>
     <e lm="cheneral"><i>cheneral</i><par n="social__adj"/></e>
     <e lm="universal"><i>universal</i><par n="social__adj"/></e>
@@ -2866,6 +2871,7 @@
     <e lm="presonal"><i>presonal</i><par n="social__adj"/></e>
     <e lm="gramatical"><i>gramatical</i><par n="social__adj"/></e>
     <e lm="provisional"><i>provisional</i><par n="social__adj"/></e>
+    <e lm="cultural"><i>cultural</i><par n="social__adj"/></e>
 
     <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
     <e lm="luenga"><i>luenga</i><par n="luenga__n"/></e>
@@ -2879,6 +2885,7 @@
     <e lm="forma"><i>forma</i><par n="luenga__n"/></e>
     <e lm="pachina"><i>pachina</i><par n="luenga__n"/></e>
     <e lm="academia"><i>academia</i><par n="luenga__n"/></e>
+    <e lm="toponimia"><i>toponimia</i><par n="luenga__n"/></e>
 
     <e lm="libro"><i>libro</i><par n="libro__n"/></e>
     <e lm="güello"><i>güello</i><par n="libro__n"/></e>
@@ -2889,8 +2896,11 @@
     <e lm="articlo"><i>articlo</i><par n="libro__n"/></e>
     <e lm="chulio"><i>chulio</i><par n="libro__n"/></e>
     <e lm="obchectivo"><i>obchectivo</i><par n="libro__n"/></e>
+    <e lm="honor"><i>honor</i><par n="libro__n"/></e>
+    <e lm="miembro"><i>miembro</i><par n="libro__n"/></e>
     
     <e lm="división"><i>divisi</i><par n="divisi/ón__n"/></e>
+    <e lm="investigación"><i>investigaci</i><par n="divisi/ón__n"/></e>
     <e lm="ordinación"><i>ordinaci</i><par n="divisi/ón__n"/></e>
     <e lm="manifestación"><i>manifestaci</i><par n="divisi/ón__n"/></e>
     <e lm="información"><i>informaci</i><par n="divisi/ón__n"/></e>
