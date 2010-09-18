@@ -2126,6 +2126,38 @@
     </e>
 
     </pardef>
+    <pardef n="un__det">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>o</l>
+        <r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e c="Check">
+      <p>
+        <l>os</l>
+        <r><s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>a</l>
+        <r><s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>as</l>
+        <r><s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    </pardef>
     <pardef n="/o__det">
     <e>
       <p>
@@ -2829,6 +2861,7 @@
     <e lm="nuestro"><i>nuestr</i><par n="mí/o__adj"/></e>
     <e lm="buestro"><i>buestr</i><par n="mí/o__adj"/></e>
     <e lm="o"><i></i><par n="/o__det"/></e>
+    <e lm="un"><i>un</i><par n="un__det"/></e>
     
     <e lm="aber"><i></i><par n="/aber__vbhaver"/></e>
     <e lm="cantar"><i>cant</i><par n="cant/ar__vblex"/></e>
