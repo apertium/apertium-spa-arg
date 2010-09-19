@@ -2961,6 +2961,7 @@
     <e lm="lingüistico"><i>lingüistic</i><par n="italian/o__adj"/></e>
     <e lm="fonetico"><i>fonetic</i><par n="italian/o__adj"/></e>
     <e lm="academico"><i>academic</i><par n="italian/o__adj"/></e>
+    <e lm="mesmo"><i>mesm</i><par n="italian/o__adj"/></e>
     <e lm="social"><i>social</i><par n="social__adj"/></e>
     <e lm="oral"><i>oral</i><par n="social__adj"/></e>
     <e lm="actual"><i>actual</i><par n="social__adj"/></e>
@@ -2975,6 +2976,7 @@
     <e lm="capital"><i>capital</i><par n="social__adj"/></e>
 
     <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
+    <e lm="provincia"><i>provincia</i><par n="luenga__n"/></e>
     <e lm="mar"><i>mar</i><par n="luenga__n"/></e>
     <e lm="altaria"><i>altaria</i><par n="luenga__n"/></e>
     <e lm="luenga"><i>luenga</i><par n="luenga__n"/></e>
@@ -2997,6 +2999,9 @@
     <e lm="abitant"><i>abitant</i><par n="accionista__n"/></e>
 
     <e lm="libro"><i>libro</i><par n="libro__n"/></e>
+    <e lm="mar"><i>mar</i><par n="libro__n"/></e>
+    <e lm="decenio"><i>decenio</i><par n="libro__n"/></e>
+    <e lm="dezenio"><i>dezenio</i><par n="libro__n"/></e>
     <e lm="termin"><i>termin</i><par n="libro__n"/></e>
     <e lm="termino"><i>termino</i><par n="libro__n"/></e>
     <e lm="termen"><i>termen</i><par n="libro__n"/></e>
@@ -3814,6 +3819,7 @@
 
 <!--Adverbios-->
     <e lm="autualment"><i>autualment</i><par n="agora__adv"/></e>
+    <e lm="mesmo"><i>mesmo</i><par n="agora__adv"/></e>
     <e lm="dimpués"><i>dimpués</i><par n="agora__adv"/></e>
     <e lm="foneticament"><i>foneticament</i><par n="agora__adv"/></e>
     <e lm="acá"><i>acá</i><par n="agora__adv"/></e>

@@ -20,7 +20,6 @@
     <sdef n="mf"/>
     <sdef n="sg"/>
     <sdef n="pl"/>
-    <sdef n="adv"/>
     <sdef n="preadv"/>
     <sdef n="pr"/>
     <sdef n="prn"/>
@@ -97,6 +96,7 @@
     <e><p><l>sobre<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
     <e><p><l>con<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
 
+    <e><p><l>mismo<s n="adj"/></l><r>mesmo<s n="adj"/></r></p></e>
     <e><p><l>aragonés<s n="adj"/></l><r>aragonés<s n="adj"/></r></p></e>
     <e><p><l>portugués<s n="adj"/></l><r>portugués<s n="adj"/></r></p></e>
     <e><p><l>polaco<s n="adj"/></l><r>polonés<s n="adj"/></r></p></e>
@@ -138,6 +138,7 @@
     <e><p><l>vuestro<s n="adj"/></l><r>buestro<s n="adj"/></r></p></e>
 
     <e><p><l>no<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+    <e><p><l>mismo<s n="adv"/></l><r>mesmo<s n="adv"/></r></p></e>
     <e><p><l>ya<s n="adv"/></l><r>ya<s n="adv"/></r></p></e>
     <e><p><l>ahora<s n="adv"/></l><r>agora<s n="adv"/></r></p></e>
     <e><p><l>más<s n="adv"/></l><r>más<s n="adv"/></r></p></e>
@@ -163,6 +164,10 @@
     <e><p><l>habitante<s n="n"/></l><r>abitant<s n="n"/></r></p></e>
     <e><p><l>metro<s n="n"/></l><r>metro<s n="n"/></r></p></e>
     <e><p><l>mar<s n="n"/><s n="m"/></l><r>mar<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>mar<s n="n"/><s n="m"/></l><r>mar<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>década<s n="n"/><s n="f"/></l><r>decenio<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>década<s n="n"/><s n="f"/></l><r>dezenio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>provincia<s n="n"/></l><r>provincia<s n="n"/></r></p></e>
     <e><p><l>siglo<s n="n"/></l><r>sieglo<s n="n"/></r></p></e>
     <e><p><l>km<s n="n"/></l><r>km<s n="n"/></r></p></e>
     <e><p><l>tesorero<s n="n"/></l><r>tresorero<s n="n"/></r></p></e>
