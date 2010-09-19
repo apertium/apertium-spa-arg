@@ -2512,6 +2512,20 @@
     </e>
 
     </pardef>
+    <pardef n="accionista__n">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="mf"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>s</l>
+        <r><s n="n"/><s n="mf"/><s n="pl"/></r>
+      </p>
+    </e>
+    </pardef>
     <pardef n="libro__n">
     <e>
       <p>
@@ -2977,6 +2991,7 @@
     <e lm="lei"><i>lei</i><par n="luenga__n"/></e>
 
     <e lm="km"><i>km</i><par n="campus__n"/></e>
+    <e lm="abitant"><i>abitant</i><par n="accionista__n"/></e>
 
     <e lm="libro"><i>libro</i><par n="libro__n"/></e>
     <e lm="metro"><i>metro</i><par n="libro__n"/></e>
@@ -3877,6 +3892,7 @@
     <e r="LR" lm="te'n"><p><l>te'n</l><r>te<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="LR" lm="le'n"><p><l>le'n</l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="LR" lm="se'n"><p><l>se'n</l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    <e r="LR" lm="del"><p><l>del</l><r>de<s n="pr"/><j/>o<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="Caixa Catalunya"><i>Caixa<b/>Catalunya</i><par n="ABC__np"/></e>
     <e lm="Efe"><i>Efe</i><par n="ABC__np"/></e>
     <e lm="Barbera"><i>Barbera</i><par n="ABC__np"/></e>
@@ -6939,7 +6955,6 @@
     <e lm="internament"><i>internament</i><par n="agora__adv"/></e>
     <e lm="involuntariament"><i>involuntariament</i><par n="agora__adv"/></e>
     <e lm="irresponsablement"><i>irresponsablement</i><par n="agora__adv"/></e>
-    <e lm="*l$^'"><i>*l$^'</i><par n="agora__adv"/></e>
     <e lm="legalment"><i>legalment</i><par n="agora__adv"/></e>
     <e lm="lentament"><i>lentament</i><par n="agora__adv"/></e>
     <e lm="librement"><i>librement</i><par n="agora__adv"/></e>
