@@ -3025,12 +3025,16 @@
     <e lm="honor"><i>honor</i><par n="libro__n"/></e>
     <e lm="miembro"><i>miembro</i><par n="libro__n"/></e>
     
+    <e lm="relichión"><i>relichi</i><par n="divisi/ón__n"/></e>
     <e lm="división"><i>divisi</i><par n="divisi/ón__n"/></e>
     <e lm="investigación"><i>investigaci</i><par n="divisi/ón__n"/></e>
     <e lm="ordinación"><i>ordinaci</i><par n="divisi/ón__n"/></e>
     <e lm="manifestación"><i>manifestaci</i><par n="divisi/ón__n"/></e>
     <e lm="información"><i>informaci</i><par n="divisi/ón__n"/></e>
     <e lm="ziudat"><i>ziuda</i><par n="privacida/t__n"/></e>
+    <e lm="ciudat"><i>ciuda</i><par n="privacida/t__n"/></e>
+    <e lm="sociedat"><i>socieda</i><par n="privacida/t__n"/></e>
+    <e lm="soziedat"><i>sozieda</i><par n="privacida/t__n"/></e>
     <e lm="privacidat"><i>privacida</i><par n="privacida/t__n"/></e>
     <e lm="particularidat"><i>particularida</i><par n="privacida/t__n"/></e>
     <e lm="abelidat"><i>abelida</i><par n="privacida/t__n"/></e>
@@ -3371,7 +3375,9 @@
     <e lm="vitalidat"><i>vitalida</i><par n="privacida/t__n"/></e>
     <e lm="voracidat"><i>voracida</i><par n="privacida/t__n"/></e>
     <e lm="zelebridat"><i>zelebrida</i><par n="privacida/t__n"/></e>
+    <e lm="libertat"><i>liberta</i><par n="privacida/t__n"/></e>
 
+    <e lm="proteción"><i>prote</i><par n="actua/ción__n"/></e>
     <e lm="abdicación"><i>abdica</i><par n="actua/ción__n"/></e>
     <e lm="población"><i>pobla</i><par n="actua/ción__n"/></e>
     <e lm="abiación"><i>abia</i><par n="actua/ción__n"/></e>
@@ -9842,6 +9848,7 @@
     <e lm="soberanista"><i>soberanista</i><par n="social__adj"/></e>
     <e lm="sociable"><i>sociable</i><par n="social__adj"/></e>
     <e lm="social"><i>social</i><par n="social__adj"/></e>
+    <e lm="sozial"><i>sozial</i><par n="social__adj"/></e>
     <e lm="socialdemócrata"><i>socialdemócrata</i><par n="social__adj"/></e>
     <e lm="socialista"><i>socialista</i><par n="social__adj"/></e>
     <e lm="solar"><i>solar</i><par n="social__adj"/></e>

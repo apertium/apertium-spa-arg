@@ -115,6 +115,7 @@
     <e><p><l>imperfecto<s n="adj"/></l><r>imperfeuto<s n="adj"/></r></p></e>
     <e><p><l>imperativo<s n="adj"/></l><r>imperatibo<s n="adj"/></r></p></e>
     <e><p><l>social<s n="adj"/></l><r>social<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>social<s n="adj"/></l><r>sozial<s n="adj"/></r></p></e>
     <e><p><l>cultural<s n="adj"/></l><r>cultural<s n="adj"/></r></p></e>
     <e><p><l>general<s n="adj"/></l><r>cheneral<s n="adj"/></r></p></e>
     <e><p><l>internacional<s n="adj"/></l><r>internazional<s n="adj"/></r></p></e>
@@ -193,13 +194,19 @@
     <e><p><l>estrella<s n="n"/></l><r>estrela<s n="n"/></r></p></e>
     <e><p><l>categoría<s n="n"/></l><r>categoría<s n="n"/></r></p></e>
     <e><p><l>subcategoría<s n="n"/></l><r>subcategoría<s n="n"/></r></p></e>
+    <e><p><l>protección<s n="n"/></l><r>proteción<s n="n"/></r></p></e>
+    <e><p><l>libertad<s n="n"/></l><r>libertat<s n="n"/></r></p></e>
+    <e><p><l>religión<s n="n"/></l><r>relichión<s n="n"/></r></p></e>
     <e><p><l>división<s n="n"/></l><r>división<s n="n"/></r></p></e>
     <e><p><l>investigación<s n="n"/></l><r>investigación<s n="n"/></r></p></e>
     <e><p><l>población<s n="n"/></l><r>población<s n="n"/></r></p></e>
     <e><p><l>ordinación<s n="n"/></l><r>ordinación<s n="n"/></r></p></e>
     <e><p><l>manifestación<s n="n"/></l><r>manifestación<s n="n"/></r></p></e>
     <e><p><l>información<s n="n"/></l><r>información<s n="n"/></r></p></e>
-    <e><p><l>ciudad<s n="n"/></l><r>ziudat<s n="n"/></r></p></e>
+    <e r="RL"><p><l>ciudad<s n="n"/></l><r>ziudat<s n="n"/></r></p></e>
+    <e><p><l>ciudad<s n="n"/></l><r>ciudat<s n="n"/></r></p></e>
+    <e><p><l>sociedad<s n="n"/></l><r>sociedat<s n="n"/></r></p></e>
+    <e r="RL"><p><l>sociedad<s n="n"/></l><r>soziedat<s n="n"/></r></p></e>
     <e><p><l>privacidad<s n="n"/></l><r>privacidat<s n="n"/></r></p></e>
     <e><p><l>particularidad<s n="n"/></l><r>particularidat<s n="n"/></r></p></e>
     <e><p><l>habilidad<s n="n"/></l><r>abelidat<s n="n"/></r></p></e>
@@ -6758,7 +6765,6 @@
     <e><i>sionista<s n="adj"/></i></e>
     <e><i>soberanista<s n="adj"/></i></e>
     <e><i>sociable<s n="adj"/></i></e>
-    <e><i>social<s n="adj"/></i></e>
     <e><i>socialdemócrata<s n="adj"/></i></e>
     <e><i>socialista<s n="adj"/></i></e>
     <e><i>solar<s n="adj"/></i></e>
