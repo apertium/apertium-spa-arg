@@ -2126,6 +2126,14 @@
     </e>
 
     </pardef>
+    <pardef n="dos__num">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="num"/><s n="mf"/><s n="sp"/></r> 
+      </p>
+    </e>
+    </pardef>
     <pardef n="un__det">
     <e>
       <p>
@@ -2902,6 +2910,8 @@
     <e lm="buestro"><i>buestr</i><par n="mí/o__adj"/></e>
     <e lm="o"><i></i><par n="/o__det"/></e>
     <e lm="un"><i>un</i><par n="un__det"/></e>
+
+    <e lm="dos"><i>dos</i><par n="dos__num"/></e>
     
     <e lm="aber"><i></i><par n="/aber__vbhaver"/></e>
     <e lm="cantar"><i>cant</i><par n="cant/ar__vblex"/></e>
@@ -6375,6 +6385,7 @@
     <e lm="Chabier"><i>Chabier</i><par n="Abad__np"/></e>
     <e lm="Francho"><i>Francho</i><par n="Abad__np"/></e>
     <e lm="Aragón"><i>Aragón</i><par n="Afganistán__np"/></e>
+    <e lm="Zaragoza"><i>Zaragoza</i><par n="Belén__np"/></e>
 
     <e lm="abandonar"><i>abandon</i><par n="cant/ar__vblex"/></e>
     <e lm="achuntar"><i>achunt</i><par n="cant/ar__vblex"/></e>
