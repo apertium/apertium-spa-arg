@@ -2518,6 +2518,32 @@
       </p>
     </e>
     </pardef>
+    <pardef n="tresorer/o__n">
+    <e>
+      <p>
+        <l>o</l>
+        <r>o<s n="n"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>os</l>
+        <r>o<s n="n"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>a</l>
+        <r>o<s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>as</l>
+        <r>o<s n="n"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    </pardef>
     <pardef n="privacida/t__n">
     <e>
       <p>
@@ -2931,6 +2957,7 @@
     <e lm="lei"><i>lei</i><par n="luenga__n"/></e>
 
     <e lm="libro"><i>libro</i><par n="libro__n"/></e>
+    <e lm="tresorero"><i>tresorer</i><par n="tresorer/o__n"/></e>
     <e lm="eixemplo"><i>eixemplo</i><par n="libro__n"/></e>
     <e lm="güello"><i>güello</i><par n="libro__n"/></e>
     <e lm="ababol"><i>ababol</i><par n="libro__n"/></e>
