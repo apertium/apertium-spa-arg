@@ -2564,7 +2564,15 @@
       </p>
     </e>
     </pardef>
-        
+    <pardef n="campus__n">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+    </pardef>
+
     <pardef n="bien__preadv">
     <e>
       <p>
@@ -2862,7 +2870,7 @@
 
 
     </pardef>
-    <pardef n="Afganistan__np">
+    <pardef n="Afganistán__np">
     <e>
       <p>
         <l></l>
@@ -2956,7 +2964,10 @@
     <e lm="toponimia"><i>toponimia</i><par n="luenga__n"/></e>
     <e lm="lei"><i>lei</i><par n="luenga__n"/></e>
 
+    <e lm="km"><i>km</i><par n="campus__n"/></e>
+
     <e lm="libro"><i>libro</i><par n="libro__n"/></e>
+    <e lm="sieglo"><i>sieglo</i><par n="libro__n"/></e>
     <e lm="tresorero"><i>tresorer</i><par n="tresorer/o__n"/></e>
     <e lm="academico"><i>academic</i><par n="tresorer/o__n"/></e>
     <e lm="eixemplo"><i>eixemplo</i><par n="libro__n"/></e>
@@ -3318,6 +3329,7 @@
     <e lm="zelebridat"><i>zelebrida</i><par n="privacida/t__n"/></e>
 
     <e lm="abdicación"><i>abdica</i><par n="actua/ción__n"/></e>
+    <e lm="población"><i>pobla</i><par n="actua/ción__n"/></e>
     <e lm="abiación"><i>abia</i><par n="actua/ción__n"/></e>
     <e lm="abocación"><i>aboca</i><par n="actua/ción__n"/></e>
     <e lm="abreviación"><i>abrevia</i><par n="actua/ción__n"/></e>
@@ -3845,6 +3857,7 @@
     <e lm="on"><i>on</i><par n="agora__adv"/></e>
     <e lm="no"><i>no</i><par n="agora__adv"/></e>
     <e lm="más"><i>más</i><par n="agora__adv"/></e>
+    <e lm="tamién"><i>tamién</i><par n="agora__adv"/></e>
 
     <e r="LR" lm="me'n"><p><l>me'n</l><r>me<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="LR" lm="te'n"><p><l>te'n</l><r>te<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
@@ -6357,6 +6370,7 @@
     <e lm="Ánchel"><i>Ánchel</i><par n="Abad__np"/></e>
     <e lm="Chabier"><i>Chabier</i><par n="Abad__np"/></e>
     <e lm="Francho"><i>Francho</i><par n="Abad__np"/></e>
+    <e lm="Aragón"><i>Aragón</i><par n="Afganistán__np"/></e>
 
     <e lm="abandonar"><i>abandon</i><par n="cant/ar__vblex"/></e>
     <e lm="achuntar"><i>achunt</i><par n="cant/ar__vblex"/></e>
