@@ -2972,6 +2972,7 @@
     <e lm="gramatical"><i>gramatical</i><par n="social__adj"/></e>
     <e lm="provisional"><i>provisional</i><par n="social__adj"/></e>
     <e lm="cultural"><i>cultural</i><par n="social__adj"/></e>
+    <e lm="capital"><i>capital</i><par n="social__adj"/></e>
 
     <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
     <e lm="mar"><i>mar</i><par n="luenga__n"/></e>
@@ -2989,12 +2990,19 @@
     <e lm="academia"><i>academia</i><par n="luenga__n"/></e>
     <e lm="toponimia"><i>toponimia</i><par n="luenga__n"/></e>
     <e lm="lei"><i>lei</i><par n="luenga__n"/></e>
+    <e lm="superficie"><i>superficie</i><par n="luenga__n"/></e>
+    <e lm="superfizie"><i>superfizie</i><par n="luenga__n"/></e>
 
     <e lm="km"><i>km</i><par n="campus__n"/></e>
     <e lm="abitant"><i>abitant</i><par n="accionista__n"/></e>
 
     <e lm="libro"><i>libro</i><par n="libro__n"/></e>
+    <e lm="termin"><i>termin</i><par n="libro__n"/></e>
+    <e lm="termino"><i>termino</i><par n="libro__n"/></e>
+    <e lm="termen"><i>termen</i><par n="libro__n"/></e>
+    <e lm="termi"><i>termi</i><par n="libro__n"/></e>
     <e lm="metro"><i>metro</i><par n="libro__n"/></e>
+    <e lm="capital"><i>capital</i><par n="libro__n"/></e>
     <e lm="sieglo"><i>sieglo</i><par n="libro__n"/></e>
     <e lm="tresorero"><i>tresorer</i><par n="tresorer/o__n"/></e>
     <e lm="academico"><i>academic</i><par n="tresorer/o__n"/></e>
@@ -9093,6 +9101,9 @@
     <e lm="Zimbabwe"><i>Zimbabwe</i><par n="Afganistán__np"/></e>
     <e lm="Zucaina"><i>Zucaina</i><par n="Afganistán__np"/></e>
     <e lm="Zúrich"><i>Zúrich</i><par n="Afganistán__np"/></e>
+    <e lm="Perineus"><i>Perineus</i><par n="Afganistán__np"/></e>
+    <e lm="Perinés"><i>Perinés</i><par n="Afganistán__np"/></e>
+    <e lm="Pirinés"><i>Pirinés</i><par n="Afganistán__np"/></e>
   </section>
   <section id="apostrophes" type="postblank">
     <e r="LR" lm="d'"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
