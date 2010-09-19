@@ -9,7 +9,7 @@
 
 -->
 <dictionary>
-  <alphabet>AaÁáBbCcDdEeÉéFfGgHhIiÍíJjKkLlMmNnÑñOoÓóPpQqRrSsTtUuÚúÜüVvWwXxYyZz</alphabet>
+  <alphabet>ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
   <sdefs>
     <sdef n="acr" 	c="Acronimo"/> 
     <sdef n="predet" /> 
@@ -3872,7 +3872,8 @@
     <e lm="talto"><i>talto</i><par n="agora__adv"/></e>
     <e lm="tazaga"><i>tazaga</i><par n="agora__adv"/></e>
     <e lm="t'astí"><i>t'astí</i><par n="agora__adv"/></e>
-    <e lm="ya"><i>ya</i><par n="ahora__adv"/></e>
+    <e lm="ya"><i>ya</i><par n="agora__adv"/></e>
+    <e lm="agora"><i>agora</i><par n="agora__adv"/></e>
 
     <e lm="án"><i>án</i><par n="án__adv"/></e>
     <e lm="dó"><i>dó</i><par n="án__adv"/></e>
