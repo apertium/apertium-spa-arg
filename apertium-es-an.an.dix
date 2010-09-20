@@ -1221,6 +1221,13 @@
       </e>
       <e>
         <p>
+          <l>car</l>
+          <r>car<s n="vblex"/><s n="inf"/></r>
+        </p>
+        <par n="S__cantar"/>
+      </e>
+      <e>
+        <p>
           <l>caba</l>
           <r>car<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r>
         </p>
@@ -1597,6 +1604,13 @@
       </e>
       <e>
         <p>
+          <l>er</l>
+          <r>er<s n="vblex"/><s n="inf"/></r>
+        </p>
+        <par n="S__cantar"/>
+      </e>
+      <e>
+        <p>
           <l>eba</l>
           <r>er<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r>
         </p>
@@ -1956,6 +1970,13 @@
           <l>oder</l>
           <r>oder<s n="vbmod"/><s n="inf"/></r>
         </p>
+      </e>
+      <e>
+        <p>
+          <l>oder</l>
+          <r>oder<s n="vbmod"/><s n="inf"/></r>
+        </p>
+        <par n="S__cantar"/>
       </e>
       <e>
         <p>
@@ -2384,6 +2405,13 @@
           <l>ener</l>
           <r>ener<s n="vblex"/><s n="inf"/></r>
         </p>
+      </e>
+      <e>
+        <p>
+          <l>ener</l>
+          <r>ener<s n="vblex"/><s n="inf"/></r>
+        </p>
+        <par n="S__cantar"/>
       </e>
       <e>
         <p>
@@ -3707,8 +3735,353 @@
         <r>aber<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="pl"/></r>
       </p>
     </e>
-
     </pardef>
+    <pardef n="bib/ir__vblex">
+      <e>
+        <p>
+          <l>iré</l>
+          <r>ir<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iremos</l>
+          <r>ir<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irás</l>
+          <r>ir<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irez</l>
+          <r>ir<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irá</l>
+          <r>ir<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irán</l>
+          <r>ir<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iría</l>
+          <r>ir<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iríanos</l>
+          <r>ir<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irías</l>
+          <r>ir<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iríaz</l>
+          <r>ir<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iría</l>
+          <r>ir<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>irían</l>
+          <r>ir<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>indo</l>
+          <r>ir<s n="vblex"/><s n="ger"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>e</l>
+          <r>ir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iz</l>
+          <r>ir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ié</l>
+          <r>ir<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iemos</l>
+          <r>ir<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iés</l>
+          <r>ir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iez</l>
+          <r>ir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ió</l>
+          <r>ir<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ioron</l>
+          <r>ir<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ión</l>
+          <r>ir<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>ir<s n="vblex"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ir</l>
+          <r>ir<s n="vblex"/><s n="inf"/></r>
+        </p>
+        <par n="S__cantar"/>
+      </e>
+      <e>
+        <p>
+          <l>iba</l>
+          <r>ir<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ibe</l>
+          <r>ir<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ibanos</l>
+          <r>ir<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ibas</l>
+          <r>ir<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ibaz</l>
+          <r>ir<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iba</l>
+          <r>ir<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iban</l>
+          <r>ir<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ise</l>
+          <r>ir<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>isenos</l>
+          <r>ir<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ises</l>
+          <r>ir<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>isez</l>
+          <r>ir<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ise</l>
+          <r>ir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iesen</l>
+          <r>ir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iu</l>
+          <r>ir<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ito</l>
+          <r>ir<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ius</l>
+          <r>ir<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>itos</l>
+          <r>ir<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ida</l>
+          <r>ir<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ita</l>
+          <r>ir<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>idas</l>
+          <r>ir<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>itas</l>
+          <r>ir<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>o</l>
+          <r>ir<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>imos</l>
+          <r>ir<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>es</l>
+          <r>ir<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iz</l>
+          <r>ir<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>e</l>
+          <r>ir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>en</l>
+          <r>ir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>ir<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>amos</l>
+          <r>ir<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>as</l>
+          <r>ir<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>az</l>
+          <r>ir<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>a</l>
+          <r>ir<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>an</l>
+          <r>ir<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="dos__num">
     <e>
       <p>
@@ -3908,25 +4281,48 @@
         <r>és<s n="adj"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
-
     <e>
       <p>
         <l>eses</l>
         <r>és<s n="adj"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
-
     <e>
       <p>
         <l>esa</l>
         <r>és<s n="adj"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
-
     <e>
       <p>
         <l>esas</l>
         <r>és<s n="adj"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="rei__n">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>s</l>
+        <r><s n="n"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>na</l>
+        <r><s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>nas</l>
+        <r><s n="n"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -3941,6 +4337,20 @@
       <p>
         <l>ins</l>
         <r>ín<s n="n"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    </pardef>
+    <pardef n="país__n">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>es</l>
+        <r><s n="n"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -4552,6 +4962,7 @@
     <e lm="dos"><i>dos</i><par n="dos__num"/></e>
     
     <e lm="aber"><i></i><par n="/aber__vbhaver"/></e>
+    <e lm="bibir"><i>bib</i><par n="bib/ir__vblex"/></e>
     <e lm="cantar"><i>cant</i><par n="cant/ar__vblex"/></e>
     <e lm="plorar"><i>plor</i><par n="cant/ar__vblex"/></e>
     <e lm="aduyar"><i>aduy</i><par n="cant/ar__vblex"/></e>
@@ -4605,6 +5016,7 @@
     <e lm="cultural"><i>cultural</i><par n="social__adj"/></e>
     <e lm="capital"><i>capital</i><par n="social__adj"/></e>
 
+    <e lm="país"><i>país</i><par n="país__n"/></e>
     <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
     <e lm="muga"><i>muga</i><par n="luenga__n"/></e>
     <e lm="güega"><i>güega</i><par n="luenga__n"/></e>
@@ -4628,6 +5040,7 @@
     <e lm="superficie"><i>superficie</i><par n="luenga__n"/></e>
     <e lm="superfizie"><i>superfizie</i><par n="luenga__n"/></e>
     <e lm="familia"><i>familia</i><par n="luenga__n"/></e>
+    <e lm="rei"><i>rei</i><par n="rei__n"/></e>
 
     <e lm="km"><i>km</i><par n="campus__n"/></e>
     <e lm="abitant"><i>abitant</i><par n="accionista__n"/></e>
