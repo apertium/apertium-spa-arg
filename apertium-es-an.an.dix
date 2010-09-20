@@ -3875,6 +3875,32 @@
       </p>
     </e>
     </pardef>
+    <pardef n="atr/o__adj">
+    <e>
+      <p>
+        <l>as</l> 
+        <r>o<s n="adj"/><s n="ind"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>a</l> 
+        <r>o<s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>os</l> 
+        <r>o<s n="adj"/><s n="ind"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>o</l> 
+        <r>o<s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
     <pardef n="aragon/és__adj">
     <e>
       <p>
@@ -3903,8 +3929,22 @@
         <r>és<s n="adj"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
-
     </pardef>
+    <pardef n="lat/ín__n">
+    <e>
+      <p>
+        <l>ín</l>
+        <r>ín<s n="n"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ins</l>
+        <r>ín<s n="n"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    </pardef>
+
     <pardef n="mascul/ín__adj">
     <e>
       <p>
@@ -4507,6 +4547,7 @@
     <e lm="buestro"><i>buestr</i><par n="mí/o__adj"/></e>
     <e lm="o"><i></i><par n="/o__det"/></e>
     <e lm="un"><i>un</i><par n="un__det"/></e>
+    <e lm="atro"><i>atr</i><par n="atr/o__adj"/></e>
 
     <e lm="dos"><i>dos</i><par n="dos__num"/></e>
     
@@ -4530,6 +4571,8 @@
     <e lm="polonés"><i>polon</i><par n="aragon/és__adj"/></e>
     <e lm="masculín"><i>mascul</i><par n="mascul/ín__adj"/></e>
     <e lm="femenín"><i>femen</i><par n="mascul/ín__adj"/></e>
+    <e lm="latín"><i>lat</i><par n="mascul/ín__adj"/></e>
+    <e lm="latín"><i>lat</i><par n="lat/ín__n"/></e>
     <e lm="oczitán"><i>oczit</i><par n="oczit/án__adj"/></e>
     <e lm="catalán"><i>catal</i><par n="oczit/án__adj"/></e>
     <e lm="español"><i>español</i><par n="español__adj"/></e>
@@ -4563,6 +4606,9 @@
     <e lm="capital"><i>capital</i><par n="social__adj"/></e>
 
     <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
+    <e lm="muga"><i>muga</i><par n="luenga__n"/></e>
+    <e lm="güega"><i>güega</i><par n="luenga__n"/></e>
+    <e lm="comarca"><i>comarca</i><par n="luenga__n"/></e>
     <e lm="provincia"><i>provincia</i><par n="luenga__n"/></e>
     <e lm="mar"><i>mar</i><par n="luenga__n"/></e>
     <e lm="altaria"><i>altaria</i><par n="luenga__n"/></e>
@@ -4612,6 +4658,7 @@
     <e lm="obchectivo"><i>obchectivo</i><par n="libro__n"/></e>
     <e lm="honor"><i>honor</i><par n="libro__n"/></e>
     <e lm="miembro"><i>miembro</i><par n="libro__n"/></e>
+    <e lm="luengache"><i>luengache</i><par n="libro__n"/></e>
     
     <e lm="relichión"><i>relichi</i><par n="divisi/ón__n"/></e>
     <e lm="división"><i>divisi</i><par n="divisi/ón__n"/></e>
@@ -8925,6 +8972,7 @@
     <e lm="Barberà de la Conca"><i>Barberà<b/>de<b/>la<b/>Conca</i><par n="Afganistán__np"/></e>
     <e lm="Barberà del Vallès"><i>Barberà<b/>del<b/>Vallès</i><par n="Afganistán__np"/></e>
     <e lm="Barcelona"><i>Barcelona</i><par n="Afganistán__np"/></e>
+    <e lm="Uesca"><i>Uesca</i><par n="Afganistán__np"/></e>
     <e lm="Barcelonès"><i>Barcelonès</i><par n="Afganistán__np"/></e>
     <e lm="Barceloneta"><i>Barceloneta</i><par n="Afganistán__np"/></e>
     <e lm="Barents"><i>Barents</i><par n="Afganistán__np"/></e>

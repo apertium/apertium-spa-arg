@@ -89,6 +89,7 @@
     <e r="RL"><p><l></l><r>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="RL"><p><l></l><r>bi<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
     <e r="RL"><p><l></l><r>bi<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    <e><p><l>otro<s n="adj"/></l><r>atro<s n="adj"/></r></p></e>
 
     <e><p><l>dos<s n="num"/></l><r>dos<s n="num"/></r></p></e>
 
@@ -181,6 +182,7 @@
     <e><p><l>forma<s n="n"/></l><r>forma<s n="n"/></r></p></e>
     <e><p><l>página<s n="n"/></l><r>pachina<s n="n"/></r></p></e>
     <e><p><l>agua<s n="n"/></l><r>augua<s n="n"/></r></p></e>
+    <e><p><l>comarca<s n="n"/></l><r>comarca<s n="n"/></r></p></e>
     <e><p><l>ley<s n="n"/></l><r>lei<s n="n"/></r></p></e>
     <e><p><l>persona<s n="n"/></l><r>presona<s n="n"/></r></p></e>
     <e><p><l>adjetivo<s n="n"/></l><r>alchetibo<s n="n"/></r></p></e>
@@ -189,6 +191,9 @@
     <e><p><l>miembro<s n="n"/></l><r>miembro<s n="n"/></r></p></e>
     <e><p><l>toponimia<s n="n"/></l><r>toponimia<s n="n"/></r></p></e>
     <e><p><l>año<s n="n"/></l><r>anyo<s n="n"/></r></p></e>
+    <e><p><l>latín<s n="n"/></l><r>latín<s n="n"/></r></p></e>
+    <e><p><l>latino<s n="adj"/></l><r>latín<s n="adj"/></r></p></e>
+    <e><p><l>lenguaje<s n="n"/></l><r>luengache<s n="n"/></r></p></e>
     <e><p><l>amapola<s n="n"/><s n="f"/></l><r>ababol<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cerveza<s n="n"/></l><r>biera<s n="n"/></r></p></e>
     <e><p><l>estrella<s n="n"/></l><r>estrela<s n="n"/></r></p></e>
@@ -474,9 +479,11 @@
     <e><p><l>prioridad<s n="n"/></l><r>prioridat<s n="n"/></r></p></e>
     <e><p><l>probabilidad<s n="n"/></l><r>probabilidat<s n="n"/></r></p></e>
     <e><p><l>provincia<s n="n"/></l><r>probinzia<s n="n"/></r></p></e>
-    <e><p><l>productividad<s n="n"/></l><r>productibidat<s n="n"/></r></p></e>
+    <e><p><l>frontera<s n="n"/></l><r>muga<s n="n"/></r></p></e>
+    <e r="RL"><p><l>frontera<s n="n"/></l><r>güega<s n="n"/></r></p></e>
+    <e r="RL"><p><l>productividad<s n="n"/></l><r>productibidat<s n="n"/></r></p></e>
     <e><p><l>productividad<s n="n"/></l><r>productividat<s n="n"/></r></p></e>
-    <e><p><l>productividad<s n="n"/></l><r>produtibidat<s n="n"/></r></p></e>
+    <e r="RL"><p><l>productividad<s n="n"/></l><r>produtibidat<s n="n"/></r></p></e>
     <e><p><l>profundidad<s n="n"/></l><r>profundidat<s n="n"/></r></p></e>
     <e><p><l>proporcionalidad<s n="n"/></l><r>proporcionalidat<s n="n"/></r></p></e>
     <e><p><l>proximidad<s n="n"/></l><r>prosimidat<s n="n"/></r></p></e>
@@ -6042,6 +6049,7 @@
     <e><p><l>Pirineos<s n="np"/></l><r>Perineus<s n="np"/></r></p></e>
     <e r="RL"><p><l>Pirineos<s n="np"/></l><r>Perinés<s n="np"/></r></p></e>
     <e r="RL"><p><l>Pirineos<s n="np"/></l><r>Pirinés<s n="np"/></r></p></e>
+    <e><p><l>Huesca<s n="np"/></l><r>Uesca<s n="np"/></r></p></e>
     <e><i>abatible<s n="adj"/></i></e>
     <e><i>abdominal<s n="adj"/></i></e>
     <e><i>abertzale<s n="adj"/></i></e>
