@@ -49,6 +49,7 @@
     <sdef n="vbser" /> 
     <sdef n="vbhaver" /> 
     <sdef n="vblex" /> 
+    <sdef n="vbmod" /> 
     <sdef n="inf" /> 
     <sdef n="infps" /> 
     <sdef n="ger" 	c="Cherundio"/> 
@@ -4519,6 +4520,10 @@
     <e lm="logar"><i>log</i><par n="cant/ar__vblex"/></e>
     <e lm="fixar"><i>fix</i><par n="cant/ar__vblex"/></e>
     <e lm="estar"><i></i><par n="/estar__vbser"/></e>
+    <e lm="traucar"><i>trau</i><par n="trau/car__vblex"/></e>
+    <e lm="fer"><i>f</i><par n="f/er__vblex"/></e>
+    <e lm="poder"><i>p</i><par n="p/oder__vbmod"/></e>
+    <e lm="tener"><i>t</i><par n="t/ener__vblex"/></e>
     
     <e lm="aragonés"><i>aragon</i><par n="aragon/és__adj"/></e>
     <e lm="portugués"><i>portugu</i><par n="aragon/és__adj"/></e>
