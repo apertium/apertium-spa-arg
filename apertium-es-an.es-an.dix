@@ -860,6 +860,8 @@
     <e><p><l>ser<s n="vbser"/></l><r>estar<s n="vbser"/></r></p></e>
     <e><p><l>poder<s n="vbmod"/></l><r>poder<s n="vbmod"/></r></p></e>
     <e><p><l>tener<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
+    <e><p><l>editar<s n="vblex"/></l><r>editar<s n="vblex"/></r></p></e>
+    <e><p><l>modificar<s n="vblex"/></l><r>modificar<s n="vblex"/></r></p></e>
     <e><p><l>querer<s n="vblex"/></l><r>querer<s n="vblex"/></r></p></e>
     <e><p><l>querer<s n="vbmod"/></l><r>querer<s n="vbmod"/></r></p></e>
     <e><p><l>vivir<s n="vblex"/></l><r>bibir<s n="vblex"/></r></p></e>
@@ -3866,7 +3868,13 @@
     <e><p><l>ciclismo<s n="n"/></l><r>ziclismo<s n="n"/></r></p></e>
     <e><p><l>zoroastrianismo<s n="n"/></l><r>zoroastrianismo<s n="n"/></r></p></e>
     <e><p><l>zoroastrismo<s n="n"/></l><r>zoroastrismo<s n="n"/></r></p></e>
+    <e><p><l>copyright<s n="n"/></l><r>copyright<s n="n"/></r></p></e>
+    <e><p><l>regla<s n="n"/><s n="f"/></l><r>regle<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>portal<s n="n"/></l><r>portal<s n="n"/></r></p></e>
+    <e><p><l>mensaje<s n="n"/></l><r>mensache<s n="n"/></r></p></e>
     <e><p><l>etc.<s n="adv"/></l><r>etc.<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>aún<s n="adv"/></l><r>encara<s n="adv"/></r></p></e>
+    <e><p><l>todavía<s n="adv"/></l><r>encara<s n="adv"/></r></p></e>
     <e><p><l>activamente<s n="adv"/></l><r>activament<s n="adv"/></r></p></e>
     <e><p><l>actualmente<s n="adv"/></l><r>actualment<s n="adv"/></r></p></e>
     <e><p><l>aleatoriamente<s n="adv"/></l><r>aleatoriament<s n="adv"/></r></p></e>
