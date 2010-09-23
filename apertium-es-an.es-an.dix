@@ -104,7 +104,11 @@
     <e><p><l>masculino<s n="adj"/></l><r>masculín<s n="adj"/></r></p></e>
     <e><p><l>femenino<s n="adj"/></l><r>femenín<s n="adj"/></r></p></e>
     <e><p><l>occitano<s n="adj"/></l><r>oczitán<s n="adj"/></r></p></e>
-    <e><p><l>español<s n="adj"/></l><r>español<s n="adj"/></r></p></e>
+    <e><p><l>español<s n="adj"/></l><r>espanyol<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>español<s n="adj"/></l><r>español<s n="adj"/></r></p></e>
+    <e><p><l>español<s n="n"/></l><r>espanyol<s n="n"/></r></p></e>
+    <e r="RL"><p><l>español<s n="n"/></l><r>español<s n="n"/></r></p></e>
+    <e><p><l>primero<s n="adj"/></l><r>primer<s n="adj"/></r></p></e>
     <e><p><l>catalán<s n="adj"/></l><r>catalán<s n="adj"/></r></p></e>
     <e><p><l>italiano<s n="adj"/></l><r>italiano<s n="adj"/></r></p></e>
     <e><p><l>ortográfico<s n="adj"/></l><r>ortografico<s n="adj"/></r></p></e>
@@ -133,6 +137,8 @@
     <e><p><l>honorario<s n="adj"/></l><r>honorario<s n="adj"/></r></p></e>
     <e><p><l>extraordinario<s n="adj"/></l><r>extraordinario<s n="adj"/></r></p></e>
     <e><p><l>lingüístico<s n="adj"/></l><r>lingüistico<s n="adj"/></r></p></e>
+    <e><p><l>interlingüístico<s n="adj"/></l><r>interlingüistico<s n="adj"/></r></p></e>
+    <e><p><l>bienvenido<s n="adj"/></l><r>biemplegato<s n="adj"/></r></p></e>
     <e><p><l>mío<s n="adj"/></l><r>mío<s n="adj"/></r></p></e>
     <e><p><l>tuyo<s n="adj"/></l><r>tuyo<s n="adj"/></r></p></e>
     <e><p><l>suyo<s n="adj"/></l><r>suyo<s n="adj"/></r></p></e>
@@ -182,6 +188,7 @@
     <e><p><l>forma<s n="n"/></l><r>forma<s n="n"/></r></p></e>
     <e><p><l>página<s n="n"/></l><r>pachina<s n="n"/></r></p></e>
     <e><p><l>agua<s n="n"/></l><r>augua<s n="n"/></r></p></e>
+    <e><p><l>prueba<s n="n"/></l><r>prebatina<s n="n"/></r></p></e>
     <e><p><l>comarca<s n="n"/></l><r>comarca<s n="n"/></r></p></e>
     <e><p><l>país<s n="n"/></l><r>país<s n="n"/></r></p></e>
     <e><p><l>ley<s n="n"/></l><r>lei<s n="n"/></r></p></e>
@@ -195,6 +202,9 @@
     <e><p><l>año<s n="n"/></l><r>anyo<s n="n"/></r></p></e>
     <e><p><l>latín<s n="n"/></l><r>latín<s n="n"/></r></p></e>
     <e><p><l>latino<s n="adj"/></l><r>latín<s n="adj"/></r></p></e>
+    <e><p><l>pregunta<s n="n"/></l><r>pregunta<s n="n"/></r></p></e>
+    <e><p><l>frecuente<s n="adj"/></l><r>freqüent<s n="adj"/></r></p></e>
+    <e><p><l>completo<s n="adj"/></l><r>completo<s n="adj"/></r></p></e>
     <e><p><l>lenguaje<s n="n"/></l><r>luengache<s n="n"/></r></p></e>
     <e><p><l>amapola<s n="n"/><s n="f"/></l><r>ababol<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cerveza<s n="n"/></l><r>biera<s n="n"/></r></p></e>
@@ -839,13 +849,22 @@
     <e><p><l>equitación<s n="n"/></l><r>equitación<s n="n"/></r></p></e>
     <e><p><l>erradicación<s n="n"/></l><r>eradicación<s n="n"/></r></p></e>
     <e><p><l>erradicación<s n="n"/></l><r>erradicación<s n="n"/></r></p></e>
+    <e><p><l>recomendación<s n="n"/></l><r>recomendación<s n="n"/></r></p></e>
+    <e><p><l>presentación<s n="n"/></l><r>presentación<s n="n"/></r></p></e>
+    <e><p><l>indicación<s n="n"/></l><r>indicación<s n="n"/></r></p></e>
+    <e><p><l>recopilación<s n="n"/></l><r>recopilación<s n="n"/></r></p></e>
+    <e><p><l>crecimiento<s n="n"/></l><r>creiximiento<s n="n"/></r></p></e>
+    <e><p><l>proyecto<s n="n"/></l><r>prochecto<s n="n"/></r></p></e>
 
     <e><p><l>haber<s n="vbhaver"/></l><r>aber<s n="vbhaver"/></r></p></e>
     <e><p><l>poder<s n="vbmod"/></l><r>poder<s n="vbmod"/></r></p></e>
     <e><p><l>tener<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
     <e><p><l>vivir<s n="vblex"/></l><r>bibir<s n="vblex"/></r></p></e>
     <e><p><l>hacer<s n="vblex"/></l><r>fer<s n="vblex"/></r></p></e>
+    <e><p><l>consultar<s n="vblex"/></l><r>consultar<s n="vblex"/></r></p></e>
+    <e><p><l>completar<s n="vblex"/></l><r>completar<s n="vblex"/></r></p></e>
     <e><p><l>agujerear<s n="vblex"/></l><r>traucar<s n="vblex"/></r></p></e>
+    <e><p><l>recomendar<s n="vblex"/></l><r>recomendar<s n="vblex"/></r></p></e>
     <e><p><l>cantar<s n="vblex"/></l><r>cantar<s n="vblex"/></r></p></e>
     <e><p><l>visitar<s n="vblex"/></l><r>besitar<s n="vblex"/></r></p></e>
     <e><p><l>procurar<s n="vblex"/></l><r>procurar<s n="vblex"/></r></p></e>
@@ -3844,6 +3863,7 @@
     <e><p><l>ciclismo<s n="n"/></l><r>ziclismo<s n="n"/></r></p></e>
     <e><p><l>zoroastrianismo<s n="n"/></l><r>zoroastrianismo<s n="n"/></r></p></e>
     <e><p><l>zoroastrismo<s n="n"/></l><r>zoroastrismo<s n="n"/></r></p></e>
+    <e><p><l>etc.<s n="adv"/></l><r>etc.<s n="adv"/></r></p></e>
     <e><p><l>activamente<s n="adv"/></l><r>activament<s n="adv"/></r></p></e>
     <e><p><l>actualmente<s n="adv"/></l><r>actualment<s n="adv"/></r></p></e>
     <e><p><l>aleatoriamente<s n="adv"/></l><r>aleatoriament<s n="adv"/></r></p></e>
