@@ -84,6 +84,8 @@
     <e><p><l>el<s n="det"/></l><r>o<s n="det"/></r></p></e>
     <e><p><l>ese<s n="det"/></l><r>ixe<s n="det"/></r></p></e>
     <e><p><l>este<s n="det"/></l><r>iste<s n="det"/></r></p></e>
+    <e><p><l>y<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
+    <e r="RL"><p><l>y<s n="cnjcoo"/></l><r>i<s n="cnjcoo"/></r></p></e>
     <e r="RL"><p><l>este<s n="det"/></l><r>este<s n="det"/></r></p></e>
     <e r="RL"><p><l></l><r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
     <e r="RL"><p><l></l><r>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
@@ -92,6 +94,32 @@
     <e><p><l>otro<s n="adj"/></l><r>atro<s n="adj"/></r></p></e>
 
     <e><p><l>dos<s n="num"/></l><r>dos<s n="num"/></r></p></e>
+    <e><p><l>tres<s n="num"/></l><r>tres<s n="num"/></r></p></e>
+    <e><i>C<s n="num"/></i></e>
+    <e><i>D<s n="num"/></i></e>
+    <e><i>I<s n="num"/></i></e>
+    <e><i>II<s n="num"/></i></e>
+    <e><i>III<s n="num"/></i></e>
+    <e><i>IV<s n="num"/></i></e>
+    <e><i>IX<s n="num"/></i></e>
+    <e><i>L<s n="num"/></i></e>
+    <e><i>M<s n="num"/></i></e>
+    <e><i>V<s n="num"/></i></e>
+    <e><i>VI<s n="num"/></i></e>
+    <e><i>VII<s n="num"/></i></e>
+    <e><i>VIII<s n="num"/></i></e>
+    <e><i>X<s n="num"/></i></e>
+    <e><i>XI<s n="num"/></i></e>
+    <e><i>XII<s n="num"/></i></e>
+    <e><i>XIII<s n="num"/></i></e>
+    <e><i>XIV<s n="num"/></i></e>
+    <e><i>XIX<s n="num"/></i></e>
+    <e><i>XV<s n="num"/></i></e>
+    <e><i>XVI<s n="num"/></i></e>
+    <e><i>XVII<s n="num"/></i></e>
+    <e><i>XVIII<s n="num"/></i></e>
+    <e><i>XX<s n="num"/></i></e>
+    <e><i>XXI<s n="num"/></i></e>
 
     <e><p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
     <e><p><l>sobre<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
@@ -119,6 +147,7 @@
     <e r="RL"><p><l>español<s n="n"/></l><r>español<s n="n"/></r></p></e>
     <e><p><l>primero<s n="adj"/></l><r>primer<s n="adj"/></r></p></e>
     <e><p><l>catalán<s n="adj"/></l><r>catalán<s n="adj"/></r></p></e>
+    <e><p><l>castellano<s n="adj"/></l><r>castellán<s n="adj"/></r></p></e>
     <e><p><l>italiano<s n="adj"/></l><r>italiano<s n="adj"/></r></p></e>
     <e><p><l>ortográfico<s n="adj"/></l><r>ortografico<s n="adj"/></r></p></e>
     <e><p><l>fonético<s n="adj"/></l><r>fonetico<s n="adj"/></r></p></e>
@@ -133,6 +162,7 @@
     <e><p><l>cultural<s n="adj"/></l><r>cultural<s n="adj"/></r></p></e>
     <e><p><l>general<s n="adj"/></l><r>cheneral<s n="adj"/></r></p></e>
     <e><p><l>internacional<s n="adj"/></l><r>internazional<s n="adj"/></r></p></e>
+    <e><p><l>nacional<s n="adj"/></l><r>nazional<s n="adj"/></r></p></e>
     <e><p><l>universal<s n="adj"/></l><r>unibersal<s n="adj"/></r></p></e>
     <e><p><l>gramatical<s n="adj"/></l><r>gramatical<s n="adj"/></r></p></e>
     <e><p><l>provisional<s n="adj"/></l><r>provisional<s n="adj"/></r></p></e>
@@ -141,6 +171,8 @@
     <e><p><l>oral<s n="adj"/></l><r>oral<s n="adj"/></r></p></e>
     <e><p><l>actual<s n="adj"/></l><r>actual<s n="adj"/></r></p></e>
     <e><p><l>humano<s n="adj"/></l><r>uman<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>humano<s n="adj"/></l><r>umano<s n="adj"/></r></p></e>
+    <e><p><l>público<s n="adj"/></l><r>publico<s n="adj"/></r></p></e>
     <e><p><l>externo<s n="adj"/></l><r>externo<s n="adj"/></r></p></e>
     <e><p><l>jurídico<s n="adj"/></l><r>churidico<s n="adj"/></r></p></e>
     <e><p><l>honorario<s n="adj"/></l><r>honorario<s n="adj"/></r></p></e>
@@ -166,10 +198,14 @@
     <e><p><l>después<s n="adv"/></l><r>dimpués<s n="adv"/></r></p></e>
 
     <e><p><l>lengua<s n="n"/></l><r>luenga<s n="n"/></r></p></e>
+    <e><p><l>distancia<s n="n"/></l><r>distanzia<s n="n"/></r></p></e>
     <e><p><l>superficie<s n="n"/></l><r>superficie<s n="n"/></r></p></e>
     <e r="RL"><p><l>superficie<s n="n"/></l><r>superfizie<s n="n"/></r></p></e>
     <e><p><l>capital<s n="n"/></l><r>capital<s n="n"/></r></p></e>
     <e><p><l>capital<s n="adj"/></l><r>capital<s n="adj"/></r></p></e>
+    <e><p><l>grande<s n="adj"/></l><r>gran<s n="adj"/></r></p></e>
+    <e><p><l>mejor<s n="adj"/></l><r>millor<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>mejor<s n="adj"/></l><r>meyor<s n="adj"/></r></p></e>
     <e><p><l>término<s n="n"/></l><r>termin<s n="n"/></r></p></e>
     <e r="RL"><p><l>término<s n="n"/></l><r>termino<s n="n"/></r></p></e>
     <e r="RL"><p><l>término<s n="n"/></l><r>termen<s n="n"/></r></p></e>
@@ -209,11 +245,15 @@
     <e><p><l>miembro<s n="n"/></l><r>miembro<s n="n"/></r></p></e>
     <e><p><l>toponimia<s n="n"/></l><r>toponimia<s n="n"/></r></p></e>
     <e><p><l>año<s n="n"/></l><r>anyo<s n="n"/></r></p></e>
+    <e r="RL"><p><l>año<s n="n"/></l><r>año<s n="n"/></r></p></e>
+    <e><p><l>parte<s n="n"/></l><r>parte<s n="n"/></r></p></e>
+    <e r="RL"><p><l>parte<s n="n"/></l><r>parti<s n="n"/></r></p></e>
     <e><p><l>latín<s n="n"/></l><r>latín<s n="n"/></r></p></e>
     <e><p><l>latino<s n="adj"/></l><r>latín<s n="adj"/></r></p></e>
     <e><p><l>pregunta<s n="n"/></l><r>pregunta<s n="n"/></r></p></e>
     <e><p><l>frecuente<s n="adj"/></l><r>freqüent<s n="adj"/></r></p></e>
     <e><p><l>completo<s n="adj"/></l><r>completo<s n="adj"/></r></p></e>
+    <e><p><l>unido<s n="adj"/></l><r>unito<s n="adj"/></r></p></e>
     <e><p><l>lenguaje<s n="n"/></l><r>luengache<s n="n"/></r></p></e>
     <e><p><l>amapola<s n="n"/><s n="f"/></l><r>ababol<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cerveza<s n="n"/></l><r>biera<s n="n"/></r></p></e>
@@ -221,6 +261,34 @@
     <e><p><l>categoría<s n="n"/></l><r>categoría<s n="n"/></r></p></e>
     <e><p><l>subcategoría<s n="n"/></l><r>subcategoría<s n="n"/></r></p></e>
     <e><p><l>protección<s n="n"/></l><r>proteción<s n="n"/></r></p></e>
+    <e><p><l>condición<s n="n"/></l><r>condición<s n="n"/></r></p></e>
+    <e><p><l>nación<s n="n"/></l><r>nación<s n="n"/></r></p></e>
+    <e><p><l>norte<s n="n"/></l><r>norte<s n="n"/></r></p></e>
+    <e><p><l>oeste<s n="n"/></l><r>ueste<s n="n"/></r></p></e>
+    <e><p><l>este<s n="n"/></l><r>este<s n="n"/></r></p></e>
+    <e><p><l>origen<s n="n"/></l><r>orichen<s n="n"/></r></p></e>
+    <e><p><l>cuaresma<s n="n"/></l><r>cuaresma<s n="n"/></r></p></e>
+    <e><p><l>b<s n="n"/></l><r>b<s n="n"/></r></p></e>
+    <e><p><l>c<s n="n"/></l><r>c<s n="n"/></r></p></e>
+    <e><p><l>d<s n="n"/></l><r>d<s n="n"/></r></p></e>
+    <e><p><l>f<s n="n"/></l><r>f<s n="n"/></r></p></e>
+    <e><p><l>g<s n="n"/></l><r>g<s n="n"/></r></p></e>
+    <e><p><l>h<s n="n"/></l><r>h<s n="n"/></r></p></e>
+    <e><p><l>j<s n="n"/></l><r>j<s n="n"/></r></p></e>
+    <e><p><l>k<s n="n"/></l><r>k<s n="n"/></r></p></e>
+    <e><p><l>l<s n="n"/></l><r>l<s n="n"/></r></p></e>
+    <e><p><l>m<s n="n"/></l><r>m<s n="n"/></r></p></e>
+    <e><p><l>n<s n="n"/></l><r>n<s n="n"/></r></p></e>
+    <e><p><l>p<s n="n"/></l><r>p<s n="n"/></r></p></e>
+    <e><p><l>q<s n="n"/></l><r>q<s n="n"/></r></p></e>
+    <e><p><l>r<s n="n"/></l><r>r<s n="n"/></r></p></e>
+    <e><p><l>s<s n="n"/></l><r>s<s n="n"/></r></p></e>
+    <e><p><l>t<s n="n"/></l><r>t<s n="n"/></r></p></e>
+    <e><p><l>v<s n="n"/></l><r>v<s n="n"/></r></p></e>
+    <e><p><l>w<s n="n"/></l><r>w<s n="n"/></r></p></e>
+    <e><p><l>x<s n="n"/></l><r>x<s n="n"/></r></p></e>
+    <e><p><l>matrimonio<s n="n"/></l><r>matrimonio<s n="n"/></r></p></e>
+    <e><p><l>trabajo<s n="n"/></l><r>treballo<s n="n"/></r></p></e>
     <e><p><l>libertad<s n="n"/></l><r>libertat<s n="n"/></r></p></e>
     <e><p><l>religión<s n="n"/></l><r>relichión<s n="n"/></r></p></e>
     <e><p><l>división<s n="n"/></l><r>división<s n="n"/></r></p></e>
