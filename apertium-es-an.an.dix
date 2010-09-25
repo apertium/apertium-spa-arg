@@ -685,7 +685,46 @@
         <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
       </p>
     </e>
-
+    </pardef>
+    <pardef n="en__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="pro"/><s n="adv"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="te__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="nos__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="me__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="os__prn">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
     </pardef>
     <pardef n="/estar__vbser">
     <e>
@@ -5496,6 +5535,44 @@
       </p>
     </e>
     </pardef>
+    <pardef n="europe/u__adj">
+    <e>
+      <p>
+        <l>u</l>
+        <r>u<s n="adj"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>us</l>
+        <r>u<s n="adj"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ya</l>
+        <r>u<s n="adj"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>yas</l>
+        <r>u<s n="adj"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>a</l>
+        <r>u<s n="adj"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>as</l>
+        <r>u<s n="adj"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    </pardef>
     <pardef n="aragon/és__adj">
     <e>
       <p>
@@ -6253,6 +6330,9 @@
     <e lm="yo"><i>yo</i><par n="yo__prn"/></e>
     <e lm="tú"><i>tú</i><par n="tú__prn"/></e>
     <e lm="él"><i></i><par n="/él__prn"/></e>
+    <e lm="me"><i>me</i><par n="me__prn"/></e>
+    <e lm="te"><i>te</i><par n="te__prn"/></e>
+    <e lm="bi"><i>bi</i><par n="en__prn"/></e>
     <e lm="ixo"><i>ixo</i><par n="ixo__prn"/></e>
     <e lm="isto"><i>isto</i><par n="ixo__prn"/></e>
     <e lm="esto"><i>esto</i><par n="ixo__prn"/></e>
@@ -6353,6 +6433,7 @@
     <e lm="espanyol"><i>espanyol</i><par n="español__adj"/></e>
     <e lm="uman"><i>uman</i><par n="español__adj"/></e>
     <e lm="primer"><i>primer</i><par n="primer__adj"/></e>
+    <e lm="europeu"><i>europe</i><par n="europe/u__adj"/></e>
     <e lm="unito"><i>unit</i><par n="italian/o__adj"/></e>
     <e lm="italiano"><i>italian</i><par n="italian/o__adj"/></e>
     <e lm="sovietico"><i>sovietic</i><par n="italian/o__adj"/></e>
@@ -6391,7 +6472,15 @@
     <e lm="capital"><i>capital</i><par n="social__adj"/></e>
 
     <e lm="país"><i>país</i><par n="país__n"/></e>
+    <e lm="araina"><i>araina</i><par n="luenga__n"/></e>
+    <e lm="almondiga"><i>almondiga</i><par n="luenga__n"/></e>
+    <e lm="archila"><i>archila</i><par n="luenga__n"/></e>
+    <e lm="arquiteutura"><i>arquiteutura</i><par n="luenga__n"/></e>
+    <e lm="artesanía"><i>artesanía</i><par n="luenga__n"/></e>
     <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
+    <e lm="au"><i>au</i><par n="luenga__n"/></e>
+    <e lm="abe"><i>abe</i><par n="luenga__n"/></e>
+    <e lm="abella"><i>abella</i><par n="luenga__n"/></e>
     <e lm="parte"><i>parte</i><par n="luenga__n"/></e>
     <e lm="parti"><i>parti</i><par n="luenga__n"/></e>
     <e lm="distanzia"><i>distanzia</i><par n="luenga__n"/></e>
@@ -6424,6 +6513,23 @@
     <e lm="km"><i>km</i><par n="campus__n"/></e>
     <e lm="abitant"><i>abitant</i><par n="accionista__n"/></e>
 
+    <e lm="chinero"><i>chinero</i><par n="libro__n"/></e>
+    <e lm="febrero"><i>febrero</i><par n="libro__n"/></e>
+    <e lm="marzo"><i>marzo</i><par n="libro__n"/></e>
+    <e lm="abril"><i>abril</i><par n="libro__n"/></e>
+    <e lm="mayo"><i>mayo</i><par n="libro__n"/></e>
+    <e lm="chunio"><i>chunio</i><par n="libro__n"/></e>
+    <e lm="chulio"><i>chulio</i><par n="libro__n"/></e>
+    <e lm="agosto"><i>agosto</i><par n="libro__n"/></e>
+    <e lm="setiembre"><i>setiembre</i><par n="libro__n"/></e>
+    <e lm="otubre"><i>otubre</i><par n="libro__n"/></e>
+    <e lm="nobiembre"><i>nobiembre</i><par n="libro__n"/></e>
+    <e lm="abiento"><i>abiento</i><par n="libro__n"/></e>
+    <e lm="abiso"><i>abiso</i><par n="libro__n"/></e>
+    <e lm="ruello"><i>ruello</i><par n="libro__n"/></e>
+    <e lm="alberje"><i>alberje</i><par n="libro__n"/></e>
+    <e lm="alfabeto"><i>alfabeto</i><par n="libro__n"/></e>
+    <e lm="animal"><i>animal</i><par n="libro__n"/></e>
     <e lm="copyright"><i>copyright</i><par n="libro__n"/></e>
     <e lm="orichen"><i>orichen</i><par n="libro__n"/></e>
     <e lm="regle"><i>regle</i><par n="libro__n"/></e>
@@ -13463,6 +13569,9 @@
     <e lm="Chibraltar"><i>Chibraltar</i><par n="Afganistán__np"/></e>
     <e lm="Guernési"><i>Guernési</i><par n="Afganistán__np"/></e>
     <e lm="Jèrri"><i>Jèrri</i><par n="Afganistán__np"/></e>
+    <e lm="Alaba"><i>Alaba</i><par n="Afganistán__np"/></e>
+    <e lm="Alicán"><i>Alicán</i><par n="Afganistán__np"/></e>
+    <e lm="Andaluzia"><i>Andaluzia</i><par n="Afganistán__np"/></e>
   </section>
   <section id="apostrophes" type="postblank">
     <e r="LR" lm="d'"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
@@ -13470,6 +13579,8 @@
     <e r="LR" lm="l'"><p><l>l'</l><r>o<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="LR" lm="l'"><p><l>l'</l><r>o<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR" lm="n'"><p><l>n'</l><r>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    <e r="LR" lm="m'"><p><l>m'</l><r>me</r></p><par n="me__prn"/></e>
+    <e r="LR" lm="t'"><p><l>t'</l><r>te</r></p><par n="te__prn"/></e>
   </section>
   <section id="regexp" type="standard">
     <e><par n="numeros"/></e>
