@@ -678,6 +678,65 @@
       </p>
     </e>
     </pardef>
+    <pardef n="aquel__det">
+    <e>
+      <p>
+        <l>las</l> 
+        <r><s n="det"/><s n="dem"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>la</l> 
+        <r><s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>los</l> 
+        <r><s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>s</l> 
+        <r><s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="bel__det">
+    <e>
+      <p>
+        <l>las</l> 
+        <r><s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>la</l> 
+        <r><s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>s</l> 
+        <r><s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+
     <pardef n="tú__prn">
     <e>
       <p>
@@ -5221,6 +5280,33 @@
       </p>
     </e>
     </pardef>
+    <pardef n="venti/ún__num">
+    <e>
+      <p>
+        <l>una</l> 
+        <r>uno<s n="num"/><s n="f"/><s n="sp"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ún</l> 
+        <r>uno<s n="num"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>uno</l> 
+        <r>uno<s n="num"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>úno</l> 
+        <r>uno<s n="num"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+    </pardef>
+
     <pardef n="un__det">
     <e>
       <p>
@@ -6340,6 +6426,8 @@
     <e lm="ixe"><i>ix</i><par n="ix/e__det"/></e>
     <e lm="iste"><i>ist</i><par n="ix/e__det"/></e>
     <e lm="este"><i>est</i><par n="ix/e__det"/></e>
+    <e lm="bel"><i>bel</i><par n="bel__det"/></e>
+    <e lm="aquel"><i>aquel</i><par n="aquel__det"/></e>
     <e lm="nusatros"><i>nus</i><par n="nus/atros__prn"/></e>
     <e lm="busatros"><i>bus</i><par n="bus/atros__prn"/></e>
         
