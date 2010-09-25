@@ -39,6 +39,7 @@
     <sdef n="vbser"/>
     <sdef n="vbhaver"/>
     <sdef n="vblex"/>
+    <sdef n="vbmod"/>
     <sdef n="inf"/>
     <sdef n="infps"/>
     <sdef n="ger"/>
@@ -151,6 +152,7 @@
     <e><p><l>catalán<s n="adj"/></l><r>catalán<s n="adj"/></r></p></e>
     <e><p><l>castellano<s n="adj"/></l><r>castellán<s n="adj"/></r></p></e>
     <e><p><l>italiano<s n="adj"/></l><r>italiano<s n="adj"/></r></p></e>
+    <e><p><l>académico<s n="adj"/></l><r>academico<s n="adj"/></r></p></e>
     <e><p><l>ortográfico<s n="adj"/></l><r>ortografico<s n="adj"/></r></p></e>
     <e><p><l>fonético<s n="adj"/></l><r>fonetico<s n="adj"/></r></p></e>
     <e><p><l>académico<s n="adj"/></l><r>academico<s n="adj"/></r></p></e>
@@ -187,6 +189,13 @@
     <e><p><l>suyo<s n="adj"/></l><r>suyo<s n="adj"/></r></p></e>
     <e><p><l>nuestro<s n="adj"/></l><r>nuestro<s n="adj"/></r></p></e>
     <e><p><l>vuestro<s n="adj"/></l><r>buestro<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>mío<s n="adj"/></l><r>o<b/>mío<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>tuyo<s n="adj"/></l><r>o<b/>tuyo<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>suyo<s n="adj"/></l><r>o<b/>suyo<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>nuestro<s n="adj"/></l><r>o<b/>nuestro<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>vuestro<s n="adj"/></l><r>o<b/>buestro<s n="adj"/></r></p></e>
+
+    <e><p><l>hola<s n="ij"/></l><r>ola<s n="ij"/></r></p></e>
 
     <e><p><l>no<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
     <e><p><l>mismo<s n="adv"/></l><r>mesmo<s n="adv"/></r></p></e>
@@ -2099,6 +2108,7 @@
     <e><i>Josué<s n="np"/></i></e>
     <e><i>José<s n="np"/></i></e>
     <e><i>Juan<s n="np"/></i></e>
+    <e><i>Chuan<s n="np"/></i></e>
     <e><i>Juana<s n="np"/></i></e>
     <e><i>Judas<s n="np"/></i></e>
     <e><i>Juli<s n="np"/></i></e>
