@@ -74,8 +74,25 @@
   <section id="main" type="standard">
     <e><p><l>yo<s n="prn"/><s n="tn"/></l><r>yo<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>me<s n="prn"/><s n="pro"/></l><r>me<s n="prn"/><s n="pro"/></r></p></e>
+    <e><p><l>me<s n="prn"/><s n="enc"/></l><r>me<s n="prn"/><s n="enc"/></r></p></e>
     <e><p><l>tú<s n="prn"/><s n="tn"/></l><r>tú<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>te<s n="prn"/><s n="pro"/></l><r>te<s n="prn"/><s n="pro"/></r></p></e>
+    <e><p><l>te<s n="prn"/><s n="enc"/></l><r>te<s n="prn"/><s n="enc"/></r></p></e>
+    <e><p><l>lo<s n="prn"/><s n="pro"/></l><r>lo<s n="prn"/><s n="pro"/></r></p></e>
+    <e><p><l>lo<s n="prn"/><s n="enc"/></l><r>lo<s n="prn"/><s n="enc"/></r></p></e>
+    <e><p><l>le<s n="prn"/><s n="pro"/></l><r>le<s n="prn"/><s n="pro"/></r></p></e>
+    <e><p><l>le<s n="prn"/><s n="enc"/></l><r>le<s n="prn"/><s n="enc"/></r></p></e>
+    <e><p><l>nos<s n="prn"/><s n="pro"/></l><r>nos<s n="prn"/><s n="pro"/></r></p></e>
+    <e><p><l>nos<s n="prn"/><s n="enc"/></l><r>nos<s n="prn"/><s n="enc"/></r></p></e>
+    <e><p><l>os<s n="prn"/><s n="pro"/></l><r>bos<s n="prn"/><s n="pro"/></r></p></e>
+    <e><p><l>os<s n="prn"/><s n="enc"/></l><r>bos<s n="prn"/><s n="enc"/></r></p></e>
+    <e r="RL"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="ND"/></r></p></e>
+    <e r="RL"><p><l>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="RL"><p><l>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="ND"/></r></p></e>
     <e><p><l>él<s n="prn"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>aquello<s n="prn"/><s n="tn"/></l><r>ixo<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>esto<s n="prn"/><s n="tn"/></l><r>isto<s n="prn"/><s n="tn"/></r></p></e>
@@ -107,14 +124,30 @@
     <e><p><l>a<b/>fin<b/>de<b/>que<s n="cnjadv"/></l><r>a<b/>fin<b/>de<b/>que<s n="cnjadv"/></r></p></e>
     <e><p><l>sino<s n="cnjcoo"/></l><r>sino<s n="cnjcoo"/></r></p></e>
     <e><p><l>o<s n="cnjcoo"/></l><r>u<s n="cnjcoo"/></r></p></e>
+    <e><p><l>pero<s n="cnjcoo"/></l><r>pero<s n="cnjcoo"/></r></p></e>
     <e><p><l>acá<s n="adv"/></l><r>acá<s n="adv"/></r></p></e>
     <e><p><l>allá<s n="adv"/></l><r>allá<s n="adv"/></r></p></e>
     <e><p><l>allí<s n="adv"/></l><r>allí<s n="adv"/></r></p></e>
     <e><p><l>dentro<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
+    <e><p><l>debajo<s n="adv"/></l><r>debaixo<s n="adv"/></r></p></e>
+    <e><p><l>debajo<b/>de<s n="pr"/></l><r>debaixo<b/>de<s n="pr"/></r></p></e>
     <e><p><l>adiós<s n="ij"/></l><r>adiós<s n="ij"/></r></p></e>
-    <e><p><l>aleluya<s n="ij"/></l><r>aleluyah<s n="ij"/></r></p></e>
+    <e><p><l>aleluya<s n="ij"/></l><r>aleluya<s n="ij"/></r></p></e>
+    <e><p><l>bueno<s n="ij"/></l><r>bueno<s n="ij"/></r></p></e>
+    <e><p><l>ay<s n="ij"/></l><r>ai<s n="ij"/></r></p></e>
+    <e><p><l>ah<s n="ij"/></l><r>ah<s n="ij"/></r></p></e>
+    <e><p><l>buenas<b/>tardes<s n="ij"/></l><r>buenas<b/>tardes<s n="ij"/></r></p></e>
+    <e r="RL"><p><l>buenas<b/>tardes<s n="ij"/></l><r>buena<b/>tarde<s n="ij"/></r></p></e>
+    <e><p><l>buenos<b/>días<s n="ij"/></l><r>buenos<b/>días<s n="ij"/></r></p></e>
+    <e><p><l>buen<b/>día<s n="ij"/></l><r>buen<b/>día<s n="ij"/></r></p></e>
+    <e><p><l>Dios<b/>me<b/>guarda<s n="ij"/></l><r>Dios<b/>me'n<b/>guarde<s n="ij"/></r></p></e>
+    <e><p><l>que<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
+    <e><p><l>que<b/>no<s n="cnjsub"/></l><r>que<b/>no<s n="cnjsub"/></r></p></e>
+    <e r="RL"><p><l>que<b/>no<s n="cnjsub"/></l><r>que<b/>no<b/>pas<s n="cnjsub"/></r></p></e>
     <e><p><l>contra<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
     <e c="check"><p><l>para<s n="pr"/></l><r>ta<s n="pr"/></r></p></e>
+    <e><p><l>por<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
+    <e><p><l>junto<b/>a<s n="pr"/></l><r>chunto<b/>á<s n="pr"/></r></p></e>
 
     <e><p><l>dos<s n="num"/></l><r>dos<s n="num"/></r></p></e>
     <e><p><l>tres<s n="num"/></l><r>tres<s n="num"/></r></p></e>
@@ -218,6 +251,7 @@
     <e r="RL"><p><l>vuestro<s n="adj"/></l><r>o<b/>buestro<s n="adj"/></r></p></e>
 
     <e><p><l>hola<s n="ij"/></l><r>ola<s n="ij"/></r></p></e>
+    <e><p><l>buenas<b/>noches<s n="ij"/></l><r>buena<b/>nueit<s n="ij"/></r></p></e>
 
     <e><p><l>no<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
     <e><p><l>mismo<s n="adv"/></l><r>mesmo<s n="adv"/></r></p></e>
@@ -1047,6 +1081,7 @@
     <e><p><l>poder<s n="vbmod"/></l><r>poder<s n="vbmod"/></r></p></e>
     <e><p><l>tener<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
     <e><p><l>editar<s n="vblex"/></l><r>editar<s n="vblex"/></r></p></e>
+    <e><p><l>llorar<s n="vblex"/></l><r>plorar<s n="vblex"/></r></p></e>
     <e><p><l>modificar<s n="vblex"/></l><r>modificar<s n="vblex"/></r></p></e>
     <e><p><l>querer<s n="vblex"/></l><r>querer<s n="vblex"/></r></p></e>
     <e><p><l>querer<s n="vbmod"/></l><r>querer<s n="vbmod"/></r></p></e>
