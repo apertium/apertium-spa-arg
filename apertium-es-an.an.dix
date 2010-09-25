@@ -6066,6 +6066,56 @@
       </p>
     </e>
     </pardef>
+    <pardef n="abstract/o__adj">
+    <e>
+      <p>
+        <l>o</l>
+        <r>o<s n="adj"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>os</l>
+        <r>o<s n="adj"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>a</l>
+        <r>o<s n="adj"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>as</l>
+        <r>o<s n="adj"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ismo</l>
+        <r>o<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ismos</l>
+        <r>o<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>isma</l>
+        <r>o<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ismas</l>
+        <r>o<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    </pardef>
     <pardef n="italian/o__adj">
     <e>
       <p>
@@ -6073,28 +6123,24 @@
         <r>o<s n="adj"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
-
     <e>
       <p>
         <l>os</l>
         <r>o<s n="adj"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
-
     <e>
       <p>
         <l>a</l>
         <r>o<s n="adj"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
-
     <e>
       <p>
         <l>as</l>
         <r>o<s n="adj"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
-
     </pardef>
     <pardef n="social__adj">
     <e>
@@ -6806,8 +6852,9 @@
     <e lm="capital"><i>capital</i><par n="social__adj"/></e>
     <e lm="abrupto"><i>abrupt</i><par n="italian/o__adj"/></e>
     <e lm="absoluto"><i>absolut</i><par n="italian/o__adj"/></e>
-    <e lm="abstracto"><i>abstract</i><par n="italian/o__adj"/></e>
-    <e lm="absurdo"><i>absurd</i><par n="italian/o__adj"/></e>
+    <e lm="abstracto"><i>abstract</i><par n="abstract/o__adj"/></e>
+    <e lm="absurdo"><i>absurd</i><par n="abstract/o__adj"/></e>
+    <e lm="muito"><i>muit</i><par n="abstract/o__adj"/></e>
     <e lm="académico"><i>académic</i><par n="italian/o__adj"/></e>
     <e lm="acertado"><i>acertad</i><par n="italian/o__adj"/></e>
     <e lm="activo"><i>activ</i><par n="italian/o__adj"/></e>
@@ -7899,6 +7946,8 @@
     <e lm="honor"><i>honor</i><par n="libro__n"/></e>
     <e lm="miembro"><i>miembro</i><par n="libro__n"/></e>
     <e lm="luengache"><i>luengache</i><par n="libro__n"/></e>
+    <e lm="imperio"><i>imperio</i><par n="libro__n"/></e>
+    <e lm="premio"><i>premio</i><par n="libro__n"/></e>
     
     <e lm="relichión"><i>relichi</i><par n="divisi/ón__n"/></e>
     <e lm="división"><i>divisi</i><par n="divisi/ón__n"/></e>
@@ -8710,6 +8759,7 @@
 
 <!--Adverbios-->
     <e lm="autualment"><i>autualment</i><par n="agora__adv"/></e>
+    <e lm="bien"><i>bien</i><par n="agora__adv"/></e>
     <e lm="encara"><i>encara</i><par n="agora__adv"/></e>
     <e lm="incara"><i>incara</i><par n="agora__adv"/></e>
     <e lm="mesmo"><i>mesmo</i><par n="agora__adv"/></e>
@@ -11588,6 +11638,7 @@
     <e lm="norte"><i>norte</i><par n="atletismo__n"/></e>
     <e lm="ueste"><i>ueste</i><par n="atletismo__n"/></e>
     <e lm="este"><i>este</i><par n="atletismo__n"/></e>
+    <e lm="sud"><i>sud</i><par n="atletismo__n"/></e>
     <e lm="autodeterminismo"><i>autodeterminismo</i><par n="libro__n"/></e>
     <e lm="automobilismo"><i>automobilismo</i><par n="libro__n"/></e>
     <e lm="automovilismo"><i>automovilismo</i><par n="libro__n"/></e>
