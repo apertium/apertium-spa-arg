@@ -206,6 +206,12 @@
     <e><p><l>grande<s n="adj"/></l><r>gran<s n="adj"/></r></p></e>
     <e><p><l>mejor<s n="adj"/></l><r>millor<s n="adj"/></r></p></e>
     <e r="RL"><p><l>mejor<s n="adj"/></l><r>meyor<s n="adj"/></r></p></e>
+    <e><p><l>europeo<s n="adj"/></l><r>europeu<s n="adj"/></r></p></e>
+    <e><p><l>abeja<s n="n"/></l><r>abella<s n="n"/></r></p></e>
+    <e><p><l>aviso<s n="n"/></l><r>abiso<s n="n"/></r></p></e>
+    <e><p><l>albaricoque<s n="n"/></l><r>alberje<s n="n"/></r></p></e>
+    <e><p><l>animal<s n="n"/></l><r>animal<s n="n"/></r></p></e>
+    <e><p><l>alfabeto<s n="n"/></l><r>alfabeto<s n="n"/></r></p></e>
     <e><p><l>término<s n="n"/></l><r>termin<s n="n"/></r></p></e>
     <e r="RL"><p><l>término<s n="n"/></l><r>termino<s n="n"/></r></p></e>
     <e r="RL"><p><l>término<s n="n"/></l><r>termen<s n="n"/></r></p></e>
@@ -214,6 +220,26 @@
     <e><p><l>lugar<s n="n"/></l><r>lugar<s n="n"/></r></p></e>
     <e><p><l>honor<s n="n"/></l><r>honor<s n="n"/></r></p></e>
     <e><p><l>libro<s n="n"/></l><r>libro<s n="n"/></r></p></e>
+    <e><p><l>albóndiga<s n="n"/></l><r>almondiga<s n="n"/></r></p></e>
+    <e><p><l>araña<s n="n"/></l><r>araina<s n="n"/></r></p></e>
+    <e><p><l>arcilla<s n="n"/></l><r>archila<s n="n"/></r></p></e>
+    <e><p><l>arquitectura<s n="n"/></l><r>arquiteutura<s n="n"/></r></p></e>
+    <e><p><l>artesanía<s n="n"/></l><r>artesanía<s n="n"/></r></p></e>
+    <e><p><l>muela<s n="n"/><s n="f"/></l><r>ruello<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ave<s n="n"/></l><r>au<s n="n"/></r></p></e>
+    <e r="RL"><p><l>ave<s n="n"/></l><r>abe<s n="n"/></r></p></e>
+    <e><p><l>enero<s n="n"/></l><r>chinero<s n="n"/></r></p></e>
+    <e><p><l>febrero<s n="n"/></l><r>febrero<s n="n"/></r></p></e>
+    <e><p><l>marzo<s n="n"/></l><r>marzo<s n="n"/></r></p></e>
+    <e><p><l>abril<s n="n"/></l><r>abril<s n="n"/></r></p></e>
+    <e><p><l>mayo<s n="n"/></l><r>mayo<s n="n"/></r></p></e>
+    <e><p><l>junio<s n="n"/></l><r>chunio<s n="n"/></r></p></e>
+    <e><p><l>julio<s n="n"/></l><r>chulio<s n="n"/></r></p></e>
+    <e><p><l>agost<s n="n"/></l><r>agosto<s n="n"/></r></p></e>
+    <e><p><l>septiembre<s n="n"/></l><r>setiembre<s n="n"/></r></p></e>
+    <e><p><l>octubre<s n="n"/></l><r>otubre<s n="n"/></r></p></e>
+    <e><p><l>noviembre<s n="n"/></l><r>nobiembre<s n="n"/></r></p></e>
+    <e><p><l>diciembre<s n="n"/></l><r>abiento<s n="n"/></r></p></e>
     <e><p><l>habitante<s n="n"/></l><r>abitant<s n="n"/></r></p></e>
     <e><p><l>metro<s n="n"/></l><r>metro<s n="n"/></r></p></e>
     <e><p><l>mar<s n="n"/><s n="m"/></l><r>mar<s n="n"/><s n="f"/></r></p></e>
@@ -1168,6 +1194,9 @@
     <e><p><l>centralizar<s n="vblex"/></l><r>zentralizar<s n="vblex"/></r></p></e>
     <e><p><l>citar<s n="vblex"/></l><r>zitar<s n="vblex"/></r></p></e>
 
+    <e><p><l>Álava<s n="np"/></l><r>Alaba<s n="np"/></r></p></e>
+    <e><p><l>Alicante<s n="np"/></l><r>Alicán<s n="np"/></r></p></e>
+    <e><p><l>Andalucía<s n="np"/></l><r>Andaluzia<s n="np"/></r></p></e>
     <e><p><l>Bélgica<s n="np"/></l><r>Belchica<s n="np"/></r></p></e>
     <e><p><l>Países<b/>Bajos<s n="np"/></l><r>Países<b/>Baixos<s n="np"/></r></p></e>
     <e><p><l>Alemania<s n="np"/></l><r>Alemanya<s n="np"/></r></p></e>
