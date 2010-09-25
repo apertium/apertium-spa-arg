@@ -195,6 +195,8 @@
     <e><p><l>francés<s n="n"/></l><r>francés<s n="n"/></r></p></e>
     <e><p><l>inglés<s n="n"/></l><r>anglés<s n="n"/></r></p></e>
     <e><p><l>inglés<s n="adj"/></l><r>anglés<s n="adj"/></r></p></e>
+    <e><p><l>santo<s n="n"/></l><r>sant<s n="n"/></r></p></e>
+    <e><p><l>santo<s n="adj"/></l><r>sant<s n="adj"/></r></p></e>
     <e><p><l>masculino<s n="adj"/></l><r>masculín<s n="adj"/></r></p></e>
     <e><p><l>femenino<s n="adj"/></l><r>femenín<s n="adj"/></r></p></e>
     <e><p><l>occitano<s n="adj"/></l><r>oczitán<s n="adj"/></r></p></e>
@@ -1355,6 +1357,7 @@
     <e><p><l>completo<s n="adj"/></l><r>completo<s n="adj"/></r></p></e>
     <e><p><l>unido<s n="adj"/></l><r>unito<s n="adj"/></r></p></e>
     <e><p><l>mucho<s n="adj"/></l><r>muito<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>mucho<s n="adj"/><s n="GD"/></l><r>muito<s n="adj"/><s n="mf"/></r></p></e>
     <e><p><l>lenguaje<s n="n"/></l><r>luengache<s n="n"/></r></p></e>
     <e><p><l>premio<s n="n"/></l><r>premio<s n="n"/></r></p></e>
     <e><p><l>imperio<s n="n"/></l><r>imperio<s n="n"/></r></p></e>
@@ -5094,6 +5097,10 @@
     <e><p><l>portal<s n="n"/></l><r>portal<s n="n"/></r></p></e>
     <e><p><l>mensaje<s n="n"/></l><r>mensache<s n="n"/></r></p></e>
     <e><p><l>etc.<s n="adv"/></l><r>etc.<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>nada<s n="adv"/></l><r>brenca<s n="adv"/></r></p></e>
+    <e><p><l>nada<s n="adv"/></l><r>garra<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>nada<s n="adv"/></l><r>mica<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>nada<s n="adv"/></l><r>pon<s n="adv"/></r></p></e>
     <e r="LR"><p><l>aún<s n="adv"/></l><r>encara<s n="adv"/></r></p></e>
     <e><p><l>todavía<s n="adv"/></l><r>encara<s n="adv"/></r></p></e>
     <e r="RL"><p><l>todavía<s n="adv"/></l><r>incara<s n="adv"/></r></p></e>
