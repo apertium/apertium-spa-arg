@@ -5822,6 +5822,20 @@
       </p>
     </e>
     </pardef>
+    <pardef n="actriz__n">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>es</l>
+        <r><s n="n"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    </pardef>
 
     <pardef n="mascul/ín__adj">
     <e>
@@ -6164,6 +6178,33 @@
       </p>
     </e>
     </pardef>
+    <pardef n="abad__n">
+    <e>
+      <p>
+        <l>esas</l> 
+        <r><s n="n"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>esa</l> 
+        <r><s n="n"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>es</l> 
+        <r><s n="n"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+
     <pardef n="libro__n">
     <e>
       <p>
@@ -6663,10 +6704,13 @@
     <e lm="querer"><i>qu</i><par n="qu/erer__vblex"/></e>
     <e lm="querer"><i>qu</i><par n="qu/erer__vbmod"/></e>
     <e lm="traucar"><i>trau</i><par n="trau/car__vblex"/></e>
+    <e lm="abarcar"><i>abar</i><par n="trau/car__vblex"/></e>
+    <e lm="abdicar"><i>abdi</i><par n="trau/car__vblex"/></e>
     <e lm="modificar"><i>modifi</i><par n="trau/car__vblex"/></e>
     <e lm="fer"><i>f</i><par n="f/er__vblex"/></e>
     <e lm="poder"><i>p</i><par n="p/oder__vbmod"/></e>
     <e lm="tener"><i>t</i><par n="t/ener__vblex"/></e>
+    <e lm="actuar"><i>actu</i><par n="cant/ar__vblex"/></e>
     <e lm="abllar"><i>abll</i><par n="cant/ar__vblex"/></e>
     <e lm="fablar"><i>fabl</i><par n="cant/ar__vblex"/></e>
     <e lm="parlar"><i>parl</i><par n="cant/ar__vblex"/></e>
@@ -6744,7 +6788,17 @@
     <e lm="albertenzia"><i>albertenzia</i><par n="luenga__n"/></e>
     <e lm="bida"><i>bida</i><par n="luenga__n"/></e>
     <e lm="begada"><i>begada</i><par n="luenga__n"/></e>
+    <e lm="guerra"><i>guerra</i><par n="luenga__n"/></e>
     <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
+    <e lm="literatura"><i>literatura</i><par n="luenga__n"/></e>
+    <e lm="abad"><i>abad</i><par n="abad__n"/></e>
+    <e lm="abadía"><i>abadía</i><par n="luenga__n"/></e>
+    <e lm="abadia"><i>abadia</i><par n="luenga__n"/></e>
+    <e lm="tabierna"><i>tabierna</i><par n="luenga__n"/></e>
+    <e lm="distancia"><i>distancia</i><par n="luenga__n"/></e>
+    <e lm="tierra"><i>tierra</i><par n="luenga__n"/></e>
+    <e lm="planeta"><i>planeta</i><par n="luenga__n"/></e>
+    <e lm="ref"><i>ref</i><par n="luenga__n"/></e>
     <e lm="au"><i>au</i><par n="luenga__n"/></e>
     <e lm="abe"><i>abe</i><par n="luenga__n"/></e>
     <e lm="abella"><i>abella</i><par n="luenga__n"/></e>
@@ -6769,6 +6823,7 @@
     <e lm="casa"><i>casa</i><par n="luenga__n"/></e>
     <e lm="forma"><i>forma</i><par n="luenga__n"/></e>
     <e lm="pachina"><i>pachina</i><par n="luenga__n"/></e>
+    <e lm="pagina"><i>pagina</i><par n="luenga__n"/></e>
     <e lm="academia"><i>academia</i><par n="luenga__n"/></e>
     <e lm="toponimia"><i>toponimia</i><par n="luenga__n"/></e>
     <e lm="lei"><i>lei</i><par n="luenga__n"/></e>
@@ -6778,7 +6833,9 @@
     <e lm="rei"><i>rei</i><par n="rei__n"/></e>
 
     <e lm="km"><i>km</i><par n="campus__n"/></e>
+    <e lm="hab"><i>hab</i><par n="accionista__n"/></e>
     <e lm="abitant"><i>abitant</i><par n="accionista__n"/></e>
+    <e lm="habitant"><i>habitant</i><par n="accionista__n"/></e>
     <e lm="miércols"><i>miércols</i><par n="campus__n"/></e>
     <e lm="mierques"><i>mierques</i><par n="campus__n"/></e>
     <e lm="martes"><i>martes</i><par n="campus__n"/></e>
@@ -6802,11 +6859,15 @@
     <e lm="chucho"><i>chuch</i><par n="tresorer/o__n"/></e>
     <e lm="onso"><i>ons</i><par n="tresorer/o__n"/></e>
     <e lm="fillo"><i>fill</i><par n="tresorer/o__n"/></e>
+    <e lm="territorio"><i>territorio</i><par n="libro__n"/></e>
     <e lm="berbo"><i>berbo</i><par n="libro__n"/></e>
     <e lm="verbo"><i>verbo</i><par n="libro__n"/></e>
     <e lm="achetibo"><i>achetibo</i><par n="libro__n"/></e>
     <e lm="archibo"><i>archibo</i><par n="libro__n"/></e>
     <e lm="bin"><i>bin</i><par n="libro__n"/></e>
+    <e lm="actriz"><i>actriz</i><par n="actriz__n"/></e>
+    <e lm="actor"><i>actor</i><par n="libro__n"/></e>
+    <e lm="actor" r="LR"><i>actor</i><par n="país__n"/></e>
     <e lm="brazo"><i>brazo</i><par n="libro__n"/></e>
     <e lm="cambeo"><i>cambeo</i><par n="libro__n"/></e>
     <e lm="chenero"><i>chenero</i><par n="libro__n"/></e>
@@ -7542,7 +7603,6 @@
     <e lm="por"><i></i><par n="/por__var"/><par n="con__pr"/></e>
     <e lm="seguntes"><i>seguntes</i><par n="con__pr"/></e>
     <e lm="sin"><i>sin</i><par n="con__pr"/></e>
-    <e lm="sin de"><i>sin<b/></i><par n="contde__pr"/></e>
     <e lm="sobre"><i>sobre</i><par n="con__pr"/></e>
     <e lm="ta"><i></i><par n="contta__pr"/></e>
     <e lm="amás de"><i>amás<b/></i><par n="contde__pr"/></e>
@@ -11010,6 +11070,7 @@
     <e lm="Aisne"><i>Aisne</i><par n="Afganistán__np"/></e>
     <e lm="Aitona"><i>Aitona</i><par n="Afganistán__np"/></e>
     <e lm="Alabama"><i>Alabama</i><par n="Afganistán__np"/></e>
+    <e lm="Cerdenya"><i>Cerdenya</i><par n="Afganistán__np"/></e>
     <e lm="Alacant"><i>Alacant</i><par n="Afganistán__np"/></e>
     <e lm="Åland"><i>Åland</i><par n="Afganistán__np"/></e>
     <e lm="Alarcón"><i>Alarcón</i><par n="Afganistán__np"/></e>

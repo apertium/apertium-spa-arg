@@ -355,6 +355,13 @@
     <e><p><l>domingo<s n="n"/></l><r>domingo<s n="n"/></r></p></e>
     <e r="RL"><p><l>domingo<s n="n"/></l><r>dominche<s n="n"/></r></p></e>
     <e><p><l>habitante<s n="n"/></l><r>abitant<s n="n"/></r></p></e>
+    <e r="RL"><p><l>habitante<s n="n"/></l><r>habitant<s n="n"/></r></p></e>
+    <e><p><l>actor<s n="n"/></l><r>actor<s n="n"/></r></p></e>
+    <e><p><l>actriz<s n="n"/></l><r>actriz<s n="n"/></r></p></e>
+    <e><p><l>taberna<s n="n"/></l><r>tabierna<s n="n"/></r></p></e>
+    <e><p><l>distancia<s n="n"/></l><r>distancia<s n="n"/></r></p></e>
+    <e><p><l>tierra<s n="n"/></l><r>tierra<s n="n"/></r></p></e>
+    <e><p><l>planeta<s n="n"/></l><r>planeta<s n="n"/></r></p></e>
     <e><p><l>metro<s n="n"/></l><r>metro<s n="n"/></r></p></e>
     <e><p><l>mar<s n="n"/><s n="m"/></l><r>mar<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>mar<s n="n"/><s n="m"/></l><r>mar<s n="n"/><s n="m"/></r></p></e>
@@ -372,7 +379,16 @@
     <e><p><l>academia<s n="n"/></l><r>academia<s n="n"/></r></p></e>
     <e><p><l>forma<s n="n"/></l><r>forma<s n="n"/></r></p></e>
     <e><p><l>página<s n="n"/></l><r>pachina<s n="n"/></r></p></e>
+    <e r="RL"><p><l>página<s n="n"/></l><r>pagina<s n="n"/></r></p></e>
     <e><p><l>agua<s n="n"/></l><r>augua<s n="n"/></r></p></e>
+    <e><p><l>literatura<s n="n"/></l><r>literatura<s n="n"/></r></p></e>
+    <e><p><l>abad<s n="n"/></l><r>abad<s n="n"/></r></p></e>
+    <e><p><l>abadía<s n="n"/></l><r>abadía<s n="n"/></r></p></e>
+    <e r="RL"><p><l>abadía<s n="n"/></l><r>abadia<s n="n"/></r></p></e>
+    <e><p><l>guerra<s n="n"/></l><r>guerra<s n="n"/></r></p></e>
+    <e><p><l>territorio<s n="n"/></l><r>territorio<s n="n"/></r></p></e>
+    <e><p><l>ref<s n="n"/></l><r>ref<s n="n"/></r></p></e>
+    <e><p><l>hab<s n="n"/></l><r>hab<s n="n"/></r></p></e>
     <e><p><l>prueba<s n="n"/></l><r>prebatina<s n="n"/></r></p></e>
     <e><p><l>comarca<s n="n"/></l><r>comarca<s n="n"/></r></p></e>
     <e><p><l>país<s n="n"/></l><r>país<s n="n"/></r></p></e>
@@ -1080,6 +1096,9 @@
     <e><p><l>ser<s n="vbser"/></l><r>estar<s n="vbser"/></r></p></e>
     <e><p><l>poder<s n="vbmod"/></l><r>poder<s n="vbmod"/></r></p></e>
     <e><p><l>tener<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
+    <e><p><l>abarcar<s n="vblex"/></l><r>abarcar<s n="vblex"/></r></p></e>
+    <e><p><l>abdicar<s n="vblex"/></l><r>abdicar<s n="vblex"/></r></p></e>
+    <e><p><l>actuar<s n="vblex"/></l><r>actuar<s n="vblex"/></r></p></e>
     <e><p><l>editar<s n="vblex"/></l><r>editar<s n="vblex"/></r></p></e>
     <e><p><l>llorar<s n="vblex"/></l><r>plorar<s n="vblex"/></r></p></e>
     <e><p><l>modificar<s n="vblex"/></l><r>modificar<s n="vblex"/></r></p></e>
@@ -1311,6 +1330,7 @@
 
     <e><p><l>Álava<s n="np"/></l><r>Alaba<s n="np"/></r></p></e>
     <e><p><l>Alicante<s n="np"/></l><r>Alicán<s n="np"/></r></p></e>
+    <e><p><l>Cerdeña<s n="np"/></l><r>Cerdenya<s n="np"/></r></p></e>
     <e><p><l>Andalucía<s n="np"/></l><r>Andaluzia<s n="np"/></r></p></e>
     <e><p><l>Bélgica<s n="np"/></l><r>Belchica<s n="np"/></r></p></e>
     <e><p><l>Países<b/>Bajos<s n="np"/></l><r>Países<b/>Baixos<s n="np"/></r></p></e>
