@@ -667,14 +667,20 @@
     </e>
     <e>
       <p>
-        <l>os</l> 
-        <r>e<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r> 
+        <l>e</l> 
+        <r>e<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
     <e>
       <p>
-        <l>e</l> 
-        <r>e<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r> 
+        <l>es</l> 
+        <r>e<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>os</l> 
+        <r>e<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r> 
       </p>
     </e>
     </pardef>
@@ -5306,7 +5312,58 @@
       </p>
     </e>
     </pardef>
-
+    <pardef n="/o_cual__rel">
+    <e>
+      <p>
+        <l>as<b/>cuals</l> 
+        <r>o<b/>cual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>a<b/>cual</l> 
+        <r>o<b/>cual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>os<b/>cuals</l> 
+        <r>o<b/>cual<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>o<b/>cual</l> 
+        <r>o<b/>cual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>el<b/>cual</l> 
+        <r>o<b/>cual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>lo<b/>cual</l> 
+        <r>o<b/>cual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+    <pardef n="cual__rel">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="rel"/><s n="an"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>s</l> 
+        <r><s n="rel"/><s n="an"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
     <pardef n="un__det">
     <e>
       <p>
@@ -6546,6 +6603,8 @@
     <e lm="aquel"><i>aquel</i><par n="aquel__det"/></e>
     <e lm="nusatros"><i>nus</i><par n="nus/atros__prn"/></e>
     <e lm="busatros"><i>bus</i><par n="bus/atros__prn"/></e>
+    <e lm="cual"><i>cual</i><par n="cual__rel"/></e>
+    <e lm="o cual"><i></i><par n="/o_cual__rel"/></e>
         
     <e lm="mío"><i>mí</i><par n="mí/o__adj"/></e>
     <e lm="tuyo"><i>tuy</i><par n="mí/o__adj"/></e>
@@ -6684,6 +6743,7 @@
     <e lm="leit"><i>leit</i><par n="luenga__n"/></e>
     <e lm="albertenzia"><i>albertenzia</i><par n="luenga__n"/></e>
     <e lm="bida"><i>bida</i><par n="luenga__n"/></e>
+    <e lm="begada"><i>begada</i><par n="luenga__n"/></e>
     <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
     <e lm="au"><i>au</i><par n="luenga__n"/></e>
     <e lm="abe"><i>abe</i><par n="luenga__n"/></e>
@@ -7490,8 +7550,6 @@
     <e r="LR" lm="antes de"><p><l>antis<b/></l><r>antes<b/></r></p><par n="contde__pr"/></e>
     <e lm="debaixo de"><i>deba</i><par n="ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
     <e lm="dezaga de"><i>dezaga<b/></i><par n="contde__pr"/></e>
-    <e lm="dimpués de"><i>dimpués<b/></i><par n="contde__pr"/></e>
-    <e r="LR" lm="dimpués de"><p><l>dispués<b/></l><r>dimpués<b/></r></p><par n="contde__pr"/></e>
     <e lm="luen de"><i>luen<b/></i><par n="contde__pr"/></e>
     <e lm="por baixo de"><par n="/por__var"/><i><b/>ba</i><par n="ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
     <e lm="por meyo de"><par n="/por__var"/><i><b/>meyo<b/></i><par n="contde__pr"/></e>
@@ -7517,6 +7575,7 @@
     <e lm="pero"><i>pero</i><par n="pero__cnjcoo"/></e>
     <e lm="con tot y con ixo"><i>con<b/>tot<b/></i><par n="y_e"/><i><b/>con<b/>ixo</i><par n="pero__cnjcoo"/></e>
     
+    <e lm="alabez"><i>alabez</i><par n="porque__cnjadv"/></e>
     <e lm="mientres que"><i>mientres<b/>que</i><par n="porque__cnjadv"/></e>
     <e r="LR" lm="mientres que"><p><l>mientras<b/>que</l><r>mientres<b/>que</r></p><par n="porque__cnjadv"/></e>
     <e lm="mientras tanto que"><i>mientras<b/>tanto<b/>que</i><par n="porque__cnjadv"/></e>
@@ -7554,7 +7613,6 @@
     <e lm="a lo que"><i>a<b/>lo<b/>que</i><par n="porque__cnjadv"/></e>
     <e lm="en que"><i>en<b/>que</i><par n="porque__cnjadv"/></e>
     <e lm="en cuanti que"><i>en<b/>cuanti<b/>que</i><par n="porque__cnjadv"/></e>
-    <e lm="dimpués que"><i>dimpués<b/>que</i><par n="porque__cnjadv"/></e>
     <e lm="antis que"><i>antis<b/>que</i><par n="porque__cnjadv"/></e>
     
     <e lm="si"><i></i><par n="/si__cnjadv"/></e>
@@ -7625,8 +7683,10 @@
 <!--Adverbios-->
     <e lm="autualment"><i>autualment</i><par n="agora__adv"/></e>
     <e lm="encara"><i>encara</i><par n="agora__adv"/></e>
+    <e lm="incara"><i>incara</i><par n="agora__adv"/></e>
     <e lm="mesmo"><i>mesmo</i><par n="agora__adv"/></e>
     <e lm="dimpués"><i>dimpués</i><par n="agora__adv"/></e>
+    <e lm="dispués"><i>dispués</i><par n="agora__adv"/></e>
     <e lm="foneticament"><i>foneticament</i><par n="agora__adv"/></e>
     <e lm="acá"><i>acá</i><par n="agora__adv"/></e>
     <e lm="adebant"><i>adebant</i><par n="agora__adv"/></e>
