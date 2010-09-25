@@ -6025,6 +6025,47 @@
     </e>
 
     </pardef>
+    <pardef n="sant__n">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>o</l>
+        <r><s n="n"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>s</l>
+        <r><s n="n"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>os</l>
+        <r><s n="n"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>a</l>
+        <r><s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>as</l>
+        <r><s n="n"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    </pardef>
     <pardef n="primer__adj">
     <e>
       <p>
@@ -6813,6 +6854,8 @@
     <e lm="espanyol"><i>espanyol</i><par n="español__adj"/></e>
     <e lm="uman"><i>uman</i><par n="español__adj"/></e>
     <e lm="primer"><i>primer</i><par n="primer__adj"/></e>
+    <e lm="sant"><i>sant</i><par n="primer__adj"/></e>
+    <e lm="sant"><i>sant</i><par n="sant__n"/></e>
     <e lm="europeu"><i>europe</i><par n="europe/u__adj"/></e>
     <e lm="unito"><i>unit</i><par n="italian/o__adj"/></e>
     <e lm="italiano"><i>italian</i><par n="italian/o__adj"/></e>
@@ -6850,6 +6893,7 @@
     <e lm="provisional"><i>provisional</i><par n="social__adj"/></e>
     <e lm="cultural"><i>cultural</i><par n="social__adj"/></e>
     <e lm="capital"><i>capital</i><par n="social__adj"/></e>
+    <e lm="guaire"><i>guaire</i><par n="social__adj"/></e>
     <e lm="abrupto"><i>abrupt</i><par n="italian/o__adj"/></e>
     <e lm="absoluto"><i>absolut</i><par n="italian/o__adj"/></e>
     <e lm="abstracto"><i>abstract</i><par n="abstract/o__adj"/></e>
@@ -8834,6 +8878,10 @@
     <e lm="t'astí"><i>t'astí</i><par n="agora__adv"/></e>
     <e lm="ya"><i>ya</i><par n="agora__adv"/></e>
     <e lm="agora"><i>agora</i><par n="agora__adv"/></e>
+    <e lm="brenca"><i>brenca</i><par n="agora__adv"/></e>
+    <e lm="garra"><i>garra</i><par n="agora__adv"/></e>
+    <e lm="mica"><i>mica</i><par n="agora__adv"/></e>
+    <e lm="pon"><i>pon</i><par n="agora__adv"/></e>
 
     <e lm="án"><i>án</i><par n="án__adv"/></e>
     <e lm="dó"><i>dó</i><par n="án__adv"/></e>
@@ -15193,22 +15241,22 @@
     <e lm="usuario"><i>usuari</i><par n="tresorer/o__n"/></e>
     <e lm="vaquero"><i>vaquer</i><par n="tresorer/o__n"/></e>
     <e lm="vinatero"><i>vinater</i><par n="tresorer/o__n"/></e>
-    <e lm="americana"><i>americana</i><par n="lengua__n"/></e>
-    <e lm="derecha"><i>derecha</i><par n="lengua__n"/></e>
-    <e lm="directiva"><i>directiva</i><par n="lengua__n"/></e>
-    <e lm="física"><i>física</i><par n="lengua__n"/></e>
-    <e lm="gala"><i>gala</i><par n="lengua__n"/></e>
-    <e lm="media"><i>media</i><par n="lengua__n"/></e>
-    <e lm="muerta"><i>muerta</i><par n="lengua__n"/></e>
-    <e lm="negativa"><i>negativa</i><par n="lengua__n"/></e>
-    <e lm="paralela"><i>paralela</i><par n="lengua__n"/></e>
-    <e lm="pasada"><i>pasada</i><par n="lengua__n"/></e>
-    <e lm="platina"><i>platina</i><par n="lengua__n"/></e>
-    <e lm="política"><i>política</i><par n="lengua__n"/></e>
-    <e lm="presa"><i>presa</i><par n="lengua__n"/></e>
-    <e lm="química"><i>química</i><par n="lengua__n"/></e>
-    <e lm="recta"><i>recta</i><par n="lengua__n"/></e>
-    <e lm="técnica"><i>técnica</i><par n="lengua__n"/></e>
+    <e lm="americana"><i>americana</i><par n="luenga__n"/></e>
+    <e lm="derecha"><i>derecha</i><par n="luenga__n"/></e>
+    <e lm="directiva"><i>directiva</i><par n="luenga__n"/></e>
+    <e lm="física"><i>física</i><par n="luenga__n"/></e>
+    <e lm="gala"><i>gala</i><par n="luenga__n"/></e>
+    <e lm="media"><i>media</i><par n="luenga__n"/></e>
+    <e lm="muerta"><i>muerta</i><par n="luenga__n"/></e>
+    <e lm="negativa"><i>negativa</i><par n="luenga__n"/></e>
+    <e lm="paralela"><i>paralela</i><par n="luenga__n"/></e>
+    <e lm="pasada"><i>pasada</i><par n="luenga__n"/></e>
+    <e lm="platina"><i>platina</i><par n="luenga__n"/></e>
+    <e lm="política"><i>política</i><par n="luenga__n"/></e>
+    <e lm="presa"><i>presa</i><par n="luenga__n"/></e>
+    <e lm="química"><i>química</i><par n="luenga__n"/></e>
+    <e lm="recta"><i>recta</i><par n="luenga__n"/></e>
+    <e lm="técnica"><i>técnica</i><par n="luenga__n"/></e>
     <e lm="actibo"><i>actib</i><par n="italian/o__adj"/></e>
     <e lm="adquisitibo"><i>adquisitib</i><par n="italian/o__adj"/></e>
     <e lm="agresibo"><i>agresib</i><par n="italian/o__adj"/></e>
@@ -15290,12 +15338,12 @@
     <e lm="suzesibo"><i>suzesib</i><par n="italian/o__adj"/></e>
     <e lm="telebisibo"><i>telebisib</i><par n="italian/o__adj"/></e>
     <e lm="televisibo"><i>televisib</i><par n="italian/o__adj"/></e>
-    <e lm="cursiba"><i>cursiba</i><par n="lengua__n"/></e>
-    <e lm="directiba"><i>directiba</i><par n="lengua__n"/></e>
-    <e lm="narratiba"><i>narratiba</i><par n="lengua__n"/></e>
-    <e lm="negatiba"><i>negatiba</i><par n="lengua__n"/></e>
-    <e lm="normatiba"><i>normatiba</i><par n="lengua__n"/></e>
-    <e lm="ofensiba"><i>ofensiba</i><par n="lengua__n"/></e>
+    <e lm="cursiba"><i>cursiba</i><par n="luenga__n"/></e>
+    <e lm="directiba"><i>directiba</i><par n="luenga__n"/></e>
+    <e lm="narratiba"><i>narratiba</i><par n="luenga__n"/></e>
+    <e lm="negatiba"><i>negatiba</i><par n="luenga__n"/></e>
+    <e lm="normatiba"><i>normatiba</i><par n="luenga__n"/></e>
+    <e lm="ofensiba"><i>ofensiba</i><par n="luenga__n"/></e>
     <e lm="cursibo"><i>cursib</i><par n="italian/o__adj"/></e>
     <e lm="directibo"><i>directib</i><par n="italian/o__adj"/></e>
     <e lm="narratibo"><i>narratib</i><par n="italian/o__adj"/></e>
