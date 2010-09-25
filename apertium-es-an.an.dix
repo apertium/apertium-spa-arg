@@ -791,6 +791,20 @@
       </p>
     </e>
     </pardef>
+    <pardef n="le__prn">
+    <e>
+      <p>
+        <l>s</l> 
+        <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
     <pardef n="/estar__vbser">
     <e>
       <p>
@@ -5396,6 +5410,39 @@
       </p>
     </e>
     </pardef>
+    <pardef n="deng/ún__det">
+    <e>
+      <p>
+        <l>una</l> 
+        <r>ún<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ún</l> 
+        <r>ún<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ú</l> 
+        <r>ún<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>un</l> 
+        <r>ún<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>uno</l> 
+        <r>ún<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+
     <pardef n="/o__det">
     <e>
       <p>
@@ -6745,6 +6792,7 @@
     <e lm="él"><i></i><par n="/él__prn"/></e>
     <e lm="me"><i>me</i><par n="me__prn"/></e>
     <e lm="te"><i>te</i><par n="te__prn"/></e>
+    <e lm="le"><i>le</i><par n="le__prn"/></e>
     <e lm="bi"><i>bi</i><par n="en__prn"/></e>
     <e lm="ixo"><i>ixo</i><par n="ixo__prn"/></e>
     <e lm="isto"><i>isto</i><par n="ixo__prn"/></e>
@@ -6773,6 +6821,7 @@
     <e lm="o buestro"><i></i><par n="/o_buestro__adj"/></e>
     <e lm="o"><i></i><par n="/o__det"/></e>
     <e lm="un"><i>un</i><par n="un__det"/></e>
+    <e lm="dengún"><i>deng</i><par n="deng/ún__det"/></e>
     <e lm="atro"><i>atr</i><par n="atr/o__adj"/></e>
 
     <e lm="dos"><i>dos</i><par n="dos__num"/></e>
@@ -6805,6 +6854,8 @@
 
     <e lm="aber"><i></i><par n="/aber__vbhaver"/></e>
     <e lm="bibir"><i>bib</i><par n="bib/ir__vblex"/></e>
+    <e lm="partizipar"><i>partizip</i><par n="cant/ar__vblex"/></e>
+    <e lm="participar"><i>particip</i><par n="cant/ar__vblex"/></e>
     <e lm="completar"><i>complet</i><par n="cant/ar__vblex"/></e>
     <e lm="cantar"><i>cant</i><par n="cant/ar__vblex"/></e>
     <e lm="plorar"><i>plor</i><par n="cant/ar__vblex"/></e>
@@ -7995,6 +8046,7 @@
     
     <e lm="relichión"><i>relichi</i><par n="divisi/ón__n"/></e>
     <e lm="división"><i>divisi</i><par n="divisi/ón__n"/></e>
+    <e lm="opinión"><i>opini</i><par n="divisi/ón__n"/></e>
     <e lm="constitución"><i>constitu</i><par n="actua/ción__n"/></e>
     <e lm="edición"><i>edi</i><par n="actua/ción__n"/></e>
     <e lm="condición"><i>condi</i><par n="actua/ción__n"/></e>
@@ -8009,6 +8061,7 @@
     <e lm="ordinación"><i>ordina</i><par n="actua/ción__n"/></e>
     <e lm="manifestación"><i>manifesta</i><par n="actua/ción__n"/></e>
     <e lm="información"><i>informa</i><par n="actua/ción__n"/></e>
+    <e lm="boluntat"><i>bolunt</i><par n="privacid/at__n"/></e>
     <e lm="ziudat"><i>ziud</i><par n="privacid/at__n"/></e>
     <e lm="ciudat"><i>ciud</i><par n="privacid/at__n"/></e>
     <e lm="sociedat"><i>socied</i><par n="privacid/at__n"/></e>
@@ -8028,6 +8081,7 @@
     <e lm="agilidat"><i>agilid</i><par n="privacid/at__n"/></e>
     <e lm="amabilidat"><i>amabilid</i><par n="privacid/at__n"/></e>
     <e lm="amplitut"><i>amplitu</i><par n="amplitu/t__n"/></e>
+    <e lm="amistat"><i>amista</i><par n="amplitu/t__n"/></e>
     <e lm="antiguidat"><i>antiguid</i><par n="privacid/at__n"/></e>
     <e lm="antigüidat"><i>antigüid</i><par n="privacid/at__n"/></e>
     <e lm="aplicabilidat"><i>aplicabilid</i><par n="privacid/at__n"/></e>
@@ -15076,6 +15130,8 @@
     <e lm="tibia"><i>tibia</i><par n="luenga__n"/></e>
     <e lm="tinta"><i>tinta</i><par n="luenga__n"/></e>
     <e lm="traviesa"><i>traviesa</i><par n="luenga__n"/></e>
+    <e lm="acusato"><i>acusat</i><par n="tresorer/o__n"/></e>
+    <e lm="acusato"><i>acusat</i><par n="italian/o__adj"/></e>
     <e lm="administrativo"><i>administrativ</i><par n="tresorer/o__n"/></e>
     <e lm="afgano"><i>afgan</i><par n="tresorer/o__n"/></e>
     <e lm="aficionado"><i>aficionad</i><par n="tresorer/o__n"/></e>
@@ -15231,6 +15287,10 @@
     <e lm="paraguayo"><i>paraguay</i><par n="tresorer/o__n"/></e>
     <e lm="peruano"><i>peruan</i><par n="tresorer/o__n"/></e>
     <e lm="político"><i>polític</i><par n="tresorer/o__n"/></e>
+    <e lm="politico"><i>politic</i><par n="tresorer/o__n"/></e>
+    <e lm="politico"><i>politic</i><par n="italian/o__adj"/></e>
+    <e lm="pribato"><i>pribat</i><par n="italian/o__adj"/></e>
+    <e lm="periodico"><i>periodic</i><par n="italian/o__adj"/></e>
     <e lm="preso"><i>pres</i><par n="tresorer/o__n"/></e>
     <e lm="puertorriqueño"><i>puertorriqueñ</i><par n="tresorer/o__n"/></e>
     <e lm="químico"><i>químic</i><par n="tresorer/o__n"/></e>
@@ -15364,6 +15424,18 @@
     <e lm="directibo"><i>directib</i><par n="tresorer/o__n"/></e>
     <e lm="facultatibo"><i>facultatib</i><par n="tresorer/o__n"/></e>
     <e lm="natibo"><i>natib</i><par n="tresorer/o__n"/></e>
+    <e lm="limitación"><i>limita</i><par n="actua/ción__n"/></e>
+    <e lm="reputación"><i>reputa</i><par n="actua/ción__n"/></e>
+    <e lm="remuneración"><i>remunera</i><par n="actua/ción__n"/></e>
+    <e lm="función"><i>fun</i><par n="actua/ción__n"/></e>
+    <e lm="costitución"><i>costitu</i><par n="actua/ción__n"/></e>
+    <e lm="almenistración"><i>almenistra</i><par n="actua/ción__n"/></e>
+    <e lm="organización"><i>organiza</i><par n="actua/ción__n"/></e>
+    <e lm="reunión"><i>reuni</i><par n="divisi/ón__n"/></e>
+    <e lm="comprensión"><i>comprensi</i><par n="divisi/ón__n"/></e>
+    <e lm="omisión"><i>omisi</i><par n="divisi/ón__n"/></e>
+    <e lm="obcheto"><i>obcheto</i><par n="libro__n"/></e>
+    <e lm="nezesario"><i>nezesari</i><par n="italian/o__adj"/></e>
   </section>
   <section id="apostrophes" type="postblank">
     <e r="LR" lm="d'"><p><l>d'</l><r>de<s n="pr"/></r></p></e>

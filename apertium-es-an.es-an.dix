@@ -109,6 +109,7 @@
     <e r="RL"><p><l>este<s n="det"/></l><r>este<s n="det"/></r></p></e>
     <e><p><l>aquel<s n="det"/></l><r>aquel<s n="det"/></r></p></e>
     <e><p><l>alguno<s n="det"/></l><r>bel<s n="det"/></r></p></e>
+    <e><p><l>ninguno<s n="det"/></l><r>dengún<s n="det"/></r></p></e>
     <e r="RL"><p><l></l><r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
     <e r="RL"><p><l></l><r>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="RL"><p><l></l><r>bi<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
@@ -197,6 +198,8 @@
     <e><p><l>inglés<s n="adj"/></l><r>anglés<s n="adj"/></r></p></e>
     <e><p><l>santo<s n="n"/></l><r>sant<s n="n"/></r></p></e>
     <e><p><l>santo<s n="adj"/></l><r>sant<s n="adj"/></r></p></e>
+    <e><p><l>opinión<s n="n"/></l><r>opinión<s n="n"/></r></p></e>
+    <e><p><l>voluntad<s n="n"/></l><r>boluntat<s n="n"/></r></p></e>
     <e><p><l>masculino<s n="adj"/></l><r>masculín<s n="adj"/></r></p></e>
     <e><p><l>femenino<s n="adj"/></l><r>femenín<s n="adj"/></r></p></e>
     <e><p><l>occitano<s n="adj"/></l><r>oczitán<s n="adj"/></r></p></e>
@@ -969,6 +972,10 @@
     <e><p><l>polinesio<s n="adj"/></l><r>polinesio<s n="adj"/></r></p></e>
     <e><p><l>politécnico<s n="adj"/></l><r>politécnico<s n="adj"/></r></p></e>
     <e><p><l>político<s n="adj"/></l><r>político<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>político<s n="adj"/></l><r>politico<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>político<s n="n"/></l><r>politico<s n="n"/></r></p></e>
+    <e><p><l>periódico<s n="adj"/></l><r>periodico<s n="adj"/></r></p></e>
+    <e><p><l>privado<s n="adj"/></l><r>pribato<s n="adj"/></r></p></e>
     <e><p><l>pontificio<s n="adj"/></l><r>pontificio<s n="adj"/></r></p></e>
     <e><p><l>poroso<s n="adj"/></l><r>poroso<s n="adj"/></r></p></e>
     <e><p><l>portentoso<s n="adj"/></l><r>portentoso<s n="adj"/></r></p></e>
@@ -2048,6 +2055,8 @@
     <e><p><l>ser<s n="vbser"/></l><r>estar<s n="vbser"/></r></p></e>
     <e><p><l>poder<s n="vbmod"/></l><r>poder<s n="vbmod"/></r></p></e>
     <e><p><l>tener<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
+    <e><p><l>participar<s n="vblex"/></l><r>partizipar<s n="vblex"/></r></p></e>
+    <e><p><l>participar<s n="vblex"/></l><r>participar<s n="vblex"/></r></p></e>
     <e><p><l>abarcar<s n="vblex"/></l><r>abarcar<s n="vblex"/></r></p></e>
     <e><p><l>abdicar<s n="vblex"/></l><r>abdicar<s n="vblex"/></r></p></e>
     <e><p><l>actuar<s n="vblex"/></l><r>actuar<s n="vblex"/></r></p></e>
@@ -8508,5 +8517,19 @@
     <e><p><l>directivo<s n="adj"/></l><r>directibo<s n="adj"/></r></p></e>
     <e><p><l>facultativo<s n="adj"/></l><r>facultatibo<s n="adj"/></r></p></e>
     <e><p><l>nativo<s n="adj"/></l><r>natibo<s n="adj"/></r></p></e>
+    <e><p><l>limitación<s n="n"/></l><r>limitación<s n="n"/></r></p></e>
+    <e><p><l>organización<s n="n"/></l><r>organización<s n="n"/></r></p></e>
+    <e><p><l>reunión<s n="n"/></l><r>reunión<s n="n"/></r></p></e>
+    <e><p><l>reputación<s n="n"/></l><r>reputación<s n="n"/></r></p></e>
+    <e><p><l>remuneración<s n="n"/></l><r>remuneración<s n="n"/></r></p></e>
+    <e><p><l>omisión<s n="n"/></l><r>omisión<s n="n"/></r></p></e>
+    <e><p><l>función<s n="n"/></l><r>función<s n="n"/></r></p></e>
+    <e><p><l>constitución<s n="n"/></l><r>costitución<s n="n"/></r></p></e>
+    <e><p><l>administración<s n="n"/></l><r>almenistración<s n="n"/></r></p></e>
+    <e><p><l>comprensión<s n="n"/></l><r>comprensión<s n="n"/></r></p></e>
+    <e><p><l>objeto<s n="n"/></l><r>obcheto<s n="n"/></r></p></e>
+    <e><p><l>necesario<s n="adj"/></l><r>nezesario<s n="adj"/></r></p></e>
+    <e><p><l>amistad<s n="n"/></l><r>amistat<s n="n"/></r></p></e>
+    <e><p><l>acusado<s n="n"/></l><r>acusato<s n="n"/></r></p></e>
   </section>
 </dictionary>
