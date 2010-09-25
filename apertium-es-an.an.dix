@@ -2026,7 +2026,7 @@
       <e>
         <p>
           <l>car</l>
-          <r>car<s n="vblex"/><s n="inf"/></r>
+          <r>car<s n="vblex"/><s n="inf"/><j/></r>
         </p>
         <par n="S__cantar"/>
       </e>
@@ -2408,7 +2408,7 @@
       <e>
         <p>
           <l>er</l>
-          <r>er<s n="vblex"/><s n="inf"/></r>
+          <r>er<s n="vblex"/><s n="inf"/><j/></r>
         </p>
         <par n="S__cantar"/>
       </e>
@@ -2795,7 +2795,7 @@
       <e>
         <p>
           <l>oder</l>
-          <r>oder<s n="vbmod"/><s n="inf"/></r>
+          <r>oder<s n="vbmod"/><s n="inf"/><j/></r>
         </p>
         <par n="S__cantar"/>
       </e>
@@ -3236,7 +3236,7 @@
       <e>
         <p>
           <l>ener</l>
-          <r>ener<s n="vblex"/><s n="inf"/></r>
+          <r>ener<s n="vblex"/><s n="inf"/><j/></r>
         </p>
         <par n="S__cantar"/>
       </e>
@@ -4193,7 +4193,7 @@
     <e r="LR" c="v='rib'">
       <p>
         <l>abén</l>
-        <r>aber<s n="vblex"/><s n="ger"/></r>
+        <r>aber<s n="vbhaver"/><s n="ger"/></r>
       </p>
     </e>
 
@@ -4711,7 +4711,7 @@
       <e>
         <p>
           <l>ir</l>
-          <r>ir<s n="vblex"/><s n="inf"/></r>
+          <r>ir<s n="vblex"/><s n="inf"/><j/></r>
         </p>
         <par n="S__cantar"/>
       </e>
@@ -5086,7 +5086,7 @@
       <e>
         <p>
           <l>aper</l>
-          <r>aper<s n="vblex"/><s n="inf"/></r>
+          <r>aper<s n="vblex"/><s n="inf"/><j/></r>
         </p>
         <par n="S__cantar"/>
       </e>
@@ -5475,7 +5475,7 @@
     <e>
       <p>
         <l>a<b/>mía</l> 
-        <r>a<b/>mío<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+        <r>o<b/>mío<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
     <e>
@@ -5501,7 +5501,7 @@
     <e>
       <p>
         <l>a<b/>tuya</l> 
-        <r>a<b/>tuyo<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+        <r>o<b/>tuyo<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
     <e>
@@ -5527,7 +5527,7 @@
     <e>
       <p>
         <l>a<b/>suya</l> 
-        <r>a<b/>suyo<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+        <r>o<b/>suyo<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
     <e>
@@ -5553,7 +5553,7 @@
     <e>
       <p>
         <l>a<b/>nuestra</l> 
-        <r>a<b/>nuestro<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+        <r>o<b/>nuestro<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
     <e>
@@ -5579,7 +5579,7 @@
     <e>
       <p>
         <l>a<b/>buestra</l> 
-        <r>a<b/>buestro<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
+        <r>o<b/>buestro<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
     <e>
@@ -6282,14 +6282,32 @@
         <r>y<s n="cnjcoo"/></r>
       </p>
     </e>
-
     <e r="LR">
       <p>
         <l>e</l>
         <r>y<s n="cnjcoo"/></r>
       </p>
     </e>
-
+    </pardef>
+    <pardef n="y_e">
+    <e>
+      <p>
+        <l>y</l>
+        <r>y</r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>e</l>
+        <r>y</r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>i</l>
+        <r>y</r>
+      </p>
+    </e>
     </pardef>
     
     <pardef n="/u__cnjcoo">
@@ -7397,7 +7415,7 @@
     <e r="LR" lm="mes"><p><l>mes</l><r>mas</r></p><par n="pero__cnjcoo"/></e>
     <e lm="sino"><i>sino</i><par n="pero__cnjcoo"/></e>
     <e lm="pero"><i>pero</i><par n="pero__cnjcoo"/></e>
-    <e lm="con tot y con ixo"><i>con<b/>tot<b/></i><par n="/y__cnjcoo"/><i><b/>con<b/>ixo</i><par n="pero__cnjcoo"/></e>
+    <e lm="con tot y con ixo"><i>con<b/>tot<b/></i><par n="y_e"/><i><b/>con<b/>ixo</i><par n="pero__cnjcoo"/></e>
     
     <e lm="mientres que"><i>mientres<b/>que</i><par n="porque__cnjadv"/></e>
     <e r="LR" lm="mientres que"><p><l>mientras<b/>que</l><r>mientres<b/>que</r></p><par n="porque__cnjadv"/></e>
