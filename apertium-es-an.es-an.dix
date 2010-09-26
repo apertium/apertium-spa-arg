@@ -93,6 +93,7 @@
     <e r="RL"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     <e r="LR"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="ND"/></r></p></e>
+    <e r="RL"><p><l>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -191,6 +192,11 @@
     <e><p><l>a<s n="pr"/></l><r>á<s n="pr"/></r></p></e>
     <e><p><l>ni<s n="cnjcoo"/></l><r>ni<s n="cnjcoo"/></r></p></e>
     <e><p><l>como<s n="pr"/></l><r>como<s n="pr"/></r></p></e>
+    <e><p><l>antes<s n="pr"/></l><r>abant<s n="pr"/></r></p></e>
+    <e><p><l>antes<s n="pr"/></l><r>antes<s n="pr"/></r></p></e>
+    <e><p><l>ante<s n="pr"/></l><r>debant<s n="pr"/></r></p></e>
+    <e><p><l>desde<s n="pr"/></l><r>dende<s n="pr"/></r></p></e>
+    <e><p><l>entre<s n="pr"/></l><r>entre<s n="pr"/></r></p></e>
 
     <e c="FIXME"><p><l>bastante<s n="adv"/></l><r>ben<s n="preadv"/></r></p></e>
     <e r="RL"><p><l></l><r>pas<s n="adv"/></r></p></e>
@@ -201,6 +207,7 @@
     <e><p><l>neerlandés<s n="adj"/></l><r>neerlandés<s n="adj"/></r></p></e>
     <e><p><l>francés<s n="adj"/></l><r>francés<s n="adj"/></r></p></e>
     <e><p><l>distinción<s n="n"/></l><r>distinción<s n="n"/></r></p></e>
+    <e><p><l>puerta<s n="n"/></l><r>puerta<s n="n"/></r></p></e>
     <e><p><l>cosa<s n="n"/></l><r>cosa<s n="n"/></r></p></e>
     <e><p><l>aragonés<s n="n"/></l><r>aragonés<s n="n"/></r></p></e>
     <e><p><l>portugués<s n="n"/></l><r>portugués<s n="n"/></r></p></e>
