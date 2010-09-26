@@ -7226,6 +7226,7 @@
     <e lm="compartir" c="check"><i>compart</i><par n="bib/ir__vblex"/></e>
     <e lm="incluir" c="check"><i>inclu</i><par n="inclu/ir__vblex"/></e>
     <e lm="incluir" r="LR"><p><l>incluy</l><r>inclu</r></p><par n="bib/ir__vblex"/></e>
+    <e lm="esleir" c="?"><i>esle</i><par n="inclu/ir__vblex"/></e>
     <e lm="partizipar"><i>partizip</i><par n="cant/ar__vblex"/></e>
     <e lm="participar"><i>particip</i><par n="cant/ar__vblex"/></e>
     <e lm="completar"><i>complet</i><par n="cant/ar__vblex"/></e>
@@ -15950,6 +15951,18 @@
     <e lm="ombre"><i>ombre</i><par n="libro__n"/></e>
     <e lm="esclau"><i>esclau</i><par n="libro__n"/></e>
     <e lm="nibel"><i>nibel</i><par n="libro__n"/></e>
+    <e lm="treballar"><i>treball</i><par n="cant/ar__vblex"/></e>
+    <e lm="asigurar"><i>asigur</i><par n="cant/ar__vblex"/></e>
+    <e lm="orichinar"><i>orichin</i><par n="cant/ar__vblex"/></e>
+    <e lm="biolar"><i>biol</i><par n="cant/ar__vblex"/></e>
+    <e lm="desfrutar"><i>desfrut</i><par n="cant/ar__vblex"/></e>
+    <e lm="obligar"><i>oblig</i><par n="cant/ar__vblex"/></e>
+    <e lm="cambear"><i>cambe</i><par n="cant/ar__vblex"/></e>
+    <e lm="asigurar"><i>asigur</i><par n="cant/ar__vblex"/></e>
+    <e lm="esprisar"><i>espris</i><par n="cant/ar__vblex"/></e>
+    <e lm="recullir"><i>recull</i><par n="bib/ir__vblex"/></e>
+    <e lm="presumir"><i>presum</i><par n="bib/ir__vblex"/></e>
+    <e lm="espardir"><i>espard</i><par n="bib/ir__vblex"/></e>
   </section>
   <section id="apostrophes" type="postblank">
     <e r="LR" lm="d'"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
