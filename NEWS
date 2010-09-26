@@ -1,0 +1,34 @@
+Sun Sep 26 15:42:44 IST 2010
+ * Initial release (0.1.0)
+ * Caveats:
+   - Functions only in an->es direction
+   - Several closed category words missing from an analyser
+     (including "ir")
+   - "Cowboys, Ted!"
+     This system has been put together in a very shoddy, MacGuyver-ish
+     way:
+     The majority of the lexicon has been composed on the basis
+     of presumed cognates. For the most part, this has been 
+     restricted to Latin derivatives, but on more than one occasion, I
+     simply went nuts and pulled in anything the Spanish analyser would
+     recognise.
+     The only bitexts available were the UN Declaration of Human Rights
+     and the welcome message for new users of the Aragonese Wikipedia. 
+     Statistical methods were not widely employed.
+     To deal with the spelling variations, I abused the heck out of sed,
+     filtering unknowns repeatedly before passing the result through the
+     analyser, to pluck out the results. Much of the ~8000 words in the
+     bilingual lexicon are mere variations. (In a particularly ironic
+     twist, it has 3 variations of 'normalización'). These variants will 
+     need to be sorted out to have es->an: the first translation made with
+     this system before release was of the document on an.wikipedia 
+     describing the new spelling rules.
+     Although I got some notes from Juan Pablo Martínez on the equivalents
+     of ser and estar, I was not able to get further information. My  
+     "solution" is to ignore the issue and come back to it later.
+     Also, Juan Pablo added some vocabulary to the analyser, most of which
+     I have not been able to use for lack of translations. Hopefully, we
+     can get these reinstated soon.
+     A tagger has yet to be trained for Aragonese; during development, I found
+     the Spanish tagger to be sufficient, and so have used that. This is a
+     temporary measure.

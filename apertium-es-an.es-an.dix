@@ -71,6 +71,7 @@
     <sdef n="lquest"/>
     <sdef n="ND"/>
     <sdef n="GD"/>
+    <sdef n="web"/>
   </sdefs>
   
   <section id="main" type="standard">
@@ -88,6 +89,7 @@
     <e><p><l>nos<s n="prn"/><s n="enc"/></l><r>nos<s n="prn"/><s n="enc"/></r></p></e>
     <e><p><l>os<s n="prn"/><s n="pro"/></l><r>bos<s n="prn"/><s n="pro"/></r></p></e>
     <e><p><l>os<s n="prn"/><s n="enc"/></l><r>bos<s n="prn"/><s n="enc"/></r></p></e>
+    <e r="RL"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     <e r="LR"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="ND"/></r></p></e>
@@ -151,6 +153,7 @@
     <e c="check"><p><l>para<s n="pr"/></l><r>ta<s n="pr"/></r></p></e>
     <e><p><l>por<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
     <e><p><l>junto<b/>a<s n="pr"/></l><r>chunto<b/>á<s n="pr"/></r></p></e>
+    <e><p><l>en<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
 
     <e><p><l>dos<s n="num"/></l><r>dos<s n="num"/></r></p></e>
     <e><p><l>tres<s n="num"/></l><r>tres<s n="num"/></r></p></e>
@@ -184,13 +187,21 @@
     <e><p><l>sobre<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
     <e><p><l>con<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
     <e><p><l>sin<s n="pr"/></l><r>sin<s n="pr"/></r></p></e>
+    <e><p><l>respecto<b/>a<s n="pr"/></l><r>enta<s n="pr"/></r></p></e>
+    <e><p><l>a<s n="pr"/></l><r>á<s n="pr"/></r></p></e>
+    <e><p><l>ni<s n="cnjcoo"/></l><r>ni<s n="cnjcoo"/></r></p></e>
+    <e><p><l>como<s n="pr"/></l><r>como<s n="pr"/></r></p></e>
 
+    <e c="FIXME"><p><l>bastante<s n="adv"/></l><r>ben<s n="preadv"/></r></p></e>
+    <e r="RL"><p><l></l><r>pas<s n="adv"/></r></p></e>
     <e><p><l>mismo<s n="adj"/></l><r>mesmo<s n="adj"/></r></p></e>
     <e><p><l>aragonés<s n="adj"/></l><r>aragonés<s n="adj"/></r></p></e>
     <e><p><l>portugués<s n="adj"/></l><r>portugués<s n="adj"/></r></p></e>
     <e><p><l>polaco<s n="adj"/></l><r>polonés<s n="adj"/></r></p></e>
     <e><p><l>neerlandés<s n="adj"/></l><r>neerlandés<s n="adj"/></r></p></e>
     <e><p><l>francés<s n="adj"/></l><r>francés<s n="adj"/></r></p></e>
+    <e><p><l>distinción<s n="n"/></l><r>distinción<s n="n"/></r></p></e>
+    <e><p><l>cosa<s n="n"/></l><r>cosa<s n="n"/></r></p></e>
     <e><p><l>aragonés<s n="n"/></l><r>aragonés<s n="n"/></r></p></e>
     <e><p><l>portugués<s n="n"/></l><r>portugués<s n="n"/></r></p></e>
     <e><p><l>polaco<s n="n"/></l><r>polonés<s n="n"/></r></p></e>
@@ -262,6 +273,7 @@
     <e><p><l>hola<s n="ij"/></l><r>ola<s n="ij"/></r></p></e>
     <e><p><l>buenas<b/>noches<s n="ij"/></l><r>buena<b/>nueit<s n="ij"/></r></p></e>
 
+    <e><p><l>sólo<s n="adv"/></l><r>sólo<s n="adv"/></r></p></e>
     <e><p><l>no<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
     <e><p><l>mismo<s n="adv"/></l><r>mesmo<s n="adv"/></r></p></e>
     <e><p><l>ya<s n="adv"/></l><r>ya<s n="adv"/></r></p></e>
@@ -8701,5 +8713,17 @@
     <e><p><l>normalización<s n="n"/></l><r>normalización<s n="n"/></r></p></e>
     <e r="RL"><p><l>normalización<s n="n"/></l><r>normaliçación<s n="n"/></r></p></e>
     <e r="RL"><p><l>normalización<s n="n"/></l><r>normalicación<s n="n"/></r></p></e>
+  </section>
+  <section id="final" type="standard">
+<e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+<e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+<e><re>,</re><p><l><s n="cm"/></l>         <r><s n="cm"/></r></p></e>
+<e><re>[¿¡]</re><p><l><s n="lquest"/></l>  <r><s n="lquest"/></r></p></e>
+<e><re>[\(\[]</re><p><l><s n="lpar"/></l>  <r><s n="lpar"/></r></p></e>
+<e><re>[\)\]]</re><p><l><s n="rpar"/></l>  <r><s n="rpar"/></r></p></e>
+
+<e><re>[a-z.]+@[a-z.]+</re><p><l><s n="web"/></l><r><s n="web"/></r></p></e>
+<e><re>(www.|http://|https://|ftp://)[áéíóúàèìòùäëïöüñça-z0-9\-./]+[áéíóúàèìòùäëïöüñça-z0-9/]</re><p><l><s n="web"/></l><r><s n="web"/></r></p></e>
+<e><re>(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9])(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))</re><p><l><s n="web"/></l><r><s n="web"/></r></p></e>
   </section>
 </dictionary>
