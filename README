@@ -1,0 +1,40 @@
+**************Spanish--Aragonese******************
+
+You need apertium-3.0 and lttoolbox-3.0 to use this translator.  To compile
+the linguistic data simply do:
+
+./configure
+make
+make install
+
+inside of this directory.
+
+To use the translator, use the commands:
+
+apertium es-ca  (to translate from Spanish to Aragonese)
+
+Type the suitable command in the terminal, press Enter, type the text and press Ctrl+D to get the translation.
+
+**************TAGGER *****************************
+
+To use this language-pair package with apertium YOU DO NOT NEED TO
+RETRAIN THE TAGGER. Probabilities and auxiliary data are provided for
+both the ca-es and the es-ca translation directions which should be
+acceptable for most applications, and should work even if you change
+the dictionaries in a reasonably way.
+
+If for some reason you need to retrain the tagger (for example, you
+have made really extensive changes to the dictionaries such as
+creating new lexical categories), please see the documentation
+on our Wiki:
+ 
+  http://wiki.apertium.org/wiki/Tagger_training
+
+
+
+===================================================================
+
+More information about this module, and others can be found on
+the Apertium: Wiki, http://wiki.apertium.org
+
+

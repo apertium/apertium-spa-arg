@@ -3482,8 +3482,8 @@
           <r>ener<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
-      <e>
-        <p r="LR">
+      <e r="LR">
+        <p>
           <l>eniamos</l>
           <r>ener<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r>
         </p>
@@ -9085,6 +9085,8 @@
     <e lm="dende"><i>dende</i><par n="con__pr"/></e>
     <e lm="dezaga"><i>dezaga</i><par n="con__pr"/></e>
     <e lm="dica"><i>dica</i><par n="con__pr"/></e>
+    <e lm="como"><i>como</i><par n="con__pr"/></e>
+    <e lm="como" r="LR"><p><l>coma</l><r>como</r></p><par n="con__pr"/></e>
     <e lm="asta"><i>asta</i><par n="con__pr"/></e>
     <e lm="chus"><i>chus</i><par n="con__pr"/></e>
     <e lm="en"><i></i><par n="conten__pr"/></e>
@@ -9156,8 +9158,6 @@
     <e r="LR" lm="asinas que"><p><l>asina<b/>que</l><r>asinas<b/>que</r></p><par n="porque__cnjadv"/></e>
     <e lm="por consiguient"><i>por<b/>consiguient</i><par n="porque__cnjadv"/></e>
     <e lm="conque"><i>conque</i><par n="porque__cnjadv"/></e>
-    <e lm="como"><i>como</i><par n="porque__cnjadv"/></e>
-    <e r="LR" lm="como"><p><l>coma</l><r>como</r></p><par n="porque__cnjadv"/></e>
     <e lm="a fin de que"><i>a<b/>fin<b/>de<b/>que</i><par n="porque__cnjadv"/></e>
     <e lm="ta que"><i>ta<b/>que</i><par n="porque__cnjadv"/></e>
     <e r="LR" lm="ta que"><p><l>pa<b/>que</l><r>ta<b/>que</r></p><par n="porque__cnjadv"/></e>
@@ -9222,7 +9222,6 @@
     <e r="LR" lm="muit"><p><l>mui</l><r>muit</r></p><par n="bien__preadv"/></e>
     <e lm="cuasi"><i>cuasi</i><par n="bien__preadv"/></e>
     <e lm="tan"><i>tan</i><par n="bien__preadv"/></e>
-    <e lm="no tan"><i>no<b/>tan</i><par n="bien__preadv"/></e>
     <e lm="arrienda"><i>arrienda</i><par n="bien__preadv"/></e>
     <e lm="asabelo"><i>asabelo</i><par n="bien__preadv"/></e>
     <e r="LR" lm="asabelo"><p><l>asaber-lo</l><r>asabelo</r></p><par n="bien__preadv"/></e>
@@ -9234,6 +9233,7 @@
 
 <!--Adverbios-->
     <e lm="autualment"><i>autualment</i><par n="agora__adv"/></e>
+    <e lm="sólo"><i>sólo</i><par n="agora__adv"/></e>
     <e lm="bien"><i>bien</i><par n="agora__adv"/></e>
     <e lm="encara"><i>encara</i><par n="agora__adv"/></e>
     <e lm="incara"><i>incara</i><par n="agora__adv"/></e>
@@ -15438,6 +15438,7 @@
     <e lm="Alaba"><i>Alaba</i><par n="Afganistán__np"/></e>
     <e lm="Alicán"><i>Alicán</i><par n="Afganistán__np"/></e>
     <e lm="Andaluzia"><i>Andaluzia</i><par n="Afganistán__np"/></e>
+    <e lm="cosa"><i>cosa</i><par n="luenga__n"/></e>
     <e lm="alternativa"><i>alternativa</i><par n="luenga__n"/></e>
     <e lm="americana"><i>americana</i><par n="luenga__n"/></e>
     <e lm="baja"><i>baja</i><par n="luenga__n"/></e>
@@ -15824,6 +15825,7 @@
     <e lm="zilebrato"><i>zilebrat</i><par n="italian/o__adj"/></e>
     <e lm="bacanzias"><i>bacanzias</i><par n="afueras__n"/></e>
     <e lm="idiomo"><i>idioma</i><par n="libro__n"/></e>
+    <e lm="pas"><i>pas</i><par n="agora__adv"/></e>
     <e lm="albitrariament"><i>albitrariament</i><par n="agora__adv"/></e>
     <e lm="chusto"><i>chusto</i><par n="agora__adv"/></e>
     <e lm="indibidualment"><i>indibidualment</i><par n="agora__adv"/></e>

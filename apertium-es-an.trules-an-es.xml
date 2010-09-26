@@ -69,6 +69,8 @@
       <cat-item lemma="me" tags="prn.pro.p1.mf.sg"/>
       <cat-item lemma="te" tags="prn.pro.p2.mf.sg"/>
       <cat-item lemma="se" tags="prn.pro.ref.p3.mf.sp"/>
+      <cat-item lemma="se" tags="prn.pro.ref.p3.mf.sg"/>
+      <cat-item lemma="se" tags="prn.pro.ref.p3.mf.pl"/>
       <cat-item lemma="nos" tags="prn.pro.p1.mf.pl"/>
       <cat-item lemma="bos" tags="prn.pro.p2.mf.pl"/>
     </def-cat>
@@ -86,6 +88,14 @@
       <cat-item lemma="porque" tags="cnjadv"/>
     </def-cat>
     
+    <def-cat n="ben">   	  	  
+      <cat-item lemma="ben" tags="preadv"/>
+    </def-cat>
+
+    <def-cat n="de">   	  	  
+      <cat-item lemma="de" tags="pr"/>
+    </def-cat>
+
     <def-cat n="nosaltres">
       <cat-item lemma="nusaltres" tags="prn.tn.p1.mf.pl"/>
       <cat-item lemma="busaltres" tags="prn.tn.p2.mf.pl"/>
@@ -414,23 +424,62 @@
     <def-var n="concTercero"/>
     <def-var n="interrogativa"/>
     <def-var n="exclamativa"/>
+    <def-var n="ben_de_persona"/>
+    <def-var n="ben_de_nbr"/>
   </section-def-vars>
 
   <section-def-lists>
-    <def-list n="dies">
-      <list-item v="dilluns"/>
-      <list-item v="dimarts"/>
-      <list-item v="dimecres"/>
-      <list-item v="dijous"/>
-      <list-item v="divendres"/>
-      <list-item v="dissabte"/>
-      <list-item v="diumenge"/>
+    <def-list n="ben_de_prn">
+      <list-item v="me"/>
+      <list-item v="te"/>
+      <list-item v="le"/>
+      <list-item v="nos"/>
+      <list-item v="bos"/>
     </def-list>
 
 
   </section-def-lists>
 
   <section-def-macros>
+    <def-macro n="ben_de" npar="1">
+      <choose>
+	<when>
+	  <test>
+	    <in caseless="yes">
+	      <clip pos="1" side="sl" part="lem"/>
+	      <list n="ben_de_prn"/>
+	    </in>
+	  </test>
+	  <let>
+	    <var n="ben_de_persona"/>
+	    <clip pos="1" side="sl" part="persona"/>
+	  </let>
+	  <let>
+	    <var n="ben_de_nbr"/>
+	    <clip pos="1" side="sl" part="nbr"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal caseless="yes">
+	      <clip pos="1" side="sl" part="lem"/>
+	      <lit v="se"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="ben_de_persona"/>
+	    <lit-tag v="p3"/>
+	  </let>
+	  <let>
+	    <var n="ben_de_nbr"/>
+	    <clip pos="1" side="sl" part="nbr"/>
+	  </let>
+	</when>
+      </choose>
+    </def-macro>
+
     <def-macro n="f_hi" npar="1">
       <choose>
 	<when>
@@ -447,7 +496,7 @@
 	</when>
       </choose>
     </def-macro>
-    
+
     <def-macro n="f_serhi" npar="1">
       <choose>
 	<when>
@@ -3005,10 +3054,6 @@
 	<pattern-item n="adjec"/>
       </pattern>
       <action>
-	<call-macro n="f_enviaa">
-	  <with-param pos="2"/>
-	</call-macro>     
-	
 	<call-macro n="f_concord4">
 	  <with-param pos="2"/>
 	  <with-param pos="3"/>
@@ -3103,10 +3148,6 @@
 	<pattern-item n="adjec"/>
       </pattern>
       <action>
-	<call-macro n="f_enviaa">
-	  <with-param pos="2"/>
-	</call-macro>     
-	
 	<call-macro n="f_concord4">
 	  <with-param pos="2"/>
 	  <with-param pos="3"/>
@@ -3156,10 +3197,6 @@
 	<pattern-item n="adjec"/>
       </pattern>
       <action>
-	<call-macro n="f_enviaa">
-	  <with-param pos="1"/>
-	</call-macro>     
-
 	<call-macro n="f_concord3">
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
@@ -3201,10 +3238,6 @@
 	<pattern-item n="nom"/>
       </pattern>
       <action>
-	<call-macro n="f_enviaa">
-	  <with-param pos="3"/>
-	</call-macro>     
-
 	<call-macro n="f_concord3">
 	  <with-param pos="3"/>
 	  <with-param pos="2"/>
@@ -3245,10 +3278,6 @@
 	<pattern-item n="nom"/>
       </pattern>
       <action>
-	<call-macro n="f_enviaa">
-	  <with-param pos="3"/>
-	</call-macro>     
-
 	<call-macro n="f_concord3">
 	  <with-param pos="3"/>           
 	  <with-param pos="2"/>
@@ -3282,10 +3311,6 @@
 	<pattern-item n="adjec"/>
       </pattern>
       <action>
-	<call-macro n="f_enviaa">
-	  <with-param pos="3"/>
-	</call-macro>     
-
 	<call-macro n="f_concord4">
 	  <with-param pos="3"/>
 	  <with-param pos="4"/>
@@ -4577,8 +4602,8 @@
 	</out>	
       </action>
     </rule>
-
-    <rule> <!-- REGLA: PREP NUMERAL NOM -->
+<!--
+    <rule> <!-x- REGLA: PREP NUMERAL NOM -x->
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="num"/>
@@ -4611,7 +4636,7 @@
       </action>
     </rule>
     
-    <rule> <!-- REGLA: PREP NUMERAL ADJECTIU -->
+    <rule> <!-x- REGLA: PREP NUMERAL ADJECTIU -x->
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="num"/>
@@ -4644,7 +4669,7 @@
     </rule>
     
     
-    <rule> <!-- REGLA: PREP NUMERAL NOM ADJECTIU -->
+    <rule> <!-x- REGLA: PREP NUMERAL NOM ADJECTIU -x->
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="num"/>
@@ -4687,7 +4712,7 @@
       </action>
     </rule>
     
-    <rule> <!-- REGLA: PREP NUMERAL ADJECTIU NOM -->
+    <rule> <!-x- REGLA: PREP NUMERAL ADJECTIU NOM -x->
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="num"/>
@@ -4735,7 +4760,7 @@
     
     
     
-    <rule> <!-- REGLA: PREP DET NUMERAL NOM -->
+    <rule> <!-x- REGLA: PREP DET NUMERAL NOM -x->
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="det"/>
@@ -4791,7 +4816,7 @@
 	</out>
 	
       </action>
-    </rule>
+    </rule>-->
     
 
 
@@ -4802,9 +4827,6 @@
 	<pattern-item n="nom"/>
       </pattern>
       <action>
-	<call-macro n="f_enviaa">
-	  <with-param pos="1"/>
-	</call-macro>     
 	<call-macro n="f_concord3">
 	  <with-param pos="3"/>
 	  <with-param pos="2"/>
@@ -4844,10 +4866,6 @@
 	<pattern-item n="adjec"/>
       </pattern>
       <action>
-	<call-macro n="f_enviaa">
-	  <with-param pos="1"/>
-	</call-macro>     
-
 	<call-macro n="f_concord3">
 	  <with-param pos="3"/>
 	  <with-param pos="2"/>
@@ -4890,10 +4908,6 @@
 	<call-macro n="f_bcond">
 	  <with-param pos="1"/>
 	</call-macro>
-	<call-macro n="f_enviaa">
-	  <with-param pos="2"/>
-	</call-macro>     
-
 	<out>
 	  <lu>
 	    <clip pos="2" side="tl" part="lem"/>
@@ -5143,9 +5157,6 @@
 	<pattern-item n="verb"/>
       </pattern>
       <action>	
-	<call-macro n="f_tipusverb">
-	  <with-param pos="1"/>
-	</call-macro>
 	<out>                
 	  <lu>
 	    <clip pos="1" side="tl" part="lemh"/>
@@ -5166,9 +5177,6 @@
 	<pattern-item n="prnenc"/>
       </pattern>
       <action>
-	<call-macro n="f_tipusverb">
-	  <with-param pos="1"/>
-	</call-macro>
 	<call-macro n="f_outverb2">
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
@@ -5183,9 +5191,6 @@
 	<pattern-item n="prnenc"/>
       </pattern>
       <action>
-	<call-macro n="f_tipusverb">
-	  <with-param pos="1"/>
-	</call-macro>
 	<call-macro n="f_outverb3">
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
@@ -5297,9 +5302,6 @@
 	<pattern-item n="infnh"/>
       </pattern>
       <action>	             
-	<call-macro n="f_tipusverb">
-	  <with-param pos="2"/>
-	</call-macro>
 	<out>
 	  <lu>
 	    <get-case-from pos="1">
@@ -5325,9 +5327,6 @@
 	<pattern-item n="prnenc"/>
       </pattern>
       <action>
-	<call-macro n="f_tipusverb">
-	  <with-param pos="2"/>
-	</call-macro>
 	<out>
 	  <lu>
 	    <get-case-from pos="1">
@@ -5352,9 +5351,6 @@
 	<pattern-item n="prnenc"/>
       </pattern>
       <action>
-	<call-macro n="f_tipusverb">
-	  <with-param pos="2"/>
-	</call-macro>
 	<out>
 	  <lu>
 	    <get-case-from pos="1">
@@ -5379,12 +5375,6 @@
 	<pattern-item n="infnh"/>
       </pattern>
       <action>	             
-	<call-macro n="f_tipusverb">
-	  <with-param pos="3"/>
-	</call-macro>
-	<call-macro n="marca_no">
-	  <with-param pos="2"/>
-	</call-macro>
 	<out>
 	  <lu>
 	    <get-case-from pos="1">
@@ -5415,12 +5405,6 @@
 	<pattern-item n="prnenc"/>
       </pattern>
       <action>
-	<call-macro n="f_tipusverb">
-	  <with-param pos="3"/>
-	</call-macro>
-	<call-macro n="marca_no">
-	  <with-param pos="2"/>
-	</call-macro>
 	<out>
 	  <lu>
 	    <get-case-from pos="1">
@@ -5450,12 +5434,6 @@
 	<pattern-item n="prnenc"/>
       </pattern>
       <action>
-	<call-macro n="f_tipusverb">
-	  <with-param pos="3"/>
-	</call-macro>
-	<call-macro n="marca_no">
-	  <with-param pos="2"/>
-	</call-macro>
 	<out>
 	  <lu>
 	    <get-case-from pos="1">
@@ -5478,8 +5456,8 @@
     </rule>
 
 
-
-    <rule> <!--REGLA: a + nploc = a Barcelona -> en Barcelona-->
+<!--
+    <rule> <!-x-REGLA: a + nploc = a Barcelona -> en Barcelona-x->
       <pattern>
 	<pattern-item n="a"/>
 	<pattern-item n="nploc"/>
@@ -5502,7 +5480,7 @@
     </rule> 
 
 
-    <rule> <!--REGLA NOVA 6: a + DET + nploc = al Segrià -> en el Segrià "mireiafarrus"-->
+    <rule> <!-x-REGLA NOVA 6: a + DET + nploc = al Segrià -> en el Segrià "mireiafarrus"-x->
       <pattern>
 	<pattern-item n="a"/>
 	<pattern-item n="det"/>
@@ -5517,7 +5495,7 @@
 		<lit-tag v="GD"/>
 	      </equal>
 	    </test>
-	    <let><!--hauríem de mirar d'assignar gènere d'una altra manera (l'Amèrica llatina / l'Europa Occiental / l'Amazones) -->
+	    <let><!-x-hauríem de mirar d'assignar gènere d'una altra manera (l'Amèrica llatina / l'Europa Occiental / l'Amazones) -x->
 		<clip pos="2" side="tl" part="gen"/>
 		<lit-tag v="f"/>
 	    </let>
@@ -5544,7 +5522,7 @@
     </rule> 
 
 
-    <rule> <!--REGLA: verb + prep + nploc/noms_locatius: Estudio a Madrid  - Estudio en Madrid. Sóc a Sabadell - Estoy en Sabadell. Sóc a casa - Estoy en casa (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si és un nom de la llista "locatiu". Molts canvis de prep ja es tracten amb la macro f_preps, però no permet fer el canvi de 'ser' a 'estar', cosa que sí que es fa amb aquesta regla i les 3 posteriors) -->
+    <rule> <!-x-REGLA: verb + prep + nploc/noms_locatius: Estudio a Madrid  - Estudio en Madrid. Sóc a Sabadell - Estoy en Sabadell. Sóc a casa - Estoy en casa (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si és un nom de la llista "locatiu". Molts canvis de prep ja es tracten amb la macro f_preps, però no permet fer el canvi de 'ser' a 'estar', cosa que sí que es fa amb aquesta regla i les 3 posteriors) -x->
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="a"/>
@@ -5709,7 +5687,6 @@
       </action>
     </rule>   
 
-<!--
     <rule> <!-x-REGLA: "anar" + inf + prep + nploc: Estudio a Madrid - Estudio en Madrid. Sóc a Sabadell - Estoy en Sabadell (igual que l'anterior però amb verb en forma perifràstica (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si és un nom de la llista "locatiu")-x->
       <pattern>
 	<pattern-item n="anar"/>
@@ -5895,10 +5872,10 @@
 	  </otherwise>
 	</choose>
       </action>
-    </rule>-->
+    </rule>
 
 
-   <rule> <!--REGLA: verb + prep + det + nploc/noms_locatius: era al domicili - estaba en el domicilio -->
+   <rule> <!-x-REGLA: verb + prep + det + nploc/noms_locatius: era al domicili - estaba en el domicilio -x->
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="a"/>
@@ -6084,7 +6061,6 @@
       </action>
     </rule>   
 
-<!--
     <rule> <!-x-REGLA: "anar" + inf + prep + nploc: va treballar al poble - trabajó en el pueblo (igual que l'anterior però amb verb en forma perifràstica) -x->
       <pattern>
 	<pattern-item n="anar"/>
@@ -6476,6 +6452,97 @@
       </action>
     </rule>
 
+
+<!-- based on UNDHR, but seems to hold up on inspecting Wikipedia -->
+  <rule> <!--REGLA: ben de + INF -> deber + INF -->
+      <pattern>
+	<pattern-item n="ben"/>
+	<pattern-item n="de"/>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<out> 
+	  <lu>
+	    <get-case-from pos="1">
+ 	      <lit v="deber"/>
+	    </get-case-from>
+	    <lit-tag v="vblex"/>   
+	    <lit-tag v="pri"/>   
+	    <lit-tag v="p3"/>   
+	    <lit-tag v="sg"/>   
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="tags"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+
+    <rule> <!--REGLA: ben de + INF + ENCLÍTIC -> deber + INF + ENCLÍTIC-->
+      <pattern>
+	<pattern-item n="ben"/>
+	<pattern-item n="de"/>
+	<pattern-item n="inf"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<call-macro n="ben_de">
+	  <with-param pos="4"/>
+	</call-macro>
+	<out> 
+	  <lu>
+	    <get-case-from pos="1">
+ 	      <lit v="deber"/>
+	    </get-case-from>
+	    <lit-tag v="vblex"/>   
+	    <lit-tag v="pri"/>   
+	    <var n="ben_de_persona"/>   
+	    <var n="ben_de_nbr"/>   
+	  </lu>
+	  <b pos="1"/>	
+	</out>
+	<call-macro n="f_outverb2">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	</call-macro>
+      </action>
+    </rule>
+
+    <rule> <!--REGLA: ben de + INF + ENCLÍTIC + ENCLÍTIC  -> deber + INF + ENCLÍTIC + ENCLÍTIC-->
+      <pattern>
+	<pattern-item n="ben"/>
+	<pattern-item n="de"/>
+	<pattern-item n="inf"/>
+	<pattern-item n="prnenc"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<call-macro n="ben_de">
+	  <with-param pos="4"/>
+	</call-macro>
+	<out> 
+	  <lu>
+	    <get-case-from pos="1">
+ 	      <lit v="deber"/>
+	    </get-case-from>
+	    <lit-tag v="vblex"/>   
+	    <lit-tag v="pri"/>   
+	    <var n="ben_de_persona"/>   
+	    <var n="ben_de_nbr"/>   
+	  </lu>
+	  <b pos="1"/>	
+	</out>
+	<call-macro n="f_outverb3">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	</call-macro>	
+      </action>
+    </rule>
 
     <rule> <!-- REGLA: reset variables-->
       <pattern>
