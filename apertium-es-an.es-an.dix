@@ -69,6 +69,8 @@
     <sdef n="lpar"/>
     <sdef n="rpar"/>
     <sdef n="lquest"/>
+    <sdef n="ND"/>
+    <sdef n="GD"/>
   </sdefs>
   
   <section id="main" type="standard">
@@ -2066,6 +2068,8 @@
     <e><p><l>querer<s n="vblex"/></l><r>querer<s n="vblex"/></r></p></e>
     <e><p><l>querer<s n="vbmod"/></l><r>querer<s n="vbmod"/></r></p></e>
     <e><p><l>vivir<s n="vblex"/></l><r>bibir<s n="vblex"/></r></p></e>
+    <e><p><l>prohibir<s n="vblex"/></l><r>proibir<s n="vblex"/></r></p></e>
+    <e><p><l>infringir<s n="vblex"/></l><r>infrinchir<s n="vblex"/></r></p></e>
     <e><p><l>hacer<s n="vblex"/></l><r>fer<s n="vblex"/></r></p></e>
     <e><p><l>consultar<s n="vblex"/></l><r>consultar<s n="vblex"/></r></p></e>
     <e><p><l>completar<s n="vblex"/></l><r>completar<s n="vblex"/></r></p></e>
@@ -8566,6 +8570,7 @@
     <e><p><l>tolerancia<s n="n"/></l><r>toleranzia<s n="n"/></r></p></e>
     <e><p><l>subsistencia<s n="n"/></l><r>susistenzia<s n="n"/></r></p></e>
     <e><p><l>supresión<s n="n"/></l><r>supresión<s n="n"/></r></p></e>
+    <e><p><l>producción<s n="n"/></l><r>produción<s n="n"/></r></p></e>
     <e><p><l>sindicar<s n="vblex"/></l><r>sindicar<s n="vblex"/></r></p></e>
     <e><p><l>seguridad<s n="n"/></l><r>siguridat<s n="n"/></r></p></e>
     <e><p><l>satisfactorio<s n="adj"/></l><r>satisfautorio<s n="adj"/></r></p></e>
@@ -8617,6 +8622,66 @@
     <e><p><l>caso<s n="n"/></l><r>caso<s n="n"/></r></p></e>
     <e><p><l>beneficio<s n="n"/></l><r>benefizio<s n="n"/></r></p></e>
     <e><p><l>auténtico<s n="adj"/></l><r>autentico<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>cualquiera<s n="adj"/><s n="mf"/><s n="ND"/></l><r>cualsiquiera<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>cualquiera<s n="adj"/><s n="mf"/></l><r>cualsiquiera<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>asistencia<s n="n"/></l><r>asistenzia<s n="n"/></r></p></e>
+    <e><p><l>artístico<s n="adj"/></l><r>artistico<s n="adj"/></r></p></e>
+    <e><p><l>delictivo<s n="adj"/></l><r>delitibo<s n="adj"/></r></p></e>
+    <e><p><l>pacífico<s n="adj"/></l><r>pazifico<s n="adj"/></r></p></e>
+    <e><p><l>equitativo<s n="adj"/></l><r>equitatibo<s n="adj"/></r></p></e>
+    <e><p><l>autónomo<s n="adj"/></l><r>autonomo<s n="adj"/></r></p></e>
+    <e><p><l>preferente<s n="adj"/></l><r>preferent<s n="adj"/></r></p></e>
+    <e><p><l>único<s n="adj"/></l><r>unico<s n="adj"/></r></p></e>
+    <e><p><l>arbitrario<s n="adj"/></l><r>albitrario<s n="adj"/></r></p></e>
+    <e><p><l>degradante<s n="adj"/></l><r>degradant<s n="adj"/></r></p></e>
+    <e><p><l>médico<s n="adj"/></l><r>medico<s n="adj"/></r></p></e>
+    <e><p><l>técnico<s n="adj"/></l><r>tecnico<s n="adj"/></r></p></e>
+    <e><p><l>vivienda<s n="n"/></l><r>bibienda<s n="n"/></r></p></e>
+    <e><p><l>esposo<s n="n"/></l><r>esposo<s n="n"/></r></p></e>
+    <e><p><l>invalidez<s n="n"/></l><r>imbalidura<s n="n"/></r></p></e>
+    <e><p><l>enfermedad<s n="n"/></l><r>malotía<s n="n"/></r></p></e>
+    <e><p><l>observancia<s n="n"/></l><r>oserbanzia<s n="n"/></r></p></e>
+    <e><p><l>fortalecimiento<s n="n"/></l><r>enfortimiento<s n="n"/></r></p></e>
+    <e><p><l>obligación<s n="n"/></l><r>obligación<s n="n"/></r></p></e>
+    <e><p><l>pérdida<s n="n"/></l><r>perduga<s n="n"/></r></p></e>
+    <e><p><l>gobierno<s n="n"/></l><r>gubierno<s n="n"/></r></p></e>
+    <e><p><l>arte<s n="n"/></l><r>arte<s n="n"/></r></p></e>
+    <e><p><l>sufragio<s n="n"/></l><r>sufraxio<s n="n"/></r></p></e>
+    <e><p><l>conciencia<s n="n"/></l><r>conzenzia<s n="n"/></r></p></e>
+    <e><p><l>interés<s n="n"/></l><r>intres<s n="n"/></r></p></e>
+    <e><p><l>servicio<s n="n"/></l><r>serbizio<s n="n"/></r></p></e>
+    <e><p><l>expresión<s n="n"/></l><r>esprisión<s n="n"/></r></p></e>
+    <e><p><l>nacimiento<s n="n"/></l><r>naixenzia<s n="n"/></r></p></e>
+    <e><p><l>mujer<s n="n"/></l><r>muller<s n="n"/></r></p></e>
+    <e><p><l>cuidado<s n="n"/></l><r>cudiato<s n="n"/></r></p></e>
+    <e><p><l>cooperación<s n="n"/></l><r>coperación<s n="n"/></r></p></e>
+    <e><p><l>examen<s n="n"/></l><r>examen<s n="n"/></r></p></e>
+    <e><p><l>pueblo<s n="n"/></l><r>pueblo<s n="n"/></r></p></e>
+    <e><p><l>satisfacción<s n="n"/></l><r>satisfación<s n="n"/></r></p></e>
+    <e><p><l>raza<s n="n"/></l><r>raza<s n="n"/></r></p></e>
+    <e><p><l>fin<s n="n"/></l><r>fin<s n="n"/></r></p></e>
+    <e><p><l>deber<s n="n"/></l><r>deber<s n="n"/></r></p></e>
+    <e><p><l>asilo<s n="n"/></l><r>asilo<s n="n"/></r></p></e>
+    <e><p><l>autor<s n="n"/></l><r>autor<s n="n"/></r></p></e>
+    <e><p><l>práctica<s n="n"/></l><r>prautica<s n="n"/></r></p></e>
+    <e><p><l>ejercicio<s n="n"/></l><r>exerzizio<s n="n"/></r></p></e>
+    <e><p><l>procedimiento<s n="n"/></l><r>prezedimiento<s n="n"/></r></p></e>
+    <e><p><l>garantía<s n="n"/></l><r>guaranzia<s n="n"/></r></p></e>
+    <e><p><l>niño<s n="n"/></l><r>nino<s n="n"/></r></p></e>
+    <e><p><l>edad<s n="n"/></l><r>edat<s n="n"/></r></p></e>
+    <e><p><l>juicio<s n="n"/></l><r>chudizio<s n="n"/></r></p></e>
+    <e><p><l>provocación<s n="n"/></l><r>prebocación<s n="n"/></r></p></e>
+    <e><p><l>poder<s n="n"/></l><r>poder<s n="n"/></r></p></e>
+    <e><p><l>paz<s n="n"/></l><r>paz<s n="n"/></r></p></e>
+    <e><p><l>descanso<s n="n"/></l><r>discanso<s n="n"/></r></p></e>
+    <e><p><l>sexo<s n="n"/></l><r>secso<s n="n"/></r></p></e>
+    <e><p><l>hombre<s n="n"/></l><r>ombre<s n="n"/></r></p></e>
+    <e><p><l>pensamiento<s n="n"/></l><r>pensamiento<s n="n"/></r></p></e>
+    <e><p><l>mantenimiento<s n="n"/></l><r>mantenimiento<s n="n"/></r></p></e>
+    <e><p><l>esclavo<s n="n"/></l><r>esclau<s n="n"/></r></p></e>
+    <e><p><l>progreso<s n="n"/></l><r>pogreso<s n="n"/></r></p></e>
+    <e><p><l>soberanía<s n="n"/></l><r>sobiranía<s n="n"/></r></p></e>
+    <e><p><l>propósito<s n="n"/></l><r>proposito<s n="n"/></r></p></e>
+    <e><p><l>nivel<s n="n"/></l><r>nibel<s n="n"/></r></p></e>
   </section>
 </dictionary>
