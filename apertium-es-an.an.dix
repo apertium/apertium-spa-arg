@@ -6459,6 +6459,14 @@
       </p>
     </e>
     </pardef>
+    <pardef n="afueras__n">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+    </pardef>
 
     <pardef n="bien__preadv">
     <e>
@@ -6854,6 +6862,7 @@
 
     <e lm="aber"><i></i><par n="/aber__vbhaver"/></e>
     <e lm="bibir"><i>bib</i><par n="bib/ir__vblex"/></e>
+    <e lm="compartir" c="check"><i>compart</i><par n="bib/ir__vblex"/></e>
     <e lm="partizipar"><i>partizip</i><par n="cant/ar__vblex"/></e>
     <e lm="participar"><i>particip</i><par n="cant/ar__vblex"/></e>
     <e lm="completar"><i>complet</i><par n="cant/ar__vblex"/></e>
@@ -6871,6 +6880,7 @@
     <e lm="traucar"><i>trau</i><par n="trau/car__vblex"/></e>
     <e lm="abarcar"><i>abar</i><par n="trau/car__vblex"/></e>
     <e lm="abdicar"><i>abdi</i><par n="trau/car__vblex"/></e>
+    <e lm="desembolicar"><i>desemboli</i><par n="trau/car__vblex"/></e>
     <e lm="modificar"><i>modifi</i><par n="trau/car__vblex"/></e>
     <e lm="fer"><i>f</i><par n="f/er__vblex"/></e>
     <e lm="poder"><i>p</i><par n="p/oder__vbmod"/></e>
@@ -7899,6 +7909,7 @@
     <e lm="bida"><i>bida</i><par n="luenga__n"/></e>
     <e lm="begada"><i>begada</i><par n="luenga__n"/></e>
     <e lm="guerra"><i>guerra</i><par n="luenga__n"/></e>
+    <e lm="lai"><i>lai</i><par n="luenga__n"/></e>
     <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
     <e lm="literatura"><i>literatura</i><par n="luenga__n"/></e>
     <e lm="abad"><i>abad</i><par n="abad__n"/></e>
@@ -8721,6 +8732,7 @@
     <e lm="sobre"><i>sobre</i><par n="con__pr"/></e>
     <e lm="ta"><i></i><par n="contta__pr"/></e>
     <e lm="amás de"><i>amás<b/></i><par n="contde__pr"/></e>
+    <e lm="por meyo de"><i>por<b/>meyo<b/></i><par n="contde__pr"/></e>
     <e lm="antes de"><i>antes<b/></i><par n="contde__pr"/></e>
     <e r="LR" lm="antes de"><p><l>antis<b/></l><r>antes<b/></r></p><par n="contde__pr"/></e>
     <e lm="debaixo de"><i>deba</i><par n="ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
@@ -15435,12 +15447,83 @@
     <e lm="persecución"><i>persecu</i><par n="actua/ción__n"/></e>
     <e lm="ocupación"><i>ocupa</i><par n="actua/ción__n"/></e>
     <e lm="restrición"><i>restri</i><par n="actua/ción__n"/></e>
+    <e lm="esleción"><i>esle</i><par n="actua/ción__n"/></e>
     <e lm="reunión"><i>reuni</i><par n="divisi/ón__n"/></e>
     <e lm="razón"><i>raz</i><par n="divisi/ón__n"/></e>
     <e lm="comprensión"><i>comprensi</i><par n="divisi/ón__n"/></e>
     <e lm="omisión"><i>omisi</i><par n="divisi/ón__n"/></e>
     <e lm="obcheto"><i>obcheto</i><par n="libro__n"/></e>
     <e lm="nezesario"><i>nezesari</i><par n="italian/o__adj"/></e>
+    <e lm="meyo"><i>meyo</i><par n="libro__n"/></e>
+    <e lm="cilebrato"><i>cilebrat</i><par n="italian/o__adj"/></e>
+    <e lm="zilebrato"><i>zilebrat</i><par n="italian/o__adj"/></e>
+    <e lm="bacanzias"><i>bacanzias</i><par n="afueras__n"/></e>
+    <e lm="idiomo"><i>idioma</i><par n="libro__n"/></e>
+    <e lm="albitrariament"><i>albitrariament</i><par n="agora__adv"/></e>
+    <e lm="chusto"><i>chusto</i><par n="agora__adv"/></e>
+    <e lm="indibidualment"><i>indibidualment</i><par n="agora__adv"/></e>
+    <e lm="fraternalment"><i>fraternalment</i><par n="agora__adv"/></e>
+    <e lm="coleutibament"><i>coleutibament</i><par n="agora__adv"/></e>
+    <e lm="respeto"><i>respeto</i><par n="libro__n"/></e>
+    <e lm="propiedat"><i>propied</i><par n="privacid/at__n"/></e>
+    <e lm="orden"><i>orden</i><par n="libro__n"/></e>
+    <e lm="limitazión"><i>limita</i><par n="actua/ción__n"/></e>
+    <e lm="igualdat"><i>iguald</i><par n="privacid/at__n"/></e>
+    <e lm="color"><i>color</i><par n="libro__n"/></e>
+    <e lm="caso"><i>caso</i><par n="libro__n"/></e>
+    <e lm="benefizio"><i>benefizio</i><par n="libro__n"/></e>
+    <e lm="equibalent"><i>equibalent</i><par n="accionista__n"/></e>
+    <e lm="distinzión"><i>distin</i><par n="actua/ción__n"/></e>
+    <e lm="zercustanzia"><i>zercustanzia</i><par n="luenga__n"/></e>
+    <e lm="tribunal"><i>tribunal</i><par n="libro__n"/></e>
+    <e lm="tortura"><i>tortura</i><par n="luenga__n"/></e>
+    <e lm="toleranzia"><i>toleranzia</i><par n="luenga__n"/></e>
+    <e lm="susistenzia"><i>susistenzia</i><par n="luenga__n"/></e>
+    <e lm="supresión"><i>supresi</i><par n="divisi/ón__n"/></e>
+    <e lm="siguridat"><i>sigurid</i><par n="privacid/at__n"/></e>
+    <e lm="chustizia"><i>chustizia</i><par n="luenga__n"/></e>
+    <e lm="asistenzia"><i>asistenzia</i><par n="luenga__n"/></e>
+    <e lm="creyenzia"><i>creyenzia</i><par n="luenga__n"/></e>
+    <e lm="correspondenzia"><i>correspondenzia</i><par n="luenga__n"/></e>
+    <e lm="inozenzia"><i>inozenzia</i><par n="luenga__n"/></e>
+    <e lm="infanzia"><i>infanzia</i><par n="luenga__n"/></e>
+    <e lm="grupo"><i>grupo</i><par n="libro__n"/></e>
+    <e lm="esistenzia"><i>esistenzia</i><par n="luenga__n"/></e>
+    <e lm="residenzia"><i>residenzia</i><par n="luenga__n"/></e>
+    <e lm="recurso"><i>recurso</i><par n="libro__n"/></e>
+    <e lm="salario"><i>salario</i><par n="libro__n"/></e>
+    <e lm="esclabitut"><i>esclabitu</i><par n="amplitu/t__n"/></e>
+    <e lm="salut"><i>salu</i><par n="amplitu/t__n"/></e>
+    <e lm="domizilio"><i>domizilio</i><par n="libro__n"/></e>
+    <e lm="efeutibo"><i>efeutibo</i><par n="libro__n"/></e>
+    <e lm="consentimiento"><i>consentimiento</i><par n="libro__n"/></e>
+    <e lm="ripresentant"><i>ripresentant</i><par n="accionista__n"/></e>
+    <e lm="condenato"><i>condenat</i><par n="tresorer/o__n"/></e>
+    <e lm="chusto"><i>chust</i><par n="italian/o__adj"/></e>
+    <e lm="zientifico"><i>zientific</i><par n="italian/o__adj"/></e>
+    <e lm="satisfautorio"><i>satisfautori</i><par n="italian/o__adj"/></e>
+    <e lm="relichioso"><i>relichios</i><par n="italian/o__adj"/></e>
+    <e lm="inumano"><i>inuman</i><par n="italian/o__adj"/></e>
+    <e lm="etnico"><i>etnic</i><par n="italian/o__adj"/></e>
+    <e lm="efeutibo"><i>efeutib</i><par n="italian/o__adj"/></e>
+    <e lm="economico"><i>economic</i><par n="italian/o__adj"/></e>
+    <e lm="democratico"><i>democratic</i><par n="italian/o__adj"/></e>
+    <e lm="autentico"><i>autentic</i><par n="italian/o__adj"/></e>
+    <e lm="independient"><i>independient</i><par n="social__adj"/></e>
+    <e lm="zircular"><i>zircular</i><par n="social__adj"/></e>
+    <e lm="indibidual"><i>indibidual</i><par n="social__adj"/></e>
+    <e lm="imparzial"><i>imparzial</i><par n="social__adj"/></e>
+    <e lm="espezial"><i>espezial</i><par n="social__adj"/></e>
+    <e lm="equibalent"><i>equibalent</i><par n="social__adj"/></e>
+    <e lm="competent"><i>competent</i><par n="social__adj"/></e>
+    <e lm="chudizial"><i>chudizial</i><par n="social__adj"/></e>
+    <e lm="sindicar"><i>sindi</i><par n="trau/car__vblex"/></e>
+    <e lm="imbocar"><i>imbo</i><par n="trau/car__vblex"/></e>
+    <e lm="torturar"><i>tortur</i><par n="cant/ar__vblex"/></e>
+    <e lm="imbestigar"><i>imbestig</i><par n="cant/ar__vblex"/></e>
+    <e lm="demandar"><i>demand</i><par n="cant/ar__vblex"/></e>
+    <e lm="condenar"><i>conden</i><par n="cant/ar__vblex"/></e>
+    <e lm="complementar"><i>complement</i><par n="cant/ar__vblex"/></e>
   </section>
   <section id="apostrophes" type="postblank">
     <e r="LR" lm="d'"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
