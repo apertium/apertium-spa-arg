@@ -5677,6 +5677,14 @@
       </p>
     </e>
     </pardef>
+    <pardef n="ande__rel">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="rel"/><s n="adv"/></r>
+      </p>
+    </e>
+    </pardef>
     <pardef n="/o_cual__rel">
     <e>
       <p>
@@ -9318,11 +9326,11 @@
     <e lm="ó" i="yes"><i>ó</i><par n="án__adv"/></e>
 
     <e lm="an" i="yes"><i>an</i><par n="agora__adv"/></e>   <!-- Iste igual ye un rel  -->
-    <e r="LR" lm="á on" i="yes"><p><l>á on</l><r>an</r></p><par n="agora__adv"/></e>
+    <e r="LR" lm="á on" i="yes"><p><l>á<b/>on</l><r>an</r></p><par n="agora__adv"/></e>
     <e r="LR" lm="aon" i="yes"><p><l>aon</l><r>an</r></p><par n="agora__adv"/></e>
     <e r="LR" lm="aón" i="yes"><p><l>aón</l><r>an</r></p><par n="agora__adv"/></e>
     <e r="LR" lm="an que" i="yes"><i>an<b/>que</i><par n="agora__adv"/></e>
-    <e r="LR" lm="ande" i="yes"><i>ande</i><par n="agora__adv"/></e>
+    <e lm="ande"><i>ande</i><par n="ande__rel"/></e>
     <e lm="do" i="yes"><i>do</i><par n="agora__adv"/></e>   <!-- Iste igual ye un rel  -->
     <e lm="on" i="yes"><i>on</i><par n="agora__adv"/></e>
     <e lm="no"><i>no</i><par n="agora__adv"/></e>
@@ -11846,6 +11854,7 @@
     <e lm="Aragón"><i>Aragón</i><par n="Afganistán__np"/></e>
     <e lm="Zaragoza"><i>Zaragoza</i><par n="Belén__np"/></e>
 
+    <e lm="ibernar"><i>ibern</i><par n="cant/ar__vblex"/></e>
     <e lm="recomendar"><i>recomend</i><par n="cant/ar__vblex"/></e>
     <e lm="consultar"><i>consult</i><par n="cant/ar__vblex"/></e>
     <e lm="abandonar"><i>abandon</i><par n="cant/ar__vblex"/></e>
