@@ -5838,7 +5838,6 @@
     <e><i>Chicago<s n="np"/></i></e>
     <e><i>Chile<s n="np"/></i></e>
     <e><i>China<s n="np"/></i></e>
-    <e><i>CHINA<s n="np"/></i></e>
     <e><i>Chipre<s n="np"/></i></e>
     <e><i>Chiva<s n="np"/></i></e>
     <e><i>Chodos<s n="np"/></i></e>
@@ -5847,7 +5846,7 @@
     <e><i>Cinctorres<s n="np"/></i></e>
     <e><i>Cirat<s n="np"/></i></e>
     <e><i>Cistella<s n="np"/></i></e>
-    <e><i>Ciudad<b/>de<b/>México<s n="np"/></i></e>
+    <e><p><l>Ciudad<b/>de<b/>México<s n="np"/></l><r>Ciudat<b/>de<b/>Mexico<s n="np"/></r></p></e>
     <e><i>Ciudad<b/>Real<s n="np"/></i></e>
     <e><i>Ciutat<s n="np"/></i></e>
     <e><i>Claravalls<s n="np"/></i></e>
@@ -6551,7 +6550,10 @@
     <e><i>Mediona<s n="np"/></i></e>
     <e><i>Mediterráneo<s n="np"/></i></e>
     <e><i>Megara<s n="np"/></i></e>
-    <e><i>Méjico<s n="np"/></i></e>
+    <e r="LR"><p><l>Méjico<s n="np"/></l><r>Mexico<s n="np"/></r></p></e>
+    <e r="RL"><p><l>México<s n="np"/></l><r>Méjico<s n="np"/></r></p></e>
+    <e r="RL"><p><l>México<s n="np"/></l><r>México<s n="np"/></r></p></e>
+    <e><p><l>México<s n="np"/></l><r>Mexico<s n="np"/></r></p></e>
     <e><i>Melanesia<s n="np"/></i></e>
     <e><i>Melbourne<s n="np"/></i></e>
     <e><i>Melilla<s n="np"/></i></e>
@@ -6903,7 +6905,8 @@
     <e><i>Rubí<s n="np"/></i></e>
     <e><i>Rubió<s n="np"/></i></e>
     <e><i>Rugat<s n="np"/></i></e>
-    <e><i>Rumania<s n="np"/></i></e>
+    <e r="LR"><p><l>Rumania<s n="np"/></l><r>Rumanía<s n="np"/></r></p></e>
+    <e r="RL"><p><l>Rumanía<s n="np"/></l><r>Rumania<s n="np"/></r></p></e>
     <e><i>Rumanía<s n="np"/></i></e>
     <e><i>Rusia<s n="np"/></i></e>
     <e><i>Sabadell<s n="np"/></i></e>
@@ -7136,8 +7139,11 @@
     <e><i>Toga<s n="np"/></i></e>
     <e><i>Togo<s n="np"/></i></e>
     <e><i>Tokelau<s n="np"/></i></e>
-    <e><i>Tokio<s n="np"/></i></e>
-    <e><i>Tokyo<s n="np"/></i></e>
+    <e r="LR"><i>Tokio<s n="np"/></i></e>
+    <e r="RL"><i>Tokyo<s n="np"/></i></e>
+    <e><p><l>Tokyo<s n="np"/></l><r>Tokio<s n="np"/></r></p></e>
+    <e><p><l>Japón<s n="np"/></l><r>Chapón<s n="np"/></r></p></e>
+    <e r="RL"><p><l>Japón<s n="np"/></l><r>Japón<s n="np"/></r></p></e>
     <e><i>Toledo<s n="np"/></i></e>
     <e><i>Tollos<s n="np"/></i></e>
     <e><i>Tolosa<s n="np"/></i></e>
@@ -7290,7 +7296,9 @@
     <e><i>Villamalur<s n="np"/></i></e>
     <e><i>Villanueva<b/>de<b/>Castellón<s n="np"/></i></e>
     <e><i>Villar<s n="np"/></i></e>
-    <e><i>Villarreal<s n="np"/></i></e>
+    <e r="LR"><p><l>Villarreal<s n="np"/></l><r>Villarreyal<s n="np"/></r></p></e>
+    <e r="RL"><p><l>Vila-real<s n="np"/></l><r>Villarreal<s n="np"/></r></p></e>
+    <e><p><l>Vila-real<s n="np"/></l><r>Villarreyal<s n="np"/></r></p></e>
     <e><i>Villavieja<s n="np"/></i></e>
     <e><i>Villena<s n="np"/></i></e>
     <e><i>Villores<s n="np"/></i></e>
