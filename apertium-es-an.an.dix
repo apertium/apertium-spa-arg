@@ -9084,7 +9084,7 @@
     <e lm="dica" i="yes"><i>dica</i><par n="con__pr"/></e>
     <e lm="como"><i>como</i><par n="con__pr"/></e>
     <e lm="como" r="LR"><p><l>coma</l><r>como</r></p><par n="con__pr"/></e>
-    <e lm="asta" i="yes"><i>asta</i><par n="con__pr"/></e>
+    <e lm="asta"><i>asta</i><par n="con__pr"/></e>
     <e lm="chus" i="yes"><i>chus</i><par n="con__pr"/></e>
     <e lm="en"><i></i><par n="conten__pr"/></e>
     <e lm="enta"><i>en</i><par n="contta__pr"/></e>
@@ -9098,6 +9098,7 @@
     <e lm="amás de" i="yes"><i>amás<b/></i><par n="contde__pr"/></e>
     <e lm="por meyo de"><i>por<b/>meyo<b/></i><par n="contde__pr"/></e>
     <e lm="antes"><i>antes</i><par n="con__pr"/></e>
+    <e lm="antes"><p><l>antis</l><r>antes</r></p><par n="contde__pr"/></e>
     <e lm="antes de" i="yes"><i>antes<b/></i><par n="contde__pr"/></e>
     <e r="LR" lm="antes de" i="yes"><p><l>antis<b/></l><r>antes<b/></r></p><par n="contde__pr"/></e>
     <e lm="debaixo de" i="yes"><i>deba</i><par n="ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
