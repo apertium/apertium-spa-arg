@@ -201,6 +201,9 @@
     <e><p><l>donde<s n="rel"/></l><r>ande<s n="rel"/></r></p></e>
 
     <e c="FIXME"><p><l>bastante<s n="adv"/></l><r>ben<s n="preadv"/></r></p></e>
+    <e><p><l>muy<s n="preadv"/></l><r>guaire<s n="preadv"/></r></p></e>
+    <e><p><l>no<b/>muy<s n="preadv"/></l><r>no<b/>guaire<s n="preadv"/></r></p></e>
+    <e><p><l>mal<s n="preadv"/></l><r>mal<s n="preadv"/></r></p></e>
     <e r="RL"><p><l></l><r>pas<s n="adv"/></r></p></e>
     <e><p><l>mismo<s n="adj"/></l><r>mesmo<s n="adj"/></r></p></e>
     <e><p><l>aragonés<s n="adj"/></l><r>aragonés<s n="adj"/></r></p></e>
@@ -1282,7 +1285,7 @@
     <e><p><l>hijo<s n="n"/></l><r>fillo<s n="n"/></r></p></e>
     <e><p><l>verbo<s n="n"/></l><r>berbo<s n="n"/></r></p></e>
     <e r="RL"><p><l>verbo<s n="n"/></l><r>verbo<s n="n"/></r></p></e>
-    <e><p><l>adjetivo<s n="n"/></l><r>achetibo<s n="n"/></r></p></e>
+    <e r="RL"><p><l>adjetivo<s n="n"/></l><r>achetibo<s n="n"/></r></p></e>
     <e><p><l>adjetivo<s n="n"/></l><r>adchectivo<s n="n"/></r></p></e>
     <e><p><l>archivo<s n="n"/></l><r>archibo<s n="n"/></r></p></e>
     <e><p><l>vino<s n="n"/></l><r>bin<s n="n"/></r></p></e>
