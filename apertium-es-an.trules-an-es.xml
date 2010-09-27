@@ -424,62 +424,9 @@
     <def-var n="concTercero"/>
     <def-var n="interrogativa"/>
     <def-var n="exclamativa"/>
-    <def-var n="ben_de_persona"/>
-    <def-var n="ben_de_nbr"/>
   </section-def-vars>
 
-  <section-def-lists>
-    <def-list n="ben_de_prn">
-      <list-item v="me"/>
-      <list-item v="te"/>
-      <list-item v="le"/>
-      <list-item v="nos"/>
-      <list-item v="bos"/>
-    </def-list>
-
-
-  </section-def-lists>
-
   <section-def-macros>
-    <def-macro n="ben_de" npar="1">
-      <choose>
-	<when>
-	  <test>
-	    <in caseless="yes">
-	      <clip pos="1" side="sl" part="lem"/>
-	      <list n="ben_de_prn"/>
-	    </in>
-	  </test>
-	  <let>
-	    <var n="ben_de_persona"/>
-	    <clip pos="1" side="sl" part="persona"/>
-	  </let>
-	  <let>
-	    <var n="ben_de_nbr"/>
-	    <clip pos="1" side="sl" part="nbr"/>
-	  </let>
-	</when>
-      </choose>
-      <choose>
-	<when>
-	  <test>
-	    <equal caseless="yes">
-	      <clip pos="1" side="sl" part="lem"/>
-	      <lit v="se"/>
-	    </equal>
-	  </test>
-	  <let>
-	    <var n="ben_de_persona"/>
-	    <lit-tag v="p3"/>
-	  </let>
-	  <let>
-	    <var n="ben_de_nbr"/>
-	    <clip pos="1" side="sl" part="nbr"/>
-	  </let>
-	</when>
-      </choose>
-    </def-macro>
-
     <def-macro n="f_hi" npar="1">
       <choose>
 	<when>
@@ -6469,7 +6416,7 @@
 	    <lit-tag v="vblex"/>   
 	    <lit-tag v="pri"/>   
 	    <lit-tag v="p3"/>   
-	    <lit-tag v="sg"/>   
+	    <lit-tag v="pl"/>   
 	  </lu>
 	  <b pos="1"/>
 	  <lu>
@@ -6490,9 +6437,6 @@
 	<pattern-item n="prnenc"/>
       </pattern>
       <action>
-	<call-macro n="ben_de">
-	  <with-param pos="4"/>
-	</call-macro>
 	<out> 
 	  <lu>
 	    <get-case-from pos="1">
@@ -6500,8 +6444,8 @@
 	    </get-case-from>
 	    <lit-tag v="vblex"/>   
 	    <lit-tag v="pri"/>   
-	    <var n="ben_de_persona"/>   
-	    <var n="ben_de_nbr"/>   
+	    <lit-tag v="p3"/>   
+	    <lit-tag v="pl"/>   
 	  </lu>
 	  <b pos="1"/>	
 	</out>
@@ -6521,9 +6465,6 @@
 	<pattern-item n="prnenc"/>
       </pattern>
       <action>
-	<call-macro n="ben_de">
-	  <with-param pos="4"/>
-	</call-macro>
 	<out> 
 	  <lu>
 	    <get-case-from pos="1">
@@ -6531,8 +6472,8 @@
 	    </get-case-from>
 	    <lit-tag v="vblex"/>   
 	    <lit-tag v="pri"/>   
-	    <var n="ben_de_persona"/>   
-	    <var n="ben_de_nbr"/>   
+	    <lit-tag v="p3"/>   
+	    <lit-tag v="pl"/>   
 	  </lu>
 	  <b pos="1"/>	
 	</out>
