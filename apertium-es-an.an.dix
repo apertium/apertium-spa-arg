@@ -1140,6 +1140,12 @@
         <r>estar<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
+    <e r="LR">
+      <p>
+        <l>é</l>
+        <r>estar<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
 
     <e>
       <p>
@@ -7784,6 +7790,7 @@
     <e lm="XXI"><i>XXI</i><par n="dos__num"/></e>
 
     <e lm="aber"><i></i><par n="/aber__vbhaver"/></e>
+    <e lm="haber"><i>h</i><par n="/aber__vbhaver"/></e>
     <e lm="bibir"><i>bib</i><par n="bib/ir__vblex"/></e>
     <e lm="proibir"><i>proib</i><par n="bib/ir__vblex"/></e>
     <e lm="infrinchir"><i>infrinch</i><par n="bib/ir__vblex"/></e>
@@ -8911,6 +8918,7 @@
     <e lm="berbo"><i>berbo</i><par n="libro__n"/></e>
     <e lm="verbo"><i>verbo</i><par n="libro__n"/></e>
     <e lm="achetibo"><i>achetibo</i><par n="libro__n"/></e>
+    <e lm="adchectivo"><i>adchectivo</i><par n="libro__n"/></e>
     <e lm="archibo"><i>archibo</i><par n="libro__n"/></e>
     <e lm="bin"><i>bin</i><par n="libro__n"/></e>
     <e lm="actriz"><i>actriz</i><par n="actriz__n"/></e>
@@ -8924,6 +8932,7 @@
     <e lm="procheuto"><i>procheuto</i><par n="libro__n"/></e>
     <e lm="direutorio"><i>direutorio</i><par n="libro__n"/></e>
     <e lm="decumento"><i>decumento</i><par n="libro__n"/></e>
+    <e lm="documento"><i>documento</i><par n="libro__n"/></e>
     <e lm="cuerpo"><i>cuerpo</i><par n="libro__n"/></e>
     <e lm="coxín"><i>co</i><par n="ix_x__var"/><i>ín</i><par n="libro__n"/></e>
     <e lm="chinero"><i>chinero</i><par n="libro__n"/></e>
@@ -8987,6 +8996,7 @@
     <e lm="división"><i>divisi</i><par n="divisi/ón__n"/></e>
     <e lm="opinión"><i>opini</i><par n="divisi/ón__n"/></e>
     <e lm="constitución"><i>constitu</i><par n="actua/ción__n"/></e>
+    <e lm="motivación"><i>motiva</i><par n="actua/ción__n"/></e>
     <e lm="edición"><i>edi</i><par n="actua/ción__n"/></e>
     <e lm="condición"><i>condi</i><par n="actua/ción__n"/></e>
     <e lm="nación"><i>na</i><par n="actua/ción__n"/></e>
@@ -9901,6 +9911,7 @@
     <e r="LR" lm="le'n"><p><l>le'n</l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="LR" lm="se'n"><p><l>se'n</l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="LR" lm="del"><p><l>del</l><r>de<s n="pr"/><j/>o<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="dels"><p><l>dels</l><r>de<s n="pr"/><j/>o<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
     <e lm="Caixa Catalunya"><i>Caixa<b/>Catalunya</i><par n="ABC__np"/></e>
     <e lm="Efe"><i>Efe</i><par n="ABC__np"/></e>
     <e lm="Barbera"><i>Barbera</i><par n="ABC__np"/></e>
@@ -12617,6 +12628,7 @@
     <e lm="tumbar"><i>tumb</i><par n="cant/ar__vblex"/></e>
     <e lm="usar"><i>us</i><par n="cant/ar__vblex"/></e>
     <e lm="utilizar"><i>utiliz</i><par n="cant/ar__vblex"/></e>
+    <e lm="utilicar"><i>utilic</i><par n="cant/ar__vblex"/></e>
     <e lm="vesitar"><i>vesit</i><par n="cant/ar__vblex"/></e>
     <e lm="zelebrar"><i>zelebr</i><par n="cant/ar__vblex"/></e>
     <e lm="zentralizar"><i>zentraliz</i><par n="cant/ar__vblex"/></e>
