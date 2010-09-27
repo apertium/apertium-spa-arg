@@ -480,8 +480,6 @@
         <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
       </p>
     </e>
-
-
     </pardef>
 
 
@@ -9790,9 +9788,9 @@
     <e lm="bien"><i>ben</i><par n="bien__preadv"/></e>
     <e lm="pro" i="yes"><i>pro</i><par n="bien__preadv"/></e>
     <e r="LR" lm="prou" i="yes"><p><l>prou</l><r>pro</r></p><par n="bien__preadv"/></e>
-    <e lm="guaire" i="yes"><i>guaire</i><par n="bien__preadv"/></e>
-    <e lm="no guaire" i="yes"><i>no<b/>guaire</i><par n="bien__preadv"/></e>
-    <e lm="mal" i="yes"><i>mal</i><par n="bien__preadv"/></e>
+    <e lm="guaire"><i>guaire</i><par n="bien__preadv"/></e>
+    <e lm="no guaire"><i>no<b/>guaire</i><par n="bien__preadv"/></e>
+    <e lm="mal"><i>mal</i><par n="bien__preadv"/></e>
     <e lm="muit" i="yes"><i>muit</i><par n="bien__preadv"/></e>
     <e r="LR" lm="muit" i="yes"><p><l>mui</l><r>muit</r></p><par n="bien__preadv"/></e>
     <e lm="cuasi"><i>cuasi</i><par n="bien__preadv"/></e>
