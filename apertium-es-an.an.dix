@@ -9673,7 +9673,6 @@
     <e lm="ta"><i></i><par n="contta__pr"/></e>
     <e lm="amás de" i="yes"><i>amás<b/></i><par n="contde__pr"/></e>
     <e lm="por meyo de"><i>por<b/>meyo<b/></i><par n="contde__pr"/></e>
-    <e lm="antes"><i>antes</i><par n="con__pr"/></e>
     <e lm="antes"><p><l>antis</l><r>antes</r></p><par n="contde__pr"/></e>
     <e lm="antes de" i="yes"><i>antes<b/></i><par n="contde__pr"/></e>
     <e r="LR" lm="antes de" i="yes"><p><l>antis<b/></l><r>antes<b/></r></p><par n="contde__pr"/></e>
@@ -9808,6 +9807,7 @@
 
 <!--Adverbios-->
     <e lm="autualment"><i>autualment</i><par n="agora__adv"/></e>
+    <e lm="antes"><i>antes</i><par n="agora__adv"/></e>
     <e lm="sólo"><i>sólo</i><par n="agora__adv"/></e>
     <e lm="bien"><i>bien</i><par n="agora__adv"/></e>
     <e lm="encara"><i>encara</i><par n="agora__adv"/></e>
