@@ -2342,13 +2342,14 @@
     <e r="RL"><p><l>voluntariamente<s n="adv"/></l><r>boluntariament<s n="adv"/></r></p></e>
     <e><p><l>vulgarmente<s n="adv"/></l><r>bulgarment<s n="adv"/></r></p></e>
     <e><p><l>ya<s n="adv"/></l><r>ya<s n="adv"/></r></p></e>
+    <e><p><l>antes<s n="adv"/></l><r>antes<s n="adv"/></r></p></e>
     <!-- ******************************
           group pr_symbol
       ****************************** -->
     <e><p><l>a<s n="pr"/></l><r>á<s n="pr"/></r></p></e>
     <e><p><l>ante<s n="pr"/></l><r>debant<s n="pr"/></r></p></e>
     <e r="RL"><p><l>antes<s n="pr"/></l><r>abant<s n="pr"/></r></p></e>
-    <e><p><l>antes<s n="pr"/></l><r>antes<s n="pr"/></r></p></e>
+    <e><p><l>antes<b/>de<s n="pr"/></l><r>antesde<s n="pr"/></r></p></e>
     <e><p><l>como<s n="pr"/></l><r>como<s n="pr"/></r></p></e>
     <e><p><l>con<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
     <e><p><l>contra<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
@@ -2434,6 +2435,7 @@
     <e><p><l>muy<s n="preadv"/></l><r>guaire<s n="preadv"/></r></p></e>
     <e><p><l>no<b/>muy<s n="preadv"/></l><r>no<b/>guaire<s n="preadv"/></r></p></e>
     <e><p><l>tan<s n="preadv"/></l><r>tan<s n="preadv"/></r></p></e>
+    <e><p><l>casi<s n="preadv"/></l><r>cuasi<s n="preadv"/></r></p></e>
     <!-- ******************************
           group n_symbol
       ****************************** -->
@@ -4183,7 +4185,7 @@
     <e><p><l>transformar<s n="vblex"/></l><r>transformar<s n="vblex"/></r></p></e>
     <e><p><l>trasladar<s n="vblex"/></l><r>trasladar<s n="vblex"/></r></p></e>
     <e><p><l>tratar<s n="vblex"/></l><r>tratar<s n="vblex"/></r></p></e>
-    <e><p><l>trovar<s n="vblex"/></l><r>trobar<s n="vblex"/></r></p></e>
+    <e><p><l>encontrar<s n="vblex"/></l><r>trobar<s n="vblex"/></r></p></e>
     <e><p><l>tumbar<s n="vblex"/></l><r>tumbar<s n="vblex"/></r></p></e>
     <e><p><l>usar<s n="vblex"/></l><r>usar<s n="vblex"/></r></p></e>
     <e><p><l>utilizar<s n="vblex"/></l><r>utilizar<s n="vblex"/></r></p></e>
