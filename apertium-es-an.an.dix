@@ -6999,6 +6999,32 @@
     </e>
 
     </pardef>
+    <pardef n="treballador__n">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="n"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>s</l>
+        <r><s n="n"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>a</l>
+        <r><s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>as</l>
+        <r><s n="n"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    </pardef>
     <pardef n="sant__n">
     <e>
       <p>
@@ -7850,6 +7876,7 @@
     <e lm="primer"><i>primer</i><par n="primer__adj"/></e>
     <e lm="sant"><i>sant</i><par n="primer__adj"/></e>
     <e lm="sant"><i>sant</i><par n="sant__n"/></e>
+    <e lm="treballador"><i>treballador</i><par n="treballador__n"/></e>
     <e lm="europeu"><i>europe</i><par n="europe/u__adj"/></e>
     <e lm="unito"><i>unit</i><par n="italian/o__adj"/></e>
     <e lm="italiano"><i>italian</i><par n="italian/o__adj"/></e>
@@ -7874,6 +7901,7 @@
     <e lm="umano"><i>uman</i><par n="italian/o__adj"/></e>
     <e lm="publico"><i>public</i><par n="italian/o__adj"/></e>
     <e lm="social"><i>social</i><par n="social__adj"/></e>
+    <e lm="increyible"><i>increyible</i><par n="social__adj"/></e>
     <e lm="oral"><i>oral</i><par n="social__adj"/></e>
     <e lm="actual"><i>actual</i><par n="social__adj"/></e>
     <e lm="freqüent"><i>freqüent</i><par n="social__adj"/></e>
