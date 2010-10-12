@@ -2062,6 +2062,12 @@
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>ba</l> 
+        <r>ir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>va</l> 
@@ -8088,6 +8094,7 @@
     <e lm="clásico"><i>clásic</i><par n="italian/o__adj"/></e>
     <e lm="clasificatorio"><i>clasificatori</i><par n="italian/o__adj"/></e>
     <e lm="colectivo"><i>colectiv</i><par n="italian/o__adj"/></e>
+    <e lm="coleutibo"><i>coleutib</i><par n="italian/o__adj"/></e>
     <e lm="colombiano"><i>colombian</i><par n="italian/o__adj"/></e>
     <e lm="cómodo"><i>cómod</i><par n="italian/o__adj"/></e>
     <e lm="compacto"><i>compact</i><par n="italian/o__adj"/></e>
@@ -9030,12 +9037,14 @@
     <e lm="luengache"><i>luengache</i><par n="libro__n"/></e>
     <e lm="imperio"><i>imperio</i><par n="libro__n"/></e>
     <e lm="premio"><i>premio</i><par n="libro__n"/></e>
+    <e lm="tiempo"><i>tiempo</i><par n="libro__n"/></e>
     
     <e lm="relichión"><i>relichi</i><par n="divisi/ón__n"/></e>
     <e lm="división"><i>divisi</i><par n="divisi/ón__n"/></e>
     <e lm="opinión"><i>opini</i><par n="divisi/ón__n"/></e>
     <e lm="constitución"><i>constitu</i><par n="actua/ción__n"/></e>
     <e lm="motivación"><i>motiva</i><par n="actua/ción__n"/></e>
+    <e lm="publicación"><i>publica</i><par n="actua/ción__n"/></e>
     <e lm="edición"><i>edi</i><par n="actua/ción__n"/></e>
     <e lm="condición"><i>condi</i><par n="actua/ción__n"/></e>
     <e lm="nación"><i>na</i><par n="actua/ción__n"/></e>
@@ -9050,6 +9059,7 @@
     <e lm="manifestación"><i>manifesta</i><par n="actua/ción__n"/></e>
     <e lm="información"><i>informa</i><par n="actua/ción__n"/></e>
     <e lm="boluntat"><i>bolunt</i><par n="privacid/at__n"/></e>
+    <e lm="verdat"><i>verd</i><par n="privacid/at__n"/></e>
     <e lm="ziudat"><i>ziud</i><par n="privacid/at__n"/></e>
     <e lm="ciudat"><i>ciud</i><par n="privacid/at__n"/></e>
     <e lm="sociedat"><i>socied</i><par n="privacid/at__n"/></e>
