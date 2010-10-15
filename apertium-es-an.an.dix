@@ -10038,8 +10038,10 @@
     <e lm="do" i="yes"><i>do</i><par n="agora__adv"/></e>   <!-- Iste igual ye un rel  -->
     <e lm="on" i="yes"><i>on</i><par n="agora__adv"/></e>
     <e lm="no"><i>no</i><par n="agora__adv"/></e>
-    <e lm="más"><i>más</i><par n="agora__adv"/></e>
-    <e lm="més"><i>més</i><par n="agora__adv"/></e>
+    <e lm="mas"><i>mas</i><par n="agora__adv"/></e>
+    <e lm="mes"><i>mes</i><par n="agora__adv"/></e>
+    <e r="LR" lm="más"><i>mas</i><par n="agora__adv"/></e>
+    <e r="LR" lm="més"><i>mes</i><par n="agora__adv"/></e>
     <e lm="tamién"><i>tamién</i><par n="agora__adv"/></e>
 
     <e r="LR" lm="me'n"><p><l>me'n</l><r>me<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
