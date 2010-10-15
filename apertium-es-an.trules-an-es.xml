@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> <!-- -*- nxml -*- -->
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- -*- nxml -*- -->
 <transfer>
   <section-def-cats>
     <def-cat n="nom">
@@ -72,7 +73,7 @@
       <cat-item lemma="se" tags="prn.pro.ref.p3.mf.sg"/>
       <cat-item lemma="se" tags="prn.pro.ref.p3.mf.pl"/>
       <cat-item lemma="nos" tags="prn.pro.p1.mf.pl"/>
-      <cat-item lemma="bos" tags="prn.pro.p2.mf.pl"/>
+      <cat-item lemma="tos" tags="prn.pro.p2.mf.pl"/>
     </def-cat>
 
     <def-cat n="prnpro3">   	  	  
@@ -2650,7 +2651,7 @@
 	<when>
 	  <test>
 	    <and>
-	      <equal caseless="yes" >
+	      <equal caseless="yes">
 		<clip pos="1" side="tl" part="lem"/>
 		<lit v="primero"/>
 	      </equal>
@@ -2680,7 +2681,7 @@
 	<when>
 	  <test>
 	    <and>
-	      <equal caseless="yes" >
+	      <equal caseless="yes">
 		<clip pos="1" side="tl" part="lem"/>
 		<lit v="tercero"/>
 	      </equal>
