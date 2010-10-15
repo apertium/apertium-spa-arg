@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--
 	Dictionary:
 	Sections: 2
@@ -102,8 +102,8 @@
     <e><p><l>nos<s n="prn"/><s n="pro"/></l><r>nos<s n="prn"/><s n="pro"/></r></p></e>
     <e><p><l>nos<s n="prn"/><s n="enc"/></l><r>nos<s n="prn"/><s n="enc"/></r></p></e>
     <e><p><l>nosotros<s n="prn"/><s n="tn"/></l><r>nusatros<s n="prn"/><s n="tn"/></r></p></e>
-    <e><p><l>os<s n="prn"/><s n="pro"/></l><r>bos<s n="prn"/><s n="pro"/></r></p></e>
-    <e><p><l>os<s n="prn"/><s n="enc"/></l><r>bos<s n="prn"/><s n="enc"/></r></p></e>
+    <e><p><l>os<s n="prn"/><s n="pro"/></l><r>tos<s n="prn"/><s n="pro"/></r></p></e>
+    <e><p><l>os<s n="prn"/><s n="enc"/></l><r>tos<s n="prn"/><s n="enc"/></r></p></e>
     <e r="RL"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -118,7 +118,7 @@
     <e><p><l>tú<s n="prn"/><s n="tn"/></l><r>tú<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>vosotros<s n="prn"/><s n="tn"/></l><r>busatros<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>yo<s n="prn"/><s n="tn"/></l><r>yo<s n="prn"/><s n="tn"/></r></p></e>
-    <e><p><l>él<s n="prn"/><s n="tn"/></l><r>él<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>él<s n="prn"/><s n="tn"/></l><r>ell<s n="prn"/><s n="tn"/></r></p></e>
     <!-- ******************************
           group det_symbol
       ****************************** -->
@@ -2264,8 +2264,8 @@
     <e><p><l>modestamente<s n="adv"/></l><r>modestament<s n="adv"/></r></p></e>
     <e><p><l>mortalmente<s n="adv"/></l><r>mortalment<s n="adv"/></r></p></e>
     <e><p><l>mundialmente<s n="adv"/></l><r>mundialment<s n="adv"/></r></p></e>
-    <e><p><l>más<s n="adv"/></l><r>más<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>más<s n="adv"/></l><r>més<s n="adv"/></r></p></e>
+    <e><p><l>más<s n="adv"/></l><r>mas<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>más<s n="adv"/></l><r>mes<s n="adv"/></r></p></e>
     <e r="RL"><p><l>nada<s n="adv"/></l><r>brenca<s n="adv"/></r></p></e>
     <e><p><l>nada<s n="adv"/></l><r>garra<s n="adv"/></r></p></e>
     <e r="RL"><p><l>nada<s n="adv"/></l><r>mica<s n="adv"/></r></p></e>

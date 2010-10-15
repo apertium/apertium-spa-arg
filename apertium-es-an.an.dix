@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--
 	Dictionary:
 	Sections: 4
@@ -23,13 +23,13 @@
     <sdef n="tn" /> 
     <sdef n="n" /> 
     <sdef n="np" /> 
-    <sdef n="adj" 	c="Achetibo"/> 
+    <sdef n="adj" 	c="Adchectivo"/> 
     <sdef n="f" 	c="femenino"/> 
     <sdef n="m" 	c="masculino"/> 
     <sdef n="mf" 	c="masc-fem"/> 
     <sdef n="sg" 	c="singular"/> 
     <sdef n="pl" 	c="plural"/> 
-    <sdef n="adv" 	c="alberbio"/> 
+    <sdef n="adv" 	c="adverbio"/> 
     <sdef n="preadv" /> 
     <sdef n="pr" /> 
     <sdef n="prn" /> 
@@ -54,20 +54,20 @@
     <sdef n="infps" /> 
     <sdef n="ger" 	c="Cherundio"/> 
     <sdef n="gerps" /> 
-    <sdef n="pp" 	c="Partizipio"/> 
-    <sdef n="pri" 	c="Present d'endicatibo"/> 
+    <sdef n="pp" 	c="Participio"/> 
+    <sdef n="pri" 	c="Present d'indicativo"/> 
     <sdef n="p1" /> 
     <sdef n="p2" /> 
     <sdef n="p3" /> 
-    <sdef n="pii" 	c="Imperfeuto d'endicatibo"/> 
+    <sdef n="pii" 	c="Imperfecto d'indicativo"/> 
     <sdef n="pmp" /> 
-    <sdef n="ifi" 	c="Pasato d'endicatibo"/> 
+    <sdef n="ifi" 	c="Pasato d'indicativo"/> 
     <sdef n="fti" 	c="Futuro"/> 
-    <sdef n="cni" 	c="Condizional"/> 
-    <sdef n="prs" 	c="Presén de Subchuntibo"/> 
-    <sdef n="pis" 	c="Imperfeuto de Subchuntibo"/> 
+    <sdef n="cni" 	c="Condicional"/> 
+    <sdef n="prs" 	c="Present de Subchuntivo"/> 
+    <sdef n="pis" 	c="Imperfecto de Subchuntivo"/> 
     <sdef n="fts" /> 
-    <sdef n="imp" 	c="Imperatibo"/> 
+    <sdef n="imp" 	c="Imperativo"/> 
     <sdef n="pos" /> 
     <sdef n="sp" /> 
     <sdef n="ref" /> 
@@ -275,18 +275,32 @@
 
     </pardef>
     
-    <pardef n="/más__var">
+    <pardef n="/mas__var">
     <e>
       <p>
-        <l>más</l>
-        <r>más</r>
+        <l>mas</l>
+        <r>mas</r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>mes</l>
+        <r>mas</r>
       </p>
     </e>
 
     <e r="LR">
       <p>
         <l>més</l>
-        <r>más</r>
+        <r>mas</r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>más</l>
+        <r>mas</r>
       </p>
     </e>
 
@@ -360,6 +374,38 @@
 
     </pardef>
     
+    <pardef n="/a_e__var">
+    <e>
+      <p>
+        <l>a</l>
+        <r>a</r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>e</l>
+        <r>a</r>
+      </p>
+    </e>
+    </pardef>
+
+    <pardef n="/e_a__var">
+    <e>
+      <p>
+        <l>e</l>
+        <r>e</r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>a</l>
+        <r>e</r>
+      </p>
+    </e>
+    </pardef>
+    
     <pardef n="S__cantar">
     <e>
       <p>
@@ -390,14 +436,20 @@
 
     <e>
       <p>
-        <l>-bos</l> 
-        <r>bos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r> 
+        <l>-tos</l> 
+        <r>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>-tos</l> 
-        <r>bos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r> 
+        <l>-bos</l> 
+        <r>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>-vos</l> 
+        <r>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r> 
       </p>
     </e>
 
@@ -486,64 +538,99 @@
     <pardef n="/él__prn">
     <e>
       <p>
-        <l>él</l>
-        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        <l>ell</l>
+        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
 
     <e r="LR">
       <p>
+        <l>el</l>
+        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>él</l>
+        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    
+    <e r="LR">
+      <p>
         <l>er</l>
-        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
 
     <e>
       <p>
+        <l>ells</l>
+        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
         <l>els</l>
-        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
 
     <e r="LR">
       <p>
         <l>ellos</l>
-        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
 
     <e r="LR">
       <p>
         <l>ers</l>
-        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
 
     <e>
       <p>
         <l>ella</l>
-        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
 
     <e r="LR">
       <p>
         <l>era</l>
-        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>ela</l>
+        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
 
     <e>
       <p>
         <l>ellas</l>
-        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
 
     <e r="LR">
       <p>
         <l>eras</l>
-        <r>él<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>elas</l>
+        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
 
