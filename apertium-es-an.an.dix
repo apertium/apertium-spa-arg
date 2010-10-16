@@ -860,13 +860,13 @@
     <e>
       <p>
         <l>tu</l>
-        <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        <r>tu<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
         <l>tú</l>
-        <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        <r>tu<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
       </p>
     </e>
     </pardef>
@@ -7889,7 +7889,7 @@
 
   <section id="main" type="standard">
     <e lm="yo"><i>yo</i><par n="yo__prn"/></e>
-    <e lm="tu"><i>tu</i><par n="/tu__prn"/></e>
+    <e lm="tu"><i></i><par n="/tu__prn"/></e>
     <e lm="ell"><i></i><par n="/ell__prn"/></e>
     <e lm="nusatros"><i>nus</i><par n="nus/atros__prn"/></e>
     <e lm="vusatros"><i>vus</i><par n="vus/atros__prn"/></e>
@@ -16739,8 +16739,8 @@
     <e lm="espardir"><i>espard</i><par n="bib/ir__vblex"/></e>
     <e lm="reconoixenzia"><i>reconoixenzia</i><par n="luenga__n"/></e>
     <e lm="normalización"><i>normaliza</i><par n="actua/ción__n"/></e>
-    <e r="LR" lm="normalizazión"><i>normalica</i><par n="actua/ción__n"/></e>
-    <e r="LR" lm="normaliçación"><i>normaliça</i><par n="actua/ción__n"/></e>
+    <e r="LR" lm="normalizazión"><p><l>normalica</l><r>normaliza</r></p><par n="actua/ción__n"/></e>
+    <e r="LR" lm="normaliçación"><p><l>normaliça</l><r>normaliza</r></p><par n="actua/ción__n"/></e>
   </section>
   <section id="apostrophes" type="postblank">
     <e r="LR" lm="d'"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
