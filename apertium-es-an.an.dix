@@ -432,15 +432,26 @@
         <r>e</r>
       </p>
     </e>
-
-
     <e r="LR">
       <p>
         <l>a</l>
         <r>e</r>
       </p>
     </e>
-
+    </pardef>
+    <pardef n="/b_v__var">
+    <e>
+      <p>
+        <l>v</l>
+        <r>v</r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>b</l>
+        <r>v</r>
+      </p>
+    </e>
     </pardef>
     
     <pardef n="S__cantar">
@@ -10135,7 +10146,7 @@
     <e lm="vocálico"><i>vocálic</i><par n="italian/o__adj"/></e>
     <e lm="volumétrico"><i>volumétric</i><par n="italian/o__adj"/></e>
     <e lm="voluminoso"><i>voluminos</i><par n="italian/o__adj"/></e>
-    <e lm="voluntario"><i>voluntari</i><par n="italian/o__adj"/></e>
+    <e lm="voluntario"><par n="/b_v__var"/><i>oluntari</i><par n="italian/o__adj"/></e>
     <e lm="yermo"><i>yerm</i><par n="italian/o__adj"/></e>
     <e lm="yugoslavo"><i>yugosla</i><par n="cursi/vo__adj"/></e>
     <e lm="zaragozano"><i>zaragozan</i><par n="italian/o__adj"/></e>
@@ -10158,7 +10169,7 @@
     <e lm="albertenzia"><i>albertenzia</i><par n="luenga__n"/></e>
     <e lm="bida"><i>bida</i><par n="luenga__n"/></e>
     <e lm="vita"><i>vita</i><par n="luenga__n"/></e>
-    <e lm="begada"><i>begada</i><par n="luenga__n"/></e>
+    <e lm="begada"><par n="/b_v__var"/><i>egada</i><par n="luenga__n"/></e>
     <e lm="guerra"><i>guerra</i><par n="luenga__n"/></e>
     <e lm="lai"><i>lai</i><par n="luenga__n"/></e>
     <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
@@ -10333,12 +10344,12 @@
     <e lm="ordinación"><i>ordina</i><par n="actua/ción__n"/></e>
     <e lm="manifestación"><i>manifesta</i><par n="actua/ción__n"/></e>
     <e lm="información"><i>informa</i><par n="actua/ción__n"/></e>
-    <e lm="boluntat"><i>bolunt</i><par n="privacid/at__n"/></e>
+    <e lm="boluntat"><par n="/b_v__var"/><i>olunt</i><par n="privacid/at__n"/></e>
     <e lm="verdat"><i>verd</i><par n="privacid/at__n"/></e>
-    <e lm="ziudat"><i>ziud</i><par n="privacid/at__n"/></e>
+    <e lm="ziudat" r="LR"><p><l>ziud</l><r>ciud</r></p><par n="privacid/at__n"/></e>
     <e lm="ciudat"><i>ciud</i><par n="privacid/at__n"/></e>
     <e lm="sociedat"><i>socied</i><par n="privacid/at__n"/></e>
-    <e lm="soziedat"><i>sozied</i><par n="privacid/at__n"/></e>
+    <e lm="soziedat" r="LR"><p><l>sozied</l><r>socied</r></p><par n="privacid/at__n"/></e>
     <e lm="privacidat"><i>privacid</i><par n="privacid/at__n"/></e>
     <e lm="autualidat"><i>autualid</i><par n="privacid/at__n"/></e>
     <e lm="particularidat"><i>particularid</i><par n="privacid/at__n"/></e>
@@ -10370,13 +10381,13 @@
     <e lm="bellosidat"><i>bellosid</i><par n="privacid/at__n"/></e>
     <e lm="belocidat"><i>belocid</i><par n="privacid/at__n"/></e>
     <e lm="belozidat"><i>belozid</i><par n="privacid/at__n"/></e>
-    <e lm="berilidat"><i>berilid</i><par n="privacid/at__n"/></e>
-    <e lm="bersatilidat"><i>bersatilid</i><par n="privacid/at__n"/></e>
-    <e lm="berticalidat"><i>berticalid</i><par n="privacid/at__n"/></e>
-    <e lm="biabilidat"><i>biabilid</i><par n="privacid/at__n"/></e>
-    <e lm="biodibersidat"><i>biodibersid</i><par n="privacid/at__n"/></e>
+    <e lm="berilidat"><par n="/b_v__var"/><i>erilid</i><par n="privacid/at__n"/></e>
+    <e lm="bersatilidat"><par n="/b_v__var"/><i>ersatilid</i><par n="privacid/at__n"/></e>
+    <e lm="berticalidat"><par n="/b_v__var"/><i>erticalid</i><par n="privacid/at__n"/></e>
+    <e lm="biabilidat"><par n="/b_v__var"/><i>iabilid</i><par n="privacid/at__n"/></e>
+    <e lm="biodibersidat" r="LR"><p><l>biodibersid</l><r>biodiversid</r></p><par n="privacid/at__n"/></e>
     <e lm="biodiversidat"><i>biodiversid</i><par n="privacid/at__n"/></e>
-    <e lm="bitalidat"><i>bitalid</i><par n="privacid/at__n"/></e>
+    <e lm="bitalidat"><par n="/b_v__var"/><i>italid</i><par n="privacid/at__n"/></e>
     <e lm="borazidat"><i>borazid</i><par n="privacid/at__n"/></e>
     <e lm="brutalidat"><i>brutalid</i><par n="privacid/at__n"/></e>
     <e lm="cabidat"><i>cabid</i><par n="privacid/at__n"/></e>
@@ -10677,7 +10688,6 @@
     <e lm="virchinidat"><i>virchinid</i><par n="privacid/at__n"/></e>
     <e lm="virilidat"><i>virilid</i><par n="privacid/at__n"/></e>
     <e lm="visibilidat"><i>visibilid</i><par n="privacid/at__n"/></e>
-    <e lm="vitalidat"><i>vitalid</i><par n="privacid/at__n"/></e>
     <e lm="voracidat"><i>voracid</i><par n="privacid/at__n"/></e>
     <e lm="zelebridat"><i>zelebrid</i><par n="privacid/at__n"/></e>
     <e lm="libertat"><i>libert</i><par n="privacid/at__n"/></e>
@@ -10764,21 +10774,21 @@
     <e lm="azeptación"><i>azepta</i><par n="actua/ción__n"/></e>
     <e lm="azetación"><i>azeta</i><par n="actua/ción__n"/></e>
     <e lm="bacunación"><i>bacuna</i><par n="actua/ción__n"/></e>
-    <e lm="baporación"><i>bapora</i><par n="actua/ción__n"/></e>
-    <e lm="bariación"><i>baria</i><par n="actua/ción__n"/></e>
-    <e lm="bechetación"><i>becheta</i><par n="actua/ción__n"/></e>
-    <e lm="beneración"><i>benera</i><par n="actua/ción__n"/></e>
-    <e lm="bentilación"><i>bentila</i><par n="actua/ción__n"/></e>
-    <e lm="berificación"><i>berifica</i><par n="actua/ción__n"/></e>
-    <e lm="bertebración"><i>bertebra</i><par n="actua/ción__n"/></e>
+    <e lm="baporación"><par n="/b_v__var"/><i>apora</i><par n="actua/ción__n"/></e>
+    <e lm="bariación"><par n="/b_v__var"/><i>aria</i><par n="actua/ción__n"/></e>
+    <e lm="bechetación"><par n="/b_v__var"/><i>echeta</i><par n="actua/ción__n"/></e>
+    <e lm="beneración"><par n="/b_v__var"/><i>enera</i><par n="actua/ción__n"/></e>
+    <e lm="bentilación"><par n="/b_v__var"/><i>entila</i><par n="actua/ción__n"/></e>
+    <e lm="berificación"><par n="/b_v__var"/><i>erifica</i><par n="actua/ción__n"/></e>
+    <e lm="bertebración"><par n="/b_v__var"/><i>ertebra</i><par n="actua/ción__n"/></e>
     <e lm="besitación"><i>besita</i><par n="actua/ción__n"/></e>
-    <e lm="bibración"><i>bibra</i><par n="actua/ción__n"/></e>
+    <e lm="bibración"><par n="/b_v__var"/><i>ibra</i><par n="actua/ción__n"/></e>
     <e lm="bifurcación"><i>bifurca</i><par n="actua/ción__n"/></e>
-    <e lm="biolación"><i>biola</i><par n="actua/ción__n"/></e>
+    <e lm="biolación"><par n="/b_v__var"/><i>iola</i><par n="actua/ción__n"/></e>
     <e lm="bocación"><i>boca</i><par n="actua/ción__n"/></e>
     <e lm="botación"><i>bota</i><par n="actua/ción__n"/></e>
     <e lm="brotación"><i>brota</i><par n="actua/ción__n"/></e>
-    <e lm="bulneración"><i>bulnera</i><par n="actua/ción__n"/></e>
+    <e lm="bulneración"><par n="/b_v__var"/><i>ulnera</i><par n="actua/ción__n"/></e>
     <e lm="calificación"><i>califica</i><par n="actua/ción__n"/></e>
     <e lm="canalización"><i>canaliza</i><par n="actua/ción__n"/></e>
     <e lm="canonización"><i>canoniza</i><par n="actua/ción__n"/></e>
@@ -14024,7 +14034,6 @@
     <e lm="automobilismo"><i>automobilismo</i><par n="libro__n"/></e>
     <e lm="automovilismo"><i>automovilismo</i><par n="libro__n"/></e>
     <e lm="autoritarismo"><i>autoritarismo</i><par n="libro__n"/></e>
-    <e lm="bandalismo"><i>bandalismo</i><par n="libro__n"/></e>
     <e lm="bandolerismo"><i>bandolerismo</i><par n="libro__n"/></e>
     <e lm="baptismo"><i>baptismo</i><par n="libro__n"/></e>
     <e lm="barbarismo"><i>barbarismo</i><par n="libro__n"/></e>
@@ -14246,7 +14255,7 @@
     <e lm="unitarismo"><i>unitarismo</i><par n="libro__n"/></e>
     <e lm="urbanismo"><i>urbanismo</i><par n="libro__n"/></e>
     <e lm="valencianismo"><i>valencianismo</i><par n="libro__n"/></e>
-    <e lm="vandalismo"><i>vandalismo</i><par n="libro__n"/></e>
+    <e lm="vandalismo"><par n="/b_v__var"/><i>andalismo</i><par n="libro__n"/></e>
     <e lm="vechetarianismo"><i>vechetarianismo</i><par n="libro__n"/></e>
     <e lm="vegetarianismo"><i>vegetarianismo</i><par n="libro__n"/></e>
     <e lm="vulgarismo"><i>vulgarismo</i><par n="libro__n"/></e>
@@ -14410,7 +14419,7 @@
     <e lm="usualment"><i>usualment</i><par n="agora__adv"/></e>
     <e lm="verticalment"><i>verticalment</i><par n="agora__adv"/></e>
     <e lm="virtualment"><i>virtualment</i><par n="agora__adv"/></e>
-    <e lm="voluntariament"><i>voluntariament</i><par n="agora__adv"/></e>
+    <e lm="voluntariament"><par n="/b_v__var"/><i>oluntariament</i><par n="agora__adv"/></e>
     <e lm="abitualment"><i>abitualment</i><par n="agora__adv"/></e>
     <e lm="adizionalment"><i>adizionalment</i><par n="agora__adv"/></e>
     <e lm="administratibament"><i>administratibament</i><par n="agora__adv"/></e>
@@ -14429,7 +14438,7 @@
     <e lm="berticalment"><i>berticalment</i><par n="agora__adv"/></e>
     <e lm="birtualment"><i>birtualment</i><par n="agora__adv"/></e>
     <e lm="bisualment"><i>bisualment</i><par n="agora__adv"/></e>
-    <e lm="boluntariament"><i>boluntariament</i><par n="agora__adv"/></e>
+    <e lm="boluntariament"><par n="/b_v__var"/><i>oluntariament</i><par n="agora__adv"/></e>
     <e lm="bulgarment"><i>bulgarment</i><par n="agora__adv"/></e>
     <e lm="caracteristicament"><i>caracteristicament</i><par n="agora__adv"/></e>
     <e lm="carateristicament"><i>carateristicament</i><par n="agora__adv"/></e>
@@ -17535,7 +17544,7 @@
     <e lm="veneciano"><i>venecian</i><par n="tresorer/o__n"/></e>
     <e lm="visigodo"><i>visigod</i><par n="tresorer/o__n"/></e>
     <e lm="viudo"><i>viud</i><par n="tresorer/o__n"/></e>
-    <e lm="voluntario"><i>voluntari</i><par n="tresorer/o__n"/></e>
+    <e lm="voluntario"><par n="/b_v__var"/><i>oluntari</i><par n="tresorer/o__n"/></e>
     <e lm="yugoslavo"><i>yugoslav</i><par n="tresorer/o__n"/></e>
     <e lm="acusativo"><i>acusativ</i><par n="tresorer/o__n"/></e>
     <e lm="americano"><i>american</i><par n="tresorer/o__n"/></e>
