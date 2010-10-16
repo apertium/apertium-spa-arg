@@ -86,6 +86,11 @@
     <!-- ******************************
           group prn_symbol
       ****************************** -->
+    <e><p><l>yo<s n="prn"/><s n="tn"/></l><r>yo<s n="prn"/><s n="tn"/></r></p></e>    
+    <e><p><l>tú<s n="prn"/><s n="tn"/></l><r>tu<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>él<s n="prn"/><s n="tn"/></l><r>ell<s n="prn"/><s n="tn"/></r></p></e>       
+    <e><p><l>vosotros<s n="prn"/><s n="tn"/></l><r>vusatros<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>nosotros<s n="prn"/><s n="tn"/></l><r>nusatros<s n="prn"/><s n="tn"/></r></p></e>
     <e r="RL"><p><l></l><r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
     <e r="RL"><p><l></l><r>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="RL"><p><l></l><r>bi<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
@@ -101,7 +106,7 @@
     <e><p><l>me<s n="prn"/><s n="enc"/></l><r>me<s n="prn"/><s n="enc"/></r></p></e>
     <e><p><l>nos<s n="prn"/><s n="pro"/></l><r>nos<s n="prn"/><s n="pro"/></r></p></e>
     <e><p><l>nos<s n="prn"/><s n="enc"/></l><r>nos<s n="prn"/><s n="enc"/></r></p></e>
-    <e><p><l>nosotros<s n="prn"/><s n="tn"/></l><r>nusatros<s n="prn"/><s n="tn"/></r></p></e>
+    
     <e><p><l>os<s n="prn"/><s n="pro"/></l><r>tos<s n="prn"/><s n="pro"/></r></p></e>
     <e><p><l>os<s n="prn"/><s n="enc"/></l><r>tos<s n="prn"/><s n="enc"/></r></p></e>
     <e r="RL"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -115,10 +120,7 @@
     <e r="LR"><p><l>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="ND"/></r></p></e>
     <e><p><l>te<s n="prn"/><s n="pro"/></l><r>te<s n="prn"/><s n="pro"/></r></p></e>
     <e><p><l>te<s n="prn"/><s n="enc"/></l><r>te<s n="prn"/><s n="enc"/></r></p></e>
-    <e><p><l>tú<s n="prn"/><s n="tn"/></l><r>tú<s n="prn"/><s n="tn"/></r></p></e>
-    <e><p><l>vosotros<s n="prn"/><s n="tn"/></l><r>busatros<s n="prn"/><s n="tn"/></r></p></e>
-    <e><p><l>yo<s n="prn"/><s n="tn"/></l><r>yo<s n="prn"/><s n="tn"/></r></p></e>
-    <e><p><l>él<s n="prn"/><s n="tn"/></l><r>ell<s n="prn"/><s n="tn"/></r></p></e>
+    
     <!-- ******************************
           group det_symbol
       ****************************** -->
@@ -3516,7 +3518,7 @@
     <e><p><l>normalidad<s n="n"/></l><r>normalidat<s n="n"/></r></p></e>
     <e><p><l>normalización<s n="n"/></l><r>normalización<s n="n"/></r></p></e>
     <e r="RL"><p><l>normalización<s n="n"/></l><r>normaliçación<s n="n"/></r></p></e>
-    <e r="RL"><p><l>normalización<s n="n"/></l><r>normalicación<s n="n"/></r></p></e>
+    <e r="RL"><p><l>normalización<s n="n"/></l><r>normalizazión<s n="n"/></r></p></e>
     <e><p><l>normativa<s n="n"/></l><r>normativa<s n="n"/></r></p></e>
     <e r="RL"><p><l>normativa<s n="n"/></l><r>normatiba<s n="n"/></r></p></e>
     <e><p><l>norte<s n="n"/></l><r>norte<s n="n"/></r></p></e>
