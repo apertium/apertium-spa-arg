@@ -9057,13 +9057,11 @@
     <e r="LR" lm="i"><i>i</i><par n="en__prn"/></e>
     <e r="LR" lm="bi"><p><l>bi</l><r>i</r></p><par n="en__prn"/></e>
     <e r="LR" lm="be"><p><l>be</l><r>i</r></p><par n="en__prn"/></e>
-    <e r="LR" lm="b'"><p><l>b'</l><r>i</r></p><par n="en__prn"/></e>
     <e r="LR" lm="ie"><p><l>ie</l><r>i</r></p><par n="en__prn"/></e>
         
     <e r="RL" lm="en"><p><l><a/>en</l><r>en</r></p><par n="en__prn"/></e>
     <e r="LR" lm="en"><i>en</i><par n="en__prn"/></e>
     <e r="LR" lm="ne"><p><l>ne</l><r>en</r></p><par n="en__prn"/></e>
-    <e r="LR" lm="n'"><p><l>n'</l><r>en</r></p><par n="en__prn"/></e>
     <e r="LR" lm="'n"><p><l>'n</l><r>en</r></p><par n="en__prn"/></e>
     
     <e lm="ixo"><i>ixo</i><par n="ixo__prn"/></e>
@@ -17817,7 +17815,8 @@
     <e r="LR" lm="s'"><p><l>s'</l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="l'"><p><l>l'</l><r>o<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="LR" lm="l'"><p><l>l'</l><r>o<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="LR" lm="n'"><p><l>n'</l><r>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    <e r="LR" lm="n'"><p><l>n'</l><r>en</r></p><par n="en__prn"/></e>    
+    <e r="LR" lm="b'"><p><l>b'</l><r>i</r></p><par n="en__prn"/></e>
     <e r="LR" lm="m'"><p><l>m'</l><r>me</r></p><par n="me__prn"/></e>
     <e r="LR" lm="t'"><p><l>t'</l><r>te</r></p><par n="te__prn"/></e>
   </section>
