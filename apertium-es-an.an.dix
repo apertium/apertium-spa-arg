@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--
 	Dictionary:
 	Sections: 4
@@ -9049,8 +9049,23 @@
     <e lm="me"><i>me</i><par n="me__prn"/></e>
     <e lm="te"><i>te</i><par n="te__prn"/></e>
     <e lm="le"><i>le</i><par n="/le__prn"/></e>
+
+    <!-- ******************************
+          adverbial pronouns: en/ne, i/bi/ie
+      ****************************** -->
+    <e r="RL" lm="i"><p><l><a/>i</l><r>i</r></p><par n="en__prn"/></e>
+    <e r="LR" lm="i"><i>i</i><par n="en__prn"/></e>
+    <e r="LR" lm="bi"><p><l>bi</l><r>i</r></p><par n="en__prn"/></e>
+    <e r="LR" lm="be"><p><l>be</l><r>i</r></p><par n="en__prn"/></e>
+    <e r="LR" lm="b'"><p><l>b'</l><r>i</r></p><par n="en__prn"/></e>
+    <e r="LR" lm="ie"><p><l>ie</l><r>i</r></p><par n="en__prn"/></e>
+        
+    <e r="RL" lm="en"><p><l><a/>en</l><r>en</r></p><par n="en__prn"/></e>
+    <e r="LR" lm="en"><i>en</i><par n="en__prn"/></e>
+    <e r="LR" lm="ne"><p><l>ne</l><r>en</r></p><par n="en__prn"/></e>
+    <e r="LR" lm="n'"><p><l>n'</l><r>en</r></p><par n="en__prn"/></e>
+    <e r="LR" lm="'n"><p><l>'n</l><r>en</r></p><par n="en__prn"/></e>
     
-    <e lm="bi"><i>bi</i><par n="en__prn"/></e>
     <e lm="ixo"><i>ixo</i><par n="ixo__prn"/></e>
     <e lm="isto"><i>isto</i><par n="ixo__prn"/></e>
     <e lm="esto"><i>esto</i><par n="ixo__prn"/></e>
