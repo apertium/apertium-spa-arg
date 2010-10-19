@@ -1,5 +1,5 @@
 INC=$1
-OUT=testvoc-summary.txt
+OUT=testvoc-summary.$2.txt
 POS="abbr adj adv cm cnjadv cnjcoo cnjsub det guio ij n np num pr preadv prn rel vaux vbhaver vblex vbser vbmod part"
 
 echo "" > $OUT;
