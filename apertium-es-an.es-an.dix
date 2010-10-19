@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--
 	Dictionary:
 	Sections: 2
@@ -93,9 +93,12 @@
     <e><p><l>nosotros<s n="prn"/><s n="tn"/></l><r>nusatros<s n="prn"/><s n="tn"/></r></p></e>
     <e r="RL"><p><l></l><r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
     <e r="RL"><p><l></l><r>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
-    <e r="RL"><p><l></l><r>bi<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
-    <e r="RL"><p><l></l><r>bi<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    <e r="RL"><p><l></l><r>i<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+    <e r="RL"><p><l></l><r>i<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    <e r="RL"><p><l>aquello<s n="prn"/><s n="tn"/></l><r>aquello<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>aquello<s n="prn"/><s n="tn"/></l><r>ixo<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>eso<s n="prn"/><s n="tn"/></l><r>ixo<s n="prn"/><s n="tn"/></r></p></e>
+    <e r="LR"><p><l>ello<s n="prn"/><s n="tn"/></l><r>ixo<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>esto<s n="prn"/><s n="tn"/></l><r>isto<s n="prn"/><s n="tn"/></r></p></e>
     <e r="RL"><p><l>esto<s n="prn"/><s n="tn"/></l><r>esto<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>le<s n="prn"/><s n="pro"/></l><r>le<s n="prn"/><s n="pro"/></r></p></e>
@@ -126,7 +129,7 @@
       ****************************** -->
     <e><p><l>alguno<s n="det"/></l><r>bel<s n="det"/></r></p></e>
     <e r="RL"><p><l>alguno<s n="det"/></l><r>bell<s n="det"/></r></p></e>
-    <e><p><l>aquel<s n="det"/></l><r>aquel<s n="det"/></r></p></e>
+    <e><p><l>aquel<s n="det"/></l><r>aquell<s n="det"/></r></p></e>
     <e><p><l>el<s n="det"/></l><r>o<s n="det"/></r></p></e>
     <e><p><l>ese<s n="det"/></l><r>ixe<s n="det"/></r></p></e>
     <e><p><l>este<s n="det"/></l><r>iste<s n="det"/></r></p></e>
