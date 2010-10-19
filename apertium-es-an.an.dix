@@ -1055,6 +1055,12 @@
         <r>l<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
+    <e r="LR">
+      <p>
+        <l>los</l>
+        <r>l<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
 
     <e>
       <p>
@@ -7377,7 +7383,7 @@
     </e>
 
     </pardef>
-    <pardef n="ande__rel">
+    <pardef n="an__rel">
     <e>
       <p>
         <l></l>
@@ -7430,18 +7436,80 @@
     </e>
 
     </pardef>
-    <pardef n="cual__rel">
+    <pardef n="qual__rel">
     <e>
       <p>
         <l></l>
-        <r><s n="rel"/><s n="an"/><s n="mf"/><s n="sg"/></r>
+        <r><s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
-
+  <e>
+      <p>
+        <l>a</l>
+        <r><s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+  <e r="LR">
+      <p>
+        <l>o</l>
+        <r><s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
     <e>
       <p>
         <l>s</l>
-        <r><s n="rel"/><s n="an"/><s n="mf"/><s n="pl"/></r>
+        <r><s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>os</l>
+        <r><s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>as</l>
+        <r><s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+
+ </pardef>
+    <pardef n="quál__prn">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+  <e>
+      <p>
+        <l>a</l>
+        <r><s n="prn"/><s n="itg"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+  <e r="LR">
+      <p>
+        <l>o</l>
+        <r><s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>s</l>
+        <r><s n="prn"/><s n="itg"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>os</l>
+        <r><s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>as</l>
+        <r><s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
 
@@ -9180,10 +9248,17 @@
     
     <e lm="bell"><i>bel</i><par n="bel/l__det"/></e>
 
+<!--relativos-->
+    <e lm="qual"><i>qual</i><par n="qual__rel"/></e>
+    <e r="LR" lm="cual"><p><l>cual</l><r>qual</r></p><par n="qual__rel"/></e>
     
     
-    <e lm="cual"><i>cual</i><par n="cual__rel"/></e>
     <e lm="o cual"><i></i><par n="/o_cual__rel"/></e>
+<!--prn interrogativos-->
+    <e lm="quál"><i>quál</i><par n="quál__prn"/></e>
+    <e r="LR" lm="cuál"><p><l>cuál</l><r>quál</r></p><par n="quál__prn"/></e>
+    <e lm="quán"><i>quál</i><par n="quán__prn"/></e>
+    
         
     <e lm="mío"><i>mí</i><par n="mí/o__adj"/></e>
     <e lm="tuyo"><i>tuy</i><par n="mí/o__adj"/></e>
@@ -11345,15 +11420,21 @@
     <e lm="án" i="yes"><i>án</i><par n="án__adv"/></e>
     <e lm="dó" i="yes"><i>dó</i><par n="án__adv"/></e>
     <e lm="ó" i="yes"><i>ó</i><par n="án__adv"/></e>
-
-    <e lm="an" i="yes"><i>an</i><par n="agora__adv"/></e>   <!-- Iste igual ye un rel  -->
-    <e r="LR" lm="á on" i="yes"><p><l>á<b/>on</l><r>an</r></p><par n="agora__adv"/></e>
-    <e r="LR" lm="aon" i="yes"><p><l>aon</l><r>an</r></p><par n="agora__adv"/></e>
-    <e r="LR" lm="aón" i="yes"><p><l>aón</l><r>an</r></p><par n="agora__adv"/></e>
-    <e r="LR" lm="an que" i="yes"><i>an<b/>que</i><par n="agora__adv"/></e>
-    <e lm="ande"><i>ande</i><par n="ande__rel"/></e>
-    <e lm="do" i="yes"><i>do</i><par n="agora__adv"/></e>   <!-- Iste igual ye un rel  -->
-    <e lm="on" i="yes"><i>on</i><par n="agora__adv"/></e>
+    <e r="LR" lm="aón" i="yes"><p><l>aón</l><r>án</r></p><par n="án__adv"/></e>
+    <e r="LR" lm="á ón" i="yes"><p><l>á<b/>ón</l><r>án</r></p><par n="án__adv"/></e>
+    <e r="LR" lm="a ón" i="yes"><p><l>a<b/>ón</l><r>án</r></p><par n="án__adv"/></e>
+    <e r="LR" lm="ánde" i="yes"><p><l>ánde</l><r>án</r></p><par n="án__adv"/></e>
+    <e r="LR" lm="dón" i="yes"><p><l>dón</l><r>án</r></p><par n="án__adv"/></e>
+    
+    <e lm="an" i="yes"><i>an</i><par n="an__rel"/></e>   <!-- Iste igual ye un rel  -->
+    <e r="LR" lm="á on" i="yes"><p><l>á<b/>on</l><r>an</r></p><par n="an__rel"/></e>
+    <e r="LR" lm="aon" i="yes"><p><l>aon</l><r>an</r></p><par n="an__rel"/></e>
+    <e r="LR" lm="an que" i="yes"><i>an<b/>que</i><par n="an__rel"/></e>
+    <e r="LR" lm="do" i="yes"><i>do</i><par n="an__rel"/></e>   <!-- Iste igual ye un rel  -->    
+    <e r="LR" lm="on" i="yes"><i>on</i><par n="an__rel"/></e>
+    <e r="LR" lm="don" i="yes"><i>on</i><par n="an__rel"/></e>
+    <e r="LR" lm="ande"><i>ande</i><par n="an__rel"/></e>
+    
     <e lm="no"><i>no</i><par n="agora__adv"/></e>
     <e lm="mas"><i>mas</i><par n="agora__adv"/></e>
     <e lm="mes"><i>mes</i><par n="agora__adv"/></e>
