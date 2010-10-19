@@ -454,6 +454,112 @@
     </e>
     </pardef>
     
+    <pardef n="article_m_sg_var">
+      <e>
+        <p>
+          <l>o</l>
+          <r>o</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>lo</l>
+          <r>o</r>
+        </p>
+      </e>
+
+      <e r="LR">
+        <p>
+          <l>ro</l>
+          <r>o</r>
+        </p>
+      </e>
+
+      <e r="LR">
+        <p>
+          <l>el</l>
+          <r>o</r>
+        </p>
+      </e>
+    </pardef>    
+
+    <pardef n="article_m_pl_var">
+      <e>
+        <p>
+          <l>os</l>
+          <r>o</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>los</l>
+          <r>o</r>
+        </p>
+      </e>
+
+      <e r="LR">
+        <p>
+          <l>ros</l>
+          <r>o</r>
+        </p>
+      </e>
+
+      <e r="LR">
+        <p>
+          <l>es</l>
+          <r>o</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>els</l>
+          <r>o</r>
+        </p>
+      </e>
+    </pardef>    
+
+    <pardef n="article_f_sg_var">
+      <e>
+        <p>
+          <l>a</l>
+          <r>o</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>la</l>
+          <r>o</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ra</l>
+          <r>o</r>
+        </p>
+      </e>
+    </pardef>        
+    
+    <pardef n="article_f_pl_var">
+      <e>
+        <p>
+          <l>as</l>
+          <r>o</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>las</l>
+          <r>o</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ras</l>
+          <r>o</r>
+        </p>
+      </e>
+    </pardef>        
+    
     <pardef n="S__cantar">
     <e>
       <p>
@@ -7392,46 +7498,128 @@
     </e>
 
     </pardef>
-    <pardef n="/o_cual__rel">
+    <pardef n="/o_qual__rel">
     <e>
       <p>
-        <l>as<b/>cuals</l>
-        <r>o<b/>cual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
+        <l>as<b/>qualas</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
-
-    <e>
-      <p>
-        <l>a<b/>cual</l>
-        <r>o<b/>cual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>os<b/>cuals</l>
-        <r>o<b/>cual<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>o<b/>cual</l>
-        <r>o<b/>cual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
-      </p>
-    </e>
-
     <e r="LR">
       <p>
-        <l>el<b/>cual</l>
-        <r>o<b/>cual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
+        <l>las<b/>qualas</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>as<b/>quals</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>las<b/>quals</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ras<b/>quals</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ras<b/>qualas</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    
+    <e>
+      <p>
+        <l>a<b/>quala</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>a<b/>qual</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>la<b/>quala</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>la<b/>qual</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ra<b/>quala</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ra<b/>qual</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
 
+    <e>
+      <p>
+        <l>os<b/>quals</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
     <e r="LR">
       <p>
-        <l>lo<b/>cual</l>
-        <r>o<b/>cual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
+        <l>los<b/>quals</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ros<b/>quals</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>es<b/>quals</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>o<b/>qual</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    
+    <e r="LR">
+      <p>
+        <l>el<b/>qual</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>lo<b/>qual</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ro<b/>qual</l>
+        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -9252,19 +9440,18 @@
     <e lm="qual"><i>qual</i><par n="qual__rel"/></e>
     <e r="LR" lm="cual"><p><l>cual</l><r>qual</r></p><par n="qual__rel"/></e>
     
-    
-    <e lm="o cual"><i></i><par n="/o_cual__rel"/></e>
+    <e lm="o qual"><i></i><par n="/o_qual__rel"/></e>
 <!--prn interrogativos-->
     <e lm="quál"><i>quál</i><par n="quál__prn"/></e>
     <e r="LR" lm="cuál"><p><l>cuál</l><r>quál</r></p><par n="quál__prn"/></e>
     
-        
     <e lm="mío"><i>mí</i><par n="mí/o__adj"/></e>
     <e lm="tuyo"><i>tuy</i><par n="mí/o__adj"/></e>
     <e lm="suyo"><i>suy</i><par n="mí/o__adj"/></e>
     <e lm="nuestro"><i>nuestr</i><par n="mí/o__adj"/></e>
-    <e lm="buestro"><i>buestr</i><par n="mí/o__adj"/></e>
+    <e r="LR" lm="buestro"><i>buestr</i><par n="mí/o__adj"/></e>
     <e lm="vuestro"><i>vuestr</i><par n="mí/o__adj"/></e>
+    
     <e lm="o mío"><i></i><par n="/o_mío__adj"/></e>
     <e lm="o tuyo"><i></i><par n="/o_tuyo__adj"/></e>
     <e lm="o suyo"><i></i><par n="/o_suyo__adj"/></e>
