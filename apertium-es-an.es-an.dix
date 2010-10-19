@@ -2379,7 +2379,7 @@
     <e><p><l>cual<s n="rel"/></l><r>qual<s n="rel"/></r></p></e>
     <e><p><l>donde<s n="rel"/></l><r>an<s n="rel"/></r></p></e>
     <e><p><l>cuando<s n="rel"/></l><r>quan<s n="rel"/></r></p></e>
-    <e><p><l>el<b/>cual<s n="rel"/></l><r>o<b/>cual<s n="rel"/></r></p></e>
+    <e><p><l>el<b/>cual<s n="rel"/></l><r>o<b/>qual<s n="rel"/></r></p></e> <!--RL ok, bt LR, I guess there is a better translation for most cases-->
 
 <!-- prn interr-->
 <e r="LR"><p><l>cuál<s n="prn"/><s n="itg"/><s n="mf"/></l><r>quál<s n="prn"/><s n="itg"/><s n="GD"/></r></p></e>
