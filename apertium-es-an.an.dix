@@ -1016,32 +1016,56 @@
     </e>
 
     </pardef>
-    <pardef n="bel__det">
+    <pardef n="bel/l__det">
     <e>
       <p>
         <l>las</l>
-        <r><s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
+        <r>l<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>as</l>
+        <r>l<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
 
     <e>
       <p>
         <l>la</l>
-        <r><s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r>
+        <r>l<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>a</l>
+        <r>l<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
 
     <e>
+      <p>
+        <l>ls</l>
+        <r>l<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
       <p>
         <l>s</l>
-        <r><s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+        <r>l<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
 
     <e>
       <p>
+        <l>l</l>
+        <r>l<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
         <l></l>
-        <r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+        <r>l<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -9124,6 +9148,7 @@
     <e lm="ell"><i></i><par n="/ell__prn"/></e>
     <e lm="nusatros"><i>nus</i><par n="nus/atros__prn"/></e>
     <e lm="vusatros"><i>vus</i><par n="vus/atros__prn"/></e>
+    <e r="LR" lm="busatros"><p><l>bus</l><r>vus</r></p><par n="vus/atros__prn"/></e>
     <e lm="me"><i>me</i><par n="me__prn"/></e>
     <e lm="te"><i>te</i><par n="te__prn"/></e>
     <e lm="le"><i>le</i><par n="/le__prn"/></e>
@@ -9153,9 +9178,10 @@
     <e r="LR" lm="este"><p><l>est</l><r>ist</r></p><par n="ix/e__det"/></e>
     <e lm="aquell"><i>aqu</i><par n="aqu/ell__det"/></e>
     
-    <e lm="bel"><i>bel</i><par n="bel__det"/></e>
-    <e lm="bell"><i>bell</i><par n="bel__det"/></e>
-    <e r="LR" lm="busatros"><i>bus</i><par n="vus/atros__prn"/></e>
+    <e lm="bell"><i>bel</i><par n="bel/l__det"/></e>
+
+    
+    
     <e lm="cual"><i>cual</i><par n="cual__rel"/></e>
     <e lm="o cual"><i></i><par n="/o_cual__rel"/></e>
         
