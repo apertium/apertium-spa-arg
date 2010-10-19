@@ -9257,7 +9257,6 @@
 <!--prn interrogativos-->
     <e lm="quál"><i>quál</i><par n="quál__prn"/></e>
     <e r="LR" lm="cuál"><p><l>cuál</l><r>quál</r></p><par n="quál__prn"/></e>
-    <e lm="quán"><i>quál</i><par n="quán__prn"/></e>
     
         
     <e lm="mío"><i>mí</i><par n="mí/o__adj"/></e>
@@ -11417,15 +11416,23 @@
     <e lm="mica"><i>mica</i><par n="agora__adv"/></e>
     <e lm="pon"><i>pon</i><par n="agora__adv"/></e>
 
+    <e lm="quán"><i>quán</i><par n="án__adv"/></e>
+    <e r="LR" lm="cuán" i="yes"><p><l>cuan</l><r>quán</r></p><par n="án__adv"/></e>
+    <e r="LR" lm="quándo" i="yes"><p><l>quándo</l><r>quán</r></p><par n="án__adv"/></e>
+    <e r="LR" lm="cuándo" i="yes"><p><l>cuándo</l><r>quán</r></p><par n="án__adv"/></e>
     <e lm="án" i="yes"><i>án</i><par n="án__adv"/></e>
-    <e lm="dó" i="yes"><i>dó</i><par n="án__adv"/></e>
-    <e lm="ó" i="yes"><i>ó</i><par n="án__adv"/></e>
+    <e r="LR" lm="dó" i="yes"><i>dó</i><par n="án__adv"/></e>
+    <e r="LR" lm="ó" i="yes"><i>ó</i><par n="án__adv"/></e>
     <e r="LR" lm="aón" i="yes"><p><l>aón</l><r>án</r></p><par n="án__adv"/></e>
     <e r="LR" lm="á ón" i="yes"><p><l>á<b/>ón</l><r>án</r></p><par n="án__adv"/></e>
     <e r="LR" lm="a ón" i="yes"><p><l>a<b/>ón</l><r>án</r></p><par n="án__adv"/></e>
     <e r="LR" lm="ánde" i="yes"><p><l>ánde</l><r>án</r></p><par n="án__adv"/></e>
     <e r="LR" lm="dón" i="yes"><p><l>dón</l><r>án</r></p><par n="án__adv"/></e>
     
+    <e lm="quan"><i>quan</i><par n="an__rel"/></e>
+    <e r="LR" lm="cuan" i="yes"><p><l>cuan</l><r>quan</r></p><par n="an__rel"/></e>
+    <e r="LR" lm="quando" i="yes"><p><l>quando</l><r>quan</r></p><par n="an__rel"/></e>
+    <e r="LR" lm="cuando" i="yes"><p><l>cuando</l><r>quan</r></p><par n="an__rel"/></e>
     <e lm="an" i="yes"><i>an</i><par n="an__rel"/></e>   <!-- Iste igual ye un rel  -->
     <e r="LR" lm="á on" i="yes"><p><l>á<b/>on</l><r>an</r></p><par n="an__rel"/></e>
     <e r="LR" lm="aon" i="yes"><p><l>aon</l><r>an</r></p><par n="an__rel"/></e>
