@@ -123,17 +123,38 @@
     <e r="LR"><p><l>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="ND"/></r></p></e>
     <e><p><l>te<s n="prn"/><s n="pro"/></l><r>te<s n="prn"/><s n="pro"/></r></p></e>
     <e><p><l>te<s n="prn"/><s n="enc"/></l><r>te<s n="prn"/><s n="enc"/></r></p></e>
+
+    <e r="LR"><p><l>ninguno<s n="prn"/><s n="tn"/><s n="m"/></l><r>garra<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e> 
+    <e r="LR"><p><l>ninguno<s n="prn"/><s n="tn"/><s n="f"/></l><r>garra<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e> 
+    <e r="RL"><p><l>ninguno<s n="prn"/><s n="tn"/><s n="GD"/></l><r>garra<s n="prn"/><s n="tn"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>ninguno<s n="prn"/></l><r>dengún<s n="prn"/></r></p></e>
+    <e><p><l>nadie<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>dengún<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>nadie<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>dengún<b/>no<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
+    <!--  Dengún with expletive no -->
+
+    <e r="RL"><p><l>alguno<s n="prn"/></l><r>algún<s n="prn"/></r></p></e>
+    <e r="RL"><p><l>alguien<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>algún<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>alguno<s n="prn"/></l><r>belún<s n="prn"/></r></p></e>
+    <e><p><l>alguien<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>belún<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
+    
+  
     
     <!-- ******************************
           group det_symbol
       ****************************** -->
     <e><p><l>alguno<s n="det"/></l><r>bell<s n="det"/></r></p></e>
+    <e r="RL"><p><l>alguno<s n="det"/></l><r>algún<s n="det"/></r></p></e>
     <e><p><l>aquel<s n="det"/></l><r>aquell<s n="det"/></r></p></e>
     <e><p><l>el<s n="det"/></l><r>o<s n="det"/></r></p></e>
     <e><p><l>ese<s n="det"/></l><r>ixe<s n="det"/></r></p></e>
     <e><p><l>este<s n="det"/></l><r>iste<s n="det"/></r></p></e>
     <e r="RL"><p><l>este<s n="det"/></l><r>este<s n="det"/></r></p></e>
-    <e><p><l>ninguno<s n="det"/></l><r>dengún<s n="det"/></r></p></e>
+    
+    <e r="LR"><p><l>ninguno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></l><r>garra<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>ninguno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>garra<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>ninguno<s n="det"/><s n="ind"/><s n="GD"/><s n="sg"/></l><r>garra<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+    
+    <e r="RL"><p><l>ninguno<s n="det"/></l><r>dengún<s n="det"/></r></p></e>
     <e><p><l>uno<s n="det"/></l><r>un<s n="det"/></r></p></e>
     <!-- ******************************
           group cnjcoo_symbol
@@ -1405,7 +1426,8 @@
     <e><i>nuclear<s n="adj"/></i></e>
     <e><p><l>nucleico<s n="adj"/></l><r>nucleico<s n="adj"/></r></p></e>
     <e><p><l>nuestro<s n="adj"/></l><r>nuestro<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>nuestro<s n="adj"/></l><r>o<b/>nuestro<s n="adj"/></r></p></e>
+    <e><p><l>nuestro<s n="adj"/></l><r>o<b/>nuestro<s n="adj"/></r></p></e>
+    
     <e><p><l>nuevo<s n="adj"/></l><r>nuevo<s n="adj"/></r></p></e>
     <e><p><l>nulo<s n="adj"/></l><r>nulo<s n="adj"/></r></p></e>
     <e><i>numeral<s n="adj"/></i></e>
@@ -2045,10 +2067,8 @@
     <e><p><l>volumétrico<s n="adj"/></l><r>volumétrico<s n="adj"/></r></p></e>
     <e><p><l>voluntario<s n="adj"/></l><r>voluntario<s n="adj"/></r></p></e>
     <e><i>volátil<s n="adj"/></i></e>
-    <e><p><l>vuestro<s n="adj"/></l><r>buestro<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>vuestro<s n="adj"/></l><r>o<b/>buestro<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>vuestro<s n="adj"/></l><r>o<b/>vuestro<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>vuestro<s n="adj"/></l><r>vuestro<s n="adj"/></r></p></e>
+    <e><p><l>vuestro<s n="adj"/></l><r>vuestro<s n="adj"/></r></p></e>
+    <e><p><l>vuestro<s n="adj"/></l><r>o<b/>vuestro<s n="adj"/></r></p></e>
     <e><i>vulgar<s n="adj"/></i></e>
     <e><i>vulnerable<s n="adj"/></i></e>
     <e><p><l>válido<s n="adj"/></l><r>válido<s n="adj"/></r></p></e>
