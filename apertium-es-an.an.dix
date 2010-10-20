@@ -8358,32 +8358,86 @@
     </e>
 
     </pardef>
-    <pardef n="atr/o__adj">
+    <pardef n="/atro__adj">
     <e>
       <p>
-        <l>as</l>
-        <r>o<s n="adj"/><s n="ind"/><s n="f"/><s n="pl"/></r>
+        <l>atras</l>
+        <r>atro<s n="adj"/><s n="ind"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
 
     <e>
       <p>
-        <l>a</l>
-        <r>o<s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></r>
+        <l>atra</l>
+        <r>atro<s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
 
     <e>
       <p>
-        <l>os</l>
-        <r>o<s n="adj"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+        <l>atros</l>
+        <r>atro<s n="adj"/><s n="ind"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
 
     <e>
       <p>
-        <l>o</l>
-        <r>o<s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+        <l>atro</l>
+        <r>atro<s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>altras</l>
+        <r>atro<s n="adj"/><s n="ind"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>altra</l>
+        <r>atro<s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>altros</l>
+        <r>atro<s n="adj"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>altro</l>
+        <r>atro<s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>otras</l>
+        <r>atro<s n="adj"/><s n="ind"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>otra</l>
+        <r>atro<s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>otros</l>
+        <r>atro<s n="adj"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>otro</l>
+        <r>atro<s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -9713,7 +9767,7 @@
     <e lm="o suyo"><i></i><par n="/o_suyo__adj"/></e>
     <e lm="o nuestro"><i></i><par n="/o_nuestro__adj"/></e>
     <e lm="o vuestro"><i></i><par n="/o_vuestro__adj"/></e>    
-    <e lm="atro"><i>atr</i><par n="atr/o__adj"/></e>  <!-- variations todo -->
+    <e lm="atro"><i></i><par n="/atro__adj"/></e>  
     
     <e lm="o"><i></i><par n="/o__det"/></e>
     <e lm="un"><i>un</i><par n="un__det"/></e>
