@@ -454,7 +454,7 @@
     </e>
     </pardef>
     
-    <pardef n="article_m_sg_var">
+    <pardef n="detarticle_m_sg_var">
       <e>
         <p>
           <l>o</l>
@@ -483,7 +483,7 @@
       </e>
     </pardef>    
 
-    <pardef n="article_m_pl_var">
+    <pardef n="detarticle_m_pl_var">
       <e>
         <p>
           <l>os</l>
@@ -518,7 +518,7 @@
       </e>
     </pardef>    
 
-    <pardef n="article_f_sg_var">
+    <pardef n="detarticle_f_sg_var">
       <e>
         <p>
           <l>a</l>
@@ -539,7 +539,7 @@
       </e>
     </pardef>        
     
-    <pardef n="article_f_pl_var">
+    <pardef n="detarticle_f_pl_var">
       <e>
         <p>
           <l>as</l>
@@ -7497,211 +7497,135 @@
       </p>
     </e>
 
+<pardef n="quál__prn">
+  <e>
+    <p>
+      <l></l>
+      <r><s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r>
+    </p>
+  </e>
+  <e>
+    <p>
+      <l>a</l>
+      <r><s n="prn"/><s n="itg"/><s n="f"/><s n="sg"/></r>
+    </p>
+  </e>
+  <e r="LR">
+    <p>
+      <l>o</l>
+      <r><s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r>
+    </p>
+  </e>
+  <e>
+    <p>
+      <l>s</l>
+      <r><s n="prn"/><s n="itg"/><s n="m"/><s n="pl"/></r>
+    </p>
+  </e>
+  <e r="LR">
+    <p>
+      <l>os</l>
+      <r><s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/></r>
+    </p>
+  </e>
+  <e>
+    <p>
+      <l>as</l>
+      <r><s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/></r>
+    </p>
+  </e>
+  
+</pardef> 
+
     </pardef>
+    
     <pardef n="/o_qual__rel">
     <e>
+    <par n="detarticle_f_pl_var"/>
       <p>
-        <l>as<b/>qualas</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
+        <l><b/>qualas</l>
+        <r><b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
+    <par n="detarticle_f_pl_var"/>
       <p>
-        <l>las<b/>qualas</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l>as<b/>quals</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l>las<b/>quals</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l>ras<b/>quals</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l>ras<b/>qualas</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
-      </p>
-    </e>
-    
-    <e>
-      <p>
-        <l>a<b/>quala</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l>a<b/>qual</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l>la<b/>quala</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l>la<b/>qual</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l>ra<b/>quala</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l>ra<b/>qual</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>os<b/>quals</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l>los<b/>quals</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l>ros<b/>quals</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l>es<b/>quals</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
+        <l><b/>quals</l>
+        <r><b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
     <e>
+    <par n="detarticle_f_sg_var"/>
       <p>
-        <l>o<b/>qual</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
-      </p>
-    </e>
-    
-    <e r="LR">
-      <p>
-        <l>el<b/>qual</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
+        <l><b/>quala</l>
+        <r><b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
     <e r="LR">
+    <par n="detarticle_f_sg_var"/>
       <p>
-        <l>lo<b/>qual</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
+        <l><b/>qual</l>
+        <r><b/>qual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e>
+    <par n="detarticle_m_pl_var"/>
       <p>
-        <l>ro<b/>qual</l>
-        <r>o<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
+        <l><b/>quals</l>
+        <r><b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
-
+    <e>
+    <par n="detarticle_m_sg_var"/>
+      <p>
+        <l><b/>qual</l>
+        <r><b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>  
     </pardef>
-    <pardef n="qual__rel">
-    <e>
-      <p>
-        <l></l>
-        <r><s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
-      </p>
-    </e>
+    
+<pardef n="qual__rel">
   <e>
-      <p>
-        <l>a</l>
-        <r><s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
-      </p>
-    </e>
-  <e r="LR">
-      <p>
-        <l>o</l>
-        <r><s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>s</l>
-        <r><s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l>os</l>
-        <r><s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>as</l>
-        <r><s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
-      </p>
-    </e>
-
- </pardef>
-    <pardef n="quál__prn">
-    <e>
-      <p>
-        <l></l>
-        <r><s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r>
-      </p>
-    </e>
+    <p>
+      <l></l>
+      <r><s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
+    </p>
+  </e>
   <e>
-      <p>
-        <l>a</l>
-        <r><s n="prn"/><s n="itg"/><s n="f"/><s n="sg"/></r>
-      </p>
-    </e>
+    <p>
+      <l>a</l>
+      <r><s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
+    </p>
+  </e>
   <e r="LR">
-      <p>
-        <l>o</l>
-        <r><s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>s</l>
-        <r><s n="prn"/><s n="itg"/><s n="m"/><s n="pl"/></r>
-      </p>
-    </e>
-    <e r="LR">
-      <p>
-        <l>os</l>
-        <r><s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/></r>
-      </p>
-    </e>
-    <e>
-      <p>
-        <l>as</l>
-        <r><s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/></r>
-      </p>
-    </e>
+    <p>
+      <l>o</l>
+      <r><s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
+    </p>
+  </e>
+  <e>
+    <p>
+      <l>s</l>
+      <r><s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
+    </p>
+  </e>
+  <e r="LR">
+    <p>
+      <l>os</l>
+      <r><s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
+    </p>
+  </e>
+  <e>
+    <p>
+      <l>as</l>
+      <r><s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
+    </p>
+  </e>
+  
+</pardef>     
+    
 
-    </pardef>
+        
     <pardef n="un__det">
     <e>
       <p>
@@ -7737,7 +7661,6 @@
         <r><s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
-
     </pardef>
     <pardef n="deng/ún__det">
     <e>
@@ -7776,7 +7699,38 @@
     </e>
 
     </pardef>
-
+    
+    <pardef n="/o__det">
+    <e>
+    <par n="detarticle_m_sg_var"/>
+      <p>
+        <l></l>
+        <r><s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+    <par n="detarticle_f_sg_var"/>
+      <p>
+        <l></l>
+        <r><s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+    <par n="detarticle_m_pl_var"/>
+      <p>
+        <l></l>
+        <r><s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+    <par n="detarticle_f_pl_var"/>
+      <p>
+        <l></l>
+        <r><s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    </pardef>
+<!-- old version of the definite article paradigm
     <pardef n="/o__det">
     <e>
       <p>
@@ -7784,32 +7738,6 @@
         <r>o<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
-
-
-    <e>
-      <p>
-        <l>os</l>
-        <r>o<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r>
-      </p>
-    </e>
-
-
-    <e>
-      <p>
-        <l>a</l>
-        <r>o<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r>
-      </p>
-    </e>
-
-
-    <e>
-      <p>
-        <l>as</l>
-        <r>o<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r>
-      </p>
-    </e>
-
-
     <e r="LR">
       <p>
         <l>lo</l>
@@ -7817,47 +7745,56 @@
       </p>
     </e>
 
-
-    <e r="LR">
-      <p>
-        <l>los</l>
-        <r>o<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r>
-      </p>
-    </e>
-
-
-    <e r="LR">
-      <p>
-        <l>la</l>
-        <r>o<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r>
-      </p>
-    </e>
-
-
-    <e r="LR">
-      <p>
-        <l>las</l>
-        <r>o<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r>
-      </p>
-    </e>
-
-
     <e r="LR">
       <p>
         <l>ro</l>
         <r>o<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
+    <e r="LR">
+      <p>
+        <l>el</l>
+        <r>o<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
 
-
+    <e>
+      <p>
+        <l>os</l>
+        <r>o<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>los</l>
+        <r>o<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
     <e r="LR">
       <p>
         <l>ros</l>
         <r>o<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
-
-
+    <e r="LR">
+      <p>
+        <l>es</l>
+        <r>o<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    
+    <e>
+      <p>
+        <l>a</l>
+        <r>o<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>la</l>
+        <r>o<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
     <e r="LR">
       <p>
         <l>ra</l>
@@ -7865,7 +7802,18 @@
       </p>
     </e>
 
-
+    <e>
+      <p>
+        <l>as</l>
+        <r>o<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>las</l>
+        <r>o<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
     <e r="LR">
       <p>
         <l>ras</l>
@@ -7874,23 +7822,8 @@
     </e>
 
 
-    <e r="LR">
-      <p>
-        <l>el</l>
-        <r>o<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r>
-      </p>
-    </e>
-
-
-    <e r="LR">
-      <p>
-        <l>es</l>
-        <r>o<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r>
-      </p>
-    </e>
-
-
-    </pardef>
+    </pardef> -->
+    
     <pardef n="mí/o__adj">
     <e>
       <p>
@@ -7920,7 +7853,8 @@
       </p>
     </e>
 
-    </pardef>
+    </pardef> 
+    
     <pardef n="/o_mío__adj">
     <e>
       <p>
