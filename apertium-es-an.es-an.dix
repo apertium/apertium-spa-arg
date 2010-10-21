@@ -137,7 +137,14 @@
     <e><p><l>alguno<s n="prn"/></l><r>belún<s n="prn"/></r></p></e>
     <e><p><l>alguien<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>belún<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
     
-  
+    <e><p><l>otro<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>unatro<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>otro<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l><r>unatro<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>otro<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></l><r>atro<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+    <e><p><l>otro<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></l><r>atro<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>otro<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>atro<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>otro<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l><r>atro<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+      
+    <e><p><l>algún<b/>otro<s n="prn"/><s n="tn"/></l><r>belatro<s n="prn"/><s n="tn"/></r></p></e>
     
     <!-- ******************************
           group det_symbol
@@ -156,6 +163,22 @@
     
     <e r="RL"><p><l>ninguno<s n="det"/></l><r>dengún<s n="det"/></r></p></e>
     <e><p><l>uno<s n="det"/></l><r>un<s n="det"/></r></p></e>
+    
+    <e><p><l>otro<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>unatro<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>otro<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></l><r>unatro<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>otro<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>atro<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>otro<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></l><r>atro<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>otro<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></l><r>atro<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+    <e><p><l>otro<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></l><r>atro<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>otro<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></l><r>unatro<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>otro<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></l><r>unatro<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+    
+    <e><p><l>algún<b/>otro<s n="det"/><s n="ind"/></l><r>belatro<s n="det"/><s n="ind"/></r></p></e>
+    <!--
+    <e r="LR"><p><l>demás<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></l><r>altre<s n="det"/><s n="ind"/><s n="GD"/><s n="ND"/></r></p></e>
+    <e r="LR"><p><l>lo<b/>demás<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l><r>la<b/>resta<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
+    -->
+
     <!-- ******************************
           group cnjcoo_symbol
       ****************************** -->
