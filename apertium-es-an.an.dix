@@ -6244,7 +6244,7 @@
     </e>
 
     </pardef>
-    <pardef n="bib/ir__vblex">
+    <pardef n="viv/ir__vblex">
     <e>
       <p>
         <l>iré</l>
@@ -8236,23 +8236,15 @@
     </pardef>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+    <pardef n="demás__det">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r> 
+      </p>
+    </e>
+</pardef>
 
 
     <pardef n="/o_buestro__adj">
@@ -8349,6 +8341,96 @@
     </e>
     
     </pardef>
+    
+    <pardef n="/atro__det">
+    <e>
+    <par n="atr_altr_otr__var"/>
+      <p>
+        <l>as</l>
+        <r>o<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+    <par n="atr_altr_otr__var"/>
+      <p>
+        <l>a</l>
+        <r>o<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+    <par n="atr_altr_otr__var"/>
+      <p>
+        <l>os</l>
+        <r>o<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+    <par n="atr_altr_otr__var"/>
+      <p>
+        <l>o</l>
+        <r>o<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>     
+      </p>
+    </e>
+    
+    </pardef>
+    
+    <pardef n="/atro__prn">
+    <e>
+    <par n="atr_altr_otr__var"/>
+      <p>
+        <l>as</l>
+        <r>o<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+    <par n="atr_altr_otr__var"/>
+      <p>
+        <l>a</l>
+        <r>o<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+    <par n="atr_altr_otr__var"/>
+      <p>
+        <l>os</l>
+        <r>o<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+    <par n="atr_altr_otr__var"/>
+      <p>
+        <l>o</l>
+        <r>o<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    
+    </pardef>    
+
+   <pardef n="/atri__prn">
+    <e>
+    <par n="atr_altr_otr__var"/>
+      <p>
+        <l>i</l>
+        <r>i<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r>
+      </p>
+    </e>
+    <!-- I think plural is not correct
+    <e>
+        <par n="atr_altr_otr__var"/>
+      <p>
+        <l>is</l>
+        <r>i<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r>
+      </p>
+    </e>
+    -->
+    </pardef>
+    
     <pardef n="multimedia__adj">
     <e>
       <p>
@@ -9676,22 +9758,30 @@
     <e lm="o vuestro"><i></i><par n="/o_vuestro__adj"/></e>    
     
     <e lm="atro"><i></i><par n="/atro__adj"/></e>  
-    <e lm="otro"><i>otr</i><par n="/atro__det"/></e>
-    <e lm="otro"><i>otr</i><par n="/atro__prn"/></e>
+    <e lm="atro"><i></i><par n="/atro__det"/></e>
+    <e lm="atro"><i></i><par n="/atro__prn"/></e>
+    <e lm="unatro"><i>un</i><par n="/atro__det"/></e>
+    <e lm="unatro"><i>un</i><par n="/atro__prn"/></e>
+    <e lm="belatro"><i>bel</i><par n="/atro__det"/></e>
+    <e lm="belatro"><i>bel</i><par n="/atro__prn"/></e>
+    <e lm="atri"><i></i><par n="/atri__prn"/></e> <!-- todo biling -->
     
     <e lm="o"><i></i><par n="/o__det"/></e>
     <e lm="un"><i>un</i><par n="un__det"/></e>
     <e lm="dengún"><i>deng</i><par n="deng/ún__det"/></e>    <e lm="garra"><i>garra</i><par n="garra__det"/></e>
     <e lm="bell"><i>bel</i><par n="bel/l__det"/></e>
     <e lm="algún"><i>alg</i><par n="deng/ún__det"/></e>
+    
+    <e lm="demás"><i>demás</i><par n="demás__det"/></e> <!-- biling  -->
 
     <e lm="garra"><i>garra</i><par n="garra__prn"/></e>
     <e lm="dengún"><i>alg</i><par n="bel/ún__prn"/></e>
     <e r="LR" lm="dengún no"><i>dengún<b/>no</i><par n="garra__prn"/></e>
     <e lm="algún"><i>alg</i><par n="bel/ún__prn"/></e> <!-- biling...-->
     <e lm="belún"><i>bel</i><par n="bel/ún__prn"/></e> <!-- biling...-->
-
-
+<!--
+    <e lm="lo demás"><i>lo<b/>demás</i><par n="algo__prn"/></e>
+-->
     <e lm="dos"><i>dos</i><par n="dos__num"/></e>
     <e lm="tres"><i>tres</i><par n="dos__num"/></e>
     <e lm="C"><i>C</i><par n="dos__num"/></e>
@@ -9722,12 +9812,14 @@
 
     <e lm="aber"><i></i><par n="/aber__vbhaver"/></e>
     <e lm="haber"><i>h</i><par n="/aber__vbhaver"/></e>
-    <e lm="bibir"><i>bib</i><par n="bib/ir__vblex"/></e>
-    <e lm="proibir"><i>proib</i><par n="bib/ir__vblex"/></e>
-    <e lm="infrinchir"><i>infrinch</i><par n="bib/ir__vblex"/></e>
-    <e lm="compartir" c="check"><i>compart</i><par n="bib/ir__vblex"/></e>
+    <e lm="vivir"><i>bib</i><par n="viv/ir__vblex"/></e>
+    <e lm="prohibir"><i>prohib</i><par n="viv/ir__vblex"/></e>
+    <e lm="adhibir"><i>adhib</i><par n="viv/ir__vblex"/></e>
+    <e lm="cohibir"><i>cohib</i><par n="viv/ir__vblex"/></e>
+    <e lm="infrinchir"><i>infrinch</i><par n="viv/ir__vblex"/></e>
+    <e lm="compartir"><i>compart</i><par n="viv/ir__vblex"/></e>
     <e lm="incluir" c="check"><i>inclu</i><par n="inclu/ir__vblex"/></e>
-    <e r="LR" lm="incluir"><p><l>incluy</l><r>inclu</r></p><par n="bib/ir__vblex"/></e>
+    <e r="LR" lm="incluir"><p><l>incluy</l><r>inclu</r></p><par n="viv/ir__vblex"/></e>
     <e lm="esleir" c="?"><i>esle</i><par n="inclu/ir__vblex"/></e>
     <e lm="partizipar"><i>partizip</i><par n="cant/ar__vblex"/></e>
     <e lm="participar"><i>particip</i><par n="cant/ar__vblex"/></e>
@@ -18413,9 +18505,9 @@
     <e lm="obligar"><i>oblig</i><par n="cant/ar__vblex"/></e>
     <e lm="cambear"><i>cambe</i><par n="cant/ar__vblex"/></e>
     <e lm="esprisar"><i>espris</i><par n="cant/ar__vblex"/></e>
-    <e lm="recullir"><i>recull</i><par n="bib/ir__vblex"/></e>
-    <e lm="presumir"><i>presum</i><par n="bib/ir__vblex"/></e>
-    <e lm="espardir"><i>espard</i><par n="bib/ir__vblex"/></e>
+    <e lm="recullir"><i>recull</i><par n="viv/ir__vblex"/></e>
+    <e lm="presumir"><i>presum</i><par n="viv/ir__vblex"/></e>
+    <e lm="espardir"><i>espard</i><par n="viv/ir__vblex"/></e>
     <e lm="reconoixenzia"><i>reconoixenzia</i><par n="luenga__n"/></e>
     <e lm="normalización"><i>normaliza</i><par n="actua/ción__n"/></e>
     <e r="LR" lm="normalizazión"><p><l>normalica</l><r>normaliza</r></p><par n="actua/ción__n"/></e>
