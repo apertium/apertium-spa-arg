@@ -7489,6 +7489,48 @@
 
     </pardef>
 
+    <pardef n="zero__num">
+    <e>
+      <p>
+        <l>s</l> 
+        <r><s n="num"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+        <e>
+      <p>
+        <l></l> 
+        <r><s n="num"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+    <pardef n="uno__num">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="num"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+    </pardef>
+    
+    <pardef n="cinquanta_y_un/o__det">
+    <e>
+      <p>
+        <l>a</l> 
+        <r>o<s n="det"/><s n="def"/><s n="f"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l></l> 
+        <r>o<s n="det"/><s n="def"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+
+    
     <pardef n="dos__num">
     <e>
       <p>
@@ -9784,7 +9826,8 @@
     
     <e lm="o"><i></i><par n="/o__det"/></e>
     <e lm="un"><i>un</i><par n="un__det"/></e>
-    <e lm="dengún"><i>deng</i><par n="deng/ún__det"/></e>    <e lm="garra"><i>garra</i><par n="garra__det"/></e>
+    <e lm="dengún"><i>deng</i><par n="deng/ún__det"/></e>
+    <e lm="garra"><i>garra</i><par n="garra__det"/></e>
     <e lm="bell"><i>bel</i><par n="bel/l__det"/></e>
     <e lm="algún"><i>alg</i><par n="deng/ún__det"/></e>
     
@@ -9798,8 +9841,139 @@
 <!--
     <e lm="lo demás"><i>lo<b/>demás</i><par n="algo__prn"/></e>
 -->
+    <e lm="zero"><i>zero</i><par n="zero__num"/></e>
+    <e r="LR" lm="zerp"><p><l>cero</l><r>zero</r></p><par n="zero__num"/></e>
+    <e lm="uno"><i>uno</i><par n="uno__num"/></e>
     <e lm="dos"><i>dos</i><par n="dos__num"/></e>
     <e lm="tres"><i>tres</i><par n="dos__num"/></e>
+    <e lm="quatro"><i>quatro</i><par n="dos__num"/></e>
+    <e r="LR" lm="quatro"><p><l>cuatro</l><r>quatro</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="quatro"><p><l>quatre</l><r>quatro</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="quatro"><p><l>cuatre</l><r>quatro</r></p><par n="dos__num"/></e>
+    <e lm="cinco"><i>cinco</i><par n="dos__num"/></e>
+    <e r="LR" lm="cinco"><p><l>cinc</l><r>cinco</r></p><par n="dos__num"/></e>
+    <e lm="seis"><i>seis</i><par n="dos__num"/></e>
+    <e r="LR" lm="seis"><p><l>sies</l><r>seis</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="seis"><p><l>sieis</l><r>seis</r></p><par n="dos__num"/></e>
+    <e lm="siet"><i>siet</i><par n="dos__num"/></e>
+    <e r="LR" lm="siet"><p><l>siete</l><r>siet</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="siet"><p><l>set</l><r>siet</r></p><par n="dos__num"/></e>
+    <e lm="ueito"><i>ueito</i><par n="dos__num"/></e>
+    <e r="LR" lm="ueito"><p><l>ueit</l><r>ueito</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="ueito"><p><l>güeit</l><r>ueito</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="ueito"><p><l>güeito</l><r>ueito</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="ueito"><p><l>ocho</l><r>ueito</r></p><par n="dos__num"/></e>
+    <e lm="nueu"><i>nueu</i><par n="dos__num"/></e>
+    <e r="LR" lm="nueu"><p><l>nou</l><r>nueu</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="nueu"><p><l>nueve</l><r>nueu</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="nueu"><p><l>nuebe</l><r>nueu</r></p><par n="dos__num"/></e>
+    <e lm="diez"><i>diez</i><par n="dos__num"/></e>
+    <e r="LR" lm="diez"><p><l>deu</l><r>diez</r></p><par n="dos__num"/></e>
+    <e lm="once"><i>once</i><par n="dos__num"/></e>
+    <e lm="dotze"><i>dotze</i><par n="dos__num"/></e>
+    <e r="LR" lm="dotze"><p><l>dotse</l><r>dotze</r></p><par n="dos__num"/></e>
+    <e lm="tretze"><i>tretze</i><par n="dos__num"/></e>
+    <e r="LR" lm="tretze"><p><l>tretse</l><r>tretze</r></p><par n="dos__num"/></e>
+    <e lm="catorce"><i>catorce</i><par n="dos__num"/></e>
+    <e lm="quince"><i>quince</i><par n="dos__num"/></e>
+    <e lm="deciséis"><i>deciséis</i><par n="dos__num"/></e>
+    <e r="LR" lm="deciséis"><p><l>deciséis</l><r>deciséis</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="deciséis"><p><l>decisiéis</l><r>deciséis</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="deciséis"><p><l>deciseis</l><r>deciséis</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="deciséis"><p><l>setze</l><r>deciséis</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="deciséis"><p><l>setse</l><r>deciséis</r></p><par n="dos__num"/></e>
+    <e lm="decisiet"><i>decisiet</i><par n="dos__num"/></e>
+    <e r="LR" lm="decisiet"><p><l>decisiete</l><r>decisiet</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="decisiet"><p><l>dechiset</l><r>decisiet</r></p><par n="dos__num"/></e>
+    <e lm="deciueito"><i>deciueito</i><par n="dos__num"/></e>
+    <e r="LR" lm="deciueito"><p><l>decigüeito</l><r>deciueito</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="deciueito"><p><l>dechiueit</l><r>deciueito</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="deciueito"><p><l>dechigüeit</l><r>deciueito</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="deciueito"><p><l>deciocho</l><r>deciueito</r></p><par n="dos__num"/></e>
+    <e lm="decinueu"><i>decinueu</i><par n="dos__num"/></e>
+    <e r="LR" lm="decinueu"><p><l>decinueve</l><r>decinueu</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="decinueu"><p><l>dechinou</l><r>decinueu</r></p><par n="dos__num"/></e>
+    <e lm="decinueu"><i>decinueu</i><par n="dos__num"/></e>
+    <e r="LR" lm="decinueu"><p><l>decinueve</l><r>decinueu</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="decinueu"><p><l>dechinou</l><r>decinueu</r></p><par n="dos__num"/></e>
+    <e lm="vinte"><i>vinte</i><par n="dos__num"/></e>
+    <e r="LR" lm="vinte"><p><l>vint</l><r>vinte</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vinte"><p><l>vente</l><r>vinte</r></p><par n="dos__num"/></e>    
+    <e lm="vinte"><i>vinte</i><par n="dos__num"/></e>
+    <e r="LR" lm="vinte"><p><l>vint</l><r>vinte</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vinte"><p><l>vente</l><r>vinte</r></p><par n="dos__num"/></e>
+    <e lm="vintidós"><i>vintidós</i><par n="dos__num"/></e>
+    <e r="LR" lm="vintidós"><p><l>ventidós</l><r>vintidós</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintidós"><p><l>ventidos</l><r>vintidós</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintidós"><p><l>vintidos</l><r>vintidós</r></p><par n="dos__num"/></e>
+    <e lm="vintitrés"><i>vintitrés</i><par n="dos__num"/></e>
+    <e r="LR" lm="vintitrés"><p><l>ventitrés</l><r>vintitrés</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintitrés"><p><l>ventitres</l><r>vintitrés</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintitrés"><p><l>vintitres</l><r>vintitrés</r></p><par n="dos__num"/></e>
+    <e lm="vintiquatro"><i>vintiquatro</i><par n="dos__num"/></e>
+    <e r="LR" lm="vintiquatro"><p><l>ventiquatro</l><r>vintiquatro</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiquatro"><p><l>ventiquatre</l><r>vintiquatro</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiquatro"><p><l>vintiquatre</l><r>vintiquatro</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiquatro"><p><l>venticuatro</l><r>vintiquatro</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiquatro"><p><l>venticuatre</l><r>vintiquatro</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiquatro"><p><l>vinticuatro</l><r>vintiquatro</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiquatro"><p><l>vinticuatre</l><r>vintiquatro</r></p><par n="dos__num"/></e>
+    <e lm="vinticinco"><i>vinticinco</i><par n="dos__num"/></e>
+    <e r="LR" lm="vinticinco"><p><l>venticinco</l><r>vinticinco</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vinticinco"><p><l>vinticinc</l><r>vinticinco</r></p><par n="dos__num"/></e>
+    <e lm="vintiséis"><i>vintiséis</i><par n="dos__num"/></e>
+    <e r="LR" lm="vintiséis"><p><l>ventiséis</l><r>vintiséis</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiséis"><p><l>vintisiéis</l><r>vintiséis</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiséis"><p><l>vintisiés</l><r>vintiséis</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiséis"><p><l>ventiseis</l><r>vintiséis</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiséis"><p><l>vintisieis</l><r>vintiséis</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiséis"><p><l>vintisies</l><r>vintiséis</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiséis"><p><l>vintisies</l><r>vintiséis</r></p><par n="dos__num"/></e>
+    <e lm="vintisiet"><i>vintisiet</i><par n="dos__num"/></e>
+    <e r="LR" lm="vintisiet"><p><l>ventisiet</l><r>vintisiet</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintisiet"><p><l>vintisiete</l><r>vintisiet</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintisiet"><p><l>ventisiete</l><r>vintisiet</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintisiet"><p><l>vintiset</l><r>vintisiet</r></p><par n="dos__num"/></e>
+    <e lm="vintiueito"><i>vintiueito</i><par n="dos__num"/></e>
+    <e r="LR" lm="vintiueito"><p><l>ventiueito</l><r>vintiueito</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiueito"><p><l>vintiueit</l><r>vintiueito</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiueito"><p><l>vintigüeito</l><r>vintiueito</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiueito"><p><l>ventigüeito</l><r>vintiueito</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiueito"><p><l>vintigüeit</l><r>vintiueito</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiueito"><p><l>ventiocho</l><r>vintiueito</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintiueito"><p><l>vintiocho</l><r>vintiueito</r></p><par n="dos__num"/></e>
+    <e lm="vintinueu"><i>vintinueu</i><par n="dos__num"/></e>
+    <e r="LR" lm="vintinueu"><p><l>ventinueu</l><r>vintinueu</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintinueu"><p><l>vintinou</l><r>vintinueu</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintinueu"><p><l>ventinueve</l><r>vintinueu</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="vintinueu"><p><l>vintinueve</l><r>vintinueu</r></p><par n="dos__num"/></e>
+    <e lm="trenta"><i>trenta</i><par n="dos__num"/></e>
+    <e lm="quaranta"><i>quaranta</i><par n="dos__num"/></e>
+    <e r="LR" lm="quaranta"><p><l>quarenta</l><r>quaranta</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="quaranta"><p><l>cuaranta</l><r>quaranta</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="quaranta"><p><l>cuarenta</l><r>quaranta</r></p><par n="dos__num"/></e>
+    <e lm="quaranta"><i>quaranta</i><par n="dos__num"/></e>
+    <e r="LR" lm="quaranta"><p><l>quarenta</l><r>quaranta</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="quaranta"><p><l>cuaranta</l><r>quaranta</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="quaranta"><p><l>cuarenta</l><r>quaranta</r></p><par n="dos__num"/></e>
+    <e lm="cinquanta"><i>cinquanta</i><par n="dos__num"/></e>
+    <e r="LR" lm="cinquanta"><p><l>cinqüenta</l><r>cinquanta</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="cinquanta"><p><l>cincuanta</l><r>cinquanta</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="cinquanta"><p><l>cincuenta</l><r>cinquanta</r></p><par n="dos__num"/></e>
+    <e lm="sixanta"><i>sixanta</i><par n="dos__num"/></e>
+    <e r="LR" lm="sixanta"><p><l>sixanta</l><r>sixanta</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="sixanta"><p><l>sisanta</l><r>sixanta</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="sixanta"><p><l>sesanta</l><r>sixanta</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="sixanta"><p><l>sesenta</l><r>sixanta</r></p><par n="dos__num"/></e>
+    <e lm="setanta"><i>setanta</i><par n="dos__num"/></e>
+    <e r="LR" lm="setanta"><p><l>setenta</l><r>setanta</r></p><par n="dos__num"/></e>
+    <e lm="uitanta"><i>uitanta</i><par n="dos__num"/></e>
+    <e r="LR" lm="uitanta"><p><l>güitanta</l><r>uitanta</r></p><par n="dos__num"/></e>
+    <e r="LR" lm="uitanta"><p><l>ochenta</l><r>uitanta</r></p><par n="dos__num"/></e>     
+    <e lm="novanta"><i>novanta</i><par n="dos__num"/></e>
+    <e r="LR" lm="novanta"><p><l>noventa</l><r>novanta</r></p><par n="dos__num"/></e>
+ 
+ 
     <e lm="C"><i>C</i><par n="dos__num"/></e>
     <e lm="D"><i>D</i><par n="dos__num"/></e>
     <e lm="I"><i>I</i><par n="dos__num"/></e>
@@ -18047,11 +18221,13 @@
     <e lm="zapatista"><i>zapatista</i><par n="social__adj"/></e>
     <e lm="zaragocista"><i>zaragocista</i><par n="social__adj"/></e>
     <e lm="zarista"><i>zarista</i><par n="social__adj"/></e>
-    <e lm="zonal"><i>zonal</i><par n="social__adj"/></e>
+    <e lm="zonal"><i>zonal</i><par n="social__adj"/></e>   
     <e lm="Belchica"><i>Belchica</i><par n="Afganistán__np"/></e>
     <e lm="Países Baixos"><i>Países<b/>Baixos</i><par n="Afganistán__np"/></e>
     <e lm="Alemanya"><i>Alemanya</i><par n="Afganistán__np"/></e>
-    <e lm="Franza"><i>Franza</i><par n="Afganistán__np"/></e>
+    <e lm="Francia"><i>Francia</i><par n="Afganistán__np"/></e>
+    <e lm="Francia" r="LR"><p><l>Franza</l><r>Francia</r></p><par n="Afganistán__np"/></e>
+    <e lm="Francia" r="LR"><p><l>Franzia</l><r>Francia</r></p><par n="Afganistán__np"/></e>
     <e lm="Abkhasia"><i>Abkhasia</i><par n="Afganistán__np"/></e>
     <e lm="Abhasia"><i>Abhasia</i><par n="Afganistán__np"/></e>
     <e lm="Alto Karabakh"><i>Alto<b/>Karabakh</i><par n="Afganistán__np"/></e>
@@ -18074,8 +18250,9 @@
     <e lm="Guernési"><i>Guernési</i><par n="Afganistán__np"/></e>
     <e lm="Jèrri"><i>Jèrri</i><par n="Afganistán__np"/></e>
     <e lm="Alaba"><i>Alaba</i><par n="Afganistán__np"/></e>
-    <e lm="Alicán"><i>Alicán</i><par n="Afganistán__np"/></e>
-    <e lm="Andaluzia"><i>Andaluzia</i><par n="Afganistán__np"/></e>
+    <e lm="Alava"><i>Alava</i><par n="Afganistán__np"/></e>
+    <e lm="Alicant"><i>Alicant</i><par n="Afganistán__np"/></e>
+    <e lm="Andalucía"><i>Andalucía</i><par n="Afganistán__np"/></e>
     <e lm="cosa"><i>cosa</i><par n="luenga__n"/></e>
     <e lm="alternativa"><i>alternati</i><par n="normati/va__n"/></e>
     <e lm="americana"><i>americana</i><par n="luenga__n"/></e>
@@ -18435,6 +18612,10 @@
     <e lm="ripresentant"><i>ripresentant</i><par n="accionista__n"/></e>
     <e lm="arte"><i>arte</i><par n="accionista__n"/></e>
     <e lm="condenato"><i>condenat</i><par n="tresorer/o__n"/></e>
+    <e lm="normalización"><i>normaliza</i><par n="actua/ción__n"/></e>
+    <e r="LR" lm="normalizazión"><p><l>normalica</l><r>normaliza</r></p><par n="actua/ción__n"/></e>
+    <e r="LR" lm="normaliçación"><p><l>normaliça</l><r>normaliza</r></p><par n="actua/ción__n"/></e>    
+
     <e lm="chusto"><i>chust</i><par n="italian/o__adj"/></e>
     <e lm="zientifico"><i>zientific</i><par n="italian/o__adj"/></e>
     <e lm="satisfautorio"><i>satisfautori</i><par n="italian/o__adj"/></e>
@@ -18509,7 +18690,8 @@
     <e lm="mantenimiento"><i>mantenimiento</i><par n="libro__n"/></e>
     <e lm="pogreso"><i>pogreso</i><par n="libro__n"/></e>
     <e lm="proposito"><i>proposito</i><par n="libro__n"/></e>
-    <e lm="naixenzia"><i>naixenzia</i><par n="libro__n"/></e>
+    <e lm="naixencia"><i>naixencia</i><par n="luenga__n"/></e>
+    <e lm="naiximiento"><i>naiximiento</i><par n="libro__n"/></e>
     <e lm="examen"><i>examen</i><par n="libro__n"/></e>
     <e lm="fin"><i>fin</i><par n="libro__n"/></e>
     <e lm="deber"><i>deber</i><par n="libro__n"/></e>
@@ -18528,11 +18710,8 @@
     <e lm="recullir"><i>recull</i><par n="viv/ir__vblex"/></e>
     <e lm="presumir"><i>presum</i><par n="viv/ir__vblex"/></e>
     <e lm="espardir"><i>espard</i><par n="viv/ir__vblex"/></e>
-    <e lm="reconoixenzia"><i>reconoixenzia</i><par n="luenga__n"/></e>
-    <e lm="normalización"><i>normaliza</i><par n="actua/ción__n"/></e>
-    <e r="LR" lm="normalizazión"><p><l>normalica</l><r>normaliza</r></p><par n="actua/ción__n"/></e>
-    <e r="LR" lm="normaliçación"><p><l>normaliça</l><r>normaliza</r></p><par n="actua/ción__n"/></e>
-
+    <e lm="reconoixencia"><i>reconoixencia</i><par n="luenga__n"/></e>
+    <e lm="reconoiximiento"><i>reconoiximiento</i><par n="libro__n"/></e>
     <e r="LR" lm="d'a"><p><l>d'a</l><r>de<s n="pr"/><j/>o<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
   </section>
   <section id="apostrophes" type="postblank">
