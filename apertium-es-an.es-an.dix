@@ -2419,7 +2419,13 @@
     <!-- ******************************
           group rel_symbol
       ****************************** -->
-    <e><p><l>cual<s n="rel"/></l><r>qual<s n="rel"/></r></p></e>
+
+    <e r="RL"><p><l>cual<s n="rel"/><s n="an"/><s n="mf"/><s n="sg"/></l><r>qual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>cual<s n="rel"/><s n="an"/><s n="mf"/><s n="sg"/></l><r>qual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>cual<s n="rel"/><s n="an"/><s n="mf"/><s n="sg"/></l><r>qual<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>cual<s n="rel"/><s n="an"/><s n="mf"/><s n="sg"/></l><r>qual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>cual<s n="rel"/><s n="an"/><s n="mf"/><s n="sg"/></l><r>qual<s n="rel"/><s n="an"/><s n="GD"/><s n="ND"/></r></p></e>
+
     <e><p><l>donde<s n="rel"/></l><r>an<s n="rel"/></r></p></e>
     <e><p><l>cuando<s n="rel"/></l><r>quan<s n="rel"/></r></p></e>
     <e><p><l>el<b/>cual<s n="rel"/></l><r>o<b/>qual<s n="rel"/></r></p></e> <!--RL ok, bt LR, I guess there is a better translation for most cases-->
