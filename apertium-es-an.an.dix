@@ -330,7 +330,7 @@
 
 
     </pardef>
-    
+
     <pardef n="/e_i__var">
     <e>
       <p>
@@ -817,6 +817,31 @@
       <p>
         <l>elas</l>
         <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    </pardef>
+    
+    
+    <pardef n="y_e">
+    <e>
+      <p>
+        <l>y</l>
+        <r>y</r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>e</l>
+        <r>y</r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>i</l>
+        <r>y</r>
       </p>
     </e>
 
@@ -7504,13 +7529,20 @@
     </e>
     </pardef>
 
-    <pardef n="uno__num">
+    <pardef n="un/o__num">
     <e>
       <p>
         <l></l> 
         <r><s n="num"/><s n="m"/><s n="sp"/></r> 
       </p>
     </e>
+    <e r="LR">
+      <p>
+        <l>o</l> 
+        <r><s n="num"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
     </pardef>
     
     <pardef n="cinquanta_y_un/o__det">
@@ -7538,6 +7570,201 @@
         <r><s n="num"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
+
+    <pardef n="trenta_/y__num">
+    <e>
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>dos</l>
+    <r><b/>dos<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    
+    <e>
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>tres</l>
+    <r><b/>tres<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+
+    <e>
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>quatro</l>
+    <r><b/>quatro<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    <e r="LR">
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>quatre</l>
+    <r><b/>quatro<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    <e r="LR">
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>cuatre</l>
+    <r><b/>quatro<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    <e r="LR">
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>cuatro</l>
+    <r><b/>quatro<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+
+    <e>
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>cinco</l>
+    <r><b/>cinco<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    <e r="LR">
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>cinc</l>
+    <r><b/>cinco<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+
+   <e>
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>seis</l>
+    <r><b/>seis<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    <e r="LR">
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>sies</l>
+    <r><b/>seis<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    <e r="LR">
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>sieis</l>
+    <r><b/>seis<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    
+    <e>
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>siet</l>
+    <r><b/>siet<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    <e r="LR">
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>siete</l>
+    <r><b/>siet<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    <e r="LR">
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>set</l>
+    <r><b/>siete<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    
+   <e>
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>ueito</l>
+    <r><b/>ueito<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    <e r="LR">
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>güeito</l>
+    <r><b/>ueito<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    <e r="LR">
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>ueit</l>
+    <r><b/>ueito<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    <e r="LR">
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>güeit</l>
+    <r><b/>ueito<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    <e r="LR">
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>ocho</l>
+    <r><b/>ueito<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    
+       <e>
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>nueu</l>
+    <r><b/>nueu<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    <e r="LR">
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>nueve</l>
+    <r><b/>nueu<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    <e r="LR">
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>nou</l>
+    <r><b/>nueu<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    <e r="LR">
+    <i><b/></i>
+    <par n="y_e"/>
+    <p>
+    <l><b/>nuebe</l>
+    <r><b/>nueu<s n="num"/><s n="mf"/><s n="sp"/></r>
+    </p>
+    </e>
+    
+    </pardef>
 
     </pardef>
     <pardef n="venti/ún__num">
@@ -9525,29 +9752,7 @@
     </e>
 
     </pardef>
-    <pardef n="y_e">
-    <e>
-      <p>
-        <l>y</l>
-        <r>y</r>
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>e</l>
-        <r>y</r>
-      </p>
-    </e>
-
-    <e r="LR">
-      <p>
-        <l>i</l>
-        <r>y</r>
-      </p>
-    </e>
-
-    </pardef>
+ 
     
     <pardef n="/u__cnjcoo">
     <e>
@@ -9843,7 +10048,7 @@
 -->
     <e lm="zero"><i>zero</i><par n="zero__num"/></e>
     <e r="LR" lm="zerp"><p><l>cero</l><r>zero</r></p><par n="zero__num"/></e>
-    <e lm="uno"><i>uno</i><par n="uno__num"/></e>
+    <e lm="uno"><i>un</i><par n="un/o__num"/></e>
     <e lm="dos"><i>dos</i><par n="dos__num"/></e>
     <e lm="tres"><i>tres</i><par n="dos__num"/></e>
     <e lm="quatro"><i>quatro</i><par n="dos__num"/></e>
@@ -9947,33 +10152,92 @@
     <e r="LR" lm="vintinueu"><p><l>vintinou</l><r>vintinueu</r></p><par n="dos__num"/></e>
     <e r="LR" lm="vintinueu"><p><l>ventinueve</l><r>vintinueu</r></p><par n="dos__num"/></e>
     <e r="LR" lm="vintinueu"><p><l>vintinueve</l><r>vintinueu</r></p><par n="dos__num"/></e>
+
     <e lm="trenta"><i>trenta</i><par n="dos__num"/></e>
+    <e lm="trenta_y_"><i>trenta</i><par n="trenta_/y__num"/></e>
+
     <e lm="quaranta"><i>quaranta</i><par n="dos__num"/></e>
     <e r="LR" lm="quaranta"><p><l>quarenta</l><r>quaranta</r></p><par n="dos__num"/></e>
     <e r="LR" lm="quaranta"><p><l>cuaranta</l><r>quaranta</r></p><par n="dos__num"/></e>
     <e r="LR" lm="quaranta"><p><l>cuarenta</l><r>quaranta</r></p><par n="dos__num"/></e>
-    <e lm="quaranta"><i>quaranta</i><par n="dos__num"/></e>
-    <e r="LR" lm="quaranta"><p><l>quarenta</l><r>quaranta</r></p><par n="dos__num"/></e>
-    <e r="LR" lm="quaranta"><p><l>cuaranta</l><r>quaranta</r></p><par n="dos__num"/></e>
-    <e r="LR" lm="quaranta"><p><l>cuarenta</l><r>quaranta</r></p><par n="dos__num"/></e>
+    <e lm="quaranta_y_"><i>quaranta</i><par n="trenta_/y__num"/></e>
+    <e r="LR" lm="quaranta_y_"><p><l>quarenta</l><r>quaranta</r></p><par n="trenta_/y__num"/></e>
+    <e r="LR" lm="quaranta_y_"><p><l>cuaranta</l><r>quaranta</r></p><par n="trenta_/y__num"/></e>
+    <e r="LR" lm="quaranta_y_"><p><l>cuarenta</l><r>quaranta</r></p><par n="trenta_/y__num"/></e>
+
     <e lm="cinquanta"><i>cinquanta</i><par n="dos__num"/></e>
     <e r="LR" lm="cinquanta"><p><l>cinqüenta</l><r>cinquanta</r></p><par n="dos__num"/></e>
     <e r="LR" lm="cinquanta"><p><l>cincuanta</l><r>cinquanta</r></p><par n="dos__num"/></e>
     <e r="LR" lm="cinquanta"><p><l>cincuenta</l><r>cinquanta</r></p><par n="dos__num"/></e>
+    <e lm="cinquanta_y_"><i>cinquanta</i><par n="trenta_/y__num"/></e>
+    <e r="LR" lm="cinquanta_y_"><p><l>cinqüenta</l><r>cinquanta</r></p><par n="trenta_/y__num"/></e>
+    <e r="LR" lm="cinquanta_y_"><p><l>cincuanta</l><r>cinquanta</r></p><par n="trenta_/y__num"/></e>
+    <e r="LR" lm="cinquanta_y_"><p><l>cincuenta</l><r>cinquanta</r></p><par n="trenta_/y__num"/></e>
+    
     <e lm="sixanta"><i>sixanta</i><par n="dos__num"/></e>
     <e r="LR" lm="sixanta"><p><l>sixanta</l><r>sixanta</r></p><par n="dos__num"/></e>
     <e r="LR" lm="sixanta"><p><l>sisanta</l><r>sixanta</r></p><par n="dos__num"/></e>
     <e r="LR" lm="sixanta"><p><l>sesanta</l><r>sixanta</r></p><par n="dos__num"/></e>
     <e r="LR" lm="sixanta"><p><l>sesenta</l><r>sixanta</r></p><par n="dos__num"/></e>
+    
+    <e lm="sixanta_y_"><i>sixanta</i><par n="trenta_/y__num"/></e>
+    <e r="LR" lm="sixanta_y_"><p><l>sixanta</l><r>sixanta</r></p><par n="trenta_/y__num"/></e>
+    <e r="LR" lm="sixanta_y_"><p><l>sisanta</l><r>sixanta</r></p><par n="trenta_/y__num"/></e>
+    <e r="LR" lm="sixanta_y_"><p><l>sesanta</l><r>sixanta</r></p><par n="trenta_/y__num"/></e>
+    <e r="LR" lm="sixanta_y_"><p><l>sesenta</l><r>sixanta</r></p><par n="trenta_/y__num"/></e>  
+    
     <e lm="setanta"><i>setanta</i><par n="dos__num"/></e>
     <e r="LR" lm="setanta"><p><l>setenta</l><r>setanta</r></p><par n="dos__num"/></e>
+
+    <e lm="setanta_y_"><i>setanta</i><par n="trenta_/y__num"/></e>
+    <e r="LR" lm="setanta_y_"><p><l>setenta</l><r>setanta</r></p><par n="trenta_/y__num"/></e>
+    
     <e lm="uitanta"><i>uitanta</i><par n="dos__num"/></e>
     <e r="LR" lm="uitanta"><p><l>güitanta</l><r>uitanta</r></p><par n="dos__num"/></e>
     <e r="LR" lm="uitanta"><p><l>ochenta</l><r>uitanta</r></p><par n="dos__num"/></e>     
+    
+    <e lm="uitanta_y_"><i>uitanta</i><par n="trenta_/y__num"/></e>
+    <e r="LR" lm="uitanta_y_"><p><l>güitanta</l><r>uitanta</r></p><par n="trenta_/y__num"/></e>
+    <e r="LR" lm="uitanta_y_"><p><l>ochenta</l><r>uitanta</r></p><par n="trenta_/y__num"/></e>     
+    
     <e lm="novanta"><i>novanta</i><par n="dos__num"/></e>
     <e r="LR" lm="novanta"><p><l>noventa</l><r>novanta</r></p><par n="dos__num"/></e>
- 
- 
+    
+    <e lm="novanta_y_"><i>novanta</i><par n="trenta_/y__num"/></e>
+    <e r="LR" lm="novanta_y_"><p><l>noventa</l><r>novanta</r></p><par n="trenta_/y__num"/></e>
+  
+
+
+    
+    <!-- <pardef n="/y_e__var"> -->
+ <!--   
+    
+vintiun(o), ventiun(o)
+trenta y un(o), trenta-un
+trenta y dos, trenta-dos
+quaranta y un(o), quaranta-un(o), quarenta y un(o)
+ciento quince, cent quince
+docientos, docents
+docientos dos, docents dos
+trecientos, trecents
+quatrecientos, quatrocientos, quatrecents
+cincocientos, cincientos, cincents
+seicientos, sieicientos, siecents
+sietecientos, setcents
+uitcientos, ueitcents
+noucientos, nuevecientos, noucents
+mil
+mil cient, mil cent, oncecientos, oncecents
+mil docientos, mil docents, dotzecientos,dotzecents
+mil trecientos, mil trecents, tretzecientos,tretzecents
+mil quatrecientos, mil quatrocientos, mil
+quatrecents, catorcecientos, catorcecents
+mil cincocientos, mil cincents, quincecientos,quincecents
+mil seicientos, mil siecents, setzecientos,setzecents
+mil sietecientos, mil setcents
+dos mil
+tres mil
+cincocientos mil, cincientos mil, cincents mil   -->
     <e lm="C"><i>C</i><par n="dos__num"/></e>
     <e lm="D"><i>D</i><par n="dos__num"/></e>
     <e lm="I"><i>I</i><par n="dos__num"/></e>
