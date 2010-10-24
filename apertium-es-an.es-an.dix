@@ -2415,8 +2415,128 @@
     <e><i>XX<s n="num"/></i></e>
     <e><i>XXI<s n="num"/></i></e>
 
-    <e><p><l>dos<s n="num"/></l><r>dos<s n="num"/></r></p></e>
-    <e><p><l>tres<s n="num"/></l><r>tres<s n="num"/></r></p></e>
+    <e>       <p><l>cero<s n="num"/></l>              <r>zero<s n="num"/></r></p></e>
+    <e><p><l>uno<s n="num"/></l>              <r>un<s n="num"/></r></p></e>
+    <e><p><l>dos<s n="num"/></l>              <r>dos<s n="num"/></r></p></e>
+    <e><p><l>tres<s n="num"/></l>               <r>tres<s n="num"/></r></p></e>
+    <e><p><l>cuatro<s n="num"/></l>            <r>quatro<s n="num"/></r></p></e>    
+    <e>       <p><l>cinco<s n="num"/></l>             <r>cinco<s n="num"/></r></p></e>
+    <e>       <p><l>seis<s n="num"/></l>              <r>seis<s n="num"/></r></p></e>
+    <e>       <p><l>siete<s n="num"/></l>             <r>siet<s n="num"/></r></p></e>
+    <e>       <p><l>ocho<s n="num"/></l>              <r>ueito<s n="num"/></r></p></e>
+    <e>       <p><l>nueve<s n="num"/></l>             <r>nueu<s n="num"/></r></p></e>
+    <e>       <p><l>diez<s n="num"/></l>              <r>diez<s n="num"/></r></p></e>
+    <e>       <p><l>once<s n="num"/></l>              <r>once<s n="num"/></r></p></e>
+    <e>       <p><l>doce<s n="num"/></l>              <r>dotze<s n="num"/></r></p></e>
+    <e>       <p><l>trece<s n="num"/></l>             <r>tretze<s n="num"/></r></p></e>
+    <e>       <p><l>catorce<s n="num"/></l>           <r>catorce<s n="num"/></r></p></e>
+    <e>       <p><l>quince<s n="num"/></l>            <r>quince<s n="num"/></r></p></e>
+    <e>       <p><l>dieciséis<s n="num"/></l>         <r>deciséis<s n="num"/></r></p></e>
+    <e>       <p><l>diecisiete<s n="num"/></l>        <r>decisiet<s n="num"/></r></p></e>
+    <e>       <p><l>dieciocho<s n="num"/></l>         <r>deciueito<s n="num"/></r></p></e>
+    <e>       <p><l>diecinueve<s n="num"/></l>        <r>decinueu<s n="num"/></r></p></e>
+    <e>       <p><l>veinte<s n="num"/></l>            <r>vinte<s n="num"/></r></p></e>
+    <e>       <p><l>veintiuno<s n="num"/></l>         <r>vintiun<s n="num"/></r></p></e>
+    <e>       <p><l>veintidós<s n="num"/></l>         <r>vintidós<s n="num"/></r></p></e>
+    <e>       <p><l>veintitrés<s n="num"/></l>         <r>vintitrés<s n="num"/></r></p></e>
+    <e>       <p><l>veinticuatro<s n="num"/></l>      <r>vintiquatro<s n="num"/></r></p></e>    
+    <e>       <p><l>veinticinco<s n="num"/></l>       <r>vinticinco<s n="num"/></r></p></e>
+    <e>       <p><l>veintiséis<s n="num"/></l>        <r>vintiséis<s n="num"/></r></p></e>
+    <e>       <p><l>veintisiete<s n="num"/></l>       <r>vintisiet<s n="num"/></r></p></e>
+    <e>       <p><l>veintiocho<s n="num"/></l>        <r>vintiueito<s n="num"/></r></p></e>
+    <e>       <p><l>veintinueve<s n="num"/></l>       <r>vintinueu<s n="num"/></r></p></e>
+    <e>       <p><l>treinta<s n="num"/></l>           <r>trenta<s n="num"/></r></p></e>
+    <e>       <p><l>treinta<b/>y<b/>uno<s n="num"/></l><r>trenta<b/>y<b/>un<s n="num"/></r></p></e>
+    <e>       <p><l>treinta<b/>y<b/>dos<s n="num"/></l><r>trenta<b/>y<b/>dos<s n="num"/></r></p></e>
+    <e>       <p><l>treinta<b/>y<b/>tres<s n="num"/></l><r>trenta<b/>y<b/>tres<s n="num"/></r></p></e>
+    <e>       <p><l>treinta<b/>y<b/>cuatro<s n="num"/></l><r>trenta<b/>y<b/>quatro<s n="num"/></r></p></e>
+    <e>       <p><l>treinta<b/>y<b/>cinco<s n="num"/></l><r>trenta<b/>y<b/>cinco<s n="num"/></r></p></e>
+    <e>       <p><l>treinta<b/>y<b/>seis<s n="num"/></l><r>trenta<b/>y<b/>seis<s n="num"/></r></p></e>
+    <e>       <p><l>treinta<b/>y<b/>siete<s n="num"/></l><r>trenta<b/>y<b/>siet<s n="num"/></r></p></e>
+    <e>       <p><l>treinta<b/>y<b/>ocho<s n="num"/></l><r>trenta<b/>y<b/>ueito<s n="num"/></r></p></e>
+    <e>       <p><l>treinta<b/>y<b/>nueve<s n="num"/></l><r>trenta<b/>y<b/>nueu<s n="num"/></r></p></e>
+    <e>       <p><l>cuarenta<s n="num"/></l>           <r>quaranta<s n="num"/></r></p></e>
+    <e>       <p><l>cuarenta<b/>y<b/>uno<s n="num"/></l><r>quaranta<b/>y<b/>un<s n="num"/></r></p></e>
+    <e>       <p><l>cuarenta<b/>y<b/>dos<s n="num"/></l><r>quaranta<b/>y<b/>dos<s n="num"/></r></p></e>
+    <e>       <p><l>cuarenta<b/>y<b/>tres<s n="num"/></l><r>quaranta<b/>y<b/>tres<s n="num"/></r></p></e>
+    <e>       <p><l>cuarenta<b/>y<b/>cuatro<s n="num"/></l><r>quaranta<b/>y<b/>quatro<s n="num"/></r></p></e>
+    <e>       <p><l>cuarenta<b/>y<b/>cinco<s n="num"/></l><r>quaranta<b/>y<b/>cinco<s n="num"/></r></p></e>
+    <e>       <p><l>cuarenta<b/>y<b/>seis<s n="num"/></l><r>quaranta<b/>y<b/>seis<s n="num"/></r></p></e>
+    <e>       <p><l>cuarenta<b/>y<b/>siete<s n="num"/></l><r>quaranta<b/>y<b/>siet<s n="num"/></r></p></e>
+    <e>       <p><l>cuarenta<b/>y<b/>ocho<s n="num"/></l><r>quaranta<b/>y<b/>ueito<s n="num"/></r></p></e>
+    <e>       <p><l>cuarenta<b/>y<b/>nueve<s n="num"/></l><r>quaranta<b/>y<b/>nueu<s n="num"/></r></p></e>
+    <e>       <p><l>cincuanta<s n="num"/></l>           <r>cinquanta<s n="num"/></r></p></e>
+    <e>       <p><l>cincuanta<b/>y<b/>uno<s n="num"/></l><r>cinquanta<b/>y<b/>un<s n="num"/></r></p></e>
+    <e>       <p><l>cincuanta<b/>y<b/>dos<s n="num"/></l><r>cinquanta<b/>y<b/>dos<s n="num"/></r></p></e>
+    <e>       <p><l>cincuanta<b/>y<b/>tres<s n="num"/></l><r>cinquanta<b/>y<b/>tres<s n="num"/></r></p></e>
+    <e>       <p><l>cincuanta<b/>y<b/>cuatro<s n="num"/></l><r>cinquanta<b/>y<b/>quatro<s n="num"/></r></p></e>
+    <e>       <p><l>cincuanta<b/>y<b/>cinco<s n="num"/></l><r>cinquanta<b/>y<b/>cinco<s n="num"/></r></p></e>
+    <e>       <p><l>cincuanta<b/>y<b/>seis<s n="num"/></l><r>cinquanta<b/>y<b/>seis<s n="num"/></r></p></e>
+    <e>       <p><l>cincuanta<b/>y<b/>siete<s n="num"/></l><r>cinquanta<b/>y<b/>siet<s n="num"/></r></p></e>
+    <e>       <p><l>cincuanta<b/>y<b/>ocho<s n="num"/></l><r>cinquanta<b/>y<b/>ueito<s n="num"/></r></p></e>
+    <e>       <p><l>cincuanta<b/>y<b/>nueve<s n="num"/></l><r>cinquanta<b/>y<b/>nueu<s n="num"/></r></p></e>
+    <e>       <p><l>sesenta<s n="num"/></l>           <r>sixanta<s n="num"/></r></p></e>
+    <e>       <p><l>sesenta<b/>y<b/>uno<s n="num"/></l><r>sixanta<b/>y<b/>un<s n="num"/></r></p></e>
+    <e>       <p><l>sesenta<b/>y<b/>dos<s n="num"/></l><r>sixanta<b/>y<b/>dos<s n="num"/></r></p></e>
+    <e>       <p><l>sesenta<b/>y<b/>tres<s n="num"/></l><r>sixanta<b/>y<b/>tres<s n="num"/></r></p></e>
+    <e>       <p><l>sesenta<b/>y<b/>cuatro<s n="num"/></l><r>sixanta<b/>y<b/>quatro<s n="num"/></r></p></e>
+    <e>       <p><l>sesenta<b/>y<b/>cinco<s n="num"/></l><r>sixanta<b/>y<b/>cinco<s n="num"/></r></p></e>
+    <e>       <p><l>sesenta<b/>y<b/>seis<s n="num"/></l><r>sixanta<b/>y<b/>seis<s n="num"/></r></p></e>
+    <e>       <p><l>sesenta<b/>y<b/>siete<s n="num"/></l><r>sixanta<b/>y<b/>siet<s n="num"/></r></p></e>
+    <e>       <p><l>sesenta<b/>y<b/>ocho<s n="num"/></l><r>sixanta<b/>y<b/>ueito<s n="num"/></r></p></e>
+    <e>       <p><l>sesenta<b/>y<b/>nueve<s n="num"/></l><r>sixanta<b/>y<b/>nueu<s n="num"/></r></p></e>
+    <e>       <p><l>setenta<s n="num"/></l>           <r>setanta<s n="num"/></r></p></e>
+    <e>       <p><l>setenta<b/>y<b/>uno<s n="num"/></l><r>setanta<b/>y<b/>un<s n="num"/></r></p></e>
+    <e>       <p><l>setenta<b/>y<b/>dos<s n="num"/></l><r>setanta<b/>y<b/>dos<s n="num"/></r></p></e>
+    <e>       <p><l>setenta<b/>y<b/>tres<s n="num"/></l><r>setanta<b/>y<b/>tres<s n="num"/></r></p></e>
+    <e>       <p><l>setenta<b/>y<b/>cuatro<s n="num"/></l><r>setanta<b/>y<b/>quatro<s n="num"/></r></p></e>
+    <e>       <p><l>setenta<b/>y<b/>cinco<s n="num"/></l><r>setanta<b/>y<b/>cinco<s n="num"/></r></p></e>
+    <e>       <p><l>setenta<b/>y<b/>seis<s n="num"/></l><r>setanta<b/>y<b/>seis<s n="num"/></r></p></e>
+    <e>       <p><l>setenta<b/>y<b/>siete<s n="num"/></l><r>setanta<b/>y<b/>siet<s n="num"/></r></p></e>
+    <e>       <p><l>setenta<b/>y<b/>ocho<s n="num"/></l><r>setanta<b/>y<b/>ueito<s n="num"/></r></p></e>
+    <e>       <p><l>setenta<b/>y<b/>nueve<s n="num"/></l><r>setanta<b/>y<b/>nueu<s n="num"/></r></p></e>
+    <e>       <p><l>ochenta<s n="num"/></l>           <r>uitanta<s n="num"/></r></p></e>
+    <e>       <p><l>ochenta<b/>y<b/>uno<s n="num"/></l><r>uitanta<b/>y<b/>un<s n="num"/></r></p></e>
+    <e>       <p><l>ochenta<b/>y<b/>dos<s n="num"/></l><r>uitanta<b/>y<b/>dos<s n="num"/></r></p></e>
+    <e>       <p><l>ochenta<b/>y<b/>tres<s n="num"/></l><r>uitanta<b/>y<b/>tres<s n="num"/></r></p></e>
+    <e>       <p><l>ochenta<b/>y<b/>cuatro<s n="num"/></l><r>uitanta<b/>y<b/>quatro<s n="num"/></r></p></e>
+    <e>       <p><l>ochenta<b/>y<b/>cinco<s n="num"/></l><r>uitanta<b/>y<b/>cinco<s n="num"/></r></p></e>
+    <e>       <p><l>ochenta<b/>y<b/>seis<s n="num"/></l><r>uitanta<b/>y<b/>seis<s n="num"/></r></p></e>
+    <e>       <p><l>ochenta<b/>y<b/>siete<s n="num"/></l><r>uitanta<b/>y<b/>siet<s n="num"/></r></p></e>
+    <e>       <p><l>ochenta<b/>y<b/>ocho<s n="num"/></l><r>uitanta<b/>y<b/>ueito<s n="num"/></r></p></e>
+    <e>       <p><l>ochenta<b/>y<b/>nueve<s n="num"/></l><r>uitanta<b/>y<b/>nueu<s n="num"/></r></p></e>
+    <e>       <p><l>noventa<s n="num"/></l>           <r>novanta<s n="num"/></r></p></e>
+    <e>       <p><l>noventa<b/>y<b/>uno<s n="num"/></l><r>novanta<b/>y<b/>un<s n="num"/></r></p></e>
+    <e>       <p><l>noventa<b/>y<b/>dos<s n="num"/></l><r>novanta<b/>y<b/>dos<s n="num"/></r></p></e>
+    <e>       <p><l>noventa<b/>y<b/>tres<s n="num"/></l><r>novanta<b/>y<b/>tres<s n="num"/></r></p></e>
+    <e>       <p><l>noventa<b/>y<b/>cuatro<s n="num"/></l><r>novanta<b/>y<b/>quatro<s n="num"/></r></p></e>
+    <e>       <p><l>noventa<b/>y<b/>cinco<s n="num"/></l><r>novanta<b/>y<b/>cinco<s n="num"/></r></p></e>
+    <e>       <p><l>noventa<b/>y<b/>seis<s n="num"/></l><r>novanta<b/>y<b/>seis<s n="num"/></r></p></e>
+    <e>       <p><l>noventa<b/>y<b/>siete<s n="num"/></l><r>novanta<b/>y<b/>siet<s n="num"/></r></p></e>
+    <e>       <p><l>noventa<b/>y<b/>ocho<s n="num"/></l><r>novanta<b/>y<b/>ueito<s n="num"/></r></p></e>
+    <e>       <p><l>noventa<b/>y<b/>nueve<s n="num"/></l><r>novanta<b/>y<b/>nueu<s n="num"/></r></p></e>
+    <e>       <p><l>cien<s n="num"/></l>              <r>cient<s n="num"/></r></p></e>
+    <e><p><l>ciento<s n="num"/></l>            <r>ciento<s n="num"/></r></p></e>
+    <e>       <p><l>doscientos<s n="num"/></l>        <r>docientos<s n="num"/></r></p></e>
+    <e>       <p><l>trescientos<s n="num"/></l>        <r>trecientos<s n="num"/></r></p></e>
+    <e>       <p><l>cuatrocientos<s n="num"/></l>        <r>quatrocientos<s n="num"/></r></p></e>
+    <e>       <p><l>quinientos<s n="num"/></l>        <r>cincientos<s n="num"/></r></p></e>
+    <e>       <p><l>seiscientos<s n="num"/></l>        <r>seicientos<s n="num"/></r></p></e>
+    <e>       <p><l>setecientos<s n="num"/></l>        <r>sietecientos<s n="num"/></r></p></e>
+    <e>       <p><l>ochocientos<s n="num"/></l>        <r>uitcientos<s n="num"/></r></p></e>
+    <e>       <p><l>novecientos<s n="num"/></l>        <r>noucientos<s n="num"/></r></p></e>
+    <e>       <i>mil<s n="num"/></i></e>
+    <e r="RL">       <p><l>mil<s n="num"/><s n="mf"/><s n="sp"/><j/>cien<s n="num"/><s n="mf"/><s n="sp"/></l>        <r>oncecientos<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
+    <e r="RL">       <p><l>mil<s n="num"/><s n="mf"/><s n="sp"/><j/>cien<s n="num"/><s n="mf"/><s n="sp"/></l>        <r>oncecientos<s n="num"/><s n="f"/><s n="sp"/></r></p></e>
+    <e r="RL">       <p><l>mil<s n="num"/><s n="mf"/><s n="sp"/><j/>doscientos<s n="num"/></l>        <r>dotzecientos<s n="num"/></r></p></e>
+    <e r="RL">       <p><l>mil<s n="num"/><s n="mf"/><s n="sp"/><j/>trescientos<s n="num"/></l>        <r>tretzecientos<s n="num"/></r></p></e>
+    <e r="RL">       <p><l>mil<s n="num"/><s n="mf"/><s n="sp"/><j/>cuatrocientos<s n="num"/></l>        <r>catorcecientos<s n="num"/></r></p></e>
+    <e r="RL">       <p><l>mil<s n="num"/><s n="mf"/><s n="sp"/><j/>quinientos<s n="num"/></l>        <r>quincecientos<s n="num"/></r></p></e>
+    <e r="RL">       <p><l>mil<s n="num"/><s n="mf"/><s n="sp"/><j/>seiscientos<s n="num"/></l>        <r>setzecientos<s n="num"/></r></p></e>
+    <e><i>millón<s n="n"/></i></e>
+    <e><i>billón<s n="n"/></i></e>
+    <e><i>trillón<s n="n"/></i></e>
+
     <!-- ******************************
           group rel_symbol
       ****************************** -->
