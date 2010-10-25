@@ -5699,7 +5699,7 @@
 
 
     </pardef>
-    <pardef n="/aber__vbhaver">
+    <pardef n="h/aber__vbhaver">
     <e>
       <p>
         <l>abré</l>
@@ -8068,7 +8068,7 @@
     </e>    
     </pardef>
     
-    <!--
+    <!-- No needed
     <pardef n="cinquanta_y_un/__det">
     <e>
       <p>
@@ -9039,28 +9039,28 @@
 
     <e>
       <p>
-        <l>ya</l>
+        <l>a</l>
         <r>u<s n="adj"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
 
     <e>
       <p>
-        <l>yas</l>
+        <l>as</l>
         <r>u<s n="adj"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
 
     <e r="LR">
       <p>
-        <l>a</l>
+        <l>ya</l>
         <r>u<s n="adj"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
 
     <e r="LR">
       <p>
-        <l>as</l>
+        <l>yas</l>
         <r>u<s n="adj"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
@@ -9169,9 +9169,51 @@
         <l>ins</l>
         <r>ín<s n="n"/><s n="m"/><s n="pl"/></r>
       </p>
+      </e>
+      <e r="LR">
+      <p>
+        <l>íns</l>
+        <r>ín<s n="n"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    </pardef>
+
+    <pardef n="mol/ín__n">
+    <e>
+      <p>
+        <l>ín</l>
+        <r>ín<s n="n"/><s n="m"/><s n="sg"/></r>
+      </p>
     </e>
 
-    </pardef>
+    <e>
+      <p>
+        <l>ins</l>
+        <r>ín<s n="n"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>  
+      <e r="LR">
+      <p>
+        <l>ino</l>
+        <r>ín<s n="n"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>inos</l>
+        <r>ín<s n="n"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>íns</l>
+        <r>ín<s n="n"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    </pardef>    
+    
     <pardef n="país__n">
     <e>
       <p>
@@ -9188,18 +9230,25 @@
     </e>
 
     </pardef>
-    <pardef n="actriz__n">
+    <pardef n="actri/z__n">
     <e>
       <p>
-        <l></l>
-        <r><s n="n"/><s n="f"/><s n="sg"/></r>
+        <l>z</l>
+        <r>z<s n="n"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
 
     <e>
       <p>
-        <l>es</l>
-        <r><s n="n"/><s n="f"/><s n="pl"/></r>
+        <l>ces</l>
+        <r>z<s n="n"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>zes</l>
+        <r>z<s n="n"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
 
@@ -9213,6 +9262,12 @@
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>ino</l>
+        <r>ín<s n="adj"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
 
     <e>
       <p>
@@ -9221,6 +9276,19 @@
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>íns</l>
+        <r>ín<s n="adj"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>inos</l>
+        <r>ín<s n="adj"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
 
     <e>
       <p>
@@ -9229,7 +9297,6 @@
       </p>
     </e>
 
-
     <e>
       <p>
         <l>inas</l>
@@ -9237,9 +9304,8 @@
       </p>
     </e>
 
-
     </pardef>
-    <pardef n="oczit/án__adj">
+    <pardef n="occit/án__adj">
     <e>
       <p>
         <l>án</l>
@@ -9257,6 +9323,20 @@
     <e>
       <p>
         <l>ans</l>
+        <r>án<s n="adj"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>anos</l>
+        <r>án<s n="adj"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>áns</l>
         <r>án<s n="adj"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
@@ -9298,6 +9378,20 @@
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>anos</l>
+        <r>án<s n="n"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>áns</l>
+        <r>án<s n="n"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
     <e>
       <p>
         <l>ana</l>
@@ -9313,6 +9407,7 @@
     </e>
 
     </pardef>
+    
     <pardef n="ca/n__n">
     <e>
       <p>
@@ -9328,28 +9423,28 @@
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
         <l>na</l>
         <r>n<s n="n"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>ña</l>
         <r>n<s n="n"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
 
-    <e>
+    <e r="LR">
       <p>
         <l>nas</l>
         <r>n<s n="n"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
 
-    <e r="LR">
+    <e>
       <p>
         <l>ñas</l>
         <r>n<s n="n"/><s n="f"/><s n="pl"/></r>
@@ -9357,7 +9452,7 @@
     </e>
 
     </pardef>
-    <pardef n="español__adj">
+    <pardef n="espanyol__adj">
     <e>
       <p>
         <l></l>
@@ -10589,32 +10684,37 @@
     <e lm="XX"><i>XX</i><par n="dos__num"/></e>
     <e lm="XXI"><i>XXI</i><par n="dos__num"/></e>
 
-    <e lm="aber"><i></i><par n="/aber__vbhaver"/></e>
-    <e lm="haber"><i>h</i><par n="/aber__vbhaver"/></e>
-    <e lm="vivir"><i>bib</i><par n="viv/ir__vblex"/></e>
+    <e lm="haber"><i>h</i><par n="h/aber__vbhaver"/></e>
+    <e r="LR" lm="aber"><i></i><par n="h/aber__vbhaver"/></e>
+    <e lm="vivir"><i>viv</i><par n="viv/ir__vblex"/></e>
+    <e r="LR" lm="vivir"><i>bib</i><par n="viv/ir__vblex"/></e>
     <e lm="prohibir"><i>prohib</i><par n="viv/ir__vblex"/></e>
     <e lm="adhibir"><i>adhib</i><par n="viv/ir__vblex"/></e>
     <e lm="cohibir"><i>cohib</i><par n="viv/ir__vblex"/></e>
     <e lm="infrinchir"><i>infrinch</i><par n="viv/ir__vblex"/></e>
     <e lm="compartir"><i>compart</i><par n="viv/ir__vblex"/></e>
+    <!--paradigma muir/muyir -->
     <e lm="incluir" c="check"><i>inclu</i><par n="inclu/ir__vblex"/></e>
     <e r="LR" lm="incluir"><p><l>incluy</l><r>inclu</r></p><par n="viv/ir__vblex"/></e>
     <e lm="esleir" c="?"><i>esle</i><par n="inclu/ir__vblex"/></e>
-    <e lm="partizipar"><i>partizip</i><par n="cant/ar__vblex"/></e>
     <e lm="participar"><i>particip</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="partizipar"><p><l>partizip</l><r>particip</r></p><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="partizipar"><p><l>partezip</l><r>particip</r></p><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="partizipar"><p><l>partecip</l><r>particip</r></p><par n="cant/ar__vblex"/></e>
     <e lm="completar"><i>complet</i><par n="cant/ar__vblex"/></e>
     <e lm="cantar"><i>cant</i><par n="cant/ar__vblex"/></e>
     <e lm="plorar"><i>plor</i><par n="cant/ar__vblex"/></e>
     <e lm="aduyar"><i>aduy</i><par n="cant/ar__vblex"/></e>
     <e lm="procurar"><i>procur</i><par n="cant/ar__vblex"/></e>
+    <!-- paradigma cazar -->
     <e lm="actualizar"><i>actualiz</i><par n="cant/ar__vblex"/></e>
-    <e lm="besitar"><i>besit</i><par n="cant/ar__vblex"/></e>
+    <e lm="vesitar"><i>vesit</i><par n="cant/ar__vblex"/></e>
     <e lm="logar"><i>log</i><par n="cant/ar__vblex"/></e>
     <e lm="fixar"><i>fix</i><par n="cant/ar__vblex"/></e>
     <e lm="estar"><i></i><par n="/estar__vbser"/></e>
     <e lm="querer"><i>qu</i><par n="qu/erer__vblex"/></e>
     <e lm="querer"><i>qu</i><par n="qu/erer__vbmod"/></e>
-    <e lm="traucar"><i>trau</i><par n="trau/car__vblex"/></e>
+    <e lm="traucar" c="?"><i>trau</i><par n="trau/car__vblex"/></e>
     <e lm="abarcar"><i>abar</i><par n="trau/car__vblex"/></e>
     <e lm="abdicar"><i>abdi</i><par n="trau/car__vblex"/></e>
     <e lm="desembolicar"><i>desemboli</i><par n="trau/car__vblex"/></e>
@@ -10623,7 +10723,7 @@
     <e lm="poder"><i>p</i><par n="p/oder__vbmod"/></e>
     <e lm="tener"><i>t</i><par n="t/ener__vblex"/></e>
     <e lm="actuar"><i>actu</i><par n="cant/ar__vblex"/></e>
-    <e lm="abllar"><i>abll</i><par n="cant/ar__vblex"/></e>
+    <e lm="habllar"><i>habll</i><par n="cant/ar__vblex"/></e>
     <e lm="fablar"><i>fabl</i><par n="cant/ar__vblex"/></e>
     <e lm="parlar"><i>parl</i><par n="cant/ar__vblex"/></e>
     <e lm="editar"><i>edit</i><par n="cant/ar__vblex"/></e>
@@ -10647,12 +10747,12 @@
     <e lm="femenín"><i>femen</i><par n="mascul/ín__adj"/></e>
     <e lm="latín"><i>lat</i><par n="mascul/ín__adj"/></e>
     <e lm="latín"><i>lat</i><par n="lat/ín__n"/></e>
-    <e lm="oczitán"><i>oczit</i><par n="oczit/án__adj"/></e>
-    <e lm="catalán"><i>catal</i><par n="oczit/án__adj"/></e>
-    <e lm="castellán"><i>castell</i><par n="oczit/án__adj"/></e>
-    <e lm="español"><i>español</i><par n="español__adj"/></e>
-    <e lm="espanyol"><i>espanyol</i><par n="español__adj"/></e>
-    <e lm="uman"><i>uman</i><par n="español__adj"/></e>
+    <e lm="occitán"><i>occit</i><par n="occit/án__adj"/></e>
+    <e lm="catalán"><i>catal</i><par n="occit/án__adj"/></e>
+    <e lm="castellán"><i>castell</i><par n="occit/án__adj"/></e>
+    <e lm="espanyol"><i>espanyol</i><par n="espanyol__adj"/></e>
+    <e lm="español" r="LR"><p><l>español</l><r>espanyol</r></p><par n="espanyol__adj"/></e>
+    <e lm="uman"><i>uman</i><par n="espanyol__adj"/></e>
     <e lm="primer"><i>primer</i><par n="primer__adj"/></e>
     <e lm="sant"><i>sant</i><par n="primer__adj"/></e>
     <e lm="sant"><i>sant</i><par n="sant__n"/></e>
@@ -11738,10 +11838,9 @@
     <e lm="adchectivo"><i>adchecti</i><par n="obchecti/vo__n"/></e>
     <e lm="archibo"><i>archi</i><par n="obchecti/vo__n"/></e>
     <e lm="bin"><i>bin</i><par n="libro__n"/></e>
-    <e lm="actriz"><i>actriz</i><par n="actriz__n"/></e>
+    <e lm="actriz"><i>actriz</i><par n="actri/z__n"/></e>
     <e lm="actor"><i>actor</i><par n="libro__n"/></e>
-    <e r="LR" lm="actor"><i>actor</i><par n="país__n"/></e>
-    <e lm="paz"><i>paz</i><par n="actriz__n"/></e>
+    <e lm="paz"><i>paz</i><par n="actri/z__n"/></e>
     <e lm="brazo"><i>brazo</i><par n="libro__n"/></e>
     <e lm="cambeo"><i>cambeo</i><par n="libro__n"/></e>
     <e lm="chenero"><i>chenero</i><par n="libro__n"/></e>
@@ -11775,7 +11874,7 @@
     <e lm="portal"><i>portal</i><par n="libro__n"/></e>
     <e lm="mensache"><i>mensache</i><par n="libro__n"/></e>
     <e lm="espanyol"><i>espanyol</i><par n="libro__n"/></e>
-    <e lm="español"><i>español</i><par n="libro__n"/></e>
+    <e lm="español" r="LR"><i>español</i><par n="libro__n"/></e>
     <e lm="libro"><i>libro</i><par n="libro__n"/></e>
     <e lm="llibro"><i>llibro</i><par n="libro__n"/></e>
     <e lm="lumero"><i>lumero</i><par n="libro__n"/></e>
@@ -12047,6 +12146,7 @@
     <e lm="mobilidat"><i>mobilid</i><par n="privacid/at__n"/></e>
     <e lm="modalidat"><i>modalid</i><par n="privacid/at__n"/></e>
     <e lm="modernidat"><i>modernid</i><par n="privacid/at__n"/></e>
+    <e lm="molín"><i>mol</i><par n="lat/ín__n"/></e>
     <e lm="monecipalidat"><i>monecipalid</i><par n="privacid/at__n"/></e>
     <e lm="moralidat"><i>moralid</i><par n="privacid/at__n"/></e>
     <e lm="morbilidat"><i>morbilid</i><par n="privacid/at__n"/></e>
@@ -18505,6 +18605,7 @@
     <e lm="multicultural"><i>multicultural</i><par n="social__adj"/></e>
     <e lm="multifuncional"><i>multifuncional</i><par n="social__adj"/></e>
     <e lm="multilateral"><i>multilateral</i><par n="social__adj"/></e>
+    <e lm="multimedia"><i>multimedia</i><par n="multimedia__adj"/></e>
     <e lm="multilingüe"><i>multilingüe</i><par n="social__adj"/></e>
     <e lm="multinacional"><i>multinacional</i><par n="social__adj"/></e>
     <e lm="múltiple"><i>múltiple</i><par n="social__adj"/></e>
@@ -19223,7 +19324,7 @@
     <e lm="equibalent"><i>equibalent</i><par n="social__adj"/></e>
     <e lm="competent"><i>competent</i><par n="social__adj"/></e>
     <e lm="chudizial"><i>chudizial</i><par n="social__adj"/></e>
-    <e lm="cualsiquiera"><i>cualsiquiera</i><par n="multimedia__adj"/></e>
+    <e lm="qualsiquiera"><i>qualsiquiera</i><par n="multimedia__adj"/></e>
     <e lm="sindicar"><i>sindi</i><par n="trau/car__vblex"/></e>
     <e lm="imbocar"><i>imbo</i><par n="trau/car__vblex"/></e>
     <e lm="torturar"><i>tortur</i><par n="cant/ar__vblex"/></e>
@@ -19248,7 +19349,7 @@
     <e lm="tecnico"><i>tecnic</i><par n="italian/o__adj"/></e>
     <e lm="esposo"><i>espos</i><par n="tresorer/o__n"/></e>
     <e lm="nino"><i>nin</i><par n="tresorer/o__n"/></e>
-    <e lm="intres"><i>intres</i><par n="país__n"/></e>
+    <e lm="intrés"><i>intrés</i><par n="país__n"/></e>
     <e lm="obligación"><i>obliga</i><par n="actua/ción__n"/></e>
     <e lm="coperación"><i>copera</i><par n="actua/ción__n"/></e>
     <e lm="satisfación"><i>satisfa</i><par n="actua/ción__n"/></e>

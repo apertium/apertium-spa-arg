@@ -793,7 +793,6 @@
     <e><p><l>esloveno<s n="adj"/></l><r>esloveno<s n="adj"/></r></p></e>
     <e><i>espacial<s n="adj"/></i></e>
     <e><p><l>español<s n="adj"/></l><r>espanyol<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>español<s n="adj"/></l><r>español<s n="adj"/></r></p></e>
     <e r="RL"><i>especial<s n="adj"/></i></e>
     <e><p><l>especial<s n="adj"/></l><r>espezial<s n="adj"/></r></p></e>
     <e><i>especialista<s n="adj"/></i></e>
@@ -1385,6 +1384,7 @@
     <e><i>multifuncional<s n="adj"/></i></e>
     <e><i>multilateral<s n="adj"/></i></e>
     <e><i>multilingüe<s n="adj"/></i></e>
+    <e><i>multimedia<s n="adj"/></i></e>
     <e><i>multinacional<s n="adj"/></i></e>
     <e><i>mundial<s n="adj"/></i></e>
     <e><i>municipal<s n="adj"/></i></e>
@@ -3213,7 +3213,6 @@
     <e><p><l>eslavo<s n="n"/></l><r>eslavo<s n="n"/></r></p></e>
     <e><p><l>esloveno<s n="n"/></l><r>esloveno<s n="n"/></r></p></e>
     <e><p><l>español<s n="n"/></l><r>espanyol<s n="n"/></r></p></e>
-    <e r="RL"><p><l>español<s n="n"/></l><r>español<s n="n"/></r></p></e>
     <e r="RL"><p><l>especialidad<s n="n"/></l><r>especialidat<s n="n"/></r></p></e>
     <e><p><l>especialidad<s n="n"/></l><r>espezialidat<s n="n"/></r></p></e>
     <e><p><l>especificidad<s n="n"/></l><r>especificidat<s n="n"/></r></p></e>
@@ -3437,7 +3436,7 @@
     <e><p><l>interesado<s n="n"/></l><r>interesado<s n="n"/></r></p></e>
     <e><p><l>internacionalismo<s n="n"/></l><r>internazionalismo<s n="n"/></r></p></e>
     <e><p><l>interno<s n="n"/></l><r>interno<s n="n"/></r></p></e>
-    <e><p><l>interés<s n="n"/></l><r>intres<s n="n"/></r></p></e>
+    <e><p><l>interés<s n="n"/></l><r>intrés<s n="n"/></r></p></e>
     <e><p><l>intimidad<s n="n"/></l><r>intimidat<s n="n"/></r></p></e>
     <e><p><l>intuitividad<s n="n"/></l><r>intuitibidat<s n="n"/></r></p></e>
     <e><p><l>invalidez<s n="n"/></l><r>imbalidura<s n="n"/></r></p></e>
@@ -3563,6 +3562,7 @@
     <e><p><l>modernidad<s n="n"/></l><r>modernidat<s n="n"/></r></p></e>
     <e r="RL"><p><l>modernidad<s n="n"/></l><r>mudernidat<s n="n"/></r></p></e>
     <e><p><l>modernismo<s n="n"/></l><r>modernismo<s n="n"/></r></p></e>
+    <e><p><l>molino<s n="n"/></l><r>molín<s n="n"/></r></p></e>
     <e><p><l>monaquismo<s n="n"/></l><r>monaquismo<s n="n"/></r></p></e>
     <e><p><l>monarquismo<s n="n"/></l><r>monarquismo<s n="n"/></r></p></e>
     <e><p><l>monofisismo<s n="n"/></l><r>monofisismo<s n="n"/></r></p></e>
@@ -4054,8 +4054,8 @@
     <!-- ******************************
           group vbhaver_symbol
       ****************************** -->
-    <e><p><l>haber<s n="vbhaver"/></l><r>aber<s n="vbhaver"/></r></p></e>
-    <e r="RL"><p><l>haber<s n="vbhaver"/></l><r>haber<s n="vbhaver"/></r></p></e>
+    <e><p><l>haber<s n="vbhaver"/></l><r>haber<s n="vbhaver"/></r></p></e>
+    <e r="RL"><p><l>haber<s n="vbhaver"/></l><r>aber<s n="vbhaver"/></r></p></e>
     <!-- ******************************
           group vbmod_symbol
       ****************************** -->
@@ -4254,7 +4254,7 @@
     <e><p><l>orientar<s n="vblex"/></l><r>orientar<s n="vblex"/></r></p></e>
     <e><p><l>originar<s n="vblex"/></l><r>orichinar<s n="vblex"/></r></p></e>
     <e><p><l>parcelar<s n="vblex"/></l><r>parzelar<s n="vblex"/></r></p></e>
-    <e><p><l>participar<s n="vblex"/></l><r>partizipar<s n="vblex"/></r></p></e>
+    <e><p><l>participar<s n="vblex"/></l><r>participar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>participar<s n="vblex"/></l><r>participar<s n="vblex"/></r></p></e>
     <e><p><l>pasar<s n="vblex"/></l><r>pasar<s n="vblex"/></r></p></e>
     <e><p><l>pelear<s n="vblex"/></l><r>peleyar<s n="vblex"/></r></p></e>
@@ -4323,9 +4323,9 @@
     <e><p><l>utilizar<s n="vblex"/></l><r>utilizar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>utilizar<s n="vblex"/></l><r>utilicar<s n="vblex"/></r></p></e>
     <e><p><l>violar<s n="vblex"/></l><r>biolar<s n="vblex"/></r></p></e>
-    <e><p><l>visitar<s n="vblex"/></l><r>besitar<s n="vblex"/></r></p></e>
+    <e><p><l>visitar<s n="vblex"/></l><r>vesitar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>visitar<s n="vblex"/></l><r>vesitar<s n="vblex"/></r></p></e>
-    <e><p><l>vivir<s n="vblex"/></l><r>bibir<s n="vblex"/></r></p></e>
+    <e><p><l>vivir<s n="vblex"/></l><r>vivir<s n="vblex"/></r></p></e>
     <!-- ******************************
           group np_symbol
       ****************************** -->
