@@ -96,10 +96,13 @@
     <e r="RL"><p><l></l><r>i<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
     <e r="RL"><p><l></l><r>i<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="RL"><p><l>aquello<s n="prn"/><s n="tn"/></l><r>aquello<s n="prn"/><s n="tn"/></r></p></e>
-    <e><p><l>aquello<s n="prn"/><s n="tn"/></l><r>ixo<s n="prn"/><s n="tn"/></r></p></e>
-    <e><p><l>eso<s n="prn"/><s n="tn"/></l><r>ixo<s n="prn"/><s n="tn"/></r></p></e>
+    <e r="LR"><p><l>aquello<s n="prn"/><s n="tn"/></l><r>ixo<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>eso<s n="prn"/><s n="tn"/></l><r>ixo<s n="prn"/><s n="tn"/><s n="p3"/></r></p></e>
+    <e r="RL"><p><l>eso<s n="prn"/><s n="tn"/></l><r>ixo<s n="prn"/><s n="tn"/></r></p></e>
     <e r="LR"><p><l>ello<s n="prn"/><s n="tn"/></l><r>ixo<s n="prn"/><s n="tn"/></r></p></e>
-    <e><p><l>esto<s n="prn"/><s n="tn"/></l><r>isto<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>esto<s n="prn"/><s n="tn"/></l><r>isto<s n="prn"/><s n="tn"/><s n="p3"/></r></p></e>
+    <e r="RL"><p><l>esto<s n="prn"/><s n="tn"/></l><r>isto<s n="prn"/><s n="tn"/></r></p></e>
+    <e r="RL"><p><l>esto<s n="prn"/><s n="tn"/></l><r>esto<s n="prn"/><s n="tn"/><s n="p3"/></r></p></e>
     <e r="RL"><p><l>esto<s n="prn"/><s n="tn"/></l><r>esto<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>le<s n="prn"/><s n="pro"/></l><r>le<s n="prn"/><s n="pro"/></r></p></e>
     <e><p><l>le<s n="prn"/><s n="enc"/></l><r>le<s n="prn"/><s n="enc"/></r></p></e>
@@ -132,9 +135,18 @@
     <e r="RL"><p><l>nadie<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>dengún<b/>no<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
     <!--  Dengún with expletive no -->
 
-    <e r="RL"><p><l>alguno<s n="prn"/></l><r>algún<s n="prn"/></r></p></e>
+    <e><p><l>alguno<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l><r>algún<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>alguno<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>algún<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>alguno<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></l><r>algún<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><p><l>alguno<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></l><r>algún<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+
     <e r="RL"><p><l>alguien<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>algún<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e><p><l>alguno<s n="prn"/></l><r>belún<s n="prn"/></r></p></e>
+
+    <e><p><l>alguno<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l><r>belún<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>alguno<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>belún<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>alguno<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></l><r>belún<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+    <e><p><l>alguno<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></l><r>belún<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+
     <e><p><l>alguien<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>belún<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
     
     <e><p><l>otro<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>unatro<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
