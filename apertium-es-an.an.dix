@@ -8924,6 +8924,24 @@
     
     </pardef>
     
+    <pardef n="un/atro__det">
+    <e>
+    <par n="atr_altr_otr__var"/>
+      <p>
+        <l>a</l>
+        <r>o<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+    <par n="atr_altr_otr__var"/>
+      <p>
+        <l>o</l>
+        <r>o<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r>     
+      </p>
+    </e>
+    
+    </pardef>
+     
     <pardef n="/atro__det">
     <e>
     <par n="atr_altr_otr__var"/>
@@ -8958,6 +8976,24 @@
     </e>
     
     </pardef>
+    
+    <pardef n="un/atro__prn">
+    <e>
+    <par n="atr_altr_otr__var"/>
+      <p>
+        <l>a</l>
+        <r>o<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+    <par n="atr_altr_otr__var"/>
+      <p>
+        <l>o</l>
+        <r>o<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    </pardef> 
     
     <pardef n="/atro__prn">
     <e>
@@ -10495,8 +10531,8 @@
     <e lm="atro"><i></i><par n="/atro__adj"/></e>  
     <e lm="atro"><i></i><par n="/atro__det"/></e>
     <e lm="atro"><i></i><par n="/atro__prn"/></e>
-    <e lm="unatro"><i>un</i><par n="/atro__det"/></e>
-    <e lm="unatro"><i>un</i><par n="/atro__prn"/></e>
+    <e lm="unatro"><i>un</i><par n="un/atro__det"/></e>
+    <e lm="unatro"><i>un</i><par n="un/atro__prn"/></e>
     <e lm="belatro"><i>bel</i><par n="/atro__det"/></e>
     <e lm="belatro"><i>bel</i><par n="/atro__prn"/></e>
     <e lm="atri"><i></i><par n="/atri__prn"/></e> <!-- todo biling -->
