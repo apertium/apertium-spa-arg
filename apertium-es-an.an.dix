@@ -51,6 +51,7 @@
     <sdef n="vblex" /> 
     <sdef n="vbmod" /> 
     <sdef n="inf" /> 
+    <sdef n="abbr" /> 
     <sdef n="infps" /> 
     <sdef n="ger" 	c="Cherundio"/> 
     <sdef n="gerps" /> 
@@ -867,7 +868,17 @@
     </p>
   </e>
   </pardef>
-    
+
+  <pardef n="etz.__abbr">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="abbr"/></r>
+      </p>
+    </e>
+    </pardef>
+
+  
     <pardef n="nus/atros__prn">
     <e>
       <par n="atr_altr_otr__var"/>
@@ -911,8 +922,8 @@
         <r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
       </p>
     </e>
-
     </pardef>
+
     <pardef n="ixo__prn">
     <e r="RL">
       <p>
@@ -10844,7 +10855,6 @@
     <e lm="portugués"><i>portugu</i><par n="aragon/és__adj"/></e>
     <e lm="polonés"><i>polon</i><par n="aragon/és__adj"/></e>
     <e lm="neerlandés"><i>neerland</i><par n="aragon/és__adj"/></e>
-    <e lm="francés"><i>franc</i><par n="aragon/és__adj"/></e>
     <e lm="luxemburgués"><i>luxemburgu</i><par n="aragon/és__adj"/></e>
     <e lm="luxemburgués"><i>luxemburgu</i><par n="aragon/és__n"/></e>
     <e lm="danés"><i>dan</i><par n="aragon/és__adj"/></e>
@@ -10853,7 +10863,10 @@
     <e lm="portugués"><i>portugu</i><par n="aragon/és__n"/></e>
     <e lm="polonés"><i>polon</i><par n="aragon/és__n"/></e>
     <e lm="neerlandés"><i>neerland</i><par n="aragon/és__n"/></e>
+    <e lm="francés"><i>franc</i><par n="aragon/és__adj"/></e>
     <e lm="francés"><i>franc</i><par n="aragon/és__n"/></e>
+    <e lm="francés" r="LR"><p><l>franz</l><r>franc</r></p><par n="aragon/és__adj"/></e>
+    <e lm="francés" r="LR"><p><l>franz</l><r>franc</r></p><par n="aragon/és__n"/></e>
     <e lm="anglés"><i>angl</i><par n="aragon/és__n"/></e>
     <e lm="anglés"><i>angl</i><par n="aragon/és__adj"/></e>
     <e lm="masculín"><i>mascul</i><par n="mascul/ín__adj"/></e>
@@ -10861,6 +10874,7 @@
     <e lm="latín"><i>lat</i><par n="mascul/ín__adj"/></e>
     <e lm="latín"><i>lat</i><par n="lat/ín__n"/></e>
     <e lm="occitán"><i>occit</i><par n="occit/án__adj"/></e>
+    <e lm="italián"><i>itali</i><par n="occit/án__adj"/></e>
     <e lm="catalán"><i>catal</i><par n="occit/án__adj"/></e>
     <e lm="castellán"><i>castell</i><par n="occit/án__adj"/></e>
     <e lm="espanyol"><i>espanyol</i><par n="espanyol__adj"/></e>
@@ -12951,6 +12965,7 @@
     <e lm="mes"><i>mes</i><par n="agora__adv"/></e>
     <e lm="más" r="LR"><p><l>más</l><r>mas</r></p><par n="agora__adv"/></e>
     <e lm="tamién"><i>tamién</i><par n="agora__adv"/></e>
+    <e lm="tamién" r="LR"><p><l>también</l><r>tamién</r></p><par n="agora__adv"/></e>
 
     <e r="LR" lm="me'n"><p><l>me'n</l><r>me<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="LR" lm="te'n"><p><l>te'n</l><r>te<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
@@ -16174,6 +16189,7 @@
     <e lm="Adzaneta"><i>Adzaneta</i><par n="Afganistán__np"/></e>
     <e lm="Afganistán"><i>Afganistán</i><par n="Afganistán__np"/></e>
     <e lm="África"><i>África</i><par n="Afganistán__np"/></e>
+    <e lm="Africa" r="LR"><p><l>Africa</l><r>África</r></p><par n="Afganistán__np"/></e>
     <e lm="Àger"><i>Àger</i><par n="Afganistán__np"/></e>
     <e lm="Agost"><i>Agost</i><par n="Afganistán__np"/></e>
     <e lm="Agres"><i>Agres</i><par n="Afganistán__np"/></e>
@@ -17050,6 +17066,7 @@
     <e lm="Indonesia"><i>Indonesia</i><par n="Afganistán__np"/></e>
     <e lm="Indo"><i>Indo</i><par n="Afganistán__np"/></e>
     <e lm="Inglaterra"><i>Inglaterra</i><par n="Afganistán__np"/></e>
+    <e lm="Anglaterra" r="LR"><p><l>Anglaterra</l><r>Inglaterra</r></p><par n="Afganistán__np"/></e>
     <e lm="Iniesta"><i>Iniesta</i><par n="Afganistán__np"/></e>
     <e lm="Irak"><i>Irak</i><par n="Afganistán__np"/></e>
     <e lm="Irán"><i>Irán</i><par n="Afganistán__np"/></e>
@@ -19463,6 +19480,7 @@
     <e lm="nino"><i>nin</i><par n="amig/o__n"/></e>
     <e lm="intrés"><i>intrés</i><par n="país__n"/></e>
     <e lm="obligación"><i>obliga</i><par n="actua/ción__n"/></e>
+    <e lm="relación"><i>rela</i><par n="actua/ción__n"/></e>
     <e lm="coperación"><i>copera</i><par n="actua/ción__n"/></e>
     <e lm="satisfación"><i>satisfa</i><par n="actua/ción__n"/></e>
     <e lm="prebocación"><i>preboca</i><par n="actua/ción__n"/></e>
@@ -19515,6 +19533,8 @@
     <e lm="reconoixencia"><i>reconoixencia</i><par n="luenga__n"/></e>
     <e lm="reconoiximiento"><i>reconoiximiento</i><par n="libro__n"/></e>
     <e r="LR" lm="d'a"><p><l>d'a</l><r>de<s n="pr"/><j/>o<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+
+    <e lm="etz"><i>etz</i><par n="etz.__abbr"/></e>
   </section>
   <section id="apostrophes" type="postblank">
     <e r="LR" lm="d'"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
