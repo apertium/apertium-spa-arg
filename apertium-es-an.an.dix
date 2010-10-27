@@ -10566,7 +10566,7 @@
     <e lm="lo demás"><i>lo<b/>demás</i><par n="algo__prn"/></e>
 -->
     <e lm="zero"><i>zero</i><par n="zero__num"/></e>
-    <e r="LR" lm="zerp"><p><l>cero</l><r>zero</r></p><par n="zero__num"/></e>
+    <e r="LR" lm="zero"><p><l>cero</l><r>zero</r></p><par n="zero__num"/></e>
     <e lm="uno"><i>un</i><par n="un/o__num"/></e>
     <e lm="dos"><i>dos</i><par n="dos__num"/></e>
     <e lm="tres"><i>tres</i><par n="dos__num"/></e>
@@ -12006,7 +12006,7 @@
     <e lm="llibro"><i>llibro</i><par n="libro__n"/></e>
     <e lm="lumero"><i>lumero</i><par n="libro__n"/></e>
     <e lm="decenio"><i>decenio</i><par n="libro__n"/></e>
-    <e lm="dezenio"><i>dezenio</i><par n="libro__n"/></e>
+    <e r="LR" lm="dezenio"><p><l>dezenio</l><r>decenio</r></p><par n="libro__n"/></e>
     <e lm="termin"><i>termin</i><par n="libro__n"/></e>
     <e lm="termino"><i>termino</i><par n="libro__n"/></e>
     <e lm="termen"><i>termen</i><par n="libro__n"/></e>
@@ -12295,11 +12295,11 @@
     <e lm="necesidat"><i>necesid</i><par n="privacid/at__n"/></e>
     <e lm="nesezidat"><i>nesezid</i><par n="privacid/at__n"/></e>
     <e lm="neutralidat"><i>neutralid</i><par n="privacid/at__n"/></e>
-    <e lm="nezesidat"><i>nezesid</i><par n="privacid/at__n"/></e>
+    <e lm="necesidat"><i>necesid</i><par n="privacid/at__n"/></e>
     <e lm="normalidat"><i>normalid</i><par n="privacid/at__n"/></e>
     <e lm="nulidat"><i>nulid</i><par n="privacid/at__n"/></e>
     <e lm="obesidat"><i>obesid</i><par n="privacid/at__n"/></e>
-    <e lm="obszenidat"><i>obszenid</i><par n="privacid/at__n"/></e>
+    <e lm="obscenidat"><i>obscenid</i><par n="privacid/at__n"/></e>
     <e lm="oficialidat"><i>oficialid</i><par n="privacid/at__n"/></e>
     <e lm="ofizialidat"><i>ofizialid</i><par n="privacid/at__n"/></e>
     <e lm="omocheneidat"><i>omocheneid</i><par n="privacid/at__n"/></e>
@@ -12353,7 +12353,7 @@
     <e lm="resistividat"><i>resistivid</i><par n="privacid/at__n"/></e>
     <e lm="responsabilidat"><i>responsabilid</i><par n="privacid/at__n"/></e>
     <e lm="reyalidat"><i>reyalid</i><par n="privacid/at__n"/></e>
-    <e lm="rezeptibidat"><i>rezeptibid</i><par n="privacid/at__n"/></e>
+    <e lm="receptividat"><i>receptivid</i><par n="privacid/at__n"/></e>
     <e lm="ribalidat"><i>ribalid</i><par n="privacid/at__n"/></e>
     <e lm="rivalidat"><i>rivalid</i><par n="privacid/at__n"/></e>
     <e lm="salinidat"><i>salinid</i><par n="privacid/at__n"/></e>
@@ -12372,7 +12372,7 @@
     <e lm="simplicidat"><i>simplicid</i><par n="privacid/at__n"/></e>
     <e lm="simplizidat"><i>simplizid</i><par n="privacid/at__n"/></e>
     <e lm="singularidat"><i>singularid</i><par n="privacid/at__n"/></e>
-    <e lm="sinzeridat"><i>sinzerid</i><par n="privacid/at__n"/></e>
+    <e lm="sinceridat"><i>sincerid</i><par n="privacid/at__n"/></e>
     <e lm="sociabilidat"><i>sociabilid</i><par n="privacid/at__n"/></e>
     <e lm="solemnidat"><i>solemnid</i><par n="privacid/at__n"/></e>
     <e lm="solidaridat"><i>solidarid</i><par n="privacid/at__n"/></e>
@@ -12402,7 +12402,7 @@
     <e lm="virilidat"><i>virilid</i><par n="privacid/at__n"/></e>
     <e lm="visibilidat"><i>visibilid</i><par n="privacid/at__n"/></e>
     <e lm="voracidat"><i>voracid</i><par n="privacid/at__n"/></e>
-    <e lm="zelebridat"><i>zelebrid</i><par n="privacid/at__n"/></e>
+    <e lm="celebridat"><i>celebrid</i><par n="privacid/at__n"/></e>
     <e lm="libertat"><i>libert</i><par n="privacid/at__n"/></e>
 
     <e lm="proteción"><i>prote</i><par n="actua/ción__n"/></e>
@@ -12482,10 +12482,12 @@
     <e lm="autorización"><i>autoriza</i><par n="actua/ción__n"/></e>
     <e lm="autorregulación"><i>autorregula</i><par n="actua/ción__n"/></e>
     <e lm="aviación"><i>avia</i><par n="actua/ción__n"/></e>
-    <e lm="azeleración"><i>azelera</i><par n="actua/ción__n"/></e>
-    <e lm="azentuación"><i>azentua</i><par n="actua/ción__n"/></e>
-    <e lm="azeptación"><i>azepta</i><par n="actua/ción__n"/></e>
-    <e lm="azetación"><i>azeta</i><par n="actua/ción__n"/></e>
+    <e lm="acceleración"><i>accelera</i><par n="actua/ción__n"/></e>
+    <e lm="accentuación"><i>accentua</i><par n="actua/ción__n"/></e>
+    <e lm="acceptación"><i>accepta</i><par n="actua/ción__n"/></e>
+    <e r="LR" lm="acceutación"><p><l>acceutación</l><r>acceptación</r></p><par n="actua/ción__n"/></e>
+    <e r="LR" lm="aceutación"><p><l>aceutación</l><r>acceptación</r></p><par n="actua/ción__n"/></e>
+    <e r="LR" lm="azeutación"><p><l>azeutación</l><r>acceptación</r></p><par n="actua/ción__n"/></e>
     <e lm="bacunación"><i>bacuna</i><par n="actua/ción__n"/></e>
     <e lm="baporación"><par n="/b_v__var"/><i>apora</i><par n="actua/ción__n"/></e>
     <e lm="bariación"><par n="/b_v__var"/><i>aria</i><par n="actua/ción__n"/></e>
@@ -12505,7 +12507,7 @@
     <e lm="calificación"><i>califica</i><par n="actua/ción__n"/></e>
     <e lm="canalización"><i>canaliza</i><par n="actua/ción__n"/></e>
     <e lm="canonización"><i>canoniza</i><par n="actua/ción__n"/></e>
-    <e lm="canzelación"><i>canzela</i><par n="actua/ción__n"/></e>
+    <e lm="cancelación"><i>cancela</i><par n="actua/ción__n"/></e>
     <e lm="capetulación"><i>capetula</i><par n="actua/ción__n"/></e>
     <e lm="capitulación"><i>capitula</i><par n="actua/ción__n"/></e>
     <e lm="captación"><i>capta</i><par n="actua/ción__n"/></e>
@@ -12577,7 +12579,7 @@
     <e lm="contraprestación"><i>contrapresta</i><par n="actua/ción__n"/></e>
     <e lm="contratación"><i>contrata</i><par n="actua/ción__n"/></e>
     <e lm="conversación"><i>conversa</i><par n="actua/ción__n"/></e>
-    <e lm="conzentración"><i>conzentra</i><par n="actua/ción__n"/></e>
+    <e lm="concentración"><i>concentra</i><par n="actua/ción__n"/></e>
     <e lm="cooperación"><i>coopera</i><par n="actua/ción__n"/></e>
     <e lm="coordinación"><i>coordina</i><par n="actua/ción__n"/></e>
     <e lm="coronación"><i>corona</i><par n="actua/ción__n"/></e>
@@ -12637,7 +12639,8 @@
     <e lm="destilación"><i>destila</i><par n="actua/ción__n"/></e>
     <e lm="destinación"><i>destina</i><par n="actua/ción__n"/></e>
     <e lm="desviación"><i>desvia</i><par n="actua/ción__n"/></e>
-    <e lm="deszentralización"><i>deszentraliza</i><par n="actua/ción__n"/></e>
+    <e lm="descentralización"><i>descentraliza</i><par n="actua/ción__n"/></e>
+    <e r="LR" lm="descentralización"><p><l>deszentraliza</l><r>descentraliza</r></p><par n="actua/ción__n"/></e>
     <e lm="determinación"><i>determina</i><par n="actua/ción__n"/></e>
     <e lm="dibersificación"><i>dibersifica</i><par n="actua/ción__n"/></e>
     <e lm="dibulgación"><i>dibulga</i><par n="actua/ción__n"/></e>
@@ -12965,7 +12968,6 @@
     <e lm="mes"><i>mes</i><par n="agora__adv"/></e>
     <e lm="más" r="LR"><p><l>más</l><r>mas</r></p><par n="agora__adv"/></e>
     <e lm="tamién"><i>tamién</i><par n="agora__adv"/></e>
-    <e lm="tamién" r="LR"><p><l>también</l><r>tamién</r></p><par n="agora__adv"/></e>
 
     <e r="LR" lm="me'n"><p><l>me'n</l><r>me<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="LR" lm="te'n"><p><l>te'n</l><r>te<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
@@ -15550,7 +15552,7 @@
     <e lm="considerar"><i>consider</i><par n="cant/ar__vblex"/></e>
     <e lm="consolidar"><i>consolid</i><par n="cant/ar__vblex"/></e>
     <e lm="contar"><i>cont</i><par n="cant/ar__vblex"/></e>
-    <e lm="conzentrar"><i>conzentr</i><par n="cant/ar__vblex"/></e>
+    <e lm="concentrar"><i>concentr</i><par n="cant/ar__vblex"/></e>
     <e lm="coordinar"><i>coordin</i><par n="cant/ar__vblex"/></e>
     <e lm="cozinar"><i>cozin</i><par n="cant/ar__vblex"/></e>
     <e lm="creyar"><i>crey</i><par n="cant/ar__vblex"/></e>
@@ -15586,7 +15588,7 @@
     <e lm="enrunar"><i>enrun</i><par n="cant/ar__vblex"/></e>
     <e lm="ensuziar"><i>ensuzi</i><par n="cant/ar__vblex"/></e>
     <e lm="entallar"><i>entall</i><par n="cant/ar__vblex"/></e>
-    <e lm="enzetar"><i>enzet</i><par n="cant/ar__vblex"/></e>
+    <e lm="encetar"><i>encet</i><par n="cant/ar__vblex"/></e>
     <e lm="escachar"><i>escach</i><par n="cant/ar__vblex"/></e>
     <e lm="escalfar"><i>escalf</i><par n="cant/ar__vblex"/></e>
     <e lm="escampar"><i>escamp</i><par n="cant/ar__vblex"/></e>
@@ -15633,7 +15635,7 @@
     <e lm="ocupar"><i>ocup</i><par n="cant/ar__vblex"/></e>
     <e lm="organizar"><i>organiz</i><par n="cant/ar__vblex"/></e>
     <e lm="orientar"><i>orient</i><par n="cant/ar__vblex"/></e>
-    <e lm="parzelar"><i>parzel</i><par n="cant/ar__vblex"/></e>
+    <e lm="parcelar"><i>parcel</i><par n="cant/ar__vblex"/></e>
     <e lm="pasar"><i>pas</i><par n="cant/ar__vblex"/></e>
     <e lm="peleyar"><i>peley</i><par n="cant/ar__vblex"/></e>
     <e lm="pensar"><i>pens</i><par n="cant/ar__vblex"/></e>
@@ -15648,7 +15650,7 @@
     <e lm="profesar"><i>profes</i><par n="cant/ar__vblex"/></e>
     <e lm="pronunciar"><i>pronunci</i><par n="cant/ar__vblex"/></e>
     <e lm="pronunziar"><i>pronunzi</i><par n="cant/ar__vblex"/></e>
-    <e lm="prozesar"><i>prozes</i><par n="cant/ar__vblex"/></e>
+    <e lm="procesar"><i>proces</i><par n="cant/ar__vblex"/></e>
     <e lm="punchar"><i>punch</i><par n="cant/ar__vblex"/></e>
     <e lm="quedar"><i>qued</i><par n="cant/ar__vblex"/></e>
     <e lm="quitar"><i>quit</i><par n="cant/ar__vblex"/></e>
@@ -15690,19 +15692,19 @@
     <e lm="utilizar"><i>utiliz</i><par n="cant/ar__vblex"/></e>
     <e lm="utilicar"><i>utilic</i><par n="cant/ar__vblex"/></e>
     <e lm="vesitar"><i>vesit</i><par n="cant/ar__vblex"/></e>
-    <e lm="zelebrar"><i>zelebr</i><par n="cant/ar__vblex"/></e>
-    <e lm="zentralizar"><i>zentraliz</i><par n="cant/ar__vblex"/></e>
-    <e lm="zitar"><i>zit</i><par n="cant/ar__vblex"/></e>
+    <e lm="celebrar"><i>celebr</i><par n="cant/ar__vblex"/></e>
+    <e lm="centralizar"><i>centraliz</i><par n="cant/ar__vblex"/></e>
+    <e lm="citar"><i>cit</i><par n="cant/ar__vblex"/></e>
     <e lm="día"><i>día</i><par n="libro__n"/></e>
     <e lm="diya"><i>diya</i><par n="libro__n"/></e>
     <e lm="creiximiento"><i>creiximiento</i><par n="libro__n"/></e>
     <e lm="funcionamiento"><i>funcionamiento</i><par n="libro__n"/></e>
     <e lm="prochecto"><i>prochecto</i><par n="libro__n"/></e>
-    <e lm="aberroismo"><i>aberroismo</i><par n="libro__n"/></e>
+    <e lm="averroísmo"><i>averroísmo</i><par n="libro__n"/></e>
     <e lm="absolutismo"><i>absolutismo</i><par n="libro__n"/></e>
     <e lm="activismo"><i>activismo</i><par n="libro__n"/></e>
     <e lm="agnosticismo"><i>agnosticismo</i><par n="libro__n"/></e>
-    <e lm="agnostizismo"><i>agnostizismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="agnosticismo"><p><l>agnostizismo</l><r>agnosticismo</r></p><par n="libro__n"/></e>
     <e lm="aislacionismo"><i>aislacionismo</i><par n="libro__n"/></e>
     <e lm="alcoholismo"><i>alcoholismo</i><par n="libro__n"/></e>
     <e lm="algorismo"><i>algorismo</i><par n="libro__n"/></e>
@@ -15724,7 +15726,7 @@
     <e lm="anti-melitarismo"><i>anti-melitarismo</i><par n="libro__n"/></e>
     <e lm="antiparlamentarismo"><i>antiparlamentarismo</i><par n="libro__n"/></e>
     <e lm="antisemitismo"><i>antisemitismo</i><par n="libro__n"/></e>
-    <e lm="antropozentrismo"><i>antropozentrismo</i><par n="libro__n"/></e>
+    <e lm="antropocentrismo"><i>antropocentrismo</i><par n="libro__n"/></e>
     <e lm="arabismo"><i>arabismo</i><par n="libro__n"/></e>
     <e lm="aragonesismo"><i>aragonesismo</i><par n="libro__n"/></e>
     <e lm="arcaismo"><i>arcaismo</i><par n="libro__n"/></e>
@@ -15842,7 +15844,7 @@
     <e lm="estructuralismo"><i>estructuralismo</i><par n="libro__n"/></e>
     <e lm="estruturalismo"><i>estruturalismo</i><par n="libro__n"/></e>
     <e lm="eufemismo"><i>eufemismo</i><par n="libro__n"/></e>
-    <e lm="euroeszeptizismo"><i>euroeszeptizismo</i><par n="libro__n"/></e>
+    <e lm="euroscepticismo"><i>euroscepticismo</i><par n="libro__n"/></e>
     <e lm="excursionismo"><i>excursionismo</i><par n="libro__n"/></e>
     <e lm="expansionismo"><i>expansionismo</i><par n="libro__n"/></e>
     <e lm="expresionismo"><i>expresionismo</i><par n="libro__n"/></e>
@@ -19489,7 +19491,10 @@
     <e lm="malotía"><i>malotía</i><par n="luenga__n"/></e>
     <e lm="oserbanzia"><i>oserbanzia</i><par n="luenga__n"/></e>
     <e lm="perduga"><i>perduga</i><par n="luenga__n"/></e>
-    <e lm="conzenzia"><i>conzenzia</i><par n="luenga__n"/></e>
+    <e lm="consciencia"><i>consciencia</i><par n="luenga__n"/></e>
+    <e r="LR" lm="consciencia"><p><l>conciencia</l><r>consciencia</r></p><par n="actua/ción__n"/></e>
+    <e r="LR" lm="consciencia"><p><l>conzienzia</l><r>consciencia</r></p><par n="actua/ción__n"/></e>
+    <e r="LR" lm="consciencia"><p><l>conzenzia</l><r>consciencia</r></p><par n="actua/ción__n"/></e>
     <e lm="raza"><i>raza</i><par n="luenga__n"/></e>
     <e lm="prautica"><i>prautica</i><par n="luenga__n"/></e>
     <e lm="guaranzia"><i>guaranzia</i><par n="luenga__n"/></e>
@@ -19501,7 +19506,7 @@
     <e lm="pueblo"><i>pueblo</i><par n="libro__n"/></e>
     <e lm="asilo"><i>asilo</i><par n="libro__n"/></e>
     <e lm="exerzizio"><i>exerzizio</i><par n="libro__n"/></e>
-    <e lm="prezedimiento"><i>prezedimiento</i><par n="libro__n"/></e>
+    <e lm="procedimiento"><i>procedimiento</i><par n="libro__n"/></e>
     <e lm="cudiato"><i>cudiato</i><par n="libro__n"/></e>
     <e lm="chudizio"><i>chudizio</i><par n="libro__n"/></e>
     <e lm="discanso"><i>discanso</i><par n="libro__n"/></e>
