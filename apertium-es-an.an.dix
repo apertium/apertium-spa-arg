@@ -192,6 +192,7 @@
     </e>
 
 
+
     <e>
       <p>
         <l>u</l>
@@ -255,7 +256,23 @@
         <r>das</r>
       </p>
     </e>
+</pardef>
 
+<pardef n="/ct_ut__var">
+    <e r="LR">
+      <p>
+        <l>ut</l>
+        <r>ct</r>
+      </p>
+    </e>
+
+
+    <e>
+      <p>
+        <l>ct</l>
+        <r>ct</r>
+      </p>
+    </e>
 
     </pardef>
     
@@ -10478,6 +10495,22 @@
     </e>
 
     </pardef>
+
+    <pardef n="cudi/au__n">
+    <e r="LR">
+      <p>
+        <l>ato</l>
+        <r>au</r>
+      </p>
+        <par n="libro__n"/> 
+    </e>
+    <e>
+        <i>au</i>
+        <par n="libro__n"/> 
+    </e>
+
+    </pardef>
+    
   </pardefs>
 
   <section id="main" type="standard">
@@ -19489,49 +19522,61 @@
     <e lm="bibienda"><i>bibienda</i><par n="luenga__n"/></e>
     <e lm="imbalidura"><i>imbalidura</i><par n="luenga__n"/></e>
     <e lm="malotía"><i>malotía</i><par n="luenga__n"/></e>
-    <e lm="oserbanzia"><i>oserbanzia</i><par n="luenga__n"/></e>
+    <e lm="observancia"><i>observancia</i><par n="luenga__n"/></e>
+    <e lm="perda"><i>perda</i><par n="luenga__n"/></e>
     <e lm="perduga"><i>perduga</i><par n="luenga__n"/></e>
     <e lm="consciencia"><i>consciencia</i><par n="luenga__n"/></e>
     <e r="LR" lm="consciencia"><p><l>conciencia</l><r>consciencia</r></p><par n="actua/ción__n"/></e>
     <e r="LR" lm="consciencia"><p><l>conzienzia</l><r>consciencia</r></p><par n="actua/ción__n"/></e>
     <e r="LR" lm="consciencia"><p><l>conzenzia</l><r>consciencia</r></p><par n="actua/ción__n"/></e>
     <e lm="raza"><i>raza</i><par n="luenga__n"/></e>
-    <e lm="prautica"><i>prautica</i><par n="luenga__n"/></e>
-    <e lm="guaranzia"><i>guaranzia</i><par n="luenga__n"/></e>
+    <e lm="practica"><i>pra</i><par n="/ct_ut__var"/><i>ica</i><par n="luenga__n"/></e>
+    <e lm="guarencia"><i>guarencia</i><par n="luenga__n"/></e>
+    <e r="LR" lm="guarencia"><p><l>guarancia</l><r>guarencia</r></p><par n="luenga__n"/></e>
     <e lm="sobiranía"><i>sobiranía</i><par n="luenga__n"/></e>
+    <e r="LR" lm="sobiranía"><p><l>soberanía</l><r>sobiranía</r></p><par n="luenga__n"/></e>
     <e lm="enfortimiento"><i>enfortimiento</i><par n="libro__n"/></e>
     <e lm="gubierno"><i>gubierno</i><par n="libro__n"/></e>
-    <e lm="sufraxio"><i>sufraxio</i><par n="libro__n"/></e>
-    <e lm="serbizio"><i>serbizio</i><par n="libro__n"/></e>
+    <e lm="sufrachio"><i>sufrachio</i><par n="libro__n"/></e>
+    <e lm="servicio"><i>servicio</i><par n="libro__n"/></e>
     <e lm="pueblo"><i>pueblo</i><par n="libro__n"/></e>
     <e lm="asilo"><i>asilo</i><par n="libro__n"/></e>
-    <e lm="exerzizio"><i>exerzizio</i><par n="libro__n"/></e>
+    <e lm="exercicio"><i>exercicio</i><par n="libro__n"/></e>
+    <e r="LR" lm="exercicio"><p><l>eixercicio</l><r>exercicio</r></p><par n="libro__n"/></e>
     <e lm="procedimiento"><i>procedimiento</i><par n="libro__n"/></e>
-    <e lm="cudiato"><i>cudiato</i><par n="libro__n"/></e>
-    <e lm="chudizio"><i>chudizio</i><par n="libro__n"/></e>
-    <e lm="discanso"><i>discanso</i><par n="libro__n"/></e>
-    <e lm="secso"><i>secso</i><par n="libro__n"/></e>
+    <e lm="cudiau"><i>cudia</i><par n="/u_to__var"/><par n="libro__n"/></e>
+    <e lm="chudicio"><p><l>chudicio</l><r>chudicio</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="chuicio"><p><l>chuicio</l><r>chudicio</r></p><par n="libro__n"/></e>
+    <e lm="descanso"><p><l>descanso</l><r>descanso</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="descanso"><p><l>discanso</l><r>descanso</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="descanso"><p><l>escanso</l><r>descanso</r></p><par n="libro__n"/></e>
+    <e lm="sexo"><i>sexo</i><par n="libro__n"/></e>
     <e lm="pensamiento"><i>pensamiento</i><par n="libro__n"/></e>
     <e lm="mantenimiento"><i>mantenimiento</i><par n="libro__n"/></e>
-    <e lm="pogreso"><i>pogreso</i><par n="libro__n"/></e>
+    <e lm="progreso"><i>progreso</i><par n="libro__n"/></e>
     <e lm="proposito"><i>proposito</i><par n="libro__n"/></e>
     <e lm="naixencia"><i>naixencia</i><par n="luenga__n"/></e>
     <e lm="naiximiento"><i>naiximiento</i><par n="libro__n"/></e>
     <e lm="examen"><i>examen</i><par n="libro__n"/></e>
-    <e lm="fin"><i>fin</i><par n="libro__n"/></e>
+    <e lm="fin"><i>fin</i><par n="luenga__n"/></e>
     <e lm="deber"><i>deber</i><par n="libro__n"/></e>
     <e lm="poder"><i>poder</i><par n="libro__n"/></e>
-    <e lm="ombre"><i>ombre</i><par n="libro__n"/></e>
+    <e lm="hombre"><i>hombre</i><par n="libro__n"/></e>
     <e lm="esclau"><i>esclau</i><par n="libro__n"/></e>
-    <e lm="nibel"><i>nibel</i><par n="libro__n"/></e>
+    <e lm="nivel"><i>nivel</i><par n="libro__n"/></e>
+    <e r="LR" lm="nivel"><p><l>livel</l><r>nivel</r></p><par n="libro__n"/></e>
     <e lm="treballar"><i>treball</i><par n="cant/ar__vblex"/></e>
-    <e lm="asigurar"><i>asigur</i><par n="cant/ar__vblex"/></e>
+    <e lm="asegurar"><i>asegur</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="asegurar"><p><l>asigur</l><r>asegur</r></p><par n="cant/ar__vblex"/></e>
     <e lm="orichinar"><i>orichin</i><par n="cant/ar__vblex"/></e>
-    <e lm="biolar"><i>biol</i><par n="cant/ar__vblex"/></e>
+    <e lm="violar"><i>viol</i><par n="cant/ar__vblex"/></e>
     <e lm="desfrutar"><i>desfrut</i><par n="cant/ar__vblex"/></e>
     <e lm="obligar"><i>oblig</i><par n="cant/ar__vblex"/></e>
-    <e lm="cambear"><i>cambe</i><par n="cant/ar__vblex"/></e>
-    <e lm="esprisar"><i>espris</i><par n="cant/ar__vblex"/></e>
+    <e lm="cambear"><i>cambe</i><par n="cant/ar__vblex"/></e>  <!-- needed a paradigm for verbs in -iar -ear  <par n="camb/iar__vblex"/> -->
+    <e lm="expresar"><i>expres</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="expresar"><p><l>expris</l><r>expres</r></p><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="expresar"><p><l>espris</l><r>expres</r></p><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="expresar"><p><l>espres</l><r>expres</r></p><par n="cant/ar__vblex"/></e>
     <e lm="recullir"><i>recull</i><par n="viv/ir__vblex"/></e>
     <e lm="presumir"><i>presum</i><par n="viv/ir__vblex"/></e>
     <e lm="espardir"><i>espard</i><par n="viv/ir__vblex"/></e>
