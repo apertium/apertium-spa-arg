@@ -274,6 +274,12 @@
       </p>
     </e>
 
+    <e r="LR">
+      <p>
+        <l>t</l>
+        <r>ct</r>
+      </p>
+    </e>
     </pardef>
     
     <pardef n="/ix_x__var">
@@ -8041,7 +8047,7 @@
       </p>
     </e>
     
-    <e>
+    <e r="LR">
       <p>
         <l>enta</l> 
         <r><s n="num"/><s n="mf"/><s n="sp"/></r> 
@@ -11064,9 +11070,9 @@
     <e lm="quincecientos"><i>quincec</i><par n="quatroc/ientos__num"/></e>
     <e lm="setzecientos"><i>setzec</i><par n="quatroc/ientos__num"/></e>
     <e lm="mil"><i>mil</i><par n="mil__num"/></e>
-    <e lm="millón"><i>mil</i><par n="divisi/ón__n"/></e>
-    <e lm="billón"><i>mil</i><par n="divisi/ón__n"/></e>
-    <e lm="trillón"><i>mil</i><par n="divisi/ón__n"/></e>
+    <e lm="millón"><i>mill</i><par n="divisi/ón__n"/></e>
+    <e lm="billón"><i>bill</i><par n="divisi/ón__n"/></e>
+    <e lm="trillón"><i>trill</i><par n="divisi/ón__n"/></e>
 
     <e lm="C"><i>C</i><par n="dos__num"/></e>
     <e lm="D"><i>D</i><par n="dos__num"/></e>
@@ -11165,7 +11171,7 @@
     <e lm="latín"><i>lat</i><par n="lat/ín__n"/></e>
     <e lm="occitán"><i>occit</i><par n="occit/án__adj"/></e>
     <e lm="italián"><i>itali</i><par n="occit/án__adj"/></e>
-    <e lm="catalán"><i>catal</i><par n="occit/án__adj"/></e>
+    <e lm="catalán"><i>catal</i><par n="occit/án__adj"/></e>   <!-- *  -->
     <e lm="castellán"><i>castell</i><par n="occit/án__adj"/></e>
     <e lm="espanyol"><i>espanyol</i><par n="espanyol__adj"/></e>
     <e lm="español" r="LR"><p><l>español</l><r>espanyol</r></p><par n="espanyol__adj"/></e>
@@ -11174,7 +11180,6 @@
     <e lm="treballador"><i>treballador</i><par n="treballador__n"/></e>
     <e lm="europeu"><i>europe</i><par n="europe/u__adj"/></e>
     <e lm="uniu"><i>uni</i><par n="adequa/u__adj"/></e>
-    <e lm="italiano"><i>italian</i><par n="academic/o__adj"/></e>
     <e lm="sovietico"><i>sovietic</i><par n="academic/o__adj"/></e>
     <e lm="subchuntibo"><i>subchunti</i><par n="cursi/vo__adj"/></e>
     <e lm="imperfeuto"><i>imperfeut</i><par n="academic/o__adj"/></e>
@@ -11222,7 +11227,6 @@
     <e lm="acuoso"><i>acuos</i><par n="academic/o__adj"/></e>
     <e lm="acusativo"><i>acusati</i><par n="cursi/vo__adj"/></e>
     <e lm="adaptativo"><i>adaptati</i><par n="cursi/vo__adj"/></e>
-    <e lm="adecuado"><i>adecuad</i><par n="academic/o__adj"/></e>
     <e lm="adepto"><i>adept</i><par n="academic/o__adj"/></e>
     <e lm="administrativo"><i>administrati</i><par n="cursi/vo__adj"/></e>
     <e lm="adoptivo"><i>adopti</i><par n="cursi/vo__adj"/></e>
@@ -11233,7 +11237,6 @@
     <e lm="afecto"><i>afect</i><par n="academic/o__adj"/></e>
     <e lm="afectuoso"><i>afectuos</i><par n="academic/o__adj"/></e>
     <e lm="afgano"><i>afgan</i><par n="academic/o__adj"/></e>
-    <e lm="aficionado"><i>aficionad</i><par n="academic/o__adj"/></e>
     <e lm="afirmativo"><i>afirmati</i><par n="cursi/vo__adj"/></e>
     <e lm="afortunado"><i>afortunad</i><par n="academic/o__adj"/></e>
     <e lm="africado"><i>africad</i><par n="academic/o__adj"/></e>
@@ -11702,7 +11705,6 @@
     <e lm="intervocálico"><i>intervocálic</i><par n="academic/o__adj"/></e>
     <e lm="inverso"><i>invers</i><par n="academic/o__adj"/></e>
     <e lm="izquierdo"><i>izquierd</i><par n="academic/o__adj"/></e>
-    <e lm="jurídico"><i>jurídic</i><par n="academic/o__adj"/></e>
     <e lm="justo"><i>just</i><par n="academic/o__adj"/></e>
     <e lm="kárstico"><i>kárstic</i><par n="academic/o__adj"/></e>
     <e lm="kazajo"><i>kazaj</i><par n="academic/o__adj"/></e>
@@ -12076,6 +12078,7 @@
     <e lm="tartamudo"><i>tartamec</i><par n="academic/o__adj"/></e>
     <e lm="tecnico"><i>tecnic</i><par n="academic/o__adj"/></e>
     <e lm="televisivo"><i>televisi</i><par n="cursi/vo__adj"/></e>
+    <e r="LR" lm="televisivo"><p><l>telebisi</l><r>televisi</r></p><par n="cursi/vo__adj"/></e>
     <e lm="tematico"><i>tematic</i><par n="academic/o__adj"/></e>
     <e lm="temerario"><i>temerari</i><par n="academic/o__adj"/></e>
     <e lm="temprano"><i>tempran</i><par n="academic/o__adj"/></e>
@@ -12114,7 +12117,6 @@
     <e lm="último"><i>últim</i><par n="academic/o__adj"/></e>
     <e lm="Último"><i>Últim</i><par n="academic/o__adj"/></e>
     <e lm="undécimo"><i>undécim</i><par n="academic/o__adj"/></e>
-    <e lm="único"><i>únic</i><par n="academic/o__adj"/></e>
     <e lm="unitario"><i>unitari</i><par n="academic/o__adj"/></e>
     <e lm="universitario"><i>universitari</i><par n="academic/o__adj"/></e>
     <e lm="urbanístico"><i>urbanístic</i><par n="academic/o__adj"/></e>
@@ -12187,7 +12189,6 @@
     <e lm="distancia"><i>distancia</i><par n="luenga__n"/></e>
     <e lm="tierra"><i>tierra</i><par n="luenga__n"/></e>
     <e lm="planeta"><i>planeta</i><par n="luenga__n"/></e>
-    <e lm="ref"><i>ref</i><par n="luenga__n"/></e>
     <e lm="au"><i>au</i><par n="luenga__n"/></e>
     <e lm="abe"><i>abe</i><par n="luenga__n"/></e>
     <e lm="abella"><i>abella</i><par n="luenga__n"/></e>
@@ -12313,8 +12314,8 @@
     <e lm="tresorero"><i>tresor</i><par n="vaqu/ero__n"/></e>
     <e lm="academico"><i>academic</i><par n="amig/o__n"/></e>
     <e lm="eixemplo"><i>eixemplo</i><par n="libro__n"/></e>
-    <e lm="güello"><i>güello</i><par n="libro__n"/></e>
     <e lm="uello"><i>uello</i><par n="libro__n"/></e>
+    <e r="LR" lm="güello"><p><l>güello</l><r>uello</r></p><par n="libro__n"/></e>
     <e lm="ababol"><i>ababol</i><par n="libro__n"/></e>
     <e lm="alchetibo"><i>alcheti</i><par n="obchecti/vo__n"/></e>
     <e lm="dreito"><i>dreito</i><par n="libro__n"/></e>
@@ -12423,7 +12424,6 @@
     <e lm="competitividat"><i>competitivid</i><par n="privacid/at__n"/></e>
     <e lm="complexidat"><i>complexid</i><par n="privacid/at__n"/></e>
     <e lm="comunidat"><i>comunid</i><par n="privacid/at__n"/></e>
-    <e lm="concabidat"><i>concabid</i><par n="privacid/at__n"/></e>
     <e lm="concavidat"><i>concavid</i><par n="privacid/at__n"/></e>
     <e lm="condutibidat"><i>condutibid</i><par n="privacid/at__n"/></e>
     <e lm="conectividat"><i>conectivid</i><par n="privacid/at__n"/></e>
@@ -12707,8 +12707,6 @@
     <e lm="abreviación"><i>abrevia</i><par n="actua/ción__n"/></e>
     <e lm="abstración"><i>abstra</i><par n="actua/ción__n"/></e>
     <e lm="acceleración"><i>accelera</i><par n="actua/ción__n"/></e>
-    <e lm="acentuación"><i>acentua</i><par n="actua/ción__n"/></e>
-    <e lm="aceptación"><i>acepta</i><par n="actua/ción__n"/></e>
     <e lm="achitación"><i>achita</i><par n="actua/ción__n"/></e>
     <e lm="ación"><i>a</i><par n="actua/ción__n"/></e>
     <e lm="aclamación"><i>aclama</i><par n="actua/ción__n"/></e>
@@ -12779,9 +12777,10 @@
     <e lm="acceleración"><i>accelera</i><par n="actua/ción__n"/></e>
     <e lm="accentuación"><i>accentua</i><par n="actua/ción__n"/></e>
     <e lm="acceptación"><i>accepta</i><par n="actua/ción__n"/></e>
-    <e r="LR" lm="acceutación"><p><l>acceutación</l><r>acceptación</r></p><par n="actua/ción__n"/></e>
-    <e r="LR" lm="aceutación"><p><l>aceutación</l><r>acceptación</r></p><par n="actua/ción__n"/></e>
-    <e r="LR" lm="azeutación"><p><l>azeutación</l><r>acceptación</r></p><par n="actua/ción__n"/></e>
+    <e r="LR" lm="acceptación"><p><l>acceutación</l><r>acceptación</r></p><par n="actua/ción__n"/></e>
+    <e r="LR" lm="acceptación"><p><l>aceutación</l><r>acceptación</r></p><par n="actua/ción__n"/></e>
+    <e r="LR" lm="acceptación"><p><l>azeutación</l><r>acceptación</r></p><par n="actua/ción__n"/></e>
+    <e r="LR" lm="acceptación"><p><l>azetación</l><r>acceptación</r></p><par n="actua/ción__n"/></e>
     <e lm="bacunación"><i>bacuna</i><par n="actua/ción__n"/></e>
     <e lm="baporación"><par n="/b_v__var"/><i>apora</i><par n="actua/ción__n"/></e>
     <e lm="bariación"><par n="/b_v__var"/><i>aria</i><par n="actua/ción__n"/></e>
@@ -19375,7 +19374,7 @@
     <e lm="alternativa"><i>alternati</i><par n="normati/va__n"/></e>
     <e lm="americana"><i>americana</i><par n="luenga__n"/></e>
     <e lm="baja"><i>baja</i><par n="luenga__n"/></e>
-    <e lm="característica"><i>característica</i><par n="luenga__n"/></e>
+    <e lm="caracteristica"><i>caracteristica</i><par n="luenga__n"/></e>
     <e lm="castaña"><i>castaña</i><par n="luenga__n"/></e>
     <e lm="casta"><i>casta</i><par n="luenga__n"/></e>
     <e lm="clínica"><i>clínica</i><par n="luenga__n"/></e>
@@ -19387,8 +19386,8 @@
     <e lm="cursiva"><i>cursi</i><par n="normati/va__n"/></e>
     <e lm="curva"><i>cur</i><par n="normati/va__n"/></e>
     <e lm="derecha"><i>derecha</i><par n="luenga__n"/></e>
-    <e lm="didáctica"><i>didáctica</i><par n="luenga__n"/></e>
-    <e lm="dinámica"><i>dinámica</i><par n="luenga__n"/></e>
+    <e lm="didactica"><i>didactica</i><par n="luenga__n"/></e>
+    <e lm="dinamica"><i>dinamica</i><par n="luenga__n"/></e>
     <e lm="directiva"><i>directi</i><par n="normati/va__n"/></e>
     <e lm="dorada"><i>dorada</i><par n="luenga__n"/></e>
     <e lm="electrónica"><i>electrónica</i><par n="luenga__n"/></e>
@@ -19401,46 +19400,46 @@
     <e lm="gala"><i>gala</i><par n="luenga__n"/></e>
     <e lm="grasa"><i>grasa</i><par n="luenga__n"/></e>
     <e lm="indirecta"><i>indirecta</i><par n="luenga__n"/></e>
-    <e lm="informática"><i>informática</i><par n="luenga__n"/></e>
+    <e lm="informatica"><i>informatica</i><par n="luenga__n"/></e>
     <e lm="inmobiliaria"><i>inmobiliaria</i><par n="luenga__n"/></e>
     <e lm="izquierda"><i>izquierda</i><par n="luenga__n"/></e>
     <e lm="judía"><i>judía</i><par n="luenga__n"/></e>
-    <e lm="lingüística"><i>lingüística</i><par n="luenga__n"/></e>
+    <e lm="lingüistica"><i>lingüistica</i><par n="luenga__n"/></e>
     <e lm="lista"><i>lista</i><par n="luenga__n"/></e>
     <e lm="llamada"><i>llamada</i><par n="luenga__n"/></e>
     <e lm="lógica"><i>lógica</i><par n="luenga__n"/></e>
     <e lm="marina"><i>marina</i><par n="luenga__n"/></e>
-    <e lm="matemática"><i>matemática</i><par n="luenga__n"/></e>
+    <e lm="matematica"><i>matematica</i><par n="luenga__n"/></e>
     <e lm="mecánica"><i>mecánica</i><par n="luenga__n"/></e>
     <e lm="mediana"><i>mediana</i><par n="luenga__n"/></e>
     <e lm="media"><i>media</i><par n="luenga__n"/></e>
-    <e lm="miscelánea"><i>miscelánea</i><par n="luenga__n"/></e>
-    <e lm="morada"><i>morada</i><par n="luenga__n"/></e>
+    
+    <e lm="miscelania"><i>miscelania</i><par n="luenga__n"/></e>
+    <e lm="morada"><i>morada</i><par n="luenga__n"/></e>  <!-- * -->
     <e lm="muerta"><i>muerta</i><par n="luenga__n"/></e>
     <e lm="narrativa"><i>narrati</i><par n="normati/va__n"/></e>
     <e lm="negativa"><i>negati</i><par n="normati/va__n"/></e>
     <e lm="normativa"><i>normati</i><par n="normati/va__n"/></e>
     <e lm="octava"><i>octa</i><par n="normati/va__n"/></e>
     <e lm="ofensiva"><i>ofensi</i><par n="normati/va__n"/></e>
-    <e lm="onomástica"><i>onomástica</i><par n="luenga__n"/></e>
-    <e lm="panorámica"><i>panorámica</i><par n="luenga__n"/></e>
+    <e lm="onomastica"><i>onomastica</i><par n="luenga__n"/></e>
+    <e lm="panoramica"><i>panoramica</i><par n="luenga__n"/></e>
     <e lm="papelera"><i>papelera</i><par n="luenga__n"/></e>
     <e lm="paralela"><i>paralela</i><par n="luenga__n"/></e>
-    <e lm="pareja"><i>pareja</i><par n="luenga__n"/></e>
+    <e lm="parella"><i>parella</i><par n="luenga__n"/></e>
     <e lm="picaresca"><i>picaresca</i><par n="luenga__n"/></e>
     <e lm="politica"><i>politica</i><par n="luenga__n"/></e>
-    <e lm="práctica"><i>práctica</i><par n="luenga__n"/></e>
     <e lm="presa"><i>presa</i><par n="luenga__n"/></e>
-    <e lm="problemática"><i>problemática</i><par n="luenga__n"/></e>
+    <e lm="problematica"><i>problematica</i><par n="luenga__n"/></e>
     <e lm="quimica"><i>quimica</i><par n="luenga__n"/></e>
     <e lm="recta"><i>recta</i><par n="luenga__n"/></e>
     <e lm="salina"><i>salina</i><par n="luenga__n"/></e>
-    <e lm="sociolingüística"><i>sociolingüística</i><par n="luenga__n"/></e>
+    <e lm="sociolingüistica"><i>sociolingüistica</i><par n="luenga__n"/></e>
     <e lm="suma"><i>suma</i><par n="luenga__n"/></e>
     <e lm="tecnica"><i>tecnica</i><par n="luenga__n"/></e>
     <e lm="tibia"><i>tibia</i><par n="luenga__n"/></e>
     <e lm="tinta"><i>tinta</i><par n="luenga__n"/></e>
-    <e lm="traviesa"><i>traviesa</i><par n="luenga__n"/></e>
+    <e lm="traviesa"><i>traviesa</i><par n="luenga__n"/></e>    
     <e lm="acusau"><i>acusa</i><par n="acusa/u__n"/></e>
     <e lm="acusau"><i>acusa</i><par n="adequa/u__adj"/></e>
     <e lm="adequau"><i>adequa</i><par n="adequa/u__adj"/></e>
@@ -19508,7 +19507,8 @@
     <e lm="kazajo"><i>kazaj</i><par n="amig/o__n"/></e>
     <e lm="kurdo"><i>kurd</i><par n="amig/o__n"/></e>
     <e lm="leproso"><i>lepros</i><par n="amig/o__n"/></e>
-    <e lm="leridano"><i>lerid</i><par n="cristi/ano__n"/></e>
+    <e lm="leidano"><i>leid</i><par n="cristi/ano__n"/></e>
+    <e r="LR" lm="leidano"><p><l>lerid</l><r>leid</r></p><par n="cristi/ano__n"/></e>
     <e lm="libertario"><i>libertari</i><par n="amig/o__n"/></e>
     <e lm="lituano"><i>litu</i><par n="cristi/ano__n"/></e>
     <e lm="luso"><i>lus</i><par n="amig/o__n"/></e>
@@ -19520,10 +19520,12 @@
     <e lm="medico"><i>medic</i><par n="amig/o__n"/></e>
     <e lm="mexicano"><i>mexic</i><par n="cristi/ano__n"/></e>
     <e lm="minero"><i>min</i><par n="vaqu/ero__n"/></e>
+    <e r="LR" lm="minero"><p><l>mener</l><r>miner</r></p><par n="vaqu/ero__n"/></e>
     <e lm="morisco"><i>morisc</i><par n="amig/o__n"/></e>
     <e lm="moro"><i>mor</i><par n="amig/o__n"/></e>
     <e lm="nativo"><i>nativ</i><par n="amig/o__n"/></e>
     <e lm="navarro"><i>navarr</i><par n="amig/o__n"/></e>
+    <e r="LR" lm="navarro"><p><l>nabarr</l><r>navarr</r></p><par n="amig/o__n"/></e>
     <e lm="negro"><i>negr</i><par n="amig/o__n"/></e>
     <e lm="norteafricano"><i>norteafric</i><par n="cristi/ano__n"/></e>
     <e lm="norteamericano"><i>norteameric</i><par n="cristi/ano__n"/></e>
@@ -19589,13 +19591,16 @@
     <e lm="bombardero"><i>bombard</i><par n="vaqu/ero__n"/></e>
     <e lm="scientifico"><i>scientific</i><par n="amig/o__n"/></e>
     <e r="LR" lm="scientifico"><p><l>cientific</l><r>scientific</r></p><par n="amig/o__n"/></e>
+    <e r="LR" lm="scientifico"><p><l>zientific</l><r>scientific</r></p><par n="amig/o__n"/></e>
+    <e r="LR" lm="scientifico"><p><l>zentific</l><r>scientific</r></p><par n="amig/o__n"/></e>
+    <e r="LR" lm="scientifico"><p><l>centific</l><r>scientific</r></p><par n="amig/o__n"/></e>
     <e lm="directivo"><i>directiv</i><par n="amig/o__n"/></e>
     <e lm="europeu"><i>europe</i><par n="europe/u__n"/></e>
     <e lm="farmaceutico"><i>farmaceutic</i><par n="amig/o__n"/></e>
     <e lm="fisico"><i>fisic</i><par n="amig/o__n"/></e>
     <e r="LR" lm="fesico"><p><l>fesico</l><r>fisico</r></p><par n="amig/o__n"/></e>
     <e lm="galo"><i>gal</i><par n="amig/o__n"/></e>
-    <e lm="interesau"><i>interesa</i><par n="acusa/u__n"/></e>
+    <e lm="interesau"><i>interesa</i><par n="acusa/u__n"/></e>    
     <e lm="latino"><i>lat</i><par n="palest/ino__n"/></e>
     <e lm="librero"><i>libr</i><par n="vaqu/ero__n"/></e>
     <e lm="madrilenyo"><i>madrileny</i><par n="amig/o__n"/></e>
@@ -19620,43 +19625,43 @@
     <e lm="fisica"><i>fisica</i><par n="luenga__n"/></e>
     <e lm="pasada"><i>pasada</i><par n="luenga__n"/></e>
     <e lm="platina"><i>platina</i><par n="luenga__n"/></e>
-    <e lm="agresibo"><i>agresi</i><par n="cursi/vo__adj"/></e>
-    <e lm="alquisitibo"><i>alquisiti</i><par n="cursi/vo__adj"/></e>
-    <e lm="argumentatibo"><i>argumentati</i><par n="cursi/vo__adj"/></e>
-    <e lm="asoziatibo"><i>asoziati</i><par n="cursi/vo__adj"/></e>
-    <e lm="cognitibo"><i>cogniti</i><par n="cursi/vo__adj"/></e>
-    <e lm="comunicatibo"><i>comunicati</i><par n="cursi/vo__adj"/></e>
-    <e lm="cooperatibo"><i>cooperati</i><par n="cursi/vo__adj"/></e>
-    <e lm="cumulatibo"><i>cumulati</i><par n="cursi/vo__adj"/></e>
-    <e lm="dezisibo"><i>dezisi</i><par n="cursi/vo__adj"/></e>
-    <e lm="ebolutibo"><i>eboluti</i><par n="cursi/vo__adj"/></e>
-    <e lm="electibo"><i>electi</i><par n="cursi/vo__adj"/></e>
-    <e lm="impulsibo"><i>impulsi</i><par n="cursi/vo__adj"/></e>
-    <e lm="inductibo"><i>inducti</i><par n="cursi/vo__adj"/></e>
-    <e lm="informatibo"><i>informati</i><par n="cursi/vo__adj"/></e>
-    <e lm="interactibo"><i>interacti</i><par n="cursi/vo__adj"/></e>
-    <e lm="narratibo"><i>narrati</i><par n="cursi/vo__adj"/></e>
-    <e lm="nutritibo"><i>nutriti</i><par n="cursi/vo__adj"/></e>
-    <e lm="olfatibo"><i>olfati</i><par n="cursi/vo__adj"/></e>
-    <e lm="orientatibo"><i>orientati</i><par n="cursi/vo__adj"/></e>
-    <e lm="partitibo"><i>partiti</i><par n="cursi/vo__adj"/></e>
-    <e lm="partizipatibo"><i>partizipati</i><par n="cursi/vo__adj"/></e>
-    <e lm="persuasibo"><i>persuasi</i><par n="cursi/vo__adj"/></e>
-    <e lm="prebentibo"><i>prebenti</i><par n="cursi/vo__adj"/></e>
-    <e lm="refractibo"><i>refracti</i><par n="cursi/vo__adj"/></e>
-    <e lm="regresibo"><i>regresi</i><par n="cursi/vo__adj"/></e>
-    <e lm="reibindicatibo"><i>reibindicati</i><par n="cursi/vo__adj"/></e>
-    <e lm="repetitibo"><i>repetiti</i><par n="cursi/vo__adj"/></e>
-    <e lm="represibo"><i>represi</i><par n="cursi/vo__adj"/></e>
-    <e lm="reproductibo"><i>reproducti</i><par n="cursi/vo__adj"/></e>
-    <e lm="restrictibo"><i>restricti</i><par n="cursi/vo__adj"/></e>
-    <e lm="rezeptibo"><i>rezepti</i><par n="cursi/vo__adj"/></e>
-    <e lm="rezesibo"><i>rezesi</i><par n="cursi/vo__adj"/></e>
-    <e lm="superlatibo"><i>superlati</i><par n="cursi/vo__adj"/></e>
-    <e lm="suzesibo"><i>suzesi</i><par n="cursi/vo__adj"/></e>
-    <e r="LR" lm="telebisibo"><p><l>telebisi</l><r>televisi</r></p><par n="cursi/vo__adj"/></e>
-    <e lm="cursibo"><i>cursi</i><par n="cursi/vo__adj"/></e>
-    <e lm="ofensibo"><i>ofensi</i><par n="cursi/vo__adj"/></e>
+    <e lm="agresivo"><i>agresi</i><par n="cursi/vo__adj"/></e>
+    <e lm="adquisitivo"><i>adquisiti</i><par n="cursi/vo__adj"/></e>
+    <e lm="adquisitivo" r="LR"><p><l>alquisiti</l><r>adquisiti</r></p><par n="cursi/vo__adj"/></e>
+    <e lm="argumentativo"><i>argumentati</i><par n="cursi/vo__adj"/></e>
+    <e lm="asociativo"><i>asociati</i><par n="cursi/vo__adj"/></e>
+    <e lm="cognitivo"><i>cogniti</i><par n="cursi/vo__adj"/></e>
+    <e lm="comunicativo"><i>comunicati</i><par n="cursi/vo__adj"/></e>
+    <e lm="cooperativo"><i>cooperati</i><par n="cursi/vo__adj"/></e>
+    <e lm="cumulativo"><i>cumulati</i><par n="cursi/vo__adj"/></e>
+    <e lm="evolutivo"><i>evoluti</i><par n="cursi/vo__adj"/></e>
+    <e lm="electivo"><i>electi</i><par n="cursi/vo__adj"/></e>
+    <e lm="impulsivo"><i>impulsi</i><par n="cursi/vo__adj"/></e>
+    <e lm="inductivo"><i>inducti</i><par n="cursi/vo__adj"/></e>
+    <e lm="informativo"><i>informati</i><par n="cursi/vo__adj"/></e>
+    <e lm="interactivo"><i>interacti</i><par n="cursi/vo__adj"/></e>
+    <e lm="narrativo"><i>narrati</i><par n="cursi/vo__adj"/></e>
+    <e lm="nutritivo"><i>nutriti</i><par n="cursi/vo__adj"/></e>
+    <e lm="olfativo"><i>olfati</i><par n="cursi/vo__adj"/></e>
+    <e lm="orientativo"><i>orientati</i><par n="cursi/vo__adj"/></e>
+    <e lm="partitivo"><i>partiti</i><par n="cursi/vo__adj"/></e>
+    <e lm="persuasivo"><i>persuasi</i><par n="cursi/vo__adj"/></e>
+    <e lm="preventivo"><i>preventi</i><par n="cursi/vo__adj"/></e>
+    <e lm="refractivo"><i>refracti</i><par n="cursi/vo__adj"/></e>
+    <e lm="regresivo"><i>regresi</i><par n="cursi/vo__adj"/></e>
+    <e lm="reivindicativo"><i>reivindicati</i><par n="cursi/vo__adj"/></e>
+    <e lm="repetitivo"><i>repetiti</i><par n="cursi/vo__adj"/></e>
+    <e lm="represivo"><i>represi</i><par n="cursi/vo__adj"/></e>
+    <e lm="reproductivo"><i>reproducti</i><par n="cursi/vo__adj"/></e>
+    <e lm="restrictivo"><i>restricti</i><par n="cursi/vo__adj"/></e>
+    <e lm="receptivo"><i>recepti</i><par n="cursi/vo__adj"/></e>
+    <e lm="recesivo"><i>recesi</i><par n="cursi/vo__adj"/></e>
+    <e lm="superlativo"><i>superlati</i><par n="cursi/vo__adj"/></e>
+    <e lm="succesivo"><i>succesi</i><par n="cursi/vo__adj"/></e>
+    <e lm="succesivo" r="LR"><p><l>sucesi</l><r>succesi</r></p><par n="cursi/vo__adj"/></e>
+    <e lm="succesivo" r="LR"><p><l>suzesi</l><r>succesi</r></p><par n="cursi/vo__adj"/></e>
+    <e lm="cursivo"><i>cursi</i><par n="cursi/vo__adj"/></e>
+    <e lm="ofensivo"><i>ofensi</i><par n="cursi/vo__adj"/></e>
     <e lm="atractivo"><i>atracti</i><par n="cursi/vo__adj"/></e>
     <e lm="administrativo"><i>administrativ</i><par n="amig/o__n"/></e>
     <e lm="alministrativo" r="LR"><p><l>alministrativ</l><r>administrativ</r></p><par n="amig/o__n"/></e>
@@ -19665,21 +19670,27 @@
     <e lm="reputación"><i>reputa</i><par n="actua/ción__n"/></e>
     <e lm="remuneración"><i>remunera</i><par n="actua/ción__n"/></e>
     <e lm="función"><i>fun</i><par n="actua/ción__n"/></e>
-    <e lm="costitución"><i>costitu</i><par n="actua/ción__n"/></e>
-    <e lm="almenistración"><i>almenistra</i><par n="actua/ción__n"/></e>
+    <e lm="administración"><i>administra</i><par n="actua/ción__n"/></e>
+    <e r="LR" lm="administración"><p><l>alministra</l><r>administra</r></p><par n="actua/ción__n"/></e>    
+    <e r="LR" lm="administración"><p><l>almenistra</l><r>administra</r></p><par n="actua/ción__n"/></e>    
+    <e r="LR" lm="administración"><p><l>admenistra</l><r>administra</r></p><par n="actua/ción__n"/></e>    
     <e lm="organización"><i>organiza</i><par n="actua/ción__n"/></e>
     <e lm="persecución"><i>persecu</i><par n="actua/ción__n"/></e>
     <e lm="ocupación"><i>ocupa</i><par n="actua/ción__n"/></e>
-    <e lm="restrición"><i>restri</i><par n="actua/ción__n"/></e>
+    <e lm="restricción"><i>restric</i><par n="actua/ción__n"/></e>
     <e lm="esleción"><i>esle</i><par n="actua/ción__n"/></e>
+    <e r="LR" lm="esleción"><p><l>eslec</l><r>esle</r></p><par n="actua/ción__n"/></e>    
+    <e r="LR" lm="esleción"><p><l>elec</l><r>esle</r></p><par n="actua/ción__n"/></e>    
     <e lm="reunión"><i>reuni</i><par n="divisi/ón__n"/></e>
     <e lm="razón"><i>raz</i><par n="divisi/ón__n"/></e>
     <e lm="comprensión"><i>comprensi</i><par n="divisi/ón__n"/></e>
     <e lm="omisión"><i>omisi</i><par n="divisi/ón__n"/></e>
-    <e lm="obcheto"><i>obcheto</i><par n="libro__n"/></e>
-    <e lm="nezesario"><i>nezesari</i><par n="academic/o__adj"/></e>
+    <e lm="obchecto"><i>obchecto</i><par n="libro__n"/></e>
+    <e lm="obchecto"><p><l>obcheto</l><r>obchecto</r></p><par n="libro__n"/></e>
+    <e lm="obchecto"><p><l>ocheto</l><r>obchecto</r></p><par n="libro__n"/></e>
+    <e lm="necesario"><i>necesari</i><par n="academic/o__adj"/></e>
     <e lm="meyo"><i>meyo</i><par n="libro__n"/></e>
-    
+    <e lm="meyo"><p><l>medio</l><r>meyo</r></p><par n="libro__n"/></e>
     <e lm="celebrau"><i>celebra</i><par n="adequa/u__adj"/></e>
     <e lm="celebrau"><p><l>cilebra</l><r>celebra</r></p><par n="adequa/u__adj"/></e>
     <e lm="celebrau"><p><l>zilebra</l><r>celebra</r></p><par n="adequa/u__adj"/></e>
