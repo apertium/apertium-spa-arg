@@ -9675,6 +9675,65 @@
 
     </pardef>
     
+ <pardef n="verd/e__adj">
+    <e>
+      <p>
+        <l>e</l>
+        <r>e<s n="adj"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>es</l>
+        <r>e<s n="adj"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>a</l>
+        <r>e<s n="adj"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>as</l>
+        <r>e<s n="adj"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ismo</l>
+        <r>o<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ismos</l>
+        <r>o<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>isma</l>
+        <r>o<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ismas</l>
+        <r>o<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    </pardef>    
+    
     <pardef n="san/t__adj"> <!-- only apocoped -->
     <e>
       <p>
@@ -9729,17 +9788,112 @@
         <r><s n="adj"/><s n="mf"/><s n="sg"/></r>
       </p>
     </e>
-
-
+    
     <e>
       <p>
         <l>s</l>
         <r><s n="adj"/><s n="mf"/><s n="pl"/></r>
       </p>
     </e>
-
-
     </pardef>
+    
+
+    <pardef n="difer/ent__adj">
+    <e>
+      <p>
+        <l>ent</l>
+        <r>ent<s n="adj"/><s n="mf"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>én</l>
+        <r>ent<s n="adj"/><s n="mf"/><s n="sg"/></r>
+      </p>
+    </e>
+<e r="LR">
+      <p>
+        <l>ente</l>
+        <r>ent<s n="adj"/><s n="mf"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ents</l>
+        <r>ent<s n="adj"/><s n="mf"/><s n="pl"/></r>
+      </p>
+    </e>
+     <e r="LR">
+      <p>
+        <l>ens</l>
+        <r>ent<s n="adj"/><s n="mf"/><s n="pl"/></r>
+      </p>
+    </e>
+     <e r="LR">
+      <p>
+        <l>éns</l>
+        <r>ent<s n="adj"/><s n="mf"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>entes</l>
+        <r>ent<s n="adj"/><s n="mf"/><s n="sg"/></r>
+      </p>
+    </e>
+
+ 
+    </pardef>
+
+    <pardef n="degrad/ant__adj">
+    <e>
+      <p>
+        <l>ant</l>
+        <r>ant<s n="adj"/><s n="mf"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>án</l>
+        <r>ant<s n="adj"/><s n="mf"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ante</l>
+        <r>ant<s n="adj"/><s n="mf"/><s n="sg"/></r>
+      </p>
+    </e>
+    
+    <e>
+      <p>
+        <l>ants</l>
+        <r>ant<s n="adj"/><s n="mf"/><s n="pl"/></r>
+      </p>
+    </e>
+     <e r="LR">
+      <p>
+        <l>ans</l>
+        <r>ant<s n="adj"/><s n="mf"/><s n="pl"/></r>
+      </p>
+    </e>
+     <e r="LR">
+      <p>
+        <l>áns</l>
+        <r>ant<s n="adj"/><s n="mf"/><s n="pl"/></r>
+      </p>
+    </e>
+     <e r="LR">
+      <p>
+        <l>antes</l>
+        <r>ant<s n="adj"/><s n="mf"/><s n="pl"/></r>
+      </p>
+    </e>
+ 
+    </pardef>
+
+    
     <pardef n="luenga__n">
     <e>
       <p>
@@ -10695,6 +10849,23 @@
     </e>
     </pardef>
     
+    
+    <pardef n="vega/da__n">
+    <e r="LR">
+      <p>
+        <l>ta</l>
+        <r>da</r>
+      </p>
+        <par n="luenga__n"/> 
+    </e>
+    <e>
+        <i>da</i>
+        <par n="luenga__n"/> 
+    </e>
+    
+    </pardef>    
+    
+    
     <pardef n="acusa/u__n">
     <e r="LR">
       <p>
@@ -11204,7 +11375,7 @@
     <e lm="increyible"><i>increyible</i><par n="social__adj"/></e>
     <e lm="oral"><i>oral</i><par n="social__adj"/></e>
     <e lm="actual"><i>actual</i><par n="social__adj"/></e>
-    <e lm="freqüent"><i>freqüent</i><par n="social__adj"/></e>
+    <e lm="freqüent"><i>freqü</i><par n="difer/ent__adj"/></e>
     <e lm="internazional"><i>internazional</i><par n="social__adj"/></e>
     <e lm="nazional"><i>nazional</i><par n="social__adj"/></e>
     <e lm="cheneral"><i>cheneral</i><par n="social__adj"/></e>
@@ -11456,7 +11627,7 @@
     <e lm="demostrativo"><i>demostrati</i><par n="cursi/vo__adj"/></e>
     <e lm="denso"><i>dens</i><par n="academic/o__adj"/></e>
     <e lm="deportivo"><i>deporti</i><par n="cursi/vo__adj"/></e>
-    <e lm="derecho"><i>derech</i><par n="academic/o__adj"/></e>
+    <e lm="dreito"><i>dreito</i><par n="academic/o__adj"/></e>
     <e lm="desastroso"><i>desastros</i><par n="academic/o__adj"/></e>
     <e lm="descarado"><i>descarad</i><par n="academic/o__adj"/></e>
     <e lm="descontento"><i>descontent</i><par n="academic/o__adj"/></e>
@@ -12134,7 +12305,7 @@
     <e lm="vario"><i>vari</i><par n="academic/o__adj"/></e>
     <e lm="vasco"><i>vasc</i><par n="academic/o__adj"/></e>
     <e lm="vecino"><i>vecin</i><par n="academic/o__adj"/></e>
-    <e lm="vegetariano"><i>vegetarian</i><par n="academic/o__adj"/></e>
+    <e lm="vechetariano"><i>vechetarian</i><par n="academic/o__adj"/></e>
     <e lm="veneciano"><i>venecian</i><par n="academic/o__adj"/></e>
     <e lm="venidero"><i>venider</i><par n="academic/o__adj"/></e>
     <e lm="verdadero"><i>verdader</i><par n="academic/o__adj"/></e>
@@ -12174,9 +12345,8 @@
     <e lm="artesanía"><i>artesanía</i><par n="luenga__n"/></e>
     <e lm="leit"><i>leit</i><par n="luenga__n"/></e>
     <e lm="albertenzia"><i>albertenzia</i><par n="luenga__n"/></e>
-    <e lm="bida"><i>bida</i><par n="luenga__n"/></e>
-    <e lm="vita"><i>vita</i><par n="luenga__n"/></e>
-    <e lm="begada"><par n="/b_v__var"/><i>egada</i><par n="luenga__n"/></e>
+    <e lm="vida"><i>vi</i><par n="vega/da__n"/></e>
+    <e lm="vegada"><par n="/b_v__var"/><i>eg</i><par n="vega/da__n"/></e>
     <e lm="guerra"><i>guerra</i><par n="luenga__n"/></e>
     <e lm="lai"><i>lai</i><par n="luenga__n"/></e>
     <e lm="augua"><i>augua</i><par n="luenga__n"/></e>
@@ -16246,8 +16416,6 @@
     <e lm="realismo"><i>realismo</i><par n="libro__n"/></e>
     <e lm="rebanchismo"><i>rebanchismo</i><par n="libro__n"/></e>
     <e lm="rechionalismo"><i>rechionalismo</i><par n="libro__n"/></e>
-    <e lm="rechionalismo"><i>rechionalismo</i><par n="libro__n"/></e>
-    <e lm="recionalismo"><i>recionalismo</i><par n="libro__n"/></e>
     <e lm="republicanismo"><i>republicanismo</i><par n="libro__n"/></e>
     <e lm="reumatismo"><i>reumatismo</i><par n="libro__n"/></e>
     <e lm="reyalismo"><i>reyalismo</i><par n="libro__n"/></e>
@@ -18512,7 +18680,7 @@
     <e lm="abertzale"><i>abertzale</i><par n="social__adj"/></e>
     <e lm="abolicionista"><i>abolicionista</i><par n="social__adj"/></e>
     <e lm="abominable"><i>abominable</i><par n="social__adj"/></e>
-    <e lm="abundante"><i>abundante</i><par n="social__adj"/></e>
+    <e lm="abundant"><i>abund</i><par n="degrad/ant__adj"/></e>
     <e lm="accesible"><i>accesible</i><par n="social__adj"/></e>
     <e lm="accidental"><i>accidental</i><par n="social__adj"/></e>
     <e lm="acentual"><i>acentual</i><par n="social__adj"/></e>
@@ -18542,7 +18710,7 @@
     <e lm="angular"><i>angular</i><par n="social__adj"/></e>
     <e lm="animista"><i>animista</i><par n="social__adj"/></e>
     <e lm="anormal"><i>anormal</i><par n="social__adj"/></e>
-    <e lm="antecedente"><i>antecedente</i><par n="social__adj"/></e>
+    <e lm="antecedent"><i>anteced</i><par n="difer/ent__adj"/></e>
     <e lm="anterior"><i>anterior</i><par n="social__adj"/></e>
     <e lm="anticapitalista"><i>anticapitalista</i><par n="social__adj"/></e>
     <e lm="anticlinal"><i>anticlinal</i><par n="social__adj"/></e>
@@ -18558,7 +18726,7 @@
     <e lm="apreciable"><i>apreciable</i><par n="social__adj"/></e>
     <e lm="árabe"><i>árabe</i><par n="social__adj"/></e>
     <e lm="arbitral"><i>arbitral</i><par n="social__adj"/></e>
-    <e lm="arcaizante"><i>arcaizante</i><par n="social__adj"/></e>
+    <e lm="arcaizant"><i>arcaiz</i><par n="degrad/ant__adj"/></e>
     <e lm="argumental"><i>argumental</i><par n="social__adj"/></e>
     <e lm="arterial"><i>arterial</i><par n="social__adj"/></e>
     <e lm="artesanal"><i>artesanal</i><par n="social__adj"/></e>
@@ -18573,7 +18741,7 @@
     <e lm="audaz"><i>audaz</i><par n="social__adj"/></e>
     <e lm="audible"><i>audible</i><par n="social__adj"/></e>
     <e lm="audiovisual"><i>audiovisual</i><par n="social__adj"/></e>
-    <e lm="ausente"><i>ausente</i><par n="social__adj"/></e>
+    <e lm="ausent"><i>aus</i><par n="difer/ent__adj"/></e>
     <e lm="austral"><i>austral</i><par n="social__adj"/></e>
     <e lm="autonomista"><i>autonomista</i><par n="social__adj"/></e>
     <e lm="auxiliar"><i>auxiliar</i><par n="social__adj"/></e>
@@ -18587,7 +18755,7 @@
     <e lm="banal"><i>banal</i><par n="social__adj"/></e>
     <e lm="basal"><i>basal</i><par n="social__adj"/></e>
     <e lm="basilical"><i>basilical</i><par n="social__adj"/></e>
-    <e lm="bastante"><i>bastante</i><par n="social__adj"/></e>
+    <e lm="bastant"><i>bast</i><par n="degrad/ant__adj"/></e>
     <e lm="bautista"><i>bautista</i><par n="social__adj"/></e>
     <e lm="belga"><i>belga</i><par n="social__adj"/></e>
     <e lm="bicameral"><i>bicameral</i><par n="social__adj"/></e>
@@ -18602,13 +18770,13 @@
     <e lm="bipolar"><i>bipolar</i><par n="social__adj"/></e>
     <e lm="borde"><i>borde</i><par n="social__adj"/></e>
     <e lm="breve"><i>breve</i><par n="social__adj"/></e>
-    <e lm="brillante"><i>brillante</i><par n="social__adj"/></e>
+    <e lm="brillant"><i>brill</i><par n="degrad/ant__adj"/></e>
     <e lm="bromista"><i>bromista</i><par n="social__adj"/></e>
     <e lm="brutal"><i>brutal</i><par n="social__adj"/></e>
     <e lm="bucal"><i>bucal</i><par n="social__adj"/></e>
     <e lm="budista"><i>budista</i><par n="social__adj"/></e>
     <e lm="cabal"><i>cabal</i><par n="social__adj"/></e>
-    <e lm="caliente"><i>caliente</i><par n="social__adj"/></e>
+    <e lm="calient"><i>cali</i><par n="difer/ent__adj"/></e>
     <e lm="campal"><i>campal</i><par n="social__adj"/></e>
     <e lm="canadiense"><i>canadiense</i><par n="social__adj"/></e>
     <e lm="cantonal"><i>cantonal</i><par n="social__adj"/></e>
@@ -18619,9 +18787,9 @@
     <e lm="castrista"><i>castrista</i><par n="social__adj"/></e>
     <e lm="casual"><i>casual</i><par n="social__adj"/></e>
     <e lm="catalanista"><i>catalanista</i><par n="social__adj"/></e>
-    <e lm="catalanohablante"><i>catalanohablante</i><par n="social__adj"/></e>
+    <e lm="catalanoparlant"><i>catalanoparl</i><par n="degrad/ant__adj"/></e>
     <e lm="catastral"><i>catastral</i><par n="social__adj"/></e>
-    <e lm="causante"><i>causante</i><par n="social__adj"/></e>
+    <e lm="causant"><i>caus</i><par n="degrad/ant__adj"/></e>
     <e lm="célebre"><i>célebre</i><par n="social__adj"/></e>
     <e lm="celeste"><i>celeste</i><par n="social__adj"/></e>
     <e lm="celestial"><i>celestial</i><par n="social__adj"/></e>
@@ -18631,12 +18799,12 @@
     <e lm="central"><i>central</i><par n="social__adj"/></e>
     <e lm="centralista"><i>centralista</i><par n="social__adj"/></e>
     <e lm="chipriota"><i>chipriota</i><par n="social__adj"/></e>
-    <e lm="chocante"><i>chocante</i><par n="social__adj"/></e>
+    <e lm="chocant"><i>choc</i><par n="degrad/ant__adj"/></e>
     <e lm="civil"><i>civil</i><par n="social__adj"/></e>
-    <e lm="clemente"><i>clemente</i><par n="social__adj"/></e>
+    <e lm="clement"><i>clem</i><par n="difer/ent__adj"/></e>
     <e lm="clerical"><i>clerical</i><par n="social__adj"/></e>
-    <e lm="coherente"><i>coherente</i><par n="social__adj"/></e>
-    <e lm="coincidente"><i>coincidente</i><par n="social__adj"/></e>
+    <e lm="coherent"><i>coher</i><par n="difer/ent__adj"/></e>
+    <e lm="coincident"><i>coincid</i><par n="difer/ent__adj"/></e>
     <e lm="colaboracionista"><i>colaboracionista</i><par n="social__adj"/></e>
     <e lm="colateral"><i>colateral</i><par n="social__adj"/></e>
     <e lm="colectivista"><i>colectivista</i><par n="social__adj"/></e>
@@ -18652,7 +18820,7 @@
     <e lm="comprensible"><i>comprensible</i><par n="social__adj"/></e>
     <e lm="común"><i>común</i><par n="social__adj"/></e>
     <e lm="comunal"><i>comunal</i><par n="social__adj"/></e>
-    <e lm="comunicante"><i>comunicante</i><par n="social__adj"/></e>
+    <e lm="comunicant"><i>comunic</i><par n="degrad/ant__adj"/></e>
     <e lm="comunista"><i>comunista</i><par n="social__adj"/></e>
     <e lm="conceptual"><i>conceptual</i><par n="social__adj"/></e>
     <e lm="concorde"><i>concorde</i><par n="social__adj"/></e>
@@ -18666,10 +18834,10 @@
     <e lm="congresual"><i>congresual</i><par n="social__adj"/></e>
     <e lm="consensual"><i>consensual</i><par n="social__adj"/></e>
     <e lm="considerable"><i>considerable</i><par n="social__adj"/></e>
-    <e lm="consiguiente"><i>consiguiente</i><par n="social__adj"/></e>
+    <e lm="consiguient"><i>consigui</i><par n="difer/ent__adj"/></e>
     <e lm="consistorial"><i>consistorial</i><par n="social__adj"/></e>
-    <e lm="consonante"><i>consonante</i><par n="social__adj"/></e>
-    <e lm="constante"><i>constante</i><par n="social__adj"/></e>
+    <e lm="consonant"><i>conson</i><par n="degrad/ant__adj"/></e>
+    <e lm="constant"><i>const</i><par n="degrad/ant__adj"/></e>
     <e lm="constitucional"><i>constitucional</i><par n="social__adj"/></e>
     <e lm="consular"><i>consular</i><par n="social__adj"/></e>
     <e lm="consultable"><i>consultable</i><par n="social__adj"/></e>
@@ -18679,22 +18847,22 @@
     <e lm="continental"><i>continental</i><par n="social__adj"/></e>
     <e lm="contráctil"><i>contráctil</i><par n="social__adj"/></e>
     <e lm="convencional"><i>convencional</i><par n="social__adj"/></e>
-    <e lm="conveniente"><i>conveniente</i><par n="social__adj"/></e>
+    <e lm="convenient"><i>conveni</i><par n="difer/ent__adj"/></e>
     <e lm="conyugal"><i>conyugal</i><par n="social__adj"/></e>
     <e lm="cooficial"><i>cooficial</i><par n="social__adj"/></e>
     <e lm="coral"><i>coral</i><par n="social__adj"/></e>
     <e lm="cordial"><i>cordial</i><par n="social__adj"/></e>
     <e lm="corporal"><i>corporal</i><par n="social__adj"/></e>
     <e lm="corpuscular"><i>corpuscular</i><par n="social__adj"/></e>
-    <e lm="correspondiente"><i>correspondiente</i><par n="social__adj"/></e>
-    <e lm="corriente"><i>corriente</i><par n="social__adj"/></e>
+    <e lm="correspondient"><i>correspondi</i><par n="difer/ent__adj"/></e>
+    <e lm="corrient"><i>corri</i><par n="difer/ent__adj"/></e>
     <e lm="cosmopolita"><i>cosmopolita</i><par n="social__adj"/></e>
     <e lm="costumbrista"><i>costumbrista</i><par n="social__adj"/></e>
     <e lm="criminal"><i>criminal</i><par n="social__adj"/></e>
     <e lm="croata"><i>croata</i><par n="social__adj"/></e>
     <e lm="crucial"><i>crucial</i><par n="social__adj"/></e>
     <e lm="cruel"><i>cruel</i><par n="social__adj"/></e>
-    <e lm="crujiente"><i>crujiente</i><par n="social__adj"/></e>
+    <e lm="crujient"><i>cruji</i><par n="difer/ent__adj"/></e>
     <e lm="cuadrangular"><i>cuadrangular</i><par n="social__adj"/></e>
     <e lm="cualquiera"><i>cualquiera</i><par n="social__adj"/></e>
     <e lm="cuantificable"><i>cuantificable</i><par n="social__adj"/></e>
@@ -18708,20 +18876,20 @@
     <e lm="dental"><i>dental</i><par n="social__adj"/></e>
     <e lm="departamental"><i>departamental</i><par n="social__adj"/></e>
     <e lm="deplorable"><i>deplorable</i><par n="social__adj"/></e>
-    <e lm="derechista"><i>derechista</i><par n="social__adj"/></e>
+    <e lm="dreitista"><i>dreitista</i><par n="social__adj"/></e>
     <e lm="desaconsejable"><i>desaconsejable</i><par n="social__adj"/></e>
     <e lm="desagradable"><i>desagradable</i><par n="social__adj"/></e>
     <e lm="deseable"><i>deseable</i><par n="social__adj"/></e>
     <e lm="desfavorable"><i>desfavorable</i><par n="social__adj"/></e>
     <e lm="desigual"><i>desigual</i><par n="social__adj"/></e>
     <e lm="destacable"><i>destacable</i><par n="social__adj"/></e>
-    <e lm="determinante"><i>determinante</i><par n="social__adj"/></e>
+    <e lm="determinant"><i>determin</i><par n="degrad/ant__adj"/></e>
     <e lm="diagonal"><i>diagonal</i><par n="social__adj"/></e>
     <e lm="dialectal"><i>dialectal</i><par n="social__adj"/></e>
     <e lm="diesel"><i>diesel</i><par n="social__adj"/></e>
     <e lm="diferenciable"><i>diferenciable</i><par n="social__adj"/></e>
     <e lm="diferencial"><i>diferencial</i><par n="social__adj"/></e>
-    <e lm="diferente"><i>diferente</i><par n="social__adj"/></e>
+    <e lm="diferent"><i>difer</i><par n="difer/ent__adj"/></e>
     <e lm="difícil"><i>difícil</i><par n="social__adj"/></e>
     <e lm="dimensional"><i>dimensional</i><par n="social__adj"/></e>
     <e lm="diploide"><i>diploide</i><par n="social__adj"/></e>
@@ -18730,10 +18898,10 @@
     <e lm="distinguible"><i>distinguible</i><par n="social__adj"/></e>
     <e lm="divisible"><i>divisible</i><par n="social__adj"/></e>
     <e lm="doble"><i>doble</i><par n="social__adj"/></e>
-    <e lm="docente"><i>docente</i><par n="social__adj"/></e>
+    <e lm="docent"><i>doc</i><par n="difer/ent__adj"/></e>
     <e lm="doctoral"><i>doctoral</i><par n="social__adj"/></e>
     <e lm="documental"><i>documental</i><par n="social__adj"/></e>
-    <e lm="dominante"><i>dominante</i><par n="social__adj"/></e>
+    <e lm="dominant"><i>domin</i><par n="degrad/ant__adj"/></e>
     <e lm="dorsal"><i>dorsal</i><par n="social__adj"/></e>
     <e lm="dual"><i>dual</i><par n="social__adj"/></e>
     <e lm="ducal"><i>ducal</i><par n="social__adj"/></e>
@@ -18743,18 +18911,18 @@
     <e lm="ecuatorial"><i>ecuatorial</i><par n="social__adj"/></e>
     <e lm="editorial"><i>editorial</i><par n="social__adj"/></e>
     <e lm="eficaz"><i>eficaz</i><par n="social__adj"/></e>
-    <e lm="eficiente"><i>eficiente</i><par n="social__adj"/></e>
+    <e lm="eficient"><i>efici</i><par n="difer/ent__adj"/></e>
     <e lm="electoral"><i>electoral</i><par n="social__adj"/></e>
     <e lm="elemental"><i>elemental</i><par n="social__adj"/></e>
     <e lm="elitista"><i>elitista</i><par n="social__adj"/></e>
-    <e lm="eminente"><i>eminente</i><par n="social__adj"/></e>
+    <e lm="eminent"><i>emin</i><par n="difer/ent__adj"/></e>
     <e lm="empirista"><i>empirista</i><par n="social__adj"/></e>
     <e lm="empresarial"><i>empresarial</i><par n="social__adj"/></e>
     <e lm="enorme"><i>enorme</i><par n="social__adj"/></e>
     <e lm="entusiasta"><i>entusiasta</i><par n="social__adj"/></e>
     <e lm="episcopal"><i>episcopal</i><par n="social__adj"/></e>
-    <e lm="equidistante"><i>equidistante</i><par n="social__adj"/></e>
-    <e lm="equivalente"><i>equivalente</i><par n="social__adj"/></e>
+    <e lm="equidistant"><i>equidist</i><par n="degrad/ant__adj"/></e>
+    <e lm="equivalent"><i>equival</i><par n="difer/ent__adj"/></e>
     <e lm="esclavista"><i>esclavista</i><par n="social__adj"/></e>
     <e lm="escolar"><i>escolar</i><par n="social__adj"/></e>
     <e lm="esencial"><i>esencial</i><par n="social__adj"/></e>
@@ -18774,7 +18942,7 @@
     <e lm="estatal"><i>estatal</i><par n="social__adj"/></e>
     <e lm="estelar"><i>estelar</i><par n="social__adj"/></e>
     <e lm="estéril"><i>estéril</i><par n="social__adj"/></e>
-    <e lm="estimulante"><i>estimulante</i><par n="social__adj"/></e>
+    <e lm="estimulant"><i>estimul</i><par n="degrad/ant__adj"/></e>
     <e lm="estival"><i>estival</i><par n="social__adj"/></e>
     <e lm="estructural"><i>estructural</i><par n="social__adj"/></e>
     <e lm="estructuralista"><i>estructuralista</i><par n="social__adj"/></e>
@@ -18785,12 +18953,12 @@
     <e lm="eucariota"><i>eucariota</i><par n="social__adj"/></e>
     <e lm="euskera"><i>euskera</i><par n="social__adj"/></e>
     <e lm="evangelista"><i>evangelista</i><par n="social__adj"/></e>
-    <e lm="evidente"><i>evidente</i><par n="social__adj"/></e>
+    <e lm="evident"><i>evid</i><par n="difer/ent__adj"/></e>
     <e lm="evolucionista"><i>evolucionista</i><par n="social__adj"/></e>
-    <e lm="excelente"><i>excelente</i><par n="social__adj"/></e>
+    <e lm="excelent"><i>excel</i><par n="difer/ent__adj"/></e>
     <e lm="excepcional"><i>excepcional</i><par n="social__adj"/></e>
     <e lm="existencialista"><i>existencialista</i><par n="social__adj"/></e>
-    <e lm="existente"><i>existente</i><par n="social__adj"/></e>
+    <e lm="existent"><i>exist</i><par n="difer/ent__adj"/></e>
     <e lm="expansionista"><i>expansionista</i><par n="social__adj"/></e>
     <e lm="experimental"><i>experimental</i><par n="social__adj"/></e>
     <e lm="exponencial"><i>exponencial</i><par n="social__adj"/></e>
@@ -18828,7 +18996,7 @@
     <e lm="franquista"><i>franquista</i><par n="social__adj"/></e>
     <e lm="fraternal"><i>fraternal</i><par n="social__adj"/></e>
     <e lm="fratricida"><i>fratricida</i><par n="social__adj"/></e>
-    <e lm="frecuente"><i>frecuente</i><par n="social__adj"/></e>
+    <e lm="frecuent"><i>frecu</i><par n="difer/ent__adj"/></e>
     <e lm="frontal"><i>frontal</i><par n="social__adj"/></e>
     <e lm="frutal"><i>frutal</i><par n="social__adj"/></e>
     <e lm="fuerte"><i>fuerte</i><par n="social__adj"/></e>
@@ -18873,10 +19041,10 @@
     <e lm="imperial"><i>imperial</i><par n="social__adj"/></e>
     <e lm="impermeable"><i>impermeable</i><par n="social__adj"/></e>
     <e lm="impersonal"><i>impersonal</i><par n="social__adj"/></e>
-    <e lm="importante"><i>importante</i><par n="social__adj"/></e>
+    <e lm="important"><i>import</i><par n="degrad/ant__adj"/></e>
     <e lm="imposible"><i>imposible</i><par n="social__adj"/></e>
     <e lm="imprescindible"><i>imprescindible</i><par n="social__adj"/></e>
-    <e lm="impresionante"><i>impresionante</i><par n="social__adj"/></e>
+    <e lm="impresionant"><i>impresion</i><par n="degrad/ant__adj"/></e>
     <e lm="impresionista"><i>impresionista</i><par n="social__adj"/></e>
     <e lm="imprevista"><i>imprevista</i><par n="social__adj"/></e>
     <e lm="improbable"><i>improbable</i><par n="social__adj"/></e>
@@ -18886,16 +19054,16 @@
     <e lm="incalculable"><i>incalculable</i><par n="social__adj"/></e>
     <e lm="incansable"><i>incansable</i><par n="social__adj"/></e>
     <e lm="incapaz"><i>incapaz</i><par n="social__adj"/></e>
-    <e lm="incipiente"><i>incipiente</i><par n="social__adj"/></e>
+    <e lm="incipient"><i>incipi</i><par n="difer/ent__adj"/></e>
     <e lm="inclasificable"><i>inclasificable</i><par n="social__adj"/></e>
     <e lm="incompatible"><i>incompatible</i><par n="social__adj"/></e>
     <e lm="incondicional"><i>incondicional</i><par n="social__adj"/></e>
     <e lm="inconformista"><i>inconformista</i><par n="social__adj"/></e>
     <e lm="inconfundible"><i>inconfundible</i><par n="social__adj"/></e>
-    <e lm="inconsciente"><i>inconsciente</i><par n="social__adj"/></e>
+    <e lm="inconscient"><i>inconsci</i><par n="difer/ent__adj"/></e>
     <e lm="inconstitucional"><i>inconstitucional</i><par n="social__adj"/></e>
     <e lm="incontable"><i>incontable</i><par n="social__adj"/></e>
-    <e lm="independiente"><i>independiente</i><par n="social__adj"/></e>
+    <e lm="independient"><i>independi</i><par n="difer/ent__adj"/></e>
     <e lm="indígena"><i>indígena</i><par n="social__adj"/></e>
     <e lm="indiscutible"><i>indiscutible</i><par n="social__adj"/></e>
     <e lm="indispensable"><i>indispensable</i><par n="social__adj"/></e>
@@ -18931,7 +19099,7 @@
     <e lm="intercambiable"><i>intercambiable</i><par n="social__adj"/></e>
     <e lm="intercontinental"><i>intercontinental</i><par n="social__adj"/></e>
     <e lm="intercultural"><i>intercultural</i><par n="social__adj"/></e>
-    <e lm="interesante"><i>interesante</i><par n="social__adj"/></e>
+    <e lm="interesant"><i>interes</i><par n="degrad/ant__adj"/></e>
     <e lm="interior"><i>interior</i><par n="social__adj"/></e>
     <e lm="interminable"><i>interminable</i><par n="social__adj"/></e>
     <e lm="intermolecular"><i>intermolecular</i><par n="social__adj"/></e>
@@ -18955,7 +19123,7 @@
     <e lm="irrevocable"><i>irrevocable</i><par n="social__adj"/></e>
     <e lm="islamista"><i>islamista</i><par n="social__adj"/></e>
     <e lm="israelí"><i>israelí</i><par n="social__adj"/></e>
-    <e lm="itinerante"><i>itinerante</i><par n="social__adj"/></e>
+    <e lm="itinerant"><i>itiner</i><par n="degrad/ant__adj"/></e>
     <e lm="joven"><i>joven</i><par n="social__adj"/></e>
     <e lm="judicial"><i>judicial</i><par n="social__adj"/></e>
     <e lm="júnior"><i>júnior</i><par n="social__adj"/></e>
@@ -19008,7 +19176,7 @@
     <e lm="mensual"><i>mensual</i><par n="social__adj"/></e>
     <e lm="mental"><i>mental</i><par n="social__adj"/></e>
     <e lm="mentalista"><i>mentalista</i><par n="social__adj"/></e>
-    <e lm="mercante"><i>mercante</i><par n="social__adj"/></e>
+    <e lm="mercant"><i>merc</i><par n="degrad/ant__adj"/></e>
     <e lm="mercantil"><i>mercantil</i><par n="social__adj"/></e>
     <e lm="meridional"><i>meridional</i><par n="social__adj"/></e>
     <e lm="militar"><i>militar</i><par n="social__adj"/></e>
@@ -19064,7 +19232,7 @@
     <e lm="nuclear"><i>nuclear</i><par n="social__adj"/></e>
     <e lm="numeral"><i>numeral</i><par n="social__adj"/></e>
     <e lm="nutricional"><i>nutricional</i><par n="social__adj"/></e>
-    <e lm="nutriente"><i>nutriente</i><par n="social__adj"/></e>
+    <e lm="nutrient"><i>nutri</i><par n="difer/ent__adj"/></e>
     <e lm="ocasional"><i>ocasional</i><par n="social__adj"/></e>
     <e lm="occidental"><i>occidental</i><par n="social__adj"/></e>
     <e lm="ocular"><i>ocular</i><par n="social__adj"/></e>
@@ -19091,7 +19259,7 @@
     <e lm="parcial"><i>parcial</i><par n="social__adj"/></e>
     <e lm="parroquial"><i>parroquial</i><par n="social__adj"/></e>
     <e lm="particular"><i>particular</i><par n="social__adj"/></e>
-    <e lm="patente"><i>patente</i><par n="social__adj"/></e>
+    <e lm="patent"><i>pat</i><par n="difer/ent__adj"/></e>
     <e lm="patriarcal"><i>patriarcal</i><par n="social__adj"/></e>
     <e lm="patrimonial"><i>patrimonial</i><par n="social__adj"/></e>
     <e lm="patriota"><i>patriota</i><par n="social__adj"/></e>
@@ -19099,7 +19267,7 @@
     <e lm="paulista"><i>paulista</i><par n="social__adj"/></e>
     <e lm="peculiar"><i>peculiar</i><par n="social__adj"/></e>
     <e lm="penal"><i>penal</i><par n="social__adj"/></e>
-    <e lm="pendiente"><i>pendiente</i><par n="social__adj"/></e>
+    <e lm="pendient"><i>pendi</i><par n="difer/ent__adj"/></e>
     <e lm="peninsular"><i>peninsular</i><par n="social__adj"/></e>
     <e lm="penitencial"><i>penitencial</i><par n="social__adj"/></e>
     <e lm="pentagonal"><i>pentagonal</i><par n="social__adj"/></e>
@@ -19107,14 +19275,15 @@
     <e lm="perceptible"><i>perceptible</i><par n="social__adj"/></e>
     <e lm="perenne"><i>perenne</i><par n="social__adj"/></e>
     <e lm="perimetral"><i>perimetral</i><par n="social__adj"/></e>
-    <e lm="permanente"><i>permanente</i><par n="social__adj"/></e>
+    <e lm="permanent"><i>perman</i><par n="difer/ent__adj"/></e>
     <e lm="permeable"><i>permeable</i><par n="social__adj"/></e>
     <e lm="peronista"><i>peronista</i><par n="social__adj"/></e>
     <e lm="perpendicular"><i>perpendicular</i><par n="social__adj"/></e>
     <e lm="persa"><i>persa</i><par n="social__adj"/></e>
     <e lm="personal"><i>personal</i><par n="social__adj"/></e>
-    <e lm="perteneciente"><i>perteneciente</i><par n="social__adj"/></e>
-    <e lm="pertinente"><i>pertinente</i><par n="social__adj"/></e>
+    
+    <e lm="perteneixient"><i>perteneix</i><par n="difer/ent__adj"/></e>
+    <e lm="pertinent"><i>pertin</i><par n="difer/ent__adj"/></e>
     <e lm="piloto"><i>piloto</i><par n="social__adj"/></e>
     <e lm="piramidal"><i>piramidal</i><par n="social__adj"/></e>
     <e lm="pirata"><i>pirata</i><par n="social__adj"/></e>
@@ -19125,7 +19294,7 @@
     <e lm="plurinacional"><i>plurinacional</i><par n="social__adj"/></e>
     <e lm="pluvial"><i>pluvial</i><par n="social__adj"/></e>
     <e lm="poblacional"><i>poblacional</i><par n="social__adj"/></e>
-    <e lm="pobre"><i>pobre</i><par n="social__adj"/></e>
+    <e lm="pobre"><i>pobr</i><par n="verd/e__adj"/></e>
     <e lm="polar"><i>polar</i><par n="social__adj"/></e>
     <e lm="policía"><i>policía</i><par n="social__adj"/></e>
     <e lm="policial"><i>policial</i><par n="social__adj"/></e>
@@ -19140,18 +19309,18 @@
     <e lm="potencial"><i>potencial</i><par n="social__adj"/></e>
     <e lm="practicable"><i>practicable</i><par n="social__adj"/></e>
     <e lm="predecible"><i>predecible</i><par n="social__adj"/></e>
-    <e lm="preferente"><i>preferente</i><par n="social__adj"/></e>
+    <e lm="preferent"><i>prefer</i><par n="difer/ent__adj"/></e>
     <e lm="preferible"><i>preferible</i><par n="social__adj"/></e>
     <e lm="preliminar"><i>preliminar</i><par n="social__adj"/></e>
     <e lm="preposicional"><i>preposicional</i><par n="social__adj"/></e>
-    <e lm="presente"><i>presente</i><par n="social__adj"/></e>
+    <e lm="present"><i>pres</i><par n="difer/ent__adj"/></e>
     <e lm="presidencial"><i>presidencial</i><par n="social__adj"/></e>
     <e lm="presidencialista"><i>presidencialista</i><par n="social__adj"/></e>
     <e lm="primordial"><i>primordial</i><par n="social__adj"/></e>
     <e lm="principal"><i>principal</i><par n="social__adj"/></e>
     <e lm="probable"><i>probable</i><par n="social__adj"/></e>
     <e lm="procariota"><i>procariota</i><par n="social__adj"/></e>
-    <e lm="procedente"><i>procedente</i><par n="social__adj"/></e>
+    <e lm="procedent"><i>proced</i><par n="difer/ent__adj"/></e>
     <e lm="profesional"><i>profesional</i><par n="social__adj"/></e>
     <e lm="progresista"><i>progresista</i><par n="social__adj"/></e>
     <e lm="pronominal"><i>pronominal</i><par n="social__adj"/></e>
@@ -19161,25 +19330,25 @@
     <e lm="provenzal"><i>provenzal</i><par n="social__adj"/></e>
     <e lm="provincial"><i>provincial</i><par n="social__adj"/></e>
     <e lm="proximal"><i>proximal</i><par n="social__adj"/></e>
-    <e lm="prudente"><i>prudente</i><par n="social__adj"/></e>
+    <e lm="prudent"><i>prud</i><par n="difer/ent__adj"/></e>
     <e lm="pulmonar"><i>pulmonar</i><par n="social__adj"/></e>
     <e lm="puntual"><i>puntual</i><par n="social__adj"/></e>
     <e lm="racial"><i>racial</i><par n="social__adj"/></e>
     <e lm="racional"><i>racional</i><par n="social__adj"/></e>
     <e lm="racista"><i>racista</i><par n="social__adj"/></e>
     <e lm="radial"><i>radial</i><par n="social__adj"/></e>
-    <e lm="radiante"><i>radiante</i><par n="social__adj"/></e>
+    <e lm="radiant"><i>radi</i><par n="degrad/ant__adj"/></e>
     <e lm="radical"><i>radical</i><par n="social__adj"/></e>
     <e lm="razonable"><i>razonable</i><par n="social__adj"/></e>
     <e lm="real"><i>real</i><par n="social__adj"/></e>
     <e lm="realista"><i>realista</i><par n="social__adj"/></e>
     <e lm="rebelde"><i>rebelde</i><par n="social__adj"/></e>
-    <e lm="reciente"><i>reciente</i><par n="social__adj"/></e>
+    <e lm="recient"><i>reci</i><par n="difer/ent__adj"/></e>
     <e lm="recomendable"><i>recomendable</i><par n="social__adj"/></e>
     <e lm="rectangular"><i>rectangular</i><par n="social__adj"/></e>
-    <e lm="redundante"><i>redundante</i><par n="social__adj"/></e>
-    <e lm="regional"><i>regional</i><par n="social__adj"/></e>
-    <e lm="regionalista"><i>regionalista</i><par n="social__adj"/></e>
+    <e lm="redundant"><i>redund</i><par n="degrad/ant__adj"/></e>
+    <e lm="rechional"><i>rechional</i><par n="social__adj"/></e>
+    <e lm="rechionalista"><i>rechionalista</i><par n="social__adj"/></e>
     <e lm="regular"><i>regular</i><par n="social__adj"/></e>
     <e lm="relativista"><i>relativista</i><par n="social__adj"/></e>
     <e lm="remarcable"><i>remarcable</i><par n="social__adj"/></e>
@@ -19189,7 +19358,7 @@
     <e lm="rentable"><i>rentable</i><par n="social__adj"/></e>
     <e lm="residencial"><i>residencial</i><par n="social__adj"/></e>
     <e lm="residual"><i>residual</i><par n="social__adj"/></e>
-    <e lm="resistente"><i>resistente</i><par n="social__adj"/></e>
+    <e lm="resistent"><i>resist</i><par n="difer/ent__adj"/></e>
     <e lm="respetable"><i>respetable</i><par n="social__adj"/></e>
     <e lm="responsable"><i>responsable</i><par n="social__adj"/></e>
     <e lm="ritual"><i>ritual</i><par n="social__adj"/></e>
@@ -19200,7 +19369,7 @@
     <e lm="rural"><i>rural</i><par n="social__adj"/></e>
     <e lm="sadomasoquista"><i>sadomasoquista</i><par n="social__adj"/></e>
     <e lm="saharaui"><i>saharaui</i><par n="social__adj"/></e>
-    <e lm="salvaje"><i>salvaje</i><par n="social__adj"/></e>
+    <e lm="salvache"><i>salvache</i><par n="social__adj"/></e>
     <e lm="sandinista"><i>sandinista</i><par n="social__adj"/></e>
     <e lm="secesionista"><i>secesionista</i><par n="social__adj"/></e>
     <e lm="sectorial"><i>sectorial</i><par n="social__adj"/></e>
@@ -19211,7 +19380,7 @@
     <e lm="seminal"><i>seminal</i><par n="social__adj"/></e>
     <e lm="semita"><i>semita</i><par n="social__adj"/></e>
     <e lm="senatorial"><i>senatorial</i><par n="social__adj"/></e>
-    <e lm="señorial"><i>señorial</i><par n="social__adj"/></e>
+    <e lm="senyorial"><i>senyorial</i><par n="social__adj"/></e>
     <e lm="sensacional"><i>sensacional</i><par n="social__adj"/></e>
     <e lm="sensible"><i>sensible</i><par n="social__adj"/></e>
     <e lm="sensorial"><i>sensorial</i><par n="social__adj"/></e>
@@ -19221,30 +19390,31 @@
     <e lm="septentrional"><i>septentrional</i><par n="social__adj"/></e>
     <e lm="sexual"><i>sexual</i><par n="social__adj"/></e>
     <e lm="sideral"><i>sideral</i><par n="social__adj"/></e>
-    <e lm="siguiente"><i>siguiente</i><par n="social__adj"/></e>
+    <e lm="siguient"><i>sigui</i><par n="difer/ent__adj"/></e>
     <e lm="silvestre"><i>silvestre</i><par n="social__adj"/></e>
     <e lm="similar"><i>similar</i><par n="social__adj"/></e>
-    <e lm="simpatizante"><i>simpatizante</i><par n="social__adj"/></e>
+    <e lm="simpatizant"><i>simpatiz</i><par n="degrad/ant__adj"/></e>
     <e lm="simple"><i>simple</i><par n="social__adj"/></e>
     <e lm="sindical"><i>sindical</i><par n="social__adj"/></e>
     <e lm="singular"><i>singular</i><par n="social__adj"/></e>
     <e lm="sionista"><i>sionista</i><par n="social__adj"/></e>
     <e lm="soberanista"><i>soberanista</i><par n="social__adj"/></e>
     <e lm="sociable"><i>sociable</i><par n="social__adj"/></e>
-    <e lm="meyor"><i>meyor</i><par n="social__adj"/></e>
     <e lm="millor"><i>millor</i><par n="social__adj"/></e>
+    <e lm="millor" r="LR"><p><l>mellor</l><r>millor</r></p><par n="social__adj"/></e>
+    <e lm="millor" r="LR"><p><l>mejor</l><r>millor</r></p><par n="social__adj"/></e>
     <e lm="social"><i>social</i><par n="social__adj"/></e>
     <e lm="socialdemócrata"><i>socialdemócrata</i><par n="social__adj"/></e>
     <e lm="socialista"><i>socialista</i><par n="social__adj"/></e>
     <e lm="solar"><i>solar</i><par n="social__adj"/></e>
     <e lm="solemne"><i>solemne</i><par n="social__adj"/></e>
     <e lm="soluble"><i>soluble</i><par n="social__adj"/></e>
-    <e lm="sorprendente"><i>sorprendente</i><par n="social__adj"/></e>
+    <e lm="sorprendent"><i>sorprend</i><par n="difer/ent__adj"/></e>
     <e lm="sostenible"><i>sostenible</i><par n="social__adj"/></e>
     <e lm="suave"><i>suave</i><par n="social__adj"/></e>
     <e lm="sublime"><i>sublime</i><par n="social__adj"/></e>
     <e lm="suboficial"><i>suboficial</i><par n="social__adj"/></e>
-    <e lm="suficiente"><i>suficiente</i><par n="social__adj"/></e>
+    <e lm="suficient"><i>sufici</i><par n="difer/ent__adj"/></e>
     <e lm="sunita"><i>sunita</i><par n="social__adj"/></e>
     <e lm="superficial"><i>superficial</i><par n="social__adj"/></e>
     <e lm="superior"><i>superior</i><par n="social__adj"/></e>
@@ -19253,10 +19423,12 @@
     <e lm="susceptible"><i>susceptible</i><par n="social__adj"/></e>
     <e lm="sustancial"><i>sustancial</i><par n="social__adj"/></e>
     <e lm="sustituible"><i>sustituible</i><par n="social__adj"/></e>
+    <e lm="sustituible" r="LR"><p><l>sustituyible</l><r>sustituible</r></p><par n="social__adj"/></e>
     <e lm="sutil"><i>sutil</i><par n="social__adj"/></e>
     <e lm="tal"><i>tal</i><par n="social__adj"/></e>
     <e lm="tarraconense"><i>tarraconense</i><par n="social__adj"/></e>
     <e lm="teatral"><i>teatral</i><par n="social__adj"/></e>
+    <e lm="teatral" r="LR"><p><l>teyatral</l><r>teatral</r></p><par n="social__adj"/></e>
     <e lm="temible"><i>temible</i><par n="social__adj"/></e>
     <e lm="temporal"><i>temporal</i><par n="social__adj"/></e>
     <e lm="tenue"><i>tenue</i><par n="social__adj"/></e>
@@ -19281,7 +19453,7 @@
     <e lm="traducible"><i>traducible</i><par n="social__adj"/></e>
     <e lm="transicional"><i>transicional</i><par n="social__adj"/></e>
     <e lm="transitable"><i>transitable</i><par n="social__adj"/></e>
-    <e lm="transparente"><i>transparente</i><par n="social__adj"/></e>
+    <e lm="transparent"><i>transpar</i><par n="difer/ent__adj"/></e>
     <e lm="transversal"><i>transversal</i><par n="social__adj"/></e>
     <e lm="trapezoidal"><i>trapezoidal</i><par n="social__adj"/></e>
     <e lm="triangular"><i>triangular</i><par n="social__adj"/></e>
@@ -19290,7 +19462,7 @@
     <e lm="trilingüe"><i>trilingüe</i><par n="social__adj"/></e>
     <e lm="triple"><i>triple</i><par n="social__adj"/></e>
     <e lm="triste"><i>triste</i><par n="social__adj"/></e>
-    <e lm="triunfante"><i>triunfante</i><par n="social__adj"/></e>
+    <e lm="triunfant"><i>triunf</i><par n="degrad/ant__adj"/></e>
     <e lm="troncal"><i>troncal</i><par n="social__adj"/></e>
     <e lm="tropical"><i>tropical</i><par n="social__adj"/></e>
     <e lm="tumoral"><i>tumoral</i><par n="social__adj"/></e>
@@ -19305,33 +19477,35 @@
     <e lm="unipartidista"><i>unipartidista</i><par n="social__adj"/></e>
     <e lm="universalista"><i>universalista</i><par n="social__adj"/></e>
     <e lm="usual"><i>usual</i><par n="social__adj"/></e>
-    <e lm="útil"><i>útil</i><par n="social__adj"/></e>
+    <e lm="util"><i>util</i><par n="social__adj"/></e>
+    <e lm="útil" r="LR"><p><l>útil</l><r>util</r></p><par n="Afganistán__np"/></e>
     <e lm="utilitarista"><i>utilitarista</i><par n="social__adj"/></e>
     <e lm="utilizable"><i>utilizable</i><par n="social__adj"/></e>
     <e lm="valencianista"><i>valencianista</i><par n="social__adj"/></e>
-    <e lm="valiente"><i>valiente</i><par n="social__adj"/></e>
+    <e lm="valient"><i>vali</i><par n="difer/ent__adj"/></e>
     <e lm="variable"><i>variable</i><par n="social__adj"/></e>
     <e lm="vascular"><i>vascular</i><par n="social__adj"/></e>
     <e lm="vecinal"><i>vecinal</i><par n="social__adj"/></e>
     <e lm="vectorial"><i>vectorial</i><par n="social__adj"/></e>
-    <e lm="vegetal"><i>vegetal</i><par n="social__adj"/></e>
+    <e lm="vegetal"><i>vechetal</i><par n="social__adj"/></e>
     <e lm="venerable"><i>venerable</i><par n="social__adj"/></e>
     <e lm="verbal"><i>verbal</i><par n="social__adj"/></e>
-    <e lm="verde"><i>verde</i><par n="social__adj"/></e>
+    <e lm="verde"><i>verd</i><par n="verd/e__adj"/></e>
     <e lm="vertebral"><i>vertebral</i><par n="social__adj"/></e>
     <e lm="vertical"><i>vertical</i><par n="social__adj"/></e>
     <e lm="vestibular"><i>vestibular</i><par n="social__adj"/></e>
     <e lm="viable"><i>viable</i><par n="social__adj"/></e>
     <e lm="vial"><i>vial</i><par n="social__adj"/></e>
     <e lm="vil"><i>vil</i><par n="social__adj"/></e>
-    <e lm="virgen"><i>virgen</i><par n="social__adj"/></e>
+    <e lm="virgen"><i>virchen</i><par n="social__adj"/></e>
     <e lm="virtual"><i>virtual</i><par n="social__adj"/></e>
     <e lm="visible"><i>visible</i><par n="social__adj"/></e>
     <e lm="visual"><i>visual</i><par n="social__adj"/></e>
     <e lm="vital"><i>vital</i><par n="social__adj"/></e>
     <e lm="vocacional"><i>vocacional</i><par n="social__adj"/></e>
-    <e lm="vocal"><i>vocal</i><par n="social__adj"/></e>
-    <e lm="volátil"><i>volátil</i><par n="social__adj"/></e>
+    <e lm="vocal"><i>vocal</i><par n="social__adj"/></e>    
+    <e lm="volátil"><i>volatil</i><par n="social__adj"/></e>
+    <e lm="volátil" r="LR"><p><l>volátil</l><r>volatil</r></p><par n="Afganistán__np"/></e>
     <e lm="vulgar"><i>vulgar</i><par n="social__adj"/></e>
     <e lm="vulnerable"><i>vulnerable</i><par n="social__adj"/></e>
     <e lm="yemení"><i>yemení</i><par n="social__adj"/></e>
@@ -19373,49 +19547,54 @@
     <e lm="cosa"><i>cosa</i><par n="luenga__n"/></e>
     <e lm="alternativa"><i>alternati</i><par n="normati/va__n"/></e>
     <e lm="americana"><i>americana</i><par n="luenga__n"/></e>
-    <e lm="baja"><i>baja</i><par n="luenga__n"/></e>
-    <e lm="caracteristica"><i>caracteristica</i><par n="luenga__n"/></e>
-    <e lm="castaña"><i>castaña</i><par n="luenga__n"/></e>
+    <e lm="baixa"><i>ba</i><par n="/ix_x__var"/><i>a</i><par n="luenga__n"/></e>
+    <e lm="caracteristica"><i>cara</i><par n="/ct_ut__var"/><i>eristica</i><par n="luenga__n"/></e>
+    <e lm="castanya"><i>castanya</i><par n="luenga__n"/></e>
     <e lm="casta"><i>casta</i><par n="luenga__n"/></e>
-    <e lm="clínica"><i>clínica</i><par n="luenga__n"/></e>
+    <e lm="clínica"><i>clinica</i><par n="luenga__n"/></e>
     <e lm="combinatoria"><i>combinatoria</i><par n="luenga__n"/></e>
     <e lm="cooperativa"><i>cooperati</i><par n="normati/va__n"/></e>
-    <e lm="crítica"><i>crítica</i><par n="luenga__n"/></e>
-    <e lm="crónica"><i>crónica</i><par n="luenga__n"/></e>
+    <e lm="critica"><i>critica</i><par n="luenga__n"/></e>
+    <e r="LR" lm="critica"><p><l>cretica</l><r>critica</r></p><par n="luenga__n"/></e>
+    <e lm="cronica"><i>cronica</i><par n="luenga__n"/></e>
     <e lm="cuerda"><i>cuerda</i><par n="luenga__n"/></e>
     <e lm="cursiva"><i>cursi</i><par n="normati/va__n"/></e>
     <e lm="curva"><i>cur</i><par n="normati/va__n"/></e>
-    <e lm="derecha"><i>derecha</i><par n="luenga__n"/></e>
+    <e lm="dreita"><i>dreita</i><par n="luenga__n"/></e>
     <e lm="didactica"><i>didactica</i><par n="luenga__n"/></e>
     <e lm="dinamica"><i>dinamica</i><par n="luenga__n"/></e>
     <e lm="directiva"><i>directi</i><par n="normati/va__n"/></e>
-    <e lm="dorada"><i>dorada</i><par n="luenga__n"/></e>
-    <e lm="electrónica"><i>electrónica</i><par n="luenga__n"/></e>
+    <e lm="dorada"><i>dora</i><par n="vega/da__n"/></e>
+    <e lm="electronica"><i>electronica</i><par n="luenga__n"/></e>
     <e lm="eliminatoria"><i>eliminatoria</i><par n="luenga__n"/></e>
     <e lm="exclusiva"><i>exclusi</i><par n="normati/va__n"/></e>
     <e lm="falta"><i>falta</i><par n="luenga__n"/></e>
     <e lm="fiera"><i>fiera</i><par n="luenga__n"/></e>
-    <e lm="fonética"><i>fonética</i><par n="luenga__n"/></e>
+    <e lm="fonetica"><i>fonetica</i><par n="luenga__n"/></e>
     <e lm="funeraria"><i>funeraria</i><par n="luenga__n"/></e>
     <e lm="gala"><i>gala</i><par n="luenga__n"/></e>
     <e lm="grasa"><i>grasa</i><par n="luenga__n"/></e>
     <e lm="indirecta"><i>indirecta</i><par n="luenga__n"/></e>
-    <e lm="informatica"><i>informatica</i><par n="luenga__n"/></e>
-    <e lm="inmobiliaria"><i>inmobiliaria</i><par n="luenga__n"/></e>
-    <e lm="izquierda"><i>izquierda</i><par n="luenga__n"/></e>
-    <e lm="judía"><i>judía</i><par n="luenga__n"/></e>
+    <e lm="informatica"><i>informatica</i><par n="luenga__n"/></e>  
+    <e lm="immobiliaria"><i>immobiliaria</i><par n="luenga__n"/></e>
+    <e r="LR" lm="immobiliaria"><p><l>inmobiliaria</l><r>immobiliaria</r></p><par n="luenga__n"/></e>
+    <e lm="ezquierda"><i>ezquierda</i><par n="luenga__n"/></e>
+    <e lm="cucha"><i>cucha</i><par n="luenga__n"/></e>
+    <e lm="chudía"><i>chudía</i><par n="luenga__n"/></e>
+    <e lm="chudieta"><i>chudieta</i><par n="luenga__n"/></e>
     <e lm="lingüistica"><i>lingüistica</i><par n="luenga__n"/></e>
     <e lm="lista"><i>lista</i><par n="luenga__n"/></e>
-    <e lm="llamada"><i>llamada</i><par n="luenga__n"/></e>
-    <e lm="lógica"><i>lógica</i><par n="luenga__n"/></e>
+    <e lm="gritada"><i>grita</i><par n="vega/da__n"/></e>
+    <e lm="lógica"><i>lochica</i><par n="luenga__n"/></e>
     <e lm="marina"><i>marina</i><par n="luenga__n"/></e>
     <e lm="matematica"><i>matematica</i><par n="luenga__n"/></e>
-    <e lm="mecánica"><i>mecánica</i><par n="luenga__n"/></e>
-    <e lm="mediana"><i>mediana</i><par n="luenga__n"/></e>
-    <e lm="media"><i>media</i><par n="luenga__n"/></e>
-    
+    <e lm="mecanica"><i>mecanica</i><par n="luenga__n"/></e>
+    <e lm="meyana"><i>meyana</i><par n="luenga__n"/></e>
+    <e r="LR" lm="meyana"><p><l>mediana</l><r>meyana</r></p><par n="luenga__n"/></e>
+    <e lm="meya"><i>meya</i><par n="luenga__n"/></e>
+    <e r="LR" lm="meya"><p><l>media</l><r>meya</r></p><par n="luenga__n"/></e>
     <e lm="miscelania"><i>miscelania</i><par n="luenga__n"/></e>
-    <e lm="morada"><i>morada</i><par n="luenga__n"/></e>  <!-- * -->
+    <e lm="morada"><i>mora</i><par n="vega/da__n"/></e>
     <e lm="muerta"><i>muerta</i><par n="luenga__n"/></e>
     <e lm="narrativa"><i>narrati</i><par n="normati/va__n"/></e>
     <e lm="negativa"><i>negati</i><par n="normati/va__n"/></e>
@@ -19623,7 +19802,7 @@
     <e lm="vaquero"><i>vaqu</i><par n="vaqu/ero__n"/></e>
     <e lm="vinatero"><i>vinat</i><par n="vaqu/ero__n"/></e>
     <e lm="fisica"><i>fisica</i><par n="luenga__n"/></e>
-    <e lm="pasada"><i>pasada</i><par n="luenga__n"/></e>
+    <e lm="pasada"><i>pasa</i><par n="vega/da__n"/></e>
     <e lm="platina"><i>platina</i><par n="luenga__n"/></e>
     <e lm="agresivo"><i>agresi</i><par n="cursi/vo__adj"/></e>
     <e lm="adquisitivo"><i>adquisiti</i><par n="cursi/vo__adj"/></e>
@@ -19760,13 +19939,12 @@
     <e lm="economico"><i>economic</i><par n="academic/o__adj"/></e>
     <e lm="democratico"><i>democratic</i><par n="academic/o__adj"/></e>
     <e lm="autentico"><i>autentic</i><par n="academic/o__adj"/></e>
-    <e lm="independient"><i>independient</i><par n="social__adj"/></e>
     <e lm="circular"><i>circular</i><par n="social__adj"/></e>
     <e lm="individual"><i>individual</i><par n="social__adj"/></e>
     <e lm="imparcial"><i>imparcial</i><par n="social__adj"/></e>
     <e lm="especial"><i>especial</i><par n="social__adj"/></e>
-    <e lm="equivalent"><i>equivalent</i><par n="social__adj"/></e>
-    <e lm="competent"><i>competent</i><par n="social__adj"/></e>
+    <e lm="equivalent"><i>equival</i><par n="difer/ent__adj"/></e>
+    <e lm="competent"><i>compet</i><par n="difer/ent__adj"/></e>
     <e lm="chudicial"><i>chudicial</i><par n="social__adj"/></e>
     <e lm="qualsiquiera"><i>qualsiquiera</i><par n="multimedia__adj"/></e>
     <e lm="sindicar"><i>sindi</i><par n="trafu/car__vblex"/></e>
@@ -19780,8 +19958,8 @@
     <e lm="voto"><i>voto</i><par n="libro__n"/></e>
     <e lm="ataque"><i>ataque</i><par n="libro__n"/></e>
     <e lm="honra"><i>honra</i><par n="luenga__n"/></e>
-    <e lm="degradant"><i>degradant</i><par n="social__adj"/></e>
-    <e lm="preferent"><i>preferent</i><par n="social__adj"/></e>
+    <e lm="degradant"><i>degrad</i><par n="degrad/ant__adj"/></e>    <!-- * -->
+    <e lm="preferent"><i>prefer</i><par n="difer/ent__adj"/></e>
     <e lm="artistico"><i>artistic</i><par n="academic/o__adj"/></e>
     <e lm="delictivo"><i>delicti</i><par n="cursi/vo__adj"/></e>
     <e lm="pacifico"><i>pacific</i><par n="academic/o__adj"/></e>
