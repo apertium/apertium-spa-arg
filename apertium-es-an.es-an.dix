@@ -202,7 +202,9 @@
     <e><p><l>pero<s n="cnjcoo"/></l><r>pero<s n="cnjcoo"/></r></p></e>
     <e><p><l>sino<s n="cnjcoo"/></l><r>sino<s n="cnjcoo"/></r></p></e>
     <e><p><l>y<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
-    <e r="RL"><p><l>y<s n="cnjcoo"/></l><r>i<s n="cnjcoo"/></r></p></e>
+    <e r="RL"><p><l>sin<b/>embargo<s n="cnjcoo"/></l><r>sin<b/>dembargo<s n="cnjcoo"/></r></p></e>
+    <e><p><l>sin<b/>embargo<s n="cnjcoo"/></l><r>manimenos<s n="cnjcoo"/></r></p></e>
+
     <!-- ******************************
           group adj_symbol
       ****************************** -->
@@ -490,7 +492,7 @@
     <e><p><l>causante<s n="adj"/></l><r>causant<s n="adj"/></r></p></e>
     <e><p><l>cautivo<s n="adj"/></l><r>cautivo<s n="adj"/></r></p></e>
     <e><p><l>cauto<s n="adj"/></l><r>cauto<s n="adj"/></r></p></e>
-    <e><p><l>caótico<s n="adj"/></l><r>caótico<s n="adj"/></r></p></e>
+    <e><p><l>caótico<s n="adj"/></l><r>caotico<s n="adj"/></r></p></e>
     <e><p><l>celebrado<s n="adj"/></l><r>celebrau<s n="adj"/></r></p></e>
     <e><i>celeste<s n="adj"/></i></e>
     <e><i>celestial<s n="adj"/></i></e>
@@ -652,7 +654,7 @@
     <e><i>cuneiforme<s n="adj"/></i></e>
     <e><p><l>curioso<s n="adj"/></l><r>curioso<s n="adj"/></r></p></e>
     <e><p><l>cursivo<s n="adj"/></l><r>cursivo<s n="adj"/></r></p></e>
-    <e><p><l>cálcico<s n="adj"/></l><r>cálcico<s n="adj"/></r></p></e>
+    <e><p><l>cálcico<s n="adj"/></l><r>calcico<s n="adj"/></r></p></e>
     <e><i>célebre<s n="adj"/></i></e>
     <e><p><l>cíclico<s n="adj"/></l><r>ciclico<s n="adj"/></r></p></e>
     <e><p><l>cívico<s n="adj"/></l><r>civico<s n="adj"/></r></p></e>
@@ -692,7 +694,8 @@
     <e><p><l>desierto<s n="adj"/></l><r>desierto<s n="adj"/></r></p></e>
     <e><i>desigual<s n="adj"/></i></e>
     <e><p><l>desinteresado<s n="adj"/></l><r>desinteresau<s n="adj"/></r></p></e>
-    <e><p><l>desnudo<s n="adj"/></l><r>desnudo<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>desnudo<s n="adj"/></l><r>desnudo<s n="adj"/></r></p></e>
+    <e><p><l>desnudo<s n="adj"/></l><r>espullau<s n="adj"/></r></p></e>
     <e><p><l>despectivo<s n="adj"/></l><r>despectivo<s n="adj"/></r></p></e>
     <e><i>destacable<s n="adj"/></i></e>
     <e><p><l>detallado<s n="adj"/></l><r>detallau<s n="adj"/></r></p></e>
@@ -1019,7 +1022,7 @@
     <e><i>guionista<s n="adj"/></i></e>
     <e><p><l>guipuzcoano<s n="adj"/></l><r>guipuzcoano<s n="adj"/></r></p></e>
     <e><i>guitarrista<s n="adj"/></i></e>
-    <e><p><l>gótico<s n="adj"/></l><r>gótico<s n="adj"/></r></p></e>
+    <e><p><l>gótico<s n="adj"/></l><r>gotico<s n="adj"/></r></p></e>
     <e><p><l>habano<s n="adj"/></l><r>habano<s n="adj"/></r></p></e>
     <e><i>habitual<s n="adj"/></i></e>
     <e><i>haploide<s n="adj"/></i></e>
@@ -2112,7 +2115,9 @@
     <e><p><l>a<b/>fin<b/>de<b/>que<s n="cnjadv"/></l><r>a<b/>fin<b/>de<b/>que<s n="cnjadv"/></r></p></e>
     <e><p><l>aunque<s n="cnjadv"/></l><r>anque<s n="cnjadv"/></r></p></e>
 
-    <e><p><l>entonces<s n="cnjadv"/></l><r>alabez<s n="cnjadv"/></r></p></e>
+    <e r="RL"><p><l>entonces<s n="cnjadv"/></l><r>alavez<s n="cnjadv"/></r></p></e>
+    <e r="RL"><p><l>entonces<s n="cnjadv"/></l><r>allora<s n="cnjadv"/></r></p></e>
+    <e r="RL"><p><l>entonces<s n="cnjadv"/></l><r>antonces<s n="cnjadv"/></r></p></e>
     <e><p><l>porque<s n="cnjadv"/></l><r>porque<s n="cnjadv"/></r></p></e>
     <e r="RL"><p><l>pues<s n="cnjadv"/></l><r>pues<s n="cnjadv"/></r></p></e>
     <e><p><l>pues<s n="cnjadv"/></l><r>pos<s n="cnjadv"/></r></p></e>
@@ -2121,7 +2126,7 @@
           group adv_symbol
       ****************************** -->
     <e r="RL"><p><l></l><r>pas<s n="adv"/></r></p></e>
-    <e><p><l>accidentalmente<s n="adv"/></l><r>azidentalment<s n="adv"/></r></p></e>
+    <e><p><l>accidentalmente<s n="adv"/></l><r>accidentalment<s n="adv"/></r></p></e>
     <e><p><l>activamente<s n="adv"/></l><r>activament<s n="adv"/></r></p></e>
     <e r="RL"><p><l>actualmente<s n="adv"/></l><r>autualment<s n="adv"/></r></p></e>
     <e><p><l>actualmente<s n="adv"/></l><r>actualment<s n="adv"/></r></p></e>
@@ -2129,14 +2134,8 @@
     <e><p><l>acá<s n="adv"/></l><r>acá<s n="adv"/></r></p></e>
     <e><p><l>adicionalmente<s n="adv"/></l><r>adizionalment<s n="adv"/></r></p></e>
     <e><p><l>administrativamente<s n="adv"/></l><r>administrativament<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>administrativamente<s n="adv"/></l><r>administrativament<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>administrativamente<s n="adv"/></l><r>almenistratibament<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>administrativamente<s n="adv"/></l><r>almenistrativament<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>administrativamente<s n="adv"/></l><r>alministratibament<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>administrativamente<s n="adv"/></l><r>alministrativament<s n="adv"/></r></p></e>
     <e><p><l>ahora<s n="adv"/></l><r>agora<s n="adv"/></r></p></e>
     <e><p><l>aleatoriamente<s n="adv"/></l><r>aleatoriament<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>aleatoriamente<s n="adv"/></l><r>aleyatoriament<s n="adv"/></r></p></e>
     <e><p><l>allá<s n="adv"/></l><r>allá<s n="adv"/></r></p></e>
     <e><p><l>allí<s n="adv"/></l><r>allí<s n="adv"/></r></p></e>
     <e><p><l>altamente<s n="adv"/></l><r>altament<s n="adv"/></r></p></e>
@@ -2163,11 +2162,11 @@
     <e><p><l>comercialmente<s n="adv"/></l><r>comercialment<s n="adv"/></r></p></e>
     <e><p><l>completamente<s n="adv"/></l><r>completament<s n="adv"/></r></p></e>
     <e><p><l>concretamente<s n="adv"/></l><r>concretament<s n="adv"/></r></p></e>
-    <e><p><l>conjuntamente<s n="adv"/></l><r>conjuntament<s n="adv"/></r></p></e>
-    <e><p><l>conscientemente<s n="adv"/></l><r>conscientement<s n="adv"/></r></p></e>
+    <e><p><l>conjuntamente<s n="adv"/></l><r>conchuntament<s n="adv"/></r></p></e>
+    <e><p><l>conscientemente<s n="adv"/></l><r>conscientment<s n="adv"/></r></p></e>
     <e><p><l>consecutivamente<s n="adv"/></l><r>consecutivament<s n="adv"/></r></p></e>
     <e><p><l>considerablemente<s n="adv"/></l><r>considerablement<s n="adv"/></r></p></e>
-    <e><p><l>constantemente<s n="adv"/></l><r>constantement<s n="adv"/></r></p></e>
+    <e><p><l>constantemente<s n="adv"/></l><r>constantment<s n="adv"/></r></p></e>
     <e><p><l>constitucionalmente<s n="adv"/></l><r>constitucionalment<s n="adv"/></r></p></e>
     <e><p><l>continuamente<s n="adv"/></l><r>continuament<s n="adv"/></r></p></e>
     <e><p><l>correctamente<s n="adv"/></l><r>correctament<s n="adv"/></r></p></e>
@@ -2205,7 +2204,7 @@
     <e><p><l>fonéticamente<s n="adv"/></l><r>foneticament<s n="adv"/></r></p></e>
     <e><p><l>formalmente<s n="adv"/></l><r>formalment<s n="adv"/></r></p></e>
     <e><p><l>fraternalmente<s n="adv"/></l><r>fraternalment<s n="adv"/></r></p></e>
-    <e><p><l>frecuentemente<s n="adv"/></l><r>frecuentement<s n="adv"/></r></p></e>
+    <e><p><l>frecuentemente<s n="adv"/></l><r>freqüentment<s n="adv"/></r></p></e>
     <e><p><l>fuertemente<s n="adv"/></l><r>fuertement<s n="adv"/></r></p></e>
     <e><p><l>fundamentalmente<s n="adv"/></l><r>fundamentalment<s n="adv"/></r></p></e>
     <e><p><l>fácilmente<s n="adv"/></l><r>fácilment<s n="adv"/></r></p></e>
@@ -2214,7 +2213,6 @@
     <e><p><l>genuinamente<s n="adv"/></l><r>chenuinament<s n="adv"/></r></p></e>
     <e><p><l>gradualmente<s n="adv"/></l><r>gradualment<s n="adv"/></r></p></e>
     <e><p><l>habitualmente<s n="adv"/></l><r>habitualment<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>habitualmente<s n="adv"/></l><r>abitualment<s n="adv"/></r></p></e>
     <e><p><l>horizontalmente<s n="adv"/></l><r>horizontalment<s n="adv"/></r></p></e>
     <e><p><l>igualmente<s n="adv"/></l><r>igualment<s n="adv"/></r></p></e>
     <e><p><l>ilegalmente<s n="adv"/></l><r>ilegalment<s n="adv"/></r></p></e>
@@ -2224,7 +2222,7 @@
     <e><p><l>individualmente<s n="adv"/></l><r>individualment<s n="adv"/></r></p></e>
     <e><p><l>informalmente<s n="adv"/></l><r>informalment<s n="adv"/></r></p></e>
     <e><p><l>inicialmente<s n="adv"/></l><r>inicialment<s n="adv"/></r></p></e>
-    <e><p><l>inmediatamente<s n="adv"/></l><r>inmediatament<s n="adv"/></r></p></e>
+    <e><p><l>inmediatamente<s n="adv"/></l><r>immediatament<s n="adv"/></r></p></e>
     <e><p><l>intensamente<s n="adv"/></l><r>intensament<s n="adv"/></r></p></e>
     <e><p><l>interiormente<s n="adv"/></l><r>interiorment<s n="adv"/></r></p></e>
     <e><p><l>internacionalmente<s n="adv"/></l><r>internacionalment<s n="adv"/></r></p></e>
@@ -2278,15 +2276,15 @@
     <e><p><l>posteriormente<s n="adv"/></l><r>posteriorment<s n="adv"/></r></p></e>
     <e><p><l>potencialmente<s n="adv"/></l><r>potencialment<s n="adv"/></r></p></e>
     <e><p><l>precisamente<s n="adv"/></l><r>precisament<s n="adv"/></r></p></e>
-    <e><p><l>preferentemente<s n="adv"/></l><r>preferentement<s n="adv"/></r></p></e>
+    <e><p><l>preferentemente<s n="adv"/></l><r>preferentment<s n="adv"/></r></p></e>
     <e><p><l>presumiblemente<s n="adv"/></l><r>presumiblement<s n="adv"/></r></p></e>
     <e><p><l>presuntamente<s n="adv"/></l><r>presuntament<s n="adv"/></r></p></e>
     <e><p><l>previamente<s n="adv"/></l><r>previament<s n="adv"/></r></p></e>
     <e><p><l>primeramente<s n="adv"/></l><r>primerament<s n="adv"/></r></p></e>
     <e><p><l>principalmente<s n="adv"/></l><r>principalment<s n="adv"/></r></p></e>
-    <e><p><l>probablemente<s n="adv"/></l><r>probablement<s n="adv"/></r></p></e>
+    <e><p><l>probablemente<s n="adv"/></l><r>prebablement<s n="adv"/></r></p></e>
     <e><p><l>profesionalmente<s n="adv"/></l><r>profesionalment<s n="adv"/></r></p></e>
-    <e><p><l>profundamente<s n="adv"/></l><r>profundament<s n="adv"/></r></p></e>
+    <e><p><l>profundamente<s n="adv"/></l><r>fundament<s n="adv"/></r></p></e>
     <e><p><l>progresivamente<s n="adv"/></l><r>progresivament<s n="adv"/></r></p></e>
     <e><p><l>propiamente<s n="adv"/></l><r>propiament<s n="adv"/></r></p></e>
     <e><p><l>provisionalmente<s n="adv"/></l><r>provisionalment<s n="adv"/></r></p></e>
@@ -2304,10 +2302,10 @@
     <e><p><l>semanalmente<s n="adv"/></l><r>semanalment<s n="adv"/></r></p></e>
     <e><p><l>separadamente<s n="adv"/></l><r>separadament<s n="adv"/></r></p></e>
     <e><p><l>significativamente<s n="adv"/></l><r>significativament<s n="adv"/></r></p></e>
-    <e><p><l>simplemente<s n="adv"/></l><r>simplement<s n="adv"/></r></p></e>
+    <e><p><l>simplemente<s n="adv"/></l><r>simplament<s n="adv"/></r></p></e>
     <e><p><l>singularmente<s n="adv"/></l><r>singularment<s n="adv"/></r></p></e>
     <e><p><l>socialmente<s n="adv"/></l><r>socialment<s n="adv"/></r></p></e>
-    <e><p><l>sucesivamente<s n="adv"/></l><r>sucesivament<s n="adv"/></r></p></e>
+    <e><p><l>sucesivamente<s n="adv"/></l><r>succesivament<s n="adv"/></r></p></e>
     <e><p><l>supuestamente<s n="adv"/></l><r>supuestament<s n="adv"/></r></p></e>
 
     <e><p><l>sólo<s n="adv"/></l><r>sólo<s n="adv"/></r></p></e>
@@ -2317,45 +2315,69 @@
     <e r="RL"><p><l>todavía<s n="adv"/></l><r>incara<s n="adv"/></r></p></e>
     <e><p><l>totalmente<s n="adv"/></l><r>totalment<s n="adv"/></r></p></e>
     <e><p><l>tradicionalmente<s n="adv"/></l><r>tradicionalment<s n="adv"/></r></p></e>
-    <e><p><l>tristemente<s n="adv"/></l><r>tristement<s n="adv"/></r></p></e>
+    <e><p><l>tristemente<s n="adv"/></l><r>tristament<s n="adv"/></r></p></e>
     <e><p><l>típicamente<s n="adv"/></l><r>tipicament<s n="adv"/></r></p></e>
     <e><p><l>unilateralmente<s n="adv"/></l><r>unilateralment<s n="adv"/></r></p></e>
     <e><p><l>universalmente<s n="adv"/></l><r>universalment<s n="adv"/></r></p></e>
     <e><p><l>usualmente<s n="adv"/></l><r>usualment<s n="adv"/></r></p></e>
     <e><p><l>verticalmente<s n="adv"/></l><r>verticalment<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>verticalmente<s n="adv"/></l><r>berticalment<s n="adv"/></r></p></e>
     <e><p><l>virtualmente<s n="adv"/></l><r>virtualment<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>virtualmente<s n="adv"/></l><r>birtualment<s n="adv"/></r></p></e>
-    <e><p><l>visualmente<s n="adv"/></l><r>bisualment<s n="adv"/></r></p></e>
+    <e><p><l>visualmente<s n="adv"/></l><r>visualment<s n="adv"/></r></p></e>
     <e><p><l>voluntariamente<s n="adv"/></l><r>voluntariament<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>voluntariamente<s n="adv"/></l><r>boluntariament<s n="adv"/></r></p></e>
-    <e><p><l>vulgarmente<s n="adv"/></l><r>bulgarment<s n="adv"/></r></p></e>
+    <e><p><l>vulgarmente<s n="adv"/></l><r>vulgarment<s n="adv"/></r></p></e>
     <e><p><l>ya<s n="adv"/></l><r>ya<s n="adv"/></r></p></e>
     <e><p><l>antes<s n="adv"/></l><r>antes<s n="adv"/></r></p></e>
     <!-- ******************************
           group pr_symbol
       ****************************** -->
-    <e><p><l>a<s n="pr"/></l><r>á<s n="pr"/></r></p></e>
+    <e><p><l>a<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
     <e><p><l>ante<s n="pr"/></l><r>debant<s n="pr"/></r></p></e>
     <e r="RL"><p><l>antes<s n="pr"/></l><r>abant<s n="pr"/></r></p></e>
     <e><p><l>antes<b/>de<s n="pr"/></l><r>antes<b/>de<s n="pr"/></r></p></e>
+    <e><p><l>bajo<s n="pr"/></l><r>baixo<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>hacia<s n="pr"/></l><r>cara<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>hacia<s n="pr"/></l><r>cara<b/>ta<s n="pr"/></r></p></e> <!-- en dirección a -->
     <e><p><l>como<s n="pr"/></l><r>como<s n="pr"/></r></p></e>
     <e><p><l>con<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
     <e><p><l>contra<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
-
     <e><p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+    <e><p><l>debajo<s n="pr"/></l><r>debaixo<s n="pr"/></r></p></e>
+    <e><p><l>detrás<s n="pr"/></l><r>dezaga<s n="pr"/></r></p></e>
+    <e><p><l>delante<s n="pr"/></l><r>debant<s n="pr"/></r></p></e>
+    <e><p><l>encima<s n="pr"/></l><r>dencima<s n="pr"/></r></p></e>
     <e><p><l>debajo<b/>de<s n="pr"/></l><r>debaixo<b/>de<s n="pr"/></r></p></e>
+    <e><p><l>debajo<b/>de<s n="pr"/></l><r>chus<s n="pr"/></r></p></e>
+    <e><p><l>detrás<b/>de<s n="pr"/></l><r>dezaga<b/>de<s n="pr"/></r></p></e>
+    <e><p><l>delante<b/>de<s n="pr"/></l><r>debant<b/>de<s n="pr"/></r></p></e>
+    <e><p><l>encima<b/>de<s n="pr"/></l><r>dencima<b/>de<s n="pr"/></r></p></e>
     <e><p><l>desde<s n="pr"/></l><r>dende<s n="pr"/></r></p></e>
     <e><p><l>en<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
     <e><p><l>entre<s n="pr"/></l><r>entre<s n="pr"/></r></p></e>
-    <e><p><l>hasta<s n="pr"/></l><r>asta<s n="pr"/></r></p></e>
-    <e><p><l>junto<b/>a<s n="pr"/></l><r>chunto<b/>á<s n="pr"/></r></p></e>
+    <e><p><l>hasta<s n="pr"/></l><r>dica<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>hasta<s n="pr"/></l><r>hasta<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>hasta<s n="pr"/></l><r>entro<b/>a<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>hasta<s n="pr"/></l><r>dica<b/>ta<s n="pr"/></r></p></e>
+    <e><p><l>junto<b/>a<s n="pr"/></l><r>chunto<b/>a<s n="pr"/></r></p></e>
     <e><p><l>mediante<s n="pr"/></l><r>por<b/>meyo<b/>de<s n="pr"/></r></p></e>
-    <e c="check"><p><l>para<s n="pr"/></l><r>ta<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>por<b/>medio<b/>de<s n="pr"/></l><r>por<b/>meyo<b/>de<s n="pr"/></r></p></e>
+    <e><p><l>por<b/>debajo<b/>de<s n="pr"/></l><r>por<b/>baixo<b/>de<s n="pr"/></r></p></e>
+    <e><p><l>por<b/>encima<b/>de<s n="pr"/></l><r>por<b/>alto<b/>de<s n="pr"/></r></p></e>
+    
+    <e><p><l>hacia<s n="pr"/></l><r>enta<s n="pr"/></r></p></e>
+    <e><p><l>hacia<s n="pr"/></l><r>ta<s n="pr"/></r></p></e>
+    <e><p><l>para<s n="pr"/></l><r>ta<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>para<s n="pr"/></l><r>pa<s n="pr"/></r></p></e>
     <e><p><l>por<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
     <e><p><l>respecto<b/>a<s n="pr"/></l><r>enta<s n="pr"/></r></p></e>
     <e><p><l>sin<s n="pr"/></l><r>sin<s n="pr"/></r></p></e>
+    <e><p><l>según<s n="pr"/></l><r>seguntes<s n="pr"/></r></p></e>
     <e><p><l>sobre<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+    <e><p><l>además<b/>de<s n="pr"/></l><r>amás<b/>de<s n="pr"/></r></p></e>
+    <e><p><l>lejos<b/>de<s n="pr"/></l><r>luen<b/>de<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>vez<b/>de<s n="pr"/></l><r>en<b/>cuenta<b/>de<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>en<b/>vez<b/>de<s n="pr"/></l><r>en<b/>guis<b/>de<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>en<b/>vez<b/>de<s n="pr"/></l><r>en<b/>cuentas<b/>de<s n="pr"/></r></p></e>
+
     <!-- ******************************
           group ij_symbol
       ****************************** -->
@@ -2637,7 +2659,6 @@
     <e><p><l>agitación<s n="n"/></l><r>achitación<s n="n"/></r></p></e>
     <e><p><l>aglomeración<s n="n"/></l><r>aglomeración<s n="n"/></r></p></e>
     <e><p><l>agnosticismo<s n="n"/></l><r>agnosticismo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>agnosticismo<s n="n"/></l><r>agnostizismo<s n="n"/></r></p></e>
     <e><p><l>agost<s n="n"/></l><r>agosto<s n="n"/></r></p></e>
     <e><p><l>agregación<s n="n"/></l><r>agregación<s n="n"/></r></p></e>
     <e><p><l>agrupación<s n="n"/></l><r>agrupación<s n="n"/></r></p></e>
@@ -2668,7 +2689,6 @@
     <e><p><l>analfabetismo<s n="n"/></l><r>analfabetismo<s n="n"/></r></p></e>
     <e><p><l>anarcocapitalismo<s n="n"/></l><r>anarco-capitalismo<s n="n"/></r></p></e>
     <e><p><l>anarcocomunismo<s n="n"/></l><r>anarcocomunismo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>anarcocomunismo<s n="n"/></l><r>anarco-comunismo<s n="n"/></r></p></e>
     <e><p><l>anarcocristianismo<s n="n"/></l><r>anarco-cristianismo<s n="n"/></r></p></e>
     <e><p><l>anarcosindicalismo<s n="n"/></l><r>anarcosendicalismo<s n="n"/></r></p></e>
     <e><p><l>anarquismo<s n="n"/></l><r>anarquismo<s n="n"/></r></p></e>
@@ -2681,20 +2701,18 @@
     <e><p><l>animismo<s n="n"/></l><r>animismo<s n="n"/></r></p></e>
     <e><p><l>anticapitalismo<s n="n"/></l><r>anticapitalismo<s n="n"/></r></p></e>
     <e><p><l>anticomunismo<s n="n"/></l><r>anticomunismo<s n="n"/></r></p></e>
-    <e><p><l>antifascismo<s n="n"/></l><r>antifaszismo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>antifascismo<s n="n"/></l><r>antifaxismo<s n="n"/></r></p></e>
+    <e><p><l>antifascismo<s n="n"/></l><r>antifaixismo<s n="n"/></r></p></e>
     <e><p><l>antigüedad<s n="n"/></l><r>antiguidat<s n="n"/></r></p></e>
     <e r="RL"><p><l>antigüedad<s n="n"/></l><r>antigüidat<s n="n"/></r></p></e>
-    <e><p><l>antiimperialismo<s n="n"/></l><r>anti-imperialismo<s n="n"/></r></p></e>
+    <e><p><l>antiimperialismo<s n="n"/></l><r>antiimperialismo<s n="n"/></r></p></e>
     <e><p><l>antimarxismo<s n="n"/></l><r>antimarxismo<s n="n"/></r></p></e>
-    <e><p><l>antimilitarismo<s n="n"/></l><r>anti-melitarismo<s n="n"/></r></p></e>
+    <e><p><l>antimilitarismo<s n="n"/></l><r>antimilitarismo<s n="n"/></r></p></e>
     <e><p><l>antiparlamentarismo<s n="n"/></l><r>antiparlamentarismo<s n="n"/></r></p></e>
     <e><p><l>antisemitismo<s n="n"/></l><r>antisemitismo<s n="n"/></r></p></e>
     <e><p><l>antropocentrismo<s n="n"/></l><r>antropocentrismo<s n="n"/></r></p></e>
     <e><p><l>antropomorfización<s n="n"/></l><r>antropomorfización<s n="n"/></r></p></e>
     <e><p><l>anulación<s n="n"/></l><r>anulación<s n="n"/></r></p></e>
     <e><p><l>anunciación<s n="n"/></l><r>anunciación<s n="n"/></r></p></e>
-    <e r="RL"><p><l>anunciación<s n="n"/></l><r>anunziación<s n="n"/></r></p></e>
     <e><p><l>aplicabilidad<s n="n"/></l><r>aplicabilidat<s n="n"/></r></p></e>
     <e><p><l>aplicación<s n="n"/></l><r>aplicación<s n="n"/></r></p></e>
     <e><p><l>aportación<s n="n"/></l><r>aportación<s n="n"/></r></p></e>
@@ -2708,7 +2726,7 @@
     <e><p><l>aragonés<s n="n"/></l><r>aragonés<s n="n"/></r></p></e>
     <e><p><l>araña<s n="n"/></l><r>araina<s n="n"/></r></p></e>
     <e><p><l>arborización<s n="n"/></l><r>arborización<s n="n"/></r></p></e>
-    <e><p><l>arcaísmo<s n="n"/></l><r>arcaismo<s n="n"/></r></p></e>
+    <e><p><l>arcaísmo<s n="n"/></l><r>arcaísmo<s n="n"/></r></p></e>
     <e><p><l>archivo<s n="n"/></l><r>archivo<s n="n"/></r></p></e>
     <e><p><l>arcilla<s n="n"/></l><r>archila<s n="n"/></r></p></e>
     <e><p><l>argentino<s n="n"/></l><r>argentino<s n="n"/></r></p></e>
@@ -2772,8 +2790,7 @@
     <e><p><l>baptismo<s n="n"/></l><r>baptismo<s n="n"/></r></p></e>
     <e><p><l>barbarismo<s n="n"/></l><r>barbarismo<s n="n"/></r></p></e>
     <e><p><l>barranquismo<s n="n"/></l><r>barranquismo<s n="n"/></r></p></e>
-    <e><p><l>bautismo<s n="n"/></l><r>batismo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>bautismo<s n="n"/></l><r>bautismo<s n="n"/></r></p></e>
+    <e><p><l>bautismo<s n="n"/></l><r>baptismo<s n="n"/></r></p></e>
     <e><p><l>belicismo<s n="n"/></l><r>belicismo<s n="n"/></r></p></e>
     <e><p><l>belicosidad<s n="n"/></l><r>belicosidat<s n="n"/></r></p></e>
     <e><p><l>beneficio<s n="n"/></l><r>beneficio<s n="n"/></r></p></e>
@@ -2801,7 +2818,7 @@
     <e><p><l>caducidad<s n="n"/></l><r>caduzidat<s n="n"/></r></p></e>
     <e><p><l>calidad<s n="n"/></l><r>calidat<s n="n"/></r></p></e>
     <e><p><l>calificación<s n="n"/></l><r>calificación<s n="n"/></r></p></e>
-    <e><p><l>calvinismo<s n="n"/></l><r>calbinismo<s n="n"/></r></p></e>
+    <e><p><l>calvinismo<s n="n"/></l><r>calvinismo<s n="n"/></r></p></e>
     <e><p><l>cambio<s n="n"/></l><r>cambeo<s n="n"/></r></p></e>
     <e><p><l>canalización<s n="n"/></l><r>canalización<s n="n"/></r></p></e>
     <e><p><l>canario<s n="n"/></l><r>canario<s n="n"/></r></p></e>
@@ -2832,23 +2849,21 @@
     <e><p><l>casualidad<s n="n"/></l><r>casualidat<s n="n"/></r></p></e>
     <e><p><l>catalanismo<s n="n"/></l><r>catalanismo<s n="n"/></r></p></e>
     <e><p><l>catecismo<s n="n"/></l><r>catecismo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>catecismo<s n="n"/></l><r>catezismo<s n="n"/></r></p></e>
     <e><p><l>categorización<s n="n"/></l><r>categorización<s n="n"/></r></p></e>
     <e><p><l>categoría<s n="n"/></l><r>categoría<s n="n"/></r></p></e>
-    <e r="RL"><p><l>catolicismo<s n="n"/></l><r>catolicismo<s n="n"/></r></p></e>
-    <e><p><l>catolicismo<s n="n"/></l><r>catolizismo<s n="n"/></r></p></e>
+    <e><p><l>catolicismo<s n="n"/></l><r>catolicismo<s n="n"/></r></p></e>
     <e><p><l>católico<s n="n"/></l><r>catolico<s n="n"/></r></p></e>
     <e><p><l>cautividad<s n="n"/></l><r>cautividat<s n="n"/></r></p></e>
     <e><p><l>cautivo<s n="n"/></l><r>cautivo<s n="n"/></r></p></e>
     <e><p><l>cavidad<s n="n"/></l><r>cabidat<s n="n"/></r></p></e>
     <e r="RL"><p><l>cavidad<s n="n"/></l><r>cavidat<s n="n"/></r></p></e>
     <e><p><l>celebración<s n="n"/></l><r>celebración<s n="n"/></r></p></e>
-    <e><p><l>celebridad<s n="n"/></l><r>zelebridat<s n="n"/></r></p></e>
+    <e><p><l>celebridad<s n="n"/></l><r>celebridat<s n="n"/></r></p></e>
     <e><p><l>celeridad<s n="n"/></l><r>celeridat<s n="n"/></r></p></e>
-    <e><p><l>celtismo<s n="n"/></l><r>zeltismo<s n="n"/></r></p></e>
-    <e><p><l>centralismo<s n="n"/></l><r>zentralismo<s n="n"/></r></p></e>
+    <e><p><l>celtismo<s n="n"/></l><r>celtismo<s n="n"/></r></p></e>
+    <e><p><l>centralismo<s n="n"/></l><r>centralismo<s n="n"/></r></p></e>
     <e><p><l>centralización<s n="n"/></l><r>centralización<s n="n"/></r></p></e>
-    <e><p><l>centrismo<s n="n"/></l><r>zentrismo<s n="n"/></r></p></e>
+    <e><p><l>centrismo<s n="n"/></l><r>centrismo<s n="n"/></r></p></e>
     <e><p><l>centroafricano<s n="n"/></l><r>centroafricano<s n="n"/></r></p></e>
     <e><p><l>cerveza<s n="n"/></l><r>biera<s n="n"/></r></p></e>
     <e><p><l>checheno<s n="n"/></l><r>checheno<s n="n"/></r></p></e>
@@ -2856,8 +2871,7 @@
     <e><p><l>chileno<s n="n"/></l><r>chileno<s n="n"/></r></p></e>
     <e><p><l>chino<s n="n"/></l><r>chino<s n="n"/></r></p></e>
     <e><p><l>chocolate<s n="n"/></l><r>chicolate<s n="n"/></r></p></e>
-    <e r="RL"><p><l>ciclismo<s n="n"/></l><r>ciclismo<s n="n"/></r></p></e>
-    <e><p><l>ciclismo<s n="n"/></l><r>ziclismo<s n="n"/></r></p></e>
+    <e><p><l>ciclismo<s n="n"/></l><r>ciclismo<s n="n"/></r></p></e>
     <e><p><l>científico<s n="n"/></l><r>scientifico<s n="n"/></r></p></e>
     <e r="RL"><p><l>circulación<s n="n"/></l><r>cerculación<s n="n"/></r></p></e>
     <e><p><l>circulación<s n="n"/></l><r>circulación<s n="n"/></r></p></e>
@@ -2877,13 +2891,10 @@
     <e><p><l>coagulación<s n="n"/></l><r>coagulación<s n="n"/></r></p></e>
     <e><p><l>codificación<s n="n"/></l><r>codificación<s n="n"/></r></p></e>
     <e><p><l>colaboracionismo<s n="n"/></l><r>colaboracionismo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>colaboracionismo<s n="n"/></l><r>colaborazionismo<s n="n"/></r></p></e>
+    <e r="RL"><p><l>colaboracionismo<s n="n"/></l><r>colaboracionismo<s n="n"/></r></p></e>
     <e><p><l>colaboración<s n="n"/></l><r>colaboración<s n="n"/></r></p></e>
     <e><p><l>coleccionismo<s n="n"/></l><r>coleccionismo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>coleccionismo<s n="n"/></l><r>colezionismo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>colectividad<s n="n"/></l><r>colectibidat<s n="n"/></r></p></e>
-    <e r="RL"><p><l>colectividad<s n="n"/></l><r>colectividat<s n="n"/></r></p></e>
-    <e><p><l>colectividad<s n="n"/></l><r>coleutibidat<s n="n"/></r></p></e>
+    <e><p><l>colectividad<s n="n"/></l><r>colectividat<s n="n"/></r></p></e>
     <e r="RL"><p><l>colectivismo<s n="n"/></l><r>colectivismo<s n="n"/></r></p></e>
     <e><p><l>colectivismo<s n="n"/></l><r>coleutibismo<s n="n"/></r></p></e>
     <e><p><l>colocación<s n="n"/></l><r>colocación<s n="n"/></r></p></e>
@@ -2899,7 +2910,7 @@
     <e><p><l>comodidad<s n="n"/></l><r>comodidat<s n="n"/></r></p></e>
     <e><p><l>compacidad<s n="n"/></l><r>compazidat<s n="n"/></r></p></e>
     <e><p><l>comparación<s n="n"/></l><r>comparación<s n="n"/></r></p></e>
-    <e><p><l>compañerismo<s n="n"/></l><r>compañerismo<s n="n"/></r></p></e>
+    <e><p><l>compañerismo<s n="n"/></l><r>companyerismo<s n="n"/></r></p></e>
     <e><p><l>compensación<s n="n"/></l><r>compensación<s n="n"/></r></p></e>
     <e><p><l>competitividad<s n="n"/></l><r>competitividat<s n="n"/></r></p></e>
     <e><p><l>compilación<s n="n"/></l><r>compilación<s n="n"/></r></p></e>
@@ -2931,21 +2942,17 @@
     <e><p><l>conformidad<s n="n"/></l><r>conformidat<s n="n"/></r></p></e>
     <e><p><l>conformismo<s n="n"/></l><r>conformismo<s n="n"/></r></p></e>
     <e><p><l>confrontación<s n="n"/></l><r>confrontación<s n="n"/></r></p></e>
-    <e r="RL"><p><l>confucianismo<s n="n"/></l><r>confucianismo<s n="n"/></r></p></e>
-    <e><p><l>confucianismo<s n="n"/></l><r>confuzianismo<s n="n"/></r></p></e>
-    <e><p><l>confucionismo<s n="n"/></l><r>confuzionismo<s n="n"/></r></p></e>
+    <e><p><l>confucianismo<s n="n"/></l><r>confucianismo<s n="n"/></r></p></e>
+    <e><p><l>confucionismo<s n="n"/></l><r>confucionismo<s n="n"/></r></p></e>
     <e><p><l>congelación<s n="n"/></l><r>conchelación<s n="n"/></r></p></e>
     <e><p><l>congregación<s n="n"/></l><r>congregación<s n="n"/></r></p></e>
     <e><p><l>conjugación<s n="n"/></l><r>conchugación<s n="n"/></r></p></e>
-    <e r="RL"><p><l>conjugación<s n="n"/></l><r>conjugación<s n="n"/></r></p></e>
     <e><p><l>conmemoración<s n="n"/></l><r>commemoración<s n="n"/></r></p></e>
-    <e><p><l>conmutación<s n="n"/></l><r>conmutación<s n="n"/></r></p></e>
+    <e><p><l>conmutación<s n="n"/></l><r>commutación<s n="n"/></r></p></e>
     <e><p><l>connotación<s n="n"/></l><r>connotación<s n="n"/></r></p></e>
     <e><p><l>consagración<s n="n"/></l><r>consagración<s n="n"/></r></p></e>
     <e><p><l>consentimiento<s n="n"/></l><r>consentimiento<s n="n"/></r></p></e>
-    <e r="RL"><p><l>conservación<s n="n"/></l><r>conserbación<s n="n"/></r></p></e>
     <e><p><l>conservación<s n="n"/></l><r>conservación<s n="n"/></r></p></e>
-    <e r="RL"><p><l>conservadurismo<s n="n"/></l><r>conserbadurismo<s n="n"/></r></p></e>
     <e><p><l>conservadurismo<s n="n"/></l><r>conservadurismo<s n="n"/></r></p></e>
     <e><p><l>consideración<s n="n"/></l><r>consideración<s n="n"/></r></p></e>
     <e><p><l>consolación<s n="n"/></l><r>consolación<s n="n"/></r></p></e>
@@ -3134,7 +3141,6 @@
     <e><p><l>década<s n="n"/><s n="f"/></l><r>decenio<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>década<s n="n"/><s n="f"/></l><r>dezenio<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>día<s n="n"/></l><r>día<s n="n"/></r></p></e>
-    <e r="RL"><p><l>día<s n="n"/></l><r>diya<s n="n"/></r></p></e>
     <e><p><l>eclecticismo<s n="n"/></l><r>eclecticismo<s n="n"/></r></p></e>
     <e><p><l>eclesiástico<s n="n"/></l><r>eclesiastico<s n="n"/></r></p></e>
     <e><p><l>ecologismo<s n="n"/></l><r>ecolochismo<s n="n"/></r></p></e>
@@ -3148,7 +3154,6 @@
     <e><p><l>ejemplo<s n="n"/></l><r>eixemplo<s n="n"/></r></p></e>
     <e><p><l>ejercicio<s n="n"/></l><r>exercicio<s n="n"/></r></p></e>
     <e><p><l>elaboración<s n="n"/></l><r>elaboración<s n="n"/></r></p></e>
-    <e r="RL"><p><l>elaboración<s n="n"/></l><r>elavoración<s n="n"/></r></p></e>
     <e><p><l>elasticidad<s n="n"/></l><r>elasticidat<s n="n"/></r></p></e>
     <e r="RL"><p><l>elasticidad<s n="n"/></l><r>elastizidat<s n="n"/></r></p></e>
     <e><p><l>elección<s n="n"/></l><r>esleción<s n="n"/></r></p></e>
@@ -3212,7 +3217,6 @@
     <e><p><l>esposo<s n="n"/></l><r>esposo<s n="n"/></r></p></e>
     <e><p><l>estabilidad<s n="n"/></l><r>estabilidat<s n="n"/></r></p></e>
     <e><p><l>estadístico<s n="n"/></l><r>estatistico<s n="n"/></r></p></e>
-    <e r="RL"><p><l>estalinismo<s n="n"/></l><r>estalinismo<s n="n"/></r></p></e>
     <e><p><l>estalinismo<s n="n"/></l><r>stalinismo<s n="n"/></r></p></e>
     <e><p><l>estanqueidad<s n="n"/></l><r>estanqueidat<s n="n"/></r></p></e>
     <e><p><l>estatismo<s n="n"/></l><r>estatismo<s n="n"/></r></p></e>
@@ -3222,7 +3226,6 @@
     <e><p><l>estoicismo<s n="n"/></l><r>estoicismo<s n="n"/></r></p></e>
     <e><p><l>estrella<s n="n"/></l><r>estrela<s n="n"/></r></p></e>
     <e><p><l>estructuralismo<s n="n"/></l><r>estructuralismo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>estructuralismo<s n="n"/></l><r>estruturalismo<s n="n"/></r></p></e>
     <e><p><l>eternidad<s n="n"/></l><r>eternidat<s n="n"/></r></p></e>
     <e><p><l>etnicidad<s n="n"/></l><r>etnizidat<s n="n"/></r></p></e>
     <e><p><l>eufemismo<s n="n"/></l><r>eufemismo<s n="n"/></r></p></e>
@@ -3235,20 +3238,15 @@
     <e><p><l>evitación<s n="n"/></l><r>ebitación<s n="n"/></r></p></e>
     <e><p><l>examen<s n="n"/></l><r>examen<s n="n"/></r></p></e>
     <e><p><l>exclusiva<s n="n"/></l><r>exclusiva<s n="n"/></r></p></e>
-    <e><p><l>exclusividad<s n="n"/></l><r>esclusibidat<s n="n"/></r></p></e>
-    <e r="RL"><p><l>exclusividad<s n="n"/></l><r>exclusividat<s n="n"/></r></p></e>
+    <e><p><l>exclusividad<s n="n"/></l><r>esclusividat<s n="n"/></r></p></e>
     <e><p><l>excursionismo<s n="n"/></l><r>excursionismo<s n="n"/></r></p></e>
     <e><p><l>existencia<s n="n"/></l><r>existencia<s n="n"/></r></p></e>
     <e><p><l>existencialismo<s n="n"/></l><r>esistencialismo<s n="n"/></r></p></e>
     <e><p><l>expansionismo<s n="n"/></l><r>expansionismo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>expansionismo<s n="n"/></l><r>espansionismo<s n="n"/></r></p></e>
-    <e><p><l>experto<s n="n"/></l><r>experto<s n="n"/></r></p></e>
-    <e r="RL"><p><l>experto<s n="n"/></l><r>expierto<s n="n"/></r></p></e>
-    <e r="RL"><p><l>expresionismo<s n="n"/></l><r>espresionismo<s n="n"/></r></p></e>
+    <e><p><l>experto<s n="n"/></l><r>expierto<s n="n"/></r></p></e>
     <e><p><l>expresionismo<s n="n"/></l><r>expresionismo<s n="n"/></r></p></e>
     <e><p><l>expresión<s n="n"/></l><r>exprisión<s n="n"/></r></p></e>
-    <e><p><l>extraterritorialidad<s n="n"/></l><r>estraterritorialidat<s n="n"/></r></p></e>
-    <e r="RL"><p><l>extraterritorialidad<s n="n"/></l><r>extraterritorialidat<s n="n"/></r></p></e>
+    <e><p><l>extraterritorialidad<s n="n"/></l><r>extraterritorialidat<s n="n"/></r></p></e>
     <e><p><l>extremeño<s n="n"/></l><r>extremenyo<s n="n"/></r></p></e>
     <e><p><l>extremidad<s n="n"/></l><r>estremidat<s n="n"/></r></p></e>
     <e r="RL"><p><l>extremidad<s n="n"/></l><r>extremidat<s n="n"/></r></p></e>
@@ -3339,33 +3337,27 @@
     <e r="RL"><p><l>habilidad<s n="n"/></l><r>habilidat<s n="n"/></r></p></e>
     <e><p><l>habitante<s n="n"/></l><r>abitant<s n="n"/></r></p></e>
     <e r="RL"><p><l>habitante<s n="n"/></l><r>habitant<s n="n"/></r></p></e>
-    <e><p><l>hedonismo<s n="n"/></l><r>edonismo<s n="n"/></r></p></e>
+    <e><p><l>hedonismo<s n="n"/></l><r>hedonismo<s n="n"/></r></p></e>
     <e><p><l>helenismo<s n="n"/></l><r>helenismo<s n="n"/></r></p></e>
     <e><p><l>heredero<s n="n"/></l><r>heredero<s n="n"/></r></p></e>
     <e><p><l>hermano<s n="n"/></l><r>chirmán<s n="n"/></r></p></e>
     <e><p><l>hermetismo<s n="n"/></l><r>hermetismo<s n="n"/></r></p></e>
-    <e><p><l>heroísmo<s n="n"/></l><r>eroismo<s n="n"/></r></p></e>
-    <e><p><l>heterogeneidad<s n="n"/></l><r>eterochenidat<s n="n"/></r></p></e>
-    <e r="RL"><p><l>heterogeneidad<s n="n"/></l><r>heterocheneidat<s n="n"/></r></p></e>
+    <e><p><l>heroísmo<s n="n"/></l><r>heroísmo<s n="n"/></r></p></e>
+    <e><p><l>heterogeneidad<s n="n"/></l><r>heterochenidat<s n="n"/></r></p></e>
     <e><p><l>hidroelectricidad<s n="n"/></l><r>idroeletrizidat<s n="n"/></r></p></e>
     <e><p><l>hijo<s n="n"/></l><r>fillo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>hinduismo<s n="n"/></l><r>hinduismo<s n="n"/></r></p></e>
-    <e><p><l>hinduismo<s n="n"/></l><r>induismo<s n="n"/></r></p></e>
+    <e><p><l>hinduismo<s n="n"/></l><r>hinduismo<s n="n"/></r></p></e>
     <e><p><l>hispanidad<s n="n"/></l><r>hispanidat<s n="n"/></r></p></e>
     <e><p><l>hispano<s n="n"/></l><r>hispano<s n="n"/></r></p></e>
     <e><p><l>hombre<s n="n"/></l><r>hombre<s n="n"/></r></p></e>
     <e><p><l>homogeneidad<s n="n"/></l><r>homochenidat<s n="n"/></r></p></e>
-    <e r="RL"><p><l>homogeneidad<s n="n"/></l><r>omocheneidat<s n="n"/></r></p></e>
     <e><p><l>honor<s n="n"/></l><r>honor<s n="n"/></r></p></e>
     <e><p><l>honra<s n="n"/></l><r>honor<s n="n"/></r></p></e>
     <e r="RL"><p><l>honra<s n="n"/></l><r>honra<s n="n"/></r></p></e>
-    <e><p><l>hospitalidad<s n="n"/></l><r>ospitalidat<s n="n"/></r></p></e>
     <e r="RL"><p><l>hostilidad<s n="n"/></l><r>hostilidat<s n="n"/></r></p></e>
-    <e><p><l>hostilidad<s n="n"/></l><r>ostilidat<s n="n"/></r></p></e>
     <e r="RL"><p><l>humanidad<s n="n"/></l><r>humanidat<s n="n"/></r></p></e>
-    <e><p><l>humanidad<s n="n"/></l><r>umanidat<s n="n"/></r></p></e>
-    <e r="RL"><p><l>humanismo<s n="n"/></l><r>humanismo<s n="n"/></r></p></e>
-    <e><p><l>humanismo<s n="n"/></l><r>umanismo<s n="n"/></r></p></e>
+    <e><p><l>humanidad<s n="n"/></l><r>humanidat<s n="n"/></r></p></e>
+    <e><p><l>humanismo<s n="n"/></l><r>humanismo<s n="n"/></r></p></e>
     <e><p><l>humano<s n="n"/></l><r>humán<s n="n"/></r></p></e>
     <e><p><l>iberismo<s n="n"/></l><r>iberismo<s n="n"/></r></p></e>
     <e><p><l>iberoamericano<s n="n"/></l><r>iberoamericano<s n="n"/></r></p></e>
@@ -3392,7 +3384,7 @@
     <e><p><l>indirecta<s n="n"/></l><r>indirecta<s n="n"/></r></p></e>
     <e><p><l>individualidad<s n="n"/></l><r>indibidualidat<s n="n"/></r></p></e>
     <e r="RL"><p><l>individualidad<s n="n"/></l><r>individualidat<s n="n"/></r></p></e>
-    <e><p><l>individualismo<s n="n"/></l><r>indibidualismo<s n="n"/></r></p></e>
+    <e><p><l>individualismo<s n="n"/></l><r>individualismo<s n="n"/></r></p></e>
     <e><p><l>inestabilidad<s n="n"/></l><r>inestabilidat<s n="n"/></r></p></e>
     <e><p><l>infancia<s n="n"/></l><r>infancia<s n="n"/></r></p></e>
     <e><p><l>infelicidad<s n="n"/></l><r>infelizidat<s n="n"/></r></p></e>
@@ -3422,7 +3414,7 @@
     <e><p><l>intensidad<s n="n"/></l><r>intensidat<s n="n"/></r></p></e>
     <e><p><l>interactividad<s n="n"/></l><r>interautibidat<s n="n"/></r></p></e>
     <e><p><l>interesado<s n="n"/></l><r>interesau<s n="n"/></r></p></e>
-    <e><p><l>internacionalismo<s n="n"/></l><r>internazionalismo<s n="n"/></r></p></e>
+    <e><p><l>internacionalismo<s n="n"/></l><r>internacionalismo<s n="n"/></r></p></e>
     <e><p><l>interno<s n="n"/></l><r>interno<s n="n"/></r></p></e>
     <e><p><l>interés<s n="n"/></l><r>intrés<s n="n"/></r></p></e>
     <e><p><l>intimidad<s n="n"/></l><r>intimidat<s n="n"/></r></p></e>
@@ -3438,7 +3430,7 @@
     <e><p><l>j<s n="n"/></l><r>j<s n="n"/></r></p></e>
     <e><p><l>jerarquización<s n="n"/></l><r>cherarquización<s n="n"/></r></p></e>
     <e><p><l>jubilación<s n="n"/></l><r>chubilación<s n="n"/></r></p></e>
-    <e><p><l>judaísmo<s n="n"/></l><r>chudaismo<s n="n"/></r></p></e>
+    <e><p><l>judaísmo<s n="n"/></l><r>chudaísmo<s n="n"/></r></p></e>
     <e><p><l>judeo-bolchevismo<s n="n"/></l><r>chudeo-bolchevismo<s n="n"/></r></p></e>
     <e><p><l>judía<s n="n"/></l><r>chudía<s n="n"/></r></p></e>
     <e><p><l>judía<s n="n"/></l><r>chudieta<s n="n"/></r></p></e>
@@ -3586,8 +3578,7 @@
     <e r="RL"><p><l>nacimiento<s n="n"/><s n="m"/></l><r>naixencia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nacionalidad<s n="n"/></l><r>nacionalidat<s n="n"/></r></p></e>
     <e r="RL"><p><l>nacionalidad<s n="n"/></l><r>nazionalidat<s n="n"/></r></p></e>
-    <e r="RL"><p><l>nacionalismo<s n="n"/></l><r>nacionalismo<s n="n"/></r></p></e>
-    <e><p><l>nacionalismo<s n="n"/></l><r>nazionalismo<s n="n"/></r></p></e>
+    <e><p><l>nacionalismo<s n="n"/></l><r>nacionalismo<s n="n"/></r></p></e>
     <e><p><l>nacionalsocialismo<s n="n"/></l><r>nacionalsocialismo<s n="n"/></r></p></e>
     <e><p><l>nación<s n="n"/></l><r>nación<s n="n"/></r></p></e>
     <e><p><l>narcisismo<s n="n"/></l><r>narcisismo<s n="n"/></r></p></e>
@@ -3608,15 +3599,12 @@
     <e><p><l>negativa<s n="n"/></l><r>negativa<s n="n"/></r></p></e>
     <e><p><l>negro<s n="n"/></l><r>negro<s n="n"/></r></p></e>
     <e><p><l>neocatastrofismo<s n="n"/></l><r>neocatastrofismo<s n="n"/></r></p></e>
-    <e><p><l>neoclasicismo<s n="n"/></l><r>neoclasizismo<s n="n"/></r></p></e>
+    <e><p><l>neoclasicismo<s n="n"/></l><r>neoclasicismo<s n="n"/></r></p></e>
     <e><p><l>neodruidismo<s n="n"/></l><r>neodruidismo<s n="n"/></r></p></e>
     <e><p><l>neoidealismo<s n="n"/></l><r>neoideyalismo<s n="n"/></r></p></e>
     <e><p><l>neokantismo<s n="n"/></l><r>neokantismo<s n="n"/></r></p></e>
-    <e><p><l>neoliberalismo<s n="n"/></l><r>nioliberalismo<s n="n"/></r></p></e>
+    <e><p><l>neoliberalismo<s n="n"/></l><r>neoliberalismo<s n="n"/></r></p></e>
     <e><p><l>neologismo<s n="n"/></l><r>neolochismo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>neologismo<s n="n"/></l><r>neologismo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>neologismo<s n="n"/></l><r>neoloxismo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>neologismo<s n="n"/></l><r>niolochismo<s n="n"/></r></p></e>
     <e><p><l>neopaganismo<s n="n"/></l><r>neopaganismo<s n="n"/></r></p></e>
     <e><p><l>neoplatonismo<s n="n"/></l><r>neoplatonismo<s n="n"/></r></p></e>
     <e><p><l>nestorianismo<s n="n"/></l><r>nestorianismo<s n="n"/></r></p></e>
@@ -3671,7 +3659,6 @@
     <e><p><l>otoño<s n="n"/></l><r>agüerro<s n="n"/></r></p></e>
     <e><p><l>p<s n="n"/></l><r>p<s n="n"/></r></p></e>
     <e><p><l>pacifismo<s n="n"/></l><r>pacifismo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>pacifismo<s n="n"/></l><r>pazifismo<s n="n"/></r></p></e>
     <e><p><l>paganismo<s n="n"/></l><r>paganismo<s n="n"/></r></p></e>
     <e><p><l>palestino<s n="n"/></l><r>palestino<s n="n"/></r></p></e>
     <e><p><l>paludismo<s n="n"/></l><r>paludismo<s n="n"/></r></p></e>
@@ -3739,7 +3726,6 @@
     <e><p><l>post-modernidad<s n="n"/></l><r>postmodernidat<s n="n"/></r></p></e>
     <e><p><l>posterioridad<s n="n"/></l><r>posterioridat<s n="n"/></r></p></e>
     <e><p><l>postmodernismo<s n="n"/></l><r>postmodernismo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>postmodernismo<s n="n"/></l><r>postmudernismo<s n="n"/></r></p></e>
     <e><p><l>pragmatismo<s n="n"/></l><r>pragmatismo<s n="n"/></r></p></e>
     <e><p><l>pregunta<s n="n"/></l><r>pregunta<s n="n"/></r></p></e>
     <e><p><l>premio<s n="n"/></l><r>premio<s n="n"/></r></p></e>
@@ -3770,39 +3756,34 @@
     <e><p><l>protección<s n="n"/></l><r>proteción<s n="n"/></r></p></e>
     <e><p><l>protestantismo<s n="n"/></l><r>protestantismo<s n="n"/></r></p></e>
     <e><p><l>provincia<s n="n"/></l><r>provincia<s n="n"/></r></p></e>
-    <e r="RL"><p><l>provincia<s n="n"/></l><r>probinzia<s n="n"/></r></p></e>
     <e><p><l>provincialismo<s n="n"/></l><r>provincialismo<s n="n"/></r></p></e>
     <e><p><l>provocación<s n="n"/></l><r>provocación<s n="n"/></r></p></e>
-    <e><p><l>proximidad<s n="n"/></l><r>prosimidat<s n="n"/></r></p></e>
-    <e r="RL"><p><l>proximidad<s n="n"/></l><r>proximidat<s n="n"/></r></p></e>
-    <e><p><l>proyecto<s n="n"/></l><r>procheuto<s n="n"/></r></p></e>
-    <e r="RL"><p><l>proyecto<s n="n"/></l><r>prochecto<s n="n"/></r></p></e>
+    <e><p><l>proximidad<s n="n"/></l><r>proximidat<s n="n"/></r></p></e>
+    <e><p><l>proyecto<s n="n"/></l><r>prochecto<s n="n"/></r></p></e>
+    <e><p><l>prueba<s n="n"/></l><r>preba<s n="n"/></r></p></e>
     <e><p><l>prueba<s n="n"/></l><r>prebatina<s n="n"/></r></p></e>
     <e><p><l>práctica<s n="n"/></l><r>practica<s n="n"/></r></p></e>
-    <e r="RL"><p><l>publicidad<s n="n"/></l><r>publicidat<s n="n"/></r></p></e>
-    <e><p><l>publicidad<s n="n"/></l><r>publizidat<s n="n"/></r></p></e>
+    <e><p><l>publicidad<s n="n"/></l><r>publicidat<s n="n"/></r></p></e>
     <e><p><l>pueblo<s n="n"/></l><r>pueblo<s n="n"/></r></p></e>
     <e><p><l>puerta<s n="n"/></l><r>puerta<s n="n"/></r></p></e>
     <e><p><l>puertorriqueño<s n="n"/></l><r>puertorriquenyo<s n="n"/></r></p></e>
     <e><p><l>puto<s n="n"/></l><r>puto<s n="n"/></r></p></e>
     <e><p><l>página<s n="n"/></l><r>pachina<s n="n"/></r></p></e>
-    <e r="RL"><p><l>página<s n="n"/></l><r>pagina<s n="n"/></r></p></e>
     <e r="RL"><p><l>pérdida<s n="n"/></l><r>perduga<s n="n"/></r></p></e>
     <e><p><l>pérdida<s n="n"/></l><r>perda<s n="n"/></r></p></e>
     <e><p><l>q<s n="n"/></l><r>q<s n="n"/></r></p></e>
     <e><p><l>química<s n="n"/></l><r>quimica<s n="n"/></r></p></e>
     <e><p><l>químico<s n="n"/></l><r>quimico<s n="n"/></r></p></e>
     <e><p><l>r<s n="n"/></l><r>r<s n="n"/></r></p></e>
-    <e><p><l>racionalismo<s n="n"/></l><r>razionalismo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>racismo<s n="n"/></l><r>racismo<s n="n"/></r></p></e>
-    <e><p><l>racismo<s n="n"/></l><r>razismo<s n="n"/></r></p></e>
+    <e><p><l>racionalismo<s n="n"/></l><r>racionalismo<s n="n"/></r></p></e>
+    <e><p><l>racismo<s n="n"/></l><r>racismo<s n="n"/></r></p></e>
     <e><p><l>radioelectricidad<s n="n"/></l><r>radioeletrizidat<s n="n"/></r></p></e>
     <e><p><l>raza<s n="n"/></l><r>raza<s n="n"/></r></p></e>
     <e><p><l>razón<s n="n"/></l><r>razón<s n="n"/></r></p></e>
     <e r="RL"><p><l>realidad<s n="n"/></l><r>realidat<s n="n"/></r></p></e>
     <e><p><l>realidad<s n="n"/></l><r>reyalidat<s n="n"/></r></p></e>
     <e><p><l>realismo<s n="n"/></l><r>realismo<s n="n"/></r></p></e>
-    <e r="RL"><p><l>realismo<s n="n"/></l><r>reyalismo<s n="n"/></r></p></e>
+    <e><p><l>realismo<s n="n"/></l><r>reyalismo<s n="n"/></r></p></e>    
     <e><p><l>receptividad<s n="n"/></l><r>receptividat<s n="n"/></r></p></e>
     <e><p><l>recomendación<s n="n"/></l><r>recomendación<s n="n"/></r></p></e>
     <e><p><l>reconocimiento<s n="n"/><s n="m"/></l><r>reconoixenzia<s n="n"/><s n="f"/></r></p></e>
@@ -3834,15 +3815,14 @@
     <e><p><l>restricción<s n="n"/></l><r>restricción<s n="n"/></r></p></e>
     <e><p><l>reumatismo<s n="n"/></l><r>reumatismo<s n="n"/></r></p></e>
     <e><p><l>reunión<s n="n"/></l><r>reunión<s n="n"/></r></p></e>
-    <e><p><l>revanchismo<s n="n"/></l><r>rebanchismo<s n="n"/></r></p></e>
+    <e><p><l>revanchismo<s n="n"/></l><r>revanchismo<s n="n"/></r></p></e>
     <e><p><l>revolucionario<s n="n"/></l><r>revolucionario<s n="n"/></r></p></e>
     <e><p><l>rey<s n="n"/></l><r>rei<s n="n"/></r></p></e>
     <e><p><l>riojano<s n="n"/></l><r>riojano<s n="n"/></r></p></e>
     <e r="RL"><p><l>rivalidad<s n="n"/></l><r>ribalidat<s n="n"/></r></p></e>
     <e><p><l>rivalidad<s n="n"/></l><r>rivalidat<s n="n"/></r></p></e>
     <e><p><l>romano<s n="n"/></l><r>romano<s n="n"/></r></p></e>
-    <e r="RL"><p><l>romanticismo<s n="n"/></l><r>romanticismo<s n="n"/></r></p></e>
-    <e><p><l>romanticismo<s n="n"/></l><r>romantizismo<s n="n"/></r></p></e>
+    <e><p><l>romanticismo<s n="n"/></l><r>romanticismo<s n="n"/></r></p></e>
     <e><p><l>rotacismo<s n="n"/></l><r>rotacismo<s n="n"/></r></p></e>
     <e><p><l>rumano<s n="n"/></l><r>rumano<s n="n"/></r></p></e>
     <e><p><l>ruso<s n="n"/></l><r>ruso<s n="n"/></r></p></e>
@@ -4038,7 +4018,7 @@
     <e r="RL"><p><l>voracidad<s n="n"/></l><r>voracidat<s n="n"/></r></p></e>
     <e><p><l>votación<s n="n"/></l><r>votación<s n="n"/></r></p></e>
     <e><p><l>voto<s n="n"/></l><r>voto<s n="n"/></r></p></e>
-    <e><p><l>vulgarismo<s n="n"/></l><r>bulgarismo<s n="n"/></r></p></e>
+    <e><p><l>vulgarismo<s n="n"/></l><r>vulgarismo<s n="n"/></r></p></e>
     <e r="RL"><p><l>vulgarismo<s n="n"/></l><r>vulgarismo<s n="n"/></r></p></e>
     <e r="RL"><p><l>vulneración<s n="n"/></l><r>vulneración<s n="n"/></r></p></e>
     <e><p><l>vulneración<s n="n"/></l><r>bulneración<s n="n"/></r></p></e>
