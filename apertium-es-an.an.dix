@@ -10533,9 +10533,29 @@
         <r><s n="adv"/><s n="itg"/></r>
       </p>
     </e>
-
-
     </pardef>
+    
+    <pardef n="malam/ent__adv">
+    <e>
+      <p>
+        <l>ent</l>
+        <r>ent<s n="adv"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ente</l>
+        <r>ent<s n="adv"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>én</l>
+        <r>ent<s n="adv"/></r>
+      </p>
+    </e>
+    </pardef>
+
     
     <pardef n="con__pr">
     <e>
@@ -10552,24 +10572,24 @@
     <pardef n="conta__pr">
     <e r="LR">
       <p>
-        <l>á</l>
-        <r>á<s n="pr"/></r>
+        <l>a</l>
+        <r>a<s n="pr"/></r>
       </p>
     </e>
 
 
     <e r="LR">
       <p>
-        <l>a</l>
-        <r>á<s n="pr"/></r>
+        <l>á</l>
+        <r>a<s n="pr"/></r>
       </p>
     </e>
 
 
     <e r="RL">
       <p>
-        <l><a/>á</l>
-        <r>á<s n="pr"/></r>
+        <l><a/>a</l>
+        <r>a<s n="pr"/></r>
       </p>
     </e>
 
@@ -10592,7 +10612,6 @@
         <r>de<s n="pr"/></r>
       </p>
     </e>
-
 
 
     </pardef>
@@ -10612,7 +10631,6 @@
         <r>de<s n="pr"/></r>
       </p>
     </e>
-
 
     </pardef>
     
@@ -11582,14 +11600,14 @@
     <e lm="bueno"><i>buen</i><par n="academic/o__adj"/></e>
     <e lm="burdo"><i>burd</i><par n="academic/o__adj"/></e>
     <e lm="caduco"><i>caduc</i><par n="academic/o__adj"/></e>
-    <e lm="cálcico"><i>cálcic</i><par n="academic/o__adj"/></e>
+    <e lm="calcico"><i>calcic</i><par n="academic/o__adj"/></e>
     <e lm="calificativo"><i>calificati</i><par n="cursi/vo__adj"/></e>
     <e lm="californiano"><i>californian</i><par n="academic/o__adj"/></e>
     <e lm="caluroso"><i>caluros</i><par n="academic/o__adj"/></e>
     <e lm="calvo"><i>cal</i><par n="cursi/vo__adj"/></e>
     <e lm="campechano"><i>campechan</i><par n="academic/o__adj"/></e>
     <e lm="canario"><i>canari</i><par n="academic/o__adj"/></e>
-    <e lm="caótico"><i>caótic</i><par n="academic/o__adj"/></e>
+    <e lm="caótico"><i>caotic</i><par n="academic/o__adj"/></e>
     <e lm="capricornio"><i>capricorni</i><par n="academic/o__adj"/></e>
     <e lm="cardiaco"><i>cardiac</i><par n="academic/o__adj"/></e>
     <e lm="cardiorrespiratorio"><i>cardiorrespiratori</i><par n="academic/o__adj"/></e>
@@ -11702,14 +11720,18 @@
     <e lm="democratico"><i>democratic</i><par n="academic/o__adj"/></e>
     <e lm="demostrativo"><i>demostrati</i><par n="cursi/vo__adj"/></e>
     <e lm="denso"><i>dens</i><par n="academic/o__adj"/></e>
-    <e lm="deportivo"><i>deporti</i><par n="cursi/vo__adj"/></e>
+    <e lm="esportivo"><i>esporti</i><par n="cursi/vo__adj"/></e>
+    <e r="LR" lm="esportivo"><p><l>deporti</l><r>esporti</r></p><par n="cursi/vo__adj"/></e>
     <e lm="dreito"><i>dreit</i><par n="academic/o__adj"/></e>
+    <e r="LR" lm="dreito"><p><l>drech</l><r>dreit</r></p><par n="academic/o__adj"/></e>
     <e lm="desastroso"><i>desastros</i><par n="academic/o__adj"/></e>
     <e lm="descarau"><i>descara</i><par n="adequa/u__adj"/></e>
     <e lm="descontento"><i>descontent</i><par n="academic/o__adj"/></e>
     <e lm="descriptivo"><i>descripti</i><par n="cursi/vo__adj"/></e>
     <e lm="desierto"><i>desiert</i><par n="academic/o__adj"/></e>
     <e lm="desinteresau"><i>desinteresa</i><par n="adequa/u__adj"/></e>
+    <e r="LR" lm="desinteresau"><p><l>desintresa</l><r>desinteresa</r></p><par n="academic/o__adj"/></e>
+    <e lm="espullau"><i>espulla</i><par n="adequa/u__adj"/></e>
     <e lm="desnudo"><i>desnud</i><par n="academic/o__adj"/></e>
     <e lm="despectivo"><i>despecti</i><par n="cursi/vo__adj"/></e>
     <e lm="detallau"><i>detalla</i><par n="adequa/u__adj"/></e>
@@ -11866,7 +11888,7 @@
     <e lm="glorioso"><i>glorios</i><par n="academic/o__adj"/></e>
     <e lm="golfo"><i>golf</i><par n="academic/o__adj"/></e>
     <e lm="gordo"><i>gord</i><par n="academic/o__adj"/></e>
-    <e lm="gótico"><i>gótic</i><par n="academic/o__adj"/></e>
+    <e lm="gótico"><i>gotic</i><par n="academic/o__adj"/></e>
     <e lm="gracioso"><i>gracios</i><par n="academic/o__adj"/></e>
     <e lm="grafico"><i>grafic</i><par n="academic/o__adj"/></e>
     <e lm="grandioso"><i>grandios</i><par n="academic/o__adj"/></e>
@@ -13002,7 +13024,7 @@
     <e lm="antropomorfización"><i>antropomorfiza</i><par n="actua/ción__n"/></e>
     <e lm="anulación"><i>anula</i><par n="actua/ción__n"/></e>
     <e lm="anunciación"><i>anuncia</i><par n="actua/ción__n"/></e>
-    <e lm="anunziación"><i>anunzia</i><par n="actua/ción__n"/></e>
+    <e r="LR" lm="anunciación"><p><l>anunzia</l><r>anuncia</r></p><par n="actua/ción__n"/></e>
     <e lm="aplicación"><i>aplica</i><par n="actua/ción__n"/></e>
     <e lm="aportación"><i>aporta</i><par n="actua/ción__n"/></e>
     <e lm="apreziación"><i>aprezia</i><par n="actua/ción__n"/></e>
@@ -13108,14 +13130,14 @@
     <e lm="conformación"><i>conforma</i><par n="actua/ción__n"/></e>
     <e lm="confrontación"><i>confronta</i><par n="actua/ción__n"/></e>
     <e lm="congregación"><i>congrega</i><par n="actua/ción__n"/></e>
-    <e lm="conjugación"><i>conjuga</i><par n="actua/ción__n"/></e>
     <e lm="commemoración"><i>commemora</i><par n="actua/ción__n"/></e>
     <e r="LR" lm="commemoración"><p><l>conmemora</l><r>commemora</r></p><par n="actua/ción__n"/></e>
-    <e lm="conmutación"><i>conmuta</i><par n="actua/ción__n"/></e>
+    <e lm="commutación"><i>commuta</i><par n="actua/ción__n"/></e>
+    <e r="LR" lm="commutación"><p><l>conmuta</l><r>commuta</r></p><par n="actua/ción__n"/></e>
     <e lm="connotación"><i>connota</i><par n="actua/ción__n"/></e>
     <e lm="consagración"><i>consagra</i><par n="actua/ción__n"/></e>
-    <e lm="conserbación"><i>conserba</i><par n="actua/ción__n"/></e>
     <e lm="conservación"><i>conserva</i><par n="actua/ción__n"/></e>
+    <e r="LR" lm="conservación"><p><l>conserba</l><r>conserva</r></p><par n="actua/ción__n"/></e>
     <e lm="consideración"><i>considera</i><par n="actua/ción__n"/></e>
     <e lm="consolación"><i>consola</i><par n="actua/ción__n"/></e>
     <e lm="consolidación"><i>consolida</i><par n="actua/ción__n"/></e>
@@ -13224,8 +13246,6 @@
     <e lm="edificación"><i>edifica</i><par n="actua/ción__n"/></e>
     <e lm="educación"><i>educa</i><par n="actua/ción__n"/></e>
     <e lm="elaboración"><i>elabora</i><par n="actua/ción__n"/></e>
-    <e lm="elavoración"><i>elavora</i><par n="actua/ción__n"/></e>
-    <e lm="elebación"><i>eleba</i><par n="actua/ción__n"/></e>
     <e lm="elevación"><i>eleva</i><par n="actua/ción__n"/></e>
     <e lm="eliminación"><i>elimina</i><par n="actua/ción__n"/></e>
     <e lm="emancipación"><i>emancipa</i><par n="actua/ción__n"/></e>
@@ -13243,65 +13263,103 @@
     <e lm="equitación"><i>equita</i><par n="actua/ción__n"/></e>
     <e lm="eradicación"><i>eradica</i><par n="actua/ción__n"/></e>
     <e lm="erradicación"><i>erradica</i><par n="actua/ción__n"/></e>
-    
-    <e lm="á"><i></i><par n="conta__pr"/></e>
-    <e lm="baixo" i="yes"><i>ba</i><par n="/ix_x__var"/><i>o</i><par n="con__pr"/></e>
-    <e lm="cara" i="yes"><i>cara</i><par n="con__pr"/></e>
-    <e lm="cata" i="yes"><i>cata</i><par n="con__pr"/></e>
+
+<!-- preposicions -->    
+    <e lm="a"><i></i><par n="conta__pr"/></e>
+    <e lm="baixo"><i>ba</i><par n="/ix_x__var"/><i>o</i><par n="con__pr"/></e>
+    <e lm="cara"><i>cara</i><par n="con__pr"/></e>
+    <e lm="cara ta"><p><l>cata</l><r>cara<b/>ta</r></p><par n="con__pr"/></e>
+    <e lm="cara ta"><p><l>ca<b/></l><r>cara<b/></r></p><par n="contta__pr"/></e>
+    <e lm="cara ta"><i>cara<b/></i><par n="contta__pr"/></e>
     <e lm="con"><i>con</i><par n="con__pr"/></e>
     <e lm="contra"><i>contra</i><par n="con__pr"/></e>
+    <e r="LR" lm="contra"><p><l>cuentra</l><r>contra</r></p><par n="con__pr"/></e>
     <e lm="de"><i></i><par n="contde__pr"/></e>
-    <e lm="debant"><i>debant</i><par n="con__pr"/></e>
-    <e r="LR" lm="debán"><p><l>debán</l><r>debant</r></p><par n="con__pr"/></e>
-    <e lm="debaixo" i="yes"><i>deba</i><par n="/ix_x__var"/><i>o</i><par n="con__pr"/></e>
     <e lm="dende"><i>dende</i><par n="con__pr"/></e>
-    <e lm="dezaga" i="yes"><i>dezaga</i><par n="con__pr"/></e>
-    <e lm="dica" i="yes"><i>dica</i><par n="con__pr"/></e>
+    <e lm="dica"><i>dica</i><par n="con__pr"/></e>
+    <e lm="dica ta"><i>dica<b/></i><par n="contta__pr"/></e>
     <e lm="como"><i>como</i><par n="con__pr"/></e>
     <e r="LR" lm="como"><p><l>coma</l><r>como</r></p><par n="con__pr"/></e>
-    <e lm="asta"><i>asta</i><par n="con__pr"/></e>
-    <e lm="chus" i="yes"><i>chus</i><par n="con__pr"/></e>
+    <e lm="hasta"><i>hasta</i><par n="con__pr"/></e>
+    <e r="LR" lm="hasta"><p><l>asta</l><r>hasta</r></p><par n="con__pr"/></e>
+    <e r="LR" lm="hasta"><p><l>anda</l><r>hasta</r></p><par n="con__pr"/></e>
+    <e r="LR" lm="hasta"><p><l>handa</l><r>hasta</r></p><par n="con__pr"/></e>
+    <e lm="entro a"><i>entro<b/></i><par n="conta__pr"/></e>    
+    <e lm="chus"><i>chus</i><par n="con__pr"/></e>
     <e lm="en"><i></i><par n="conten__pr"/></e>
     <e lm="enta"><i>en</i><par n="contta__pr"/></e>
     <e lm="entre"><i>entre</i><par n="con__pr"/></e>
-    <e lm="pa" i="yes"><i>pa</i><par n="con__pr"/></e>
+    <e lm="pa"><i>pa</i><par n="con__pr"/></e>
     <e lm="por"><i></i><par n="/por__var"/><par n="con__pr"/></e>
-    <e lm="seguntes" i="yes"><i>seguntes</i><par n="con__pr"/></e>
+    <e lm="seguntes"><i>seguntes</i><par n="con__pr"/></e>
     <e lm="sin"><i>sin</i><par n="con__pr"/></e>
     <e lm="sobre"><i>sobre</i><par n="con__pr"/></e>
     <e lm="ta"><i></i><par n="contta__pr"/></e>
-    <e lm="amás de" i="yes"><i>amás<b/></i><par n="contde__pr"/></e>
-    <e lm="por meyo de"><i>por<b/>meyo<b/></i><par n="contde__pr"/></e>
+    
+    <e lm="debant"><i>debant</i><par n="con__pr"/></e>
+    <e r="LR" lm="debán"><p><l>debán</l><r>debant</r></p><par n="con__pr"/></e>
+    <e lm="debaixo"><i>deba</i><par n="/ix_x__var"/><i>o</i><par n="con__pr"/></e>
+    <e lm="dezaga"><i>dezaga</i><par n="con__pr"/></e>    
+    <e lm="dencima"><i>dencima</i><par n="con__pr"/></e> 
+    <e r="LR" lm="dencima"><p><l>denzima</l><r>dencima</r></p><par n="con__pr"/></e>
+   
+   <e lm="chunto a"><i>chunto<b/></i><par n="conta__pr"/></e>
+    <e lm="debaixo de"><i>deba</i><par n="/ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
+    <e lm="dezaga de"><i>dezaga<b/></i><par n="contde__pr"/></e>
+    <e lm="debant de"><i>debant<b/></i><par n="contde__pr"/></e>
+    <e r="LR" lm="debant de"><p><l>debán<b/></l><r>debant<b/></r></p><par n="contde__pr"/></e>
+    <e lm="dencima de"><i>dencima<b/></i><par n="contde__pr"/></e>
+    <e r="LR" lm="dencima de"><p><l>denzima<b/></l><r>dencima<b/></r></p><par n="contde__pr"/></e>
+    
+    <e lm="amás de"><i>amás<b/></i><par n="contde__pr"/></e>
+    <e r="LR" lm="amás de"><p><l>amés<b/></l><r>amás<b/></r></p><par n="contde__pr"/></e>
+    <e r="LR" lm="amás de"><p><l>a<b/>més<b/></l><r>amás<b/></r></p><par n="contde__pr"/></e>
+    <e r="LR" lm="amás de"><p><l>a<b/>más<b/></l><r>amás<b/></r></p><par n="contde__pr"/></e>    
+    <e r="LR" lm="amás de"><p><l>a<b/>mes<b/></l><r>amás<b/></r></p><par n="contde__pr"/></e>
+    <e r="LR" lm="amás de"><p><l>a<b/>mas<b/></l><r>amás<b/></r></p><par n="contde__pr"/></e>    
+    <e r="LR" lm="amás de"><p><l>antimás<b/></l><r>amás<b/></r></p><par n="contde__pr"/></e>
+
+    <e lm="por meyo de"><par n="/por__var"/><i><b/>meyo<b/></i><par n="contde__pr"/></e>
+    <e r="LR" lm="por meyo de"><par n="/por__var"/><p><l><b/>medio<b/></l><r><b/>meyo<b/></r></p><par n="contde__pr"/></e>
+    <e lm="por baixo de"><par n="/por__var"/><i><b/>ba</i><par n="/ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
+    <e r="LR" lm="por debaixo de"><par n="/por__var"/><p><l><b/>deba</l><r><b/>ba</r></p><par n="/ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
+    <e lm="por alto de"><par n="/por__var"/><i><b/>alto<b/></i><par n="contde__pr"/></e>
+    <e r="LR" lm="por dencima de"><par n="/por__var"/><p><l><b/>dencima<b/></l><r><b/>alto<b/></r></p><par n="contde__pr"/></e>
     <e lm="antes de"><i>antes<b/></i><par n="contde__pr"/></e>
     <e r="LR" lm="antes de"><p><l>antis<b/></l><r>antes<b/></r></p><par n="contde__pr"/></e>
-    <e lm="debaixo de" i="yes"><i>deba</i><par n="/ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
-    <e lm="dezaga de" i="yes"><i>dezaga<b/></i><par n="contde__pr"/></e>
-    <e lm="luen de" i="yes"><i>luen<b/></i><par n="contde__pr"/></e>
-    <e lm="por baixo de" i="yes"><par n="/por__var"/><i><b/>ba</i><par n="/ix_x__var"/><i>o<b/></i><par n="contde__pr"/></e>
-    <e lm="por meyo de"><par n="/por__var"/><i><b/>meyo<b/></i><par n="contde__pr"/></e>
-    <e lm="ta par de" i="yes"><i>ta<b/>par<b/></i><par n="contde__pr"/></e>
-    <e lm="enta par de" i="yes"><i>enta<b/>par<b/></i><par n="contde__pr"/></e>
-    <e lm="dica ta" i="yes"><i>dica<b/></i><par n="contta__pr"/></e>
-    <e lm="cara ta" i="yes"><i>cara<b/></i><par n="contta__pr"/></e>
-    <e lm="chunto á" i="yes"><i>chunto<b/></i><par n="conta__pr"/></e>
-    <e lm="entro á" i="yes"><i>entro<b/></i><par n="conta__pr"/></e>
-    <e lm="en cuenta de" i="yes"><i>en<b/>cuenta<b/></i><par n="contde__pr"/></e>
-    <e lm="en puesto de" i="yes"><i>en<b/>puesto<b/></i><par n="contde__pr"/></e>
     
+    <e lm="en cuenta de"><i>en<b/>cuenta<b/></i><par n="contde__pr"/></e>
+    <e lm="en cuentas de"><i>en<b/>cuentas<b/></i><par n="contde__pr"/></e>
+    <e lm="en guis de"><i>en<b/>guis<b/></i><par n="contde__pr"/></e>
+
+    <e lm="ta part de" i="yes"><i>ta<b/>part<b/></i><par n="contde__pr"/></e>
+    <e r="LR" lm="ta part de" i="yes"><p><l>ta<b/>par<b/></l><r>ta<b/>part<b/></r></p><par n="contde__pr"/></e>
+    <e lm="enta part de" i="yes"><i>enta<b/>part<b/></i><par n="contde__pr"/></e>
+    <e r="LR" lm="enta part de" i="yes"><p><l>enta<b/>par<b/></l><r>enta<b/>part<b/></r></p><par n="contde__pr"/></e>
+    <e lm="de part de" i="yes"><i>de<b/>part<b/></i><par n="contde__pr"/></e>
+    <e r="LR" lm="de part de" i="yes"><p><l>de<b/>par<b/></l><r>de<b/>part<b/></r></p><par n="contde__pr"/></e>
+    
+    <!-- conchuncions -->
     <e lm="y"><i></i><par n="/y__cnjcoo"/></e>
     <e lm="ni"><i>ni</i><par n="pero__cnjcoo"/></e>
-    <e lm="i"><i>i</i><par n="pero__cnjcoo"/></e>
     <e lm="u"><i></i><par n="/u__cnjcoo"/></e>
-    <e lm="sin dembargo" i="yes"><i>sin<b/>dembargo</i><par n="pero__cnjcoo"/></e>
+    <e lm="sin dembargo"><i>sin<b/>dembargo</i><par n="pero__cnjcoo"/></e>
     <e r="LR" lm="sin dembargo" i="yes"><p><l>sin<b/>d'embargo</l><r>sin<b/>dembargo</r></p><par n="pero__cnjcoo"/></e>
-    <e lm="manimenos" i="yes"><i>manimenos</i><par n="pero__cnjcoo"/></e>
+    <e r="LR" lm="sin dembargo" i="yes"><p><l>sin<b/>embargo</l><r>sin<b/>dembargo</r></p><par n="pero__cnjcoo"/></e>
+    <e lm="manimenos"><i>manimenos</i><par n="pero__cnjcoo"/></e>
+    <e r="LR" lm="sin dembargo" i="yes"><p><l>man<b/>y<b/>menos</l><r>manimenos</r></p><par n="pero__cnjcoo"/></e>
     <e lm="mas" i="yes"><i>mas</i><par n="pero__cnjcoo"/></e>
     <e r="LR" lm="mes" i="yes"><p><l>mes</l><r>mas</r></p><par n="pero__cnjcoo"/></e>
     <e lm="sino"><i>sino</i><par n="pero__cnjcoo"/></e>
     <e lm="pero"><i>pero</i><par n="pero__cnjcoo"/></e>
-    <e lm="con tot y con ixo" i="yes"><i>con<b/>tot<b/></i><par n="y_e"/><i><b/>con<b/>ixo</i><par n="pero__cnjcoo"/></e>
-    
-    <e lm="alabez"><i>alabez</i><par n="porque__cnjadv"/></e>
+    <e lm="con tot y con ixo" i="yes"><i>con<b/>tot<b/></i><par n="y_e"/><i><b/>con<b/>ixo</i><par n="pero__cnjcoo"/></e>    
+    <e lm="alavez"><i>alavez</i><par n="porque__cnjadv"/></e>
+    <e r="LR" lm="alavez"><p><l>alabez</l><r>alavez</r></p><par n="porque__cnjadv"/></e>
+    <e lm="allora"><i>allora</i><par n="porque__cnjadv"/></e>
+    <e r="LR" lm="allora"><p><l>alora</l><r>allora</r></p><par n="porque__cnjadv"/></e>
+    <e lm="antonces"><i>antonces</i><par n="porque__cnjadv"/></e>
+    <e r="LR" lm="antonces"><p><l>antonzes</l><r>antonces</r></p><par n="porque__cnjadv"/></e>
+
     <e lm="mientres que" i="yes"><i>mientres<b/>que</i><par n="porque__cnjadv"/></e>
     <e r="LR" lm="mientres que" i="yes"><p><l>mientras<b/>que</l><r>mientres<b/>que</r></p><par n="porque__cnjadv"/></e>
     <e lm="mientras tanto que" i="yes"><i>mientras<b/>tanto<b/>que</i><par n="porque__cnjadv"/></e>
@@ -13404,7 +13462,7 @@
     <e r="LR" lm="á saber que" i="yes"><p><l>asaber<b/>que</l><r>á<b/>saber<b/>que</r></p><par n="bien__preadv"/></e>
 
 <!--Adverbios-->
-    <e lm="autualment"><i>autualment</i><par n="agora__adv"/></e>
+    <e lm="autualment"><i>autualm</i><par n="malam/ent__adv"/></e>
     <e lm="antes"><i>antes</i><par n="agora__adv"/></e>
     <e r="LR" lm="antes"><p><l>antis</l><r>antes</r></p><par n="agora__adv"/></e>
     <e lm="sólo"><i>sólo</i><par n="agora__adv"/></e>
@@ -13414,7 +13472,7 @@
     <e lm="mesmo"><i>mesmo</i><par n="agora__adv"/></e>
     <e lm="dimpués"><i>dimpués</i><par n="agora__adv"/></e>
     <e lm="dispués"><i>dispués</i><par n="agora__adv"/></e>
-    <e lm="foneticament"><i>foneticament</i><par n="agora__adv"/></e>
+    <e lm="foneticament"><i>foneticam</i><par n="malam/ent__adv"/></e>
     <e lm="acá"><i>acá</i><par n="agora__adv"/></e>
     <e lm="adebant" i="yes"><i>adebant</i><par n="agora__adv"/></e>
     <e r="LR" lm="adebant" i="yes"><p><l>adebán</l><r>adebant</r></p><par n="agora__adv"/></e>
@@ -13481,6 +13539,7 @@
     <e lm="talto" i="yes"><i>talto</i><par n="agora__adv"/></e>
     <e lm="tazaga" i="yes"><i>tazaga</i><par n="agora__adv"/></e>
     <e lm="t'astí" i="yes"><i>t'astí</i><par n="agora__adv"/></e>
+    
     <e lm="ya"><i>ya</i><par n="agora__adv"/></e>
     <e lm="agora"><i>agora</i><par n="agora__adv"/></e>
     <e lm="brenca"><i>brenca</i><par n="agora__adv"/></e>
@@ -13523,8 +13582,11 @@
     <e r="LR" lm="te'n"><p><l>te'n</l><r>te<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="LR" lm="le'n"><p><l>le'n</l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="LR" lm="se'n"><p><l>se'n</l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    <e r="LR" lm="d'el"><p><l>del</l><r>de<s n="pr"/><j/>o<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="LR" lm="del"><p><l>del</l><r>de<s n="pr"/><j/>o<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="d'els"><p><l>dels</l><r>de<s n="pr"/><j/>o<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
     <e r="LR" lm="dels"><p><l>dels</l><r>de<s n="pr"/><j/>o<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
+    
     <e lm="Caixa Catalunya"><i>Caixa<b/>Catalunya</i><par n="ABC__np"/></e>
     <e lm="Efe"><i>Efe</i><par n="ABC__np"/></e>
     <e lm="Barbera"><i>Barbera</i><par n="ABC__np"/></e>
@@ -16244,44 +16306,57 @@
     <e lm="celebrar"><i>celebr</i><par n="cant/ar__vblex"/></e>
     <e lm="centralizar"><i>centraliz</i><par n="cant/ar__vblex"/></e>
     <e lm="citar"><i>cit</i><par n="cant/ar__vblex"/></e>
-    <e lm="día"><i>día</i><par n="libro__n"/></e>
-    <e lm="diya"><i>diya</i><par n="libro__n"/></e>
+    
+    
+    <e lm="día"><i>día</i><par n="luenga__n"/></e>
+    <e r="LR" lm="día"><p><l>diya</l><r>día</r></p><par n="luenga__n"/></e>
     <e lm="creiximiento"><i>creiximiento</i><par n="libro__n"/></e>
     <e lm="funcionamiento"><i>funcionamiento</i><par n="libro__n"/></e>
     <e lm="prochecto"><i>prochecto</i><par n="libro__n"/></e>
+    <e r="LR" lm="prochecto"><p><l>procheuto</l><r>prochecto</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="prochecto"><p><l>proyeuto</l><r>prochecto</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="prochecto"><p><l>proyecto</l><r>prochecto</r></p><par n="libro__n"/></e>
     <e lm="averroísmo"><i>averroísmo</i><par n="libro__n"/></e>
+    <e r="LR" lm="averroísmo"><p><l>averroismo</l><r>averroísmo</r></p><par n="libro__n"/></e>
     <e lm="absolutismo"><i>absolutismo</i><par n="libro__n"/></e>
     <e lm="activismo"><i>activismo</i><par n="libro__n"/></e>
     <e lm="agnosticismo"><i>agnosticismo</i><par n="libro__n"/></e>
     <e r="LR" lm="agnosticismo"><p><l>agnostizismo</l><r>agnosticismo</r></p><par n="libro__n"/></e>
-    <e lm="aislacionismo"><i>aislacionismo</i><par n="libro__n"/></e>
+    <e lm="isolacionismo"><i>isolacionismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="isolacionismo"><p><l>aislacionismo</l><r>isolacionismo</r></p><par n="libro__n"/></e>
     <e lm="alcoholismo"><i>alcoholismo</i><par n="libro__n"/></e>
     <e lm="algorismo"><i>algorismo</i><par n="libro__n"/></e>
     <e lm="analfabetismo"><i>analfabetismo</i><par n="libro__n"/></e>
-    <e lm="anarco-capitalismo"><i>anarco-capitalismo</i><par n="libro__n"/></e>
+    <e lm="anarcocapitalismo"><i>anarcocapitalismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="anarcocapitalismo"><p><l>anarco-capitalismo</l><r>anarcocapitalismo</r></p><par n="libro__n"/></e>
     <e lm="anarcocomunismo"><i>anarcocomunismo</i><par n="libro__n"/></e>
-    <e lm="anarco-comunismo"><i>anarco-comunismo</i><par n="libro__n"/></e>
-    <e lm="anarco-cristianismo"><i>anarco-cristianismo</i><par n="libro__n"/></e>
-    <e lm="anarcosendicalismo"><i>anarcosendicalismo</i><par n="libro__n"/></e>
+  <e r="LR" lm="anarcocomunismo"><p><l>anarco-comunismo</l><r>anarcocomunismo</r></p><par n="libro__n"/></e>
+    <e lm="anarcosindicalismo"><i>anarcosindicalismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="anarcosindicalismo"><p><l>anarcosendicalismo</l><r>anarcosindicalismo</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="anarcosindicalismo"><p><l>anarco-sindicalismo</l><r>anarcosindicalismo</r></p><par n="libro__n"/></e>
     <e lm="anarquismo"><i>anarquismo</i><par n="libro__n"/></e>
-    <e lm="anglizismo"><i>anglizismo</i><par n="libro__n"/></e>
+    <e lm="anglicismo"><i>anglicismo</i><par n="libro__n"/></e>
     <e lm="animismo"><i>animismo</i><par n="libro__n"/></e>
     <e lm="anticapitalismo"><i>anticapitalismo</i><par n="libro__n"/></e>
     <e lm="anticomunismo"><i>anticomunismo</i><par n="libro__n"/></e>
-    <e lm="antifaszismo"><i>antifaszismo</i><par n="libro__n"/></e>
-    <e lm="antifaxismo"><i>antifaxismo</i><par n="libro__n"/></e>
-    <e lm="anti-imperialismo"><i>anti-imperialismo</i><par n="libro__n"/></e>
+    <e lm="antifascismo"><i>antifascismo</i><par n="libro__n"/></e>
+    <e lm="antifaixismo"><i>antifaixismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="antifaixismo"><p><l>antifaxismo</l><r>antifaixismo</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="antifaixismo"><p><l>antifascismo</l><r>antifaixismo</r></p><par n="libro__n"/></e>
+    <e lm="antiimperialismo"><i>antiimperialismo</i><par n="libro__n"/></e>
     <e lm="antimarxismo"><i>antimarxismo</i><par n="libro__n"/></e>
-    <e lm="anti-melitarismo"><i>anti-melitarismo</i><par n="libro__n"/></e>
+    <e lm="antimilitarismo"><i>antimilitarismo</i><par n="libro__n"/></e>
     <e lm="antiparlamentarismo"><i>antiparlamentarismo</i><par n="libro__n"/></e>
     <e lm="antisemitismo"><i>antisemitismo</i><par n="libro__n"/></e>
     <e lm="antropocentrismo"><i>antropocentrismo</i><par n="libro__n"/></e>
     <e lm="arabismo"><i>arabismo</i><par n="libro__n"/></e>
     <e lm="aragonesismo"><i>aragonesismo</i><par n="libro__n"/></e>
-    <e lm="arcaismo"><i>arcaismo</i><par n="libro__n"/></e>
+    <e lm="arcaísmo"><i>arcaísmo</i><par n="libro__n"/></e>
+    <e r="LR" lm="arcaísmo"><p><l>arcaismo</l><r>arcaísmo</r></p><par n="libro__n"/></e>
     <e lm="arrianismo"><i>arrianismo</i><par n="libro__n"/></e>
     <e lm="ascetismo"><i>ascetismo</i><par n="libro__n"/></e>
-    <e lm="asimismo"><i>asimismo</i><par n="libro__n"/></e>
+    <e lm="asinasmesmo"><i>asinasmesmo</i><par n="agora__adv"/></e>
+    <e r="LR" lm="asinasmesmo"><p><l>asinasmismo</l><r>asinasmesmo</r></p><par n="libro__n"/></e>
     <e lm="matrimonio"><i>matrimonio</i><par n="libro__n"/></e>
     <e lm="treballo"><i>treballo</i><par n="libro__n"/></e>
     <e lm="asturianismo"><i>asturianismo</i><par n="libro__n"/></e>
@@ -16319,51 +16394,54 @@
     <e lm="barbarismo"><i>barbarismo</i><par n="libro__n"/></e>
     <e lm="barranquismo"><i>barranquismo</i><par n="libro__n"/></e>
     <e lm="basquismo"><i>basquismo</i><par n="libro__n"/></e>
-    <e lm="batismo"><i>batismo</i><par n="libro__n"/></e>
-    <e lm="bautismo"><i>bautismo</i><par n="libro__n"/></e>
+    <e lm="baptismo"><i>baptismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="baptismo"><p><l>bautismo</l><r>baptismo</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="baptismo"><p><l>baltismo</l><r>baptismo</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="baptismo"><p><l>batismo</l><r>baptismo</r></p><par n="libro__n"/></e>
     <e lm="belicismo"><i>belicismo</i><par n="libro__n"/></e>
     <e lm="bilingüismo"><i>bilingüismo</i><par n="libro__n"/></e>
     <e lm="bipartidismo"><i>bipartidismo</i><par n="libro__n"/></e>
     <e lm="blondismo"><i>blondismo</i><par n="libro__n"/></e>
-    <e lm="bolchebismo"><i>bolchebismo</i><par n="libro__n"/></e>
+    <e lm="bolchevismo"><i>bolchevismo</i><par n="libro__n"/></e>
     <e lm="budismo"><i>budismo</i><par n="libro__n"/></e>
-    <e lm="bulgarismo"><i>bulgarismo</i><par n="libro__n"/></e>
+    <e lm="vulgarismo"><i>vulgarismo</i><par n="libro__n"/></e>
     <e lm="caciquismo"><i>caciquismo</i><par n="libro__n"/></e>
-    <e lm="calbinismo"><i>calbinismo</i><par n="libro__n"/></e>
+    <e lm="calvinismo"><i>calvinismo</i><par n="libro__n"/></e>
     <e lm="capitalismo"><i>capitalismo</i><par n="libro__n"/></e>
     <e lm="carlismo"><i>carlismo</i><par n="libro__n"/></e>
     <e lm="castellanismo"><i>castellanismo</i><par n="libro__n"/></e>
     <e lm="catalanismo"><i>catalanismo</i><par n="libro__n"/></e>
     <e lm="catecismo"><i>catecismo</i><par n="libro__n"/></e>
-    <e lm="catezismo"><i>catezismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="catecismo"><p><l>catezismo</l><r>catecismo</r></p><par n="libro__n"/></e>
     <e lm="catolicismo"><i>catolicismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="catolicismo"><p><l>catolizismo</l><r>catolicismo</r></p><par n="libro__n"/></e>
     <e lm="catolizismo"><i>catolizismo</i><par n="libro__n"/></e>
-    <e lm="chudaismo"><i>chudaismo</i><par n="libro__n"/></e>
+    <e lm="chudaísmo"><i>chudaísmo</i><par n="libro__n"/></e>
+    <e r="LR" lm="chudaísmo"><p><l>chudaismo</l><r>chudaísmo</r></p><par n="libro__n"/></e>
     <e lm="chudeo-bolchevismo"><i>chudeo-bolchevismo</i><par n="libro__n"/></e>
     <e lm="ciclismo"><i>ciclismo</i><par n="libro__n"/></e>
     <e lm="clasicismo"><i>clasicismo</i><par n="libro__n"/></e>
     <e lm="colaboracionismo"><i>colaboracionismo</i><par n="libro__n"/></e>
-    <e lm="colaborazionismo"><i>colaborazionismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="colaborazionismo"><p><l>colaborazionismo</l><r>colaboracionismo</r></p><par n="libro__n"/></e>
     <e lm="coleccionismo"><i>coleccionismo</i><par n="libro__n"/></e>
     <e lm="colectivismo"><i>colectivismo</i><par n="libro__n"/></e>
-    <e lm="coleutibismo"><i>coleutibismo</i><par n="libro__n"/></e>
-    <e lm="colezionismo"><i>colezionismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="colectivismo"><p><l>coleutibismo</l><r>colectivismo</r></p><par n="libro__n"/></e>
     <e lm="colonialismo"><i>colonialismo</i><par n="libro__n"/></e>
-    <e lm="compañerismo"><i>compañerismo</i><par n="libro__n"/></e>
+    <e lm="companyerismo"><i>companyerismo</i><par n="libro__n"/></e>
     <e lm="comunismo"><i>comunismo</i><par n="libro__n"/></e>
     <e lm="conformismo"><i>conformismo</i><par n="libro__n"/></e>
     <e lm="confucianismo"><i>confucianismo</i><par n="libro__n"/></e>
-    <e lm="confuzianismo"><i>confuzianismo</i><par n="libro__n"/></e>
-    <e lm="confuzionismo"><i>confuzionismo</i><par n="libro__n"/></e>
-    <e lm="conserbadurismo"><i>conserbadurismo</i><par n="libro__n"/></e>
+    <e lm="confucianismo"><i>confucianismo</i><par n="libro__n"/></e>
+    <e lm="confucionismo"><i>confucionismo</i><par n="libro__n"/></e>
     <e lm="conservadurismo"><i>conservadurismo</i><par n="libro__n"/></e>
-    <e lm="crestianismo"><i>crestianismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="conservadurismo"><p><l>conserbadurismo</l><r>conservadurismo</r></p><par n="libro__n"/></e>
     <e lm="cristianismo"><i>cristianismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="cristianismo"><p><l>crestianismo</l><r>cristianismo</r></p><par n="libro__n"/></e>
     <e lm="cubismo"><i>cubismo</i><par n="libro__n"/></e>
     <e lm="cultismo"><i>cultismo</i><par n="libro__n"/></e>
     <e lm="daltonismo"><i>daltonismo</i><par n="libro__n"/></e>
     <e lm="darwinismo"><i>darwinismo</i><par n="libro__n"/></e>
-    <e lm="deconstructibismo"><i>deconstructibismo</i><par n="libro__n"/></e>
+    <e lm="deconstructivismo"><i>deconstructivismo</i><par n="libro__n"/></e>
     <e lm="despotismo"><i>despotismo</i><par n="libro__n"/></e>
     <e lm="dimorfismo"><i>dimorfismo</i><par n="libro__n"/></e>
     <e lm="dinamismo"><i>dinamismo</i><par n="libro__n"/></e>
@@ -16373,24 +16451,27 @@
     <e lm="eclecticismo"><i>eclecticismo</i><par n="libro__n"/></e>
     <e lm="ecolochismo"><i>ecolochismo</i><par n="libro__n"/></e>
     <e lm="ecumenismo"><i>ecumenismo</i><par n="libro__n"/></e>
-    <e lm="edonismo"><i>edonismo</i><par n="libro__n"/></e>
+    <e lm="hedonismo"><i>hedonismo</i><par n="libro__n"/></e>
     <e lm="electromagnetismo"><i>electromagnetismo</i><par n="libro__n"/></e>
-    <e lm="eletromagnetismo"><i>eletromagnetismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="electromagnetismo"><p><l>eletromagnetismo</l><r>electromagnetismo</r></p><par n="libro__n"/></e>
     <e lm="empirismo"><i>empirismo</i><par n="libro__n"/></e>
     <e lm="endemismo"><i>endemismo</i><par n="libro__n"/></e>
-    <e lm="eroismo"><i>eroismo</i><par n="libro__n"/></e>
+    <e lm="heroísmo"><i>heroísmo</i><par n="libro__n"/></e>
     <e lm="erotismo"><i>erotismo</i><par n="libro__n"/></e>
     <e lm="escepticismo"><i>escepticismo</i><par n="libro__n"/></e>
-    <e lm="esistencialismo"><i>esistencialismo</i><par n="libro__n"/></e>
-    <e lm="espansionismo"><i>espansionismo</i><par n="libro__n"/></e>
-    <e lm="espresionismo"><i>espresionismo</i><par n="libro__n"/></e>
+    <e lm="existencialismo"><i>existencialismo</i><par n="libro__n"/></e>
+    <e lm="expansionismo"><i>expansionismo</i><par n="libro__n"/></e>
+    <e lm="expresionismo"><i>expresionismo</i><par n="libro__n"/></e>
     <e lm="espritismo"><i>espritismo</i><par n="libro__n"/></e>
-    <e lm="esquepticismo"><i>esquepticismo</i><par n="libro__n"/></e>
-    <e lm="estalinismo"><i>estalinismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="espritismo"><p><l>espiritismo</l><r>espritismo</r></p><par n="libro__n"/></e>
+    <e lm="scepticismo"><i>scepticismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="scepticismo"><p><l>escepticismo</l><r>scepticismo</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="scepticismo"><p><l>esquepticismo</l><r>scepticismo</r></p><par n="libro__n"/></e>
     <e lm="estatismo"><i>estatismo</i><par n="libro__n"/></e>
     <e lm="estilismo"><i>estilismo</i><par n="libro__n"/></e>
     <e lm="estoicismo"><i>estoicismo</i><par n="libro__n"/></e>
     <e lm="estructuralismo"><i>estructuralismo</i><par n="libro__n"/></e>
+    <e lm="fundamentalismo"><i>fundamentalismo</i><par n="libro__n"/></e>
     <e lm="estruturalismo"><i>estruturalismo</i><par n="libro__n"/></e>
     <e lm="eufemismo"><i>eufemismo</i><par n="libro__n"/></e>
     <e lm="euroscepticismo"><i>euroscepticismo</i><par n="libro__n"/></e>
@@ -16415,17 +16496,19 @@
     <e lm="humanismo"><i>humanismo</i><par n="libro__n"/></e>
     <e lm="iberismo"><i>iberismo</i><par n="libro__n"/></e>
     <e lm="ideyalismo"><i>ideyalismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="ideyalismo"><p><l>idealismo</l><r>ideyalismo</r></p><par n="libro__n"/></e>
     <e lm="imperialismo"><i>imperialismo</i><par n="libro__n"/></e>
     <e lm="impresionismo"><i>impresionismo</i><par n="libro__n"/></e>
     <e lm="independentismo"><i>independentismo</i><par n="libro__n"/></e>
-    <e lm="indibidualismo"><i>indibidualismo</i><par n="libro__n"/></e>
+    <e lm="indibivualismo"><i>individualismo</i><par n="libro__n"/></e>
     <e lm="induismo"><i>induismo</i><par n="libro__n"/></e>
     <e lm="innatismo"><i>innatismo</i><par n="libro__n"/></e>
     <e lm="integrismo"><i>integrismo</i><par n="libro__n"/></e>
-    <e lm="internazionalismo"><i>internazionalismo</i><par n="libro__n"/></e>
+    <e lm="internacionalismo"><i>internacionalismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="internacionalismo"><p><l>internazionalismo</l><r>internacionalismo</r></p><par n="libro__n"/></e>
     <e lm="islamismo"><i>islamismo</i><par n="libro__n"/></e>
     <e lm="krausismo"><i>krausismo</i><par n="libro__n"/></e>
-    <e lm="laizismo"><i>laizismo</i><par n="libro__n"/></e>
+    <e lm="laicismo"><i>laicismo</i><par n="libro__n"/></e>
     <e lm="leninismo"><i>leninismo</i><par n="libro__n"/></e>
     <e lm="lesbianismo"><i>lesbianismo</i><par n="libro__n"/></e>
     <e lm="liberalismo"><i>liberalismo</i><par n="libro__n"/></e>
@@ -16450,76 +16533,74 @@
     <e lm="monaquismo"><i>monaquismo</i><par n="libro__n"/></e>
     <e lm="monarquismo"><i>monarquismo</i><par n="libro__n"/></e>
     <e lm="monofisismo"><i>monofisismo</i><par n="libro__n"/></e>
-    <e lm="montañismo"><i>montañismo</i><par n="libro__n"/></e>
     <e lm="montanyismo"><i>montanyismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="montanyismo"><p><l>montañismo</l><r>montanyismo</r></p><par n="libro__n"/></e>
     <e lm="moralismo"><i>moralismo</i><par n="libro__n"/></e>
     <e lm="mormonismo"><i>mormonismo</i><par n="libro__n"/></e>
     <e lm="motociclismo"><i>motociclismo</i><par n="libro__n"/></e>
     <e lm="mutualismo"><i>mutualismo</i><par n="libro__n"/></e>
     <e lm="nacionalismo"><i>nacionalismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="nacionalismo"><p><l>nazionalismo</l><r>nacionalismo</r></p><par n="libro__n"/></e>
     <e lm="narcisismo"><i>narcisismo</i><par n="libro__n"/></e>
     <e lm="naturalismo"><i>naturalismo</i><par n="libro__n"/></e>
-    <e lm="nazionalismo"><i>nazionalismo</i><par n="libro__n"/></e>
     <e lm="nacionalsocialismo"><i>nacionalsocialismo</i><par n="libro__n"/></e>
     <e lm="nazismo"><i>nazismo</i><par n="libro__n"/></e>
     <e lm="neocatastrofismo"><i>neocatastrofismo</i><par n="libro__n"/></e>
-    <e lm="neoclasizismo"><i>neoclasizismo</i><par n="libro__n"/></e>
+    <e lm="neoclasicismo"><i>neoclasicismo</i><par n="libro__n"/></e>
     <e lm="neodruidismo"><i>neodruidismo</i><par n="libro__n"/></e>
     <e lm="neoideyalismo"><i>neoideyalismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="neoideyalismo"><p><l>neoidealismo</l><r>neoideyalismo</r></p><par n="libro__n"/></e>
     <e lm="neokantismo"><i>neokantismo</i><par n="libro__n"/></e>
     <e lm="neolochismo"><i>neolochismo</i><par n="libro__n"/></e>
-    <e lm="neologismo"><i>neologismo</i><par n="libro__n"/></e>
-    <e lm="neoloxismo"><i>neoloxismo</i><par n="libro__n"/></e>
     <e lm="neopaganismo"><i>neopaganismo</i><par n="libro__n"/></e>
     <e lm="neoplatonismo"><i>neoplatonismo</i><par n="libro__n"/></e>
     <e lm="nestorianismo"><i>nestorianismo</i><par n="libro__n"/></e>
-    <e lm="nioliberalismo"><i>nioliberalismo</i><par n="libro__n"/></e>
-    <e lm="niolochismo"><i>niolochismo</i><par n="libro__n"/></e>
     <e lm="nomadismo"><i>nomadismo</i><par n="libro__n"/></e>
     <e lm="optimismo"><i>optimismo</i><par n="libro__n"/></e>
     <e lm="organismo"><i>organismo</i><par n="libro__n"/></e>
     <e lm="pacifismo"><i>pacifismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="pacifismo"><p><l>pazifismo</l><r>pacifismo</r></p><par n="libro__n"/></e>
     <e lm="paganismo"><i>paganismo</i><par n="libro__n"/></e>
     <e lm="paludismo"><i>paludismo</i><par n="libro__n"/></e>
-    <e lm="pan-arabismo"><i>pan-arabismo</i><par n="libro__n"/></e>
+    <e lm="panarabismo"><i>panarabismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="panarabismo"><p><l>pan-arabismo</l><r>pararabismo</r></p><par n="libro__n"/></e>
     <e lm="panchermanismo"><i>panchermanismo</i><par n="libro__n"/></e>
     <e lm="paralelismo"><i>paralelismo</i><par n="libro__n"/></e>
     <e lm="parlamentarismo"><i>parlamentarismo</i><par n="libro__n"/></e>
-    <e lm="pazifismo"><i>pazifismo</i><par n="libro__n"/></e>
     <e lm="periodismo"><i>periodismo</i><par n="libro__n"/></e>
     <e lm="piragüismo"><i>piragüismo</i><par n="libro__n"/></e>
     <e lm="pluralismo"><i>pluralismo</i><par n="libro__n"/></e>
     <e lm="positivismo"><i>positivismo</i><par n="libro__n"/></e>
     <e lm="postmodernismo"><i>postmodernismo</i><par n="libro__n"/></e>
-    <e lm="postmudernismo"><i>postmudernismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="postmodernismo"><p><l>postmudernismo</l><r>postmodernismo</r></p><par n="libro__n"/></e>
     <e lm="pragmatismo"><i>pragmatismo</i><par n="libro__n"/></e>
     <e lm="proselitismo"><i>proselitismo</i><par n="libro__n"/></e>
     <e lm="protagonismo"><i>protagonismo</i><par n="libro__n"/></e>
     <e lm="protestantismo"><i>protestantismo</i><par n="libro__n"/></e>
     <e lm="provincialismo"><i>provincialismo</i><par n="libro__n"/></e>
     <e lm="racismo"><i>racismo</i><par n="libro__n"/></e>
-    <e lm="razionalismo"><i>razionalismo</i><par n="libro__n"/></e>
-    <e lm="razismo"><i>razismo</i><par n="libro__n"/></e>
+    <e lm="racionalismo"><i>racionalismo</i><par n="libro__n"/></e>
     <e lm="realismo"><i>realismo</i><par n="libro__n"/></e>
-    <e lm="rebanchismo"><i>rebanchismo</i><par n="libro__n"/></e>
+    <e lm="revanchismo"><i>revanchismo</i><par n="libro__n"/></e>
     <e lm="rechionalismo"><i>rechionalismo</i><par n="libro__n"/></e>
     <e lm="republicanismo"><i>republicanismo</i><par n="libro__n"/></e>
     <e lm="reumatismo"><i>reumatismo</i><par n="libro__n"/></e>
     <e lm="reyalismo"><i>reyalismo</i><par n="libro__n"/></e>
     <e lm="romanticismo"><i>romanticismo</i><par n="libro__n"/></e>
-    <e lm="romantizismo"><i>romantizismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="romanticismo"><p><l>romantizismo</l><r>romanticismo</r></p><par n="libro__n"/></e>
     <e lm="rotacismo"><i>rotacismo</i><par n="libro__n"/></e>
     <e lm="saturnismo"><i>saturnismo</i><par n="libro__n"/></e>
-    <e lm="sendicalismo"><i>sendicalismo</i><par n="libro__n"/></e>
     <e lm="separatismo"><i>separatismo</i><par n="libro__n"/></e>
     <e lm="simbolismo"><i>simbolismo</i><par n="libro__n"/></e>
     <e lm="sincretismo"><i>sincretismo</i><par n="libro__n"/></e>
     <e lm="sindicalismo"><i>sindicalismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="sindicalismo"><p><l>sendicalismo</l><r>sindicalismo</r></p><par n="libro__n"/></e>
     <e lm="sionismo"><i>sionismo</i><par n="libro__n"/></e>
     <e lm="sismo"><i>sismo</i><par n="libro__n"/></e>
     <e lm="socialismo"><i>socialismo</i><par n="libro__n"/></e>
-    <e lm="socialismo"><i>socialismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="socialismo"><p><l>sozialismo</l><r>socialismo</r></p><par n="libro__n"/></e>
     <e lm="stalinismo"><i>stalinismo</i><par n="libro__n"/></e>
+    <e r="LR" lm="stalinismo"><p><l>estalinismo</l><r>stalinismo</r></p><par n="libro__n"/></e>
     <e lm="sufismo"><i>sufismo</i><par n="libro__n"/></e>
     <e lm="surrealismo"><i>surrealismo</i><par n="libro__n"/></e>
     <e lm="tecnicismo"><i>tecnicismo</i><par n="libro__n"/></e>
@@ -16529,7 +16610,7 @@
     <e lm="tribalismo"><i>tribalismo</i><par n="libro__n"/></e>
     <e lm="turismo"><i>turismo</i><par n="libro__n"/></e>
     <e lm="ultra-racismo"><i>ultra-racismo</i><par n="libro__n"/></e>
-    <e lm="umanismo"><i>umanismo</i><par n="libro__n"/></e>
+    <e lm="humanismo"><i>humanismo</i><par n="libro__n"/></e>
     <e lm="unitarismo"><i>unitarismo</i><par n="libro__n"/></e>
     <e lm="urbanismo"><i>urbanismo</i><par n="libro__n"/></e>
     <e lm="valencianismo"><i>valencianismo</i><par n="libro__n"/></e>
@@ -16537,193 +16618,222 @@
     <e lm="vechetarianismo"><i>vechetarianismo</i><par n="libro__n"/></e>
     <e lm="vegetarianismo"><i>vegetarianismo</i><par n="libro__n"/></e>
     <e lm="vulgarismo"><i>vulgarismo</i><par n="libro__n"/></e>
-    <e lm="zeltismo"><i>zeltismo</i><par n="libro__n"/></e>
-    <e lm="zentralismo"><i>zentralismo</i><par n="libro__n"/></e>
-    <e lm="zentrismo"><i>zentrismo</i><par n="libro__n"/></e>
-    <e lm="ziclismo"><i>ziclismo</i><par n="libro__n"/></e>
+    <e lm="celtismo"><i>celtismo</i><par n="libro__n"/></e>
+    <e lm="centralismo"><i>centralismo</i><par n="libro__n"/></e>
+    <e lm="centrismo"><i>centrismo</i><par n="libro__n"/></e>
+    <e lm="ciclismo"><i>ciclismo</i><par n="libro__n"/></e>
     <e lm="zoroastrianismo"><i>zoroastrianismo</i><par n="libro__n"/></e>
     <e lm="zoroastrismo"><i>zoroastrismo</i><par n="libro__n"/></e>
-    <e lm="etc."><i>etc.</i><par n="agora__adv"/></e>
-    <e lm="activament"><i>activament</i><par n="agora__adv"/></e>
-    <e lm="actualment"><i>actualment</i><par n="agora__adv"/></e>
-    <e lm="aleatoriament"><i>aleatoriament</i><par n="agora__adv"/></e>
-    <e lm="altament"><i>altament</i><par n="agora__adv"/></e>
-    <e lm="alternativament"><i>alternativament</i><par n="agora__adv"/></e>
-    <e lm="anteriorment"><i>anteriorment</i><par n="agora__adv"/></e>
-    <e lm="aproximadament"><i>aproximadament</i><par n="agora__adv"/></e>
-    <e lm="artificialment"><i>artificialment</i><par n="agora__adv"/></e>
-    <e lm="bruscament"><i>bruscament</i><par n="agora__adv"/></e>
-    <e lm="brutalment"><i>brutalment</i><par n="agora__adv"/></e>
-    <e lm="cabalment"><i>cabalment</i><par n="agora__adv"/></e>
-    <e lm="casualment"><i>casualment</i><par n="agora__adv"/></e>
-    <e lm="cautelosament"><i>cautelosament</i><par n="agora__adv"/></e>
-    <e lm="clarament"><i>clarament</i><par n="agora__adv"/></e>
-    <e lm="colectivament"><i>colectivament</i><par n="agora__adv"/></e>
-    <e lm="comercialment"><i>comercialment</i><par n="agora__adv"/></e>
-    <e lm="completament"><i>completament</i><par n="agora__adv"/></e>
-    <e lm="concretament"><i>concretament</i><par n="agora__adv"/></e>
-    <e lm="conjuntament"><i>conjuntament</i><par n="agora__adv"/></e>
-    <e lm="conscientement"><i>conscientement</i><par n="agora__adv"/></e>
-    <e lm="consecutivament"><i>consecutivament</i><par n="agora__adv"/></e>
-    <e lm="considerablement"><i>considerablement</i><par n="agora__adv"/></e>
-    <e lm="constantement"><i>constantement</i><par n="agora__adv"/></e>
-    <e lm="constitucionalment"><i>constitucionalment</i><par n="agora__adv"/></e>
-    <e lm="continuament"><i>continuament</i><par n="agora__adv"/></e>
-    <e lm="correctament"><i>correctament</i><par n="agora__adv"/></e>
-    <e lm="curiosament"><i>curiosament</i><par n="agora__adv"/></e>
-    <e lm="debidament"><i>debidament</i><par n="agora__adv"/></e>
-    <e lm="decisivament"><i>decisivament</i><par n="agora__adv"/></e>
-    <e lm="definitivament"><i>definitivament</i><par n="agora__adv"/></e>
-    <e lm="densament"><i>densament</i><par n="agora__adv"/></e>
-    <e lm="desgraciadament"><i>desgraciadament</i><par n="agora__adv"/></e>
-    <e lm="diariament"><i>diariament</i><par n="agora__adv"/></e>
-    <e lm="difícilment"><i>difícilment</i><par n="agora__adv"/></e>
-    <e lm="directament"><i>directament</i><par n="agora__adv"/></e>
-    <e lm="discretament"><i>discretament</i><par n="agora__adv"/></e>
-    <e lm="eficazment"><i>eficazment</i><par n="agora__adv"/></e>
-    <e lm="enterament"><i>enterament</i><par n="agora__adv"/></e>
-    <e lm="esencialment"><i>esencialment</i><par n="agora__adv"/></e>
-    <e lm="especialment"><i>especialment</i><par n="agora__adv"/></e>
-    <e lm="espectacularment"><i>espectacularment</i><par n="agora__adv"/></e>
-    <e lm="estrictament"><i>estrictament</i><par n="agora__adv"/></e>
-    <e lm="eternament"><i>eternament</i><par n="agora__adv"/></e>
-    <e lm="exactament"><i>exactament</i><par n="agora__adv"/></e>
-    <e lm="exclusivament"><i>exclusivament</i><par n="agora__adv"/></e>
-    <e lm="extensament"><i>extensament</i><par n="agora__adv"/></e>
-    <e lm="extraordinariament"><i>extraordinariament</i><par n="agora__adv"/></e>
-    <e lm="extremadament"><i>extremadament</i><par n="agora__adv"/></e>
-    <e lm="fácilment"><i>fácilment</i><par n="agora__adv"/></e>
-    <e lm="falsament"><i>falsament</i><par n="agora__adv"/></e>
-    <e lm="finalment"><i>finalment</i><par n="agora__adv"/></e>
-    <e lm="firmement"><i>firmement</i><par n="agora__adv"/></e>
-    <e lm="formalment"><i>formalment</i><par n="agora__adv"/></e>
-    <e lm="fraternalment"><i>fraternalment</i><par n="agora__adv"/></e>
-    <e lm="frecuentement"><i>frecuentement</i><par n="agora__adv"/></e>
-    <e lm="fuertement"><i>fuertement</i><par n="agora__adv"/></e>
-    <e lm="fundamentalment"><i>fundamentalment</i><par n="agora__adv"/></e>
-    <e lm="gradualment"><i>gradualment</i><par n="agora__adv"/></e>
-    <e lm="habitualment"><i>habitualment</i><par n="agora__adv"/></e>
-    <e lm="horizontalment"><i>horizontalment</i><par n="agora__adv"/></e>
-    <e lm="igualment"><i>igualment</i><par n="agora__adv"/></e>
-    <e lm="ilegalment"><i>ilegalment</i><par n="agora__adv"/></e>
-    <e lm="impropiament"><i>impropiament</i><par n="agora__adv"/></e>
-    <e lm="indiscutiblement"><i>indiscutiblement</i><par n="agora__adv"/></e>
-    <e lm="indistintament"><i>indistintament</i><par n="agora__adv"/></e>
-    <e lm="individualment"><i>individualment</i><par n="agora__adv"/></e>
-    <e lm="informalment"><i>informalment</i><par n="agora__adv"/></e>
-    <e lm="inicialment"><i>inicialment</i><par n="agora__adv"/></e>
-    <e lm="inmediatament"><i>inmediatament</i><par n="agora__adv"/></e>
-    <e lm="intensament"><i>intensament</i><par n="agora__adv"/></e>
-    <e lm="interiorment"><i>interiorment</i><par n="agora__adv"/></e>
-    <e lm="internacionalment"><i>internacionalment</i><par n="agora__adv"/></e>
-    <e lm="internament"><i>internament</i><par n="agora__adv"/></e>
-    <e lm="involuntariament"><i>involuntariament</i><par n="agora__adv"/></e>
-    <e lm="irresponsablement"><i>irresponsablement</i><par n="agora__adv"/></e>
-    <e lm="legalment"><i>legalment</i><par n="agora__adv"/></e>
-    <e lm="lentament"><i>lentament</i><par n="agora__adv"/></e>
-    <e lm="librement"><i>librement</i><par n="agora__adv"/></e>
-    <e lm="ligerament"><i>ligerament</i><par n="agora__adv"/></e>
-    <e lm="literalment"><i>literalment</i><par n="agora__adv"/></e>
-    <e lm="localment"><i>localment</i><par n="agora__adv"/></e>
-    <e lm="marginalment"><i>marguinalment</i><par n="agora__adv"/></e>
-    <e lm="masivament"><i>masivament</i><par n="agora__adv"/></e>
-    <e lm="mayoritariament"><i>mayoritariament</i><par n="agora__adv"/></e>
-    <e lm="merament"><i>merament</i><par n="agora__adv"/></e>
-    <e lm="militarment"><i>militarment</i><par n="agora__adv"/></e>
-    <e lm="minuciosament"><i>minuciosament</i><par n="agora__adv"/></e>
-    <e lm="misteriosament"><i>misteriosament</i><par n="agora__adv"/></e>
-    <e lm="moderadament"><i>moderadament</i><par n="agora__adv"/></e>
-    <e lm="modestament"><i>modestament</i><par n="agora__adv"/></e>
-    <e lm="mortalment"><i>mortalment</i><par n="agora__adv"/></e>
-    <e lm="mundialment"><i>mundialment</i><par n="agora__adv"/></e>
-    <e lm="naturalment"><i>naturalment</i><par n="agora__adv"/></e>
-    <e lm="necesariament"><i>necesariament</i><par n="agora__adv"/></e>
-    <e lm="normalment"><i>normalment</i><par n="agora__adv"/></e>
-    <e lm="notablement"><i>notablement</i><par n="agora__adv"/></e>
-    <e lm="notoriament"><i>notoriament</i><par n="agora__adv"/></e>
-    <e lm="nuevament"><i>nuevament</i><par n="agora__adv"/></e>
-    <e lm="obviament"><i>obviament</i><par n="agora__adv"/></e>
-    <e lm="ocasionalment"><i>ocasionalment</i><par n="agora__adv"/></e>
-    <e lm="oficialment"><i>oficialment</i><par n="agora__adv"/></e>
-    <e lm="orichinalment"><i>orichinalment</i><par n="agora__adv"/></e>
-    <e lm="paralelament"><i>paralelament</i><par n="agora__adv"/></e>
-    <e lm="parcialment"><i>parcialment</i><par n="agora__adv"/></e>
-    <e lm="particularment"><i>particularment</i><par n="agora__adv"/></e>
-    <e lm="perfectament"><i>perfectament</i><par n="agora__adv"/></e>
-    <e lm="personalment"><i>personalment</i><par n="agora__adv"/></e>
-    <e lm="plenament"><i>plenament</i><par n="agora__adv"/></e>
-    <e lm="popularment"><i>popularment</i><par n="agora__adv"/></e>
-    <e lm="posiblement"><i>posiblement</i><par n="agora__adv"/></e>
-    <e lm="posteriorment"><i>posteriorment</i><par n="agora__adv"/></e>
-    <e lm="potencialment"><i>potencialment</i><par n="agora__adv"/></e>
-    <e lm="precisament"><i>precisament</i><par n="agora__adv"/></e>
-    <e lm="preferentement"><i>preferentement</i><par n="agora__adv"/></e>
-    <e lm="presumiblement"><i>presumiblement</i><par n="agora__adv"/></e>
-    <e lm="presuntament"><i>presuntament</i><par n="agora__adv"/></e>
-    <e lm="previament"><i>previament</i><par n="agora__adv"/></e>
-    <e lm="primerament"><i>primerament</i><par n="agora__adv"/></e>
-    <e lm="principalment"><i>principalment</i><par n="agora__adv"/></e>
-    <e lm="probablement"><i>probablement</i><par n="agora__adv"/></e>
-    <e lm="profesionalment"><i>profesionalment</i><par n="agora__adv"/></e>
-    <e lm="profundament"><i>profundament</i><par n="agora__adv"/></e>
-    <e lm="progresivament"><i>progresivament</i><par n="agora__adv"/></e>
-    <e lm="propiament"><i>propiament</i><par n="agora__adv"/></e>
-    <e lm="provisionalment"><i>provisionalment</i><par n="agora__adv"/></e>
-    <e lm="puntualment"><i>puntualment</i><par n="agora__adv"/></e>
-    <e lm="purament"><i>purament</i><par n="agora__adv"/></e>
-    <e lm="radicalment"><i>radicalment</i><par n="agora__adv"/></e>
-    <e lm="rarament"><i>rarament</i><par n="agora__adv"/></e>
-    <e lm="realment"><i>realment</i><par n="agora__adv"/></e>
-    <e lm="regularment"><i>regularment</i><par n="agora__adv"/></e>
-    <e lm="relativament"><i>relativament</i><par n="agora__adv"/></e>
-    <e lm="repetidament"><i>repetidament</i><par n="agora__adv"/></e>
-    <e lm="respectivament"><i>respectivament</i><par n="agora__adv"/></e>
-    <e lm="rigurosament"><i>rigurosament</i><par n="agora__adv"/></e>
-    <e lm="segurament"><i>segurament</i><par n="agora__adv"/></e>
-    <e lm="semanalment"><i>semanalment</i><par n="agora__adv"/></e>
-    <e lm="separadament"><i>separadament</i><par n="agora__adv"/></e>
-    <e lm="significativament"><i>significativament</i><par n="agora__adv"/></e>
-    <e lm="simplement"><i>simplement</i><par n="agora__adv"/></e>
-    <e lm="singularment"><i>singularment</i><par n="agora__adv"/></e>
-    <e lm="socialment"><i>socialment</i><par n="agora__adv"/></e>
-    <e lm="sucesivament"><i>sucesivament</i><par n="agora__adv"/></e>
-    <e lm="supuestament"><i>supuestament</i><par n="agora__adv"/></e>
-    <e lm="temporalment"><i>temporalment</i><par n="agora__adv"/></e>
-    <e lm="tipicament"><i>tipicament</i><par n="agora__adv"/></e>
-    <e lm="totalment"><i>totalment</i><par n="agora__adv"/></e>
-    <e lm="tradicionalment"><i>tradicionalment</i><par n="agora__adv"/></e>
-    <e lm="tristement"><i>tristement</i><par n="agora__adv"/></e>
-    <e lm="unilateralment"><i>unilateralment</i><par n="agora__adv"/></e>
-    <e lm="universalment"><i>universalment</i><par n="agora__adv"/></e>
-    <e lm="usualment"><i>usualment</i><par n="agora__adv"/></e>
-    <e lm="verticalment"><i>verticalment</i><par n="agora__adv"/></e>
-    <e lm="virtualment"><i>virtualment</i><par n="agora__adv"/></e>
-    <e lm="voluntariament"><par n="/b_v__var"/><i>oluntariament</i><par n="agora__adv"/></e>
-    <e lm="abitualment"><i>abitualment</i><par n="agora__adv"/></e>
-    <e lm="adizionalment"><i>adizionalment</i><par n="agora__adv"/></e>
-    <e lm="administrativament"><i>administrativament</i><par n="agora__adv"/></e>
-    <e lm="aleyatoriament"><i>aleyatoriament</i><par n="agora__adv"/></e>
-    <e lm="almenistratibament"><i>almenistratibament</i><par n="agora__adv"/></e>
-    <e lm="almenistrativament"><i>almenistrativament</i><par n="agora__adv"/></e>
-    <e lm="alministratibament"><i>alministratibament</i><par n="agora__adv"/></e>
-    <e lm="alministrativament"><i>alministrativament</i><par n="agora__adv"/></e>
-    <e lm="alternativament"><i>alternativament</i><par n="agora__adv"/></e>
-    <e lm="aprosimadament"><i>aprosimadament</i><par n="agora__adv"/></e>
-    <e lm="arqueolochicament"><i>arqueolochicament</i><par n="agora__adv"/></e>
-    <e lm="artificialment"><i>artificialment</i><par n="agora__adv"/></e>
-    <e lm="axtualment"><i>axtualment</i><par n="agora__adv"/></e>
-    <e lm="azidentalment"><i>azidentalment</i><par n="agora__adv"/></e>
-    <e lm="berticalment"><i>berticalment</i><par n="agora__adv"/></e>
-    <e lm="birtualment"><i>birtualment</i><par n="agora__adv"/></e>
-    <e lm="bisualment"><i>bisualment</i><par n="agora__adv"/></e>
-    <e lm="boluntariament"><par n="/b_v__var"/><i>oluntariament</i><par n="agora__adv"/></e>
-    <e lm="bulgarment"><i>bulgarment</i><par n="agora__adv"/></e>
-    
-    <e lm="caracteristicament"><i>caracteristicament</i><par n="agora__adv"/></e>
-    <e lm="carateristicament"><i>carateristicament</i><par n="agora__adv"/></e>
-    <e lm="cheneralment"><i>cheneralment</i><par n="agora__adv"/></e>
-    <e lm="chenerosament"><i>chenerosament</i><par n="agora__adv"/></e>
-    <e lm="chenuinament"><i>chenuinament</i><par n="agora__adv"/></e>
+    <e lm="etc."><i>etc.</i><par n="agora__adv"/></e>        
+    <e lm="activament"><i>activam</i><par n="malam/ent__adv"/></e>
+    <e lm="actualment"><i>actualm</i><par n="malam/ent__adv"/></e>
+    <e lm="aleatoriament"><i>aleatoriam</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="aleatoriament"><p><l>aliatoriam</l><r>aleatoriam</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="aleatoriament"><p><l>aleyatoriam</l><r>aleatoriam</r></p><par n="malam/ent__adv"/></e>
+    <e lm="altament"><i>altam</i><par n="malam/ent__adv"/></e>
+    <e lm="alternativament"><i>alternativam</i><par n="malam/ent__adv"/></e>
+    <e lm="anteriorment"><i>anteriorm</i><par n="malam/ent__adv"/></e>
+    <e lm="aproximadament"><i>aproximadam</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="aproximadament"><p><l>aprosimadam</l><r>aproximadam</r></p><par n="malam/ent__adv"/></e>
+    <e lm="artificialment"><i>artificialm</i><par n="malam/ent__adv"/></e>
+    <e lm="bruscament"><i>bruscam</i><par n="malam/ent__adv"/></e>
+    <e lm="brutalment"><i>brutalm</i><par n="malam/ent__adv"/></e>
+    <e lm="cabalment"><i>cabalm</i><par n="malam/ent__adv"/></e>
+    <e lm="casualment"><i>casualm</i><par n="malam/ent__adv"/></e>
+    <e lm="cautelosament"><i>cautelosam</i><par n="malam/ent__adv"/></e>
+    <e lm="clarament"><i>claram</i><par n="malam/ent__adv"/></e>
+    <e lm="colectivament"><i>colectivam</i><par n="malam/ent__adv"/></e>
+    <e lm="comercialment"><i>comercialm</i><par n="malam/ent__adv"/></e>
+    <e lm="completament"><i>completam</i><par n="malam/ent__adv"/></e>
+    <e lm="concretament"><i>concretam</i><par n="malam/ent__adv"/></e>
+    <e lm="conchuntament"><i>conchuntam</i><par n="malam/ent__adv"/></e>
+    <e lm="conscientment"><i>conscientm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="conscientment"><p><l>coscientm</l><r>conscientm</r></p><par n="malam/ent__adv"/></e>    
+    <e r="LR" lm="conscientment"><p><l>coscienm</l><r>conscientm</r></p><par n="malam/ent__adv"/></e>    
+    <e r="LR" lm="conscientment"><p><l>coscientem</l><r>conscientm</r></p><par n="malam/ent__adv"/></e>    
+    <e r="LR" lm="conscientment"><p><l>conscientem</l><r>conscientm</r></p><par n="malam/ent__adv"/></e>    
+    <e r="LR" lm="conscientment"><p><l>conscienm</l><r>conscientm</r></p><par n="malam/ent__adv"/></e>    
+    <e lm="consecutivament"><i>consecutivam</i><par n="malam/ent__adv"/></e>
+    <e lm="considerablement"><i>considerablem</i><par n="malam/ent__adv"/></e>
+    <e lm="constantment"><i>constantem</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="constantment"><p><l>costantm</l><r>constantm</r></p><par n="malam/ent__adv"/></e>    
+    <e r="LR" lm="constantment"><p><l>costanm</l><r>constantm</r></p><par n="malam/ent__adv"/></e>    
+    <e r="LR" lm="constantment"><p><l>costantem</l><r>constantm</r></p><par n="malam/ent__adv"/></e>    
+    <e r="LR" lm="constantment"><p><l>constantem</l><r>constantm</r></p><par n="malam/ent__adv"/></e>    
+    <e r="LR" lm="constantment"><p><l>constanm</l><r>constantm</r></p><par n="malam/ent__adv"/></e>    
+    <e lm="constitucionalment"><i>constitucionalm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="constitucionalment"><p><l>costitucionalm</l><r>constitucionalm</r></p><par n="malam/ent__adv"/></e>    
+    <e lm="continament"><i>continam</i><par n="malam/ent__adv"/></e>
+    <e lm="correctament"><i>correctam</i><par n="malam/ent__adv"/></e>
+    <e lm="curiosament"><i>curiosam</i><par n="malam/ent__adv"/></e>
+    <e lm="debidament"><i>debidam</i><par n="malam/ent__adv"/></e>
+    <e lm="decisivament"><i>decisivam</i><par n="malam/ent__adv"/></e>
+    <e lm="definitivament"><i>definitivam</i><par n="malam/ent__adv"/></e>
+    <e lm="densament"><i>densam</i><par n="malam/ent__adv"/></e>
+    <e lm="desgraciadament"><i>desgraciadam</i><par n="malam/ent__adv"/></e>
+    <e lm="diariament"><i>diariam</i><par n="malam/ent__adv"/></e>
+    <e lm="dificilment"><i>dificilm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="dificilment"><p><l>difícilm</l><r>dificilm</r></p><par n="malam/ent__adv"/></e>    
+    <e lm="dreitament"><i>dreitam</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="dreitament"><p><l>directam</l><r>dreitam</r></p><par n="malam/ent__adv"/></e>    
+    <e r="LR" lm="dreitament"><p><l>direutam</l><r>dreitam</r></p><par n="malam/ent__adv"/></e>    
+    <e lm="discretament"><i>discretam</i><par n="malam/ent__adv"/></e>
+    <e lm="eficazment"><i>eficazm</i><par n="malam/ent__adv"/></e>
+    <e lm="enterament"><i>enteram</i><par n="malam/ent__adv"/></e>
+    <e lm="esencialment"><i>esencialm</i><par n="malam/ent__adv"/></e>
+    <e lm="especialment"><i>especialm</i><par n="malam/ent__adv"/></e>
+    <e lm="espectacularment"><i>espectacularm</i><par n="malam/ent__adv"/></e>
+    <e lm="estrictament"><i>estrictam</i><par n="malam/ent__adv"/></e>
+    <e lm="eternament"><i>eternam</i><par n="malam/ent__adv"/></e>
+    <e lm="exactament"><i>exactam</i><par n="malam/ent__adv"/></e>
+    <e lm="exclusivament"><i>exclusivam</i><par n="malam/ent__adv"/></e>
+    <e lm="extensament"><i>extensam</i><par n="malam/ent__adv"/></e>
+    <e lm="extraordinariament"><i>extraordinariam</i><par n="malam/ent__adv"/></e>
+    <e lm="extremadament"><i>extremadam</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="extremadament"><p><l>extrematam</l><r>extremadam</r></p><par n="malam/ent__adv"/></e>    
+    <e lm="facilment"><i>facilm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="facilment"><p><l>fácilm</l><r>facilm</r></p><par n="malam/ent__adv"/></e>    
+    <e lm="falsament"><i>falsam</i><par n="malam/ent__adv"/></e>
+    <e lm="finalment"><i>finalm</i><par n="malam/ent__adv"/></e>
+    <e lm="firmement"><i>firmem</i><par n="malam/ent__adv"/></e>
+    <e lm="formalment"><i>formalm</i><par n="malam/ent__adv"/></e>
+    <e lm="fraternalment"><i>fraternalm</i><par n="malam/ent__adv"/></e>
+    <e lm="freqüentment"><i>freqüentm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="freqüentment"><p><l>frecuentm</l><r>freqüentm</r></p><par n="malam/ent__adv"/></e>    
+    <e r="LR" lm="freqüentment"><p><l>frecuenm</l><r>freqüentm</r></p><par n="malam/ent__adv"/></e>    
+    <e r="LR" lm="freqüentment"><p><l>freqüentem</l><r>freqüentm</r></p><par n="malam/ent__adv"/></e>    
+    <e r="LR" lm="freqüentment"><p><l>freqüentem</l><r>freqüentm</r></p><par n="malam/ent__adv"/></e>    
+    <e r="LR" lm="freqüentment"><p><l>frecuentem</l><r>freqüentm</r></p><par n="malam/ent__adv"/></e>    
+    <e lm="fuertement"><i>fuertem</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="fuertement"><p><l>fuertm</l><r>fuertem</r></p><par n="malam/ent__adv"/></e>    
+    <e lm="fundamentalment"><i>fundamentalm</i><par n="malam/ent__adv"/></e>
+    <e lm="gradualment"><i>gradualm</i><par n="malam/ent__adv"/></e>
+    <e lm="habitualment"><i>habitualm</i><par n="malam/ent__adv"/></e>
+    <e lm="horizontalment"><i>horizontalm</i><par n="malam/ent__adv"/></e>
+    <e lm="igualment"><i>igualm</i><par n="malam/ent__adv"/></e>
+    <e lm="ilegalment"><i>ilegalm</i><par n="malam/ent__adv"/></e>
+    <e lm="impropiament"><i>impropiam</i><par n="malam/ent__adv"/></e>
+    <e lm="indiscutiblement"><i>indiscutiblem</i><par n="malam/ent__adv"/></e>
+    <e lm="indistintament"><i>indistintam</i><par n="malam/ent__adv"/></e>
+    <e lm="individualment"><i>individualm</i><par n="malam/ent__adv"/></e>
+    <e lm="informalment"><i>informalm</i><par n="malam/ent__adv"/></e>
+    <e lm="inicialment"><i>inicialm</i><par n="malam/ent__adv"/></e>
+    <e lm="inmediatament"><i>immediatam</i><par n="malam/ent__adv"/></e>
+    <e lm="intensament"><i>intensam</i><par n="malam/ent__adv"/></e>
+    <e lm="interiorment"><i>interiorm</i><par n="malam/ent__adv"/></e>
+    <e lm="internacionalment"><i>internacionalm</i><par n="malam/ent__adv"/></e>
+    <e lm="internament"><i>internam</i><par n="malam/ent__adv"/></e>
+    <e lm="involuntariament"><i>involuntariam</i><par n="malam/ent__adv"/></e>
+    <e lm="irresponsablement"><i>irresponsablem</i><par n="malam/ent__adv"/></e>
+    <e lm="legalment"><i>legalm</i><par n="malam/ent__adv"/></e>
+    <e lm="lentament"><i>lentam</i><par n="malam/ent__adv"/></e>
+    <e lm="librement"><i>librem</i><par n="malam/ent__adv"/></e>
+    <e lm="lixerament"><i>lixeram</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="lixerament"><p><l>licheram</l><r>lixeram</r></p><par n="malam/ent__adv"/></e>    
+    <e lm="literalment"><i>literalm</i><par n="malam/ent__adv"/></e>
+    <e lm="localment"><i>localm</i><par n="malam/ent__adv"/></e>
+    <e lm="marginalment"><i>marguinalm</i><par n="malam/ent__adv"/></e>
+    <e lm="masivament"><i>masivam</i><par n="malam/ent__adv"/></e>
+    <e lm="mayoritariament"><i>mayoritariam</i><par n="malam/ent__adv"/></e>
+    <e lm="merament"><i>meram</i><par n="malam/ent__adv"/></e>
+    <e lm="militarment"><i>militarm</i><par n="malam/ent__adv"/></e>
+    <e lm="minuciosament"><i>minuciosam</i><par n="malam/ent__adv"/></e>
+    <e lm="misteriosament"><i>misteriosam</i><par n="malam/ent__adv"/></e>
+    <e lm="moderadament"><i>moderadam</i><par n="malam/ent__adv"/></e>
+    <e lm="modestament"><i>modestam</i><par n="malam/ent__adv"/></e>
+    <e lm="mortalment"><i>mortalm</i><par n="malam/ent__adv"/></e>
+    <e lm="mundialment"><i>mundialm</i><par n="malam/ent__adv"/></e>
+    <e lm="naturalment"><i>naturalm</i><par n="malam/ent__adv"/></e>
+    <e lm="necesariament"><i>necesariam</i><par n="malam/ent__adv"/></e>
+    <e lm="normalment"><i>normalm</i><par n="malam/ent__adv"/></e>
+    <e lm="notablement"><i>notablem</i><par n="malam/ent__adv"/></e>
+    <e lm="notoriament"><i>notoriam</i><par n="malam/ent__adv"/></e>
+    <e lm="nuevament"><i>nuevam</i><par n="malam/ent__adv"/></e>
+    <e lm="obviament"><i>obviam</i><par n="malam/ent__adv"/></e>
+    <e lm="ocasionalment"><i>ocasionalm</i><par n="malam/ent__adv"/></e>
+    <e lm="oficialment"><i>oficialm</i><par n="malam/ent__adv"/></e>
+    <e lm="orichinalment"><i>orichinalm</i><par n="malam/ent__adv"/></e>
+    <e lm="paralelament"><i>paralelam</i><par n="malam/ent__adv"/></e>
+    <e lm="parcialment"><i>parcialm</i><par n="malam/ent__adv"/></e>
+    <e lm="particularment"><i>particularm</i><par n="malam/ent__adv"/></e>
+    <e lm="perfectament"><i>perfectam</i><par n="malam/ent__adv"/></e>
+    <e lm="personalment"><i>personalm</i><par n="malam/ent__adv"/></e>
+    <e lm="plenament"><i>plenam</i><par n="malam/ent__adv"/></e>
+    <e lm="popularment"><i>popularm</i><par n="malam/ent__adv"/></e>
+    <e lm="posiblement"><i>posiblem</i><par n="malam/ent__adv"/></e>
+    <e lm="posteriorment"><i>posteriorm</i><par n="malam/ent__adv"/></e>
+    <e lm="potencialment"><i>potencialm</i><par n="malam/ent__adv"/></e>
+    <e lm="precisament"><i>precisam</i><par n="malam/ent__adv"/></e>
+    <e lm="preferentment"><i>preferentm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="preferentment"><p><l>preferentem</l><r>preferentm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="preferentment"><p><l>preferenm</l><r>preferentm</r></p><par n="malam/ent__adv"/></e>
+    <e lm="presumiblement"><i>presumiblem</i><par n="malam/ent__adv"/></e>
+    <e lm="presuntament"><i>presuntam</i><par n="malam/ent__adv"/></e>
+    <e lm="previament"><i>previam</i><par n="malam/ent__adv"/></e>
+    <e lm="primerament"><i>primeram</i><par n="malam/ent__adv"/></e>
+    <e lm="principalment"><i>principalm</i><par n="malam/ent__adv"/></e>
+    <e lm="prebablement"><i>prebablem</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="prebablement"><p><l>prebablem</l><r>prebablem</r></p><par n="malam/ent__adv"/></e>
+    <e lm="profesionalment"><i>profesionalm</i><par n="malam/ent__adv"/></e>
+    <e lm="fundament"><i>fundam</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="fundament"><p><l>profundam</l><r>fundam</r></p><par n="malam/ent__adv"/></e>
+    <e lm="progresivament"><i>progresivam</i><par n="malam/ent__adv"/></e>
+    <e lm="propiament"><i>propiam</i><par n="malam/ent__adv"/></e>
+    <e lm="provisionalment"><i>provisionalm</i><par n="malam/ent__adv"/></e>
+    <e lm="puntualment"><i>puntualm</i><par n="malam/ent__adv"/></e>
+    <e lm="purament"><i>puram</i><par n="malam/ent__adv"/></e>
+    <e lm="radicalment"><i>radicalm</i><par n="malam/ent__adv"/></e>
+    <e lm="rarament"><i>raram</i><par n="malam/ent__adv"/></e>
+    <e lm="realment"><i>realm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="realment"><p><l>reyalm</l><r>realm</r></p><par n="malam/ent__adv"/></e>
+    <e lm="regularment"><i>regularm</i><par n="malam/ent__adv"/></e>
+    <e lm="relativament"><i>relativam</i><par n="malam/ent__adv"/></e>
+    <e lm="repetidament"><i>repetidam</i><par n="malam/ent__adv"/></e>
+    <e lm="respectivament"><i>respectivam</i><par n="malam/ent__adv"/></e>
+    <e lm="rigurosament"><i>rigurosam</i><par n="malam/ent__adv"/></e>
+    <e lm="segurament"><i>seguram</i><par n="malam/ent__adv"/></e>
+    <e lm="semanalment"><i>semanalm</i><par n="malam/ent__adv"/></e>
+    <e lm="separadament"><i>separadam</i><par n="malam/ent__adv"/></e>
+    <e lm="significativament"><i>significativam</i><par n="malam/ent__adv"/></e>
+    <e lm="simplament"><i>simplam</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="simplament"><p><l>simplem</l><r>simplam</r></p><par n="malam/ent__adv"/></e>
+    <e lm="singularment"><i>singularm</i><par n="malam/ent__adv"/></e>
+    <e lm="socialment"><i>socialm</i><par n="malam/ent__adv"/></e>
+    <e lm="succesivament"><i>succesivam</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="succesivament"><p><l>sucesivam</l><r>succesivam</r></p><par n="malam/ent__adv"/></e>    
+    <e lm="supuestament"><i>supuestam</i><par n="malam/ent__adv"/></e>
+    <e lm="temporalment"><i>temporalm</i><par n="malam/ent__adv"/></e>
+    <e lm="tipicament"><i>tipicam</i><par n="malam/ent__adv"/></e>
+    <e lm="totalment"><i>totalm</i><par n="malam/ent__adv"/></e>
+    <e lm="tradicionalment"><i>tradicionalm</i><par n="malam/ent__adv"/></e>
+    <e lm="tristament"><i>tristam</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="tristament"><p><l>tristem</l><r>tristam</r></p><par n="malam/ent__adv"/></e>
+    <e lm="unilateralment"><i>unilateralm</i><par n="malam/ent__adv"/></e>
+    <e lm="universalment"><i>universalm</i><par n="malam/ent__adv"/></e>
+    <e lm="usualment"><i>usualm</i><par n="malam/ent__adv"/></e>
+    <e lm="verticalment"><i>verticalm</i><par n="malam/ent__adv"/></e>
+    <e lm="virtualment"><i>virtualm</i><par n="malam/ent__adv"/></e>
+    <e lm="voluntariament"><par n="/b_v__var"/><i>oluntariam</i><par n="malam/ent__adv"/></e>
+    <e lm="habitualment"><i>habitualm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="habitualment"><p><l>abitualm</l><r>habitualm</r></p><par n="malam/ent__adv"/></e>
+    <e lm="adicionalment"><i>adicionalm</i><par n="malam/ent__adv"/></e>
+    <e lm="administrativament"><i>administrativam</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="administrativament"><p><l>alministrativam</l><r>administrativam</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="administrativament"><p><l>admenistrativam</l><r>administrativam</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="administrativament"><p><l>almenistrativam</l><r>administrativam</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="administrativament"><p><l>almenistratibam</l><r>administrativam</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="administrativament"><p><l>alministratibam</l><r>administrativam</r></p><par n="malam/ent__adv"/></e>
+    <e lm="alternativament"><i>alternativam</i><par n="malam/ent__adv"/></e>
+    <e lm="arqueolochicament"><i>arqueolochicam</i><par n="malam/ent__adv"/></e>
+    <e lm="artificialment"><i>artificialm</i><par n="malam/ent__adv"/></e>
+    <e lm="accidentalment"><i>accidentalm</i><par n="malam/ent__adv"/></e>
+    <e lm="visualment"><i>visualm</i><par n="malam/ent__adv"/></e>
+    <e lm="vulgarment"><i>vulgarm</i><par n="malam/ent__adv"/></e>
+    <e lm="caracteristicament"><i>caracteristicam</i><par n="malam/ent__adv"/></e>
+    <e lm="carateristicament"><i>carateristicam</i><par n="malam/ent__adv"/></e>
+    <e lm="cheneralment"><i>cheneralm</i><par n="malam/ent__adv"/></e>
+    <e lm="chenerosament"><i>chenerosam</i><par n="malam/ent__adv"/></e>
+    <e lm="chenuinament"><i>chenuinam</i><par n="malam/ent__adv"/></e>
     <e lm="Abisinia"><i>Abisinia</i><par n="Afganistán__np"/></e>
     <e lm="Abrera"><i>Abrera</i><par n="Afganistán__np"/></e>
     <e lm="Abruzos"><i>Abruzos</i><par n="Afganistán__np"/></e>
@@ -20035,7 +20145,7 @@
     <e lm="vacancias"><p><l>vacacions</l><r>vacancias</r></p><par n="afueras__n"/></e>
     <e lm="idioma"><i>idioma</i><par n="libro__n"/></e>
     <e lm="pas"><i>pas</i><par n="agora__adv"/></e>
-    <e lm="arbitrariament"><i>arbitrariament</i><par n="agora__adv"/></e>
+    <e lm="arbitrariament"><i>arbitrariam</i><par n="malam/ent__adv"/></e>
     <e lm="chusto"><i>chusto</i><par n="agora__adv"/></e>
     <e lm="respecto"><i>respecto</i><par n="libro__n"/></e>    
     <e r="LR" lm="respecto"><p><l>respeto</l><r>respecto</r></p><par n="libro__n"/></e>
