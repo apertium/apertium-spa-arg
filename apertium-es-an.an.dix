@@ -776,13 +776,25 @@
     </e>
         <e r="LR">
       <p>
+        <l>-güe</l>
+        <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
         <l>-ue</l>
         <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
       </p>
     </e>
-        <e r="LR">
+    <e r="LR">
       <p>
-        <l>-güe</l>
+        <l>-hu</l>
+        <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>-u</l>
         <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
       </p>
     </e>
@@ -803,351 +815,479 @@
     </e>
   </pardef>    
    
-   
-    <pardef n="S__cantando-me">
-<!--
-    <e r="LR">
-      <par n="-me__enc"/>
-    </e>
-    -->
-    <e r="LR">
-      <par n="-nos__enc"/>
-    </e>
-    <e r="LR">
-      <par n="-te__enc"/>
-    </e>
-    <e r="LR">
-      <par n="-tos__enc"/>
-    </e>  
-    <e>
-      <par n="-le__enc"/>
-    </e>  
-    <e>
-      <par n="-la__enc"/>
-    </e>  
-    <e>
-      <par n="-ne__enc"/>
-    </e>  
-    <e>
-      <par n="-ie__enc"/>
-    </e>  
-    <e>
-      <par n="-hue__enc"/>
-    </e>  
-    <e r="LR">
-      <par n="-se__enc"/>
-    </e>      
-    </pardef>   
 
-    <pardef n="S__cantando-te">
-    <e r="LR">
-      <par n="-me__enc"/>
-    </e>
-    <e r="LR">
-      <par n="-nos__enc"/>
-    </e>
-<!-- 
-    <e r="LR">
-      <par n="-te__enc"/>
-    </e>
-    -->
-    <e r="LR">
-      <par n="-tos__enc"/>
-    </e>  
-    <e>
-      <par n="-le__enc"/>
-    </e>  
-    <e>
-      <par n="-la__enc"/>
-    </e>  
-    <e>
-      <par n="-ne__enc"/>
-    </e>  
-    <e>
-      <par n="-ie__enc"/>
-    </e>  
-    <e>
-      <par n="-hue__enc"/>
-    </e>  
-    <e r="LR">
-      <par n="-se__enc"/>
-    </e>      
-    </pardef>   
+ <pardef n="-me-le__enc">
+  <e>
+   <par n="-me__enc"/><par n="-le__enc"/>
+  </e>
+  <e r="LR">
+   <par n="-le__enc"/><par n="-me__enc"/>
+  </e>
+ </pardef>
 
-    <pardef n="S__cantando-nos">
-    <e r="LR">
-      <par n="-me__enc"/>
-    </e>
-    <!--
-    <e r="LR">
-      <par n="-nos__enc"/>
-    </e>
-    -->
-    <e r="LR">
-      <par n="-te__enc"/>
-    </e>
-    <e r="LR">
-      <par n="-tos__enc"/>
-    </e>  
-    <e>
-      <par n="-le__enc"/>
-    </e>  
-    <e>
-      <par n="-la__enc"/>
-    </e>  
-    <e>
-      <par n="-ne__enc"/>
-    </e>  
-    <e>
-      <par n="-ie__enc"/>
-    </e>  
-    <e>
-      <par n="-hue__enc"/>
-    </e>  
-    <e r="LR">
-      <par n="-se__enc"/>
-    </e>      
-    </pardef>   
+ <pardef n="-me-la__enc">
+  <e>
+   <par n="-me__enc"/><par n="-la__enc"/>
+  </e>
+  <e r="LR" v="ches">
+   <par n="-la__enc"/><par n="-me__enc"/>
+  </e>
+ </pardef>
 
-    <pardef n="S__cantando-tos">
-    <e r="LR">
-      <par n="-me__enc"/>
-    </e>
-    <e r="LR">
-      <par n="-nos__enc"/>
-    </e>
-    
-    <e r="LR">
-      <par n="-te__enc"/>
-    </e>
-    <!--
-    <e r="LR">
-      <par n="-tos__enc"/>
-    </e>  
-    -->
-    <e>
-      <par n="-le__enc"/>
-    </e>  
-    <e>
-      <par n="-la__enc"/>
-    </e>  
-    <e>
-      <par n="-ne__enc"/>
-    </e>  
-    <e>
-      <par n="-ie__enc"/>
-    </e>  
-    <e>
-      <par n="-hue__enc"/>
-    </e>  
-    <e r="LR">
-      <par n="-se__enc"/>
-    </e>      
-    </pardef>   
+ <pardef n="-me-ne__enc">
+  <e>
+   <par n="-me__enc"/><par n="-ne__enc"/>
+  </e>
+ </pardef>
+ 
+ <pardef n="-me-ie__enc">
+  <e>
+   <par n="-me__enc"/><par n="-ie__enc"/>
+  </e>
+ </pardef>
 
-    <pardef n="S__cantando-le">
-    <e r="LR">
-      <par n="-me__enc"/>
-    </e>
-    <e r="LR">
-      <par n="-nos__enc"/>
-    </e>
-    
-    <e r="LR">
-      <par n="-te__enc"/>
-    </e>
-    
-    <e r="LR">
-      <par n="-tos__enc"/>
-    </e>  
-<!--
-    <e>
-      <par n="-le__enc"/>
-    </e>  
--->
-    <e r="LR">
-      <par n="-la__enc"/>
-    </e>  
-    <e>
-      <par n="-ne__enc"/>
-    </e>  
-    <e>
-      <par n="-ie__enc"/>
-    </e>  
-    <e>
-      <par n="-hue__enc"/>
-    </e>  
-    <e r="LR">
-      <par n="-se__enc"/>
-    </e>      
-    </pardef>   
+ <pardef n="-me-hue__enc">
+  <e>
+   <par n="-me__enc"/><par n="-hue__enc"/>
+  </e>
+ </pardef>
 
-  <pardef n="S__cantando-la">
+ <pardef n="-nos-le__enc">
+  <e>
+   <par n="-nos__enc"/><par n="-le__enc"/>
+  </e>
+  <e r="LR">
+   <par n="-le__enc"/><par n="-nos__enc"/>
+  </e>
+ </pardef>
+
+ <pardef n="-nos-la__enc">
+  <e>
+   <par n="-nos__enc"/><par n="-la__enc"/>
+  </e>
+  <e r="LR" v="ches">
+   <par n="-la__enc"/><par n="-nos__enc"/>
+  </e>
+ </pardef>
+
+ <pardef n="-nos-ne__enc">
+  <e>
+   <par n="-nos__enc"/><par n="-ne__enc"/>
+  </e>
+ </pardef>
+ 
+ <pardef n="-nos-ie__enc">
+  <e>
+   <par n="-nos__enc"/><par n="-ie__enc"/>
+  </e>
+ </pardef>
+
+ <pardef n="-nos-hue__enc">
+  <e>
+   <par n="-nos__enc"/><par n="-hue__enc"/>
+  </e>
+ </pardef> 
+
+<pardef n="-te-me__enc">
+  <e>
+   <par n="-te__enc"/><par n="-me__enc"/>
+  </e>
+  <e r="LR">
+   <par n="-me__enc"/><par n="-te__enc"/>
+  </e>
+ </pardef>
+<pardef n="-te-nos__enc">
+  <e>
+   <par n="-te__enc"/><par n="-nos__enc"/>
+  </e>
+  <e r="LR">
+   <par n="-nos__enc"/><par n="-te__enc"/>
+  </e>
+ </pardef>
+ <pardef n="-te-le__enc">
+  <e>
+   <par n="-te__enc"/><par n="-le__enc"/>
+  </e>
+  <e r="LR">
+   <par n="-le__enc"/><par n="-te__enc"/>
+  </e>
+ </pardef>
+
+ <pardef n="-te-la__enc">
+  <e>
+   <par n="-te__enc"/><par n="-la__enc"/>
+  </e>
+  <e r="LR" v="ches">
+   <par n="-la__enc"/><par n="-te__enc"/>
+  </e>
+ </pardef>
+
+ <pardef n="-te-ne__enc">
+  <e>
+   <par n="-te__enc"/><par n="-ne__enc"/>
+  </e>
+ </pardef>
+ 
+ <pardef n="-te-ie__enc">
+  <e>
+   <par n="-te__enc"/><par n="-ie__enc"/>
+  </e>
+ </pardef>
+
+ <pardef n="-te-hue__enc">
+  <e>
+   <par n="-te__enc"/><par n="-hue__enc"/>
+  </e>
+ </pardef>
+
+<pardef n="-tos-me__enc">
+  <e>
+   <par n="-tos__enc"/><par n="-me__enc"/>
+  </e>
+  <e r="LR">
+   <par n="-me__enc"/><par n="-tos__enc"/>
+  </e>
+ </pardef>
+<pardef n="-tos-nos__enc">
+  <e>
+   <par n="-tos__enc"/><par n="-nos__enc"/>
+  </e>
+  <e r="LR">
+   <par n="-nos__enc"/><par n="-tos__enc"/>
+  </e>
+ </pardef>
+ <pardef n="-tos-le__enc">
+  <e>
+   <par n="-tos__enc"/><par n="-le__enc"/>
+  </e>
+  <e r="LR">
+   <par n="-le__enc"/><par n="-tos__enc"/>
+  </e>
+ </pardef>
+
+ <pardef n="-tos-la__enc">
+  <e>
+   <par n="-tos__enc"/><par n="-la__enc"/>
+  </e>
+  <e r="LR" v="ches">
+   <par n="-la__enc"/><par n="-tos__enc"/>
+  </e>
+ </pardef>
+
+ <pardef n="-tos-ne__enc">
+  <e>
+   <par n="-tos__enc"/><par n="-ne__enc"/>
+  </e>
+ </pardef>
+ 
+ <pardef n="-tos-ie__enc">
+  <e>
+   <par n="-tos__enc"/><par n="-ie__enc"/>
+  </e>
+ </pardef>
+
+ <pardef n="-tos-hue__enc">
+  <e>
+   <par n="-tos__enc"/><par n="-hue__enc"/>
+  </e>
+ </pardef> 
+
+ <pardef n="-le-la__enc">
+  <e>
+   <par n="-le__enc"/><par n="-la__enc"/>
+  </e>
+ </pardef>
+
+ <pardef n="-le-ne__enc">
+  <e>
+   <par n="-le__enc"/><par n="-ne__enc"/>
+  </e>
+ </pardef>
+ 
+ <pardef n="-le-ie__enc">
+  <e>
+   <par n="-le__enc"/><par n="-ie__enc"/>
+  </e>
+ </pardef>
+
+ <pardef n="-le-hue__enc">
+  <e>
+   <par n="-le__enc"/><par n="-hue__enc"/>
+  </e>
+ </pardef> 
+
+<pardef n="-la-ne__enc">
+  <e>
+   <par n="-la__enc"/><par n="-ne__enc"/>
+  </e>
+ </pardef>
+ 
+ <pardef n="-la-ie__enc">
+  <e>
+   <par n="-la__enc"/><par n="-ie__enc"/>
+  </e>
+ </pardef>
+
+ <pardef n="-la-hue__enc">
+  <e>
+   <par n="-la__enc"/><par n="-hue__enc"/>
+  </e>
+ </pardef> 
+
+ <pardef n="-ne-ie__enc">
+  <e>
+   <par n="-ne__enc"/><par n="-ie__enc"/>
+  </e>
+  <e>
+   <par n="-ie__enc"/><par n="-ne__enc"/>
+  </e>
+ </pardef> 
+ 
+ <pardef n="-hu-ne__enc">
+  <e>
+   <par n="-hue__enc"/><par n="-ne__enc"/>
+  </e>
+  <e r="LR">
+   <par n="-ne__enc"/><par n="-hue__enc"/>
+  </e>
+ </pardef> 
+ 
+ <pardef n="-hu-ie__enc">
+  <e>
+   <par n="-hue__enc"/><par n="-ie__enc"/>
+  </e>
+ </pardef> 
+
+ <pardef n="-se-me__enc">
+  <e>
+   <par n="-se__enc"/><par n="-me__enc"/>
+  </e>
+  <e r="LR">
+   <par n="-me__enc"/><par n="-se__enc"/>
+  </e>
+
+ </pardef>
+ <pardef n="-se-nos__enc">
+  <e>
+   <par n="-se__enc"/><par n="-nos__enc"/>
+  </e>
     <e r="LR">
-      <par n="-me__enc"/>
-    </e>
+   <par n="-nos__enc"/><par n="-se__enc"/>
+  </e>
+
+ </pardef> 
+  <pardef n="-se-te__enc">
+  <e>
+   <par n="-se__enc"/><par n="-te__enc"/>
+  </e>
     <e r="LR">
-      <par n="-nos__enc"/>
-    </e>
-    <e r="LR">
-      <par n="-te__enc"/>
-    </e>
-    <e r="LR">
-      <par n="-tos__enc"/>
-    </e>      
-    <e>
-      <par n="-le__enc"/>
-    </e>  
-    <!--
-    <e>
-      <par n="-la__enc"/>
-    </e>  
-    -->
-    <e>
-      <par n="-ne__enc"/>
-    </e>  
-    <e>
-      <par n="-ie__enc"/>
-    </e>  
-    <e>
-      <par n="-hue__enc"/>
-    </e>  
-    <e r="LR">
-      <par n="-se__enc"/>
-    </e>      
-    </pardef>   
-    
- <pardef n="S__cantando-ne">
-    <e>
-      <par n="-ie__enc"/>
-    </e>  
-    <e>
-      <par n="-hue__enc"/>
-    </e>  
- </pardef>       
- <pardef n="S__cantando-ie">
-    <e>
-      <par n="-ne__enc"/>
-    </e>  
-    <e>
-      <par n="-hue__enc"/>
-    </e>  
- </pardef>    
-  <pardef n="S__cantando-hue">
-    <e>
-      <par n="-ne__enc"/>
-    </e>  
-    <e>
-      <par n="-ie__enc"/>
-    </e>  
-   </pardef>    
-   
-    <pardef n="S__cantando-se">
-    <e r="LR">
-      <par n="-me__enc"/>
-    </e>
-    <e r="LR">
-      <par n="-nos__enc"/>
-    </e>
-    <e r="LR">
-      <par n="-te__enc"/>
-    </e>
-    <e r="LR">
-      <par n="-tos__enc"/>
-    </e>      
-    <e>
-      <par n="-le__enc"/>
-    </e>  
-    <e>
-      <par n="-la__enc"/>
-    </e>  
-    <e>
-      <par n="-ne__enc"/>
-    </e>  
-    <e>
-      <par n="-ie__enc"/>
-    </e>  
-    <e>
-      <par n="-hue__enc"/>
-    </e> 
-    <!-- 
-    <e r="LR">
-      <par n="-se__enc"/>
-    </e>      
-    -->
-    </pardef>   
+   <par n="-te__enc"/><par n="-se__enc"/>
+  </e>
+
+ </pardef> 
+  <pardef n="-se-tos__enc">
+  <e>
+   <par n="-se__enc"/><par n="-tos__enc"/>
+  </e>
+    <e r="LR" v="ches">
+   <par n="-tos__enc"/><par n="-se__enc"/>
+  </e>
+
+ </pardef> 
+  <pardef n="-se-le__enc">
+  <e>
+   <par n="-se__enc"/><par n="-le__enc"/>
+  </e>
+  <e r="LR" v="ches">
+   <par n="-le__enc"/><par n="-se__enc"/>
+  </e>
+ </pardef> 
+  <pardef n="-se-la__enc">
+  <e>
+   <par n="-se__enc"/><par n="-la__enc"/>
+  </e>
+  <e r="LR" v="ches">
+   <par n="-la__enc"/><par n="-se__enc"/>
+  </e>
+ </pardef> 
+  <pardef n="-se-hue__enc">
+  <e>
+   <par n="-se__enc"/><par n="-hue__enc"/>
+  </e>
+ </pardef> 
+  <pardef n="-se-ne__enc">
+  <e>
+   <par n="-se__enc"/><par n="-ne__enc"/>
+  </e>
+ </pardef> 
+  <pardef n="-se-ie__enc">
+  <e>
+   <par n="-se__enc"/><par n="-ie__enc"/>
+  </e>
+ </pardef> 
       
-    <pardef n="S__cantando">
+      
+<pardef n="S__cantando">
    <e>
       <par n="-me__enc"/>
     </e>  
     <e>
-      <par n="-me__enc"/>
-      <par n="S__cantando-me"/>
+      <par n="-me-le__enc"/>
     </e>
     <e>
-      <par n="-nos__enc"/>
+      <par n="-me-la__enc"/>
     </e>
     <e>
-      <par n="-nos__enc"/>
-      <par n="S__cantando-nos"/>
+      <par n="-me-ne__enc"/>
     </e>
     <e>
-      <par n="-te__enc"/>
-    </e>
-    <e>
-      <par n="-te__enc"/>
-      <par n="S__cantando-te"/>
-    </e>
-    <e>
-      <par n="-tos__enc"/>
-    </e>  
-    <e>
-      <par n="-tos__enc"/>
-      <par n="S__cantando-tos"/>
-    </e>
-    <e>
-      <par n="-le__enc"/>
-    </e>  
-    <e>
-      <par n="-le__enc"/>
-      <par n="S__cantando-le"/>
-    </e>
-    <e>
-      <par n="-la__enc"/>
-    </e>  
-    <e>
-      <par n="-la__enc"/>
-      <par n="S__cantando-la"/>
-    </e>
-    <e>
-      <par n="-ne__enc"/>
-    </e>  
-    <e>
-      <par n="-ne__enc"/>
-      <par n="S__cantando-ne"/>
-    </e>
-    <e>
-      <par n="-ie__enc"/>
-    </e>  
-    <e>
-      <par n="-ie__enc"/>
-      <par n="S__cantando-ie"/>
-    </e>
-    <e>
-      <par n="-hue__enc"/>
-    </e>  
-    <e>
-      <par n="-hue__enc"/>
-      <par n="S__cantando-hue"/>
+      <par n="-me-ie__enc"/>
     </e>
     <e r="LR">
+      <par n="-me-hue__enc"/>
+    </e>    
+    <e>
+      <par n="-nos__enc"/>
+    </e>
+   <e>
+      <par n="-nos-le__enc"/>
+    </e>
+    <e>
+      <par n="-nos-la__enc"/>
+    </e>
+    <e>
+      <par n="-nos-ne__enc"/>
+    </e>
+    <e>
+      <par n="-nos-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-nos-hue__enc"/>
+    </e>
+    
+    <e>
+      <par n="-te__enc"/>
+    </e>
+   <e>
+      <par n="-te-me__enc"/>
+    </e>
+    <e>
+      <par n="-te-nos__enc"/>
+    </e>
+    <e>
+      <par n="-te-le__enc"/>
+    </e>
+    <e>
+      <par n="-te-la__enc"/>
+    </e>
+    <e>
+      <par n="-te-ne__enc"/>
+    </e>
+    <e>
+      <par n="-te-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-te-hue__enc"/>
+    </e>
+    <e>
+      <par n="-tos__enc"/>
+    </e>      
+   <e>
+      <par n="-tos-me__enc"/>
+    </e>
+    <e>
+      <par n="-tos-nos__enc"/>
+    </e>
+    <e>
+      <par n="-tos-le__enc"/>
+    </e>
+    <e>
+      <par n="-tos-la__enc"/>
+    </e>
+    <e>
+      <par n="-tos-ne__enc"/>
+    </e>
+    <e>
+      <par n="-tos-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-tos-hue__enc"/>
+    </e>
+    <e>
+      <par n="-le__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-le-la__enc"/>
+    </e>  
+    <e>
+      <par n="-le-ne__enc"/>
+    </e>  
+    <e>
+      <par n="-le-ie__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-le-hue__enc"/>
+    </e>  
+    <e>
+      <par n="-la__enc"/>
+    </e>  
+    <e>
+      <par n="-la-ne__enc"/>
+    </e>  
+    <e>
+      <par n="-la-ie__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-la-hue__enc"/>
+    </e>  
+    <e>
+      <par n="-ne__enc"/>
+    </e>  
+    <e>
+      <par n="-ne-ie__enc"/>
+    </e>    
+    <e>
+      <par n="-ie__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-hue__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-hu-ne__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-hu-ie__enc"/>
+    </e>  
+    <e>
       <par n="-se__enc"/>
     </e>      
     <e>
-      <par n="-se__enc"/>
-      <par n="S__cantando-se"/>
-    </e>
+      <par n="-se-me__enc"/>
+    </e>      
+    <e>
+      <par n="-se-nos__enc"/>
+    </e>      
+    <e>
+      <par n="-se-te__enc"/>
+    </e>      
+    <e>
+      <par n="-se-tos__enc"/>
+    </e>      
+    <e>
+      <par n="-se-le__enc"/>
+    </e>      
+    <e>
+      <par n="-se-la__enc"/>
+    </e>      
+    <e r="LR">
+      <par n="-se-hue__enc"/>
+    </e>      
+    <e>
+      <par n="-se-ne__enc"/>
+    </e>      
+    <e>
+      <par n="-se-ie__enc"/>
+    </e>      
     </pardef>    
 
    <pardef n="S__canta">
@@ -1155,65 +1295,133 @@
       <par n="-me__enc"/>
     </e>  
     <e>
-      <par n="-me__enc"/>
-      <par n="S__cantando-me"/>
+      <par n="-me-le__enc"/>
     </e>
+    <e>
+      <par n="-me-la__enc"/>
+    </e>
+    <e>
+      <par n="-me-ne__enc"/>
+    </e>
+    <e>
+      <par n="-me-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-me-hue__enc"/>
+    </e>    
     <e>
       <par n="-nos__enc"/>
     </e>
+   <e>
+      <par n="-nos-le__enc"/>
+    </e>
     <e>
-      <par n="-nos__enc"/>
-      <par n="S__cantando-nos"/>
+      <par n="-nos-la__enc"/>
+    </e>
+    <e>
+      <par n="-nos-ne__enc"/>
+    </e>
+    <e>
+      <par n="-nos-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-nos-hue__enc"/>
     </e>
     <e>
       <par n="-te__enc"/>
     </e>
-    <e>
-      <par n="-te__enc"/>
-      <par n="S__cantando-te"/>
+   <e>
+      <par n="-te-me__enc"/>
     </e>
     <e>
-      <par n="-tos__enc"/>
-    </e>  
+      <par n="-te-nos__enc"/>
+    </e>
+    <e>
+      <par n="-te-le__enc"/>
+    </e>
+    <e>
+      <par n="-te-la__enc"/>
+    </e>
+    <e>
+      <par n="-te-ne__enc"/>
+    </e>
+    <e>
+      <par n="-te-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-te-hue__enc"/>
+    </e>
+    <!--
     <e>
       <par n="-tos__enc"/>
-      <par n="S__cantando-tos"/>
+    </e>      
+   <e>
+      <par n="-tos-me__enc"/>
     </e>
+    <e>
+      <par n="-tos-nos__enc"/>
+    </e>
+    <e>
+      <par n="-tos-le__enc"/>
+    </e>
+    <e>
+      <par n="-tos-la__enc"/>
+    </e>
+    <e>
+      <par n="-tos-ne__enc"/>
+    </e>
+    <e>
+      <par n="-tos-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-tos-hue__enc"/>
+    </e>
+    -->
     <e>
       <par n="-le__enc"/>
     </e>  
+    <e r="LR">
+      <par n="-le-la__enc"/>
+    </e>  
     <e>
-      <par n="-le__enc"/>
-      <par n="S__cantando-le"/>
-    </e>
+      <par n="-le-ne__enc"/>
+    </e>  
+    <e>
+      <par n="-le-ie__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-le-hue__enc"/>
+    </e>  
     <e>
       <par n="-la__enc"/>
     </e>  
     <e>
-      <par n="-la__enc"/>
-      <par n="S__cantando-la"/>
-    </e>
+      <par n="-la-ne__enc"/>
+    </e>  
     <e>
-      <par n="-ne__enc"/>
+      <par n="-la-ie__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-la-hue__enc"/>
     </e>  
     <e>
       <par n="-ne__enc"/>
-      <par n="S__cantando-ne"/>
-    </e>
+    </e>  
+    <e>
+      <par n="-ne-ie__enc"/>
+    </e>    
     <e>
       <par n="-ie__enc"/>
     </e>  
-    <e>
-      <par n="-ie__enc"/>
-      <par n="S__cantando-ie"/>
-    </e>
-    <e>
+    <e r="LR">
       <par n="-hue__enc"/>
     </e>  
-    <e>
-      <par n="-hue__enc"/>
-      <par n="S__cantando-hue"/>
-    </e>
+    <e r="LR">
+      <par n="-hu-ne__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-hu-ie__enc"/>
+    </e>  
   </pardef>    
 
    <pardef n="S__cantatz">
@@ -1221,58 +1429,131 @@
       <par n="-me__enc"/>
     </e>  
     <e>
-      <par n="-me__enc"/>
-      <par n="S__cantando-me"/>
+      <par n="-me-le__enc"/>
     </e>
+    <e>
+      <par n="-me-la__enc"/>
+    </e>
+    <e>
+      <par n="-me-ne__enc"/>
+    </e>
+    <e>
+      <par n="-me-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-me-hue__enc"/>
+    </e>    
     <e>
       <par n="-nos__enc"/>
     </e>
-    <e>
-      <par n="-nos__enc"/>
-      <par n="S__cantando-nos"/>
+   <e>
+      <par n="-nos-le__enc"/>
     </e>
     <e>
-      <par n="-os__enc"/>
-    </e>  
+      <par n="-nos-la__enc"/>
+    </e>
     <e>
-      <par n="-os__enc"/>
-      <par n="S__cantando-tos"/>
+      <par n="-nos-ne__enc"/>
+    </e>
+    <e>
+      <par n="-nos-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-nos-hue__enc"/>
+    </e>
+    <e>
+      <par n="-te__enc"/>
+    </e>
+   <e>
+      <par n="-te-me__enc"/>
+    </e>
+    <e>
+      <par n="-te-nos__enc"/>
+    </e>
+    <e>
+      <par n="-te-le__enc"/>
+    </e>
+    <e>
+      <par n="-te-la__enc"/>
+    </e>
+    <e>
+      <par n="-te-ne__enc"/>
+    </e>
+    <e>
+      <par n="-te-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-te-hue__enc"/>
+    </e>
+    <e>
+      <par n="-tos__enc"/>
+    </e>      
+   <e>
+      <par n="-tos-me__enc"/>
+    </e>
+    <e>
+      <par n="-tos-nos__enc"/>
+    </e>
+    <e>
+      <par n="-tos-le__enc"/>
+    </e>
+    <e>
+      <par n="-tos-la__enc"/>
+    </e>
+    <e>
+      <par n="-tos-ne__enc"/>
+    </e>
+    <e>
+      <par n="-tos-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-tos-hue__enc"/>
     </e>
     <e>
       <par n="-le__enc"/>
     </e>  
+    <e r="LR">
+      <par n="-le-la__enc"/>
+    </e>  
     <e>
-      <par n="-le__enc"/>
-      <par n="S__cantando-le"/>
-    </e>
+      <par n="-le-ne__enc"/>
+    </e>  
+    <e>
+      <par n="-le-ie__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-le-hue__enc"/>
+    </e>  
     <e>
       <par n="-la__enc"/>
     </e>  
     <e>
-      <par n="-la__enc"/>
-      <par n="S__cantando-la"/>
-    </e>
+      <par n="-la-ne__enc"/>
+    </e>  
+    <e>
+      <par n="-la-ie__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-la-hue__enc"/>
+    </e>  
     <e>
       <par n="-ne__enc"/>
     </e>  
     <e>
-      <par n="-ne__enc"/>
-      <par n="S__cantando-ne"/>
-    </e>
+      <par n="-ne-ie__enc"/>
+    </e>    
     <e>
       <par n="-ie__enc"/>
     </e>  
-    <e>
-      <par n="-ie__enc"/>
-      <par n="S__cantando-ie"/>
-    </e>
-    <e>
+    <e r="LR">
       <par n="-hue__enc"/>
     </e>  
-    <e>
-      <par n="-hue__enc"/>
-      <par n="S__cantando-hue"/>
-    </e>
+    <e r="LR">
+      <par n="-hu-ne__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-hu-ie__enc"/>
+    </e>  
   </pardef>    
   
   <pardef n="S__cantemos">
@@ -1280,191 +1561,406 @@
       <par n="-me__enc"/>
     </e>  
     <e>
-      <par n="-me__enc"/>
-      <par n="S__cantando-me"/>
+      <par n="-me-le__enc"/>
     </e>
+    <e>
+      <par n="-me-la__enc"/>
+    </e>
+    <e>
+      <par n="-me-ne__enc"/>
+    </e>
+    <e>
+      <par n="-me-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-me-hue__enc"/>
+    </e>    
+    <e r="LR">
+      <par n="-nos__enc"/>
+    </e>
+   <e r="LR">
+      <par n="-nos-le__enc"/>
+    </e>
+   <e r="LR">
+      <par n="-nos-la__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-nos-ne__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-nos-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-nos-hue__enc"/>
+    </e>
+    
     <e>
       <par n="-te__enc"/>
     </e>
+   <e>
+      <par n="-te-me__enc"/>
+    </e>
     <e>
-      <par n="-te__enc"/>
-      <par n="S__cantando-te"/>
+      <par n="-te-nos__enc"/>
+    </e>
+    <e>
+      <par n="-te-le__enc"/>
+    </e>
+    <e>
+      <par n="-te-la__enc"/>
+    </e>
+    <e>
+      <par n="-te-ne__enc"/>
+    </e>
+    <e>
+      <par n="-te-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-te-hue__enc"/>
     </e>
     <e>
       <par n="-tos__enc"/>
-    </e>  
+    </e>      
+   <e>
+      <par n="-tos-me__enc"/>
+    </e>
     <e>
-      <par n="-tos__enc"/>
-      <par n="S__cantando-tos"/>
+      <par n="-tos-nos__enc"/>
+    </e>
+    <e>
+      <par n="-tos-le__enc"/>
+    </e>
+    <e>
+      <par n="-tos-la__enc"/>
+    </e>
+    <e>
+      <par n="-tos-ne__enc"/>
+    </e>
+    <e>
+      <par n="-tos-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-tos-hue__enc"/>
     </e>
     <e>
       <par n="-le__enc"/>
     </e>  
+    <e r="LR">
+      <par n="-le-la__enc"/>
+    </e>  
     <e>
-      <par n="-le__enc"/>
-      <par n="S__cantando-le"/>
-    </e>
+      <par n="-le-ne__enc"/>
+    </e>  
+    <e>
+      <par n="-le-ie__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-le-hue__enc"/>
+    </e>  
     <e>
       <par n="-la__enc"/>
     </e>  
     <e>
-      <par n="-la__enc"/>
-      <par n="S__cantando-la"/>
-    </e>
+      <par n="-la-ne__enc"/>
+    </e>  
+    <e>
+      <par n="-la-ie__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-la-hue__enc"/>
+    </e>  
     <e>
       <par n="-ne__enc"/>
     </e>  
     <e>
-      <par n="-ne__enc"/>
-      <par n="S__cantando-ne"/>
-    </e>
+      <par n="-ne-ie__enc"/>
+    </e>    
     <e>
       <par n="-ie__enc"/>
     </e>  
-    <e>
-      <par n="-ie__enc"/>
-      <par n="S__cantando-ie"/>
-    </e>
-    <e>
+    <e r="LR">
       <par n="-hue__enc"/>
     </e>  
-    <e>
-      <par n="-hue__enc"/>
-      <par n="S__cantando-hue"/>
-    </e>
-    </pardef>    
+    <e r="LR">
+      <par n="-hu-ne__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-hu-ie__enc"/>
+    </e>  
+</pardef>    
   
-      <pardef n="S__cantemo">
+  <pardef n="S__cantemo">
     <e>
       <par n="-nos__enc"/>
-      <par n="S__cantando-nos"/>
     </e>
-    </pardef>    
-  
-      <pardef n="S__cante">
+   <e>
+      <par n="-nos-le__enc"/>
+    </e>
+   <e>
+      <par n="-nos-la__enc"/>
+    </e>
+    <e>
+      <par n="-nos-ne__enc"/>
+    </e>
+    <e>
+      <par n="-nos-ie__enc"/>
+    </e>
+    <e>
+      <par n="-nos-hue__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-tos__enc"/>
+    </e>      
+   <e r="LR">
+      <par n="-tos-me__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-tos-nos__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-tos-le__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-tos-la__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-tos-ne__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-tos-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-tos-hue__enc"/>
+    </e>
+  </pardef>      
+    
+  <pardef n="S__cante">
    <e>
       <par n="-me__enc"/>
     </e>  
     <e>
-      <par n="-me__enc"/>
-      <par n="S__cantando-me"/>
+      <par n="-me-le__enc"/>
     </e>
     <e>
-      <par n="-nos__enc"/>
+      <par n="-me-la__enc"/>
     </e>
     <e>
-      <par n="-nos__enc"/>
-      <par n="S__cantando-nos"/>
+      <par n="-me-ne__enc"/>
     </e>
     <e>
-      <par n="-tos__enc"/>
-    </e>  
-    <e>
-      <par n="-tos__enc"/>
-      <par n="S__cantando-tos"/>
-    </e>
-    <e>
-      <par n="-le__enc"/>
-    </e>  
-    <e>
-      <par n="-le__enc"/>
-      <par n="S__cantando-le"/>
-    </e>
-    <e>
-      <par n="-la__enc"/>
-    </e>  
-    <e>
-      <par n="-la__enc"/>
-      <par n="S__cantando-la"/>
-    </e>
-    <e>
-      <par n="-ne__enc"/>
-    </e>  
-    <e>
-      <par n="-ne__enc"/>
-      <par n="S__cantando-ne"/>
-    </e>
-    <e>
-      <par n="-ie__enc"/>
-    </e>  
-    <e>
-      <par n="-ie__enc"/>
-      <par n="S__cantando-ie"/>
-    </e>
-    <e>
-      <par n="-hue__enc"/>
-    </e>  
-    <e>
-      <par n="-hue__enc"/>
-      <par n="S__cantando-hue"/>
+      <par n="-me-ie__enc"/>
     </e>
     <e r="LR">
+      <par n="-me-hue__enc"/>
+    </e>    
+    <e>
+      <par n="-nos__enc"/>
+    </e>
+   <e>
+      <par n="-nos-le__enc"/>
+    </e>
+    <e>
+      <par n="-nos-la__enc"/>
+    </e>
+    <e>
+      <par n="-nos-ne__enc"/>
+    </e>
+    <e>
+      <par n="-nos-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-nos-hue__enc"/>
+    </e>
+    <e>
+      <par n="-le__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-le-la__enc"/>
+    </e>  
+    <e>
+      <par n="-le-ne__enc"/>
+    </e>  
+    <e>
+      <par n="-le-ie__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-le-hue__enc"/>
+    </e>  
+    <e>
+      <par n="-la__enc"/>
+    </e>  
+    <e>
+      <par n="-la-ne__enc"/>
+    </e>  
+    <e>
+      <par n="-la-ie__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-la-hue__enc"/>
+    </e>  
+    <e>
+      <par n="-ne__enc"/>
+    </e>  
+    <e>
+      <par n="-ne-ie__enc"/>
+    </e>    
+    <e>
+      <par n="-ie__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-hue__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-hu-ne__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-hu-ie__enc"/>
+    </e>  
+    <e>
       <par n="-se__enc"/>
     </e>      
     <e>
-      <par n="-se__enc"/>
-      <par n="S__cantando-se"/>
-    </e>
-    </pardef>    
+      <par n="-se-me__enc"/>
+    </e>      
+    <e>
+      <par n="-se-nos__enc"/>
+    </e>      
+    <e>
+      <par n="-se-te__enc"/>
+    </e>      
+    <e>
+      <par n="-se-tos__enc"/>
+    </e>      
+    <e>
+      <par n="-se-le__enc"/>
+    </e>      
+    <e>
+      <par n="-se-la__enc"/>
+    </e>      
+    <e r="LR">
+      <par n="-se-hue__enc"/>
+    </e>      
+    <e>
+      <par n="-se-ne__enc"/>
+    </e>      
+    <e>
+      <par n="-se-ie__enc"/>
+    </e>      
+ </pardef>    
   
     <pardef n="S__canten">
    <e>
       <par n="-me__enc"/>
     </e>  
     <e>
-      <par n="-me__enc"/>
-      <par n="S__cantando-me"/>
+      <par n="-me-le__enc"/>
     </e>
     <e>
-      <par n="-nos__enc"/>
+      <par n="-me-la__enc"/>
     </e>
     <e>
-      <par n="-nos__enc"/>
-      <par n="S__cantando-nos"/>
+      <par n="-me-ne__enc"/>
     </e>
     <e>
-      <par n="-le__enc"/>
-    </e>  
-    <e>
-      <par n="-le__enc"/>
-      <par n="S__cantando-le"/>
-    </e>
-    <e>
-      <par n="-la__enc"/>
-    </e>  
-    <e>
-      <par n="-la__enc"/>
-      <par n="S__cantando-la"/>
-    </e>
-    <e>
-      <par n="-ne__enc"/>
-    </e>  
-    <e>
-      <par n="-ne__enc"/>
-      <par n="S__cantando-ne"/>
-    </e>
-    <e>
-      <par n="-ie__enc"/>
-    </e>  
-    <e>
-      <par n="-ie__enc"/>
-      <par n="S__cantando-ie"/>
-    </e>
-    <e>
-      <par n="-hue__enc"/>
-    </e>  
-    <e>
-      <par n="-hue__enc"/>
-      <par n="S__cantando-hue"/>
+      <par n="-me-ie__enc"/>
     </e>
     <e r="LR">
+      <par n="-me-hue__enc"/>
+    </e>    
+    <e>
+      <par n="-nos__enc"/>
+    </e>
+   <e>
+      <par n="-nos-le__enc"/>
+    </e>
+    <e>
+      <par n="-nos-la__enc"/>
+    </e>
+    <e>
+      <par n="-nos-ne__enc"/>
+    </e>
+    <e>
+      <par n="-nos-ie__enc"/>
+    </e>
+    <e r="LR">
+      <par n="-nos-hue__enc"/>
+    </e>
+    <e>
+      <par n="-le__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-le-la__enc"/>
+    </e>  
+    <e>
+      <par n="-le-ne__enc"/>
+    </e>  
+    <e>
+      <par n="-le-ie__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-le-hue__enc"/>
+    </e>  
+    <e>
+      <par n="-la__enc"/>
+    </e>  
+    <e>
+      <par n="-la-ne__enc"/>
+    </e>  
+    <e>
+      <par n="-la-ie__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-la-hue__enc"/>
+    </e>  
+    <e>
+      <par n="-ne__enc"/>
+    </e>  
+    <e>
+      <par n="-ne-ie__enc"/>
+    </e>    
+    <e>
+      <par n="-ie__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-hue__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-hu-ne__enc"/>
+    </e>  
+    <e r="LR">
+      <par n="-hu-ie__enc"/>
+    </e>  
+    <e>
       <par n="-se__enc"/>
     </e>      
     <e>
-      <par n="-se__enc"/>
-      <par n="S__cantando-se"/>
-    </e>
-    </pardef>    
+      <par n="-se-me__enc"/>
+    </e>      
+    <e>
+      <par n="-se-nos__enc"/>
+    </e>      
+    <e>
+      <par n="-se-te__enc"/>
+    </e>      
+    <e>
+      <par n="-se-tos__enc"/>
+    </e>      
+    <e>
+      <par n="-se-le__enc"/>
+    </e>      
+    <e>
+      <par n="-se-la__enc"/>
+    </e>      
+    <e r="LR">
+      <par n="-se-hue__enc"/>
+    </e>      
+    <e>
+      <par n="-se-ne__enc"/>
+    </e>      
+    <e>
+      <par n="-se-ie__enc"/>
+    </e>      
+ </pardef>    
   
     <pardef n="/ell__prn">
     <e>
@@ -1957,7 +2453,7 @@
     </e>
 
     </pardef>
-    <pardef n="hue__prn">
+    <pardef n="hu__prn">
     <e>
       <p>
         <l></l> 
@@ -13511,9 +14007,8 @@
     <e lm="te"><i>te</i><par n="te__prn"/></e>
     <e lm="le"><i></i><par n="/le__prn"/></e>
     <e lm="lo"><i></i><par n="/lo__prn"/></e>
-    <e r="LR" alm="hue"><i>hue</i><par n="hue__prn"/></e>
-     <e r="LR" lm="hue"><p><l>güe</l><r>hue</r></p><par n="hue__prn"/></e>
-     <e r="LR" lm="hue"><p><l>ue</l><r>hue</r></p><par n="hue__prn"/></e>
+    <e r="LR" alm="hu"><i>hu</i><par n="hu__prn"/></e>
+     <e r="LR" lm="hu"><p><l>u</l><r>hu</r></p><par n="hu__prn"/></e>
    
     <!-- ******************************
           adverbial pronouns: en/ne, i/bi/ie
