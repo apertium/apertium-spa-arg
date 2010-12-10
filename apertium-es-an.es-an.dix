@@ -162,6 +162,7 @@
   
 <e r="RL">       <p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>hue<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
 <e r="RL">       <p><l>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>hue<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
+<e>       <p><l>qué<s n="prn"/></l>               <r>qué<s n="prn"/></r></p></e>
 
     <!-- ******************************
           group det_symbol
@@ -191,6 +192,8 @@
     <e r="RL"><p><l>otro<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></l><r>unatro<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
     
     <e><p><l>algún<b/>otro<s n="det"/><s n="ind"/></l><r>belatro<s n="det"/><s n="ind"/></r></p></e>
+     <e><p><l>cada<s n="det"/></l><r>cada<s n="det"/></r></p></e>
+
     <!--
     <e r="LR"><p><l>demás<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></l><r>altre<s n="det"/><s n="ind"/><s n="GD"/><s n="ND"/></r></p></e>
     <e r="LR"><p><l>lo<b/>demás<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l><r>la<b/>resta<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -208,6 +211,8 @@
     <!-- ******************************
           group adj_symbol
       ****************************** -->
+    
+    <e>       <p><l>qué<s n="adj"/></l>               <r>qué<s n="adj"/></r></p></e>    
     <e><i>abatible<s n="adj"/></i></e>
     <e><i>abdominal<s n="adj"/></i></e>
     <e><i>abertzale<s n="adj"/></i></e>
@@ -637,7 +642,7 @@
     <e><p><l>cuadrado<s n="adj"/></l><r>quadrau<s n="adj"/></r></p></e>
     <e><p><l>cuadrangular<s n="adj"/></l><r>quadrangular<s n="adj"/></r></p></e>
     <e><p><l>cualitativo<s n="adj"/></l><r>qualitativo<s n="adj"/></r></p></e>
-    <e><p><l>cualquiera<s n="adj"/></l><r>qualsiquiera<s n="adj"/></r></p></e>
+    <e><p><l>cualquiera<s n="adj"/></l><r>qualsiquier<s n="adj"/></r></p></e>
     <!--
     <e r="RL"><p><l>cualquiera<s n="adj"/><s n="mf"/><s n="ND"/></l><r>qualsiquiera<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>cualquiera<s n="adj"/><s n="mf"/></l><r>qualsiquiera<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -2105,7 +2110,8 @@
     <e><p><l>único<s n="adj"/></l><r>solo<s n="adj"/></r></p></e>
     <e><p><l>único<s n="adj"/></l><r>unico<s n="adj"/></r></p></e>
     <e><p><l>útil<s n="adj"/></l><r>util<s n="adj"/></r></p></e>
-    
+    <e><i>velar<s n="adj"/></i></e>
+
     <e>       <p><l>mediterráneo<s n="adj"/></l>      <r>mediterranio<s n="adj"/></r></p></e>
     <e r="RL"><p><l>Mediterráneo<s n="np"/><s n="loc"/></l><r>Mediterrania<s n="np"/><s n="loc"/></r></p></e>
     <e>       <p><l>Mediterráneo<s n="np"/></l>       <r>Mediterranio<s n="np"/></r></p></e>
@@ -2166,6 +2172,7 @@
     <e>       <p><l>en<b/>cuanto<s n="cnjadv"/></l><r>en<b/>que<s n="cnjadv"/></r></p></e>
     <e r="LR"><p><l>aun<b/>cuando<s n="cnjadv"/></l>  <r>tot<b/>i<b/>que<s n="cnjadv"/></r></p></e>
     <e><p><l>a<b/>pesar<b/>de<b/>que<s n="cnjadv"/></l><r>tot<b/>y<b/>que<s n="cnjadv"/></r></p></e>
+    
 
     
     <!-- ******************************
@@ -2178,6 +2185,7 @@
     <e>       <p><l>alrededor<s n="adv"/></l>         <r>arredol<s n="adv"/></r></p></e>
     <e r="LR"><p><l>solo<s n="adv"/></l>              <r>solament<s n="adv"/></r></p></e>
     <e> <p><l>solamente<s n="adv"/></l>         <r>solament<s n="adv"/></r></p></e>
+    <e> <p><l>mucho<s n="adv"/></l>         <r>muito<s n="adv"/></r></p></e>
     <e><p><l>accidentalmente<s n="adv"/></l><r>accidentalment<s n="adv"/></r></p></e>
     <e><p><l>activamente<s n="adv"/></l><r>activament<s n="adv"/></r></p></e>
     <e><p><l>actualmente<s n="adv"/></l><r>actualment<s n="adv"/></r></p></e>
@@ -2412,6 +2420,8 @@
     <e r="RL"><p><l>hacia<b/>allí<s n="adv"/></l>    <r>ta<b/>allí<s n="adv"/></r></p></e>
     <e r="RL"><p><l>hacia<b/>allá<s n="adv"/></l>     <r>ta<b/>allá<s n="adv"/></r></p></e>
     <e><p><l>menos<b/>mal<s n="adv"/></l>     <r>bien<b/>se<b/>vale<s n="adv"/></r></p></e>
+    <e>       <p><l>así<s n="adv"/></l>     <r>asinas<s n="adv"/></r></p></e>
+    <e>       <p><l>siempre<s n="adv"/></l>     <r>siempre<s n="adv"/></r></p></e>
 
     <!-- ******************************
           group pr_symbol
@@ -2689,6 +2699,19 @@
 <e r="LR"><p><l>cuál<s n="prn"/><s n="itg"/><s n="mf"/></l><r>quál<s n="prn"/><s n="itg"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>cuál<s n="prn"/><s n="itg"/><s n="mf"/></l><r>quál<s n="prn"/><s n="itg"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>cuál<s n="prn"/><s n="itg"/><s n="mf"/></l><r>quál<s n="prn"/><s n="itg"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="ND"/></l><r>qui<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></l><r>qui<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></l><r>qui<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
+
+<e r="RL"><p><l>quien<s n="rel"/><s n="nn"/><s n="mf"/><s n="pl"/></l><r>o<b/>que<s n="rel"/><s n="nn"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>quien<s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l><r>o<b/>que<s n="rel"/><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"> <p><l>quien<s n="rel"/><s n="nn"/><s n="mf"/><s n="pl"/></l><r>el<b/>qui<s n="rel"/><s n="nn"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>quien<s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l><r>el<b/>qui<s n="rel"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
+
+<e r="RL"><p><l>quien<s n="rel"/><s n="nn"/><s n="mf"/><s n="ND"/></l><r>qui<s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>quien<s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l><r>qui<s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>quien<s n="rel"/><s n="nn"/><s n="mf"/><s n="pl"/></l><r>qui<s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></r></p></e>
+
 <e><p><l>dónde<s n="adv"/></l><r>án<s n="adv"/></r></p></e>
 <e><p><l>cuándo<s n="adv"/></l><r>quán<s n="adv"/></r></p></e>
 
@@ -4018,6 +4041,64 @@
     <e><p><l>yugoslavo<s n="n"/></l><r>yugoslavo<s n="n"/></r></p></e>
     <e><p><l>zoroastrianismo<s n="n"/></l><r>zoroastrianismo<s n="n"/></r></p></e>
     <e><p><l>zoroastrismo<s n="n"/></l><r>zoroastrismo<s n="n"/></r></p></e>
+    
+    <e><p><l>fonema<s n="n"/></l><r>fonema<s n="n"/></r></p></e>
+    <e><p><l>grafema<s n="n"/></l><r>grafema<s n="n"/></r></p></e>
+    <e><p><l>palabra<s n="n"/></l><r>parola<s n="n"/></r></p></e>
+    <e r="RL"><p><l>palabra<s n="n"/></l><r>parabra<s n="n"/></r></p></e>
+    <e r="RL"><p><l>palabra<s n="n"/></l><r>palabra<s n="n"/></r></p></e>
+    <e><p><l>sílaba<s n="n"/></l><r>silaba<s n="n"/></r></p></e>
+    <e><p><l>línea<s n="n"/></l><r>linia<s n="n"/></r></p></e>
+    <e><p><l>voz<s n="n"/></l><r>voz<s n="n"/></r></p></e>
+    <e><p><l>letra<s n="n"/></l><r>letra<s n="n"/></r></p></e>
+    <e><p><l>punto<s n="n"/></l><r>punto<s n="n"/></r></p></e>
+    <e><p><l>dígrafo<s n="n"/></l><r>digrafo<s n="n"/></r></p></e>
+    <e><p><l>señal<s n="n"/><s n="f"/></l><r>sinyal<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>criterio<s n="n"/></l><r>criterio<s n="n"/></r></p></e>
+    <e><p><l>uso<s n="n"/></l><r>uso<s n="n"/></r></p></e>
+    <e><p><l>empleo<s n="n"/></l><r>emplego<s n="n"/></r></p></e>
+    <e><p><l>grafía<s n="n"/></l><r>grafía<s n="n"/></r></p></e>
+    <e><p><l>guión<s n="n"/></l><r>guión<s n="n"/></r></p></e>
+    <e><p><l>texto<s n="n"/></l><r>texto<s n="n"/></r></p></e>
+    <e><p><l>étimo<s n="n"/></l><r>etimo<s n="n"/></r></p></e>
+    <e><p><l>pronombre<s n="n"/></l><r>pronombre<s n="n"/></r></p></e>
+    <e><p><l>secuencia<s n="n"/></l><r>seqüencia<s n="n"/></r></p></e>
+    <e><p><l>preposición<s n="n"/></l><r>preposición<s n="n"/></r></p></e>
+    <e><p><l>variedad<s n="n"/></l><r>variedat<s n="n"/></r></p></e>
+    <e><p><l>prencipio<s n="n"/></l><r>prencipio<s n="n"/></r></p></e>
+    <e><p><l>latinismo<s n="n"/></l><r>latinismo<s n="n"/></r></p></e>
+    <e><p><l>conjunción<s n="n"/></l><r>conchunción<s n="n"/></r></p></e>
+    <e><p><l>propuesta<s n="n"/></l><r>propuesta<s n="n"/></r></p></e>
+    <e><p><l>interrogación<s n="n"/></l><r>interrogación<s n="n"/></r></p></e>
+    <e>       <p><l>resto<s n="n"/><s n="m"/></l>     <r>resta<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR">       <p><l>resta<s n="n"/></l>     <r>resta<s n="n"/></r></p></e>
+    <e>       <p><l>habitación<s n="n"/><s n="m"/></l>     <r>cambra<s n="n"/><s n="f"/></r></p></e>
+    <e>       <p><l>cuarto<s n="n"/></l>     <r>quarto<s n="n"/></r></p></e>
+    <e><p><l>cardador<s n="n"/></l><r>pelaire<s n="n"/></r></p></e>
+    <e><p><l>acompañante<s n="n"/></l><r>acompanyant<s n="n"/></r></p></e>
+    <e><p><l>soldado<s n="n"/></l><r>soldau<s n="n"/></r></p></e>
+    <e><p><l>vez<s n="n"/></l><r>vez<s n="n"/></r></p></e>
+    <e><p><l>bomba<s n="n"/></l><r>bomba<s n="n"/></r></p></e>
+    <e><p><l>clase<s n="n"/></l><r>clase<s n="n"/></r></p></e>
+    <e><p><l>plaza<s n="n"/></l><r>plaza<s n="n"/></r></p></e>
+    <e><p><l>fuego<s n="n"/></l><r>fuego<s n="n"/></r></p></e>
+    <e><p><l>llama<s n="n"/></l><r>flama<s n="n"/></r></p></e>
+    <e><p><l>cabeza<s n="n"/></l><r>capeza<s n="n"/></r></p></e>
+    <e r="RL"><p><l>cabeza<s n="n"/></l><r>tozuelo<s n="n"/></r></p></e>
+    <e><p><l>hierro<s n="n"/></l><r>fierro<s n="n"/></r></p></e>
+    <e><p><l>existir<s n="vblex"/></l><r>existir<s n="vblex"/></r></p></e>
+    <e>       <p><l>decir<s n="vblex"/></l>        <r>dicir<s n="vblex"/></r></p></e>
+    <e>       <p><l>bendecir<s n="vblex"/></l>        <r>bendicir<s n="vblex"/></r></p></e>
+    <e>       <p><l>maldecir<s n="vblex"/></l>        <r>maldicir<s n="vblex"/></r></p></e>
+    <e>       <p><l>contradecir<s n="vblex"/></l>        <r>contradicir<s n="vblex"/></r></p></e>
+    <e>       <p><l>desdecir<s n="vblex"/></l><r>desdicir<s n="vblex"/></r></p></e>
+    <e>       <p><l>predecir<s n="vblex"/></l><r>predicir<s n="vblex"/></r></p></e>
+    <e>       <p><l>predecir<s n="vblex"/></l><r>predicir<s n="vblex"/></r></p></e>
+
+<e>       <p><l>nunca<s n="adv"/></l>             <r>nunca<s n="adv"/></r></p></e>
+<e r="RL"><p><l>nunca<s n="adv"/></l>             <r>nunca<b/>no<s n="adv"/></r></p></e>
+<e r="LR"><p><l>jamás<s n="adv"/></l>             <r>nunca<s n="adv"/></r></p></e>
+<e r="LR"> <p><l>nunca<b/>jamás<s n="adv"/></l>    <r>nunca<s n="adv"/></r></p></e>
 
     <!-- ******************************
           group vbhaver_symbol
@@ -4134,6 +4215,7 @@
     <e><p><l>elevar<s n="vblex"/></l><r>elevar<s n="vblex"/></r></p></e>
     <e><p><l>empapar<s n="vblex"/></l><r>empapar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>impulsar<s n="vblex"/></l><r>empentar<s n="vblex"/></r></p></e>
+    <e><p><l>emplear<s n="vblex"/></l><r>emplegar<s n="vblex"/></r></p></e>
     <e><p><l>empujar<s n="vblex"/></l><r>empentar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>empezar<s n="vblex"/></l><r>encetar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>dirigir<s n="vblex"/></l><r>enfilar<s n="vblex"/></r></p></e>
@@ -4174,6 +4256,7 @@
     <e r="RL"><p><l>hablar<s n="vblex"/></l><r>habllar<s n="vblex"/></r></p></e>
     <e><p><l>hablar<s n="vblex"/></l><r>abllar<s n="vblex"/></r></p></e>
     <e><p><l>hacer<s n="vblex"/></l><r>fer<s n="vblex"/></r></p></e>
+    <e><p><l>deshacer<s n="vblex"/></l><r>desfer<s n="vblex"/></r></p></e>
     <e><p><l>hibernar<s n="vblex"/></l><r>hibernar<s n="vblex"/></r></p></e>
     <e><p><l>implantar<s n="vblex"/></l><r>implantar<s n="vblex"/></r></p></e>
     <e><p><l>incluir<s n="vblex"/></l><r>incluir<s n="vblex"/></r></p></e>
@@ -4194,6 +4277,15 @@
     <e><p><l>jubilar<s n="vblex"/></l><r>chubilar<s n="vblex"/></r></p></e>
     <e><p><l>juntar<s n="vblex"/></l><r>chuntar<s n="vblex"/></r></p></e>
     <e><p><l>lavar<s n="vblex"/></l><r>lavar<s n="vblex"/></r></p></e>
+    <e><p><l>leer<s n="vblex"/></l><r>leyer<s n="vblex"/></r></p></e>
+    <e><p><l>escribir<s n="vblex"/></l><r>escribir<s n="vblex"/></r></p></e>
+    <e><p><l>adscribir<s n="vblex"/></l><r>adscribir<s n="vblex"/></r></p></e>
+    <e><p><l>describir<s n="vblex"/></l><r>describir<s n="vblex"/></r></p></e>
+    <e><p><l>inscribir<s n="vblex"/></l><r>inscribir<s n="vblex"/></r></p></e>
+    <e><p><l>prescribir<s n="vblex"/></l><r>prescribir<s n="vblex"/></r></p></e>
+    <e><p><l>proscribir<s n="vblex"/></l><r>proscribir<s n="vblex"/></r></p></e>
+    <e><p><l>subscribir<s n="vblex"/></l><r>subscribir<s n="vblex"/></r></p></e>
+    <e><p><l>transcribir<s n="vblex"/></l><r>transcribir<s n="vblex"/></r></p></e>
     <e><p><l>llevar<s n="vblex"/></l><r>levar<s n="vblex"/></r></p></e>
     <e><p><l>librar<s n="vblex"/></l><r>librar<s n="vblex"/></r></p></e>
     <e><p><l>limitar<s n="vblex"/></l><r>limitar<s n="vblex"/></r></p></e>
@@ -4211,7 +4303,7 @@
     <e><p><l>normalizar<s n="vblex"/></l><r>normalizar<s n="vblex"/></r></p></e>
     <e><p><l>obligar<s n="vblex"/></l><r>obligar<s n="vblex"/></r></p></e>
     <e><p><l>observar<s n="vblex"/></l><r>observar<s n="vblex"/></r></p></e>
-    <e><p><l>obtener<s n="vblex"/></l><r>otener<s n="vblex"/></r></p></e>
+    <e><p><l>obtener<s n="vblex"/></l><r>obtener<s n="vblex"/></r></p></e>
     <e><p><l>ocupar<s n="vblex"/></l><r>ocupar<s n="vblex"/></r></p></e>
     <e><p><l>organizar<s n="vblex"/></l><r>organizar<s n="vblex"/></r></p></e>
     <e><p><l>orientar<s n="vblex"/></l><r>orientar<s n="vblex"/></r></p></e>
@@ -4280,6 +4372,18 @@
     <e><p><l>violar<s n="vblex"/></l><r>violar<s n="vblex"/></r></p></e>
     <e><p><l>visitar<s n="vblex"/></l><r>visitar<s n="vblex"/></r></p></e>
     <e><p><l>vivir<s n="vblex"/></l><r>vivir<s n="vblex"/></r></p></e>
+    <e><p><l>venir<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e>
+    <e><p><l>sostener<s n="vblex"/></l><r>sostener<s n="vblex"/></r></p></e>
+    <e><p><l>obtener<s n="vblex"/></l><r>obtener<s n="vblex"/></r></p></e>
+    <e><p><l>retener<s n="vblex"/></l><r>retener<s n="vblex"/></r></p></e>
+    <e><p><l>abstener<s n="vblex"/></l><r>abstener<s n="vblex"/></r></p></e>
+    <e><p><l>atener<s n="vblex"/></l><r>atener<s n="vblex"/></r></p></e>
+    <e><p><l>contener<s n="vblex"/></l><r>contener<s n="vblex"/></r></p></e>
+    <e><p><l>detener<s n="vblex"/></l><r>detener<s n="vblex"/></r></p></e>
+    <e><p><l>mantener<s n="vblex"/></l><r>mantener<s n="vblex"/></r></p></e>
+    <e><p><l>comer<s n="vblex"/></l><r>minchar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>comer<s n="vblex"/></l><r>comer<s n="vblex"/></r></p></e>
+    <e><p><l>jugar<s n="vblex"/></l><r>chugar<s n="vblex"/></r></p></e>
     <!-- ******************************
           group np_symbol
       ****************************** -->

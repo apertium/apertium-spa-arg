@@ -8,12 +8,12 @@
     <tags-item lemma="que" tags="rel.*"/>
   </def-label>
   <def-label name="MOLTADV" closed="true">
-    <tags-item lemma="molt" tags="adv"/>
+    <tags-item lemma="muito" tags="adv"/>
     <tags-item lemma="guaire" tags="adv"/>
     <tags-item lemma="no guaire" tags="adv"/>
   </def-label> 
   <def-label name="MOLTPREADV" closed="true">
-    <tags-item lemma="molt" tags="preadv"/>
+    <tags-item lemma="muit" tags="preadv"/>
     <tags-item lemma="guaire" tags="preadv"/>
     <tags-item lemma="no guaire" tags="preadv"/>
   </def-label>
@@ -1519,10 +1519,16 @@
       <label-item label="VMODALPARTPI"/>
       <label-item label="PREP"/>
     </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXPFCI"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXIMP"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence>
 
 
-
-  
   </forbid>
 
   <enforce-rules>
@@ -1530,7 +1536,7 @@
       <label-set>
         <label-item label="PRNPRO"/>
         <label-item label="VLEXPFCI"/>
-	<label-item label="VA"/>
+	      <label-item label="VA"/>
         <label-item label="VLEXIPI"/>
         <label-item label="VLEXSUBJ"/>
         <label-item label="VSERPFCI"/>
@@ -1542,8 +1548,8 @@
         <label-item label="VMODALPFCI"/>
         <label-item label="VMODALIPI"/>
         <label-item label="VMODALSUBJ"/>
-	<label-item label="VOLERMOD"/>
-	<label-item label="VOLERLEX"/>
+	      <label-item label="VOLERMOD"/>
+	      <label-item label="VOLERLEX"/>
       </label-set>
     </enforce-after>  
   
@@ -1552,12 +1558,12 @@
         <label-item label="ADV"/>
         <label-item label="ADJM"/>
         <label-item label="ADJF"/>
-	<label-item label="ADJMF"/>
+	      <label-item label="ADJMF"/>
         <label-item label="VMODALPARTPI"/>
         <label-item label="VLEXPARTPI"/>
-	<label-item label="VOLERMOD"/>
-	<label-item label="VOLERLEX"/>
-	<label-item label="PREADV"/>
+	      <label-item label="VOLERMOD"/>
+	      <label-item label="VOLERLEX"/>
+	      <label-item label="PREADV"/>
       </label-set>
      </enforce-after> <!--Afegit 11/11/05 MG -->
   </enforce-rules>
