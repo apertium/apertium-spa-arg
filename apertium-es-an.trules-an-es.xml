@@ -77,29 +77,29 @@
     </def-cat>
 
     <def-cat n="prnpro3">   	  	  
-      <cat-item lemma="el" tags="prn.pro.*"/>
+      <cat-item lemma="lo" tags="prn.pro.*"/>
       <cat-item lemma="en" tags="prn.pro.adv"/>
     </def-cat>
     
     <def-cat n="lopronom">
-      <cat-item lemma="el" tags="prn.pro.p3.mf.sg"/>
+      <cat-item lemma="lo" tags="prn.pro.p3.mf.sg"/>
     </def-cat>
     
     <def-cat n="porque">   	  	  
       <cat-item lemma="porque" tags="cnjadv"/>
     </def-cat>
     
-    <def-cat n="ben">   	  	  
-      <cat-item lemma="ben" tags="preadv"/>
+    <def-cat n="bien">   	  	  
+      <cat-item lemma="bien" tags="preadv"/>
     </def-cat>
 
     <def-cat n="de">   	  	  
       <cat-item lemma="de" tags="pr"/>
     </def-cat>
 
-    <def-cat n="nosaltres">
-      <cat-item lemma="nusaltres" tags="prn.tn.p1.mf.pl"/>
-      <cat-item lemma="busaltres" tags="prn.tn.p2.mf.pl"/>
+    <def-cat n="nusatros">
+      <cat-item lemma="nusatros" tags="prn.tn.p1.mf.pl"/>
+      <cat-item lemma="vusatros" tags="prn.tn.p2.mf.pl"/>
     </def-cat>
     
 
@@ -177,20 +177,20 @@
     </def-cat>
 
     <def-cat n="a">
-      <cat-item lemma="á" tags="pr"/>
+      <cat-item lemma="a" tags="pr"/>
     </def-cat>
 
     <def-cat n="ta">
       <cat-item lemma="ta" tags="pr"/>
     </def-cat>
 
-    <def-cat n="dir">
-      <cat-item lemma="dir" tags="vblex.pri.*"/>
-      <cat-item lemma="dir" tags="vblex.fti.*"/>
+    <def-cat n="dicir">
+      <cat-item lemma="dicir" tags="vblex.pri.*"/>
+      <cat-item lemma="dicir" tags="vblex.fti.*"/>
     </def-cat>
 
-    <def-cat n="haver">
-      <cat-item lemma="haver" tags="vbhaver.*"/>
+    <def-cat n="haber">
+      <cat-item lemma="haber" tags="vbhaver.*"/>
     </def-cat>
 
     <def-cat n="tot">
@@ -2581,7 +2581,7 @@
 	  <test>
 	    <equal caseless="yes">
 	      <clip pos="1" side="sl" part="lem"/>
-	      <lit v="ben"/>
+	      <lit v="bien"/>
 	    </equal>
 	  </test>
 	  <let>
@@ -4780,7 +4780,7 @@
 	    <let>
 	      <clip pos="2" side="tl" part="lem"/>
 	      <get-case-from pos="1">
-		<lit v="el"/>
+		<lit v="o"/>
 	      </get-case-from>
 	    </let>
 	    <let>
@@ -4814,7 +4814,7 @@
 
     <rule> <!--REGLA: PRONOM DETERMINANT NOM: "Nosaltres les dones : Nosotras las mujeres" -->
       <pattern>
-	<pattern-item n="nosaltres"/>
+	<pattern-item n="nusatros"/>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
       </pattern>
@@ -4853,7 +4853,7 @@
 
     <rule> <!--REGLA: PRONOM DETERMINANT ADJECTIU-->
       <pattern>
-	<pattern-item n="nosaltres"/>
+	<pattern-item n="nusatros"/>
 	<pattern-item n="det"/>
 	<pattern-item n="adjec"/>
       </pattern>
@@ -5210,7 +5210,7 @@
 	  </lu>
 	  <b/>
 	  <lu>
-	    <lit v="el"/>
+	    <lit v="o"/>
 	    <lit-tag v="det.def.m.sg"/>              
 	  </lu>                 
 	  <b pos="1"/>	   
@@ -5242,7 +5242,7 @@
 	  </lu>
 	  <b/>
 	  <lu>
-	    <lit v="el"/>
+	    <lit v="o"/>
 	    <lit-tag v="det.def.m.sg"/>              
 	  </lu>                 
 	  <b pos="1"/>
@@ -5274,7 +5274,7 @@
 	  </lu>
 	  <b/>
 	  <lu>
-	    <lit v="el"/>
+	    <lit v="o"/>
 	    <lit-tag v="det.def.m.sg"/>              
 	  </lu>                 
 	  <b pos="1"/>
@@ -6269,7 +6269,7 @@
     <rule> <!-- dir-se -> llamarse -->
       <pattern>
 	<pattern-item n="prnproref"/>
-	<pattern-item n="dir"/>
+	<pattern-item n="dicir"/>
       </pattern>
       <action>
 	<choose>
@@ -6302,7 +6302,7 @@
     <rule> <!-- l'he trobada -> la he encontrado -->
       <pattern>
 	<pattern-item n="lopronom"/>
-	<pattern-item n="haver"/>
+	<pattern-item n="haber"/>
 	<pattern-item n="ppf"/>
       </pattern>
       <action>      
@@ -6332,7 +6332,7 @@
     <rule> 
       <pattern>
 	<pattern-item n="prnpro3"/>
-	<pattern-item n="haver"/>
+	<pattern-item n="haber"/>
 	<pattern-item n="ppfmpl"/>
       </pattern>
       <action>
@@ -6394,7 +6394,7 @@
 
     <rule> <!--REGLA: haver-enc participi (femení sg i pl, masculí pl) -> haver-enc participi-masc-sg-->
       <pattern>
-	<pattern-item n="haver"/>
+	<pattern-item n="haber"/>
 	<pattern-item n="prnenc"/>
 	<pattern-item n="ppfmpl"/>
       </pattern>
@@ -6419,7 +6419,7 @@
 
     <rule> <!--REGLA: haver-enc-enc participi (femení sg i pl, masculí pl) -> haver-enc-enc participi-masc-sg-->
       <pattern>
-	<pattern-item n="haver"/>
+	<pattern-item n="haber"/>
 	<pattern-item n="prnenc"/>
 	<pattern-item n="prnenc"/>
 	<pattern-item n="ppfmpl"/>
@@ -6448,7 +6448,7 @@
 <!-- based on UNDHR, but seems to hold up on inspecting Wikipedia -->
   <rule> <!--REGLA: ben de + INF -> deber + INF -->
       <pattern>
-	<pattern-item n="ben"/>
+	<pattern-item n="bien"/>
 	<pattern-item n="de"/>
 	<pattern-item n="inf"/>
       </pattern>
@@ -6476,7 +6476,7 @@
 
     <rule> <!--REGLA: ben de + INF + ENCLÍTIC -> deber + INF + ENCLÍTIC-->
       <pattern>
-	<pattern-item n="ben"/>
+	<pattern-item n="bien"/>
 	<pattern-item n="de"/>
 	<pattern-item n="inf"/>
 	<pattern-item n="prnenc"/>
@@ -6503,7 +6503,7 @@
 
     <rule> <!--REGLA: ben de + INF + ENCLÍTIC + ENCLÍTIC  -> deber + INF + ENCLÍTIC + ENCLÍTIC-->
       <pattern>
-	<pattern-item n="ben"/>
+	<pattern-item n="bien"/>
 	<pattern-item n="de"/>
 	<pattern-item n="inf"/>
 	<pattern-item n="prnenc"/>
