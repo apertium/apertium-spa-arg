@@ -26907,7 +26907,7 @@
     <e lm="puyar"><i>puy</i><par n="cant/ar__vblex"/></e>
     <e lm="baixar"><i>baix</i><par n="cant/ar__vblex"/></e>
     <e r="LR" lm="baixar"><p><l>baxar</l><r>baixar</r></p><par n="cant/ar__vblex"/></e>
-    <e lm="leyer"><i>ley</i><par n="l/eyer__vblex"/></e>  <!-- needed paradigm for verbs in -eyer -->
+    <e lm="leyer"><i>l</i><par n="l/eyer__vblex"/></e>  <!-- needed paradigm for verbs in -eyer -->
     <e lm="escribir"><i>escri</i><par n="escri/bir__vblex"/></e>
     <e lm="adscribir"><i>adscri</i><par n="escri/bir__vblex"/></e>
     <e r="LR" lm="adscribir"><p><l>ascri</l><r>adscri</r></p><par n="escri/bir__vblex"/></e>
@@ -26916,14 +26916,14 @@
     <e r="LR" lm="inscribir"><p><l>iscri</l><r>inscri</r></p><par n="escri/bir__vblex"/></e>
     <e lm="prescribir"><i>prescri</i><par n="escri/bir__vblex"/></e>
     <e lm="proscribir"><i>proscri</i><par n="escri/bir__vblex"/></e>
-    <e lm="subscribir"><i>subscribir</i><par n="escri/bir__vblex"/></e>
+    <e lm="subscribir"><i>subscri</i><par n="escri/bir__vblex"/></e>
     <e r="LR" lm="subscribir"><p><l>suscri</l><r>subscri</r></p><par n="escri/bir__vblex"/></e>
-    <e lm="transcribir"><i>transcribir</i><par n="escri/bir__vblex"/></e>
+    <e lm="transcribir"><i>transcri</i><par n="escri/bir__vblex"/></e>
     <e r="LR" lm="transcribir"><p><l>trascri</l><r>transcri</r></p><par n="escri/bir__vblex"/></e>
     <e lm="ir"><i></i><par n="/ir__vblex"/></e>
     <e lm="existir"><i>exist</i><par n="viv/ir__vblex"/></e>
     <e r="LR" lm="existir"><p><l>esist</l><r>exist</r></p><par n="viv/ir__vblex"/></e>
-    <e lm="comer"><i>comer</i><par n="vend/er__vblex"/></e>
+    <e lm="comer"><i>com</i><par n="vend/er__vblex"/></e>
     <e lm="minchar"><i>minch</i><par n="cant/ar__vblex"/></e>
     <e lm="dicir"><i>d</i><par n="d/icir__vblex"/></e>
     <e lm="bendicir"><i>bend</i><par n="d/icir__vblex"/></e>
