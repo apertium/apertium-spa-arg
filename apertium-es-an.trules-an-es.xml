@@ -6448,7 +6448,7 @@
 <!-- based on UNDHR, but seems to hold up on inspecting Wikipedia -->
   <rule> <!--REGLA: ben de + INF -> deber + INF -->
       <pattern>
-	<pattern-item n="bien"/>
+	<pattern-item n="ben"/>
 	<pattern-item n="de"/>
 	<pattern-item n="inf"/>
       </pattern>
@@ -6476,7 +6476,7 @@
 
     <rule> <!--REGLA: ben de + INF + ENCLÍTIC -> deber + INF + ENCLÍTIC-->
       <pattern>
-	<pattern-item n="bien"/>
+	<pattern-item n="ben"/>
 	<pattern-item n="de"/>
 	<pattern-item n="inf"/>
 	<pattern-item n="prnenc"/>
@@ -6503,7 +6503,7 @@
 
     <rule> <!--REGLA: ben de + INF + ENCLÍTIC + ENCLÍTIC  -> deber + INF + ENCLÍTIC + ENCLÍTIC-->
       <pattern>
-	<pattern-item n="bien"/>
+	<pattern-item n="ben"/>
 	<pattern-item n="de"/>
 	<pattern-item n="inf"/>
 	<pattern-item n="prnenc"/>
