@@ -4085,6 +4085,9 @@
     <e><p><l>llama<s n="n"/></l><r>flama<s n="n"/></r></p></e>
     <e><p><l>cabeza<s n="n"/></l><r>capeza<s n="n"/></r></p></e>
     <e r="RL"><p><l>cabeza<s n="n"/></l><r>tozuelo<s n="n"/></r></p></e>
+    <e r="LR"><p><l>gozo<s n="n"/></l><r>gozo<s n="n"/></r></p></e>
+    <e r="RL"><p><l>gozo<s n="n"/></l><r>goyo<s n="n"/></r></p></e>
+    <e><p><l>alegría<s n="n"/></l><r>goyo<s n="n"/></r></p></e>
     <e><p><l>hierro<s n="n"/></l><r>fierro<s n="n"/></r></p></e>
     <e><p><l>existir<s n="vblex"/></l><r>existir<s n="vblex"/></r></p></e>
     <e>       <p><l>decir<s n="vblex"/></l>        <r>dicir<s n="vblex"/></r></p></e>
@@ -4109,6 +4112,14 @@
       ****************************** -->
     <e><p><l>poder<s n="vbmod"/></l><r>poder<s n="vbmod"/></r></p></e>
     <e><p><l>querer<s n="vbmod"/></l><r>querer<s n="vbmod"/></r></p></e>
+    <e r="LR"><p><l>haber<b/>que<s n="vbmod"/></l>    <r>caler<s n="vbmod"/></r></p></e>
+    <e r="RL"><p><l>hacer<b/>falta<s n="vbmod"/></l>  <r>caler<s n="vbmod"/></r></p></e>
+    <e r="LR"><p><l>ser<b/>preciso<s n="vbmod"/></l>  <r>caler<s n="vbmod"/></r></p></e>
+    <e r="LR"><p><l>deber<s n="vbmod"/></l>           <r>haber<g><b/>de</g><s n="vbmod"/></r></p></e>
+    <e r="LR"><p><l>haber<g><b/>de</g><s n="vbmod"/></l><r>haber<g><b/>de</g><s n="vbmod"/></r></p></e>
+    <e>       <p><l>tener<g><b/>que</g><s n="vbmod"/></l><r>haber<g><b/>de</g><s n="vbmod"/></r></p></e>
+    <e>       <p><l>deber<g><b/>de</g><s n="vbmod"/></l><r>deber<s n="vbmod"/></r></p></e>
+
     <!-- ******************************
           group vblex_symbol
       ****************************** -->
@@ -4352,6 +4363,9 @@
     <e><p><l>separar<s n="vblex"/></l><r>separar<s n="vblex"/></r></p></e>
     <e><p><l>sindicar<s n="vblex"/></l><r>sindicar<s n="vblex"/></r></p></e>
     <e><p><l>situar<s n="vblex"/></l><r>situar<s n="vblex"/></r></p></e>
+    <e><p><l>acabar<s n="vblex"/></l><r>acabar<s n="vblex"/></r></p></e>
+    <!-- <e r="LR"><p><l>acabar<s n="vblex"/></l><r>rematar<s n="vblex"/></r></p></e> -->
+    <e><p><l>terminar<s n="vblex"/></l><r>rematar<s n="vblex"/></r></p></e>
     <e><p><l>soltar<s n="vblex"/></l><r>soltar<s n="vblex"/></r></p></e>
     <e><p><l>sublevar<s n="vblex"/></l><r>sublevar<s n="vblex"/></r></p></e>
     <e><p><l>subsanar<s n="vblex"/></l><r>subsanar<s n="vblex"/></r></p></e>
@@ -4359,7 +4373,7 @@
     <e><p><l>tener<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
     <e><p><l>tirar<s n="vblex"/></l><r>tirar<s n="vblex"/></r></p></e>
     <e><p><l>tomar<s n="vblex"/></l><r>tomar<s n="vblex"/></r></p></e>
-    <e><p><l>tornar<s n="vblex"/></l><r>tornar<s n="vblex"/></r></p></e>
+    <e><p><l>volver<s n="vblex"/></l><r>tornar<s n="vblex"/></r></p></e>
     <e><p><l>torturar<s n="vblex"/></l><r>torturar<s n="vblex"/></r></p></e>
     <e><p><l>trabajar<s n="vblex"/></l><r>treballar<s n="vblex"/></r></p></e>
     <e><p><l>transformar<s n="vblex"/></l><r>transformar<s n="vblex"/></r></p></e>
@@ -4384,6 +4398,7 @@
     <e><p><l>comer<s n="vblex"/></l><r>minchar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>comer<s n="vblex"/></l><r>comer<s n="vblex"/></r></p></e>
     <e><p><l>jugar<s n="vblex"/></l><r>chugar<s n="vblex"/></r></p></e>
+    <e><p><l>volcar<s n="vblex"/></l><r>vulcar<s n="vblex"/></r></p></e>
     <e><p><l>ver<s n="vblex"/></l><r>veyer<s n="vblex"/></r></p></e>
     <e><p><l>ir<s n="vblex"/></l><r>ir<s n="vblex"/></r></p></e>
     <e><p><l>responder<s n="vblex"/></l><r>responder<s n="vblex"/></r></p></e>
