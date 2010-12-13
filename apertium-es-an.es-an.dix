@@ -4077,7 +4077,15 @@
     <e><p><l>cardador<s n="n"/></l><r>pelaire<s n="n"/></r></p></e>
     <e><p><l>acompañante<s n="n"/></l><r>acompanyant<s n="n"/></r></p></e>
     <e><p><l>soldado<s n="n"/></l><r>soldau<s n="n"/></r></p></e>
+    <e><p><l>estado<s n="n"/></l><r>estau<s n="n"/></r></p></e>
+    <e><p><l>momento<s n="n"/></l><r>momento<s n="n"/></r></p></e>
+    <e><p><l>instante<s n="n"/></l><r>inte<s n="n"/></r></p></e>
     <e><p><l>vez<s n="n"/></l><r>vez<s n="n"/></r></p></e>
+    <e><p><l>vida<s n="n"/></l><r>vida<s n="n"/></r></p></e>
+    <e><p><l>caso<s n="n"/></l><r>caso<s n="n"/></r></p></e>
+    <e><p><l>mundo<s n="n"/></l><r>mundo<s n="n"/></r></p></e>
+    <e><p><l>señor<s n="n"/></l><r>sinyor<s n="n"/></r></p></e>
+    <e><p><l>hijo<s n="n"/></l><r>fillo<s n="n"/></r></p></e>
     <e><p><l>bomba<s n="n"/></l><r>bomba<s n="n"/></r></p></e>
     <e><p><l>clase<s n="n"/></l><r>clase<s n="n"/></r></p></e>
     <e><p><l>plaza<s n="n"/></l><r>plaza<s n="n"/></r></p></e>
@@ -4088,6 +4096,9 @@
     <e r="LR"><p><l>gozo<s n="n"/></l><r>gozo<s n="n"/></r></p></e>
     <e r="RL"><p><l>gozo<s n="n"/></l><r>goyo<s n="n"/></r></p></e>
     <e><p><l>alegría<s n="n"/></l><r>goyo<s n="n"/></r></p></e>
+    <e><p><l>mano<s n="n"/></l><r>man<s n="n"/></r></p></e>
+    <e><p><l>problema<s n="n"/></l><r>problema<s n="n"/></r></p></e>
+    <e><p><l>mujer<s n="n"/></l><r>muller<s n="n"/></r></p></e>
     <e><p><l>hierro<s n="n"/></l><r>fierro<s n="n"/></r></p></e>
     <e><p><l>existir<s n="vblex"/></l><r>existir<s n="vblex"/></r></p></e>
     <e>       <p><l>decir<s n="vblex"/></l>        <r>dicir<s n="vblex"/></r></p></e>
@@ -4164,7 +4175,6 @@
     <e><p><l>arreglar<s n="vblex"/></l><r>arreglar<s n="vblex"/></r></p></e>
     <e><p><l>arrullar<s n="vblex"/></l><r>arrullar<s n="vblex"/></r></p></e>
     <e><p><l>asegurar<s n="vblex"/></l><r>asegurar<s n="vblex"/></r></p></e>
-    <e><p><l>asentar<s n="vblex"/></l><r>asentar<s n="vblex"/></r></p></e>
     <e><p><l>asimilar<s n="vblex"/></l><r>asimilar<s n="vblex"/></r></p></e>
     <e><p><l>asociar<s n="vblex"/></l><r>asociar<s n="vblex"/></r></p></e>
     <e><p><l>aumentar<s n="vblex"/></l><r>aumentar<s n="vblex"/></r></p></e>
@@ -4183,7 +4193,7 @@
     <e><p><l>celebrar<s n="vblex"/></l><r>celebrar<s n="vblex"/></r></p></e>
     <e><p><l>centralizar<s n="vblex"/></l><r>centralizar<s n="vblex"/></r></p></e>
     <e><p><l>centrar<s n="vblex"/></l><r>centrar<s n="vblex"/></r></p></e>
-    <e><p><l>charlar<s n="vblex"/></l><r>charrar<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>charlar<s n="vblex"/></l><r>charrar<s n="vblex"/></r></p></e>
     <e><p><l>citar<s n="vblex"/></l><r>citar<s n="vblex"/></r></p></e>
     <e><p><l>clamar<s n="vblex"/></l><r>clamar<s n="vblex"/></r></p></e>
     <e><p><l>cocinar<s n="vblex"/></l><r>cocinar<s n="vblex"/></r></p></e>
@@ -4265,7 +4275,8 @@
     <e r="RL"><p><l>hablar<s n="vblex"/></l><r>parlar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>hablar<s n="vblex"/></l><r>fablar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>hablar<s n="vblex"/></l><r>habllar<s n="vblex"/></r></p></e>
-    <e><p><l>hablar<s n="vblex"/></l><r>abllar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>hablar<s n="vblex"/></l><r>ragonar<s n="vblex"/></r></p></e>
+    <e><p><l>hablar<s n="vblex"/></l><r>charrar<s n="vblex"/></r></p></e>
     <e><p><l>hacer<s n="vblex"/></l><r>fer<s n="vblex"/></r></p></e>
     <e><p><l>deshacer<s n="vblex"/></l><r>desfer<s n="vblex"/></r></p></e>
     <e><p><l>hibernar<s n="vblex"/></l><r>hibernar<s n="vblex"/></r></p></e>
@@ -4359,7 +4370,6 @@
     <e><p><l>retornar<s n="vblex"/></l><r>retornar<s n="vblex"/></r></p></e>
     <e><p><l>saber<s n="vblex"/></l><r>saber<s n="vblex"/></r></p></e>
     <e><p><l>salvar<s n="vblex"/></l><r>salvar<s n="vblex"/></r></p></e>
-    <e><p><l>sentar<s n="vblex"/></l><r>sentar<s n="vblex"/></r></p></e>
     <e><p><l>separar<s n="vblex"/></l><r>separar<s n="vblex"/></r></p></e>
     <e><p><l>sindicar<s n="vblex"/></l><r>sindicar<s n="vblex"/></r></p></e>
     <e><p><l>situar<s n="vblex"/></l><r>situar<s n="vblex"/></r></p></e>
@@ -4404,6 +4414,24 @@
     <e><p><l>responder<s n="vblex"/></l><r>responder<s n="vblex"/></r></p></e>
     <e><p><l>bajar<s n="vblex"/></l><r>baixar<s n="vblex"/></r></p></e>
     <e><p><l>subir<s n="vblex"/></l><r>puyar<s n="vblex"/></r></p></e>
+    <e><p><l>creer<s n="vblex"/></l><r>creyer<s n="vblex"/></r></p></e>
+    
+    <e slr="meter D"><p><l>poner<s n="vblex"/></l><r>meter<s n="vblex"/></r></p></e>
+    <e slr="poner"><p><l>poner<s n="vblex"/></l><r>poner<s n="vblex"/></r></p></e>
+    <e r="RL" srl="poner D"><p><l>poner<s n="vblex"/></l><r>posar<s n="vblex"/></r></p></e>
+    <e srl="sentar"><p><l>sentar<s n="vblex"/></l><r>posar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>sentar<s n="vblex"/></l><r>asentar<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>asentar<s n="vblex"/></l><r>asentar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>sentar<s n="vblex"/></l><r>sentar<s n="vblex"/></r></p></e>
+    <e><p><l>meter<s n="vblex"/></l><r>ficar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>meter<s n="vblex"/></l><r>colar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>meter<s n="vblex"/></l><r>calar<s n="vblex"/></r></p></e>
+    
+    <e><p><l>llegar<s n="vblex"/></l><r>plegar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>llegar<s n="vblex"/></l><r>arribar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>llegar<s n="vblex"/></l><r>llegar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>llegar<s n="vblex"/></l><r>allegar<s n="vblex"/></r></p></e>
+  
 
     <!-- ******************************
           group np_symbol

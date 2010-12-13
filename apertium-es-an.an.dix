@@ -19985,11 +19985,11 @@
     <e lm="ui" i="yes"><i>ui</i><par n="adiós__ij"/></e>
     <e lm="aleluya"><i>aleluya</i><par n="adiós__ij"/></e>
     <e lm="pro"><i>pro</i><par n="adiós__ij"/></e>
-    <e r="LR" lm=""><p><l>prou</l><r>pro</r></p><par n="adiós__ij"/></e>
+    <e r="LR" lm="pro"><p><l>prou</l><r>pro</r></p><par n="adiós__ij"/></e>
     <e lm="pro"><i>pro</i><par n="social__adj"/></e>
-    <e r="LR" lm=""><p><l>prou</l><r>pro</r></p><par n="social__adj"/></e>
+    <e r="LR" lm="pro"><p><l>prou</l><r>pro</r></p><par n="social__adj"/></e>
     <e lm="pro"><i>pro</i><par n="agora__adv"/></e>
-    <e r="LR" lm=""><p><l>prou</l><r>pro</r></p><par n="agora__adv"/></e>
+    <e r="LR" lm="pro"><p><l>prou</l><r>pro</r></p><par n="agora__adv"/></e>
     <e lm="bueno"><i>bueno</i><par n="adiós__ij"/></e> 
     <e lm="buen día"><i>buen<b/>día</i><par n="adiós__ij"/></e>
     <e r="LR" lm="buen día"><p><l>buenos<b/>días</l><r>buen<b/>día</r></p><par n="adiós__ij"/></e>
@@ -26985,6 +26985,8 @@
     <e r="LR" lm="sobiranía"><p><l>soberanía</l><r>sobiranía</r></p><par n="luenga__n"/></e>
     <e lm="enfortimiento"><i>enfortimiento</i><par n="libro__n"/></e>
     <e lm="gubierno"><i>gubierno</i><par n="libro__n"/></e>
+    <e r="LR" lm="gubierno"><p><l>gobierno</l><r>gubierno</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="gubierno"><p><l>guvierno</l><r>gubierno</r></p><par n="libro__n"/></e>
     <e lm="sufrachio"><i>sufrachio</i><par n="libro__n"/></e>
     <e lm="servicio"><i>servicio</i><par n="libro__n"/></e>
     <e lm="pueblo"><i>pueblo</i><par n="libro__n"/></e>
@@ -27059,15 +27061,17 @@
     <e lm="acompanyant"><i>acompany</i><par n="acompany/ant__n"/></e>
     <e lm="soldau"><i>soldau</i><par n="pelaire__n"/></e>
     <e r="LR" lm="soldau"><p><l>soldato</l><r>soldau</r></p><par n="pelaire__n"/></e>
+    <e lm="estau"><i>esta</i><par n="cudia/u__n"/></e>
     <e lm="chent"><i>chent</i><par n="luenga__n"/></e>
-    <e r="LR" lm="chent"><p><l>chen</l><r>chent</r></p><par n="luenga__n"/></e>
+    <e r="LR" lm="chent"><p><l>chen</l><r>chent</r></p><par n="libro__n"/></e>
     <e lm="propuesta"><i>propuesta</i><par n="luenga__n"/></e>
     <e lm="criterio"><i>criterio</i><par n="libro__n"/></e> 
     <e lm="uso"><i>uso</i><par n="libro__n"/></e> 
     <e lm="emplego"><i>emplego</i><par n="libro__n"/></e> 
     <e lm="punto"><i>punto</i><par n="libro__n"/></e>    
     <e lm="digrafo"><i>digrafo</i><par n="libro__n"/></e>
-    
+    <e lm="momento"><i>momento</i><par n="libro__n"/></e>
+    <e lm="inte"><i>inte</i><par n="libro__n"/></e>
     <e lm="fuego"><i>fuego</i><par n="libro__n"/></e>
     <e lm="fierro"><i>fierro</i><par n="libro__n"/></e>
     <e lm="cabeza"><i>cabeza</i><par n="luenga__n"/></e>
@@ -27075,8 +27079,29 @@
     <e lm="tozuelo"><i>tozuelo</i><par n="libro__n"/></e>
     <e r="LR" lm="tozuelo"><p><l>tozuel</l><r>tozuelo</r></p><par n="libro__n"/></e>
     <e lm="flama"><i>flama</i><par n="luenga__n"/></e>
-    <e lm="flama"><i>flama</i><par n="luenga__n"/></e>
-
+    <e lm="vida"><i>vida</i><par n="luenga__n"/></e>
+    <e r="LR" lm="vida"><p><l>vita</l><r>vida</r></p><par n="luenga__n"/></e>
+    <e lm="caso"><i>fierro</i><par n="libro__n"/></e>
+    <e lm="mundo"><i>mundo</i><par n="libro__n"/></e>
+    <e lm="sinyor"><i>sinyor</i><par n="treballador__n"/></e>
+    <e r="LR" lm="sinyor"><p><l>senyor</l><r>sinyor</r></p><par n="treballador__n"/></e>
+    <e r="LR" lm="sinyor"><p><l>siñor</l><r>sinyor</r></p><par n="treballador__n"/></e>
+    <e r="LR" lm="sinyor"><p><l>señor</l><r>sinyor</r></p><par n="treballador__n"/></e>
+    <e r="LR" lm="sinyor"><p><l>sinyó</l><r>sinyor</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="sinyor"><p><l>senyó</l><r>sinyor</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="sinyor"><p><l>siñó</l><r>sinyor</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="sinyor"><p><l>señó</l><r>sinyor</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="sinyor"><p><l>sinyá</l><r>sinyor</r></p><par n="luenga__n"/></e>
+    <e r="LR" lm="sinyor"><p><l>senyá</l><r>sinyor</r></p><par n="luenga__n"/></e>
+    <e r="LR" lm="sinyor"><p><l>siñá</l><r>sinyor</r></p><par n="luenga__n"/></e>
+    <e r="LR" lm="sinyor"><p><l>señá</l><r>sinyor</r></p><par n="luenga__n"/></e>
+    <e lm="problema"><i>problema</i><par n="libro__n"/></e>
+    <e lm="muller"><i>muller</i><par n="luenga__n"/></e>
+    <e r="LR" lm="muller"><p><l>mullé</l><r>mullés</r></p><par n="luenga__n"/></e>
+    <e lm="fillo"><i>fill</i><par n="amig/o__n"/></e>
+    <e lm="man"><i>man</i><par n="luenga__n"/></e>
+    <e r="LR" lm="man"><p><l>mano</l><r>man</r></p><par n="luenga__n"/></e>
+    <!-- president  presid/ent -->
     <e lm="sinyal"><i>sinyal</i><par n="libro__n"/></e>
     <e r="LR" lm="sinyal"><p><l>senyal</l><r>sinyal</r></p><par n="libro__n"/></e>
     <e r="LR" lm="sinyal"><p><l>señal</l><r>sinyal</r></p><par n="libro__n"/></e>
@@ -27095,10 +27120,14 @@
     <e lm="elemento"><i>elemento</i><par n="libro__n"/></e>    
     <e lm="etimo"><i>etimo</i><par n="libro__n"/></e>    
     <e lm="emplegar"><i>empleg</i><par n="cant/ar__vblex"/></e>
+    <e lm="plegar"><i>pleg</i><par n="cant/ar__vblex"/></e>
+    <e lm="allegar"><i>alleg</i><par n="cant/ar__vblex"/></e>
+    <e lm="llegar"><i>lleg</i><par n="cant/ar__vblex"/></e>
     <e lm="puyar"><i>puy</i><par n="cant/ar__vblex"/></e>
     <e lm="baixar"><i>baix</i><par n="cant/ar__vblex"/></e>
     <e r="LR" lm="baixar"><p><l>baxar</l><r>baixar</r></p><par n="cant/ar__vblex"/></e>
-    <e lm="leyer"><i>l</i><par n="l/eyer__vblex"/></e>  <!-- needed paradigm for verbs in -eyer -->
+    <e lm="leyer"><i>l</i><par n="l/eyer__vblex"/></e>  
+    <e lm="creyer"><i>l</i><par n="cr/eyer__vblex"/></e> 
     <e lm="escribir"><i>escri</i><par n="escri/bir__vblex"/></e>
     <e lm="adscribir"><i>adscri</i><par n="escri/bir__vblex"/></e>
     <e r="LR" lm="adscribir"><p><l>ascri</l><r>adscri</r></p><par n="escri/bir__vblex"/></e>
@@ -27115,6 +27144,12 @@
     <e lm="existir"><i>exist</i><par n="viv/ir__vblex"/></e>
     <e r="LR" lm="existir"><p><l>esist</l><r>exist</r></p><par n="viv/ir__vblex"/></e>
     <e lm="comer"><i>com</i><par n="vend/er__vblex"/></e>
+    <e lm="meter"><i>com</i><par n="vend/er__vblex"/></e>  <!-- needed paradigm m/eter   past participle -->
+    <e lm="ficar"><i>com</i><par n="cant/ar__vblex"/></e> 
+    <e lm="calar"><i>cal</i><par n="cant/ar__vblex"/></e> 
+    <e lm="colar"><i>cal</i><par n="col/ar__vblex"/></e>  <!-- paradigm with diphtongation? -->
+    <e lm="posar"><i>cal</i><par n="pos/ar__vblex"/></e> 
+    <e lm="poner"><i>cal</i><par n="vend/er__vblex"/></e> <!-- neede paradigm pon/er -->
     <e lm="minchar"><i>minch</i><par n="cant/ar__vblex"/></e>
     <e lm="dicir"><i>d</i><par n="d/icir__vblex"/></e>
     <e lm="bendicir"><i>bend</i><par n="d/icir__vblex"/></e>
@@ -27130,6 +27165,7 @@
     <e r="LR" lm="vulcar"><p><l>bulc</l><r>v</r></p><par n="v/eyer__vblex"/></e>
     <e lm="acabar"><i>acab</i><par n="cant/ar__vblex"/></e>
     <e lm="rematar"><i>remat</i><par n="cant/ar__vblex"/></e>
+    <e lm="ragonar"><i>ragon</i><par n="cant/ar__vblex"/></e>
     <e lm="velar"><i>velar</i><par n="social__adj"/></e>
     <e lm="desfer"><i>desf</i><par n="f/er__vblex"/></e>
     <e r="LR" lm="desfer"><p><l>esf</l><r>desf</r></p><par n="f/er__vblex"/></e>
