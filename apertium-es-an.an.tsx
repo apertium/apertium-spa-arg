@@ -1589,5 +1589,9 @@
    <prefer tags="vbser.pri.p3.sg"/>
    <prefer tags="vbhaver.pri.p3.sg"/>
    <prefer tags="vbmod.pri.p3.sg"/>
+   <prefer tags="vblex.inf"/>
+   <prefer tags="vbser.inf"/>
+   <prefer tags="vbhaver.inf"/>
+   <prefer tags="vbmod.inf"/>   
   </preferences>
 </tagger>
