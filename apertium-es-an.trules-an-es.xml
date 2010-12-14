@@ -6446,7 +6446,8 @@
 
 
 <!-- based on UNDHR, but seems to hold up on inspecting Wikipedia -->
-  <rule> <!--REGLA: ben de + INF -> deber + INF -->
+<!--REGLA: ben de + INF -> deber + INF   
+  <rule> 
       <pattern>
 	<pattern-item n="ben"/>
 	<pattern-item n="de"/>
@@ -6472,9 +6473,9 @@
 	</out>
       </action>
     </rule>
-
-
-    <rule> <!--REGLA: ben de + INF + ENCLÍTIC -> deber + INF + ENCLÍTIC-->
+-->
+<!--REGLA: ben de + INF + ENCLÍTIC -> deber + INF + ENCLÍTIC
+    <rule> 
       <pattern>
 	<pattern-item n="ben"/>
 	<pattern-item n="de"/>
@@ -6500,8 +6501,9 @@
 	</call-macro>
       </action>
     </rule>
-
-    <rule> <!--REGLA: ben de + INF + ENCLÍTIC + ENCLÍTIC  -> deber + INF + ENCLÍTIC + ENCLÍTIC-->
+-->
+ <!--REGLA: ben de + INF + ENCLÍTIC + ENCLÍTIC  -> deber + INF + ENCLÍTIC + ENCLÍTIC
+    <rule>
       <pattern>
 	<pattern-item n="ben"/>
 	<pattern-item n="de"/>
@@ -6529,7 +6531,7 @@
 	</call-macro>	
       </action>
     </rule>
-
+  -->
     <rule> <!-- REGLA: reset variables-->
       <pattern>
 	<pattern-item n="sent"/>
