@@ -109,18 +109,18 @@ $(PREFVAR1)$(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 #	apertium-validate-dictionary $<
 #	lt-comp rl $< $@
 #
-#trules-$(PREFIX1).bin: $(BASENAME).trules-$(PREFIX1).xml
-#	apertium-validate-transfer $(BASENAME).trules-$(PREFIX1).xml
-#	apertium-preprocess-transfer $(BASENAME).trules-$(PREFIX1).xml \
-#	                             trules-$(PREFIX1).bin
+trules-$(PREFIX1).bin: $(BASENAME).trules-$(PREFIX1).xml
+	apertium-validate-transfer $(BASENAME).trules-$(PREFIX1).xml
+	apertium-preprocess-transfer $(BASENAME).trules-$(PREFIX1).xml \
+	                             trules-$(PREFIX1).bin
 
 trules-$(PREFIX2).bin: $(BASENAME).trules-$(PREFIX2).xml
 	apertium-validate-transfer $(BASENAME).trules-$(PREFIX2).xml
 	apertium-preprocess-transfer $(BASENAME).trules-$(PREFIX2).xml \
 	                             trules-$(PREFIX2).bin
 
-#trules-$(PREFIX1).xml: $(BASENAME).trules-$(PREFIX1).xml
-#	ln -s $(BASENAME).trules-$(PREFIX1).xml trules-$(PREFIX1).xml
+trules-$(PREFIX1).xml: $(BASENAME).trules-$(PREFIX1).xml
+	ln -s $(BASENAME).trules-$(PREFIX1).xml trules-$(PREFIX1).xml
 
 trules-$(PREFIX2).xml: $(BASENAME).trules-$(PREFIX2).xml
 	ln -s $(BASENAME).trules-$(PREFIX2).xml trules-$(PREFIX2).xml
@@ -128,7 +128,7 @@ trules-$(PREFIX2).xml: $(BASENAME).trules-$(PREFIX2).xml
 EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
            $(BASENAME).$(LANG2).dix $(BASENAME).$(LANG1).tsx \
-           $(BASENAME).trules-$(PREFIX2).xml $(PREFIX1).prob $(PREFIX2).prob \
+           $(BASENAME).trules-$(PREFIX2).xml $(BASENAME).trules-$(PREFIX1).xml $(PREFIX1).prob $(PREFIX2).prob \
            modes.xml translate-to-default-equivalent.xsl alt.xsl filter.xsl filter.sh \
            $(BASENAME).$(LANG1).acx $(BASENAME).$(LANG2).acx
 
@@ -154,6 +154,8 @@ apertium_es_an_DATA=$(PREFVAR1)$(PREFIX1).automorf.bin $(PREFVAR1)$(PREFIX2).aut
 	$(PREFIX1).prob $(PREFIX2).prob \
 	trules-$(PREFIX2).xml  \
 	trules-$(PREFIX2).bin \
+	trules-$(PREFIX1).xml  \
+	trules-$(PREFIX1).bin \
 	$(PREFVAR1)$(PREFIX2).mode 
 
 install-data-local:

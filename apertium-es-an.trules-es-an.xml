@@ -461,6 +461,7 @@
     <def-var n="exclamativa"/>
     <def-var n="auxg"/>
     <def-var n="auxn"/>
+    <def-var n="temp"/>
   </section-def-vars>
 
   <section-def-lists>
@@ -583,7 +584,18 @@
 
   </section-def-lists>
   <section-def-macros>
-    
+    <def-macro n="f_preps_det" npar="3">
+      <let>
+        <var n="temp"/>
+        <lit v="temp"/>
+      </let>
+    </def-macro>
+    <def-macro n="f_preps" npar="2">
+      <let>
+        <var n="temp"/>
+        <lit v="temp"/>
+      </let>
+    </def-macro>
     <def-macro n="f_coma" npar="1">
       <choose>
 	<when>
@@ -620,6 +632,12 @@
       </choose>
     </def-macro>
 
+    <def-macro n="f_tipusverb" npar="1">
+      <let>
+        <var n="temp"/>
+        <lit v="temp"/>
+      </let>
+    </def-macro>
 
 
     <def-macro n="f_pretind" npar="1"><!--In aragonese there is synthetic past (occ. and central arag.) and perifrastic (or. aragonese). But in standard language, we will not generate the synthetic in standard aragonese -->
