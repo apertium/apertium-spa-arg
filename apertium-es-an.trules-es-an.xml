@@ -4,7 +4,7 @@
   <section-def-cats>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
-      <cat-item tags="np.ant"/>
+      <cat-item tags="np.ant"/> <!--check-->
     </def-cat>
 
     <def-cat n="nomp">
@@ -358,13 +358,9 @@
 
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
-      <attr-item tags="vblex"/>
       <attr-item tags="vbser"/>
       <attr-item tags="vbhaver"/>
       <attr-item tags="vbmod"/>
-    </def-attr>
-    <def-attr n="a_val">
-      <attr-item tags="v2"/>
     </def-attr>
 
     <def-attr n="a_inf">
@@ -452,7 +448,6 @@
   <section-def-vars>
     <def-var n="numvist"/>
     <def-var n="varporque"/>
-    <def-var n="valverb"/>
     <def-var n="tipusverb"/>
     <def-var n="uno"/>
     <def-var n="genero"/>
@@ -589,77 +584,6 @@
   </section-def-lists>
   <section-def-macros>
     
-    <def-macro n="f_tipusverb" npar="1">
-      <choose>
-	<when>
-	  <test>
-	    <equal>
-	      <clip pos="1" side="sl" part="a_val"/>
-	      <lit-tag v="v2"/>
-	    </equal>
-	  </test>
-	  <let>
-	    <var n="valverb"/>
-	    <lit v="2"/>
-	  </let>
-	</when>
-      </choose>
-      <choose>
-	<when>
-	  <test>
-	    <in caseless="yes">
-	      <clip pos="1" side="sl" part="lem"/>
-	      <list n="per_de"/>
-	    </in>
-	  </test>
-	  <let>
-	    <var n="tipusverb"/>
-	    <lit v="vbper_de"/>
-	  </let>
-	</when>
-      </choose>
-      <choose>
-	<when>
-	  <test>
-	    <equal>
-	      <var n="varporque"/>
-	      <lit v="yes"/>
-	    </equal>
-	  </test>
-	  <choose>
-	    <when>
-	      <test>
-		<equal>
-		  <clip pos="1" side="sl" part="temps"/>
-		  <lit-tag v="prs"/>
-		</equal>
-	      </test>
-	      <let>
-		<clip pos="1" side="tl" part="temps"/>
-		<lit-tag v="pri"/>
-	      </let>
-	    </when>
-	    <when>
-	      <test>
-		<equal>
-		  <clip pos="1" side="sl" part="temps"/>
-		  <lit-tag v="pis"/>
-		</equal>
-	      </test>
-	      <let>
-		<clip pos="1" side="tl" part="temps"/>
-		<lit-tag v="pii"/>
-	      </let>
-	    </when>
-	  </choose>
-	</when>
-      </choose>
-      <let>
-	<var n="varporque"/>
-	<lit v=""/>
-      </let>
-    </def-macro>
-
     <def-macro n="f_coma" npar="1">
       <choose>
 	<when>
@@ -678,222 +602,6 @@
 	</when>
       </choose>
     </def-macro>
-
-    <def-macro n="f_preps" npar="2">
-      <choose> 
-	<when>
-	  <test>
-	    <and>
-	      <equal caseless="yes">
-		<clip pos="1" side="sl" part="lem"/>
-		<lit v="a"/>
-	      </equal>
-	      <equal>
-		<var n="valverb"/>
-		<lit v="2"/>
-	      </equal>
-	    </and>
-	  </test>
-	  <call-macro n="f_bcond">
-	    <with-param pos="1"/>
-	  </call-macro>
-	</when>
-	<otherwise>
-	  <choose>
-	    <when>
-	      <test>
-		<and>
-		  <equal caseless="yes">
-		    <clip pos="1" side="sl" part="lem"/>
-		    <lit v="de"/>
-		  </equal>
-		  <equal>
-		    <var n="tipusverb"/>
-		    <lit v="vbde_per"/>
-		  </equal>
-		</and>
-	      </test>
-	      <let>
-		<clip pos="1" side="tl" part="lem"/>
-		<get-case-from pos="1">
-		  <lit v="per"/>
-		</get-case-from>
-	      </let>
-	    </when>
-	   <!-- <when alt="cat">-->
-	  <!-- <when>
-	      <test>
-		<and>
-		  <equal caseless="yes">
-		    <clip pos="1" side="sl" part="lem"/>
-		    <lit v="en"/>
-		  </equal>
-		  <in caseless="yes">
-		    <clip pos="2" side="tl" part="lem"/>
-		    <list n="locatiu"/>
-		  </in>
-		</and>
-	      </test>
-	      <let>
-		<clip pos="1" side="tl" part="lem"/>
-		<get-case-from pos="1">
-		  <lit v="a"/>
-		</get-case-from>
-	      </let>
-	    </when> -->
-	    <when><!--en els sintagmes nominals, la preposició 'para' es tradueix sempre com a 'per a' -->
-	      <test>
-		<equal caseless="yes">
-		  <clip pos="1" side="sl" part="lem"/>
-		  <lit v="para"/>
-		</equal>
-	      </test>
-	      <let>
-		<clip pos="1" side="tl" part="lem"/>
-		<get-case-from pos="1">
-		  <lit v="ta"/>
-		</get-case-from>
-	      </let>
-	    </when>		  
-	  </choose>
-	  <out>
-	    <lu>
-	      <clip pos="1" side="tl" part="whole"/>
-	    </lu>
-	    <b pos="1"/>
-	  </out>
-	</otherwise>
-      </choose>
-      <let>
-	<var n="valverb"/>
-	<lit v=""/>
-      </let>
-      <let>
-	<var n="tipusverb"/>
-	<lit v=""/>
-      </let>
-
-    </def-macro>
-
-    <def-macro n="f_preps_det" npar="3"><!--parámetro 3 = determinante. El único cambio respecto de f_preps es que (sólo para catalán, no para valenciano) se cambia la preposición 'en' por 'a' delante de det + nombre, excepto si el determinante es  'aquest/aquell/un/algun/altre'. La preposición 'en' no se cambia por 'a' en el resto de sintagmas nominales.-->
-      <choose> 
-	<when>
-	  <test>
-	    <and>
-	      <equal caseless="yes">
-		<clip pos="1" side="sl" part="lem"/>
-		<lit v="a"/>
-	      </equal>
-	      <equal>
-		<var n="valverb"/>
-		<lit v="2"/>
-	      </equal>
-	    </and>
-	  </test>
-	  <call-macro n="f_bcond">
-	    <with-param pos="1"/>
-	  </call-macro>
-	</when>
-	<otherwise>
-	  <choose>
-	    <when>
-	      <test>
-		<and>
-		  <equal caseless="yes">
-		    <clip pos="1" side="sl" part="lem"/>
-		    <lit v="de"/>
-		  </equal>
-		  <equal>
-		    <var n="tipusverb"/>
-		    <lit v="vbde_per"/>
-		  </equal>
-		</and>
-	      </test>
-	      <let>
-		<clip pos="1" side="tl" part="lem"/>
-		<get-case-from pos="1">
-		  <lit v="per"/>
-		</get-case-from>
-	      </let>
-	    </when>
-	  <when alt="cat">
-	      <test>
-		<and>
-		  <equal caseless="yes">
-		    <clip pos="1" side="sl" part="lem"/>
-		    <lit v="en"/>
-		  </equal>
-		  <in caseless="yes">
-		    <clip pos="2" side="tl" part="lem"/>
-		    <list n="locatiu"/>
-		  </in>
-		  <not>
-		    <or>
-		      <equal caseless="yes">
-			<clip pos="3" side="tl" part="lem"/>
-			<lit v="aquest"/>
-		      </equal>
-		      <equal caseless="yes">
-			<clip pos="3" side="tl" part="lem"/>
-			<lit v="aquell"/>
-		      </equal>
-		      <equal caseless="yes">
-			<clip pos="3" side="tl" part="lem"/>
-			<lit v="un"/>
-		      </equal>
-		      <equal caseless="yes">
-			<clip pos="3" side="tl" part="lem"/>
-			<lit v="algun"/>
-		      </equal>
-		      <equal caseless="yes">
-			<clip pos="3" side="tl" part="lem"/>
-			<lit v="altre"/>
-		      </equal>
-		    </or>
-		  </not>
-		</and>
-	      </test>
-	      <let>
-		<clip pos="1" side="tl" part="lem"/>
-		<get-case-from pos="1">
-		  <lit v="a"/>
-		</get-case-from>
-	      </let>
-	    </when>
-	    <when><!--en els sintagmes nominals, la preposició 'para' es tradueix sempre com a 'per a' -->
-	      <test>
-		<equal caseless="yes">
-		  <clip pos="1" side="sl" part="lem"/>
-		  <lit v="para"/>
-		</equal>
-	      </test>
-	      <let>
-		<clip pos="1" side="tl" part="lem"/>
-		<get-case-from pos="1">
-		  <lit v="ta"/>
-		</get-case-from>
-	      </let>
-	    </when>		  
-	  </choose>
-	  <out>
-	    <lu>
-	      <clip pos="1" side="tl" part="whole"/>
-	    </lu>
-	    <b pos="1"/>
-	  </out>
-	</otherwise>
-      </choose>
-      <let>
-	<var n="valverb"/>
-	<lit v=""/>
-      </let>
-      <let>
-	<var n="tipusverb"/>
-	<lit v=""/>
-      </let>
-
-    </def-macro>
-
     <def-macro n="f_bcond" npar="1"><!--Para mirar si el blanco contiene o no formato. Hay que poner esta función en las reglas en que desaparezca alguna palabra, con tal de decidir si el blanco de la palabra eliminada debe eliminarse también o conservarse. Si contiene formato hay que conservarla, si no contiene formato hay que eliminarla para que no aparezcan dos espacios seguidos. -->
       <choose>
 	<when>
@@ -914,7 +622,7 @@
 
 
 
-    <def-macro n="f_pretind" npar="1"><!--In aragonese there is synthetic past (occ. and central arag.) and perifrastic (or. aragonese). We will not generate the synthetic in standard aragonese, so wi will not use this rule -->
+    <def-macro n="f_pretind" npar="1"><!--In aragonese there is synthetic past (occ. and central arag.) and perifrastic (or. aragonese). But in standard language, we will not generate the synthetic in standard aragonese -->
       <call-macro n="f_tipusverb">
 	      <with-param pos="1"/>
       </call-macro>      
@@ -978,8 +686,6 @@
       </choose>  -->
     </def-macro>
 
-
-
     <def-macro n="f_lexicAdj" npar="1">
       <choose>
 	<when>
@@ -1001,26 +707,12 @@
 	    <equal caseless="yes">
 	      <clip pos="1" side="tl" part="lem"/>
 	      <lit v="mitjà"/>
-	    </equal>	  
+		    </equal>	  
 	  </test>
 	  <let>
 	    <clip pos="1" side="tl" part="lem"/>
 	    <get-case-from pos="1">
 	      <lit v="mig"/>
-	    </get-case-from>
-	  </let>
-	</when>
-	<when alt="val">
-	  <test>
-	    <equal caseless="yes">
-	      <clip pos="1" side="sl" part="lem"/>
-	      <lit v="pequeño"/>
-	    </equal>	  
-	  </test>
-	  <let>
-	    <clip pos="1" side="tl" part="lem"/>
-	    <get-case-from pos="1">
-	      <lit v="petit"/>
 	    </get-case-from>
 	  </let>
 	</when>
@@ -8200,56 +7892,6 @@
 </rule>
 	  
 
- <rule alt="val"> <!-- REGLA: els del servei lingüístic UA volen que tradueixi 'podían y debían' per 'podien i devien' en comptes de 'podien i havien de'-->
-      <pattern>
-	<pattern-item n="poder"/>
-	<pattern-item n="cnjcoo"/>
-	<pattern-item n="deber"/>
-      </pattern>
-      <action>
-	<let>
-	  <clip pos="3" side="tl" part="lem"/>
-	  <lit v="deure"/>
-	</let>
-	<call-macro n="f_pretind">
-	  <with-param pos="1"/>
-	</call-macro> 
-	<out>
-	  <b pos="1"/>
-	  <lu>
-	    <clip pos="2" side="tl" part="whole"/>
-	  </lu>
-	  <b pos="2"/>
-	</out>
-	<call-macro n="f_pretind">
-	  <with-param pos="3"/>
-	</call-macro> 
-      </action>
-</rule>
-	  
-<rule alt="val"> <!-- REGLA: els del servei lingüístic UA volen que tradueixi 'dilluns + de + matí'-->
-      <pattern>
-	<pattern-item n="dies"/>
-	<pattern-item n="matitarda"/>
-      </pattern>
-      <action>
-	<out>
-	  <lu>
-	    <clip pos="1" side="tl" part="whole"/>
-	  </lu>
-	  <b pos="1"/>
-	  <lu>
-	    <lit v="de"/>
-	    <lit-tag v="pr"/>
-	  </lu>
-	  <b/>
-	  <lu>
-	    <clip pos="2" side="tl" part="whole"/>
-	  </lu>
-	</out>
-      </action>
-</rule>
-	  
     <rule> <!-- REGLA: uno similar - un de similar -->
       <pattern>
 	<pattern-item n="uno_prn"/>
@@ -8299,10 +7941,6 @@
 	</let>
 	<let>
 	  <var n="varporque"/>
-	  <lit v=""/>
-	</let>
-	<let>
-	  <var n="valverb"/>
 	  <lit v=""/>
 	</let>
 	<let>
