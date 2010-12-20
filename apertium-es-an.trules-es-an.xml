@@ -468,92 +468,102 @@
     <def-list n="per_de">
       <list-item v="lalala"/>
     </def-list>
+    
+  <!--
     <def-list n="locatiu">
-      <list-item v="món"/>
+      <list-item v="mundo"/>
+      <list-item v="siede"/>
       <list-item v="seu"/>
       <list-item v="base"/>
       <list-item v="ascensor"/>
-      <list-item v="carrer"/>
-      <list-item v="plaça"/>
-      <list-item v="mercat"/>
+      <list-item v="carrera"/>
+      <list-item v="plaza"/>
+      <list-item v="mercau"/>
       <list-item v="zona"/>
-      <list-item v="àrea"/>
+      <list-item v="aria"/>
       <list-item v="comarca"/>
-      <list-item v="barri"/>
-      <list-item v="ciutat"/>
-      <list-item v="província"/>
-      <list-item v="illa"/>
+      <list-item v="redolada"/>
+      <list-item v="barrio"/>
+      <list-item v="vico"/>
+      <list-item v="ciudat"/>
+      <list-item v="provincia"/>
+      <list-item v="isla"/>
       <list-item v="país"/>
       <list-item v="planeta"/>
       <list-item v="parlament"/>
       <list-item v="casa"/>
       <list-item v="tren"/>
       <list-item v="universitat"/>
-      <list-item v="roba"/>
-      <list-item v="escola"/>
-      <list-item v="congrés"/>
-      <list-item v="domicili"/>
-      <list-item v="urbanització"/>
-      <list-item v="presó"/>
-      <list-item v="fàbrica"/>
-      <list-item v="muntanya"/>
+      <list-item v="ropa"/>
+      <list-item v="escuela"/>
+      <list-item v="congreso"/>
+      <list-item v="domicilio"/>
+      <list-item v="urbanización"/>
+      <list-item v="prisión"/>
+      <list-item v="fabrica"/>
+      <list-item v="montanya"/>
       <list-item v="cambra"/>
-      <list-item v="habitació"/>
+      <list-item v="habitación"/>
+      <list-item v="val"/>
+      <list-item v="valle"/>
       <list-item v="vall"/>
       <list-item v="frontera"/>
-      <list-item v="castell"/>
+      <list-item v="buega"/>
+      <list-item v="muga"/>
+      <list-item v="castiello"/>
       <list-item v="sala"/>
-      <list-item v="declaració"/>
-      <list-item v="església"/>
-      <list-item v="festa"/>
-      <list-item v="esplanada"/>
-      <list-item v="mercat"/>
+      <list-item v="declaración"/>
+      <list-item v="ilesia"/>
+      <list-item v="fiesta"/>
+      <list-item v="explanada"/>
       <list-item v="internet"/>
       <list-item v="ajuntament"/>
-      <list-item v="polígon"/>
-      <list-item v="auditori"/>
-      <list-item v="estranger"/>
-      <list-item v="poble"/>
+      <list-item v="poligon"/>
+      <list-item v="auditorio"/>
+      <list-item v="extranchero"/>
+      <list-item v="pueblo"/>
       <list-item v="portal"/>
       <list-item v="canal"/>
-      <list-item v="terra"/>
+      <list-item v="tierra"/>
       <list-item v="torre"/>
-      <list-item v="pati"/>
-      <list-item v="programació"/>
+      <list-item v="patio"/>
+      <list-item v="programación"/>
       <list-item v="programa"/>
       <list-item v="aula"/>
-      <list-item v="edifici"/>
+      <list-item v="edificio"/>
       <list-item v="hospital"/>
       <list-item v="cambra"/>
       <list-item v="internet"/>
-      <list-item v="programari"/>
-      <list-item v="principat"/>
-      <list-item v="banc"/>
+      <list-item v="software"/>
+      <list-item v="prencipau"/>
+      <list-item v="banco"/>
       <list-item v="botiga"/>
-      <list-item v="franja"/>
-      <list-item v="senat"/>
-      <list-item v="comtat"/>
-      <list-item v="govern"/>
+      <list-item v="francha"/>
+      <list-item v="senau"/>
+      <list-item v="condau"/>
+      <list-item v="gubierno"/>
       <list-item v="capital"/>
-      <list-item v="segle"/>
-      <list-item v="pressupost"/>
+      <list-item v="sieglo"/>
+      <list-item v="presupuesto"/>
       <list-item v="hotel"/>
       <list-item v="cinema"/>
-      <list-item v="apartament"/>
-      <list-item v="platja"/>
-      <list-item v="pàgina"/>
-      <list-item v="mà"/>
+      <list-item v="apartamento"/>
+      <list-item v="placha"/>
+      <list-item v="pachina"/>
+      <list-item v="man"/>
       <list-item v="campus"/>
-      <list-item v="territori"/>
+      <list-item v="territorip"/>
       <list-item v="UOC"/>
-      <list-item v="xarxa"/>
-      <list-item v="parc"/>
-      <list-item v="dutxa"/>
-      <list-item v="regió"/>
-      <list-item v="catàleg"/> <!-- a="mireiafarrus" -->
-      <list-item v="biblioteca"/> <!-- a="mireiafarrus" -->
+      <list-item v="ret"/>
+      <list-item v="rete"/>
+      <list-item v="parque"/>
+      <list-item v="ducha"/>
+      <list-item v="rechión"/>
+      <list-item v="catalogo"/>  --><!-- a="mireiafarrus" -->
+      <!--
+      <list-item v="biblioteca"/> --> <!-- a="mireiafarrus" -->
 
-    </def-list>
+<!--    </def-list>  -->
     <def-list n="tiempo">
       <list-item v="enero"/>
       <list-item v="febrero"/>
@@ -5541,108 +5551,8 @@
       </action>
     </rule>
 
-
-    <rule> <!--REGLA: prep "en" + inf = a + inf : "especialistas en investigar -> especialistes a investigar -->
-      <pattern>
-	<pattern-item n="en"/>
-	<pattern-item n="inf"/>
-      </pattern>
-      <action>
-	<out>
-	  <lu>
-	    <get-case-from pos="1">
-	      <lit v="a"/>
-	    </get-case-from>
-	    <clip pos="1" side="tl" part="a_prep"/>
-	  </lu>
-	  <b pos="1"/>
-	  <lu>
-	    <clip pos="2" side="tl" part="lemh"/>
-	    <clip pos="2" side="tl" part="a_inf"/>
-	    <clip pos="2" side="tl" part="lemq"/>
-	  </lu>  
-	</out>
-      </action>
-    </rule>
-    
-    <rule> <!--REGLA: prep "en" + inf +enc= a + inf+enc -->
-      <pattern>
-	<pattern-item n="en"/>
-	<pattern-item n="inf"/>
-	<pattern-item n="prnenc"/>
-      </pattern>
-      <action>
-	<out>
-	  <lu>
-	    <get-case-from pos="1">
-	      <lit v="a"/>
-	    </get-case-from>
-	    <clip pos="1" side="tl" part="a_prep"/>
-	  </lu>
-	  <b pos="1"/>
-	  <mlu>
-	    <lu>
-	      <clip pos="2" side="tl" part="lemh"/>
-	      <clip pos="2" side="tl" part="a_inf"/>
-	    </lu>
-	    <lu>  
-	      <clip pos="3" side="tl" part="lem"/>
-	      <clip pos="3" side="tl" part="a_prnenc"/>
-	      <clip pos="3" side="tl" part="persona"/>
-	      <clip pos="3" side="tl" part="gen"/>
-	      <clip pos="3" side="tl" part="nbr"/>
-	      <clip pos="2" side="tl" part="lemq"/>
-	    </lu>  
-	  </mlu>	
-	</out>
-      </action>
-    </rule>
-
-
-
-    
-    <rule> <!--REGLA: prep "en" + inf +enc+enc = a + inf+enc+enc -->
-      <pattern>
-	<pattern-item n="en"/>
-	<pattern-item n="inf"/>
-	<pattern-item n="prnenc"/>
-	<pattern-item n="prnenc"/>
-      </pattern>
-      <action>
-	<out>
-	  <lu>
-	    <get-case-from pos="1">
-	      <lit v="a"/>
-	    </get-case-from>
-	    <clip pos="1" side="tl" part="a_prep"/>
-	  </lu>
-	  <b pos="1"/>
-	  <mlu>
-	    <lu>
-	      <clip pos="2" side="tl" part="lemh"/>
-	      <clip pos="2" side="tl" part="a_inf"/>
-	    </lu>
-	    <lu>  
-	      <clip pos="3" side="tl" part="lem"/>
-	      <clip pos="3" side="tl" part="a_prnenc"/>
-	      <clip pos="3" side="tl" part="persona"/>
-	      <clip pos="3" side="tl" part="gen"/>
-	      <clip pos="3" side="tl" part="nbr"/>
-	    </lu> 
-	    <lu>  
-	      <clip pos="4" side="tl" part="lem"/>
-	      <clip pos="4" side="tl" part="a_prnenc"/>
-	      <clip pos="4" side="tl" part="persona"/>
-	      <clip pos="4" side="tl" part="gen"/>
-	      <clip pos="4" side="tl" part="nbr"/>
-	      <clip pos="2" side="tl" part="lemq"/>
-	    </lu>  
-	  </mlu>	
-	</out>
-      </action>
-    </rule>
-    
-    <rule> <!--REGLA: prep "al" + inf = en + inf : al salir->en sortir -->
+ 
+    <rule> <!--REGLA: prep "al" + inf = en + inf : al salir->en salir -->
       <pattern>
 	<pattern-item n="a"/>
 	<pattern-item n="el"/>
@@ -5797,49 +5707,6 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: prep "en" + nploc = a + nploc: en Barcelona -> a Barcelona -->
-      <pattern>
-	<pattern-item n="en"/>
-	<pattern-item n="nploc"/>
-      </pattern>
-      <action>
-	<out>
-	  <lu>
-	    <get-case-from pos="1">            
-	      <lit v="a"/>
-	    </get-case-from>
-	    <lit-tag v="pr"/>
-	  </lu>
-	  <b pos="1"/>
-	  <lu>
-	    <clip pos="2" side="tl" part="whole"/>
-	  </lu>  
-	</out>
-      </action>
-    </rule>
-
-    
-    <rule> <!-- REGLA: PREP NOM (para Barcelona - per a Barcelona-->
-      <pattern>
-	<pattern-item n="para"/>
-	<pattern-item n="nploc"/>
-      </pattern>
-      <action> 
-	<out>
-	  <lu>
-	    <get-case-from pos="1">            
-	      <lit v="ta"/>
-	    </get-case-from>
-	    <lit-tag v="pr"/>
-	  </lu>
-	  <b pos="1"/>  
-	  <lu>
-	    <clip pos="2" side="tl" part="whole"/>
-	  </lu>
-	</out>
-      </action>
-    </rule>
-    
     <rule> <!--REGLA: cuyo + nom = det nom del qual -->
       <pattern>
 	<pattern-item n="cuyo"/>
@@ -7585,7 +7452,7 @@
       </action>
   </rule>
 
- <rule> <!--REGLA: CABER + INF -> CALDRE + INF-->
+ <rule> <!--REGLA: CABER + INF -> CALER + INF-->
       <pattern>
 	<pattern-item n="caber"/>
 	<pattern-item n="inf"/>
@@ -7593,7 +7460,7 @@
       <action>
 	<let>
 	  <clip pos="1" side="tl" part="lem"/> 
-	  <lit v="caldre"/>
+	  <lit v="caler"/>
 	</let>
 	<let>
 	  <clip pos="1" side="tl" part="a_verb"/> 
@@ -7614,7 +7481,7 @@
       </action>
 </rule>
 
- <rule> <!--REGLA: CABER + INF -> CALDRE + INF-->
+ <rule> <!--REGLA: CABER + INF -> CALER + INF-->
       <pattern>
 	<pattern-item n="caber"/>
 	<pattern-item n="inf"/>
@@ -7623,7 +7490,7 @@
       <action>
 	<let>
 	  <clip pos="1" side="tl" part="lem"/> 
-	  <lit v="caldre"/>
+	  <lit v="caler"/>
 	</let>
 	<let>
 	  <clip pos="1" side="tl" part="a_verb"/> 
@@ -7650,7 +7517,7 @@
       </action>
 </rule>
 
-<rule> <!--REGLA: CABER + INF -> CALDRE + INF-->
+<rule> <!--REGLA: CABER + INF -> CALER + INF-->
       <pattern>
 	<pattern-item n="caber"/>
 	<pattern-item n="inf"/>
@@ -7660,7 +7527,7 @@
       <action>
 	<let>
 	  <clip pos="1" side="tl" part="lem"/> 
-	  <lit v="caldre"/>
+	  <lit v="caler"/>
 	</let>
 	<let>
 	  <clip pos="1" side="tl" part="a_verb"/> 
@@ -7733,44 +7600,6 @@
 	</out>
       </action>
 </rule>
-
-
-<rule> <!-- REGLA: número + cifra -> número + xifra (en comptes de 'nombre') -->
-  <pattern>
-    <pattern-item n="número"/>
-    <pattern-item n="xifra"/>
-  </pattern>
-  <action>
-    <let>
-      <clip pos="1" side="tl" part="lem"/>
-      <lit v="número"/>
-    </let>
-    <choose>
-      <when>
-	<test>
-	  <equal>
-	    <clip pos="2" side="tl" part="gen"/>
-	    <lit-tag v="GD"/>
-	  </equal>
-	</test>
-	<let>
-	    <clip pos="2" side="tl" part="gen"/>
-	    <lit-tag v="m"/>
-	</let>
-      </when>
-    </choose>	    
-    <out>
-      <lu>
-	<clip pos="1" side="tl" part="whole"/>
-      </lu>
-      <b pos="1"/>
-      <lu>
-	<clip pos="2" side="tl" part="whole"/>
-      </lu>
-    </out>
-  </action>
-</rule>
-
 
  <rule> <!-- REGLA: DETERMINANT NOM -->
       <pattern>
