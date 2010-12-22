@@ -11769,6 +11769,564 @@
     </pardef>
     
 
+    <pardef n="camb/iar__vblex">
+    <e r="LR">
+      <p>
+        <l>io</l>
+        <r>iar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ío</l>
+        <r>iar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>eo</l>
+        <r>iar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>eyo</l>
+        <r>iar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>ias</l>
+        <r>iar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ías</l>
+        <r>iar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>eas</l>
+        <r>iar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>eyas</l>
+        <r>iar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>ia</l>
+        <r>iar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ía</l>
+        <r>iar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ea</l>
+        <r>iar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>eya</l>
+        <r>iar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>ian</l>
+        <r>iar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ían</l>
+        <r>iar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ean</l>
+        <r>iar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>eyan</l>
+        <r>iar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>i</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pri12pl_amos__cnjgt"/>
+    </e>
+    <e r="LR">
+      <p>
+        <l>e</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pri12pl_amos__cnjgt"/>
+    </e>
+    <e r="LR">
+      <p>
+        <l>i</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pri12pl_amos__cnjgt"/>
+    </e>
+
+  <e>
+      <p>
+        <l>ia</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e> 
+  <e r="LR">
+      <p>
+        <l>ea</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e> 
+  <e r="LR">
+      <p>
+        <l>eya</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e> 
+  
+<e r="LR">
+      <p>
+        <l>iá</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+<e r="LR">
+      <p>
+        <l>eá</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+<e r="LR">
+      <p>
+        <l>eyá</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+
+
+  <e>
+      <p>
+        <l>i</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>i</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+  <e r="LR">
+      <p>
+        <l>e</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+  <e r="LR">
+      <p>
+        <l>ey</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+
+    <e>
+      <p>
+        <l>ia</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ea</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>eya</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e> 
+    
+    <e>
+      <p>
+        <l>ia</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ea</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>eya</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>ia</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ea</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>eya</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>iá</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>eá</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>eyá</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>i</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_emos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>e</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_emos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ey</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_emos__cnjgt"/>
+    </e> 
+  
+    <e r="LR">
+      <p>
+        <l>i</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_e__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>í</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_e__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>e</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_e__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l></l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_e__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ey</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_e__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>i</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pis_ase__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>e</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pis_ase__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ey</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pis_ase__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>i</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pis_arai__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>e</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pis_arai__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ey</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pis_arai__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>i</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/a__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>í</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>e</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/a__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ey</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/a__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>i</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/e__cnjgt"/>
+    </e>     
+    <e r="LR">
+      <p>
+        <l>í</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/e__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>e</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/e__cnjgt"/>
+    </e>     
+    <e r="LR">
+      <p>
+        <l>ey</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/e__cnjgt"/>
+    </e>     
+    
+    <e>
+      <p>
+        <l>i</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/emos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>e</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/emos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ey</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/emos__cnjgt"/>
+    </e> 
+    
+    <e>
+      <p>
+        <l>i</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/atz__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>e</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/atz__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ey</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/atz__cnjgt"/>
+    </e> 
+  
+    <e>
+      <p>
+        <l>i</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="inf_ar__cnjgt"/>
+    </e>
+    <e r="LR">
+      <p>
+        <l>e</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="inf_ar__cnjgt"/>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ey</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="inf_ar__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>i</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="ger_ando__cnjgt"/>
+    </e>
+    <e r="LR">
+      <p>
+        <l>e</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="ger_ando__cnjgt"/>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ey</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="ger_ando__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>ia</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ea</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+    <e r="LR">
+      <p>
+        <l>eya</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+
+    </pardef>
+
+
 <pardef n="recomend/ar_nd__vblex">
 <e>
       <p>
@@ -25979,7 +26537,7 @@
     <e r="LR" lm="abordar"><p><l>albord</l><r>abord</r></p><par n="cant/ar__vblex"/></e>
      <e lm="aguardar"><i>aguard</i><par n="cant/ar__vblex"/></e>
     <e lm="alimentar"><i>aliment</i><par n="cant/ar__vblex"/></e>
-    <e lm="aliniar"><i>alini</i><par n="cant/ar__vblex"/></e>  <!-- paradigm  <par n="camb/iar__vblex"/> -->
+    <e lm="aliniar"><i>alin</i><par n="camb/iar__vblex"/></e>
     <e lm="alistar"><i>alist</i><par n="cant/ar__vblex"/></e>
     <e lm="alufrar"><i>alufr</i><par n="cant/ar__vblex"/></e>
     <e lm="alzar"><i>al</i><par n="ca/zar__vblex"/></e>
@@ -25989,12 +26547,12 @@
     <e lm="anular"><i>anul</i><par n="cant/ar__vblex"/></e>
     <e lm="apoderar"><i>apoder</i><par n="cant/ar__vblex"/></e>
     <e lm="apropiar"><i>apropi</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="apropiar"><i>aprop</i><par n="camb/iar__vblex"/></e>
     <e lm="apuntar"><i>apunt</i><par n="cant/ar__vblex"/></e>
     <e lm="arreglar"><i>arregl</i><par n="cant/ar__vblex"/></e>
     <e lm="arrullar"><i>arrull</i><par n="cant/ar__vblex"/></e>
     <e lm="asegurar"><i>asegur</i><par n="cant/ar__vblex"/></e>
     <e lm="asimilar"><i>asimil</i><par n="cant/ar__vblex"/></e>
-    <e lm="asociar"><i>asoci</i><par n="cant/ar__vblex"/></e>
     <e lm="asociar"><i>asoci</i><par n="cant/ar__vblex"/></e>
     <e lm="aumentar"><i>aument</i><par n="cant/ar__vblex"/></e>
     <e lm="autoproclamar"><i>autoproclam</i><par n="cant/ar__vblex"/></e>
@@ -30172,7 +30730,7 @@
     <e lm="violar"><i>viol</i><par n="cant/ar__vblex"/></e>
     <e lm="desfrutar"><i>desfrut</i><par n="cant/ar__vblex"/></e>
     <e lm="obligar"><i>oblig</i><par n="pag/ar__vblex"/></e>
-    <e lm="cambiar"><i>cambi</i><par n="cant/ar__vblex"/></e>  <!-- needed a paradigm for verbs in -iar -ear  <par n="camb/iar__vblex"/> -->
+    <e lm="cambiar"><i>camb</i><par n="camb/iar__vblex"/></e>
     <e lm="expresar"><i>expres</i><par n="cant/ar__vblex"/></e>
     <e r="LR" lm="expresar"><p><l>expris</l><r>expres</r></p><par n="cant/ar__vblex"/></e>
     <e r="LR" lm="expresar"><p><l>espris</l><r>expres</r></p><par n="cant/ar__vblex"/></e>
