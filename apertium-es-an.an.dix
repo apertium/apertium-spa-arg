@@ -10167,6 +10167,13 @@
       </p>
       <par n="pp_quiest/o__cnjgt"/>      
     </e>
+    <e r="LR">
+      <p>
+        <l>et</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="pp_quiest/o__cnjgt"/>      
+    </e>
     </pardef>
     
     <pardef n="p/oder__vbmod">
@@ -11494,7 +11501,7 @@
         <r>evar<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>eve</l>
         <r>evar<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
@@ -11537,6 +11544,102 @@
     </e>
 
     </pardef>
+    
+    <pardef n="plev/er__vblex">
+    <e>
+      <p>
+        <l>e</l>
+        <r>er<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>eba</l>
+        <r>er<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ió</l>
+        <r>er<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ié</l>
+        <r>er<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>erá</l>
+        <r>er<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ería</l>
+        <r>er<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>erba</l>
+        <r>er<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>a</l>
+        <r>er<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ese</l>
+        <r>er<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>iera</l>
+        <r>er<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="inf_er__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="ger_endo__cnjgt"/>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="ger_indo__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>i</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+</pardef>
+
 
     <pardef n="tr/onar__vblex">
 
@@ -12155,6 +12258,21 @@
         <l>e</l>
         <r>iar<s n="vblex"/></r>
       </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e r="LR">
+      <p>
+        <l>ey</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+
+  <e r="LR">
+      <p>
+        <l>e</l>
+        <r>iar<s n="vblex"/></r>
+      </p>
       <par n="indefi_o__cnjgt"/>
   </e> 
   <e r="LR">
@@ -12694,6 +12812,344 @@
     </e>
 </pardef>
 
+    <pardef n="act/uar__vblex">
+    <e>
+      <p>
+        <l>úo</l>
+        <r>uar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>úas</l>
+        <r>uar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>úa</l>
+        <r>uar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+   <e>
+      <p>
+        <l>úan</l>
+        <r>uar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="pri12pl_amos__cnjgt"/>
+    </e>
+
+  <e>
+      <p>
+        <l>ua</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e>   
+<e r="LR">
+      <p>
+        <l>uá</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+  <e>
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>ua</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>ua</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ua</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e>     
+    <e r="LR">
+      <p>
+        <l>uá</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_emos__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>ú</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_e__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="pis_ase__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="pis_arai__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>ú</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>ú</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/e__cnjgt"/>
+    </e>         
+    <e>
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/emos__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/atz__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="inf_ar__cnjgt"/>
+    </e>
+    <e>
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="ger_ando__cnjgt"/>
+    </e>
+    <e>
+      <p>
+        <l>ua</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+</pardef>
+
+    <pardef n="desaug/uar__vblex">
+    <e>
+      <p>
+        <l>uo</l>
+        <r>uar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>uas</l>
+        <r>uar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ua</l>
+        <r>uar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+   <e>
+      <p>
+        <l>uan</l>
+        <r>uar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="pri12pl_amos__cnjgt"/>
+    </e>
+
+  <e>
+      <p>
+        <l>ua</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e>   
+<e r="LR">
+      <p>
+        <l>uá</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+  <e>
+      <p>
+        <l>ü</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>ua</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>ua</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ua</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e>     
+    <e r="LR">
+      <p>
+        <l>uá</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>ü</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_emos__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>ü</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_e__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="pis_ase__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="pis_arai__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>ü</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/e__cnjgt"/>
+    </e>         
+    <e>
+      <p>
+        <l>ü</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/emos__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="imp_cant/atz__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="inf_ar__cnjgt"/>
+    </e>
+    <e>
+      <p>
+        <l>u</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="ger_ando__cnjgt"/>
+    </e>
+    <e>
+      <p>
+        <l>ua</l>
+        <r>uar<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+</pardef>
+
 
 <pardef n="recomend/ar_nd__vblex">
 <e>
@@ -12882,6 +13338,216 @@
       <par n="imp_cant/e__cnjgt"/>
     </e>     
    </pardef>
+
+
+    <pardef n="me/ter__vblex"> <!-- regular except for strong past participle -->
+    <e>
+      <p>
+        <l>to</l>
+        <r>ter<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>tes</l>
+        <r>ter<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>te</l>
+        <r>ter<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ten</l>
+        <r>ter<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>t</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="pri12pl_emos__cnjgt"/>
+    </e>
+
+  <e>
+      <p>
+        <l>te</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e> 
+<e r="LR">
+      <p>
+        <l>té</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+
+  <e>
+      <p>
+        <l>ti</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>ti</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+
+    <e>
+      <p>
+        <l>te</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e> 
+    
+    <e>
+      <p>
+        <l>te</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>te</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>té</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>t</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+  
+    <e>
+      <p>
+        <l>t</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>t</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="pis_ese__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>ti</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="pis_erai__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>t</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/e__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>t</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>t</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ti</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>t</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/etz__cnjgt"/>
+    </e> 
+  
+
+    <e>
+      <p>
+        <l>t</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="inf_er__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>t</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="ger_endo__cnjgt"/>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>t</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="ger_indo__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>s</l>
+        <r>ter<s n="vblex"/></r>
+      </p>
+      <par n="pp_quiest/o__cnjgt"/>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>ti</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+</pardef>
 
 
     <pardef n="vend/er__vblex">
@@ -13083,6 +13749,680 @@
       </p>
       <par n="pp_u__cnjgt"/>
     </e>
+</pardef>
+
+
+    <pardef n="protech/er__vblex">
+    <e>
+      <p>
+        <l>o</l>
+        <r>er<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>es</l>
+        <r>er<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>e</l>
+        <r>er<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>en</l>
+        <r>er<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="pri12pl_emos__cnjgt"/>
+    </e>
+
+  <e>
+      <p>
+        <l>e</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e> 
+<e r="LR">
+      <p>
+        <l>é</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+
+  <e>
+      <p>
+        <l>i</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>i</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+  <e r="LR">
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e r="LR">
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+
+    <e>
+      <p>
+        <l>e</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e> 
+    
+    <e>
+      <p>
+        <l>e</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>e</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>é</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+  
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="pis_ese__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>i</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="pis_erai__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="pis_erai__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/e__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>i</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/etz__cnjgt"/>
+    </e> 
+  
+
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="inf_er__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="ger_endo__cnjgt"/>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="ger_indo__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>i</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+</pardef>
+
+
+    <pardef n="p/oner__vblex">
+    <e>
+      <p>
+        <l>ongo</l>
+        <r>oner<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ones</l>
+        <r>oner<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>one</l>
+        <r>oner<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>onen</l>
+        <r>oner<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>on</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="pri12pl_emos__cnjgt"/>
+    </e>
+
+  <e>
+      <p>
+        <l>one</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e> 
+<e r="LR">
+      <p>
+        <l>oné</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+
+  <e>
+      <p>
+        <l>oni</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>oni</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+  <e r="LR">
+      <p>
+        <l>us</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="indefi_vid/e__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>ond</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>one</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e> 
+    
+    <e>
+      <p>
+        <l>ond</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ond</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+  
+    <e r="LR">
+      <p>
+        <l>one</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>oné</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>ong</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>oni</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+  
+    <e>
+      <p>
+        <l>ong</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>on</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="pis_ese__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>oni</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="pis_erai__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>usi</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="pis_erai__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>on</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/e__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>ong</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>ong</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>oni</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>on</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/etz__cnjgt"/>
+    </e> 
+  
+
+    <e>
+      <p>
+        <l>on</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="inf_er__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>on</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="ger_endo__cnjgt"/>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>on</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="ger_indo__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>oni</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+    <e r="LR">  <!-- en poner ye más común poniu, pero no sé si en os compuestos, como componer, ye más normal 'he componiu' u 'he compuesto'. Si estase ixe o caso, sería millor fer dos paradigmas diferents -->
+      <p>
+        <l>uest</l>
+        <r>oner<s n="vblex"/></r>
+      </p>
+      <par n="pp_quiest/o__cnjgt"/>
+    </e>
+
+</pardef>
+
+
+
+    <pardef n="encend/er_nd__vblex">
+
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="pri12pl_emos__cnjgt"/>
+    </e>
+
+  <e>
+      <p>
+        <l>e</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e> 
+<e r="LR">
+      <p>
+        <l>é</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+
+  <e>
+      <p>
+        <l>i</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>i</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+
+    <e>
+      <p>
+        <l>e</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e> 
+    
+    <e>
+      <p>
+        <l>e</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>e</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>é</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+  
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="pis_ese__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>i</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="pis_erai__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>i</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/etz__cnjgt"/>
+    </e> 
+  
+
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="inf_er__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="ger_endo__cnjgt"/>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="ger_indo__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>i</l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+</pardef>
+
+    <pardef n="enciend/o_d__vblex">
+    <e>
+      <p>
+        <l>o</l>
+        <r>er<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>es</l>
+        <r>er<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>e</l>
+        <r>er<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>en</l>
+        <r>er<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+  
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/e__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l></l>
+        <r>er<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
 </pardef>
 
 
@@ -13674,6 +15014,1403 @@
 
 
 
+    <pardef n="ven/cer__vblex">
+    <e>
+      <p>
+        <l>zo</l>
+        <r>cer<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ces</l>
+        <r>cer<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ce</l>
+        <r>cer<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>z</l>
+        <r>cer<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+
+    <e>
+      <p>
+        <l>cen</l>
+        <r>cer<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>c</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="pri12pl_emos__cnjgt"/>
+    </e>
+
+  <e>
+      <p>
+        <l>ce</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e> 
+  
+<e r="LR">
+      <p>
+        <l>cé</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+
+  <e>
+      <p>
+        <l>ci</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>ci</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>ce</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>ce</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>ce</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>cé</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>z</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ci</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>z</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>c</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="pis_ese__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>ci</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="pis_erai__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>c</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/e__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>z</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>z</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ci</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>c</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/etz__cnjgt"/>
+    </e> 
+  
+    <e>
+      <p>
+        <l>c</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="inf_er__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>c</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="ger_endo__cnjgt"/>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>c</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="ger_indo__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>ci</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+</pardef>
+
+
+    <pardef n="pla/cer__vblex">
+    <e>
+      <p>
+        <l>zco</l>
+        <r>cer<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ces</l>
+        <r>cer<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ce</l>
+        <r>cer<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>z</l>
+        <r>cer<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+
+    <e>
+      <p>
+        <l>cen</l>
+        <r>cer<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>c</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="pri12pl_emos__cnjgt"/>
+    </e>
+
+  <e>
+      <p>
+        <l>ce</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e> 
+  
+<e r="LR">
+      <p>
+        <l>cé</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+
+  <e>
+      <p>
+        <l>ci</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>ci</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>ce</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>ce</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>ce</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>cé</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>zc</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ci</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>zc</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>c</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="pis_ese__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>ci</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="pis_erai__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>c</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/e__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>zc</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>zc</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ci</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>c</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/etz__cnjgt"/>
+    </e> 
+  
+    <e>
+      <p>
+        <l>c</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="inf_er__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>c</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="ger_endo__cnjgt"/>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>c</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="ger_indo__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>ci</l>
+        <r>cer<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+</pardef>
+
+    <pardef n="t/orcer__vblex">
+    <e>
+      <p>
+        <l>uerzco</l>
+        <r>orcer<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>uerces</l>
+        <r>orcer<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>uerce</l>
+        <r>orcer<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>uerz</l>
+        <r>orcer<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+
+    <e>
+      <p>
+        <l>uercen</l>
+        <r>orcer<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>orc</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="pri12pl_emos__cnjgt"/>
+    </e>
+
+  <e>
+      <p>
+        <l>orce</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e> 
+  
+<e r="LR">
+      <p>
+        <l>orcé</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+
+  <e>
+      <p>
+        <l>orci</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>orci</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>orce</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>orce</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>orce</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>orcé</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>orzc</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>orci</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>orz</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>uerzc</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>uerz</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>orc</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="pis_ese__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>orci</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="pis_erai__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>uerc</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/e__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>uerzc</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>uerz</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>orzc</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>uerzc</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>orci</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e>     
+    <e r="LR">
+      <p>
+        <l>orz</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>orc</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/etz__cnjgt"/>
+    </e> 
+  
+    <e>
+      <p>
+        <l>orc</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="inf_er__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>orc</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="ger_endo__cnjgt"/>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>orc</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="ger_indo__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>orci</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+    <e r="LR" i="yes">
+      <p>
+        <l>uert</l>
+        <r>orcer<s n="vblex"/></r>
+      </p>
+      <par n="pp_quiest/o__cnjgt"/>
+    </e>
+</pardef>
+
+    <pardef n="abs/olver__vblex">
+    <e>
+      <p>
+        <l>uelvo</l>
+        <r>olver<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>uelves</l>
+        <r>olver<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>uelve</l>
+        <r>olver<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>uelven</l>
+        <r>olver<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>olv</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="pri12pl_emos__cnjgt"/>
+    </e>
+
+  <e>
+      <p>
+        <l>olve</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e> 
+  
+<e r="LR">
+      <p>
+        <l>olvé</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+
+  <e>
+      <p>
+        <l>olvi</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>olvi</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>olve</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>olve</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>olve</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>olvé</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>olv</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>olvi</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>uelv</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>olv</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="pis_ese__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>olvi</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="pis_erai__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>uelv</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/e__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>uelv</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>olv</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>uelv</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>olvi</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>olv</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/etz__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>olv</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="inf_er__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>olv</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="ger_endo__cnjgt"/>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>olv</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="ger_indo__cnjgt"/>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>olvi</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+    <e>
+      <p>
+        <l>uelt</l>
+        <r>olver<s n="vblex"/></r>
+      </p>
+      <par n="pp_quiest/o__cnjgt"/>
+    </e>
+</pardef>
+
+    <pardef n="m/oler__vblex">
+    <e>
+      <p>
+        <l>uelgo</l>
+        <r>oler<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>uelo</l>
+        <r>oler<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ueles</l>
+        <r>oler<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>uele</l>
+        <r>oler<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>uelen</l>
+        <r>oler<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ol</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="pri12pl_emos__cnjgt"/>
+    </e>
+
+  <e>
+      <p>
+        <l>ole</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e> 
+  
+<e r="LR">
+      <p>
+        <l>olé</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+
+  <e>
+      <p>
+        <l>oli</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>oli</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>ole</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>ole</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>ole</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>olé</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>olg</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>oli</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ol</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>uelg</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>uel</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>ol</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="pis_ese__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>oli</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="pis_erai__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>uel</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/e__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>uelg</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>uel</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>olg</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>uelg</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>oli</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e>     
+    <e r="LR">
+      <p>
+        <l>ol</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>ol</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/etz__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>ol</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="inf_er__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>ol</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="ger_endo__cnjgt"/>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>ol</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="ger_indo__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>oli</l>
+        <r>oler<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+   
+</pardef>
+
+    <pardef n="pr/ener__vblex">
+    <e>
+      <p>
+        <l>engo</l>
+        <r>oler<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>enes</l>
+        <r>ener<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ene</l>
+        <r>ener<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>enen</l>
+        <r>ener<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>en</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="pri12pl_emos__cnjgt"/>
+    </e>
+
+  <e>
+      <p>
+        <l>ene</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e> 
+  
+<e r="LR">
+      <p>
+        <l>ené</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+
+  <e>
+      <p>
+        <l>eni</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>eni</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>end</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e>     
+  <e r="LR">
+      <p>
+        <l>ene</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>end</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>ene</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>ene</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>ené</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>eng</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>eni</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>en</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>eng</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>en</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>en</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="pis_ese__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>eni</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="pis_erai__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>en</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/e__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>eng</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>eng</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>eng</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>en</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>eni</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>en</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/etz__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>en</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="inf_er__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>en</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="ger_endo__cnjgt"/>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>en</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="ger_indo__cnjgt"/>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>eni</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>es</l>
+        <r>ener<s n="vblex"/></r>
+      </p>
+      <par n="pp_quiest/o__cnjgt"/>
+    </e>
+   
+</pardef>
+
 
     <pardef n="deb/er__vbmod">
     <e>
@@ -13969,7 +16706,7 @@
     
     <e r="LR">
       <p>
-        <l>í</l>
+        <l>ú</l>
         <r>ir<s n="vblex"/></r>
       </p>
       <par n="cond_rba__cnjgt"/>
@@ -15991,12 +18728,322 @@
 
     <e>
       <p>
-        <l></l>
+        <l>it</l>
         <r>icir<s n="vblex"/></r>
       </p>
       <par n="pp_quiest/o__cnjgt"/>
     </e>
     </pardef>
+
+    <pardef n="ca/yer__vblex">
+    <e>
+      <p>
+        <l>igo</l>
+        <r>yer<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>yes</l>
+        <r>yer<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>is</l>
+        <r>yer<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ye</l>
+        <r>yer<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>i</l>
+        <r>yer<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>yen</l>
+        <r>yer<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>y</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="pri12pl_emos__cnjgt"/>
+    </e>
+
+  <e>
+      <p>
+        <l>ye</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e> 
+<e r="LR">
+      <p>
+        <l>yé</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+
+  <e>
+      <p>
+        <l>y</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e> 
+      <p>
+        <l>y</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+     <e r="LR"> 
+      <p>
+        <l>yi</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+</e> 
+  <e r="LR">
+      <p>
+        <l>yi</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+
+
+    <e>
+      <p>
+        <l>ye</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>i</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>ye</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>i</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>ye</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>yé</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>ig</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>y</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+      <e r="LR">
+      <p>
+        <l>yi</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>ig</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+<e r="LR">
+      <p>
+        <l>y</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+  
+    <e>
+      <p>
+        <l>y</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="pis_ese__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>y</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="pis_erai__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>yi</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="pis_erai__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>y</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/e__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>ig</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>y</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>ig</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>y</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>y</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/etz__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>y</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/etz__cnjgt"/>
+    </e> 
+  
+    <e>
+      <p>
+        <l>y</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="inf_er__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>y</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="ger_endo__cnjgt"/>
+    </e>
+    <e r="LR">
+      <p>
+        <l>y</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="ger_indo__cnjgt"/>
+    </e>
+    <e r="LR">
+      <p>
+        <l></l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="ger_indo__cnjgt"/>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>yi</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+    <e r="LR">
+      <p>
+        <l>í</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+    <e r="LR">
+      <p>
+        <l>i</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+    <e>
+      <p>
+        <l>it</l>
+        <r>yer<s n="vblex"/></r>
+      </p>
+      <par n="pp_quiest/o__cnjgt"/>
+    </e>
+</pardef>
 
     <pardef n="l/eyer__vblex">
     <e>
@@ -16019,7 +19066,12 @@
         <r>eyer<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
       </p>
     </e>
-
+    <e r="LR">
+      <p>
+        <l>eis</l>
+        <r>eyer<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
     <e>
       <p>
         <l>eye</l>
@@ -16063,7 +19115,7 @@
     </e>
     <e r="LR">
       <p>
-        <l>ey</l>
+        <l>iy</l>
         <r>eyer<s n="vblex"/></r>
       </p>
       <par n="pri12pl_emos__cnjgt"/>
@@ -16113,7 +19165,7 @@
       </p>
       <par n="indefi_e__cnjgt"/>
   </e> 
-  <e r="LR"> 
+  <e> 
       <p>
         <l>ey</l>
         <r>eyer<s n="vblex"/></r>
@@ -16127,7 +19179,7 @@
       </p>
       <par n="indefi_e__cnjgt"/>
 </e> 
-  <e>
+  <e r="LR">
       <p>
         <l>eyi</l>
         <r>eyer<s n="vblex"/></r>
@@ -16410,11 +19462,16 @@
 </pardef>
 
 
-
     <pardef n="v/eyer__vblex">
     <e>
       <p>
         <l>eigo</l>
+        <r>eyer<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>eyo</l>
         <r>eyer<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
       </p>
     </e>
@@ -16429,6 +19486,13 @@
     <e r="LR">
       <p>
         <l>iyes</l>
+        <r>eyer<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>eis</l>
         <r>eyer<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
       </p>
     </e>
@@ -16540,7 +19604,7 @@
       </p>
       <par n="indefi_e__cnjgt"/>
   </e> 
-  <e r="LR"> 
+  <e> 
       <p>
         <l>ey</l>
         <r>eyer<s n="vblex"/></r>
@@ -16554,7 +19618,7 @@
       </p>
       <par n="indefi_e__cnjgt"/>
 </e> 
-  <e>
+  <e r="LR">
       <p>
         <l>eyi</l>
         <r>eyer<s n="vblex"/></r>
@@ -22134,7 +25198,7 @@
     <e lm="detener"><i>det</i><par n="t/ener__vblex"/></e>
     <e lm="mantener"><i>mant</i><par n="t/ener__vblex"/></e>
 
-    <e lm="actuar"><i>actu</i><par n="cant/ar__vblex"/></e> <!-- paradigm act/uar-->
+    <e lm="actuar"><i>act</i><par n="act/uar__vblex"/></e>
     <e lm="fablar"><i>fabl</i><par n="cant/ar__vblex"/></e>
     <e lm="habllar" r="LR"><p><l>habll</l><r>fabl</r></p><par n="cant/ar__vblex"/></e>
     <e lm="parlar"><i>parl</i><par n="cant/ar__vblex"/></e>
@@ -22722,12 +25786,18 @@
     <e lm="infinito"><i>infinit</i><par n="academic/o__adj"/></e>
     <e lm="infortunau"><i>infortuna</i><par n="adequa/u__adj"/></e>
     <e lm="inchenioso"><i>inchenios</i><par n="academic/o__adj"/></e>
-    <e lm="inmediato"><i>inmediat</i><par n="academic/o__adj"/></e>
-    <e lm="inmenso"><i>inmens</i><par n="academic/o__adj"/></e>
-    <e lm="inmerso"><i>inmers</i><par n="academic/o__adj"/></e>
-    <e lm="inmigratorio"><i>inmigratori</i><par n="academic/o__adj"/></e>
-    <e lm="inmobiliario"><i>inmobiliari</i><par n="academic/o__adj"/></e>
-    <e lm="inmunitario"><i>inmunitari</i><par n="academic/o__adj"/></e>
+    <e lm="immediato"><i>immediat</i><par n="academic/o__adj"/></e>
+    <e r="LR" lm="immediato"><p><l>inmediat</l><r>immediat</r></p><par n="academic/o__adj"/></e>    
+    <e lm="immenso"><i>immens</i><par n="academic/o__adj"/></e>
+    <e r="LR" lm="immenso"><p><l>inmenso</l><r>immenso</r></p><par n="academic/o__adj"/></e>    
+    <e lm="immerso"><i>immers</i><par n="academic/o__adj"/></e>
+    <e r="LR" lm="immerso"><p><l>inmerso</l><r>immerso</r></p><par n="academic/o__adj"/></e>    
+    <e lm="immigratorio"><i>immigratori</i><par n="academic/o__adj"/></e>
+    <e r="LR" lm="immigratorio"><p><l>inmigratori</l><r>immigratori</r></p><par n="academic/o__adj"/></e>    
+    <e lm="immobiliario"><i>immobiliari</i><par n="academic/o__adj"/></e>
+    <e r="LR" lm="immobiliario"><p><l>inmobiliari</l><r>immobiliari</r></p><par n="academic/o__adj"/></e>    
+    <e lm="immunitario"><i>immunitari</i><par n="academic/o__adj"/></e>
+    <e r="LR" lm="immunitario"><p><l>inmunitari</l><r>immunitari</r></p><par n="academic/o__adj"/></e>    
     <e lm="innato"><i>innat</i><par n="academic/o__adj"/></e>
     <e lm="innecesario"><i>innecesari</i><par n="academic/o__adj"/></e>
     <e lm="inocuo"><i>inocu</i><par n="academic/o__adj"/></e>
@@ -23642,8 +26712,10 @@
     <e lm="infidelidat"><i>infidelid</i><par n="privacid/at__n"/></e>
     <e lm="infinidat"><i>infinid</i><par n="privacid/at__n"/></e>
     <e lm="inhumanidat"><i>inhumanid</i><par n="privacid/at__n"/></e>
-    <e lm="inmortalidat"><i>inmortalid</i><par n="privacid/at__n"/></e>
-    <e lm="inmutabilidat"><i>inmutabilid</i><par n="privacid/at__n"/></e>
+    <e lm="immortalidat"><i>immortalid</i><par n="privacid/at__n"/></e>
+    <e lm="immortalidat" r="LR"><p><l>inmortalid</l><r>immortalid</r></p><par n="privacid/at__n"/></e>
+    <e lm="immutabilidat"><i>immutabilid</i><par n="privacid/at__n"/></e>
+    <e lm="immutabilidat" r="LR"><p><l>inmutabilid</l><r>immutabilid</r></p><par n="privacid/at__n"/></e>
     <e lm="inseguridat"><i>insegurid</i><par n="privacid/at__n"/></e>
     <e lm="insensibilidat"><i>insensibilid</i><par n="privacid/at__n"/></e>
     <e lm="intanchibilidat"><i>intanchibilid</i><par n="privacid/at__n"/></e>
@@ -27528,7 +30600,7 @@
     <e lm="salvar"><i>salv</i><par n="cant/ar__vblex"/></e>
     <e r="LR" lm="salvar"><p><l>salb</l><r>salv</r></p><par n="cant/ar__vblex"/></e>
     <e lm="separar"><i>separ</i><par n="cant/ar__vblex"/></e>
-    <e lm="situar"><i>situ</i><par n="cant/ar__vblex"/></e>    <!-- paradigm act/uar-->
+    <e lm="situar"><i>sit</i><par n="act/uar__vblex"/></e>
     <e lm="sublevar"><i>sublev</i><par n="cant/ar__vblex"/></e>
     <e lm="subsanar"><i>subsan</i><par n="cant/ar__vblex"/></e>
     <e lm="superar"><i>super</i><par n="cant/ar__vblex"/></e>
@@ -27550,7 +30622,8 @@
     <e lm="centralizar"><i>centrali</i><par n="ca/zar__vblex"/></e>
     <e lm="citar"><i>cit</i><par n="cant/ar__vblex"/></e>
     <e lm="vender"><i>vend</i><par n="vend/er__vblex"/></e>
-    <e lm="encender"><i>encend</i><par n="vend/er__vblex"/></e> <!-- paradigma con diftongación encend, enciend -->
+    <e lm="encender"><i>encend</i><par n="encend/er_nd__vblex"/></e> <!-- non-diphtong forms -->
+    <e lm="encender"><p><l>enciend</l><r>encend</r></p><par n="enciend/o_d__vblex"/></e> <!-- diphtong forms -->
   
     <e lm="día"><i>día</i><par n="libro__n"/></e>
     <e r="LR" lm="día"><p><l>diya</l><r>día</r></p><par n="libro__n"/></e>
@@ -30579,7 +33652,8 @@
     <e lm="informal"><i>informal</i><par n="social__adj"/></e>
     <e lm="inicial"><i>inicial</i><par n="social__adj"/></e>
     <e lm="inmune"><i>inmune</i><par n="social__adj"/></e>
-    <e lm="inmutable"><i>inmutable</i><par n="social__adj"/></e>
+    <e lm="immutable"><i>immutable</i><par n="social__adj"/></e>
+    <e lm="immutable" r="LR"><p><l>inmutable</l><r>immutable</r></p><par n="social__adj"/></e>
     <e lm="inquisitorial"><i>inquisitorial</i><par n="social__adj"/></e>
     <e lm="inseparable"><i>inseparable</i><par n="social__adj"/></e>
     <e lm="inservible"><i>inservible</i><par n="social__adj"/></e>
@@ -31494,7 +34568,7 @@
     <e lm="voto"><i>voto</i><par n="libro__n"/></e>
     <e lm="ataque"><i>ataque</i><par n="libro__n"/></e>
     <e lm="honra"><i>honra</i><par n="luenga__n"/></e>
-    <e lm="degradant"><i>degrad</i><par n="degrad/ant__adj"/></e>    <!-- * -->
+    <e lm="degradant"><i>degrad</i><par n="degrad/ant__adj"/></e>
     <e lm="preferent"><i>prefer</i><par n="difer/ent__adj"/></e>
     <e lm="delictivo"><i>delicti</i><par n="cursi/vo__adj"/></e>
     <e lm="pacifico"><i>pacific</i><par n="academic/o__adj"/></e>
@@ -31718,12 +34792,15 @@
     <e lm="existir"><i>exist</i><par n="viv/ir__vblex"/></e>
     <e r="LR" lm="existir"><p><l>esist</l><r>exist</r></p><par n="viv/ir__vblex"/></e>
     <e lm="comer"><i>com</i><par n="vend/er__vblex"/></e>
-    <e lm="meter"><i>met</i><par n="vend/er__vblex"/></e>  <!-- needed paradigm m/eter   past participle -->
+    <e lm="meter"><i>me</i><par n="me/ter__vblex"/></e>
     <e lm="ficar"><i>fic</i><par n="cant/ar__vblex"/></e> 
     <e lm="calar"><i>cal</i><par n="cant/ar__vblex"/></e> 
-    <e lm="colar"><i>col</i><par n="cant/ar__vblex"/></e>  <!-- paradigm with diphtongation? -->
+    <e lm="colar"><i>col</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="colar"><i>col</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
+    <e r="LR" lm="colar"><p><l>cuel</l><r>col</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms --> <!-- can colar be conjugated with diphtongation? -->
+    
     <e lm="posar"><i>pos</i><par n="cant/ar__vblex"/></e> 
-    <e lm="poner"><i>pon</i><par n="vend/er__vblex"/></e> <!-- neede paradigm pon/er -->
+    <e lm="poner"><i>p</i><par n="p/oner__vblex"/></e>
     <e lm="minchar"><i>minch</i><par n="cant/ar__vblex"/></e>
     <e lm="dicir"><i>d</i><par n="d/icir__vblex"/></e>
     <e lm="bendicir"><i>bend</i><par n="d/icir__vblex"/></e>
@@ -31731,7 +34808,8 @@
     <e lm="contradicir"><i>contrad</i><par n="d/icir__vblex"/></e>
     <e lm="desdicir"><i>desd</i><par n="d/icir__vblex"/></e>
     <e lm="predicir"><i>pred</i><par n="d/icir__vblex"/></e>
-    <e lm="responder"><i>respond</i><par n="vend/er__vblex"/></e>
+    <e lm="responder"><i>respond</i><par n="vend/er__vblex"/></e> <!-- also participle respuesto (secondary) -->
+    <e r="LR" lm="responder"><p><l>respuest</l><r>respond<s n="vblex"/></r></p><par n="pp_quiest/o__cnjgt"/></e>
     <e lm="veyer"><i>v</i><par n="v/eyer__vblex"/></e>
     <e r="LR" lm="veyer"><p><l>b</l><r>v</r></p><par n="v/eyer__vblex"/></e>
     <e lm="chugar"><i>chug</i><par n="pag/ar__vblex"/></e>
@@ -31748,7 +34826,7 @@
 
     <e lm="naixer"><i>na</i><par n="/ix_x__var"/><par n="conoix/er__vblex"/></e>
     <e r="LR" lm="naixer"><p><l>na</l><r>na</r></p><par n="cono/cer__vblex"/></e> 
-    <e lm="naixer"><p><l>nat</l><r>naixer<s n="vblex"/></r></p><par n="pp_quiest/o__cnjgt"/></e>
+    <e r="LR" lm="naixer"><p><l>nat</l><r>naixer<s n="vblex"/></r></p><par n="pp_quiest/o__cnjgt"/></e>
     
     <e lm="conoixer"><i>cono</i><par n="/ix_x__var"/><par n="conoix/er__vblex"/></e>
     <e r="LR" lm="conoixer"><p><l>cone</l><r>cono</r></p><par n="/ix_x__var"/><par n="conoix/er__vblex"/></e>  
@@ -31785,7 +34863,6 @@
     <e lm="nublau"><i>nubla</i><par n="adequa/u__adj"/></e>    
     <e lm="rader"><i>rad</i><par n="vend/er__vblex"/></e>    
     <e lm="pagar"><i>pag</i><par n="pag/ar__vblex"/></e>    
-    <e lm="desfer"><i>desf</i><par n="f/er__vblex"/></e>    
     <e lm="deber" c="te debo cient euros, ye debiu a"><i>deb</i><par n="vend/er__vblex"/></e>
     <e lm="deber" c="debe estar allí, always probability"><i>deb</i><par n="deb/er__vbmod"/></e> <!-- debe (d')estar astí  translates to  "debe de estar ahí" (no "debe estar ahí")-->
     <e r="LR" lm="deber de" c="probability, same as deber"><i>deb</i><par n="deb/er__vbmod"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>    
@@ -31796,7 +34873,7 @@
     <e r="RL" lm="haber de" c="obligation necessity"><i>h</i><par n="h/aber__vbmod"/><p><l><b/><a/>de</l><r><g><b/>de</g></r></p></e>    
     <e r="LR" lm="haber de" c="obligation necessity"><i>h</i><par n="h/aber__vbmod"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>    
     <e lm="haber a" c="obligation necessity"><i>h</i><par n="h/aber__vbmod"/><p><l><b/>a</l><r><g><b/>a</g></r></p></e>    
-  
+    <e lm="desfer"><i>desf</i><par n="f/er__vblex"/></e>    
     <e r="LR" lm="desfer"><p><l>esf</l><r>desf</r></p><par n="f/er__vblex"/></e>
     <e lm="nunca"><i>nunca</i><par n="agora__adv"/></e>
     <e lm="sí"><i>sí</i><par n="agora__adv"/></e>
@@ -31822,7 +34899,8 @@
     <e lm="composición"><i>composi</i><par n="actua/ción__n"/></e>
     <e lm="conducción"><i>conduc</i><par n="actua/ción__n"/></e>
     <e lm="confección"><i>confec</i><par n="actua/ción__n"/></e>
-    <e lm="conmoción"><i>conmo</i><par n="actua/ción__n"/></e>
+    <e lm="commoción"><i>commo</i><par n="actua/ción__n"/></e>
+    <e r="LR" lm="commoción"><p><l>conmo</l><r>commo</r></p><par n="actua/ción__n"/></e>
     <e lm="construcción"><i>construc</i><par n="actua/ción__n"/></e>
     <e lm="consumición"><i>consumi</i><par n="actua/ción__n"/></e>
     <e lm="contestación"><i>contesta</i><par n="actua/ción__n"/></e>
@@ -32485,7 +35563,7 @@
     <e r="LR" lm="aprebar"><p><l>aprob</l><r>apreb</r></p><par n="cant/ar__vblex"/></e>
     <e lm="argumentar"><i>argument</i><par n="cant/ar__vblex"/></e>
     <e lm="atentar"><i>atent</i><par n="cant/ar__vblex"/></e>
-    <e lm="atenuar"><i>atenu</i><par n="cant/ar__vblex"/></e>  <!-- paradigm act/uar-->
+    <e lm="atenuar"><i>aten</i><par n="act/uar__vblex"/></e>
     <e lm="brendar"><i>brend</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
     <e lm="brendar"><p><l>briend</l><r>brend</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
     <e r="LR" lm="brendar"><i>brend</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
@@ -32743,15 +35821,15 @@
     <e r="LR" lm="asignar"><p><l>asinn</l><r>asign</r></p><par n="cant/ar__vblex"/></e>
     <e lm="camuflar"><i>camufl</i><par n="cant/ar__vblex"/></e>
     <e lm="cobrar"><i>cobr</i><par n="cant/ar__vblex"/></e>
-    <e lm="desauguar"><i>desaugu</i><par n="cant/ar__vblex"/></e>  <!-- paradigma desauguar -->
+    <e lm="desauguar"><i>desaug</i><par n="desaug/uar__vblex"/></e>
     <e r="LR" lm="desauguar"><p><l>desaug</l><r>desaugu</r></p><par n="pag/ar__vblex"/></e>
-    <e r="LR" lm="desauguar"><p><l>desaigu</l><r>desaugu</r></p><par n="cant/ar__vblex"/></e>  <!-- paradigma desauguar -->
-    <e r="LR" lm="desauguar"><p><l>desaugu</l><r>desaugu</r></p><par n="cant/ar__vblex"/></e>  <!-- paradigma desauguar -->
+    <e r="LR" lm="desauguar"><p><l>desaig</l><r>desaugu</r></p><par n="desaug/uar__vblex"/></e>
+    <e r="LR" lm="desauguar"><p><l>desaug</l><r>desaugu</r></p><par n="desaug/uar__vblex"/></e>
     <e lm="designar"><i>design</i><par n="cant/ar__vblex"/></e>
     <e r="LR" lm="designar"><p><l>desinn</l><r>design</r></p><par n="cant/ar__vblex"/></e>
     <e lm="desinflar"><i>desinfl</i><par n="cant/ar__vblex"/></e>
     <e lm="doblar"><i>dobl</i><par n="cant/ar__vblex"/></e>
-    <e lm="efectuar"><i>efectu</i><par n="cant/ar__vblex"/></e> <!-- paradigm act/uar-->
+    <e lm="efectuar"><i>efect</i><par n="act/uar__vblex"/></e>
     <e lm="emigrar"><i>emigr</i><par n="cant/ar__vblex"/></e>
     <e lm="dentrar"><i>dentr</i><par n="cant/ar__vblex"/></e>
     <e r="LR" lm="dentrar"><p><l>entr</l><r>dentr</r></p><par n="cant/ar__vblex"/></e>
@@ -32779,7 +35857,7 @@
     <e lm="sobrar"><i>sobr</i><par n="cant/ar__vblex"/></e>
     <e lm="vibrar"><i>vibr</i><par n="cant/ar__vblex"/></e>
     <e lm="adiestrar"><i>adiestr</i><par n="cant/ar__vblex"/></e>
-    <e lm="insinuar"><i>insinu</i><par n="cant/ar__vblex"/></e> <!-- paradigm act/uar-->
+    <e lm="insinuar"><i>insin</i><par n="act/uar__vblex"/></e>
     
     <e lm="abreviar"><i>abrevi</i><par n="cant/ar__vblex"/></e>
     <e lm="asediar"><i>asedi</i><par n="cant/ar__vblex"/></e>
@@ -32843,6 +35921,137 @@
     <e lm="veraniar"><i>veran</i><par n="camb/iar__vblex"/></e>
     <e lm="bater"><i>bat</i><par n="vend/er__vblex"/></e>
 
+    <e lm="favoreixer"><i>favor</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
+    <e r="LR" lm="favoreixer"><i>favore</i><par n="cono/cer__vblex"/></e>
+    <e lm="agradeixer"><i>agrad</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
+    <e r="LR" lm="agradeixer"><i>agrade</i><par n="cono/cer__vblex"/></e>
+    <e lm="compareixer"><i>compar</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
+    <e r="LR" lm="compareixer"><i>compare</i><par n="cono/cer__vblex"/></e>
+    <e lm="mereixer"><i>mer</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
+    <e r="LR" lm="mereixer"><i>mere</i><par n="cono/cer__vblex"/></e>
+    <e lm="obedeixer"><i>obed</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
+    <e r="LR" lm="obedeixer"><i>obede</i><par n="cono/cer__vblex"/></e>
+    <e lm="reconoixer"><i>recono</i><par n="/ix_x__var"/><par n="conoix/er__vblex"/></e>
+    <e r="LR" lm="reconoixer"><i>recono</i><par n="cono/cer__vblex"/></e>
+    <e r="LR" lm="reconoixer"><p><l>recone</l><r>cono</r></p><par n="/ix_x__var"/><par n="conoix/er__vblex"/></e>  
+    <e r="LR" lm="reconoixer"><p><l>reconix</l><r>conoix</r></p><par n="conoix/er__vblex"/></e>  
+    <e lm="renaixer"><i>rena</i><par n="/ix_x__var"/><par n="conoix/er__vblex"/></e>
+    <e r="LR" lm="renaixer"><i>rena</i><par n="cono/cer__vblex"/></e>
+    <e lm="resplandeixer"><i>respland</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
+    <e r="LR" lm="resplandeixer"><i>resplande</i><par n="cono/cer__vblex"/></e>
+    <e lm="desapareixer"><i>desapar</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
+    <e r="LR" lm="desapareixer"><i>desapare</i><par n="cono/cer__vblex"/></e>
+    <e r="LR" lm="desapareixer"><p><l>despar</l><r>desapar</r></p><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
+    <e r="LR" lm="desapareixer"><p><l>despare</l><r>desapare</r></p><par n="cono/cer__vblex"/></e>
+    <e r="LR" lm="desapareixer"><p><l>dispar</l><r>desapar</r></p><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
+    <e r="LR" lm="desapareixer"><p><l>dispare</l><r>desapare</r></p><par n="cono/cer__vblex"/></e>
+    <e r="LR" lm="desapareixer"><p><l>disapar</l><r>desapar</r></p><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
+    <e r="LR" lm="desapareixer"><p><l>disapare</l><r>desapare</r></p><par n="cono/cer__vblex"/></e>
+    <e lm="desobedeixer"><i>desobed</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
+    <e r="LR" lm="desobedeixer"><i>desobede</i><par n="cono/cer__vblex"/></e>
+    <e lm="aborreixer"><i>aborr</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
+    <e r="LR" lm="aborreixer"><i>aborre</i><par n="cono/cer__vblex"/></e>
+    <e lm="trayer"><i>tra</i><par n="ca/yer__vblex"/></e>
+    <e lm="atrayer"><i>atra</i><par n="ca/yer__vblex"/></e>
+    <e lm="cayer"><i>ca</i><par n="ca/yer__vblex"/></e>
+    <e lm="decayer"><i>deca</i><par n="ca/yer__vblex"/></e>
+    <e lm="distrayer"><i>distra</i><par n="ca/yer__vblex"/></e>
+    <e lm="extrayer"><i>extra</i><par n="ca/yer__vblex"/></e>
+    <e r="LR" lm="extrayer"><p><l>estra</l><r>extra</r></p><par n="ca/yer__vblex"/></e>
+    <e lm="poseyer"><i>pos</i><par n="l/eyer__vblex"/></e>
+    <e lm="preveyer"><i>prev</i><par n="v/eyer__vblex"/></e>
+    <e lm="recayer"><i>reca</i><par n="ca/yer__vblex"/></e>
+    <e lm="releyer"><i>rel</i><par n="l/eyer__vblex"/></e>
+    
+    <e lm="exercer"><i>exer</i><par n="ven/cer__vblex"/></e>
+    <e r="LR" lm="exercer"><p><l>eixer</l><r>exer</r></p><par n="ven/cer__vblex"/></e>
+    <e lm="convencer"><i>conven</i><par n="ven/cer__vblex"/></e>
+    <e lm="vencer"><i>ven</i><par n="ven/cer__vblex"/></e>
+    <e lm="placer"><i>pla</i><par n="pla/cer__vblex"/></e>
+    <e lm="complacer"><i>compla</i><par n="pla/cer__vblex"/></e>
+    <e lm="chacer"><i>cha</i><par n="pla/cer__vblex"/></e>
+    <e r="LR" lm="torcer"><i>t</i><par n="t/orcer__vblex"/></e>    
+    <e r="LR" lm="torcer"><i>tor</i><par n="pla/cer__vblex"/></e>
+    <e lm="absolver"><i>abs</i><par n="abs/olver__vblex"/></e> <!-- con diftongación y participio fuerte -->
+    
+    <e r="LR" lm="absolver"><i>absolv</i><par n="vend/er__vblex"/></e>
+    <e lm="absorber"><i>absorb</i><par n="vend/er__vblex"/></e>
+    <e lm="aprender"><i>aprend</i><par n="vend/er__vblex"/></e>
+    
+    <e lm="atender"><i>atend</i><par n="encend/er_nd__vblex"/></e> <!-- non-diphtong forms -->
+    <e lm="atender"><p><l>atiend</l><r>atend</r></p><par n="enciend/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e r="LR" lm="atender"><i>atend</i><par n="vend/er__vblex"/></e>
+    <e lm="beber"><i>beb</i><par n="vend/er__vblex"/></e>
+    <e lm="cometer"><i>comet</i><par n="vend/er__vblex"/></e>
+    <e r="LR" lm="cometer"><p><l>comes</l><r>cometer<s n="vblex"/></r></p><par n="pp_quiest/o__cnjgt"/></e>
+    <e lm="commover"><i>commov</i><par n="encend/er_nd__vblex"/></e> <!-- non-diphtong forms -->
+    <e lm="commover"><p><l>commuev</l><r>commov</r></p><par n="enciend/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e r="LR" lm="commover"><p><l>conmov</l><r>commov</r></p><par n="encend/er_nd__vblex"/></e> <!-- non-diphtong forms -->
+    <e r="LR" lm="commover"><p><l>conmuev</l><r>commov</r></p><par n="enciend/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e r="LR" lm="commover"><i>commov</i><par n="vend/er__vblex"/></e>
+    <e r="LR" lm="commover"><p><l>conmov</l><r>commov</r></p><par n="vend/er__vblex"/></e>
+    <e lm="componer"><i>comp</i><par n="p/oner__vblex"/></e>
+    <e lm="composar"><i>compos</i><par n="cant/ar__vblex"/></e>
+    <e lm="comprender"><i>comprend</i><par n="vend/er__vblex"/></e>
+    <e lm="comprometer"><i>compromet</i><par n="vend/er__vblex"/></e>
+    <e r="LR" lm="comprometer"><p><l>compromes</l><r>comprometer<s n="vblex"/></r></p><par n="pp_quiest/o__cnjgt"/></e>
+    <e lm="conceder"><i>conced</i><par n="vend/er__vblex"/></e>
+    <e lm="correr"><i>corr</i><par n="vend/er__vblex"/></e>
+    <e lm="corresponder"><i>correspond</i><par n="vend/er__vblex"/></e>
+    <e lm="depender"><i>depend</i><par n="vend/er__vblex"/></e>
+    <e lm="disolver"><i>dis</i><par n="abs/olver__vblex"/></e>
+    <e lm="encorrer"><i>encorr</i><par n="vend/er__vblex"/></e>
+    <e lm="emprender"><i>emprend</i><par n="vend/er__vblex"/></e>
+    <e lm="entender"><i>entend</i><par n="encend/er_nd__vblex"/></e> <!-- non-diphtong forms -->
+    <e lm="entender"><p><l>entiend</l><r>entend</r></p><par n="enciend/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e r="LR" lm="entender"><i>entend</i><par n="vend/er__vblex"/></e>
+    <e lm="moler"><i>m</i><par n="m/oler__vblex"/></e>
+    <e lm="ofender"><i>ofend</i><par n="vend/er__vblex"/></e>
+    <e lm="goler"><i>gol</i><par n="encend/er_nd__vblex"/></e> <!-- non-diphtong forms -->
+    <e r="LR" lm="goler"><p><l>ol</l><r>gol</r></p><par n="encend/er_nd__vblex"/></e> <!-- diphtong forms -->
+    <e lm="goler"><p><l>uel</l><r>gol</r></p><par n="enciend/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e r="LR" lm="goler"><p><l>güel</l><r>gol</r></p><par n="enciend/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e r="LR" lm="goler"><i>gol</i><par n="vend/er__vblex"/></e>
+    <e r="LR" lm="goler"><p><l>ol</l><r>gol</r></p><par n="vend/er__vblex"/></e>  <!-- fer buena olor -->
+    <e lm="olorar"><i>olor</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="olorar"><p><l>ulor</l><r>olor</r></p><par n="cant/ar__vblex"/></e>  <!-- fer buena olor -->
+    <e lm="plever"><i>plev</i><par n="plev/er__vblex"/></e> <!-- impersonal--> 
+    <e r="LR" lm="plever"><p><l>plov</l><r>plev</r></p><par n="vend/er__vblex"/></e>
+    <e r="LR" lm="plever"><p><l>plob</l><r>plev</r></p><par n="vend/er__vblex"/></e>
+    <e r="LR" lm="plever"><p><l>pleb</l><r>plev</r></p><par n="vend/er__vblex"/></e>
+    <e lm="preceder"><i>preced</i><par n="vend/er__vblex"/></e>
+    <e lm="prener"><i>pr</i><par n="pr/ener__vblex"/></e>
+    <e lm="reprener"><i>repr</i><par n="pr/ener__vblex"/></e>
+    <e lm="reprender"><i>reprend</i><par n="vend/er__vblex"/></e>
+    <e lm="pretender"><i>pretend</i><par n="vend/er__vblex"/></e>
+    <e lm="proceder"><i>proced</i><par n="vend/er__vblex"/></e>
+    <e lm="prometer"><i>promet</i><par n="vend/er__vblex"/></e>
+    <e lm="protecher"><i>protech</i><par n="protech/er__vblex"/></e> <!-- paradigma regular con y sin i en ifi -->
+    <e lm="resolver"><i>res</i><par n="abs/olver__vblex"/></e>
+    <e lm="satisfer"><i>satisf</i><par n="f/er__vblex"/></e>
+    <e lm="socorrer"><i>socorr</i><par n="vend/er__vblex"/></e>
+    <e lm="sorprender"><i>sorprend</i><par n="vend/er__vblex"/></e>
+    <e lm="sozmeter"><i>sozmet</i><par n="vend/er__vblex"/></e> <!-- con particip fuerte-->
+    <e r="LR" lm="sozmeter"><p><l>sozmes</l><r>sozmeter<s n="vblex"/></r></p><par n="pp_quiest/o__cnjgt"/></e>
+    <e r="LR" lm="sozmeter"><p><l>somet</l><r>sozmet</r></p><par n="vend/er__vblex"/></e>  <!-- con particip fuerte-->
+    <e r="LR" lm="sozmeter"><p><l>somes</l><r>sozmeter<s n="vblex"/></r></p><par n="pp_quiest/o__cnjgt"/></e>
+    <e lm="suspender"><i>suspend</i><par n="vend/er__vblex"/></e>
+    <e r="LR" lm="suspender"><p><l>suspens</l><r>suspender<s n="vblex"/></r></p><par n="pp_quiest/o__cnjgt"/></e>
+    <e lm="temer"><i>tem</i><par n="vend/er__vblex"/></e>
+    <e lm="tender"><i>tend</i><par n="vend/er__vblex"/></e>
+    <e lm="transcorrer"><i>transcorr</i><par n="vend/er__vblex"/></e>
+    <e lm="transcorrer"><p><l>transcurr</l><r>transcurr</r></p><par n="viv/ir__vblex"/></e>
+    <e r="LR" lm="transcorrer"><p><l>transcorr</l><r>transcurr</r></p><par n="viv/ir__vblex"/></e>
+    <e lm="valer"><i>val</i><par n="vend/er__vblex"/></e>
+    <e lm="concorrer"><i>concorr</i><par n="vend/er__vblex"/></e>
+    <e lm="concorrer"><p><l>concurr</l><r>concurr</r></p><par n="viv/ir__vblex"/></e>
+    <e r="LR" lm="concorrer"><p><l>concorr</l><r>concurr</r></p><par n="viv/ir__vblex"/></e>
+    <e lm="descomponer"><i>descomp</i><par n="p/oner__vblex"/></e>
+    <e r="LR" lm="descomponer"><p><l>escomp</l><r>descomp</r></p><par n="p/oner__vblex"/></e>
+    <e lm="descomposar"><i>descompos</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="descomposar"><p><l>escompos</l><r>descompos</r></p><par n="cant/ar__vblex"/></e>
+  
+  
     <e lm="auricular"><i>auricular</i><par n="libro__n"/></e>
     <e lm="calamar"><i>calamar</i><par n="libro__n"/></e>
     <e lm="capilar"><i>capilar</i><par n="libro__n"/></e>
@@ -32884,7 +36093,11 @@
     <e r="LR" lm="laser"><p><l>láser</l><r>laser</r></p><par n="libro__n"/></e>
     <e lm="crater"><i>crater</i><par n="libro__n"/></e>
     <e r="LR" lm="crater"><p><l>cráter</l><r>crater</r></p><par n="libro__n"/></e>
-    
+    <e lm="dossier"><i>dossier</i><par n="libro__n"/></e>
+    <e lm="linier"><i>linier</i><par n="libro__n"/></e>
+    <e lm="somier"><i>somier</i><par n="libro__n"/></e>
+    <e lm="quefer"><i>quefer</i><par n="libro__n"/></e>
+    <e lm="tasca"><i>tasca</i><par n="luenga__n"/></e>
   </section>
   
   <section id="apostrophes" type="postblank">
