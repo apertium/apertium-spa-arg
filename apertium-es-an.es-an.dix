@@ -5477,6 +5477,7 @@
     <e><p><l>emprender<s n="vblex"/></l><r>emprender<s n="vblex"/></r></p></e>
     <e><p><l>entender<s n="vblex"/></l><r>entender<s n="vblex"/></r></p></e>
     <e><p><l>moler<s n="vblex"/></l><r>moler<s n="vblex"/></r></p></e>
+    <e><p><l>doler<s n="vblex"/></l><r>doler<s n="vblex"/></r></p></e> <!-- nomás en doler-se --> <!-- doler : fer mal, dolerse, doler-se -->
     <e><p><l>ofender<s n="vblex"/></l><r>ofender<s n="vblex"/></r></p></e>
     <e><p><l>oler<s n="vblex"/></l><r>olorar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>oler<s n="vblex"/></l><r>goler<s n="vblex"/></r></p></e>
@@ -5504,6 +5505,150 @@
     <e r="RL"><p><l>concurrir<s n="vblex"/></l><r>concurrir<s n="vblex"/></r></p></e>
     <e><p><l>descomponer<s n="vblex"/></l><r>descomponer<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>descomponer<s n="vblex"/></l><r>descomposar<s n="vblex"/></r></p></e>
+    <e><p><l>asumir<s n="vblex"/></l><r>asumir<s n="vblex"/></r></p></e>
+    <e><p><l>comprimir<s n="vblex"/></l><r>comprimir<s n="vblex"/></r></p></e>
+    <e><p><l>consumir<s n="vblex"/></l><r>consumir<s n="vblex"/></r></p></e>
+    <e><p><l>convenir<s n="vblex"/></l><r>convenir<s n="vblex"/></r></p></e>
+    <e><p><l>definir<s n="vblex"/></l><r>definir<s n="vblex"/></r></p></e>
+    <e><p><l>deprimir<s n="vblex"/></l><r>deprimir<s n="vblex"/></r></p></e>
+    <e><p><l>dormir<s n="vblex"/></l><r>adormir<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>dormir<s n="vblex"/></l><r>dormir<s n="vblex"/></r></p></e>  <!-- adormir-se, dormir -->
+    <e><p><l>exprimir<s n="vblex"/></l><r>exprimir<s n="vblex"/></r></p></e>
+    <e><p><l>intervenir<s n="vblex"/></l><r>intervenir<s n="vblex"/></r></p></e>
+    <e><p><l>oprimir<s n="vblex"/></l><r>oprimir<s n="vblex"/></r></p></e>
+    <e><p><l>provenir<s n="vblex"/></l><r>provenir<s n="vblex"/></r></p></e>
+    <e><p><l>imprimir<s n="vblex"/></l><r>imprentar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>imprimir<s n="vblex"/></l><r>imprimir<s n="vblex"/></r></p></e>
+    <e><p><l>reimprimir<s n="vblex"/></l><r>reimprentar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>reimprimir<s n="vblex"/></l><r>reimprimir<s n="vblex"/></r></p></e>
+    <e><p><l>reprimir<s n="vblex"/></l><r>reprimir<s n="vblex"/></r></p></e>
+    <e><p><l>resumir<s n="vblex"/></l><r>resumir<s n="vblex"/></r></p></e>
+    <e><p><l>reunir<s n="vblex"/></l><r>reunir<s n="vblex"/></r></p></e>
+    <e><p><l>suprimir<s n="vblex"/></l><r>suprimir<s n="vblex"/></r></p></e>
+    <e><p><l>unir<s n="vblex"/></l><r>unir<s n="vblex"/></r></p></e>
+    <e><p><l>prevenir<s n="vblex"/></l><r>aprevenir<s n="vblex"/></r></p></e>
+
+    <e><p><l>admitir<s n="vblex"/></l><r>admitir<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>admitir<s n="vblex"/></l><r>admeter<s n="vblex"/></r></p></e>
+    <e><p><l>adquirir<s n="vblex"/></l><r>adquirir<s n="vblex"/></r></p></e>
+    <e><p><l>advertir<s n="vblex"/></l><r>advertir<s n="vblex"/></r></p></e>
+    <e><p><l>asistir<s n="vblex"/></l><r>asistir<s n="vblex"/></r></p></e>
+    <e><p><l>cubrir<s n="vblex"/></l><r>cubrir<s n="vblex"/></r></p></e>
+    <e><p><l>combatir<s n="vblex"/></l><r>combatir<s n="vblex"/></r></p></e>
+    <e><p><l>conquistar<s n="vblex"/></l><r>conquerir<s n="vblex"/></r></p></e>
+    <e><p><l>consentir<s n="vblex"/></l><r>consentir<s n="vblex"/></r></p></e>
+    <e><p><l>convertir<s n="vblex"/></l><r>convertir<s n="vblex"/></r></p></e>
+    <e><p><l>coser<s n="vblex"/></l><r>cusir<s n="vblex"/></r></p></e>
+    <e><p><l>desmentir<s n="vblex"/></l><r>desmentir<s n="vblex"/></r></p></e>
+    <e><p><l>discutir<s n="vblex"/></l><r>discutir<s n="vblex"/></r></p></e>
+    <e><p><l>divertir<s n="vblex"/></l><r>divertir<s n="vblex"/></r></p></e>
+    <e><p><l>emitir<s n="vblex"/></l><r>emitir<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>emitir<s n="vblex"/></l><r>emeter<s n="vblex"/></r></p></e>
+    <e><p><l>ennegrecer<s n="vblex"/></l><r>ennegrir<s n="vblex"/></r></p></e>
+    <e><p><l>entristecer<s n="vblex"/></l><r>entristir<s n="vblex"/></r></p></e>
+    <e><p><l>amedrentar<s n="vblex"/></l><r>amedrentir<s n="vblex"/></r></p></e>
+    <e><p><l>invertir<s n="vblex"/></l><r>invertir<s n="vblex"/></r></p></e>
+    <e><p><l>mentir<s n="vblex"/></l><r>mentir<s n="vblex"/></r></p></e>
+    <e><p><l>morir<s n="vblex"/></l><r>morir<s n="vblex"/></r></p></e>
+    <e><p><l>abrir<s n="vblex"/></l><r>ubrir<s n="vblex"/></r></p></e>
+    <e><p><l>ofrecer<s n="vblex"/></l><r>ofrir<s n="vblex"/></r></p></e>
+    <e><p><l>digerir<s n="vblex"/></l><r>dicherir<s n="vblex"/></r></p></e>
+    <e><p><l>parir<s n="vblex"/></l><r>parir<s n="vblex"/></r></p></e>
+    <e><p><l>permitir<s n="vblex"/></l><r>permitir<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>permitir<s n="vblex"/></l><r>permeter<s n="vblex"/></r></p></e>
+    <e><p><l>preferir<s n="vblex"/></l><r>preferir<s n="vblex"/></r></p></e>
+    <e><p><l>recubrir<s n="vblex"/></l><r>recubrir<s n="vblex"/></r></p></e>
+    <e><p><l>repartir<s n="vblex"/></l><r>repartir<s n="vblex"/></r></p></e>
+    <e><p><l>resistir<s n="vblex"/></l><r>resistir<s n="vblex"/></r></p></e>
+    <e srl="oir"><p><l>oír<s n="vblex"/></l><r>sentir<s n="vblex"/></r></p></e>
+    <e srl="sentir D"><p><l>sentir<s n="vblex"/></l><r>sentir<s n="vblex"/></r></p></e>
+    <e><p><l>sufrir<s n="vblex"/></l><r>sufrir<s n="vblex"/></r></p></e>
+    <e><p><l>surgir<s n="vblex"/></l><r>surtir<s n="vblex"/></r></p></e>
+    <e><p><l>sugerir<s n="vblex"/></l><r>sucherir<s n="vblex"/></r></p></e>
+    <e><p><l>transmitir<s n="vblex"/></l><r>transmitir<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>transmitir<s n="vblex"/></l><r>transmeter<s n="vblex"/></r></p></e>
+    <e><p><l>vestir<s n="vblex"/></l><r>vestir<s n="vblex"/></r></p></e>
+    <e><p><l>descubrir<s n="vblex"/></l><r>descubrir<s n="vblex"/></r></p></e>
+    <e><p><l>decolorar<s n="vblex"/></l><r>escolorir<s n="vblex"/></r></p></e>
+    <e><p><l>reconquistar<s n="vblex"/></l><r>reconquerir<s n="vblex"/></r></p></e>
+    <e><p><l>revestir<s n="vblex"/></l><r>revestir<s n="vblex"/></r></p></e>
+
+    <e><p><l>abolir<s n="vblex"/></l><r>abolir<s n="vblex"/></r></p></e>
+    <e><p><l>acoger<s n="vblex"/></l><r>acullir<s n="vblex"/></r></p></e>
+    <e><p><l>conseguir<s n="vblex"/></l><r>conseguir<s n="vblex"/></r></p></e>
+    <e><p><l>acudir<s n="vblex"/></l><r>acudir<s n="vblex"/></r></p></e>
+    <e><p><l>agredir<s n="vblex"/></l><r>agredir<s n="vblex"/></r></p></e>
+    <e><p><l>aludir<s n="vblex"/></l><r>aludir<s n="vblex"/></r></p></e>
+    <e><p><l>medir<s n="vblex"/></l><r>medir<s n="vblex"/></r></p></e>
+    <e><p><l>aplaudir<s n="vblex"/></l><r>aplaudir<s n="vblex"/></r></p></e>
+    <e><p><l>atribuir<s n="vblex"/></l><r>atribuir<s n="vblex"/></r></p></e>
+    <e><p><l>hervir<s n="vblex"/></l><r>bullir<s n="vblex"/></r></p></e>
+    <e><p><l>coincidir<s n="vblex"/></l><r>coincidir<s n="vblex"/></r></p></e>
+    <e><p><l>cosechar<s n="vblex"/></l><r>cullir<s n="vblex"/></r></p></e>
+    <e><p><l>cumplir<s n="vblex"/></l><r>complir<s n="vblex"/></r></p></e>
+    <e><p><l>concebir<s n="vblex"/></l><r>concebir<s n="vblex"/></r></p></e>
+    <e><p><l>concluir<s n="vblex"/></l><r>concluir<s n="vblex"/></r></p></e>
+    <e><p><l>constituir<s n="vblex"/></l><r>constituir<s n="vblex"/></r></p></e>
+    <e><p><l>construir<s n="vblex"/></l><r>construir<s n="vblex"/></r></p></e>
+    <e><p><l>contribuir<s n="vblex"/></l><r>contribuir<s n="vblex"/></r></p></e>
+    <e><p><l>convivir<s n="vblex"/></l><r>convivir<s n="vblex"/></r></p></e>
+    <e><p><l>corregir<s n="vblex"/></l><r>correchir<s n="vblex"/></r></p></e>
+    <e><p><l>decidir<s n="vblex"/></l><r>decidir<s n="vblex"/></r></p></e>
+    <e><p><l>deducir<s n="vblex"/></l><r>deducir<s n="vblex"/></r></p></e>
+    <e><p><l>destruir<s n="vblex"/></l><r>destruir<s n="vblex"/></r></p></e>
+    <e><p><l>dirigir<s n="vblex"/></l><r>dirichir<s n="vblex"/></r></p></e>
+    <e><p><l>distinguir<s n="vblex"/></l><r>distinguir<s n="vblex"/></r></p></e>
+    <e><p><l>distribuir<s n="vblex"/></l><r>distribuir<s n="vblex"/></r></p></e>
+    <e><p><l>dividir<s n="vblex"/></l><r>dividir<s n="vblex"/></r></p></e>
+    <e><p><l>elegir<s n="vblex"/></l><r>esleyir<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>elegir<s n="vblex"/></l><r>eslechir<s n="vblex"/></r></p></e>
+    <e><p><l>hundir<s n="vblex"/></l><r>fundir<s n="vblex"/></r></p></e>
+    <e><p><l>enriquecer<s n="vblex"/></l><r>enriquir<s n="vblex"/></r></p></e>
+    <e><p><l>invadir<s n="vblex"/></l><r>invadir<s n="vblex"/></r></p></e>
+    <e><p><l>envejecer<s n="vblex"/></l><r>aviellir<s n="vblex"/></r></p></e>
+    <e><p><l>escupir<s n="vblex"/></l><r>escupir<s n="vblex"/></r></p></e>
+    <e><p><l>esculpir<s n="vblex"/></l><r>esculpir<s n="vblex"/></r></p></e>
+    <e><p><l>establecer<s n="vblex"/></l><r>establir<s n="vblex"/></r></p></e>
+    <e><p><l>evadir<s n="vblex"/></l><r>evadir<s n="vblex"/></r></p></e>
+    <e><p><l>excluir<s n="vblex"/></l><r>excluir<s n="vblex"/></r></p></e>
+    <e><p><l>herir<s n="vblex"/></l><r>ferir<s n="vblex"/></r></p></e>
+    <e><p><l>fundir<s n="vblex"/></l><r>fundir<s n="vblex"/></r></p></e>
+    <e><p><l>freír<s n="vblex"/></l><r>freyir<s n="vblex"/></r></p></e>
+    <e><p><l>huir<s n="vblex"/></l><r>fuyir<s n="vblex"/></r></p></e>
+    <e><p><l>impedir<s n="vblex"/></l><r>impedir<s n="vblex"/></r></p></e>
+    <e><p><l>incidir<s n="vblex"/></l><r>incidir<s n="vblex"/></r></p></e>
+    <e><p><l>inducir<s n="vblex"/></l><r>inducir<s n="vblex"/></r></p></e>
+    <e><p><l>influir<s n="vblex"/></l><r>influir<s n="vblex"/></r></p></e>
+    <e><p><l>instituir<s n="vblex"/></l><r>instituir<s n="vblex"/></r></p></e>
+    <e><p><l>interrumpir<s n="vblex"/></l><r>interrumpir<s n="vblex"/></r></p></e>
+    <e><p><l>introducir<s n="vblex"/></l><r>introducir<s n="vblex"/></r></p></e>
+    <e><p><l>intuir<s n="vblex"/></l><r>intuir<s n="vblex"/></r></p></e>
+    <e><p><l>lucir<s n="vblex"/></l><r>lucir<s n="vblex"/></r></p></e>
+    <e><p><l>ordeñar<s n="vblex"/></l><r>muyir<s n="vblex"/></r></p></e>
+    <e><p><l>digerir<s n="vblex"/></l><r>dicherir<s n="vblex"/></r></p></e>
+    <e><p><l>persuadir<s n="vblex"/></l><r>persuadir<s n="vblex"/></r></p></e>
+    <e><p><l>producir<s n="vblex"/></l><r>producir<s n="vblex"/></r></p></e>
+    <e><p><l>recibir<s n="vblex"/></l><r>recibir<s n="vblex"/></r></p></e>
+    <e><p><l>reconstruir<s n="vblex"/></l><r>reconstruir<s n="vblex"/></r></p></e>
+    <e><p><l>reducir<s n="vblex"/></l><r>reducir<s n="vblex"/></r></p></e>
+    <e><p><l>reproducir<s n="vblex"/></l><r>reproducir<s n="vblex"/></r></p></e>
+    <e><p><l>restablecer<s n="vblex"/></l><r>restablir<s n="vblex"/></r></p></e>
+    <e><p><l>restituir<s n="vblex"/></l><r>restituir<s n="vblex"/></r></p></e>
+    <e><p><l>restringir<s n="vblex"/></l><r>restrinchir<s n="vblex"/></r></p></e>
+    <e><p><l>reír<s n="vblex"/></l><r>redir<s n="vblex"/></r></p></e>
+    <e><p><l>seguir<s n="vblex"/></l><r>seguir<s n="vblex"/></r></p></e>
+    <e><p><l>servir<s n="vblex"/></l><r>servir<s n="vblex"/></r></p></e>
+    <e><p><l>sobresalir<s n="vblex"/></l><r>sobresalir<s n="vblex"/></r></p></e>
+    <e><p><l>sobrevivir<s n="vblex"/></l><r>sobrevivir<s n="vblex"/></r></p></e>
+    <e><p><l>sofreír<s n="vblex"/></l><r>sofreyir<s n="vblex"/></r></p></e>
+    <e><p><l>salir<s n="vblex"/></l><r>salir<s n="vblex"/></r></p></e>
+    <e><p><l>sustituir<s n="vblex"/></l><r>substituir<s n="vblex"/></r></p></e>
+    <e><p><l>traducir<s n="vblex"/></l><r>traducir<s n="vblex"/></r></p></e>
+    <e><p><l>difundir<s n="vblex"/></l><r>difundir<s n="vblex"/></r></p></e>
+    <e><p><l>salir<s n="vblex"/></l><r>salir<s n="vblex"/></r></p></e>
+    <e><p><l>rugir<s n="vblex"/></l><r>ruchir<s n="vblex"/></r></p></e>
+    
+
     <!-- ******************************
           group np_symbol
       ****************************** -->
