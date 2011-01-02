@@ -27456,6 +27456,61 @@
 
     </pardef>
     
+    <pardef n="empera/dor__n">
+    <e>
+      <p>
+        <l>dor</l>
+        <r>dor<s n="n"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>dors</l>
+        <r>dor<s n="n"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>triz</l>
+        <r>dor<s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>driz</l>
+        <r>dor<s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>dora</l>
+        <r>dor<s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>trices</l>
+        <r>dor<s n="n"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>drices</l>
+        <r>dor<s n="n"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>dora</l>
+        <r>dor<s n="n"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    </pardef>
+    
   
     <pardef n="primer__adj">
     <e>
@@ -27743,6 +27798,131 @@
     </e>
 
     </pardef>
+
+    <pardef n="buen/o__adj">
+    <e>
+      <p>
+        <l>o</l>
+        <r>o<s n="adj"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l></l>
+        <r>o<s n="adj"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>os</l>
+        <r>o<s n="adj"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>s</l>
+        <r>o<s n="adj"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>a</l>
+        <r>o<s n="adj"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>as</l>
+        <r>o<s n="adj"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    </pardef>
+
+    <pardef n="treballad/or__adj">
+    <e>
+      <p>
+        <l>or</l>
+        <r>or<s n="adj"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+   <e r="LR">
+      <p>
+        <l>ó</l>
+        <r>or<s n="adj"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ors</l>
+        <r>or<s n="adj"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ós</l>
+        <r>or<s n="adj"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>era</l>
+        <r>or<s n="adj"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ora</l>
+        <r>or<s n="adj"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>eras</l>
+        <r>or<s n="adj"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>oras</l>
+        <r>or<s n="adj"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    </pardef>
+
+    <pardef n="opresor__adj">
+    <e>
+      <p>
+        <l></l>
+        <r><s n="adj"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>s</l>
+        <r><s n="adj"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>a</l>
+        <r><s n="adj"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>as</l>
+        <r><s n="adj"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    </pardef>
+
+
     <pardef n="social__adj">
     <e>
       <p>
@@ -27874,6 +28054,29 @@
 
 
     </pardef>
+
+    <pardef n="capi/ella__n">
+    <e>
+      <p>
+        <l>ella</l>
+        <r>ella<s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>lla</l>
+        <r>ella<s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>llas</l>
+        <r>ella<s n="n"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    </pardef>
+
     <pardef n="divisi/ón__n">
     <e>
       <p>
@@ -29321,6 +29524,33 @@
     </e>
     </pardef>
 
+   <pardef n="clo/t__n">
+    <e>
+      <p>
+        <l>t</l>
+        <r>t<s n="adj"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>otz</l>
+        <r>ot<s n="adj"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ots</l>
+        <r>ot<s n="adj"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>oz</l>
+        <r>ot<s n="adj"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    </pardef>
+
   </pardefs>
 
   <section id="main" type="standard">
@@ -29764,7 +29994,8 @@
     <e lm="humán"><i>hum</i><par n="chirm/án__n"/></e>
     <e lm="humán"><i>hum</i><par n="occit/án__adj"/></e>
     <e lm="primer"><i>primer</i><par n="primer__adj"/></e>
-    <e lm="treballador"><i>treballador</i><par n="treballador__n"/></e>  <!-- or -era -->
+    <e lm="treballador"><i>treballador</i><par n="treballador__n"/></e>  
+    <e lm="treballador"><i>treballad</i><par n="treballad/or__adj"/></e>  <!-- or-id -era - en adchectivos -->
     <e lm="europeu"><i>europe</i><par n="europe/u__adj"/></e>
     <e lm="uniu"><i>uni</i><par n="adequa/u__adj"/></e>
     <e lm="sovietico"><i>sovietic</i><par n="academic/o__adj"/></e>
@@ -29942,7 +30173,7 @@
     <e lm="bravo"><i>bra</i><par n="cursi/vo__adj"/></e>
     <e lm="brusco"><i>brusc</i><par n="academic/o__adj"/></e>
     <e lm="bruto"><i>brut</i><par n="academic/o__adj"/></e>
-    <e lm="bueno"><i>buen</i><par n="academic/o__adj"/></e>
+    <e lm="bueno"><i>buen</i><par n="buen/o__adj"/></e>
     <e lm="burdo"><i>burd</i><par n="academic/o__adj"/></e>
     <e lm="caduco"><i>caduc</i><par n="academic/o__adj"/></e>
     <e lm="calcico"><i>calcic</i><par n="academic/o__adj"/></e>
@@ -31031,6 +31262,7 @@
     <e lm="rechión"><i>rechi</i><par n="divisi/ón__n"/></e>
     <e lm="división"><i>divisi</i><par n="divisi/ón__n"/></e>
     <e lm="opinión"><i>opini</i><par n="divisi/ón__n"/></e>
+    <e lm="corazón"><i>coraz</i><par n="divisi/ón__n"/></e>
     <e lm="unión"><i>uni</i><par n="divisi/ón__n"/></e>
     <e lm="constitución"><i>constitu</i><par n="actua/ción__n"/></e>
     <e lm="motivación"><i>motiva</i><par n="actua/ción__n"/></e>
@@ -31269,6 +31501,7 @@
     <e lm="modalidat"><i>modalid</i><par n="privacid/at__n"/></e>
     <e lm="modernidat"><i>modernid</i><par n="privacid/at__n"/></e>
     <e lm="molín"><i>mol</i><par n="lat/ín__n"/></e>
+    <e lm="camín"><i>cam</i><par n="lat/ín__n"/></e>
     <e lm="moralidat"><i>moralid</i><par n="privacid/at__n"/></e>
     <e lm="morbilidat"><i>morbilid</i><par n="privacid/at__n"/></e>
     <e lm="mortalidat"><i>mortalid</i><par n="privacid/at__n"/></e>
@@ -32206,6 +32439,7 @@
     <e lm="detrás"><i>detrás</i><par n="agora__adv"/></e>
     <e lm="derré"><i>derré</i><par n="agora__adv"/></e>
     <e lm="difuera"><i>difuera</i><par n="agora__adv"/></e>
+    <e r="LR" lm="difuera"><p><l>defuera</l><r>difuera</r></p><par n="agora__adv"/></e>
     <e lm="dillá"><i>d</i><par n="/i_e__var"/><i>llá</i><par n="agora__adv"/></e>
     <e r="LR" lm="dillá"><p><l>dellá</l><r>dillá</r></p><par n="agora__adv"/></e>
     <e lm="dentro"><i>dentro</i><par n="agora__adv"/></e>
@@ -36709,8 +36943,8 @@
     <e lm="la Prenyanosa"><i>la<b/>Prenyanosa</i><par n="Afganistán__np"/></e>
     <e lm="Laquedivas"><i>Laquedivas</i><par n="Afganistán__np"/></e>
     <e lm="L'Arboç"><i>L'Arboç</i><par n="Afganistán__np"/></e>
-    <e lm="l'>ientera"><i>l'>ientera</i><par n="Afganistán__np"/></e>
-    <e lm="L'>ientera"><i>L'>ientera</i><par n="Afganistán__np"/></e>
+    <e lm="l'Argentera"><i>l'Argentera</i><par n="Afganistán__np"/></e>
+    <e lm="L'Argentera"><i>L'Argentera</i><par n="Afganistán__np"/></e>
     <e lm="la Riba"><i>la<b/>Riba</i><par n="Afganistán__np"/></e>
     <e lm="La Riba"><i>La<b/>Riba</i><par n="Afganistán__np"/></e>
     <e lm="La Rioja"><i>La<b/>Rioja</i><par n="Afganistán__np"/></e>
@@ -38711,6 +38945,7 @@
     <e r="LR" lm="meya"><p><l>media</l><r>meya</r></p><par n="luenga__n"/></e>
     <e lm="miscelania"><i>miscelania</i><par n="luenga__n"/></e>
     <e lm="morada"><i>mora</i><par n="vega/da__n"/></e>
+    <e lm="muerte"><i>muerte</i><par n="libro__n"/></e>
     <e lm="muerta"><i>muerta</i><par n="luenga__n"/></e>
     <e lm="narrativa"><i>narrati</i><par n="normati/va__n"/></e>
     <e lm="negativa"><i>negati</i><par n="normati/va__n"/></e>
@@ -39644,6 +39879,12 @@
     <e r="LR" lm="ofreiximiento"><p><l>ofri</l><r>ofreixi</r></p><par n="achunta/miento__n"/></e>
     <e r="LR" lm="ofreiximiento"><p><l>ufri</l><r>ofreixi</r></p><par n="achunta/miento__n"/></e>
     
+    <e lm="pai"><i>pai</i><par n="libro__n"/></e>
+    <e r="LR" lm="pai"><p><l>padri</l><r>pai</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="pai"><p><l>pare</l><r>pai</r></p><par n="libro__n"/></e>
+    <e lm="mai"><i>mai</i><par n="luenga__n"/></e>
+    <e r="LR" lm="mai"><p><l>madri</l><r>mai</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="mai"><p><l>mare</l><r>mai</r></p><par n="libro__n"/></e>
     <e lm="abusar"><i>abus</i><par n="cant/ar__vblex"/></e>
     <e lm="admirar"><i>admir</i><par n="cant/ar__vblex"/></e>
     <e r="LR" lm="admirar"><p><l>almir</l><r>admir</r></p><par n="cant/ar__vblex"/></e>
@@ -40788,6 +41029,1411 @@
     <e lm="somier"><i>somier</i><par n="libro__n"/></e>
     <e lm="quefer"><i>quefer</i><par n="libro__n"/></e>
     <e lm="tasca"><i>tasca</i><par n="luenga__n"/></e>
+    
+    <e lm="acampador"><i>acampador</i><par n="treballador__n"/></e>
+    <e lm="accelerador"><i>accelerad</i><par n="treballad/or__adj"/></e>
+    <e lm="accelerador"><i>accelerador</i><par n="treballador__n"/></e>
+    <e lm="acullidor"><i>acullid</i><par n="treballad/or__adj"/></e>
+    <e lm="administrador"><i>administrador</i><par n="treballador__n"/></e>
+    <e lm="baleyador"><i>baleyador</i><par n="treballador__n"/></e>
+    <e lm="escobaire"><i>escobaire</i><par n="pelaire__n"/></e> <!-- * -->
+    <e lm="escobador"><i>escobador</i><par n="treballador__n"/></e>
+    <e lm="ambaixador"><i>ambaixador</i><par n="treballador__n"/></e>
+    <e r="LR" lm="ambaixador"><p><l>embaixador</l><r>ambaixador</r></p><par n="treballador__n"/></e>
+    <e lm="ambientador"><i>ambientador</i><par n="libro__n"/></e>    
+    <e lm="menazador"><i>menazad</i><par n="treballad/or__adj"/></e>
+    <e lm="amplificador"><i>amplificador</i><par n="libro__n"/></e>
+    <e lm="andador"><i>andador</i><par n="libro__n"/></e>
+    <e lm="animador"><i>animador</i><par n="treballador__n"/></e>
+    <e lm="aparador"><i>aparador</i><par n="libro__n"/></e>
+    <e lm="aparellador"><i>aparellador</i><par n="treballador__n"/></e>
+    <e lm="achustador"><i>achustador</i><par n="libro__n"/></e>
+    <e lm="archivador"><i>archivador</i><par n="libro__n"/></e>
+    <e lm="aviador"><i>aviador</i><par n="treballador__n"/></e>
+    <e lm="banyador"><i>banyador</i><par n="libro__n"/></e>
+    <e lm="bebedor"><i>bebed</i><par n="treballad/or__adj"/></e>
+    <e lm="buciador"><i>buciador</i><par n="treballador__n"/></e>
+    <e r="LR" lm="buciador"><p><l>buceyador</l><r>buciador</r></p><par n="treballador__n"/></e>
+   <e lm="calzador"><i>calzador</i><par n="libro__n"/></e>
+   <e lm="carburador"><i>carburador</i><par n="libro__n"/></e>
+    <e lm="cargador"><i>cargad</i><par n="treballad/or__adj"/></e>
+    <e lm="cargador"><i>cargador</i><par n="libro__n"/></e>
+    <e lm="cobrador"><i>cobrador</i><par n="treballador__n"/></e>
+    <e lm="colaborador"><i>colaborad</i><par n="treballad/or__adj"/></e>
+    <e lm="colaborador"><i>colaborador</i><par n="treballador__n"/></e>
+    <e lm="colador"><i>colador</i><par n="libro__n"/></e>
+    <e lm="contador"><i>contad</i><par n="treballad/or__adj"/></e>
+    <e lm="contador"><i>contador</i><par n="libro__n"/></e>
+    <e lm="conchelador"><i>conchelador</i><par n="libro__n"/></e>
+    <e lm="conservador"><i>conservad</i><par n="treballad/or__adj"/></e>
+    <e lm="conservador"><i>conservador</i><par n="treballador__n"/></e>
+    <e lm="consumidor"><i>consumidor</i><par n="treballador__n"/></e>
+    <e lm="contenedor"><i>contenedor</i><par n="treballador__n"/></e>
+    <e lm="controlador"><i>controlador</i><par n="treballador__n"/></e>
+    <e lm="corredor"><i>corredor</i><par n="treballador__n"/></e>
+    <e lm="corredor"><i>corredor</i><par n="libro__n"/></e>
+    <e lm="decorador"><i>decorador</i><par n="treballador__n"/></e>
+    <e lm="estornillador"><i>estornillador</i><par n="libro__n"/></e>
+    <e lm="deudor"><i>deud</i><par n="treballad/or__adj"/></e>
+    <e lm="deudor"><i>deudor</i><par n="treballador__n"/></e>
+    <e lm="dictador"><i>dictador</i><par n="treballador__n"/></e>
+    <e lm="disenyador"><i>disenyador</i><par n="treballador__n"/></e>
+    <e lm="distribuidor"><i>distribuid</i><par n="treballad/or__adj"/></e>
+    <e r="LR" lm="distribuidor"><p><l>distribuyidor</l><r>distribuidor</r></p><par n="treballad/or__adj"/></e>
+    <e lm="distribuidor"><i>distribuidor</i><par n="treballador__n"/></e>
+    <e r="LR" lm="distribuidor"><p><l>distribuyidor</l><r>distribuidor</r></p><par n="treballador__n"/></e>
+    <e lm="domador"><i>domador</i><par n="treballador__n"/></e>
+    <e lm="envasador"><i>envasador</i><par n="libro__n"/></e>
+    <e r="LR" lm="emperador"><i>emperador</i><par n="treballador__n"/></e>
+    <e lm="emperador"><i>emperador</i><par n="empera/dor__n"/></e>
+    <e lm="encantador"><i>encantad</i><par n="treballad/or__adj"/></e>
+    <e lm="encantador"><i>encantador</i><par n="treballador__n"/></e>
+    <e lm="trepad"><i>trepad</i><par n="treballad/or__adj"/></e>
+    <e lm="entrenador"><i>entrenador</i><par n="treballador__n"/></e>
+    <e lm="borrador"><i>borrador</i><par n="libro__n"/></e>
+    <e lm="escalador"><i>escalad</i><par n="treballad/or__adj"/></e>
+    <e lm="escalador"><i>escalador</i><par n="treballador__n"/></e>
+    <e lm="escorchador"><i>escorchador</i><par n="treballador__n"/></e>
+    <e lm="espectador"><i>espectador</i><par n="treballador__n"/></e>
+    <e lm="esplendor"><i>esplendor</i><par n="luenga__n"/></e>
+    <e lm="esquiador"><i>esquiador</i><par n="treballador__n"/></e>
+    <e lm="aparador"><i>aparador</i><par n="libro__n"/></e>
+    <e lm="flotador"><i>flotador</i><par n="libro__n"/></e>
+    <e lm="fumador"><i>fumad</i><par n="treballad/or__adj"/></e>
+    <e lm="fumador"><i>fumador</i><par n="treballador__n"/></e>
+    <e lm="goliador"><i>goliad</i><par n="treballad/or__adj"/></e>
+    <e r="LR" lm="goliador"><p><l>goleyad</l><r>goliad</r></p><par n="treballad/or__adj"/></e>
+    <e lm="bandiador"><i>bandiador</i><par n="libro__n"/></e>
+    <e lm="ganador"><i>ganad</i><par n="treballad/or__adj"/></e>
+    <e lm="ganador"><i>ganador</i><par n="treballador__n"/></e>
+    <e lm="achustador"><i>achustador</i><par n="libro__n"/></e>
+    <e lm="investigador"><i>investigad</i><par n="treballad/or__adj"/></e>
+    <e lm="investigador"><i>investigador</i><par n="treballador__n"/></e>
+    <e lm="chugador"><i>chugad</i><par n="treballad/or__adj"/></e>
+    <e lm="chugador"><i>chugador</i><par n="treballador__n"/></e>
+    <e lm="labrador"><i>labrador</i><par n="treballador__n"/></e>
+    <e lm="picador"><i>picador</i><par n="treballador__n"/></e>
+    <e lm="luitador"><i>luitad</i><par n="treballad/or__adj"/></e>
+    <e lm="luitador"><i>luitador</i><par n="treballador__n"/></e>
+    <e lm="maquillador"><i>maquillador</i><par n="treballador__n"/></e>
+    <e lm="tallador"><i>tallador</i><par n="libro__n"/></e>
+    <e lm="marcador"><i>marcador</i><par n="libro__n"/></e>
+    <e lm="minchador"><i>minchad</i><par n="treballad/or__adj"/></e>
+    <e lm="minchador"><i>minchador</i><par n="libro__n"/></e>
+    <e lm="mirador"><i>mirador</i><par n="libro__n"/></e>
+    <e lm="mocador"><i>mocador</i><par n="libro__n"/></e>
+    <e lm="mostrador"><i>mostrador</i><par n="libro__n"/></e>
+    <e lm="nadador"><i>nadad</i><par n="treballad/or__adj"/></e>
+    <e lm="nadador"><i>nadador</i><par n="treballador__n"/></e>
+    <e lm="limpiador"><i>limpiad</i><par n="treballad/or__adj"/></e>
+    <e lm="limpiador"><i>limpiador</i><par n="treballador__n"/></e>
+    <e lm="ubridor"><i>ubridor</i><par n="libro__n"/></e>
+    <e lm="orador"><i>orador</i><par n="treballador__n"/></e>
+    <e lm="penchador"><i>penchador</i><par n="libro__n"/></e>
+    <e lm="pensador"><i>pensad</i><par n="treballad/or__adj"/></e>
+    <e lm="pensador"><i>pensador</i><par n="treballador__n"/></e>
+    <e lm="perdedor"><i>perded</i><par n="treballad/or__adj"/></e>
+    <e lm="perdedor"><i>perdedor</i><par n="treballador__n"/></e>
+    <e lm="presentador"><i>presentador</i><par n="treballador__n"/></e>
+    <e lm="prestidichitador"><i>prestidichitador</i><par n="treballador__n"/></e>
+    <e lm="pudor"><i>pudor</i><par n="luenga__n"/></e>
+    <e lm="radiador"><i>radiador</i><par n="libro__n"/></e>
+    <e lm="recibidor"><i>recibidor</i><par n="libro__n"/></e>
+    <e lm="remolcador"><i>remolcad</i><par n="treballad/or__adj"/></e>
+    <e lm="remolcador"><i>remolcador</i><par n="libro__n"/></e>
+    <e lm="lavador"><i>lavador</i><par n="treballador__n"/></e>
+    <e lm="repartidor"><i>repartidor</i><par n="treballador__n"/></e>
+    <e lm="repetidor"><i>repetidor</i><par n="treballador__n"/></e>
+    <e lm="rotulador"><i>rotulador</i><par n="libro__n"/></e>
+    <e r="LR" lm="rotulador"><p><l>retulador</l><r>rotulador</r></p><par n="libro__n"/></e>
+    <e lm="saltador"><i>saltad</i><par n="treballad/or__adj"/></e>
+    <e lm="saltador"><i>saltador</i><par n="treballador__n"/></e>
+    <e lm="salvador"><i>salvad</i><par n="treballad/or__adj"/></e>
+    <e lm="salvador"><i>salvador</i><par n="treballador__n"/></e>
+    <e lm="senador"><i>senador</i><par n="treballador__n"/></e>
+    <e lm="soniador"><i>soniad</i><par n="treballad/or__adj"/></e>
+    <e lm="sudor"><i>sudor</i><par n="luenga__n"/></e>
+    <e lm="tocador"><i>tocador</i><par n="libro__n"/></e>
+    <e lm="atornillador"><i>atornillador</i><par n="libro__n"/></e>
+    <e lm="traidor"><i>traidor</i><par n="treballador__n"/></e>
+    <e lm="transbordador"><i>transbordad</i><par n="treballad/or__adj"/></e>
+    <e lm="transbordador"><i>transbordador</i><par n="treballador__n"/></e>
+    <e lm="transportador"><i>transportador</i><par n="libro__n"/></e>
+    <e lm="vencedor"><i>venced</i><par n="treballad/or__adj"/></e>
+    <e lm="vencedor"><i>vencedor</i><par n="treballador__n"/></e>
+    <e lm="vendedor"><i>vendedor</i><par n="treballador__n"/></e>
+    <e lm="ixoriador"><par n="/ix_x__var"/><i>oriador</i><par n="libro__n"/></e>
+    <e lm="volador"><i>volad</i><par n="treballad/or__adj"/></e>
+    <e lm="boxeyador"><i>boxeyador</i><par n="treballador__n"/></e>
+    <e r="LR" lm="boxeyador"><p><l>boxiador</l><r>boxeyador</r></p><par n="treballador__n"/></e>
+    <e lm="coordinador"><i>coordinad</i><par n="treballad/or__adj"/></e>
+    <e lm="coordinador"><i>coordinador</i><par n="treballador__n"/></e>
+    <e lm="cautivador"><i>cautivad</i><par n="treballad/or__adj"/></e>
+    <e lm="cautivador"><i>cautivador</i><par n="treballador__n"/></e>
+    <e lm="escargador"><i>escargad</i><par n="treballad/or__adj"/></e>
+    <e r="LR" lm="escargador"><p><l>descargador</l><r>escargador</r></p><par n="treballador__n"/></e>
+    <e lm="gubernador"><i>gubernador</i><par n="treballador__n"/></e>
+    <e lm="indicador"><i>indicad</i><par n="treballad/or__adj"/></e>
+    <e lm="indicador"><i>indicador</i><par n="libro__n"/></e>
+    <e lm="menospreciador"><i>menospreciad</i><par n="treballad/or__adj"/></e>
+    <e lm="ordinador"><i>ordinador</i><par n="libro__n"/></e>
+    <e lm="pedricador"><i>pedricador</i><par n="treballador__n"/></e>
+    <e lm="rallador"><i>rallador</i><par n="libro__n"/></e>
+    <e lm="trucador"><i>trucador</i><par n="libro__n"/></e>
+    <e lm="ascensor"><i>ascensor</i><par n="libro__n"/></e>
+    <e lm="asesor"><i>asesor</i><par n="treballador__n"/></e>
+    <e lm="asesor"><i>asesor</i><par n="opresor__adj"/></e>
+    <e lm="impresor"><i>impresor</i><par n="treballador__n"/></e>
+    <e lm="invasor"><i>invasor</i><par n="treballador__n"/></e>
+    <e lm="invasor"><i>invasor</i><par n="opresor__adj"/></e>
+    <e lm="opresor"><i>opresor</i><par n="treballador__n"/></e>
+    <e lm="opresor"><i>opresor</i><par n="opresor__adj"/></e>
+    <e lm="profesor"><i>profesor</i><par n="treballador__n"/></e>
+    <e lm="retrovisor"><i>retrovisor</i><par n="libro__n"/></e>
+    <e lm="revisor"><i>revisor</i><par n="treballador__n"/></e>
+    <e lm="televisor"><i>televisor</i><par n="libro__n"/></e>
+    <e lm="agricultor"><i>agricultor</i><par n="treballador__n"/></e>
+    <e lm="autor"><i>autor</i><par n="treballador__n"/></e>
+    <e lm="benefactor"><i>benefactor</i><par n="opresor__adj"/></e>
+    <e lm="cantautor"><i>cantautor</i><par n="treballador__n"/></e>
+    <e lm="castor"><i>castor</i><par n="libro__n"/></e>
+    <e lm="cobertor"><i>cobertor</i><par n="libro__n"/></e>
+    <e lm="compositor"><i>compositor</i><par n="treballador__n"/></e>
+    <e lm="conductor"><i>conductor</i><par n="treballador__n"/></e>
+    <e lm="conductor"><i>conductor</i><par n="opresor__adj"/></e>
+    <e lm="constructor"><i>constructor</i><par n="treballador__n"/></e>
+    <e lm="director"><i>director</i><par n="treballador__n"/></e>
+    <e lm="doctor"><i>doctor</i><par n="treballador__n"/></e>
+    <e lm="elector"><i>elector</i><par n="treballador__n"/></e>
+    <e lm="escritor"><i>escritor</i><par n="treballador__n"/></e>
+    <e lm="escultor"><i>escultor</i><par n="treballador__n"/></e>
+    <e lm="extintor"><i>extintor</i><par n="libro__n"/></e>
+    <e lm="extractor"><i>extractor</i><par n="libro__n"/></e>
+    <e lm="factor"><i>factor</i><par n="libro__n"/></e>
+    <e lm="inspector"><i>inspector</i><par n="treballador__n"/></e>
+    <e lm="instructor"><i>instructor</i><par n="treballador__n"/></e>
+    <e lm="interruptor"><i>interruptor</i><par n="libro__n"/></e>
+    <e lm="inventor"><i>inventor</i><par n="treballador__n"/></e>
+    <e lm="lector"><i>lector</i><par n="treballador__n"/></e>
+    <e lm="lector"><i>lector</i><par n="opresor__adj"/></e>
+    <e lm="locutor"><i>locutor</i><par n="treballador__n"/></e>
+    <e lm="monitor"><i>monitor</i><par n="treballador__n"/></e>
+    <e lm="monitor"><i>monitor</i><par n="opresor__adj"/></e>
+    <e lm="motor"><i>motor</i><par n="treballador__n"/></e>
+    <e lm="motor"><i>motor</i><par n="opresor__adj"/></e>
+    <e lm="pastor"><i>pastor</i><par n="treballador__n"/></e>
+    <e lm="pintor"><i>pintor</i><par n="treballador__n"/></e>
+    <e lm="productor"><i>productor</i><par n="treballador__n"/></e>
+    <e lm="productor"><i>productor</i><par n="opresor__adj"/></e>
+    <e lm="protector"><i>protector</i><par n="opresor__adj"/></e>
+    <e lm="reactor"><i>reactor</i><par n="libro__n"/></e>
+    <e lm="receptor"><i>receptor</i><par n="libro__n"/></e>
+    <e lm="reflector"><i>reflector</i><par n="libro__n"/></e>
+    <e lm="sector"><i>sector</i><par n="libro__n"/></e>
+    <e lm="tractor"><i>tractor</i><par n="libro__n"/></e>
+    <e lm="tutor"><i>tutor</i><par n="treballador__n"/></e>
+    <e lm="tutor"><i>tutor</i><par n="opresor__adj"/></e>
+    <e lm="amargor"><i>amargor</i><par n="luenga__n"/></e>
+    <e lm="amor"><i>amor</i><par n="libro__n"/></e>
+    <e r="LR" lm="amor"><p><l>aimor</l><r>amor</r></p><par n="luenga__n"/></e>
+    <e lm="calor"><i>calor</i><par n="luenga__n"/></e>
+    <e lm="claror"><i>claror</i><par n="luenga__n"/></e>
+    <e lm="deshonor"><i>deshonor</i><par n="luenga__n"/></e>
+    <e lm="dulzor"><i>dulzor</i><par n="luenga__n"/></e>
+    <e r="LR" lm="dulzor"><p><l>dolzor</l><r>dulzor</r></p><par n="luenga__n"/></e>
+    <e lm="dolor"><i>dolor</i><par n="luenga__n"/></e>
+    <e lm="error"><i>error</i><par n="luenga__n"/></e>
+    <e lm="favor"><i>favor</i><par n="luenga__n"/></e>
+    <e lm="flor"><i>flor</i><par n="luenga__n"/></e>
+    <e lm="foscor"><i>foscor</i><par n="luenga__n"/></e>
+    <e lm="horror"><i>horror</i><par n="luenga__n"/></e>
+    <e lm="humor"><i>humor</i><par n="luenga__n"/></e>
+    <e lm="licor"><i>licor</i><par n="libro__n"/></e>
+    <e lm="olor"><i>olor</i><par n="luenga__n"/></e>
+    <e lm="picor"><i>picor</i><par n="luenga__n"/></e>
+    <e lm="reisenyor"><i>reisenyor</i><par n="libro__n"/></e>
+    <e r="LR" lm="reisenyor"><p><l>reisinyor</l><r>reisenyor</r></p><par n="libro__n"/></e>
+    <e lm="temor"><i>temor</i><par n="luenga__n"/></e>
+    <e lm="tenor"><i>tenor</i><par n="libro__n"/></e>
+    <e lm="terror"><i>terror</i><par n="luenga__n"/></e>
+    <e lm="tumor"><i>tumor</i><par n="libro__n"/></e>
+    <e lm="valor"><i>valor</i><par n="luenga__n"/></e>
+    <e lm="vapor"><i>vapor</i><par n="luenga__n"/></e>
+
+    <e lm="abreviatura"><i>abreviatura</i><par n="luenga__n"/></e>
+    <e lm="ausencia"><i>ausencia</i><par n="luenga__n"/></e>
+    <e lm="abundancia"><i>abundancia</i><par n="luenga__n"/></e>
+    <e lm="alcacia"><i>alcacia</i><par n="luenga__n"/></e>
+    <e r="LR" lm="alcacia"><p><l>acacia</l><r>alcacia</r></p><par n="luenga__n"/></e>
+    <e lm="acampada"><i>acampada</i><par n="luenga__n"/></e>
+    <e lm="acrobata"><i>acrobata</i><par n="luenga__n"/></e>
+    <e lm="acta"><i>acta</i><par n="luenga__n"/></e>
+    <e r="LR" lm="acta"><p><l>auta</l><r>acta</r></p><par n="luenga__n"/></e>
+    <e lm="adolescencia"><i>adolescencia</i><par n="luenga__n"/></e>
+    <e lm="achencia"><i>achencia</i><par n="luenga__n"/></e>
+    <e lm="achenda"><i>achenda</i><par n="luenga__n"/></e>
+    <e lm="angunia"><i>angunia</i><par n="luenga__n"/></e>
+    <e lm="agricultura"><i>agricultura</i><par n="luenga__n"/></e>
+    <e lm="aliga"><i>aliga</i><par n="luenga__n"/></e>
+    <e r="LR" lm="aliga"><p><l>alica</l><r>aliga</r></p><par n="luenga__n"/></e>
+    <e lm="agulla"><i>agulla</i><par n="luenga__n"/></e>
+    <e lm="fregadera"><i>fregadera</i><par n="luenga__n"/></e>
+    <e lm="ixada"><i>ixada</i><par n="luenga__n"/></e>
+    <e lm="ixeta"><par n="/ix_x__var"/><i>ixeta</i><par n="luenga__n"/></e>
+    <e r="LR" lm="ixeta"><p><l>jeta</l><r>ixeta</r></p><par n="luenga__n"/></e>
+    <e r="LR" lm="ixeta"><p><l>cheta</l><r>ixeta</r></p><par n="luenga__n"/></e>
+    <e lm="alerchia"><i>alerchia</i><par n="luenga__n"/></e>
+    <e lm="ala"><i>ala</i><par n="luenga__n"/></e>
+    <e lm="bocarta"><i>bocarta</i><par n="luenga__n"/></e>
+    <e lm="alba"><i>alba</i><par n="luenga__n"/></e>
+    <e lm="alberchena"><i>alberchena</i><par n="luenga__n"/></e>
+    <e lm="albufera"><i>albufera</i><par n="luenga__n"/></e>
+    <e lm="aleta"><i>aleta</i><par n="luenga__n"/></e>
+    <e lm="albaca"><i>albaca</i><par n="luenga__n"/></e>
+    <e lm="alga"><i>alga</i><par n="luenga__n"/></e>
+    <e lm="alianza"><i>alianza</i><par n="luenga__n"/></e>
+    <e lm="alpinista"><i>alpinista</i><par n="accionista__n"/></e>
+    <e lm="altura"><i>altura</i><par n="luenga__n"/></e>
+    <e lm="ama"><i>ama</i><par n="luenga__n"/></e>
+    <e lm="ensalada"><i>ensalada</i><par n="luenga__n"/></e>
+    <e lm="ambaixada"><i>ambaixada</i><par n="luenga__n"/></e>
+    <e r="LR" lm="ambaixada"><p><l>embaixada</l><r>ambaixada</r></p><par n="luenga__n"/></e>    
+    <e lm="ambulancia"><i>ambulancia</i><par n="luenga__n"/></e>
+    <e lm="almendra"><i>almendra</i><par n="luenga__n"/></e>
+    <e lm="almendrera"><i>almendrera</i><par n="luenga__n"/></e>
+    <e lm="amnistía"><i>amnistía</i><par n="luenga__n"/></e>
+    <e lm="amplaria"><i>amplaria</i><par n="luenga__n"/></e>
+    <e lm="amplura"><i>amplura</i><par n="luenga__n"/></e>
+    <e lm="redoma"><i>redoma</i><par n="luenga__n"/></e>
+    <e lm="anatomía"><i>anatomía</i><par n="luenga__n"/></e>
+    <e lm="anestesia"><i>anestesia</i><par n="luenga__n"/></e>
+    <e lm="angunia"><i>angunia</i><par n="luenga__n"/></e>
+    <e lm="enguila"><i>enguila</i><par n="luenga__n"/></e>
+    <e lm="alma"><i>alma</i><par n="luenga__n"/></e>
+    <e lm="antena"><i>antena</i><par n="luenga__n"/></e>
+    <e r="LR" lm="antena"><p><l>entena</l><r>antena</r></p><par n="luenga__n"/></e>
+    <e lm="antipatía"><i>antipatía</i><par n="luenga__n"/></e>
+    <e lm="anchova"><i>anchova</i><par n="luenga__n"/></e>
+    <e lm="aquarela"><i>aquarela</i><par n="luenga__n"/></e>
+    <e lm="arbolera"><i>arbolera</i><par n="luenga__n"/></e>
+    <e lm="arena"><i>arena</i><par n="luenga__n"/></e>
+    <e lm="ariesta"><i>ariesta</i><par n="luenga__n"/></e>
+    <e lm="aritmetica"><i>aritmetica</i><par n="luenga__n"/></e>
+    <e lm="aroma"><i>aroma</i><par n="luenga__n"/></e>
+    <e lm="farcha"><i>farcha</i><par n="luenga__n"/></e>
+    <e lm="arteria"><i>arteria</i><par n="luenga__n"/></e>
+    <e lm="aspirina"><i>aspirina</i><par n="luenga__n"/></e>
+    <e lm="asambleya"><i>asambleya</i><par n="luenga__n"/></e>
+    <e lm="asignatura"><i>asignatura</i><par n="luenga__n"/></e>
+    <e lm="astrolochía"><i>astrolochía</i><par n="luenga__n"/></e>
+    <e lm="astronauta"><i>astronauta</i><par n="luenga__n"/></e>
+    <e lm="astronomía"><i>astronomía</i><par n="luenga__n"/></e>
+    <e lm="ferramienta"><i>ferramienta</i><par n="luenga__n"/></e>
+    <e lm="atmosfera"><i>atmosfera</i><par n="luenga__n"/></e>
+    <e lm="audacia"><i>audacia</i><par n="luenga__n"/></e>
+    <e lm="aula"><i>aula</i><par n="luenga__n"/></e>
+    <e lm="autoescuela"><i>autoescuela</i><par n="luenga__n"/></e>
+    <e lm="automobilista"><i>automobilista</i><par n="accionista__n"/></e>
+    <e lm="autonomía"><i>autonomía</i><par n="luenga__n"/></e>
+    <e lm="autopista"><i>autopista</i><par n="luenga__n"/></e>
+    <e lm="avantalla"><i>avantalla</i><par n="luenga__n"/></e>
+    <e lm="abantguardia"><i>abantguardia</i><par n="luenga__n"/></e>
+    <e lm="avería"><i>avería</i><par n="luenga__n"/></e>
+    <e lm="avaricia"><i>avaricia</i><par n="luenga__n"/></e>
+    <e lm="abillana"><i>abillana</i><par n="luenga__n"/></e>
+    <e r="LR" lm="abillana"><p><l>avillana</l><r>abillana</r></p><par n="luenga__n"/></e>    
+    <e lm="abillanera"><i>abillanera</i><par n="luenga__n"/></e>
+    <e r="LR" lm="abillanera"><p><l>avillanera</l><r>abillanera</r></p><par n="luenga__n"/></e>    
+    <e lm="cibada"><i>cibada</i><par n="luenga__n"/></e>
+    <e lm="aventura"><i>aventura</i><par n="luenga__n"/></e>
+    <e lm="aprisa"><i>aprisa</i><par n="luenga__n"/></e>
+    <e lm="avenida"><i>avenida</i><par n="luenga__n"/></e>
+    <e lm="avioneta"><i>avioneta</i><par n="luenga__n"/></e>
+    <e lm="baca"><i>baca</i><par n="luenga__n"/></e>
+    <e lm="bada"><i>bada</i><par n="luenga__n"/></e>
+    <e lm="fendilla"><i>fendilla</i><par n="luenga__n"/></e>
+    <e lm="bayoneta"><i>bayoneta</i><par n="luenga__n"/></e>
+    <e lm="bachoca"><i>bachoca</i><par n="luenga__n"/></e>
+    <e lm="paca"><i>paca</i><par n="luenga__n"/></e>
+    <e lm="bala"><i>bala</i><par n="luenga__n"/></e>
+    <e lm="balanza"><i>balanza</i><par n="luenga__n"/></e>
+    <e lm="galdrufa"><i>galdrufa</i><par n="luenga__n"/></e>
+    <e lm="ballena"><i>ballena</i><par n="luenga__n"/></e>
+    <e lm="banca"><i>banca</i><par n="luenga__n"/></e>
+    <e lm="bandera"><i>bandera</i><par n="luenga__n"/></e>
+    <e lm="banyera"><i>banyera</i><par n="luenga__n"/></e>
+    <e lm="baralla"><i>baralla</i><par n="luenga__n"/></e>
+    <e lm="barana"><i>barana</i><par n="luenga__n"/></e>
+    <e lm="barba"><i>barba</i><par n="luenga__n"/></e>
+    <e lm="barbacoa"><i>barbacoa</i><par n="luenga__n"/></e>
+    <e lm="barbería"><i>barbería</i><par n="luenga__n"/></e>
+    <e lm="barca"><i>barca</i><par n="luenga__n"/></e>
+    <e lm="barra"><i>barra</i><par n="luenga__n"/></e>
+    <e lm="barraca"><i>barraca</i><par n="luenga__n"/></e>
+    <e lm="bascula"><i>bascula</i><par n="luenga__n"/></e>
+    <e lm="gayata"><i>gayata</i><par n="luenga__n"/></e>
+    <e lm="batalla"><i>batalla</i><par n="luenga__n"/></e>
+    <e lm="batuta"><i>batuta</i><par n="luenga__n"/></e>
+    <e lm="baba"><i>baba</i><par n="luenga__n"/></e>
+    <e lm="beca"><i>beca</i><par n="luenga__n"/></e>
+    <e lm="vaina"><i>vaina</i><par n="luenga__n"/></e>
+    <e lm="billota"><i>billota</i><par n="luenga__n"/></e>
+    <e lm="benzina"><i>benzina</i><par n="luenga__n"/></e>
+    <e lm="bestia"><i>bestia</i><par n="luenga__n"/></e>
+    <e lm="bestieza"><i>bestieza</i><par n="luenga__n"/></e>
+    <e lm="biblia"><i>biblia</i><par n="luenga__n"/></e>
+    <e lm="biblioteca"><i>biblioteca</i><par n="luenga__n"/></e>
+    <e lm="bicicleta"><i>bicicleta</i><par n="luenga__n"/></e>
+    <e lm="biografía"><i>biografía</i><par n="luenga__n"/></e>
+    <e lm="biolochía"><i>biolochía</i><par n="luenga__n"/></e>
+    <e lm="birla"><i>birla</i><par n="luenga__n"/></e>
+    <e lm="acelga"><i>acelga</i><par n="luenga__n"/></e>
+    <e lm="boa"><i>boa</i><par n="luenga__n"/></e>
+    <e lm="bobina"><i>bobina</i><par n="luenga__n"/></e>
+    <e lm="boca"><i>boca</i><par n="luenga__n"/></e>
+    <e lm="voda"><i>voda</i><par n="luenga__n"/></e>
+    <e lm="burra"><i>burra</i><par n="luenga__n"/></e>
+    <e lm="boya"><i>boya</i><par n="luenga__n"/></e>
+    <e lm="boina"><i>boina</i><par n="luenga__n"/></e>
+    <e lm="boira"><i>boira</i><par n="luenga__n"/></e>
+    <e lm="bola"><i>bola</i><par n="luenga__n"/></e>
+    <e lm="bombona"><i>bombona</i><par n="luenga__n"/></e>
+    <e lm="borrasca"><i>borrasca</i><par n="luenga__n"/></e>
+    <e lm="borreta"><i>borreta</i><par n="luenga__n"/></e>
+    <e lm="bota"><i>bota</i><par n="luenga__n"/></e>
+    <e lm="botella"><i>botella</i><par n="luenga__n"/></e>
+    <e lm="butifarra"><i>butifarra</i><par n="luenga__n"/></e>
+    <e lm="morciella"><i>morci</i><par n="capi/ella__n"/></e>
+    <e lm="botiga"><i>botiga</i><par n="luenga__n"/></e>
+    <e lm="bocina"><i>bocina</i><par n="luenga__n"/></e>
+    <e lm="brazalera"><i>brazalera</i><par n="luenga__n"/></e>
+    <e lm="brasa"><i>brasa</i><par n="luenga__n"/></e>
+    <e lm="broza"><i>broza</i><par n="luenga__n"/></e>
+    <e lm="bruixa"><i>bruixa</i><par n="luenga__n"/></e>
+    <e lm="bruixula"><i>bruixula</i><par n="luenga__n"/></e>
+    <e lm="brusa"><i>brusa</i><par n="luenga__n"/></e>
+    <e lm="bardoma"><i>bardoma</i><par n="luenga__n"/></e>
+    <e lm="buixiga"><i>buixiga</i><par n="luenga__n"/></e>
+    <e lm="bofetada"><i>bofetada</i><par n="luenga__n"/></e>
+    <e lm="roscada"><i>roscada</i><par n="luenga__n"/></e>
+    <e lm="lavandera"><i>lavandera</i><par n="luenga__n"/></e>
+    <e lm="lavandería"><i>lavandería</i><par n="luenga__n"/></e>
+    <e lm="buchía"><i>buchía</i><par n="luenga__n"/></e>
+    <e lm="burguesía"><i>burguesía</i><par n="luenga__n"/></e>
+    <e lm="burocracia"><i>burocracia</i><par n="luenga__n"/></e>
+    <e lm="butaca"><i>butaca</i><par n="luenga__n"/></e>
+    <e lm="ambolla"><i>ambolla</i><par n="luenga__n"/></e>
+    <e lm="cabana"><i>cabana</i><par n="luenga__n"/></e>
+    <e r="LR" lm="cabana"><p><l>cabanya</l><r>cabana</r></p><par n="luenga__n"/></e>    
+    <e lm="craba"><i>craba</i><par n="luenga__n"/></e>
+    <e lm="caca"><i>caca</i><par n="luenga__n"/></e>
+    <e lm="cacera"><i>cacera</i><par n="luenga__n"/></e>
+    <e lm="cadena"><i>cadena</i><par n="luenga__n"/></e>
+    <e lm="cardelina"><i>cardelina</i><par n="luenga__n"/></e>
+    <e lm="siella"><i>si</i><par n="capi/ella__n"/></e>
+    <e lm="cafetera"><i>cafetera</i><par n="luenga__n"/></e>
+    <e lm="cafetería"><i>cafetería</i><par n="luenga__n"/></e>
+    <e lm="caixa"><i>ca</i><par n="/ix_x__var"/><i>a</i><par n="luenga__n"/></e>
+    <e lm="caixeta"><i>ca</i><par n="/ix_x__var"/><i>eta</i><par n="luenga__n"/></e>
+    <e lm="caligrafía"><i>caligrafía</i><par n="luenga__n"/></e>
+    <e lm="calculadera"><i>calculadera</i><par n="luenga__n"/></e>
+    <e r="LR" lm="calculadera"><p><l>calculadora</l><r>calculadera</r></p><par n="luenga__n"/></e>    
+    <e lm="caldera"><i>caldera</i><par n="luenga__n"/></e>
+    <e lm="caloría"><i>caloría</i><par n="luenga__n"/></e>
+    <e lm="calumnia"><i>calumnia</i><par n="luenga__n"/></e>
+    <e lm="camamila"><i>camamila</i><par n="luenga__n"/></e>
+    <e lm="cambioneta"><i>cambioneta</i><par n="luenga__n"/></e>
+    <e r="LR" lm="cambioneta"><p><l>cambrioneta</l><r>camioneta</r></p><par n="luenga__n"/></e>    
+    <e lm="campana"><i>campana</i><par n="luenga__n"/></e>
+    <e lm="campaneta"><i>campaneta</i><par n="luenga__n"/></e>
+    <e lm="campanya"><i>campanya</i><par n="luenga__n"/></e>
+    <e lm="canoa"><i>canoa</i><par n="luenga__n"/></e>
+    <e lm="canyería"><i>canyería</i><par n="luenga__n"/></e>
+    <e lm="cansera"><i>cansera</i><par n="luenga__n"/></e>
+    <e lm="cantimplora"><i>cantimplora</i><par n="luenga__n"/></e>
+    <e lm="cantonada"><i>cantonada</i><par n="luenga__n"/></e>
+    <e lm="almada"><i>almada</i><par n="luenga__n"/></e>
+    <e lm="capiella"><i>capi</i><par n="capi/ella__n"/></e>
+    <e lm="capitalista"><i>capitalista</i><par n="accionista__n"/></e>
+    <e lm="capitalista"><i>capitalista</i><par n="social__adj"/></e>
+    <e lm="caixa"><i>caixa</i><par n="luenga__n"/></e>
+    <e lm="capsula"><i>capsula</i><par n="luenga__n"/></e>
+    <e lm="caravana"><i>caravana</i><par n="luenga__n"/></e>
+    <e lm="carestía"><i>carestía</i><par n="luenga__n"/></e>
+    <e lm="caricatura"><i>caricatura</i><par n="luenga__n"/></e>
+    <e lm="quera"><i>quera</i><par n="luenga__n"/></e>
+    <e lm="carpeta"><i>carpeta</i><par n="luenga__n"/></e>
+    <e lm="carrera"><i>carrera</i><par n="luenga__n"/></e>
+    <e lm="carrera"><i>carrera</i><par n="luenga__n"/></e>
+    <e lm="carretera"><i>carretera</i><par n="luenga__n"/></e>
+    <e lm="carroza"><i>carroza</i><par n="luenga__n"/></e>
+    <e lm="carrocería"><i>carrocería</i><par n="luenga__n"/></e>
+    <e lm="carta"><i>carta</i><par n="luenga__n"/></e>
+    <e lm="cartera"><i>cartera</i><par n="luenga__n"/></e>
+    <e lm="garchofa"><i>garchofa</i><par n="luenga__n"/></e>
+    <e lm="casera"><i>casera</i><par n="luenga__n"/></e>
+    <e lm="loza"><i>loza</i><par n="luenga__n"/></e>
+    <e lm="cazuela"><i>cazuela</i><par n="luenga__n"/></e>
+    <e lm="castanyera"><i>castanyera</i><par n="luenga__n"/></e>
+    <e lm="milorcha"><i>milorcha</i><par n="luenga__n"/></e>
+    <e lm="caballa"><i>caballa</i><par n="luenga__n"/></e>
+    <e lm="cebolla"><i>cebolla</i><par n="luenga__n"/></e>
+    <e lm="bruno"><i>bruno</i><par n="libro__n"/></e>
+    <e lm="celda"><i>celda</i><par n="luenga__n"/></e>
+    <e lm="celula"><i>celula</i><par n="luenga__n"/></e>
+    <e lm="cella"><i>cella</i><par n="luenga__n"/></e>
+    <e lm="bodega"><i>bodega</i><par n="luenga__n"/></e>
+    <e lm="suterrano"><i>suterrano</i><par n="libro__n"/></e>
+    <e lm="cenisa"><i>cenisa</i><par n="luenga__n"/></e>
+    <e lm="centena"><i>centena</i><par n="luenga__n"/></e>
+    <e lm="cepa"><i>cepa</i><par n="luenga__n"/></e>
+    <e lm="cera"><i>cera</i><par n="luenga__n"/></e>
+    <e lm="ceramica"><i>ceramica</i><par n="luenga__n"/></e>
+    <e lm="ceremonia"><i>ceremonia</i><par n="luenga__n"/></e>
+    <e lm="certeza"><i>certeza</i><par n="luenga__n"/></e>
+    <e lm="ciclista"><i>ciclista</i><par n="accionista__n"/></e>
+    <e lm="sciencia"><i>sciencia</i><par n="luenga__n"/></e>
+    <e lm="cigüenya"><i>cigüenya</i><par n="luenga__n"/></e>
+    <e lm="cima"><i>cima</i><par n="luenga__n"/></e>
+    <e lm="cinta"><i>cinta</i><par n="luenga__n"/></e>
+    <e lm="circumferencia"><i>circumferencia</i><par n="luenga__n"/></e>
+    <e lm="ciresa"><i>ciresa</i><par n="luenga__n"/></e>
+    <e lm="ciresera"><i>ciresera</i><par n="luenga__n"/></e>
+    <e lm="cirurchía"><i>cirurchía</i><par n="luenga__n"/></e>
+    <e r="LR" lm="cirurchía"><p><l>ciruchía</l><r>cirurchía</r></p><par n="luenga__n"/></e>    
+    <e r="LR" lm="zruchía"><p><l>zruchía</l><r>cirurchía</r></p><par n="luenga__n"/></e>    
+    <e r="LR" lm="zrurchía"><p><l>zrurchía</l><r>cirurchía</r></p><par n="luenga__n"/></e>    
+    <e lm="cesta"><i>cesta</i><par n="luenga__n"/></e>
+    <e lm="cisterna"><i>cisterna</i><par n="luenga__n"/></e>
+    <e lm="ciudadanía"><i>ciudadanía</i><par n="luenga__n"/></e>
+    <e lm="cibada"><i>cibada</i><par n="luenga__n"/></e>
+    <e lm="hordio"><i>hordio</i><par n="libro__n"/></e>
+    <e r="LR" lm="hordio"><p><l>ordio</l><r>hordio</r></p><par n="libro__n"/></e>    
+    <e lm="clausura"><i>clausura</i><par n="luenga__n"/></e>
+    <e lm="clavicula"><i>clavicula</i><par n="luenga__n"/></e>
+    <e r="LR" lm="clavicula"><p><l>clavicla</l><r>clavicula</r></p><par n="libro__n"/></e>    
+    <e lm="clavilla"><i>clavilla</i><par n="luenga__n"/></e>
+    <e lm="clientalla"><i>clientalla</i><par n="luenga__n"/></e>
+    <e r="LR" lm="clientalla"><p><l>clientalla</l><r>clientela</r></p><par n="libro__n"/></e>    
+    <e lm="clima"><i>clima</i><par n="luenga__n"/></e>
+    <e lm="clota"><i>clota</i><par n="luenga__n"/></e>
+    <e lm="clot"><i>clota</i><par n="clo/t__n"/></e>
+    <e lm="cocaína"><i>cocaína</i><par n="luenga__n"/></e>
+    <e lm="coincidencia"><i>coincidencia</i><par n="luenga__n"/></e>
+    <e lm="almada"><i>almada</i><par n="luenga__n"/></e>
+    <e lm="colega"><i>colega</i><par n="luenga__n"/></e>
+    <e lm="collada"><i>collada</i><par n="luenga__n"/></e>
+    <e lm="paloma"><i>paloma</i><par n="luenga__n"/></e>
+    <e lm="columna"><i>columna</i><par n="luenga__n"/></e>
+    <e lm="codera"><i>codera</i><par n="luenga__n"/></e>
+    <e lm="comedia"><i>comedia</i><par n="luenga__n"/></e>
+    <e lm="comentarista"><i>comentarista</i><par n="accionista__n"/></e>
+    <e lm="milorcha"><i>milorcha</i><par n="luenga__n"/></e>
+    <e lm="comisaría"><i>comisaría</i><par n="luenga__n"/></e>
+    <e lm="companyía"><i>companyía</i><par n="luenga__n"/></e>
+    <e lm="compatriota"><i>compatriota</i><par n="luenga__n"/></e>
+    <e lm="competencia"><i>competencia</i><par n="luenga__n"/></e>
+    <e lm="compra"><i>compra</i><par n="luenga__n"/></e>
+    <e r="LR" lm="compra"><p><l>crompa</l><r>compra</r></p><par n="luenga__n"/></e>    
+    <e lm="compresa"><i>compresa</i><par n="luenga__n"/></e>
+    <e lm="conducta"><i>conducta</i><par n="luenga__n"/></e>
+    <e lm="confidencia"><i>confidencia</i><par n="luenga__n"/></e>
+    <e lm="conchuntura"><i>conchuntura</i><par n="luenga__n"/></e>
+    <e lm="conchura"><i>conchura</i><par n="luenga__n"/></e>
+    <e lm="conquista"><i>conquista</i><par n="luenga__n"/></e>
+    <e lm="consellería"><i>consellería</i><par n="luenga__n"/></e>
+    <e lm="conseqüencia"><i>conseqüencia</i><par n="luenga__n"/></e>
+    <e lm="consistencia"><i>consistencia</i><par n="luenga__n"/></e>
+    <e lm="constancia"><i>constancia</i><par n="luenga__n"/></e>
+    <e lm="convivencia"><i>convivencia</i><par n="luenga__n"/></e>
+    <e lm="copa"><i>copa</i><par n="luenga__n"/></e>
+    <e lm="zafraina"><i>zafraina</i><par n="luenga__n"/></e>
+    <e r="LR" lm="zafraina"><p><l>zafranya</l><r>zafraina</r></p><par n="luenga__n"/></e>    
+    <e lm="corona"><i>corona</i><par n="luenga__n"/></e>
+    <e lm="carrucha"><i>carrucha</i><par n="luenga__n"/></e>
+    <e lm="cortina"><i>cortina</i><par n="luenga__n"/></e>
+    <e lm="costiella"><i>costi</i><par n="capi/ella__n"/></e>
+    <e lm="costura"><i>costura</i><par n="luenga__n"/></e>
+    <e lm="cueva"><i>cueva</i><par n="luenga__n"/></e>
+    <e lm="crema"><i>crema</i><par n="luenga__n"/></e>
+    <e lm="empanadiella"><i>empanadi</i><par n="capi/ella__n"/></e>
+    <e lm="cristalería"><i>cristalería</i><par n="luenga__n"/></e>
+    <e lm="cronista"><i>cronista</i><par n="accionista__n"/></e>
+    <e lm="chanca"><i>chanca</i><par n="luenga__n"/></e>
+    <e lm="coda"><i>coda</i><par n="luenga__n"/></e>
+    <e lm="pintacoda"><i>pintacoda</i><par n="luenga__n"/></e>
+    <e lm="coraza"><i>coraza</i><par n="luenga__n"/></e>
+    <e lm="culata"><i>culata</i><par n="luenga__n"/></e>
+    <e lm="cullara"><i>cullara</i><par n="luenga__n"/></e>
+    <e lm="cullareta"><i>cullareta</i><par n="luenga__n"/></e>
+    <e lm="culpa"><i>culpa</i><par n="luenga__n"/></e>
+    <e lm="cupula"><i>cupula</i><par n="luenga__n"/></e>
+    <e lm="milloca"><i>milloca</i><par n="luenga__n"/></e>
+    <e lm="panizo"><i>panizo</i><par n="libro__n"/></e>
+    <e lm="danza"><i>danza</i><par n="luenga__n"/></e>
+    <e lm="decada"><i>decada</i><par n="luenga__n"/></e>
+    <e lm="dedicatoria"><i>dedicatoria</i><par n="luenga__n"/></e>
+    <e lm="delicadeza"><i>delicadeza</i><par n="luenga__n"/></e>
+    <e lm="delicia"><i>delicia</i><par n="luenga__n"/></e>
+    <e lm="delinqüencia"><i>delinqüencia</i><par n="luenga__n"/></e>
+    <e lm="delta"><i>delta</i><par n="luenga__n"/></e>
+    <e lm="democracia"><i>democracia</i><par n="luenga__n"/></e>
+    <e lm="democrata"><i>democrata</i><par n="luenga__n"/></e>
+    <e lm="dentadura"><i>dentadura</i><par n="luenga__n"/></e>
+    <e lm="dentista"><i>dentista</i><par n="accionista__n"/></e>
+    <e lm="dependencia"><i>dependencia</i><par n="luenga__n"/></e>
+    <e lm="depuradora"><i>depuradora</i><par n="luenga__n"/></e>
+    <e lm="desgracia"><i>desgracia</i><par n="luenga__n"/></e>
+    <e lm="desgana"><i>desgana</i><par n="luenga__n"/></e>
+    <e lm="desobediencia"><i>desobediencia</i><par n="luenga__n"/></e>
+    <e lm="deuda"><i>deuda</i><par n="luenga__n"/></e>
+    <e lm="diadema"><i>diadema</i><par n="luenga__n"/></e>
+    <e lm="diana"><i>diana</i><par n="luenga__n"/></e>
+    <e lm="diapositiva"><i>diapositiva</i><par n="luenga__n"/></e>
+    <e lm="dictadura"><i>dictadura</i><par n="luenga__n"/></e>
+    <e lm="dieta"><i>dieta</i><par n="luenga__n"/></e>
+    <e lm="dilichencia"><i>dilichencia</i><par n="luenga__n"/></e>
+    <e lm="dinamita"><i>dinamita</i><par n="luenga__n"/></e>
+    <e lm="dinastía"><i>dinastía</i><par n="luenga__n"/></e>
+    <e lm="diploma"><i>diploma</i><par n="luenga__n"/></e>
+    <e lm="diplomacia"><i>diplomacia</i><par n="luenga__n"/></e>
+    <e lm="disciplina"><i>disciplina</i><par n="luenga__n"/></e>
+    <e lm="discordia"><i>discordia</i><par n="luenga__n"/></e>
+    <e lm="discoteca"><i>discoteca</i><par n="luenga__n"/></e>
+    <e lm="doctrina"><i>doctrina</i><par n="luenga__n"/></e>
+    <e lm="drama"><i>drama</i><par n="luenga__n"/></e>
+    <e lm="droga"><i>droga</i><par n="luenga__n"/></e>
+    <e lm="droga"><i>droga</i><par n="luenga__n"/></e>
+    <e lm="duana"><i>duana</i><par n="luenga__n"/></e>
+    <e lm="duna"><i>duna</i><par n="luenga__n"/></e>
+    <e lm="dureza"><i>dureza</i><par n="luenga__n"/></e>
+    <e lm="ecolochía"><i>ecolochía</i><par n="luenga__n"/></e>
+    <e lm="economía"><i>economía</i><par n="luenga__n"/></e>
+    <e lm="vanova"><i>vanova</i><par n="luenga__n"/></e>
+    <e lm="eficiencia"><i>eficiencia</i><par n="luenga__n"/></e>
+    <e lm="egoísta"><i>egoísta</i><par n="luenga__n"/></e>
+    <e lm="ferramienta"><i>ferramienta</i><par n="luenga__n"/></e>
+    <e lm="electricista"><i>electricista</i><par n="accionista__n"/></e>
+    <e lm="elegancia"><i>elegancia</i><par n="luenga__n"/></e>
+    <e lm="embrazada"><i>embrazada</i><par n="luenga__n"/></e>
+    <e r="LR" lm="embrazada"><p><l>embarazada</l><r>embrazada</r></p><par n="luenga__n"/></e>    
+    <e lm="embrazau"><i>embraza</i><par n="adequa/u__adj"/></e>
+    <e r="LR" lm="embrazau"><p><l>embaraza</l><r>embraza</r></p><par n="adequa/u__adj"/></e>    
+    <e lm="emerchencia"><i>emerchencia</i><par n="luenga__n"/></e>
+    <e lm="emisora"><i>emisora</i><par n="luenga__n"/></e>
+    <e lm="empanada"><i>empanada</i><par n="luenga__n"/></e>
+    <e lm="ensalada"><i>ensalada</i><par n="luenga__n"/></e>
+    <e lm="enciclopedia"><i>enciclopedia</i><par n="luenga__n"/></e>
+    <e lm="enclusa"><i>enclusa</i><par n="luenga__n"/></e>
+    <e lm="endivia"><i>endivia</i><par n="luenga__n"/></e>
+    <e lm="enerchía"><i>enerchía</i><par n="luenga__n"/></e>
+    <e lm="enqüesta"><i>enqüesta</i><par n="luenga__n"/></e>
+    <e lm="ensalada"><i>ensalada</i><par n="luenga__n"/></e>
+    <e lm="entrevista"><i>entrevista</i><par n="luenga__n"/></e>
+    <e lm="embidia"><i>embidia</i><par n="luenga__n"/></e>
+    <e lm="embidia"><i>embidia</i><par n="luenga__n"/></e>
+    <e lm="anyoranza"><i>anyoranza</i><par n="luenga__n"/></e>
+    <e lm="epidemia"><i>epidemia</i><par n="luenga__n"/></e>
+    <e lm="epoca"><i>epoca</i><par n="luenga__n"/></e>
+    <e lm="ermita"><i>ermita</i><par n="luenga__n"/></e>
+    <e r="LR" lm="ermita"><p><l>armita</l><r>ermita</r></p><par n="luenga__n"/></e>    
+    <e lm="esfogue"><i>esfogue</i><par n="libro__n"/></e>
+    <e lm="esfogada"><i>esfogada</i><par n="luenga__n"/></e>
+    <e lm="rasera"><i>rasera</i><par n="luenga__n"/></e>
+    <e lm="escafandra"><i>escafandra</i><par n="luenga__n"/></e>
+    <e lm="esquadra"><i>esquadra</i><par n="luenga__n"/></e>
+    <e lm="escalera"><i>escalera</i><par n="luenga__n"/></e>
+    <e lm="escalinata"><i>escalinata</i><par n="luenga__n"/></e>
+    <e lm="escapatoria"><i>escapatoria</i><par n="luenga__n"/></e>
+    <e lm="escarlatina"><i>escarlatina</i><par n="luenga__n"/></e>
+    <e lm="esquerola"><i>esquerola</i><par n="luenga__n"/></e>
+    <e lm="scena"><i>scena</i><par n="luenga__n"/></e>
+    <e r="LR" lm="scena"><p><l>escena</l><r>scena</r></p><par n="luenga__n"/></e>    
+    <e lm="cadiera"><i>cadiera</i><par n="luenga__n"/></e>
+    <e lm="escuela"><i>escuela</i><par n="luenga__n"/></e>
+    <e lm="escopeta"><i>escopeta</i><par n="luenga__n"/></e>
+    <e lm="crosta"><i>crosta</i><par n="luenga__n"/></e>
+    <e lm="escolta"><i>escolta</i><par n="luenga__n"/></e>
+    <e lm="escritura"><i>escritura</i><par n="luenga__n"/></e>
+    <e lm="esculla"><i>esculla</i><par n="luenga__n"/></e>
+    <e lm="escultura"><i>escultura</i><par n="luenga__n"/></e>
+    <e lm="esfera"><i>esfera</i><par n="luenga__n"/></e>
+    <e lm="esgrima"><i>esgrima</i><par n="luenga__n"/></e>
+    <e lm="espada"><i>espada</i><par n="luenga__n"/></e>
+    <e lm="huembrera"><i>huembrera</i><par n="luenga__n"/></e>
+    <e lm="espaldera"><i>espaldera</i><par n="luenga__n"/></e>
+    <e lm="espera"><i>espera</i><par n="luenga__n"/></e>
+    <e lm="esperanza"><i>esperanza</i><par n="luenga__n"/></e>
+    <e r="LR" lm="esperanza"><p><l>asperanza</l><r>esperanza</r></p><par n="luenga__n"/></e>    
+    <e lm="raspa"><i>raspa</i><par n="luenga__n"/></e>
+    <e lm="espina"><i>espina</i><par n="luenga__n"/></e>
+    <e lm="espira"><i>espira</i><par n="luenga__n"/></e>
+    <e lm="explanada"><i>explanada</i><par n="luenga__n"/></e>
+    <e lm="esponcha"><i>esponcha</i><par n="luenga__n"/></e>
+    <e lm="esportista"><i>esportista</i><par n="accionista__n"/></e>
+    <e lm="esportista"><i>esportista</i><par n="social__adj"/></e>
+    <e lm="exprimidora"><i>exprimidora</i><par n="luenga__n"/></e>
+    <e lm="esquema"><i>esquema</i><par n="libro__n"/></e>
+    <e lm="torcedura"><i>torcedura</i><par n="luenga__n"/></e>
+    <e lm="estrabilla"><i>estrabilla</i><par n="luenga__n"/></e>
+    <e lm="estaca"><i>estaca</i><par n="luenga__n"/></e>
+    <e lm="estactua"><i>estactua</i><par n="luenga__n"/></e>
+    <e lm="estatura"><i>estatura</i><par n="luenga__n"/></e>
+    <e lm="milorcha"><i>milorcha</i><par n="luenga__n"/></e>
+    <e lm="estilografica"><i>estilografica</i><par n="luenga__n"/></e>
+    <e lm="estirada"><i>estirada</i><par n="luenga__n"/></e>
+    <e lm="estranieza"><i>estranieza</i><par n="luenga__n"/></e>
+    <e lm="estrofa"><i>estrofa</i><par n="luenga__n"/></e>
+    <e lm="estufa"><i>estufa</i><par n="luenga__n"/></e>
+    <e lm="etapa"><i>etapa</i><par n="luenga__n"/></e>
+    <e lm="etcetera"><i>etcetera</i><par n="luenga__n"/></e>
+    <e lm="etiqueta"><i>etiqueta</i><par n="luenga__n"/></e>
+    <e lm="evidencia"><i>evidencia</i><par n="luenga__n"/></e>
+    <e lm="excavadora"><i>excavadora</i><par n="luenga__n"/></e>
+    <e lm="excursionista"><i>excursionista</i><par n="accionista__n"/></e>
+    <e lm="excursionista"><i>excursionista</i><par n="social__adj"/></e>
+    <e lm="experiencia"><i>experiencia</i><par n="luenga__n"/></e>
+    <e lm="extravagancia"><i>extravagancia</i><par n="luenga__n"/></e>
+    <e lm="frontera"><i>frontera</i><par n="luenga__n"/></e>
+    <e lm="fada"><i>fada</i><par n="luenga__n"/></e>
+    <e lm="fresana"><i>fresana</i><par n="luenga__n"/></e>
+    <e lm="faixa"><i>faixa</i><par n="luenga__n"/></e>
+    <e lm="saya"><i>saya</i><par n="luenga__n"/></e>
+    <e lm="fallita"><i>fallita</i><par n="luenga__n"/></e>
+    <e lm="fama"><i>fama</i><par n="luenga__n"/></e>
+    <e lm="pantasma"><i>pantasma</i><par n="luenga__n"/></e>
+    <e lm="farina"><i>farina</i><par n="luenga__n"/></e>
+    <e lm="farmacia"><i>farmacia</i><par n="luenga__n"/></e>
+    <e lm="fartera"><i>fartera</i><par n="luenga__n"/></e>
+    <e lm="fauna"><i>fauna</i><par n="luenga__n"/></e>
+    <e lm="faba"><i>faba</i><par n="luenga__n"/></e>
+    <e lm="faixista"><i>faixista</i><par n="accionista__n"/></e>
+    <e lm="faixista"><i>faixista</i><par n="social__adj"/></e>
+    <e lm="vasuera"><i>vasuera</i><par n="luenga__n"/></e>
+    <e lm="fembra"><i>fembra</i><par n="luenga__n"/></e>
+    <e lm="firmeza"><i>firmeza</i><par n="luenga__n"/></e>
+    <e lm="ferradura"><i>ferradura</i><par n="luenga__n"/></e>
+    <e lm="ferramenta"><i>ferramenta</i><par n="luenga__n"/></e>
+    <e lm="dentadura"><i>dentadura</i><par n="luenga__n"/></e>
+    <e lm="ferretería"><i>ferretería</i><par n="luenga__n"/></e>
+    <e lm="fiesta"><i>fiesta</i><par n="luenga__n"/></e>
+    <e lm="figa"><i>figa</i><par n="luenga__n"/></e>
+    <e lm="figuera"><i>figuera</i><par n="luenga__n"/></e>
+    <e lm="filosofía"><i>filosofía</i><par n="luenga__n"/></e>
+    <e lm="finca"><i>finca</i><par n="luenga__n"/></e>
+    <e lm="finestra"><i>finestra</i><par n="luenga__n"/></e>
+    <e lm="finestreta"><i>finestreta</i><par n="luenga__n"/></e>
+    <e lm="feria"><i>feria</i><par n="luenga__n"/></e>
+    <e lm="ficha"><i>ficha</i><par n="luenga__n"/></e>
+    <e lm="flamarada"><i>flamarada</i><par n="luenga__n"/></e>
+    <e lm="flauta"><i>flauta</i><par n="luenga__n"/></e>
+    <e lm="flautista"><i>flautista</i><par n="accionista__n"/></e>
+    <e lm="flecha"><i>flecha</i><par n="luenga__n"/></e>
+    <e lm="florada"><i>florada</i><par n="luenga__n"/></e>
+    <e lm="florista"><i>florista</i><par n="accionista__n"/></e>
+    <e lm="florista"><i>florista</i><par n="social__adj"/></e>
+    <e lm="floristería"><i>floristería</i><par n="luenga__n"/></e>
+    <e lm="foca"><i>foca</i><par n="luenga__n"/></e>
+    <e lm="foguera"><i>foguera</i><par n="luenga__n"/></e>
+    <e lm="forca"><i>forca</i><par n="luenga__n"/></e>
+    <e lm="fuerza"><i>fuerza</i><par n="luenga__n"/></e>
+    <e lm="forniga"><i>forniga</i><par n="luenga__n"/></e>
+    <e lm="formula"><i>formula</i><par n="luenga__n"/></e>
+    <e lm="fortuna"><i>fortuna</i><par n="luenga__n"/></e>
+    <e lm="fuesa"><i>fuesa</i><par n="luenga__n"/></e>
+    <e lm="fotocopia"><i>fotocopia</i><par n="luenga__n"/></e>
+    <e lm="fotocopiadora"><i>fotocopiadora</i><par n="luenga__n"/></e>
+    <e lm="fractura"><i>fractura</i><par n="luenga__n"/></e>
+    <e lm="franela"><i>franela</i><par n="luenga__n"/></e>
+    <e lm="franqueza"><i>franqueza</i><par n="luenga__n"/></e>
+    <e lm="fraula"><i>fraula</i><par n="luenga__n"/></e>
+    <e lm="freyidora"><i>freyidora</i><par n="luenga__n"/></e>
+    <e lm="freqüencia"><i>freqüencia</i><par n="luenga__n"/></e>
+    <e lm="frontera"><i>frontera</i><par n="luenga__n"/></e>
+    <e lm="fruitería"><i>fruitería</i><par n="luenga__n"/></e>
+    <e lm="fuga"><i>fuga</i><par n="luenga__n"/></e>
+    <e lm="fuella"><i>fuella</i><par n="luenga__n"/></e>
+    <e lm="fuella"><i>fuella</i><par n="luenga__n"/></e>
+    <e lm="chaminera"><i>chaminera</i><par n="luenga__n"/></e>
+    <e lm="furgoneta"><i>furgoneta</i><par n="luenga__n"/></e>
+    <e lm="furia"><i>furia</i><par n="luenga__n"/></e>
+    <e lm="fusta"><i>fusta</i><par n="luenga__n"/></e>
+    <e lm="fustería"><i>fustería</i><par n="luenga__n"/></e>
+    <e lm="futbolista"><i>futbolista</i><par n="accionista__n"/></e>
+    <e lm="galaxia"><i>galaxia</i><par n="luenga__n"/></e>
+    <e lm="galería"><i>galería</i><par n="luenga__n"/></e>
+    <e lm="galleta"><i>galleta</i><par n="luenga__n"/></e>
+    <e lm="gamba"><i>gamba</i><par n="luenga__n"/></e>
+    <e lm="gamma"><i>gamma</i><par n="luenga__n"/></e>
+    <e lm="gama"><i>gama</i><par n="luenga__n"/></e>
+    <e lm="ganga"><i>ganga</i><par n="luenga__n"/></e>
+    <e lm="gasa"><i>gasa</i><par n="luenga__n"/></e>
+    <e lm="gasolina"><i>gasolina</i><par n="luenga__n"/></e>
+    <e lm="gasolinera"><i>gasolinera</i><par n="luenga__n"/></e>
+    <e><p><l>benzinera<s n="n"/></l><r>benzinera<s n="n"/></r></p></e>
+    <e lm="gasiosa"><i>gasiosa</i><par n="luenga__n"/></e>
+    <e lm="cheladería"><i>cheladería</i><par n="luenga__n"/></e>
+    <e lm="chelera"><i>chelera</i><par n="luenga__n"/></e>
+    <e lm="zelosía"><i>zelosía</i><par n="luenga__n"/></e>
+    <e lm="zelo"><i>zelo</i><par n="libro__n"/></e>
+    <e lm="cheniva"><i>cheniva</i><par n="luenga__n"/></e>
+    <e lm="chenullera"><i>chenullera</i><par n="luenga__n"/></e>
+    <e lm="cheografía"><i>cheografía</i><par n="luenga__n"/></e>
+    <e lm="cheometría"><i>cheometría</i><par n="luenga__n"/></e>
+    <e lm="chepa"><i>chepa</i><par n="luenga__n"/></e>
+    <e lm="chimnasta"><i>chimnasta</i><par n="luenga__n"/></e>
+    <e lm="chimnasia"><i>chimnasia</i><par n="luenga__n"/></e>
+    <e lm="chinebra"><i>chinebra</i><par n="luenga__n"/></e>
+    <e lm="chinestra"><i>chinestra</i><par n="luenga__n"/></e>
+    <e lm="chirafa"><i>chirafa</i><par n="luenga__n"/></e>
+    <e lm="gloria"><i>gloria</i><par n="luenga__n"/></e>
+    <e lm="goma"><i>goma</i><par n="luenga__n"/></e>
+    <e lm="gorila"><i>gorila</i><par n="luenga__n"/></e>
+    <e lm="gorra"><i>gorra</i><par n="luenga__n"/></e>
+    <e lm="gota"><i>gota</i><par n="luenga__n"/></e>
+    <e lm="grada"><i>grada</i><par n="luenga__n"/></e>
+    <e lm="gramatica"><i>gramatica</i><par n="luenga__n"/></e>
+    <e lm="grandaria"><i>grandaria</i><par n="luenga__n"/></e>
+    <e lm="piedra"><i>piedra</i><par n="luenga__n"/></e>
+    <e lm="grancha"><i>grancha</i><par n="luenga__n"/></e>
+    <e lm="rana"><i>rana</i><par n="luenga__n"/></e>
+    <e lm="gafa"><i>gafa</i><par n="luenga__n"/></e>
+    <e lm="gravadora"><i>gravadora</i><par n="luenga__n"/></e>    
+    <e lm="zambra"><i>zambra</i><par n="luenga__n"/></e>
+    <e lm="cheta"><i>cheta</i><par n="luenga__n"/></e>
+    <e lm="ganancia"><i>ganancia</i><par n="luenga__n"/></e>
+    <e lm="guardarropa"><i>guardarropa</i><par n="luenga__n"/></e>
+    <e lm="guardería"><i>guardería</i><par n="luenga__n"/></e>
+    <e lm="guardia"><i>guardia</i><par n="luenga__n"/></e>
+    <e lm="guitarra"><i>guitarra</i><par n="luenga__n"/></e>
+    <e lm="hamaca"><i>hamaca</i><par n="luenga__n"/></e>
+    <e lm="hamburguesa"><i>hamburguesa</i><par n="luenga__n"/></e>
+    <e lm="harmonía"><i>harmonía</i><par n="luenga__n"/></e>
+    <e lm="hectaria"><i>hectaria</i><par n="luenga__n"/></e>
+    <e lm="hierba"><i>hierba</i><par n="luenga__n"/></e>
+    <e lm="hiena"><i>hiena</i><par n="luenga__n"/></e>
+    <e lm="hipica"><i>hipica</i><par n="luenga__n"/></e>
+    <e lm="hipocresía"><i>hipocresía</i><par n="luenga__n"/></e>
+    <e lm="historia"><i>historia</i><par n="luenga__n"/></e>
+    <e lm="homicida"><i>homicida</i><par n="luenga__n"/></e>
+    <e lm="huerta"><i>huerta</i><par n="luenga__n"/></e>
+    <e lm="hortal"><i>hortal</i><par n="libro__n"/></e>
+    <e lm="hortalicia"><i>hortalicia</i><par n="luenga__n"/></e>
+    <e lm="hortensia"><i>hortensia</i><par n="luenga__n"/></e>
+    <e lm="idiota"><i>idiota</i><par n="luenga__n"/></e>
+    <e lm="ignorancia"><i>ignorancia</i><par n="luenga__n"/></e>
+    <e lm="impacencia"><i>impacencia</i><par n="luenga__n"/></e>
+    <e lm="imperialista"><i>imperialista</i><par n="accionista__n"/></e>
+    <e lm="imperialista"><i>imperialista</i><par n="social__adj"/></e>
+    <e lm="importancia"><i>importancia</i><par n="luenga__n"/></e>
+    <e lm="imprudencia"><i>imprudencia</i><par n="luenga__n"/></e>
+    <e lm="incognita"><i>incognita</i><par n="luenga__n"/></e>
+    <e lm="indecencia"><i>indecencia</i><par n="luenga__n"/></e>
+    <e lm="independencia"><i>independencia</i><par n="luenga__n"/></e>
+    <e lm="indiferencia"><i>indiferencia</i><par n="luenga__n"/></e>
+    <e lm="industria"><i>industria</i><par n="luenga__n"/></e>
+    <e lm="inercia"><i>inercia</i><par n="luenga__n"/></e>
+    <e lm="inexperiencia"><i>inexperiencia</i><par n="luenga__n"/></e>
+    <e r="LR" lm="inexperiencia"><p><l>inesperiencia</l><r>inexperiencia</r></p><par n="luenga__n"/></e>    
+    <e lm="enfermería"><i>enfermería</i><par n="luenga__n"/></e>
+    <e lm="influencia"><i>influencia</i><par n="luenga__n"/></e>
+    <e r="LR" lm="influencia"><p><l>influyencia</l><r>influencia</r></p><par n="luenga__n"/></e>    
+    <e lm="iniciativa"><i>iniciativa</i><par n="luenga__n"/></e>
+    <e lm="inchusticia"><i>inchusticia</i><par n="luenga__n"/></e>
+    <e lm="insecticida"><i>insecticida</i><par n="luenga__n"/></e>
+    <e lm="insignia"><i>insignia</i><par n="luenga__n"/></e>
+    <e lm="intelichencia"><i>intelichencia</i><par n="luenga__n"/></e>
+    <e lm="intolerancia"><i>intolerancia</i><par n="luenga__n"/></e>
+    <e lm="intriga"><i>intriga</i><par n="luenga__n"/></e>
+    <e lm="ira"><i>ira</i><par n="luenga__n"/></e>
+    <e lm="ironía"><i>ironía</i><par n="luenga__n"/></e>
+    <e lm="chaqueta"><i>chaqueta</i><par n="luenga__n"/></e>
+    <e lm="chardinera"><i>chardinera</i><par n="luenga__n"/></e>
+    <e lm="chardinería"><i>chardinería</i><par n="luenga__n"/></e>
+    <e lm="chornada"><i>chornada</i><par n="luenga__n"/></e>
+    <e lm="chungla"><i>chungla</i><par n="luenga__n"/></e>
+    <e lm="selva"><i>selva</i><par n="luenga__n"/></e>
+    <e lm="bosque"><i>bosque</i><par n="luenga__n"/></e>
+    <e lm="laca"><i>laca</i><par n="luenga__n"/></e>
+    <e lm="lamina"><i>lamina</i><par n="luenga__n"/></e>
+    <e lm="lapida"><i>lapida</i><par n="luenga__n"/></e>
+    <e lm="lasanya"><i>lasanya</i><par n="luenga__n"/></e>
+    <e lm="lavativa"><i>lavativa</i><par n="luenga__n"/></e>
+    <e lm="lectura"><i>lectura</i><par n="luenga__n"/></e>
+    <e lm="lema"><i>lema</i><par n="libro__n"/></e>
+    <e lm="lila"><i>lila</i><par n="luenga__n"/></e>
+    <e lm="liquadora"><i>liquadora</i><par n="luenga__n"/></e>
+    <e lm="llaga"><i>llaga</i><par n="luenga__n"/></e>
+    <e lm="langosta"><i>langosta</i><par n="luenga__n"/></e>
+    <e lm="glarima"><i>glarima</i><par n="luenga__n"/></e>
+    <e lm="lanterna"><i>lanterna</i><par n="luenga__n"/></e>
+    <e lm="lancha"><i>lancha</i><par n="luenga__n"/></e>
+    <e lm="lastima"><i>lastima</i><par n="luenga__n"/></e>
+    <e lm="lata"><i>lata</i><par n="luenga__n"/></e>
+    <e lm="leyenda"><i>leyenda</i><par n="luenga__n"/></e>
+    <e lm="leixiva"><i>leixiva</i><par n="luenga__n"/></e>
+    <e lm="lentilla"><i>lentilla</i><par n="luenga__n"/></e>
+    <e lm="lenya"><i>lenya</i><par n="luenga__n"/></e>
+    <e lm="lixereza"><i>lixereza</i><par n="luenga__n"/></e>
+    <e r="LR" lm="lixereza"><p><l>lichereza</l><r>lixereza</r></p><par n="luenga__n"/></e>    
+    <e lm="librería"><i>librería</i><par n="luenga__n"/></e>
+    <e lm="libreta"><i>libreta</i><par n="luenga__n"/></e>
+    <e lm="licencia"><i>licencia</i><par n="luenga__n"/></e>
+    <e lm="liga"><i>liga</i><par n="luenga__n"/></e>
+    <e lm="limonada"><i>limonada</i><par n="luenga__n"/></e>
+    <e lm="longaniza"><i>longaniza</i><par n="luenga__n"/></e>
+    <e r="LR" lm="longaniza"><p><l>llonganiza</l><r>longaniza</r></p><par n="luenga__n"/></e>    
+    <e r="LR" lm="longaniza"><p><l>luenganiza</l><r>longaniza</r></p><par n="luenga__n"/></e>    
+    <e lm="luna"><i>luna</i><par n="luenga__n"/></e>
+    <e lm="leixanía"><i>leixanía</i><par n="luenga__n"/></e>
+    <e lm="locomotora"><i>locomotora</i><par n="luenga__n"/></e>
+    <e lm="lona"><i>lona</i><par n="luenga__n"/></e>
+    <e lm="lotería"><i>lotería</i><par n="luenga__n"/></e>
+    <e lm="lupa"><i>lupa</i><par n="luenga__n"/></e>
+    <e lm="macedonia"><i>macedonia</i><par n="luenga__n"/></e>
+    <e lm="fraga"><i>fraga</i><par n="luenga__n"/></e>
+    <e lm="mengrana"><i>mengrana</i><par n="luenga__n"/></e>
+    <e lm="mainada"><i>mainada</i><par n="luenga__n"/></e>
+    <e lm="mayonesa"><i>mayonesa</i><par n="luenga__n"/></e>
+    <e lm="mayorista"><i>mayorista</i><par n="accionista__n"/></e>
+    <e lm="mayorista"><i>mayorista</i><par n="social__adj"/></e>
+    <e lm="malabarista"><i>malabarista</i><par n="accionista__n"/></e>
+    <e lm="maleta"><i>maleta</i><par n="luenga__n"/></e>
+    <e lm="malicia"><i>malicia</i><par n="luenga__n"/></e>
+    <e lm="anca"><i>anca</i><par n="luenga__n"/></e>
+    <e lm="malva"><i>malva</i><par n="luenga__n"/></e>
+    <e lm="mampara"><i>mampara</i><par n="luenga__n"/></e>
+    <e lm="mandarina"><i>mandarina</i><par n="luenga__n"/></e>
+    <e lm="mandibula"><i>mandibula</i><par n="luenga__n"/></e>
+    <e lm="variella"><i>vari</i><par n="capi/ella__n"/></e>
+    <e lm="manga"><i>manga</i><par n="luenga__n"/></e>
+    <e lm="rechola"><i>rechola</i><par n="luenga__n"/></e>
+    <e lm="manta"><i>manta</i><par n="luenga__n"/></e>
+    <e lm="mapa"><i>mapa</i><par n="luenga__n"/></e>
+    <e lm="maqueta"><i>maqueta</i><par n="luenga__n"/></e>
+    <e lm="maquina"><i>maquina</i><par n="luenga__n"/></e>
+    <e lm="maquinaria"><i>maquinaria</i><par n="luenga__n"/></e>
+    <e lm="maquinista"><i>maquinista</i><par n="accionista__n"/></e>
+    <e lm="margarina"><i>margarina</i><par n="luenga__n"/></e>
+    <e lm="marioneta"><i>marioneta</i><par n="luenga__n"/></e>
+    <e lm="marmota"><i>marmota</i><par n="luenga__n"/></e>
+    <e lm="mascaruta"><i>mascaruta</i><par n="luenga__n"/></e>
+    <e lm="mascota"><i>mascota</i><par n="luenga__n"/></e>
+    <e lm="masa"><i>masa</i><par n="luenga__n"/></e>
+    <e lm="masachista"><i>masachista</i><par n="accionista__n"/></e>
+    <e lm="maseta"><i>maseta</i><par n="luenga__n"/></e>
+    <e lm="materia"><i>materia</i><par n="luenga__n"/></e>
+    <e lm="maitinada"><i>maitinada</i><par n="luenga__n"/></e>
+    <e lm="medalla"><i>medalla</i><par n="luenga__n"/></e>
+    <e lm="medusa"><i>medusa</i><par n="luenga__n"/></e>
+    <e lm="mermelada"><i>mermelada</i><par n="luenga__n"/></e>
+    <e lm="melodía"><i>melodía</i><par n="luenga__n"/></e>
+    <e lm="memoria"><i>memoria</i><par n="luenga__n"/></e>
+    <e lm="mentira"><i>mentira</i><par n="luenga__n"/></e>
+    <e lm="mercadería"><i>mercadería</i><par n="luenga__n"/></e>
+    <e lm="merceria"><i>merceria</i><par n="luenga__n"/></e>
+    <e lm="mierda"><i>mierda</i><par n="luenga__n"/></e>
+    <e lm="metalurchia"><i>metalurchia</i><par n="luenga__n"/></e>
+    <e lm="metralladora"><i>metralladora</i><par n="luenga__n"/></e>
+    <e lm="metralleta"><i>metralleta</i><par n="luenga__n"/></e>
+    <e lm="meyodiada"><i>meyodiada</i><par n="luenga__n"/></e>
+    <e r="LR" lm="meyodiada"><p><l>mediodiada</l><r>meyodiada</r></p><par n="luenga__n"/></e>    
+    <e lm="milla"><i>milla</i><par n="luenga__n"/></e>
+    <e lm="millora"><i>millora</i><par n="luenga__n"/></e>
+    <e lm="mimica"><i>mimica</i><par n="luenga__n"/></e>
+    <e lm="mina"><i>mina</i><par n="luenga__n"/></e>
+    <e lm="minoría"><i>minoría</i><par n="luenga__n"/></e>
+    <e lm="miseria"><i>miseria</i><par n="luenga__n"/></e>
+    <e lm="misa"><i>misa</i><par n="luenga__n"/></e>
+    <e lm="moda"><i>moda</i><par n="luenga__n"/></e>
+    <e lm="modestia"><i>modestia</i><par n="luenga__n"/></e>
+    <e lm="modista"><i>modista</i><par n="luenga__n"/></e>
+    <e lm="molestia"><i>molestia</i><par n="luenga__n"/></e>
+    <e lm="molsa"><i>molsa</i><par n="luenga__n"/></e>
+    <e lm="momia"><i>momia</i><par n="luenga__n"/></e>
+    <e lm="monarquía"><i>monarquía</i><par n="luenga__n"/></e>
+    <e lm="moneda"><i>moneda</i><par n="luenga__n"/></e>
+    <e lm="moqueta"><i>moqueta</i><par n="luenga__n"/></e>
+    <e lm="mordaza"><i>mordaza</i><par n="luenga__n"/></e>
+    <e lm="mortadela"><i>mortadela</i><par n="luenga__n"/></e>
+    <e lm="mosca"><i>mosca</i><par n="luenga__n"/></e>
+    <e lm="mostaza"><i>mostaza</i><par n="luenga__n"/></e>
+    <e lm="muestra"><i>muestra</i><par n="luenga__n"/></e>
+    <e lm="motorista"><i>motorista</i><par n="accionista__n"/></e>
+    <e lm="motorista"><i>motorista</i><par n="social__adj"/></e>
+    <e lm="mochila"><i>mochila</i><par n="luenga__n"/></e>
+    <e lm="montanya"><i>montanya</i><par n="luenga__n"/></e>
+    <e lm="montura"><i>montura</i><par n="luenga__n"/></e>
+    <e lm="muralla"><i>muralla</i><par n="luenga__n"/></e>
+    <e lm="musica"><i>musica</i><par n="luenga__n"/></e>
+    <e lm="ansa"><i>ansa</i><par n="luenga__n"/></e>
+    <e lm="niezpola"><i>niezpola</i><par n="luenga__n"/></e>
+    <e r="LR" lm="niezpola"><p><l>niespola</l><r>niezpola</r></p><par n="luenga__n"/></e>    
+    <e lm="limpieza"><i>limpieza</i><par n="luenga__n"/></e>
+    <e lm="noguera"><i>noguera</i><par n="luenga__n"/></e>
+    <e lm="nomina"><i>nomina</i><par n="luenga__n"/></e>
+    <e lm="chovena"><i>chovena</i><par n="luenga__n"/></e>
+    <e lm="norma"><i>norma</i><par n="luenga__n"/></e>
+    <e lm="noticia"><i>noticia</i><par n="luenga__n"/></e>
+    <e lm="novelista"><i>novelista</i><par n="accionista__n"/></e>
+    <e lm="foyeta"><i>foyeta</i><par n="luenga__n"/></e>
+    <e lm="nuble"><i>nuble</i><par n="luenga__n"/></e>
+    <e lm="obediencia"><i>obediencia</i><par n="luenga__n"/></e>
+    <e lm="auca"><i>auca</i><par n="luenga__n"/></e>
+    <e lm="oculista"><i>oculista</i><par n="accionista__n"/></e>
+    <e lm="ofensa"><i>ofensa</i><par n="luenga__n"/></e>
+    <e lm="oficinista"><i>oficinista</i><par n="accionista__n"/></e>
+    <e lm="olimpiada"><i>olimpiada</i><par n="luenga__n"/></e>
+    <e lm="oliva"><i>oliva</i><par n="luenga__n"/></e>
+    <e lm="olivera"><i>olivera</i><par n="luenga__n"/></e>
+    <e lm="olla"><i>olla</i><par n="luenga__n"/></e>
+    <e lm="uembra"><i>uembra</i><par n="luenga__n"/></e>
+    <e r="LR" lm="uembra"><p><l>güembra</l><r>uembra</r></p><par n="luenga__n"/></e>    
+    <e lm="onda"><i>onda</i><par n="luenga__n"/></e>
+    <e lm="onda"><i>onda</i><par n="luenga__n"/></e>
+    <e lm="optica"><i>optica</i><par n="luenga__n"/></e>
+    <e lm="orbita"><i>orbita</i><par n="luenga__n"/></e>
+    <e lm="orella"><i>orella</i><par n="luenga__n"/></e>
+    <e lm="orina"><i>orina</i><par n="luenga__n"/></e>
+    <e lm="orquesta"><i>orquesta</i><par n="luenga__n"/></e>
+    <e lm="ixordiga"><i>ixordiga</i><par n="luenga__n"/></e>
+    <e lm="ortografía"><i>ortografía</i><par n="luenga__n"/></e>
+    <e lm="orchata"><i>orchata</i><par n="luenga__n"/></e>
+    <e lm="osca"><i>osca</i><par n="luenga__n"/></e>
+    <e lm="ostra"><i>ostra</i><par n="luenga__n"/></e>
+    <e lm="uella"><i>uella</i><par n="luenga__n"/></e>
+    <e r="LR" lm="uella"><p><l>güella</l><r>uella</r></p><par n="luenga__n"/></e>    
+    <e r="LR" lm="uella"><p><l>ovella</l><r>uella</r></p><par n="luenga__n"/></e>    
+    <e lm="paciencia"><i>paciencia</i><par n="luenga__n"/></e>
+    <e lm="padella"><i>padella</i><par n="luenga__n"/></e>
+    <e lm="pala"><i>pala</i><par n="luenga__n"/></e>
+    <e lm="palangana"><i>palangana</i><par n="luenga__n"/></e>
+    <e lm="paleta"><i>paleta</i><par n="luenga__n"/></e>
+    <e lm="palla"><i>palla</i><par n="luenga__n"/></e>
+    <e lm="palma"><i>palma</i><par n="luenga__n"/></e>
+    <e lm="palmera"><i>palmera</i><par n="luenga__n"/></e>
+    <e lm="pancarta"><i>pancarta</i><par n="luenga__n"/></e>
+    <e lm="panda"><i>panda</i><par n="luenga__n"/></e>
+    <e lm="pandereta"><i>pandereta</i><par n="luenga__n"/></e>
+    <e lm="panera"><i>panera</i><par n="luenga__n"/></e>
+    <e lm="panorama"><i>panorama</i><par n="luenga__n"/></e>
+    <e lm="pansa"><i>pansa</i><par n="luenga__n"/></e>
+    <e lm="pantalla"><i>pantalla</i><par n="luenga__n"/></e>
+    <e lm="pantera"><i>pantera</i><par n="luenga__n"/></e>
+    <e lm="pancha"><i>pancha</i><par n="luenga__n"/></e>
+    <e lm="zarralla"><i>zarralla</i><par n="luenga__n"/></e>
+    <e lm="papa"><i>papa</i><par n="luenga__n"/></e>
+    <e lm="papeleria"><i>papeleria</i><par n="luenga__n"/></e>
+    <e lm="papeleta"><i>papeleta</i><par n="luenga__n"/></e>
+    <e lm="papeleta"><i>papeleta</i><par n="luenga__n"/></e>
+    <e lm="parabisa"><i>parabisa</i><par n="luenga__n"/></e>
+    <e lm="paracaidista"><i>paracaidista</i><par n="accionista__n"/></e>
+    <e lm="parentalla"><i>parentalla</i><par n="luenga__n"/></e>
+    <e lm="parra"><i>parra</i><par n="luenga__n"/></e>
+    <e lm="parroquia"><i>parroquia</i><par n="luenga__n"/></e>
+    <e lm="partida"><i>partida</i><par n="luenga__n"/></e>
+    <e lm="partitura"><i>partitura</i><par n="luenga__n"/></e>
+    <e lm="pasqua"><i>pasqua</i><par n="luenga__n"/></e>
+    <e lm="pasta"><i>pasta</i><par n="luenga__n"/></e>
+    <e lm="carrota"><i>carrota</i><par n="luenga__n"/></e>
+    <e lm="pastilla"><i>pastilla</i><par n="luenga__n"/></e>
+    <e lm="trunfa"><i>trunfa</i><par n="luenga__n"/></e>
+    <e lm="pulsera"><i>pulsera</i><par n="luenga__n"/></e>
+    <e lm="patria"><i>patria</i><par n="luenga__n"/></e>
+    <e lm="patrulla"><i>patrulla</i><par n="luenga__n"/></e>
+    <e lm="pausa"><i>pausa</i><par n="luenga__n"/></e>
+    <e lm="pieza"><i>pieza</i><par n="luenga__n"/></e>
+    <e lm="pediatra"><i>pediatra</i><par n="luenga__n"/></e>
+    <e lm="piedra"><i>piedra</i><par n="luenga__n"/></e>
+    <e lm="pescatería"><i>pescatería</i><par n="luenga__n"/></e>
+    <e lm="peixera"><i>peixera</i><par n="luenga__n"/></e>
+    <e lm="pelletería"><i>pelletería</i><par n="luenga__n"/></e>
+    <e lm="cinta"><i>cinta</i><par n="luenga__n"/></e>
+    <e lm="pelicla"><i>pelicla</i><par n="luenga__n"/></e>
+    <e r="LR" lm="pelicla"><p><l>pelicula</l><r>pelicla</r></p><par n="luenga__n"/></e>    
+    <e lm="pena"><i>pena</i><par n="luenga__n"/></e>
+    <e lm="pendola"><i>pendola</i><par n="luenga__n"/></e>
+    <e lm="peninsula"><i>peninsula</i><par n="luenga__n"/></e>
+    <e lm="penitencia"><i>penitencia</i><par n="luenga__n"/></e>
+    <e lm="penya"><i>penya</i><par n="luenga__n"/></e>
+    <e lm="prenda"><i>prenda</i><par n="luenga__n"/></e>
+    <e lm="moncha"><i>moncha</i><par n="luenga__n"/></e>
+    <e lm="monya"><i>monya</i><par n="luenga__n"/></e>
+    <e lm="monche"><i>monche</i><par n="libro__n"/></e>
+    <e lm="monyaco"><i>monyaco</i><par n="libro__n"/></e>
+    <e lm="pera"><i>pera</i><par n="luenga__n"/></e>
+    <e lm="perera"><i>perera</i><par n="luenga__n"/></e>
+    <e lm="perfumería"><i>perfumería</i><par n="luenga__n"/></e>
+    <e lm="periodista"><i>periodista</i><par n="accionista__n"/></e>
+    <e lm="perla"><i>perla</i><par n="luenga__n"/></e>
+    <e lm="peluca"><i>peluca</i><par n="luenga__n"/></e>
+    <e lm="peluquería"><i>peluquería</i><par n="luenga__n"/></e>
+    <e lm="persiana"><i>persiana</i><par n="luenga__n"/></e>
+    <e lm="perspectiva"><i>perspectiva</i><par n="luenga__n"/></e>
+    <e lm="pertenencia"><i>pertenencia</i><par n="luenga__n"/></e>
+    <e lm="percha"><i>percha</i><par n="luenga__n"/></e>
+    <e lm="peceta"><i>peceta</i><par n="luenga__n"/></e>
+    <e lm="pestanya"><i>pestanya</i><par n="luenga__n"/></e>
+    <e lm="petanca"><i>petanca</i><par n="luenga__n"/></e>
+    <e lm="pianista"><i>pianista</i><par n="accionista__n"/></e>
+    <e lm="picueta"><i>picueta</i><par n="luenga__n"/></e>
+    <e lm="piyama"><i>piyama</i><par n="libro__n"/></e>
+    <e r="LR" lm="piyama"><p><l>pichama</l><r>piyama</r></p><par n="libro__n"/></e>    
+    <e lm="pilota"><i>pilota</i><par n="luenga__n"/></e>
+    <e lm="pindola"><i>pindola</i><par n="luenga__n"/></e>
+    <e lm="pintura"><i>pintura</i><par n="luenga__n"/></e>
+    <e lm="pinya"><i>pinya</i><par n="luenga__n"/></e>
+    <e lm="pipa"><i>pipa</i><par n="luenga__n"/></e>
+    <e lm="piragua"><i>piragua</i><par n="luenga__n"/></e>
+    <e lm="piruleta"><i>piruleta</i><par n="luenga__n"/></e>
+    <e lm="loza"><i>loza</i><par n="luenga__n"/></e>
+    <e lm="piscina"><i>piscina</i><par n="luenga__n"/></e>
+    <e lm="pista"><i>pista</i><par n="luenga__n"/></e>
+    <e lm="pistola"><i>pistola</i><par n="luenga__n"/></e>
+    <e lm="pichera"><i>pichera</i><par n="luenga__n"/></e>
+    <e r="LR" lm="pichera"><p><l>pichela</l><r>pichera</r></p><par n="luenga__n"/></e>    
+    <e lm="charra"><i>charra</i><par n="luenga__n"/></e>
+    <e lm="pixada"><i>pixada</i><par n="luenga__n"/></e>
+    <e lm="pizza"><i>pizza</i><par n="luenga__n"/></e>
+    <e lm="pizzería"><i>pizzería</i><par n="luenga__n"/></e>
+    <e lm="placa"><i>placa</i><par n="luenga__n"/></e>
+    <e lm="plastica"><i>plastica</i><par n="luenga__n"/></e>
+    <e lm="plastilina"><i>plastilina</i><par n="luenga__n"/></e>
+    <e lm="plata"><i>plata</i><par n="luenga__n"/></e>
+    <e lm="plataforma"><i>plataforma</i><par n="luenga__n"/></e>
+    <e lm="placha"><i>placha</i><par n="luenga__n"/></e>
+    <e lm="pluma"><i>pluma</i><par n="luenga__n"/></e>
+    <e lm="pobreza"><i>pobreza</i><par n="luenga__n"/></e>
+    <e lm="poema"><i>poema</i><par n="libro__n"/></e>
+    <e lm="poesía"><i>poesía</i><par n="luenga__n"/></e>
+    <e lm="poeta"><i>poeta</i><par n="luenga__n"/></e>
+    <e lm="polemica"><i>polemica</i><par n="luenga__n"/></e>
+    <e lm="polpa"><i>polpa</i><par n="luenga__n"/></e>
+    <e lm="monyiquera"><i>monyiquera</i><par n="luenga__n"/></e>
+    <e lm="polvora"><i>polvora</i><par n="luenga__n"/></e>
+    <e lm="mazana"><i>mazana</i><par n="luenga__n"/></e>
+    <e r="LR" lm="mazana"><p><l>manzana</l><r>mazana</r></p><par n="libro__n"/></e>    
+    <e lm="pomada"><i>pomada</i><par n="luenga__n"/></e>
+    <e lm="mazanera"><i>mazanera</i><par n="luenga__n"/></e>
+    <e r="LR" lm="mazanera"><p><l>manzanera</l><r>mazanera</r></p><par n="libro__n"/></e>    
+    <e lm="porcelana"><i>porcelana</i><par n="luenga__n"/></e>
+    <e lm="porquería"><i>porquería</i><par n="luenga__n"/></e>
+    <e lm="porquería"><i>porquería</i><par n="luenga__n"/></e>
+    <e lm="porra"><i>porra</i><par n="luenga__n"/></e>
+    <e lm="portalada"><i>portalada</i><par n="luenga__n"/></e>
+    <e lm="portería"><i>portería</i><par n="luenga__n"/></e>
+    <e lm="potencia"><i>potencia</i><par n="luenga__n"/></e>
+    <e lm="preferencia"><i>preferencia</i><par n="luenga__n"/></e>
+    <e lm="prensa"><i>prensa</i><par n="luenga__n"/></e>
+    <e lm="prepotencia"><i>prepotencia</i><par n="luenga__n"/></e>
+    <e lm="presencia"><i>presencia</i><par n="luenga__n"/></e>
+    <e lm="presidencia"><i>presidencia</i><par n="luenga__n"/></e>
+    <e lm="prisa"><i>prisa</i><par n="luenga__n"/></e>
+    <e lm="primicia"><i>primicia</i><par n="luenga__n"/></e>
+    <e lm="programa"><i>programa</i><par n="libro__n"/></e>
+    <e lm="promesa"><i>promesa</i><par n="luenga__n"/></e>
+    <e lm="propaganda"><i>propaganda</i><par n="luenga__n"/></e>
+    <e lm="propina"><i>propina</i><par n="luenga__n"/></e>
+    <e lm="prosa"><i>prosa</i><par n="luenga__n"/></e>
+    <e lm="proteína"><i>proteína</i><par n="luenga__n"/></e>
+    <e lm="prudencia"><i>prudencia</i><par n="luenga__n"/></e>
+    <e lm="cirgollera"><i>cirgollera</i><par n="luenga__n"/></e>
+    <e lm="psicolochía"><i>psicolochía</i><par n="luenga__n"/></e>
+    <e lm="psiquiatra"><i>psiquiatra</i><par n="luenga__n"/></e>
+    <e lm="pulmonía"><i>pulmonía</i><par n="luenga__n"/></e>
+    <e lm="puma"><i>puma</i><par n="libro__n"/></e>
+    <e lm="punta"><i>punta</i><par n="luenga__n"/></e>
+    <e lm="pureza"><i>pureza</i><par n="luenga__n"/></e>
+    <e lm="porgadura"><i>porgadura</i><par n="luenga__n"/></e>
+    <e lm="quartilla"><i>quartilla</i><par n="luenga__n"/></e>
+    <e lm="queixa"><i>queixa</i><par n="luenga__n"/></e>
+    <e lm="conduta"><i>conduta</i><par n="luenga__n"/></e>
+    <e lm="rabia"><i>rabia</i><par n="luenga__n"/></e>
+    <e lm="radiografía"><i>radiografía</i><par n="luenga__n"/></e>
+    <e lm="navata"><i>navata</i><par n="luenga__n"/></e>
+    <e lm="rama"><i>rama</i><par n="luenga__n"/></e>
+    <e lm="ganadería"><i>ganadería</i><par n="luenga__n"/></e>
+    <e lm="ramada"><i>ramada</i><par n="luenga__n"/></e>
+    <e lm="rabanyo"><i>rabanyo</i><par n="libro__n"/></e>
+    <e r="LR" lm="rabanyo"><p><l>rebanyo</l><r>rabanyo</r></p><par n="libro__n"/></e>        
+    <e lm="garrampa"><i>garrampa</i><par n="luenga__n"/></e>
+    <e lm="raqueta"><i>raqueta</i><par n="luenga__n"/></e>
+    <e lm="rata"><i>rata</i><par n="luenga__n"/></e>
+    <e lm="raya"><i>raya</i><par n="luenga__n"/></e>
+    <e lm="rabaneta"><i>rabaneta</i><par n="luenga__n"/></e>
+    <e lm="ceiquia"><i>ceiquia</i><par n="luenga__n"/></e>
+    <e r="LR" lm="ceiquia"><p><l>ceica</l><r>ceiquia</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="ceiquia"><p><l>cequia</l><r>ceiquia</r></p><par n="libro__n"/></e>
+    
+    <e lm="referencia"><i>referencia</i><par n="luenga__n"/></e>
+    <e lm="refinería"><i>refinería</i><par n="luenga__n"/></e>
+    <e lm="ruixadera"><i>ruixadera</i><par n="luenga__n"/></e>
+    <e lm="regla"><i>regla</i><par n="luenga__n"/></e>
+    <e lm="reixa"><i>reixa</i><par n="luenga__n"/></e>
+    <e lm="relochería"><i>relochería</i><par n="luenga__n"/></e>
+    <e lm="remolacha"><i>remolacha</i><par n="luenga__n"/></e>
+    <e lm="ringlera"><i>ringlera</i><par n="luenga__n"/></e>
+    <e lm="resina"><i>resina</i><par n="luenga__n"/></e>
+    <e lm="resistencia"><i>resistencia</i><par n="luenga__n"/></e>
+    <e lm="retina"><i>retina</i><par n="luenga__n"/></e>
+    <e lm="revenda"><i>revenda</i><par n="luenga__n"/></e>
+    <e lm="ribera"><i>ribera</i><par n="luenga__n"/></e>
+    <e lm="rima"><i>rima</i><par n="luenga__n"/></e>
+    <e lm="riqueza"><i>riqueza</i><par n="luenga__n"/></e>
+    <e lm="risa"><i>risa</i><par n="luenga__n"/></e>
+    <e lm="ropa"><i>ropa</i><par n="luenga__n"/></e>
+    <e lm="rueda"><i>rueda</i><par n="luenga__n"/></e>
+    <e lm="rosca"><i>rosca</i><par n="luenga__n"/></e>
+    <e lm="rosera"><i>rosera</i><par n="luenga__n"/></e>
+    <e lm="ruina"><i>ruina</i><par n="luenga__n"/></e>
+    <e lm="caravana"><i>caravana</i><par n="luenga__n"/></e>
+    <e lm="ruptura"><i>ruptura</i><par n="luenga__n"/></e>
+    <e lm="arna"><i>arna</i><par n="luenga__n"/></e>
+    <e lm="ruta"><i>ruta</i><par n="luenga__n"/></e>
+    <e lm="zapatería"><i>zapatería</i><par n="luenga__n"/></e>
+    <e lm="zapatilla"><i>zapatilla</i><par n="luenga__n"/></e>
+    <e lm="sacarina"><i>sacarina</i><par n="luenga__n"/></e>
+    <e lm="azanoria"><i>azanoria</i><par n="luenga__n"/></e>
+    <e lm="carrota"><i>carrota</i><par n="luenga__n"/></e>
+    <e lm="servilla"><i>servilla</i><par n="luenga__n"/></e>
+    <e lm="salsa"><i>salsa</i><par n="luenga__n"/></e>
+    <e lm="salchicha"><i>salchicha</i><par n="luenga__n"/></e>
+    <e lm="sandalia"><i>sandalia</i><par n="luenga__n"/></e>
+    <e lm="sangría"><i>sangría</i><par n="luenga__n"/></e>
+    <e lm="sardina"><i>sardina</i><par n="luenga__n"/></e>
+    <e lm="sastrería"><i>sastrería</i><par n="luenga__n"/></e>
+    <e lm="sauna"><i>sauna</i><par n="luenga__n"/></e>
+    <e lm="secretaría"><i>secretaría</i><par n="luenga__n"/></e>
+    <e lm="seda"><i>seda</i><par n="luenga__n"/></e>
+    <e lm="siega"><i>siega</i><par n="luenga__n"/></e>
+    <e lm="siella"><i>si</i><par n="capi/ella__n"/></e>
+    <e lm="semellanza"><i>semellanza</i><par n="luenga__n"/></e>
+    <e lm="centinela"><i>centinela</i><par n="luenga__n"/></e>
+    <e lm="sinyoreta"><i>sinyoreta</i><par n="luenga__n"/></e>
+    <e lm="sequera"><i>sequera</i><par n="luenga__n"/></e>
+    <e lm="tufa"><i>tufa</i><par n="luenga__n"/></e>
+    <e lm="semana"><i>semana</i><par n="luenga__n"/></e>
+    <e lm="sigla"><i>sigla</i><par n="luenga__n"/></e>
+    <e r="LR" lm="sigla"><p><l>siegla</l><r>sigla</r></p><par n="luenga__n"/></e>        
+    <e lm="simpatía"><i>simpatía</i><par n="luenga__n"/></e>
+    <e lm="sintoma"><i>sintoma</i><par n="libro__n"/></e>
+    <e lm="sirena"><i>sirena</i><par n="luenga__n"/></e>
+    <e lm="sobrasada"><i>sobrasada</i><par n="luenga__n"/></e>
+    <e lm="sobrecarga"><i>sobrecarga</i><par n="luenga__n"/></e>
+    <e lm="soya"><i>soya</i><par n="luenga__n"/></e>
+    <e lm="suela"><i>suela</i><par n="luenga__n"/></e>
+    <e lm="soldadura"><i>soldadura</i><par n="luenga__n"/></e>
+    <e lm="solista"><i>solista</i><par n="accionista__n"/></e>
+    <e lm="solista"><i>solista</i><par n="social__adj"/></e>
+    <e lm="sopa"><i>sopa</i><par n="luenga__n"/></e>
+    <e lm="sopera"><i>sopera</i><par n="luenga__n"/></e>
+    <e lm="sorpresa"><i>sorpresa</i><par n="luenga__n"/></e>
+    <e lm="submarinista"><i>submarinista</i><par n="accionista__n"/></e>
+    <e lm="sustancia"><i>sustancia</i><par n="luenga__n"/></e>
+    <e lm="sucherencia"><i>sucherencia</i><par n="luenga__n"/></e>
+    <e lm="taca"><i>taca</i><par n="luenga__n"/></e>
+    <e lm="tranca"><i>tranca</i><par n="luenga__n"/></e>
+    <e lm="cleta"><i>cleta</i><par n="luenga__n"/></e>
+    <e lm="tapa"><i>tapa</i><par n="luenga__n"/></e>
+    <e lm="cobertera"><i>cobertera</i><par n="luenga__n"/></e>
+    <e lm="tapara"><i>tapara</i><par n="luenga__n"/></e>
+    <e lm="tapicería"><i>tapicería</i><par n="luenga__n"/></e>
+    <e lm="taquilla"><i>taquilla</i><par n="luenga__n"/></e>
+    <e lm="tarifa"><i>tarifa</i><par n="luenga__n"/></e>
+    <e lm="tarima"><i>tarima</i><par n="luenga__n"/></e>
+    <e lm="tarcheta"><i>tarcheta</i><par n="luenga__n"/></e>
+    <e lm="narancha"><i>narancha</i><par n="luenga__n"/></e>
+    <e lm="naranchada"><i>naranchada</i><par n="luenga__n"/></e>
+    <e lm="taza"><i>taza</i><par n="luenga__n"/></e>
+    <e lm="taixa"><i>taixa</i><par n="luenga__n"/></e>
+    <e r="LR" lm="taixa"><p><l>tasa</l><r>taixa</r></p><par n="luenga__n"/></e>        
+    <e lm="taxista"><i>taxista</i><par n="accionista__n"/></e>
+    <e lm="tecla"><i>tecla</i><par n="luenga__n"/></e>
+    <e lm="tecnolochía"><i>tecnolochía</i><par n="luenga__n"/></e>
+    <e lm="tela"><i>tela</i><par n="luenga__n"/></e>
+    <e lm="telesiella"><i>telesi</i><par n="capi/ella__n"/></e>
+    <e lm="telegrama"><i>telegrama</i><par n="libro__n"/></e>
+    <e lm="temperatura"><i>temperatura</i><par n="luenga__n"/></e>
+    <e lm="botiga"><i>botiga</i><par n="luenga__n"/></e>
+    <e lm="tendencia"><i>tendencia</i><par n="luenga__n"/></e>
+    <e lm="tenista"><i>tenista</i><par n="accionista__n"/></e>
+    <e lm="teoría"><i>teoría</i><par n="luenga__n"/></e>
+    <e lm="marioneta"><i>marioneta</i><par n="luenga__n"/></e>
+    <e lm="terraza"><i>terraza</i><par n="luenga__n"/></e>
+    <e lm="tetera"><i>tetera</i><par n="luenga__n"/></e>
+    <e lm="tella"><i>tella</i><par n="luenga__n"/></e>
+    <e lm="tía"><i>tía</i><par n="luenga__n"/></e>
+    <e lm="tío"><i>tío</i><par n="libro__n"/></e>
+    <e lm="tintorería"><i>tintorería</i><par n="luenga__n"/></e>
+    <e lm="marioneta"><i>marioneta</i><par n="luenga__n"/></e>
+    <e lm="tomatera"><i>tomatera</i><par n="luenga__n"/></e>
+    <e lm="fuesa"><i>fuesa</i><par n="luenga__n"/></e>
+    <e lm="tombola"><i>tombola</i><par n="luenga__n"/></e>
+    <e lm="tonelada"><i>tonelada</i><par n="luenga__n"/></e>
+    <e lm="tonyina"><i>tonyina</i><par n="luenga__n"/></e>
+    <e lm="turradora"><i>turradora</i><par n="luenga__n"/></e>
+    <e lm="tordoleta"><i>tordoleta</i><par n="luenga__n"/></e>
+    <e lm="rulleta"><i>rulleta</i><par n="luenga__n"/></e>
+    <e r="LR" lm="rulleta"><p><l>ruleta</l><r>rulleta</r></p><par n="luenga__n"/></e>        
+    <e lm="tortuga"><i>tortuga</i><par n="luenga__n"/></e>
+    <e r="LR" lm="tortuga"><p><l>tartuga</l><r>tortuga</r></p><par n="luenga__n"/></e>        
+    <e lm="toballa"><i>toballa</i><par n="luenga__n"/></e>
+    <e r="LR" lm="toballa"><p><l>tovalla</l><r>toballa</r></p><par n="luenga__n"/></e>        
+    <e lm="trachedia"><i>trachedia</i><par n="luenga__n"/></e>
+    <e lm="trama"><i>trama</i><par n="luenga__n"/></e>
+    <e lm="tramvía"><i>tramvía</i><par n="luenga__n"/></e>
+    <e lm="transportista"><i>transportista</i><par n="accionista__n"/></e>
+    <e lm="trapezista"><i>trapezista</i><par n="accionista__n"/></e>
+    <e lm="estorbadura"><i>estorbadura</i><par n="luenga__n"/></e>
+    <e lm="quiniela"><i>quiniela</i><par n="luenga__n"/></e>
+    <e lm="travesía"><i>travesía</i><par n="luenga__n"/></e>
+    <e lm="tregua"><i>tregua</i><par n="luenga__n"/></e>
+    <e lm="trefla"><i>trefla</i><par n="luenga__n"/></e>
+    <e lm="tribuna"><i>tribuna</i><par n="luenga__n"/></e>
+    <e lm="trompeta"><i>trompeta</i><par n="luenga__n"/></e>
+    <e lm="tortiella"><i>torti</i><par n="capi/ella__n"/></e>
+    <e lm="truita"><i>truita</i><par n="luenga__n"/></e>
+    <e lm="turista"><i>turista</i><par n="accionista__n"/></e>
+    <e lm="ulcera"><i>ulcera</i><par n="luenga__n"/></e>
+    <e lm="uellada"><i>uellada</i><par n="luenga__n"/></e>
+    <e r="LR" lm="uellada"><p><l>güellada</l><r>uellada</r></p><par n="luenga__n"/></e>        
+    <e r="LR" lm="uellada"><p><l>gollada</l><r>uellada</r></p><par n="luenga__n"/></e>        
+    <e lm="uralita"><i>uralita</i><par n="luenga__n"/></e>
+    <e lm="urchencia"><i>urchencia</i><par n="luenga__n"/></e>
+    <e lm="urnia"><i>urnia</i><par n="luenga__n"/></e>
+    <e lm="zarpa"><i>zarpa</i><par n="luenga__n"/></e>
+    <e lm="vaca"><i>vaca</i><par n="luenga__n"/></e>
+    <e lm="vachina"><i>vachina</i><par n="luenga__n"/></e>
+    <e lm="vagoneta"><i>vagoneta</i><par n="luenga__n"/></e>
+    <e lm="vaixiella"><i>vaixi</i><par n="capi/ella__n"/></e>
+    <e lm="valentía"><i>valentía</i><par n="luenga__n"/></e>
+    <e lm="valvula"><i>valvula</i><par n="luenga__n"/></e>
+    <e lm="vara"><i>vara</i><par n="luenga__n"/></e>
+    <e lm="viellera"><i>viellera</i><par n="luenga__n"/></e>
+    <e lm="vena"><i>vena</i><par n="luenga__n"/></e>
+    <e lm="venganza"><i>venganza</i><par n="luenga__n"/></e>
+    <e lm="caballa"><i>caballa</i><par n="luenga__n"/></e>
+    <e lm="verdura"><i>verdura</i><par n="luenga__n"/></e>
+    <e lm="vendema"><i>vendema</i><par n="luenga__n"/></e>
+    <e lm="vergüenya"><i>vergüenya</i><par n="luenga__n"/></e>
+    <e lm="royura"><i>royura</i><par n="luenga__n"/></e>
+    <e lm="vertebra"><i>vertebra</i><par n="luenga__n"/></e>
+    <e lm="viespra"><i>viespra</i><par n="luenga__n"/></e>
+    <e r="LR" lm="vespra"><p><l>aviespa</l><r>viespra</r></p><par n="luenga__n"/></e>
+    <e r="LR" lm="vespra"><p><l>avriespa</l><r>viespra</r></p><par n="luenga__n"/></e>
+    <e r="LR" lm="vespra"><p><l>viespa</l><r>viespra</r></p><par n="luenga__n"/></e>
+    <e r="LR" lm="vespra"><p><l>vriespa</l><r>viespra</r></p><par n="luenga__n"/></e>
+    <e r="LR" lm="vespra"><p><l>vespra</l><r>viespra</r></p><par n="luenga__n"/></e>
+    <e lm="vía"><i>vía</i><par n="luenga__n"/></e>
+    <e lm="viceversa"><i>viceversa</i><par n="luenga__n"/></e>
+    <e lm="victima"><i>victima</i><par n="luenga__n"/></e>
+    <e lm="victoria"><i>victoria</i><par n="luenga__n"/></e>
+    <e lm="vichilancia"><i>vichilancia</i><par n="luenga__n"/></e>
+    <e lm="vispra"><i>vispra</i><par n="luenga__n"/></e>
+    <e lm="villa"><i>villa</i><par n="luenga__n"/></e>
+    <e lm="violencia"><i>violencia</i><par n="luenga__n"/></e>
+    <e lm="visera"><i>visera</i><par n="luenga__n"/></e>
+    <e lm="vitamina"><i>vitamina</i><par n="luenga__n"/></e>
+    <e lm="vitrina"><i>vitrina</i><par n="luenga__n"/></e>
+    <e lm="volteta"><i>volteta</i><par n="luenga__n"/></e>
+    <e lm="charcutería"><i>charcutería</i><par n="luenga__n"/></e>
+    <e lm="chaminera"><i>chaminera</i><par n="luenga__n"/></e>
+    <e lm="ixaringa"><i>ixaringa</i><par n="luenga__n"/></e>
+    <e lm="zarracatralla"><i>zarracatralla</i><par n="luenga__n"/></e>
+    <e lm="zifra"><i>zifra</i><par n="luenga__n"/></e>
+    <e lm="chincha"><i>chincha</i><par n="luenga__n"/></e>
+    <e lm="chincheta"><i>chincheta</i><par n="luenga__n"/></e>
+    <e lm="chicolatina"><i>chicolatina</i><par n="luenga__n"/></e>
+    <e lm="obella"><i>obella</i><par n="luenga__n"/></e>
+    <e lm="chufa"><i>chufa</i><par n="luenga__n"/></e>
+    <e lm="chulla"><i>chulla</i><par n="luenga__n"/></e>
+    <e lm="churrería"><i>churrería</i><par n="luenga__n"/></e>
+    <e lm="zebra"><i>zebra</i><par n="luenga__n"/></e>
+    <e lm="zoolochía"><i>zoolochía</i><par n="luenga__n"/></e>
+    <e lm="estucia"><i>estucia</i><par n="luenga__n"/></e>
+    <e lm="banda"><i>banda</i><par n="luenga__n"/></e>
+    <e lm="capa"><i>capa</i><par n="luenga__n"/></e>
+    <e lm="crepa"><i>crepa</i><par n="luenga__n"/></e>
+    <e lm="conferencia"><i>conferencia</i><par n="luenga__n"/></e>
+    <e lm="cresta"><i>cresta</i><par n="luenga__n"/></e>
+    <e lm="dotzena"><i>dotzena</i><par n="luenga__n"/></e>
+    <e lm="cuca"><i>cuca</i><par n="luenga__n"/></e>
+    <e lm="cingla"><i>cingla</i><par n="luenga__n"/></e>
+    <e lm="tertulia"><i>tertulia</i><par n="luenga__n"/></e>
+    <e lm="aspiradera"><i>aspiradera</i><par n="luenga__n"/></e>
+    <e r="LR" lm="aspiradera"><p><l>aspiradora</l><r>aspiradera</r></p><par n="luenga__n"/></e>
+    <e lm="badía"><i>badía</i><par n="luenga__n"/></e>
+    <e lm="garnela"><i>garnela</i><par n="luenga__n"/></e>
+    <e lm="barba"><i>barba</i><par n="luenga__n"/></e>
+    <e lm="baballa"><i>baballa</i><par n="luenga__n"/></e>
+    <e lm="bombeta"><i>bombeta</i><par n="luenga__n"/></e>
+    <e lm="bursa"><i>bursa</i><par n="luenga__n"/></e>
+    <e lm="bolsa"><i>bolsa</i><par n="luenga__n"/></e>
+    <e lm="boteja"><i>boteja</i><par n="luenga__n"/></e>
+    <e lm="cazadora"><i>cazadora</i><par n="luenga__n"/></e>
+    <e lm="calaixera"><i>calaixera</i><par n="luenga__n"/></e>
+    <e lm="tocinería"><i>tocinería</i><par n="luenga__n"/></e>
+    <e lm="cantarula"><i>cantarula</i><par n="luenga__n"/></e>
+    <e lm="canela"><i>canela</i><par n="luenga__n"/></e>
+    <e lm="carbaza"><i>carbaza</i><par n="luenga__n"/></e>
+    <e lm="cartulina"><i>cartulina</i><par n="luenga__n"/></e>
+    <e lm="alfombra"><i>alfombra</i><par n="luenga__n"/></e>
+    <e lm="cava"><i>cava</i><par n="luenga__n"/></e>
+    <e lm="confitura"><i>confitura</i><par n="luenga__n"/></e>
+    <e lm="correua"><i>correua</i><par n="luenga__n"/></e>
+    <e lm="galanería"><i>galanería</i><par n="luenga__n"/></e>
+    <e lm="cortesía"><i>cortesía</i><par n="luenga__n"/></e>
+    <e lm="cochera"><i>cochera</i><par n="luenga__n"/></e>
+    <e lm="cobardía"><i>cobardía</i><par n="luenga__n"/></e>
+    <e lm="cubeta"><i>cubeta</i><par n="luenga__n"/></e>
+    <e lm="pierna"><i>pierna</i><par n="luenga__n"/></e>
+    <e lm="esconfianza"><i>esconfianza</i><par n="luenga__n"/></e>
+    <e r="LR" lm="esconfianza"><p><l>desconfianza</l><r>esconfianza</r></p><par n="luenga__n"/></e>    
+    <e lm="desenvoltura"><i>desenvoltura</i><par n="luenga__n"/></e>
+    <e lm="ebanista"><i>ebanista</i><par n="accionista__n"/></e>
+    <e lm="interpresa"><i>interpresa</i><par n="luenga__n"/></e>
+    <e lm="amostranza"><i>amostranza</i><par n="luenga__n"/></e>
+    <e lm="fregadera"><i>fregadera</i><par n="luenga__n"/></e>
+    <e lm="estructura"><i>estructura</i><par n="luenga__n"/></e>
+    <e lm="fantesía"><i>fantesía</i><par n="luenga__n"/></e>
+    <e lm="fayena"><i>fayena</i><par n="luenga__n"/></e>
+    <e lm="fruita"><i>fruita</i><par n="luenga__n"/></e>
+    <e lm="cuitellada"><i>cuitellada</i><par n="luenga__n"/></e>
+    <e lm="esgarrillada"><i>esgarrillada</i><par n="luenga__n"/></e>
+    <e lm="gruba"><i>gruba</i><par n="luenga__n"/></e>
+    <e lm="guionista"><i>guionista</i><par n="accionista__n"/></e>
+    <e lm="sanfoina"><i>sanfoina</i><par n="luenga__n"/></e>
+    <e lm="ficienda"><i>ficienda</i><par n="luenga__n"/></e>
+    <e r="LR" lm="ficienda"><p><l>facienda</l><r>ficienda</r></p><par n="luenga__n"/></e>        
+    <e r="LR" lm="ficienda"><p><l>hicienda</l><r>ficienda</r></p><par n="luenga__n"/></e>        
+    <e lm="idolo"><i>idolo</i><par n="libro__n"/></e>
+    <e lm="idola"><i>idola</i><par n="luenga__n"/></e>
+    <e lm="isla"><i>isla</i><par n="luenga__n"/></e>
+    <e lm="mayuscla"><i>mayuscla</i><par n="luenga__n"/></e>
+    <e lm="matricla"><i>matricla</i><par n="luenga__n"/></e>
+    <e lm="medecina"><i>medecina</i><par n="luenga__n"/></e>
+    <e lm="medicina"><i>medicina</i><par n="luenga__n"/></e>
+    <e lm="mezquita"><i>mezquita</i><par n="luenga__n"/></e>
+    <e lm="minuscla"><i>minuscla</i><par n="luenga__n"/></e>
+    <e lm="paranza"><i>paranza</i><par n="luenga__n"/></e>
+    <e lm="trapa"><i>trapa</i><par n="luenga__n"/></e>
+    <e lm="pedrera"><i>pedrera</i><par n="luenga__n"/></e>
+    <e lm="preza"><i>preza</i><par n="luenga__n"/></e>
+    <e lm="pestanya"><i>pestanya</i><par n="luenga__n"/></e>
+    <e lm="ladrillo"><i>ladrillo</i><par n="libro__n"/></e>
+    <e lm="rapideza"><i>rapideza</i><par n="luenga__n"/></e>
+    <e lm="busca"><i>busca</i><par n="luenga__n"/></e>
+    <e lm="cosechadera"><i>cosechadera</i><par n="luenga__n"/></e>
+    <e r="LR" lm="cosechadera"><p><l>cosechadora</l><r>cosechadera</r></p><par n="luenga__n"/></e>            
+    <e lm="recta"><i>recta</i><par n="luenga__n"/></e>
+    <e lm="revancha"><i>revancha</i><par n="luenga__n"/></e>
+    <e lm="salsera"><i>salsera</i><par n="luenga__n"/></e>
+    <e lm="fritada"><i>fritada</i><par n="luenga__n"/></e>
+    <e lm="grandaria"><i>grandaria</i><par n="luenga__n"/></e>
+    <e lm="chancleta"><i>chancleta</i><par n="luenga__n"/></e>
+    <e lm="chorrupada"><i>chorrupada</i><par n="luenga__n"/></e>
+
+
   </section>
   
   <section id="apostrophes" type="postblank">
