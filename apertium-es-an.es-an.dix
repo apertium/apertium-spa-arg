@@ -5104,6 +5104,7 @@
     <e><p><l>esfera<s n="n"/></l><r>esfera<s n="n"/></r></p></e>
     <e><p><l>esgrima<s n="n"/></l><r>esgrima<s n="n"/></r></p></e>
     <e><p><l>espada<s n="n"/></l><r>espada<s n="n"/></r></p></e>
+    <e><p><l>haber<s n="n"/></l><r>haber<s n="n"/></r></p></e>
     <e><p><l>hombrera<s n="n"/></l><r>huembrera<s n="n"/></r></p></e>
     <e><p><l>espaldera<s n="n"/></l><r>espaldera<s n="n"/></r></p></e>
     <e><p><l>espera<s n="n"/></l><r>espera<s n="n"/></r></p></e>
@@ -5878,6 +5879,10 @@
           group vbhaver_symbol
       ****************************** -->
     <e><p><l>haber<s n="vbhaver"/></l><r>haber<s n="vbhaver"/></r></p></e>
+    <e><p><l>hay<s n="vblex"/></l>             <r>bi<b/>ha<s n="vblex"/></r></p></e>
+<e>       <p><l>hay<g><b/>bastante</g><s n="vblex"/></l><r>hi<b/>ha<g><b/>prou</g><s n="vblex"/></r></p></e>
+<e>       <p><l>haber<g><b/>bastante</g><s n="vblex"/></l><r>haver<g><b/>prou</g><s n="vblex"/></r></p></e>
+
     <!-- ******************************
           group vbmod_symbol
       ****************************** -->

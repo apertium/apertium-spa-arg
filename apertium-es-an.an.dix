@@ -7434,7 +7434,7 @@
       </p>
       <par n="pimpi_ba__cnjgt"/>
 </e> 
-  <e>
+  <e r="LR">
       <p>
         <l>abe</l>
         <r>aber<s n="vbhaver"/></r>
@@ -29188,7 +29188,7 @@
     </e>
 
 
-    <e r="LR">
+    <e r="LR" i="yes"> <!-- JP:local form giving problems of disambiguation with pronoun "se", I better disable it for now-->
       <p>
         <l>se</l>
         <r>si<s n="cnjadv"/></r>
@@ -29955,6 +29955,7 @@
 
     <e lm="haber"><i>h</i><par n="h/aber__vbhaver"/></e>
     <e lm="haber" r="LR"><p><l></l><r>h</r></p><par n="h/aber__vbhaver"/></e>
+    
     <e lm="vivir"><i>viv</i><par n="viv/ir__vblex"/></e>
     <e r="LR" lm="vivir"><p><l>bib</l><r>viv</r></p><par n="viv/ir__vblex"/></e>
     <e r="LR" lm="vivir"><p><l>vev</l><r>viv</r></p><par n="viv/ir__vblex"/></e>
@@ -35468,7 +35469,8 @@
     <e lm="citar"><i>cit</i><par n="cant/ar__vblex"/></e>
     <e lm="vender"><i>vend</i><par n="vend/er__vblex"/></e>
     <e lm="encender"><i>enc</i><par n="enc/ender__vblex"/></e>
-
+    
+    <e lm="haber"><i>haber</i><par n="libro__n"/></e>
     <e lm="día"><i>día</i><par n="libro__n"/></e>
     <e r="LR" lm="día"><p><l>diya</l><r>día</r></p><par n="libro__n"/></e>
     <e lm="creiximiento"><i>creixi</i><par n="achunta/miento__n"/></e>
