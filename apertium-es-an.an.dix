@@ -2564,6 +2564,7 @@
     </e>
 
     </pardef>
+        
     <pardef n="en__prn">
     <e>
       <p>
@@ -2582,6 +2583,67 @@
     </e>
 
     </pardef>
+
+    <pardef n="/en__prn">
+      <e r="RL">
+        <p>
+         <l><a/>en</l>
+         <r>en<s n="prn"/><s n="pro"/><s n="adv"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+         <l>en</l>
+         <r>en<s n="prn"/><s n="pro"/><s n="adv"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+         <l>ne</l>
+         <r>en<s n="prn"/><s n="pro"/><s n="adv"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+         <l>'n</l>
+         <r>en<s n="prn"/><s n="pro"/><s n="adv"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="/bi__prn">
+      <e r="RL">
+        <p>
+         <l><a/>i</l>
+         <r>i<s n="prn"/><s n="pro"/><s n="adv"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+         <l>i</l>
+         <r>i<s n="prn"/><s n="pro"/><s n="adv"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+         <l>bi</l>
+         <r>i<s n="prn"/><s n="pro"/><s n="adv"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+         <l>be</l>
+         <r>i<s n="prn"/><s n="pro"/><s n="adv"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+         <l>ie</l>
+         <r>i<s n="prn"/><s n="pro"/><s n="adv"/></r>
+        </p>
+      </e>
+    </pardef>
+        
     <pardef n="te__prn">
     <e>
       <p>
@@ -2886,7 +2948,7 @@
     </e>
     <e r="LR">
       <p>
-        <l>riba</l>
+        <l>reba</l>
         <r><s n="cni"/><s n="p1"/><s n="sg"/></r>
       </p>
     </e>
@@ -2898,7 +2960,7 @@
     </e>
     <e r="LR">
       <p>
-        <l>ribas</l>
+        <l>rebas</l>
         <r><s n="cni"/><s n="p2"/><s n="sg"/></r>
       </p>
     </e>
@@ -2910,7 +2972,7 @@
     </e>
     <e r="LR">
       <p>
-        <l>riba</l>
+        <l>reba</l>
         <r><s n="cni"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
@@ -2988,43 +3050,43 @@
     </e>
     <e r="LR">
       <p>
-        <l>ríbanos</l>
+        <l>rébanos</l>
         <r><s n="cni"/><s n="p1"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>ribanos</l>
+        <l>rebanos</l>
         <r><s n="cni"/><s n="p1"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>ríbamos</l>
+        <l>rébamos</l>
         <r><s n="cni"/><s n="p1"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>ribamos</l>
+        <l>rebamos</l>
         <r><s n="cni"/><s n="p1"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>riban</l>
+        <l>reban</l>
         <r><s n="cni"/><s n="p1"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>ríbam</l>
+        <l>rébam</l>
         <r><s n="cni"/><s n="p1"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>ribam</l>
+        <l>rebam</l>
         <r><s n="cni"/><s n="p1"/><s n="pl"/></r>
       </p>
     </e>
@@ -3105,25 +3167,25 @@
     </e>      
     <e r="LR">
       <p>
-        <l>ríbatz</l>
+        <l>rébatz</l>
         <r><s n="cni"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>ribatz</l>
+        <l>rebatz</l>
         <r><s n="cni"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
    <e r="LR">
       <p>
-        <l>ríbaz</l>
+        <l>rébaz</l>
         <r><s n="cni"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
      <e r="LR">
       <p>
-        <l>ribaz</l>
+        <l>rebaz</l>
         <r><s n="cni"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
@@ -3141,7 +3203,7 @@
   </e>
      <e r="LR">
       <p>
-        <l>riban</l>
+        <l>reban</l>
         <r><s n="cni"/><s n="p3"/><s n="pl"/></r>
       </p>
   </e>
@@ -7373,9 +7435,464 @@
     </e>
    </pardef>
   
+<pardef n="/haber__vbhaver">
+  <e>
+      <p>
+        <l>he</l>
+        <r>haber<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>hei</l>
+        <r>haber<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>has</l>
+        <r>haber<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>ha</l>
+        <r>haber<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e i="yes" r="RL">
+      <p>
+        <l><a/>i<b/>ha</l>
+        <r>haber<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>han</l>
+        <r>haber<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>h</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="pri12pl_emos__cnjgt"/>
+    </e>
+    <e r="LR">
+      <p>
+        <l>hab</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="pri12pl_emos__cnjgt"/>
+    </e>
+    <e r="LR">
+      <p>
+        <l>he</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e> 
+<!-- now, I need to explicit the forms that will be generated since I used LR in the previous paradigm-->
+    <e>
+      <p>
+        <l>heba</l>
+        <r>haber<s n="vbhaver"/><s n="pii"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hebas</l>
+        <r>haber<s n="vbhaver"/><s n="pii"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="RL"> <!-- we will generate the adverbial pronoun  i heba -->
+      <p>
+        <l><a/>i<b/>heba</l>
+        <r>haber<s n="vbhaver"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
+      </p>
+   </e>
+    <e>
+      <p>
+        <l>hebanos</l>
+        <r>haber<s n="vbhaver"/><s n="pii"/><s n="p1"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hebatz</l>
+        <r>haber<s n="vbhaver"/><s n="pii"/><s n="p2"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>heban</l>
+        <r>haber<s n="vbhaver"/><s n="pii"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+<e r="LR">
+      <p>
+        <l>hé</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+  <e r="LR">
+      <p>
+        <l>habe</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e> 
+<e r="LR">
+      <p>
+        <l>habé</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+  <e>
+      <p>
+        <l>habi</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e r="LR">
+      <p>
+        <l>habi</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+    <e r="RL">
+      <p>
+        <l><a/>i<b/>habió</l>
+        <r>haber<s n="vbhaver"/><s n="ifi"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e> <!-- needed here because  paradigm indefi_o__cnjgt is invoked with LR restriction -->
+      <p>
+        <l>habioron</l>
+        <r>haber<s n="vbhaver"/><s n="ifi"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+  <e r="LR">
+      <p>
+        <l>hub</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="indefi_vid/e__cnjgt"/>
+  </e> 
+  <e r="LR">
+      <p>
+        <l>húb</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="indefi_vid/e__cnjgt"/>
+  </e> 
+    <e r="LR">
+      <p>
+        <l>hab</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e> 
     
-<pardef n="h/aber__vbhaver">
+    <e>
+      <p>
+        <l>habré</l>
+        <r>haber<s n="vbhaver"/><s n="fti"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>habrás</l>
+        <r>haber<s n="vbhaver"/><s n="fti"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l><a/>i<b/>habrá</l>
+        <r>haber<s n="vbhaver"/><s n="fti"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>habremos</l>
+        <r>haber<s n="vbhaver"/><s n="fti"/><s n="p1"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>habretz</l>
+        <r>haber<s n="vbhaver"/><s n="fti"/><s n="p2"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>habrán</l>
+        <r>haber<s n="vbhaver"/><s n="fti"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+    
+    <e r="LR">
+      <p>
+        <l>hab</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+<!-- forms to be generated -->
+   <e>
+      <p>
+        <l>habría</l>
+        <r>haber<s n="vbhaver"/><s n="cni"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>habrías</l>
+        <r>haber<s n="vbhaver"/><s n="cni"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l><a/>i<b/>habría</l>
+        <r>haber<s n="vbhaver"/><s n="cni"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>habríanos</l>
+        <r>haber<s n="vbhaver"/><s n="cni"/><s n="p1"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>habríatz</l>
+        <r>haber<s n="vbhaver"/><s n="cni"/><s n="p2"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>habrían</l>
+        <r>haber<s n="vbhaver"/><s n="cni"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+    
+    <e r="LR">
+      <p>
+        <l>habe</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>habé</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
 
+    <e>
+      <p>
+        <l>haig</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>hay</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>haig</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+<!-- forms to be generated belongin to paradigm prsrest_a__cnjgt -->    
+      <e>
+      <p>
+        <l>haiga</l>
+        <r>haber<s n="vbhaver"/><s n="prs"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>haigas</l>
+        <r>haber<s n="vbhaver"/><s n="prs"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l><a/>i<b/>haiga</l>
+        <r>haber<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>haigan</l>
+        <r>haber<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+    
+    <e  r="LR">
+      <p>
+        <l>hay</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>h</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="pis_ese__cnjgt"/>
+    </e> 
+    <!-- forms to be generated belongin to paradigm pis_ese_cnjgt -->    
+    <e>
+      <p>
+        <l>hese</l>
+        <r>haber<s n="vbhaver"/><s n="pis"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>heses</l>
+        <r>haber<s n="vbhaver"/><s n="pis"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="RL">
+      <p>
+        <l><a/>i<b/>hese</l>
+        <r>haber<s n="vbhaver"/><s n="pis"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hesenos</l>
+        <r>haber<s n="vbhaver"/><s n="pis"/><s n="p1"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hesetz</l>
+        <r>haber<s n="vbhaver"/><s n="pis"/><s n="p2"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>hesen</l>
+        <r>haber<s n="vbhaver"/><s n="pis"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>hab</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="pis_ese__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>habi</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="pis_erai__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>hubi</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="pis_erai__cnjgt"/>
+    </e>
+    <e>
+      <p>
+        <l>hab</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="imp_vend/e__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>haig</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>hay</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>haig</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>hay</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>h</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="imp_vend/etz__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>hab</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="inf_er__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>hab</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="ger_endo__cnjgt"/>
+    </e>
+    <e r="LR">
+      <p>
+        <l>hubi</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="ger_endo__cnjgt"/>
+    </e>
+    <e>
+      <p>
+        <l>habi</l>
+        <r>haber<s n="vbhaver"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+    </pardef>    
+
+<pardef n="h/aber__vbhaver">  <!-- I keep this paradigm for analyzing old orthography forms (it will be used only in the LR direction) -->
   <e>
       <p>
         <l>e</l>
@@ -29631,16 +30148,10 @@
     <!-- ******************************
           adverbial pronouns: en/ne, i/bi/ie
       ****************************** -->
-    <e r="RL" lm="bi"><p><l><a/>i</l><r>i</r></p><par n="en__prn"/></e>
-    <e r="LR" lm="bi"><i>i</i><par n="en__prn"/></e>
-    <e r="LR" lm="bi"><p><l>bi</l><r>i</r></p><par n="en__prn"/></e>
-    <e r="LR" lm="bi"><p><l>be</l><r>i</r></p><par n="en__prn"/></e>
-    <e r="LR" lm="bi"><p><l>ie</l><r>i</r></p><par n="en__prn"/></e>
-        
-    <e r="RL" lm="en"><p><l><a/>en</l><r>en</r></p><par n="en__prn"/></e>
-    <e r="LR" lm="en"><i>en</i><par n="en__prn"/></e>
-    <e r="LR" lm="en"><p><l>ne</l><r>en</r></p><par n="en__prn"/></e>
-    <e r="LR" lm="en"><p><l>'n</l><r>en</r></p><par n="en__prn"/></e>
+
+    <e lm="bi"><i></i><par n="/bi__prn"/></e> 
+    <e lm="en"><i></i><par n="/en__prn"/></e> 
+  
     
     <e lm="ixo"><i>ixo</i><par n="ixo__prn"/></e>
     <e lm="isto"><i>isto</i><par n="ixo__prn"/></e>
@@ -29953,8 +30464,33 @@
     <e lm="XX"><i>XX</i><par n="dos__num"/></e>
     <e lm="XXI"><i>XXI</i><par n="dos__num"/></e>
 
-    <e lm="haber"><i>h</i><par n="h/aber__vbhaver"/></e>
+    <e lm="haber"><i></i><par n="/haber__vbhaver"/></e>
     <e lm="haber" r="LR"><p><l></l><r>h</r></p><par n="h/aber__vbhaver"/></e>
+    <e lm="bi ha"><p><l>bi<b/>ha</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="bi ha"><p><l>b'ha</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="bi ha"><p><l>i<b/>hai</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="bi ha"><p><l>hai</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="bi ha"><p><l>i<b/>ha</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="bi ha"><p><l>i<b/>hei</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>    
+    <e r="LR" lm="bi ha"><p><l>i<b/>yei</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>    
+    <e r="LR" lm="bi ha"><p><l>i<b/>yey</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>    
+    <e r="LR" lm="bi ha"><p><l>bi<b/>está</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>    
+    <e r="LR" lm="bi ha"><p><l>bi'stá</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>    
+    <e r="LR" lm="bi ha"><p><l>bistá</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>    
+    
+    <e r="LR" lm="bi'n ha"><p><l>bi'n<b/>ha</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="bi'n ha"><p><l>ne<b/>b'ha</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="bi'n ha"><p><l>bi<b/>n'ha</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="bi'n ha"><p><l>n'i<b/>hai</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="bi'n ha"><p><l>n'i<b/>hei</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="bi'n ha"><p><l>n'i<b/>ha</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="bi'n ha"><p><l>ny'hai</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="bi'n ha"><p><l>nyei</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="bi'n ha"><p><l>nyai</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="bi'n ha"><p><l>ñei</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="bi'n ha"><p><l>en<b/>bi<b/>está</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="bi'n ha"><p><l>en<b/>bi'stá</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="bi'n ha"><p><l>en<b/>bistá</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     
     <e lm="vivir"><i>viv</i><par n="viv/ir__vblex"/></e>
     <e r="LR" lm="vivir"><p><l>bib</l><r>viv</r></p><par n="viv/ir__vblex"/></e>
@@ -42560,8 +43096,8 @@
     <e r="LR" lm="d'"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
     <e r="LR" lm="s'"><p><l>s'</l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" lm="l'"><p><l>l'</l>                    <r>el<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e r="LR" lm="n'"><p><l>n'</l><r>en</r></p><par n="en__prn"/></e>    
-    <e r="LR" lm="b'"><p><l>b'</l><r>i</r></p><par n="en__prn"/></e>
+    <e r="LR" lm="n'"><p><l>n'</l><r>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>    
+    <e r="LR" lm="b'"><p><l>b'</l><r>i<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="LR" lm="m'"><p><l>m'</l><r>me</r></p><par n="me__prn"/></e>
     <e r="LR" lm="t'"><p><l>t'</l><r>te</r></p><par n="te__prn"/></e>
     <e r="LR" lm="mirar d'" i="yes"><i>mir</i><par n="cant/ar__vblex"/><p><l>d'</l><r><g>de</g></r></p></e>
