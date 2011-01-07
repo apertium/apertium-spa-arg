@@ -4018,8 +4018,8 @@
 	
       </action>
     </rule>
-
-    <rule> <!-- REGLA: PREP NOM -->
+<!-- 
+    <rule> --> <!-- REGLA: PREP NOM --> <!-- Juan Pablo: I take out, it does not seem to work properly for aragonese 
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="nom"/>
@@ -4059,10 +4059,10 @@
       </action>
     </rule>
 
+-->
 
-
-    
-    <rule> <!-- REGLA: PREP ADJECTIU -->
+    <!-- 
+    <rule> --> <!-- REGLA: PREP ADJECTIU --> <!-- JP
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="adj"/>
@@ -4089,10 +4089,10 @@
 	</out>
       </action>
     </rule>
-    
-    
-    <rule> <!-- REGLA: PREP PRONOM --><!--Special case, macro f_concord1 
-					  is not applicable because gender and number cannot be taken from previous rules -->
+    -->
+    <!-- 
+    <rule> --> <!-- REGLA: PREP PRONOM --><!--Special case, macro f_concord1 
+					  is not applicable because gender and number cannot be taken from previous rules --> <!-- jp:
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="prn"/>
@@ -4137,9 +4137,9 @@
 	</out>
       </action>
     </rule>
-    
-    
-    <rule> <!-- REGLA: PREP NUMERAL-->
+    -->
+    <!-- 
+    <rule> --> <!-- REGLA: PREP NUMERAL--> <!-- JP:
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="num"/>
@@ -4163,15 +4163,14 @@
 	</let>
       </action>
     </rule>
+  -->
+
+
+
+
+<!--
     
-
-
-
-
-
-    
-    
-    <rule> <!-- REGLA: PREP DETERMINANT NOM -->
+    <rule> --> <!-- REGLA: PREP DETERMINANT NOM --> <!-- JP:
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="det"/>
@@ -4206,8 +4205,11 @@
 	
       </action>
     </rule>
+    -->
     
-    <rule> <!-- REGLA: PREP NOM ADJECTIU-->
+    <!-- 
+    
+    <rule> --> <!-- REGLA: PREP NOM ADJECTIU--> <!-- jp:
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="nom"/>
@@ -4248,9 +4250,9 @@
 	
       </action>
     </rule>
-    
-    
-    <rule> <!-- REGLA: PREP ADJECTIU NOM -->
+    -->
+    <!--
+    <rule> --> <!-- REGLA: PREP ADJECTIU NOM --> <!-- JP:
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="adj"/>
@@ -4291,8 +4293,9 @@
 	
       </action>
     </rule>
-    
-    <rule> <!-- REGLA: PREP DET NOM ADJECTIU-->
+    -->
+    <!--
+    <rule> --> <!-- REGLA: PREP DET NOM ADJECTIU--> <!-- JP:
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="det"/>
@@ -4340,8 +4343,9 @@
 	
       </action>
     </rule>
-    
-    <rule> <!-- REGLA: PREP DET NOM ADJECTIU ADJECTIU-->
+-->    
+    <!--
+    <rule> --> <!-- REGLA: PREP DET NOM ADJECTIU ADJECTIU--> <!-- jp:
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="det"/>
@@ -4396,8 +4400,9 @@
 	</out>
       </action>
     </rule>
-    
-    <rule> <!-- REGLA: PREP NOM ADJECTIU ADJECTIU-->
+    -->
+    <!-- 
+    <rule> --> <!-- REGLA: PREP NOM ADJECTIU ADJECTIU--> <!-- jp:
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="nom"/>
@@ -4444,10 +4449,10 @@
 	</out>
       </action>
     </rule>
+    -->
     
-    
-    
-    <rule> <!-- REGLA: PREP DET ADJECTIU NOM-->
+    <!-- 
+    <rule> --> <!-- REGLA: PREP DET ADJECTIU NOM--> <!-- jp:
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="det"/>
@@ -4570,9 +4575,10 @@
 	
       </action>
     </rule>
+    -->
     
-    
-    <rule> <!-- REGLA: PREP PREDET DET NOM-->
+<!--    
+    <rule> --> <!-- REGLA: PREP PREDET DET NOM--> <!-- jp:
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="predet"/>
@@ -4612,8 +4618,9 @@
 	
       </action>
     </rule>
-    
-    <rule> <!-- REGLA: PREP PREDET DET NOM ADJECTIU-->
+    -->
+    <!--
+    <rule> --> <!-- REGLA: PREP PREDET DET NOM ADJECTIU--> <!-- JP:
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="predet"/>
@@ -4667,10 +4674,10 @@
 	
       </action>
     </rule>
+    -->
     
-    
-    
-    <rule> <!-- REGLA: PREP DETERMINANT ADJECTIU-->
+    <!--
+    <rule> --> <!-- REGLA: PREP DETERMINANT ADJECTIU--> <!-- JP:
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="det"/>
@@ -4708,8 +4715,10 @@
 	
       </action>
     </rule>
+    -->
     
-    <rule> <!-- REGLA: PREP ADJECTIU NOM ADJECTIU-->
+    <!--
+    <rule> --> <!-- REGLA: PREP ADJECTIU NOM ADJECTIU-->     <!--JP:
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="adj"/>
@@ -4764,8 +4773,9 @@
 	
       </action>
     </rule>
-    
-    <rule> <!-- REGLA: PREP DET ADJECTIU NOM ADJECTIU -->
+    -->
+    <!--
+    <rule> --> <!-- REGLA: PREP DET ADJECTIU NOM ADJECTIU --> <!--
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="det"/>
@@ -4829,9 +4839,10 @@
 	
       </action>
     </rule>
+    -->
     
-    
-    <rule> <!-- REGLA: PREP NOM ADVERBI ADJECTIU-->
+    <!-- 
+    <rule> --> <!-- REGLA: PREP NOM ADVERBI ADJECTIU--> <!--JP:
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="nom"/>
@@ -4875,11 +4886,12 @@
 	    <clip pos="4" side="tl" part="lemq"/>
 	  </lu>
 	</out>
-	
-      </action>
+  </action>
     </rule>
-    
-    <rule> <!-- REGLA: PREP DET NOM ADVERBI ADJECTIU -->
+    -->
+    <!--
+    <rule>
+     --> <!-- REGLA: PREP DET NOM ADVERBI ADJECTIU --> <!--
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="det"/>
@@ -4932,9 +4944,10 @@
 	
       </action>
     </rule>
+    -->
     
-    
-    <rule> <!-- REGLA: PREP DET ADVERBI NOM-->
+    <!--
+    <rule>--> <!-- REGLA: PREP DET ADVERBI NOM--> <!--
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="det"/>
@@ -4978,9 +4991,10 @@
 	
       </action>
     </rule>
+    -->
     
-    
-    <rule> <!-- REGLA: PREP NUMERAL NOM -->
+    <!-- JP:
+    <rule>--> <!-- REGLA: PREP NUMERAL NOM --> <!--
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="num"/>
@@ -5016,8 +5030,9 @@
 	
       </action>
     </rule>
-
- <rule> <!-- REGLA: PREP NUMERAL cnjcoo NUMERAL NOM (entre dos y tres semanas)-->
+    -->
+<!-- jp:
+ <rule>--> <!-- REGLA: PREP NUMERAL cnjcoo NUMERAL NOM (entre dos y tres semanas)--> <!--
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="num"/>
@@ -5059,8 +5074,9 @@
 	</out>
       </action>
     </rule>
-    
-    <rule> <!-- REGLA: PREP NUMERAL ADJECTIU -->
+    -->
+    <!--
+    <rule>--> <!-- REGLA: PREP NUMERAL ADJECTIU --> <!--JP:
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="num"/>
@@ -5095,9 +5111,9 @@
 	</let>
       </action>
     </rule>
-    
-    
-    <rule> <!-- REGLA: PREP NUMERAL NOM ADJECTIU -->
+    -->
+    <!--
+    <rule>--> <!-- REGLA: PREP NUMERAL NOM ADJECTIU --> <!-- JP:
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="num"/>
@@ -5145,9 +5161,9 @@
 	</let>
 	
       </action>
-    </rule>
-    
-    <rule> <!-- REGLA: PREP NUMERAL ADJECTIU NOM -->
+    </rule> -->
+    <!--
+    <rule> --><!-- REGLA: PREP NUMERAL ADJECTIU NOM --><!--JP:
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="num"/>
@@ -5196,10 +5212,10 @@
 	
       </action>
     </rule>
+    -->
     
-    
-    
-    <rule> <!-- REGLA: PREP DET NUMERAL NOM -->
+    <!--
+    <rule> --> <!-- REGLA: PREP DET NUMERAL NOM --> <!--
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="det"/>
@@ -5244,7 +5260,7 @@
 	
       </action>
     </rule>
-    
+    -->
 
     <rule> <!-- REGLA: EN + QUE -->
       <pattern>
