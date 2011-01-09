@@ -16093,9 +16093,42 @@
     <par n="enciend/o_d__vblex"/>
   </e>
 </pardef>
+
+<pardef n="cal/entar__vblex">
+  <e>
+    <p>
+      <l>ent</l>
+      <r>ent</r>
+    </p>
+    <par n="recomend/ar_nd__vblex"/>
+  </e>
+  <e>
+    <p>
+      <l>ient</l>
+      <r>ent</r>
+    </p>
+    <par n="recomiend/o_d__vblex"/>
+  </e>
+</pardef>
     
+<pardef n="s/egar__vblex">
+  <e>
+    <p>
+      <l>eg</l>
+      <r>eg</r>
+    </p>
+    <par n="arroceg/ar_nd__vblex"/>
+  </e>
+  <e>
+    <p>
+      <l>ieg</l>
+      <r>eg</r>
+    </p>
+    <par n="arrocieg/o_d__vblex"/>
+  </e>
+</pardef>
     
-    <pardef n="v/estir__vblex">
+<pardef n="v/estir__vblex">
       <e>
         <p>
           <l>est</l>
@@ -30903,7 +30936,11 @@
     <e r="LR" lm="ixo"><p><l>aixó</l><r>ixo</r></p><par n="ixo__prn"/></e>    
     <e lm="isto"><i>isto</i><par n="ixo__prn"/></e>
     <e r="LR" lm="esto"><p><l>esto</l><r>isto</r></p><par n="ixo__prn"/></e>
-    <e lm="aquello"><i>isto</i><par n="ixo__prn"/></e>
+    <e lm="aquello"><i>aquello</i><par n="ixo__prn"/></e>
+    <e lm="cosa"><i>cosa</i><par n="ixo__prn"/></e>
+    <e lm="res"><i>res</i><par n="ixo__prn"/></e>
+    <e lm="no-cosa"><i>no-cosa</i><par n="quaresma__n"/></e>
+    <e lm="no-res"><i>no-res</i><par n="atletismo__n"/></e>
     
     <e lm="tot"><i>to</i><par n="to/t__predet"/></e>
     <e lm="ixe"><i>ix</i><par n="ix/e__det"/></e>
@@ -30961,6 +30998,7 @@
     
     <e lm="dengún"><i>deng</i><par n="deng/ún__det"/></e>
     <e lm="garra"><i>garra</i><par n="garra__det"/></e>
+    <e lm="cap"><i>cap</i><par n="garra__det"/></e>
     <e lm="bell"><i>bel</i><par n="bel/l__det"/></e>
     <e lm="qualque"><i>qualque</i><par n="qualque__det"/></e>
     <e r="LR" lm="qualque"><p><l>cualque</l><r>qualque</r></p><par n="qualque__det"/></e>
@@ -30968,8 +31006,11 @@
     <e lm="demás"><i>demás</i><par n="demás__det"/></e> <!-- biling  -->
 
     <e lm="garra"><i>garra</i><par n="garra__prn"/></e>
+    <e lm="cap"><i>cap</i><par n="garra__prn"/></e>
     <e lm="dengún"><i>deng</i><par n="bel/ún__prn"/></e>
     <e r="LR" lm="dengún no"><i>dengún<b/>no</i><par n="garra__prn"/></e>
+    <e r="LR" lm="digú no"><i>digú<b/>no</i><par n="garra__prn"/></e>
+    <e lm="digú"><i>digú</i><par n="garra__prn"/></e>
     <e lm="qualcún"><i>qualc</i><par n="bel/ún__prn"/></e>
     <e r="LR" lm="qualcún"><p><l>qualquec</l><r>qualc</r></p><par n="bel/ún__prn"/></e>
     <e r="LR" lm="qualcún"><p><l>cualc</l><r>qualc</r></p><par n="bel/ún__prn"/></e>
@@ -33954,6 +33995,7 @@
     <e r="LR" lm="brenca"><p><l>branca</l><r>brenca</r></p><par n="agora__adv"/></e>
     <e r="LR" lm="brenca"><p><l>branga</l><r>brenca</r></p><par n="agora__adv"/></e>
     <e lm="mica"><i>mica</i><par n="agora__adv"/></e>
+    <e lm="gota"><i>gota</i><par n="agora__adv"/></e>
     <e lm="pon"><i>pon</i><par n="agora__adv"/></e>
     <e r="LR" lm="pon"><p><l>pont</l><r>pon</r></p><par n="án__adv"/></e>
     <e lm="quán"><i>quán</i><par n="án__adv"/></e>
@@ -36588,21 +36630,16 @@
     <e lm="hibernar"><par n="/h_0__var"/><p><l>ibiern</l><r>ibern</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
     <e lm="recomendar"><i>recomend</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
     <e lm="recomendar"><p><l>recomiend</l><r>recomend</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
-    <e lm="asentar"><i>asent</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e lm="asentar"><p><l>asient</l><r>asent</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
-    <e lm="sentar"><i>sent</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e lm="sentar"><p><l>sient</l><r>sent</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
-    <e lm="presentar"><i>present</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e lm="presentar"><p><l>presient</l><r>present</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e lm="asentar"><i>as</i><par n="cal/entar__vblex"/></e> 
+    <e lm="sentar"><i>s</i><par n="cal/entar__vblex"/></e> 
+    <e lm="presentar"><i>pres</i><par n="cal/entar__vblex"/></e> 
     <e r="LR" lm="presentar"><i>present</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
-    <e lm="representar"><i>represent</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e lm="representar"><p><l>represient</l><r>represent</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e lm="representar"><i>repres</i><par n="cal/entar__vblex"/></e> 
     <e r="LR" lm="representar"><i>represent</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
     <e lm="afrontar"><i>afront</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms --><!-- check -->
     <e lm="afrontar"><p><l>afruent</l><r>afront</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
     <e r="LR" lm="afrontar"><i>afront</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
-    <e lm="calentar"><i>calent</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e lm="calentar"><p><l>calient</l><r>calent</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e lm="calentar"><i>cal</i><par n="cal/entar__vblex"/></e> <!-- non-diphtong forms -->
     <e r="LR" lm="calentar"><i>calent</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
     <e r="LR" lm="contar"><i>cont</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
     <e r="LR" lm="contar"><p><l>cuent</l><r>cont</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
@@ -36641,14 +36678,14 @@
     <e lm="almorzar"><i>almor</i><par n="almor/zar_nd__vblex"/></e><!-- non-diphtong forms -->
     <e lm="almorzar"><p><l>almuer</l><r>almor</r></p><par n="almuer/zo_d__vblex"/></e> <!-- diphtong forms -->
     <!-- egar  /  iego / iegue-->
-    <e r="LR" lm="emplegar"><i>empleg</i><par n="arroceg/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e r="LR" lm="emplegar"><p><l>emplieg</l><r>empleg</r></p><par n="arrocieg/o_d__vblex"/></e> <!-- diphtong forms -->
+    
+    <e r="LR" lm="emplegar"><i>empl</i><par n="s/egar__vblex"/></e>
     <e lm="emplegar"><i>empleg</i><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->
-    <e r="LR" lm="plegar"><i>pleg</i><par n="arroceg/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e r="LR" lm="plegar"><p><l>plieg</l><r>pleg</r></p><par n="arrocieg/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e r="LR" lm="plegar"><i>pl</i><par n="s/egar__vblex"/></e>
     <e lm="plegar"><par n="/pl_pll__var"/><i>eg</i><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->
-    <e lm="arrocegar"><i>arroceg</i><par n="arroceg/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e lm="arrocegar"><p><l>arroceg</l><r>arroceg</r></p><par n="arrocieg/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e r="LR" lm="aplegar"><i>apl</i><par n="s/egar__vblex"/></e>
+    <e lm="aplegar"><i>a</i><par n="/pl_pll__var"/><i>eg</i><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->
+    <e lm="arrocegar"><i>arroc</i><par n="s/egar__vblex"/></e>
     <e r="LR" lm="arrocegar"><i>arroceg</i><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->
 
     
@@ -36740,6 +36777,7 @@
     <e r="LR" lm="elevar"><p><l>eleb</l><r>elev</r></p><par n="cant/ar__vblex"/></e>
     <e lm="empapar"><i>empap</i><par n="cant/ar__vblex"/></e>
     <e lm="empentar"><i>empent</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="empentar"><i>emp</i><par n="cal/entar__vblex"/></e> 
     <e lm="incorporar"><i>incorpor</i><par n="cant/ar__vblex"/></e>
     <e lm="enfilar"><i>enfil</i><par n="cant/ar__vblex"/></e>
     <e lm="enfrentar"><i>enfrent</i><par n="cant/ar__vblex"/></e>
@@ -41806,6 +41844,7 @@
     <e lm="amagar"><i>amag</i><par n="pag/ar__vblex"/></e>
     <e lm="apegar"><i>apeg</i><par n="pag/ar__vblex"/></e>
     <e lm="complegar"><i>compleg</i><par n="pag/ar__vblex"/></e>
+    <e r="LR" lm="complegar"><i>compl</i><par n="s/egar__vblex"/></e>
     <e lm="achugar"><i>achug</i><par n="pag/ar__vblex"/></e>
     <e lm="replegar"><i>repleg</i><par n="pag/ar__vblex"/></e>
     <e lm="cagar"><i>cag</i><par n="pag/ar__vblex"/></e>
@@ -41816,49 +41855,41 @@
     <e lm="desapegar"><i>desapeg</i><par n="pag/ar__vblex"/></e>
     <e lm="desligar"><i>deslig</i><par n="pag/ar__vblex"/></e>
     <e lm="desplegar"><i>despleg</i><par n="pag/ar__vblex"/></e>
+    <e r="LR" lm="desplegar"><i>despl</i><par n="s/egar__vblex"/></e>
     <e lm="dialogar"><i>dialog</i><par n="pag/ar__vblex"/></e>
     <e lm="endrogar"><i>endrog</i><par n="pag/ar__vblex"/></e>
     <e lm="encargar"><i>encarg</i><par n="pag/ar__vblex"/></e>
     <e lm="apegar"><i>apeg</i><par n="pag/ar__vblex"/></e>
+    <e lm="pegar"><i>peg</i><par n="pag/ar__vblex"/></e>
     <e lm="enchegar"><i>encheg</i><par n="pag/ar__vblex"/></e>
     <e lm="enreligar"><i>enrelig</i><par n="pag/ar__vblex"/></e>
     <e lm="entregar"><i>entreg</i><par n="pag/ar__vblex"/></e>
     <e lm="fatigar"><i>fatig</i><par n="pag/ar__vblex"/></e>
-    <e lm="fregar"><i>freg</i><par n="arroceg/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e lm="fregar"><p><l>frieg</l><r>freg</r></p><par n="arrocieg/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e lm="fregar"><i>fr</i><par n="s/egar__vblex"/></e>
     <e r="LR" lm="fregar"><i>freg</i><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->    
     <e lm="fumigar"><i>fumig</i><par n="pag/ar__vblex"/></e>
     <e lm="chudgar"><i>chudg</i><par n="pag/ar__vblex"/></e>
     <e r="LR" lm="chudgar"><p><l>chutg</l><r>chudg</r></p><par n="pag/ar__vblex"/></e>
     <e r="LR" lm="chudgar"><p><l>chuzg</l><r>chutg</r></p><par n="pag/ar__vblex"/></e>
-    <e lm="negar"><i>neg</i><par n="arroceg/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e lm="negar"><p><l>nieg</l><r>neg</r></p><par n="arrocieg/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e lm="negar"><i>n</i><par n="s/egar__vblex"/></e>
     <e r="LR" lm="negar"><i>neg</i><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->
     <e lm="afogar"><i>afog</i><par n="arroceg/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
     <e lm="afogar"><p><l>afueg</l><r>afog</r></p><par n="arrocieg/o_d__vblex"/></e> <!-- diphtong forms -->
     <e r="LR" lm="afogar"><i>afog</i><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->
-    <e lm="ixafegar"><i>ixafeg</i><par n="arroceg/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e lm="ixafegar"><p><l>ixafieg</l><r>ixafeg</r></p><par n="arrocieg/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e lm="ixafegar"><i>ixaf</i><par n="s/egar__vblex"/></e>
     <e r="LR" lm="ixafegar"><i>ixafeg</i><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->
-    <e r="LR" lm="ixafegar"><p><l>ixalfeg</l><r>ixafeg</r></p><par n="arroceg/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e r="LR" lm="ixafegar"><p><l>ixalfieg</l><r>ixafeg</r></p><par n="arrocieg/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e r="LR" lm="ixafegar"><p><l>ixalf</l><r>ixaf</r></p><par n="s/egar__vblex"/></e>
     <e r="LR" lm="ixafegar"><p><l>ixalfeg</l><r>ixafeg</r></p><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->
-    <e r="LR" lm="ixafegar"><p><l>chalfeg</l><r>ixafeg</r></p><par n="arroceg/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e r="LR"  lm="ixafegar"><p><l>chalfieg</l><r>ixafeg</r></p><par n="arrocieg/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e r="LR" lm="ixafegar"><p><l>chalf</l><r>ixaf</r></p><par n="s/egar__vblex"/></e>
     <e r="LR" lm="ixafegar"><p><l>chalfeg</l><r>ixafeg</r></p><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->
-    <e r="LR"  lm="ixafegar"><p><l>chafeg</l><r>ixafeg</r></p><par n="arroceg/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e r="LR"  lm="ixafegar"><p><l>chafieg</l><r>ixafeg</r></p><par n="arrocieg/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e r="LR" lm="ixafegar"><p><l>chaf</l><r>ixaf</r></p><par n="s/egar__vblex"/></e>    
     <e r="LR" lm="ixafegar"><p><l>chafeg</l><r>ixafeg</r></p><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->
-    <e r="LR"  lm="ixafegar"><p><l>xalfeg</l><r>ixafeg</r></p><par n="arroceg/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e r="LR"  lm="ixafegar"><p><l>xalfieg</l><r>ixafeg</r></p><par n="arrocieg/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e r="LR" lm="ixafegar"><p><l>xalf</l><r>ixaf</r></p><par n="s/egar__vblex"/></e>    
     <e r="LR" lm="ixafegar"><p><l>xalfeg</l><r>ixafeg</r></p><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->
-    <e lm="regar"><i>reg</i><par n="pag/ar__vblex"/></e><!-- ? -->
-    <e lm="regar"><i>reg</i><par n="arroceg/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e lm="regar"><p><l>rieg</l><r>reg</r></p><par n="arrocieg/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e lm="regar"><i>r</i><par n="s/egar__vblex"/></e>
     <e r="LR" lm="regar"><i>reg</i><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->
-   <e lm="vengar"><i>veng</i><par n="pag/ar__vblex"/></e>
-    <e lm="encegar"><i>enceg</i><par n="arroceg/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e lm="encegar"><p><l>encieg</l><r>enceg</r></p><par n="arrocieg/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e lm="vengar"><i>veng</i><par n="pag/ar__vblex"/></e>
+    <e lm="encegar"><i>enc</i><par n="s/egar__vblex"/></e>
     <e r="LR" lm="encegar"><i>enceg</i><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->
     <e lm="rosigar"><i>rosig</i><par n="pag/ar__vblex"/></e>
     <e lm="escargar"><i>descarg</i><par n="pag/ar__vblex"/></e>
@@ -41937,8 +41968,7 @@
     <e lm="enumerar"><i>enumer</i><par n="cant/ar__vblex"/></e>
     <e lm="enverenar"><i>enveren</i><par n="cant/ar__vblex"/></e>
     <e lm="aterrar"><i>aterr</i><par n="cant/ar__vblex"/></e>
-    <e lm="espentar"><i>espent</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
-    <e lm="espentar"><p><l>espient</l><r>enterr</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e lm="espentar"><i>esp</i><par n="cal/entar__vblex"/></e> 
     <e r="LR" lm="espentar"><i>espent</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
     <e lm="enguerar"><i>enguer</i><par n="cant/ar__vblex"/></e>
     <e lm="excarcelar"><i>excarcel</i><par n="cant/ar__vblex"/></e>
@@ -42258,6 +42288,10 @@
     <e r="LR" lm="renaixer"><i>rena</i><par n="cono/cer__vblex"/></e>
     <e lm="resplandeixer"><i>respland</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
     <e r="LR" lm="resplandeixer"><i>resplande</i><par n="cono/cer__vblex"/></e>
+    <e lm="amaneixer"><i>aman</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
+    <e r="LR" lm="amaneixer"><i>amane</i><par n="cono/cer__vblex"/></e>
+    <e lm="apareixer"><i>apar</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
+    <e r="LR" lm="apareixer"><i>apare</i><par n="cono/cer__vblex"/></e>
     <e lm="desapareixer"><i>desapar</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
     <e r="LR" lm="desapareixer"><i>desapare</i><par n="cono/cer__vblex"/></e>
     <e r="LR" lm="desapareixer"><p><l>despar</l><r>desapar</r></p><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
@@ -42558,6 +42592,7 @@
     <e lm="estirar"><i>estir</i><par n="cant/ar__vblex"/></e>
     <e lm="fallar"><i>fall</i><par n="cant/ar__vblex"/></e>
     <e lm="faltar"><i>falt</i><par n="cant/ar__vblex"/></e>
+    <e lm="mancar"><i>man</i><par n="trafu/car__vblex"/></e>
     <e lm="furtar"><i>furt</i><par n="cant/ar__vblex"/></e>
     <e lm="repuyar"><i>repuy</i><par n="cant/ar__vblex"/></e>
     <e lm="rechirar"><i>rechir</i><par n="cant/ar__vblex"/></e>
@@ -42654,7 +42689,6 @@
     <e lm="estricallar"><i>estricall</i><par n="cant/ar__vblex"/></e>
     <e lm="estrozar"><i>estro</i><par n="ca/zar__vblex"/></e>
     <e r="LR" lm="estrozar"><p><l>destro</l><r>estro</r></p><par n="ca/zar__vblex"/></e>
-    
     <e lm="trestallar"><i>trestall</i><par n="cant/ar__vblex"/></e>
     <e lm="estallar"><i>estall</i><par n="cant/ar__vblex"/></e>
     <e lm="troixar"><i>tro</i><par n="/ix_x__var"/><i>ar</i><par n="cant/ar__vblex"/></e>
@@ -42673,83 +42707,151 @@
     <e lm="tragar"><i>trag</i><par n="pag/ar__vblex"/></e>
     <e lm="trusquir"><i>trus</i><par n="trus/quir__vblex"/></e>
     <e r="LR" lm="trusquir"><p><l>tras</l><r>trus</r></p><par n="trus/quir__vblex"/></e>
-    
-    
+    <e lm="agrandar"><i>agrand</i><par n="cant/ar__vblex"/></e>
     <e lm="engrandar"><i>engrand</i><par n="cant/ar__vblex"/></e>
+    <e lm="agrandir"><i>agrand</i><par n="aclar/ir__vblex"/></e>
+    <e lm="f"><i>f</i><par n="enc/ender__vblex"/></e>
+    <e r="LR" lm="fender"><i>fend</i><par n="vend/er__vblex"/></e>
     <e lm="asclar"><i>ascl</i><par n="cant/ar__vblex"/></e>
     <e lm="escanyar"><i>escany</i><par n="cant/ar__vblex"/></e>
     <e lm="estrangullar"><i>estrangull</i><par n="cant/ar__vblex"/></e>
-    <e lm="escarcullar"><i>esccull</i><par n="cant/ar__vblex"/></e>
-    <e lm="escullar"><i>escull</i><par n="cant/ar__vblex"/></e>
+    <e lm="escarcullar"><i>escarcull</i><par n="cant/ar__vblex"/></e>
+    <e lm="escorcar"><i>escor</i><par n="trafu/car__vblex"/></e>    
+    <e lm="escoscar"><i>escor</i><par n="trafu/car__vblex"/></e>    
+    <e lm="abocar"><i>abo</i><par n="trafu/car__vblex"/></e>    
     <e lm="redamar"><i>redam</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="redamar"><p><l>derram</l><r>redam</r></p><par n="cant/ar__vblex"/></e>
     <e lm="esmutilar"><i>esmutil</i><par n="cant/ar__vblex"/></e>
+    <e lm="mutilar"><i>mutil</i><par n="cant/ar__vblex"/></e>
     <e lm="amputar"><i>amput</i><par n="cant/ar__vblex"/></e>
+    <e lm="eslisiar"><i>eslisi</i><par n="cant/ar__vblex"/></e>
+    <e lm="lisiar"><i>lisi</i><par n="cant/ar__vblex"/></e>
     <e lm="ixalapar"><i>ixalap</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="ixalapar"><p><l>xalap</l><r>ixalap</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="esgarrar"><i>esgarr</i><par n="cant/ar__vblex"/></e>
+    <e lm="esperrecar"><i>esperre</i><par n="trafu/car__vblex"/></e>
+    <e lm="esgarrillar"><i>esgarrill</i><par n="cant/ar__vblex"/></e>
     <e lm="esgallar"><i>esgall</i><par n="cant/ar__vblex"/></e>
     <e lm="esquirar"><i>esquir</i><par n="cant/ar__vblex"/></e>
+    <e lm="chollar"><i>choll</i><par n="cant/ar__vblex"/></e>
+    <e lm="acilitrompar"><i>acilitromp</i><par n="trafu/car__vblex"/></e>
+    <e lm="enarcar"><i>enar</i><par n="trafu/car__vblex"/></e>
+    <e r="LR" lm="enarcar"><p><l>nar</l><r>enar</r></p><par n="trafu/car__vblex"/></e>
     <e lm="aturrullar"><i>aturrull</i><par n="cant/ar__vblex"/></e>
     <e lm="esbatullar"><i>esbatull</i><par n="cant/ar__vblex"/></e>
     <e lm="evitar"><i>evit</i><par n="cant/ar__vblex"/></e>
-    <e lm="preixinar"><i>preixin</i><par n="cant/ar__vblex"/></e>
+    <e lm="preixinar"><i>pre</i><par n="/ix_x__var"/><i>in</i><par n="cant/ar__vblex"/></e>
+    <e lm="imachinar"><i>imachin</i><par n="cant/ar__vblex"/></e>
+    <e lm="esmachinar"><i>esmachin</i><par n="cant/ar__vblex"/></e>
     <e lm="imitar"><i>imit</i><par n="cant/ar__vblex"/></e>
     <e r="LR" lm="imitar"><p><l>emit</l><r>imit</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="remedar"><i>remed</i><par n="cant/ar__vblex"/></e>
     <e lm="inaugurar"><i>inaugur</i><par n="cant/ar__vblex"/></e>
+    <e lm="fer a debantadera"><i>f</i><par n="f/er__vblex"/><p><l><b/>a<b/>debantadera</l><r><g><b/>a<b/>debantadera</g></r></p></e>
+    <e lm="enzurizar"><i>enzuri</i><par n="ca/zar__vblex"/></e>
+    <e lm="enzurcir"><i>enzur</i><par n="dedu/cir__vblex"/></e>
     <e lm="rechichibar"><i>rechichib</i><par n="cant/ar__vblex"/></e>
-    <e lm="uixar"><i>uix</i><par n="cant/ar__vblex"/></e>
-    <e lm="rechirar"><i>rechir</i><par n="cant/ar__vblex"/></e>
+    <e lm="incitar"><i>incit</i><par n="cant/ar__vblex"/></e>
+    <e lm="endizcar"><i>endiz</i><par n="trafu/car__vblex"/></e>
+    <e r="LR" lm="endizcar"><p><l>enguiz</l><r>endiz</r></p><par n="trafu/car__vblex"/></e>
+    <e lm="zurciquiar"><i>zurciqu</i><par n="camb/iar__vblex"/></e>
+    <e lm="chinchoriar"><i>chinchor</i><par n="camb/iar__vblex"/></e>
+    <e lm="uixar"><i>u</i><par n="/ix_x__var"/><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="uixar"><p><l>uch</l><r>uix</r></p><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="uixar"><p><l>och</l><r>uix</r></p><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="uixar"><p><l>oix</l><r>uix</r></p><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="uixar"><p><l>ox</l><r>uix</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="indagar"><i>indag</i><par n="pag/ar__vblex"/></e>
+    <e lm="insertar"><i>insert</i><par n="cant/ar__vblex"/></e>
+    <e lm="interpolar"><i>interpol</i><par n="cant/ar__vblex"/></e>
     <e lm="intercalar"><i>intercal</i><par n="cant/ar__vblex"/></e>
     <e lm="laminar"><par n="/l_ll__var"/><i>amin</i><par n="cant/ar__vblex"/></e>
     <e lm="lapar"><par n="/l_ll__var"/><i>ap</i><par n="cant/ar__vblex"/></e>
+    <e lm="malfurriar"><i>malfurr</i><par n="camb/iar__vblex"/></e>
     <e lm="malgastar"><i>malgast</i><par n="cant/ar__vblex"/></e>
+    <e lm="estrafollar"><i>estrafoll</i><par n="cant/ar__vblex"/></e>
     <e lm="mesurar"><i>mesur</i><par n="cant/ar__vblex"/></e>
+    <e lm="pinyorar"><i>pinyor</i><par n="cant/ar__vblex"/></e>
     <e lm="multar"><i>mult</i><par n="cant/ar__vblex"/></e>
     <e lm="narrar"><i>nr</i><par n="cant/ar__vblex"/></e>
-    <e lm="caixar"><i>caix</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="recontar"><i>recont</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
+    <e r="LR" lm="recontar"><p><l>recuent</l><r>recont</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e lm="recontar"><i>recont</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
+    <e r="LR" lm="recentar"><i>rec</i><par n="cal/entar__vblex"/></e> 
+    <e lm="recentar"><i>recent</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
+    <e lm="caixar"><i>ca</i><par n="/ix_x__var"/><par n="cant/ar__vblex"/></e>
     <e lm="apoquinar"><i>apoquin</i><par n="cant/ar__vblex"/></e>
     <e lm="mallar"><i>mall</i><par n="cant/ar__vblex"/></e>
     <e lm="abatanar"><i>abatan</i><par n="cant/ar__vblex"/></e>
     <e lm="bribar"><i>brib</i><par n="cant/ar__vblex"/></e>
-    <e lm="repalmar"><i>repalm</i><par n="cant/ar__vblex"/></e>
-    <e lm="cubillar"><i>cubill</i><par n="cant/ar__vblex"/></e>
+    <e lm="podar"><i>pod</i><par n="cant/ar__vblex"/></e>
     <e lm="acubillar"><i>acubill</i><par n="cant/ar__vblex"/></e>
-    <e lm="reparar"><i>rep</i><par n="cant/ar__vblex"/></e>
-    <e lm="respirar"><i>respir</i><par n="cant/ar__vblex"/></e>
-    <e lm="saltar"><i>salt</i><par n="cant/ar__vblex"/></e>
-    <e lm="retantar"><i>retant</i><par n="cant/ar__vblex"/></e>
-    <e lm="dallar"><i>dall</i><par n="cant/ar__vblex"/></e>
-    <e lm="sobrepasar"><i>sobrepas</i><par n="cant/ar__vblex"/></e>
-    <e lm="untar"><i>unt</i><par n="cant/ar__vblex"/></e>
-    <e lm="zarrar"><i>zr</i><par n="cant/ar__vblex"/></e>
-    <e lm="tapar"><i>tap</i><par n="cant/ar__vblex"/></e>
+    <e lm="refuchiar"><i>refuchi</i><par n="cant/ar__vblex"/></e>
+    <e lm="reparar"><i>rep</i><par n="cant/ar__vblex"/></e>    
     <e lm="apanyar"><i>apany</i><par n="cant/ar__vblex"/></e>
+    <e lm="alentar"><i>al</i><par n="cal/entar__vblex"/></e>
+    <e lm="respirar"><i>respir</i><par n="cant/ar__vblex"/></e>
+    <e lm="blincar"><i>blin</i><par n="trafu/car__vblex"/></e>
+    <e r="LR" lm="brincar"><p><l>brin</l><r>blin</r></p><par n="trafu/car__vblex"/></e>
+    <e lm="saltar"><i>salt</i><par n="cant/ar__vblex"/></e>
+    <e lm="seducir"><i>sedu</i><par n="dedu/cir__vblex"/></e>
+    <e lm="retantar"><i>retant</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="retentar"><p><l>retent</l><r>retant</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="dallar"><i>dall</i><par n="cant/ar__vblex"/></e>
+    <e lm="segar"><i>s</i><par n="s/egar__vblex"/></e>
+    <e lm="sobreixer"><i>sobr</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
+    <e r="LR" lm="sobreixer"><i>sobre</i><par n="cono/cer__vblex"/></e>
+    <e lm="sobrepasar"><i>sobrepas</i><par n="cant/ar__vblex"/></e>
     <e lm="triturar"><i>tritur</i><par n="cant/ar__vblex"/></e>
-    <e lm="albéitar"><i>albéit</i><par n="cant/ar__vblex"/></e>
-    <e lm="vomitar"><i>vomit</i><par n="cant/ar__vblex"/></e>
+    <e lm="capolar"><i>capol</i><par n="cant/ar__vblex"/></e>
+    <e lm="esmicazar"><i>esmica</i><par n="ca/zar__vblex"/></e>
+    <e lm="zarrar"><i>zarr</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="zarrar"><p><l>cerr</l><r>zarr</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="trancar"><i>tran</i><par n="trafu/car__vblex"/></e>
+    <e lm="tapar"><i>tap</i><par n="cant/ar__vblex"/></e>
+    <e lm="zaboyar"><i>zaboy</i><par n="cant/ar__vblex"/></e>
     <e lm="chorrupar"><i>chorrup</i><par n="cant/ar__vblex"/></e>
-    <e lm="pipar"><i>pip</i><par n="cant/ar__vblex"/></e>
+    <e lm="pipar"><i>pip</i><par n="cant/ar__vblex"/></e>    
     <e lm="acachar"><i>acach</i><par n="cant/ar__vblex"/></e>
+    <e lm="acochar"><i>acoch</i><par n="cant/ar__vblex"/></e>
     <e lm="bastar"><i>bast</i><par n="cant/ar__vblex"/></e>
     <e lm="entrefilar"><i>entrefil</i><par n="cant/ar__vblex"/></e>
-    <e lm="esquibar"><i>esquib</i><par n="cant/ar__vblex"/></e>
+    <e lm="esquivar"><i>esquiv</i><par n="cant/ar__vblex"/></e>
+    <e lm="enguiliar"><i>enguil</i><par n="camb/iar__vblex"/></e>
     <e lm="sinyar"><i>siny</i><par n="cant/ar__vblex"/></e>
     <e lm="firmar"><i>firm</i><par n="cant/ar__vblex"/></e>
-    <e lm="faltar"><i>falt</i><par n="cant/ar__vblex"/></e>
     <e lm="irritar"><i>irrit</i><par n="cant/ar__vblex"/></e>
-    <e lm="enritar"><i>enrit</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="irritar"><p><l>enrit</l><r>irrit</r></p><par n="cant/ar__vblex"/></e>
     <e lm="mamar"><i>mam</i><par n="cant/ar__vblex"/></e>
-    <e lm="milar"><i>mil</i><par n="cant/ar__vblex"/></e>
+    <e lm="tetar"><i>tet</i><par n="cant/ar__vblex"/></e>
+    <e lm="popar"><i>pop</i><par n="cant/ar__vblex"/></e>    
     <e lm="necesitar"><i>necesit</i><par n="cant/ar__vblex"/></e>
-    <e lm="oblidar"><i>oblid</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="necesitar"><p><l>nesecit</l><r>necesit</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="amenistar"><i>amenist</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="amenistar"><p><l>menist</l><r>amenist</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="amenester"><i>amenest</i><par n="vend/er__vblex"/></e>
+    <e r="LR" lm="amenester"><p><l>menest</l><r>amenest</r></p><par n="vend/er__vblex"/></e>
     <e lm="ixuplidar"><i>ixu</i><par n="/pl_pll__var"/><i>id</i><par n="cant/ar__vblex"/></e>
-    <e lm="olbidar"><i>olbid</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="ixublidar"><p><l>ixublid</l><r>ixuplid</r></p><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="ixublidar"><p><l>ixubllid</l><r>ixuplid</r></p><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="ixublidar"><p><l>oblid</l><r>ixuplid</r></p><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="ixublidar"><p><l>obllid</l><r>ixuplid</r></p><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="olbidar"><p><l>olbid</l><r>oblid</r></p><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="olbidar"><p><l>olbid</l><r>oblid</r></p><par n="cant/ar__vblex"/></e>
     <e lm="ordinar"><i>ordin</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="ordinar"><p><l>orden</l><r>ordin</r></p><par n="cant/ar__vblex"/></e>
     <e lm="patinar"><i>patin</i><par n="cant/ar__vblex"/></e>
     <e lm="untar"><i>unt</i><par n="cant/ar__vblex"/></e>
     <e lm="aprofitar"><i>aprofit</i><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="aprofitar"><p><l>aprofeit</l><r>aprofit</r></p><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="aprofitar"><p><l>aproveit</l><r>aprofit</r></p><par n="cant/ar__vblex"/></e>
+    <e r="LR" lm="aprofitar"><p><l>aprobeit</l><r>aprofit</r></p><par n="cant/ar__vblex"/></e>
     
-    
-    
-    
+    <e lm="refuchio"><i>refuchio</i><par n="libro__n"/></e>
+    <e lm="cubillar"><i>cubillar</i><par n="libro__n"/></e>
+    <e lm="repalmar"><i>repalmar</i><par n="libro__n"/></e>
+    <e lm="albeitar"><i>albeitar</i><par n="libro__n"/></e>
+    <e r="LR" lm="albeitar"><p><l>albéitar</l><r>albeitar</r></p><par n="libro__n"/></e>    
     <e lm="campanar"><i>campan</i><par n="libro__n"/></e>
     <e r="LR" lm="campanar"><p><l>campanal</l><r>campanar</r></p><par n="libro__n"/></e>    
     <e lm="pinar"><i>pin</i><par n="libro__n"/></e>
@@ -42766,7 +42868,8 @@
     <e lm="altar"><i>altar</i><par n="libro__n"/></e>
     <e lm="autocar"><i>autocar</i><par n="libro__n"/></e>
     <e lm="centenar"><i>centenar</i><par n="libro__n"/></e>
-    <e lm="millar"><i>millar</i><par n="libro__n"/></e>
+    <e lm="milar"><i>milar</i><par n="libro__n"/></e>
+    <e r="LR" lm="milar"><p><l>millar</l><r>milar</r></p><par n="libro__n"/></e>
     <e lm="telar"><i>telar</i><par n="libro__n"/></e>
     <e lm="collar"><i>collar</i><par n="libro__n"/></e>
     <e lm="bar"><i>bar</i><par n="libro__n"/></e>
