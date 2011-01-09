@@ -15,12 +15,9 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
      $(PREFIX1).autopgen.bin $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
      $(PREFIX2).autogen.bin $(PREFIX2).autopgen.bin modes 
 
-#TARGETS = $(TARGETS_COMMON) trules-$(PREFIX1).bin trules-$(PREFIX2).bin \
-#          trules-$(PREFIX1).xml trules-$(PREFIX2).xml
-#
+TARGETS = $(TARGETS_COMMON) trules-$(PREFIX1).bin trules-$(PREFIX2).bin \
+          trules-$(PREFIX1).xml trules-$(PREFIX2).xml
 
-TARGETS = $(TARGETS_COMMON) trules-$(PREFIX2).bin \
-          trules-$(PREFIX2).xml
 
 .deps/commonbil.dix: $(BASENAME).$(PREFIX1).dix
 	xsltproc --stringparam alt $(VAR1) alt.xsl $< >$@
@@ -28,17 +25,17 @@ TARGETS = $(TARGETS_COMMON) trules-$(PREFIX2).bin \
 .deps/$(PREFVAR1)$(LANG1).dix: $(BASENAME).$(LANG1).dix
 	xsltproc --stringparam alt $(VAR1) alt.xsl $< >$@
 
-#.deps/$(PREFVAR2)$(LANG1).dix: $(BASENAME).$(LANG1).dix
-#	xsltproc --stringparam alt $(VAR2) alt.xsl $< >$@
-#
-#.deps/$(PREFVAR3)$(LANG1).dix: $(BASENAME).$(LANG1).dix
-#	xsltproc --stringparam alt $(VAR3) alt.xsl $< >$@
+.deps/$(PREFVAR2)$(LANG1).dix: $(BASENAME).$(LANG1).dix
+	xsltproc --stringparam alt $(VAR2) alt.xsl $< >$@
+
+.deps/$(PREFVAR3)$(LANG1).dix: $(BASENAME).$(LANG1).dix
+	xsltproc --stringparam alt $(VAR3) alt.xsl $< >$@
 
 .deps/$(PREFVAR1)$(LANG2).dix: $(BASENAME).$(LANG2).dix
 	xsltproc --stringparam alt $(VAR1) alt.xsl $< >$@
 
-#.deps/$(PREFVAR2)$(LANG2).dix: $(BASENAME).$(LANG2).dix
-#	xsltproc --stringparam alt $(VAR2) alt.xsl $< >$@
+.deps/$(PREFVAR2)$(LANG2).dix: $(BASENAME).$(LANG2).dix
+	xsltproc --stringparam alt $(VAR2) alt.xsl $< >$@
 
 .deps/common-$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix
 	xsltproc translate-to-default-equivalent.xsl $< >$@
@@ -83,6 +80,11 @@ $(PREFVAR1)$(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 	apertium-validate-dictionary $<
 	lt-comp lr $< $@
 
+$(PREFVAR2)$(PREFIX1).automorf.bin: .deps/$(PREFVAR2)$(LANG1).dix $(BASENAME).$(LANG1).acx
+	apertium-validate-acx $(BASENAME).$(LANG1).acx
+	apertium-validate-dictionary $<
+	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
+
 #$(PREFVAR2)$(PREFIX1).automorf.bin: .deps/$(PREFVAR2)$(LANG1).dix $(BASENAME).$(LANG1).acx
 #	apertium-validate-acx $(BASENAME).$(LANG1).acx
 #	apertium-validate-dictionary $<
@@ -109,6 +111,33 @@ $(PREFVAR1)$(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 #	apertium-validate-dictionary $<
 #	lt-comp rl $< $@
 #
+trules-$(PREFIX1).bin: $(BASENAME).trules-$(PREFIX1).xml
+	apertium-validate-transfer $(BASENAME).trules-$(PREFIX1).xml
+	apertium-preprocess-transfer $(BASENAME).trules-$(PREFIX1).xml \
+	                             trules-$(PREFIX1).bin
+>>>>>>> .r27664
+
+$(PREFVAR2)$(PREFIX1).autobil.bin: .deps/$(PREFVAR2)$(PREFIX1).dix
+	apertium-validate-dictionary $<
+	lt-comp lr $< $@
+
+$(PREFVAR2)$(PREFIX1).autogen.bin: .deps/$(PREFVAR2)$(LANG2).dix
+	apertium-validate-dictionary $<
+	lt-comp rl $< $@
+
+$(PREFVAR2)$(PREFIX2).automorf.bin: .deps/$(PREFVAR2)$(LANG2).dix $(BASENAME).$(LANG2).acx
+	apertium-validate-acx $(BASENAME).$(LANG2).acx
+	apertium-validate-dictionary $<
+	lt-comp lr $< $@ $(BASENAME).$(LANG2).acx
+
+$(PREFVAR2)$(PREFIX2).autobil.bin: .deps/$(PREFVAR2)$(PREFIX1).dix
+	apertium-validate-dictionary $<
+	lt-comp rl $< $@
+
+$(PREFVAR2)$(PREFIX2).autogen.bin: .deps/$(PREFVAR2)$(LANG1).dix
+	apertium-validate-dictionary $<
+	lt-comp rl $< $@
+
 trules-$(PREFIX1).bin: $(BASENAME).trules-$(PREFIX1).xml
 	apertium-validate-transfer $(BASENAME).trules-$(PREFIX1).xml
 	apertium-preprocess-transfer $(BASENAME).trules-$(PREFIX1).xml \
