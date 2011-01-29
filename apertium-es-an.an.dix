@@ -17628,6 +17628,37 @@
       </e>
     </pardef>
     
+    <pardef n="conc/ernir__vblex">
+      <e>
+        <p>
+          <l>ern</l>
+          <r>ern</r>
+        </p>
+        <par n="sent/ir_nd__vblex"/><!-- non-diphtong forms -->
+      </e>
+      <e>
+        <p>
+          <l>iern</l>
+          <r>ern</r>
+        </p>
+        <par n="sient/o_d__vblex"/><!-- diphtong forms -->
+      </e>
+      <e>
+        <p>
+          <l>ern</l>
+          <r>ern</r>
+        </p>
+        <par n="sint/ié_cv__vblex"/><!-- vocalic change forms -->
+      </e>
+      <e r="LR">
+        <p>
+          <l>irn</l>
+          <r>ern</r>
+        </p>
+        <par n="sint/ié_cv__vblex"/><!-- vocalic change forms -->
+      </e>
+    </pardef>
+
     
     <pardef n="s/eguir__vblex">
       <e>
@@ -18044,7 +18075,7 @@
         </p>
         <par n="sint/ié_cv__vblex"/><!-- vocalic change forms -->
       </e>
-    <e>
+    <e r="LR">
         <p>
           <l>orm</l>
           <r>orm</r>
@@ -18052,8 +18083,38 @@
         <par n="sint/ié_cv__vblex"/><!-- vocalic change forms -->
       </e>
 </pardef>
-
-
+<!--
+    <pardef n="p/odrir__vblex">
+      <e>
+        <p>
+          <l>odr</l>
+          <r>odr</r>
+        </p>
+        <par n="sent/ir_nd__vblex"/>
+      </e>
+      <e>
+        <p>
+          <l>udr</l>
+          <r>odr</r>
+        </p>
+        <par n="sient/o_d__vblex"/>
+      </e>
+      <e>
+        <p>
+          <l>udr</l>
+          <r>odr</r>
+        </p>
+        <par n="sint/ié_cv__vblex"/>
+      </e>
+    <e r="LR">
+        <p>
+          <l>odr</l>
+          <r>odr</r>
+        </p>
+        <par n="sint/ié_cv__vblex"/>
+      </e>
+</pardef>
+-->
     <pardef n="cal/er__vbmod">
 
     <e>
@@ -18894,6 +18955,225 @@
     </e>
 </pardef>
 
+    <pardef n="co/ger__vblex">
+    <e>
+      <p>
+        <l>jo</l>
+        <r>ger<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ges</l>
+        <r>ger<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>ge</l>
+        <r>ger<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>j</l>
+        <r>ger<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+
+    <e>
+      <p>
+        <l>gen</l>
+        <r>ger<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>g</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="pri12pl_emos__cnjgt"/>
+    </e>
+
+  <e>
+      <p>
+        <l>ge</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+  </e> 
+  
+<e r="LR">
+      <p>
+        <l>gé</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="pimpi_ba__cnjgt"/>
+</e> 
+
+  <e>
+      <p>
+        <l>gi</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>gi</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+  <e>
+      <p>
+        <l>ge</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="futuro_re__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>ge</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="cond_ria__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>ge</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+    
+    <e r="LR">
+      <p>
+        <l>gé</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="cond_rba__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>j</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>gi</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="prs12pl_amos__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>j</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="prsrest_a__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>g</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="pis_ese__cnjgt"/>
+    </e> 
+
+    <e r="LR">
+      <p>
+        <l>gi</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="pis_erai__cnjgt"/>
+    </e> 
+
+    <e>
+      <p>
+        <l>g</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/e__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>j</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/a__cnjgt"/>
+    </e> 
+    <e>
+      <p>
+        <l>j</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e> 
+    <e r="LR">
+      <p>
+        <l>gi</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/amos__cnjgt"/>
+    </e>     
+    <e>
+      <p>
+        <l>g</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="imp_vend/etz__cnjgt"/>
+    </e> 
+  
+    <e>
+      <p>
+        <l>g</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="inf_er__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>g</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="ger_endo__cnjgt"/>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>g</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="ger_indo__cnjgt"/>
+    </e>
+
+    <e>
+      <p>
+        <l>gi</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ge</l>
+        <r>ger<s n="vblex"/></r>
+      </p>
+      <par n="pp_u__cnjgt"/>
+    </e>
+</pardef>
 
     <pardef n="pla/cer__vblex">
     <e>
@@ -33495,25 +33775,25 @@
     <e>
       <p>
         <l>t</l>
-        <r>t<s n="adj"/><s n="m"/><s n="sg"/></r>
+        <r>t<s n="n"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>otz</l>
-        <r>ot<s n="adj"/><s n="m"/><s n="pl"/></r>
+        <r>ot<s n="n"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
         <l>ots</l>
-        <r>ot<s n="adj"/><s n="m"/><s n="pl"/></r>
+        <r>ot<s n="n"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
         <l>oz</l>
-        <r>ot<s n="adj"/><s n="m"/><s n="pl"/></r>
+        <r>ot<s n="n"/><s n="m"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -34098,7 +34378,10 @@
     <e lm="espanyol"><i>espanyol</i><par n="libro__n"/></e>
     <e lm="español" r="LR"><i>español</i><par n="libro__n"/></e>
     <e lm="humán"><i>hum</i><par n="chirm/án__n"/></e>
+    <!-- <e lm="humano"><i>hum</i><par n="cristi/ano__n"/></e> -->
     <e lm="humán"><i>hum</i><par n="occit/án__adj"/></e>
+    <!-- <e lm="humano"><i>human</i><par n="academic/o__adj"/></e> -->
+    <e lm="inhumán"><i>inhum</i><par n="occit/án__adj"/></e>
     <e lm="treballador"><i>treballador</i><par n="treballador__n"/></e>  
     <e lm="treballador"><i>treballad</i><par n="treballad/or__adj"/></e>  <!-- or-id -era - en adchectivos -->
     <e lm="europeu"><i>europe</i><par n="europe/u__adj"/></e>
@@ -34615,7 +34898,6 @@
     <e lm="hondo"><i>hond</i><par n="academic/o__adj"/></e>
     <e lm="horario"><i>horari</i><par n="academic/o__adj"/></e>
     <e lm="hospitalario"><i>hospitalari</i><par n="academic/o__adj"/></e>
-    <e lm="humano"><i>human</i><par n="academic/o__adj"/></e>
     <e lm="húmedo"><i>húmed</i><par n="academic/o__adj"/></e>
     <e lm="húngaro"><i>húngar</i><par n="academic/o__adj"/></e>
     <e lm="iberico"><i>iberic</i><par n="academic/o__adj"/></e>
@@ -34791,8 +35073,12 @@
     <e lm="minoritario"><i>minoritari</i><par n="academic/o__adj"/></e>
     <e lm="mioceno"><i>miocen</i><par n="academic/o__adj"/></e>
     <e lm="misionero"><i>misioner</i><par n="academic/o__adj"/></e>
-    <e lm="mesmo"><i>mesm</i><par n="alt/o__adj"/></e>
-    <e r="LR" lm="mesmo"><p><l>mismo</l><r>mesmo</r></p><par n="alt/o__adj"/></e>
+    <e lm="mesmo"><i>mesm</i><par n="academic/o__adj"/></e>
+    <e r="LR" lm="mesmo"><p><l>mismo</l><r>mesmo</r></p><par n="academic/o__adj"/></e>
+    <e lm="mesmo"><i>mesm</i><par n="academic/o__adj"/></e>
+    <e r="LR" lm="mesmo"><p><l>mismo</l><r>mesmo</r></p><par n="academic/o__adj"/></e>
+    <e lm="mesmismo"><i>mesmism</i><par n="academic/o__adj"/></e>
+    <e r="LR" lm="mesmism"><p><l>mismism</l><r>mesmism</r></p><par n="academic/o__adj"/></e>
     <e lm="misterioso"><i>misterios</i><par n="academic/o__adj"/></e>
     <e lm="mitico"><i>mitic</i><par n="academic/o__adj"/></e>
     <e lm="mixto"><i>mixt</i><par n="academic/o__adj"/></e>
@@ -34886,6 +35172,7 @@
     <e lm="pasivo"><i>pasi</i><par n="cursi/vo__adj"/></e>
     <e lm="paterno"><i>patern</i><par n="academic/o__adj"/></e>
     <e lm="patricio"><i>patrici</i><par n="academic/o__adj"/></e>
+    <e lm="gradual"><i>gradual</i><par n="social__adj"/></e>
     <e lm="paulatino"><i>paulatin</i><par n="academic/o__adj"/></e>
     <e lm="pedregoso"><i>pedregos</i><par n="academic/o__adj"/></e>
     <e lm="peludo"><i>pelud</i><par n="academic/o__adj"/></e>
@@ -35096,7 +35383,7 @@
     <e lm="suspenso"><i>suspens</i><par n="academic/o__adj"/></e>
     <e lm="sustantivo"><i>sustanti</i><par n="cursi/vo__adj"/></e>
     <e lm="tanto"><i>tant</i><par n="academic/o__adj"/></e>
-    <e lm="tard"><i>tard</i><par n="occit/án__adj"/></e>
+    <e lm="tardán"><i>tard</i><par n="occit/án__adj"/></e>
     <e lm="tartameco"><i>tartamec</i><par n="academic/o__adj"/></e>
     <e lm="tecnico"><i>tecnic</i><par n="academic/o__adj"/></e>
     <e lm="televisivo"><i>televisi</i><par n="cursi/vo__adj"/></e>
@@ -35326,6 +35613,10 @@
 
     <e lm="documento"><i>documento</i><par n="libro__n"/></e>
     <e r="LR" lm="documento"><p><l>decumento</l><r>documento</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="documento"><p><l>document</l><r>documento</r></p><par n="libro__n"/></e>
+    <e r="LR" lm="documento"><p><l>decument</l><r>documento</r></p><par n="libro__n"/></e>
+    <e lm="churamento"><i>churamento</i><par n="libro__n"/></e>
+    <e r="LR" lm="churamento"><p><l>churament</l><r>churamento</r></p><par n="libro__n"/></e>
     <e lm="cuerpo"><i>cuerpo</i><par n="libro__n"/></e>
     <e lm="coixín"><i>co</i><par n="/ix_x__var"/><i>ín</i><par n="libro__n"/></e>
     <e lm="chinero"><i>chin</i><par n="plant/ero__n"/></e>
@@ -37219,6 +37510,9 @@
     <e lm="en zagueras"><i>en<b/>zagueras</i><par n="agora__adv"/></e>
     <e lm="en zaguerías"><i>en<b/>zagueras</i><par n="agora__adv"/></e>
     <e lm="contino"><i>contino</i><par n="agora__adv"/></e>
+    <e lm="de contino"><i>de<b/>contino</i><par n="agora__adv"/></e>
+    <e lm="de rapiconté"><i>de<b/>rapiconté</i><par n="agora__adv"/></e>
+    <e lm="de sopetón"><i>de<b/>sopetón</i><par n="agora__adv"/></e>
     <e lm="decamín"><i>decamín</i><par n="agora__adv"/></e>
     <e r="LR" lm="decamín"><p><l>de<b/>camín</l><r>decamín</r></p><par n="agora__adv"/></e>
     <e lm="en l'inte"><i>en<b/>l'inte</i><par n="agora__adv"/></e>
@@ -40063,7 +40357,6 @@
     <e lm="citar"><i>cit</i><par n="cant/ar__vblex"/></e>
     <e lm="vender"><i>vend</i><par n="vend/er__vblex"/></e>
     <e lm="encender"><i>enc</i><par n="enc/ender__vblex"/></e>
-    
     
     <e lm="extra"><i>extra</i><par n="social__adj"/></e>
     <e lm="extra"><i>extra</i><par n="accionista__n"/></e>
@@ -46335,7 +46628,7 @@
     <e lm="grieu" r="LR"><p><l>greu</l><r>grieu</r></p><par n="social__adj"/></e>  
     <e lm="grieu" r="LR"><p><l>grau</l><r>grieu</r></p><par n="social__adj"/></e>  
     <e lm="grieu" r="LR"><p><l>grave</l><r>grieu</r></p><par n="social__adj"/></e>  
-    <e lm="griso"><i>gris</i><par n="alt/o__adj"/></e>
+    <e lm="griso"><i>gris</i><par n="academic/o__adj"/></e>
     <e lm="gubernamental"><i>gubernamental</i><par n="social__adj"/></e>
     <e lm="guionista"><i>guionista</i><par n="social__adj"/></e>
     <e lm="guitarrista"><i>guitarrista</i><par n="social__adj"/></e>
@@ -46370,6 +46663,12 @@
     <e lm="imprevisto"><i>imprevist</i><par n="academic/o__adj"/></e>
     <e lm="improbable"><i>improbable</i><par n="social__adj"/></e>
     <e lm="inabastablement"><i>inabastablem</i><par n="malam/ent__adv"/></e>
+    <e lm="impermeyablement"><i>impermeyablem</i><par n="malam/ent__adv"/></e>
+    <e lm="impermeyablement" r="LR"><p><l>impermiablem</l><r>impermeyablem</r></p><par n="malam/ent__adv"/></e>
+    <e lm="impermeyablement" r="LR"><p><l>impermeablem</l><r>impermeyablem</r></p><par n="malam/ent__adv"/></e>
+    <e lm="permeyablement"><i>permeyablem</i><par n="malam/ent__adv"/></e>
+    <e lm="permeyablement" r="LR"><p><l>permiablem</l><r>permeyablem</r></p><par n="malam/ent__adv"/></e>
+    <e lm="permeyablement" r="LR"><p><l>permeablem</l><r>permeyablem</r></p><par n="malam/ent__adv"/></e>    
     <e lm="inadubiblement"><i>inadubiblem</i><par n="malam/ent__adv"/></e>
     <e lm="inalcanzablement"><i>inalcanzablem</i><par n="malam/ent__adv"/></e>
     <e lm="inalienable"><i>inalienable</i><par n="social__adj"/></e>
@@ -46404,7 +46703,8 @@
     <e lm="inflamable"><i>inflamable</i><par n="social__adj"/></e>
     <e lm="informal"><i>informal</i><par n="social__adj"/></e>
     <e lm="inicial"><i>inicial</i><par n="social__adj"/></e>
-    <e lm="inmune"><i>inmune</i><par n="social__adj"/></e>
+    <e lm="immune"><i>immune</i><par n="social__adj"/></e>
+    <e lm="immune" r="LR"><p><l>inmune</l><r>immune</r></p><par n="social__adj"/></e>
     <e lm="immutable"><i>immutable</i><par n="social__adj"/></e>
     <e lm="immutable" r="LR"><p><l>inmutable</l><r>immutable</r></p><par n="social__adj"/></e>
     <e lm="inquisitorial"><i>inquisitorial</i><par n="social__adj"/></e>
@@ -46816,7 +47116,9 @@
     <e lm="trilingüe"><i>trilingüe</i><par n="social__adj"/></e>
     <e lm="triple"><i>triple</i><par n="social__adj"/></e>
     <e lm="triste"><i>triste</i><par n="social__adj"/></e>
-    <e lm="triunfant"><i>triunf</i><par n="degrad/ant__adj"/></e>
+    <e lm="triunfant"><i>trunf</i><par n="degrad/ant__adj"/></e>
+    <e r="LR" lm="triunfant"><p><l>triunf</l><r>trunf</r></p><par n="degrad/ant__adj"/></e>
+    <e r="LR" lm="triunfant"><p><l>trionf</l><r>trunf</r></p><par n="degrad/ant__adj"/></e>
     <e lm="troncal"><i>troncal</i><par n="social__adj"/></e>
     <e lm="tropical"><i>tropical</i><par n="social__adj"/></e>
     <e lm="tumoral"><i>tumoral</i><par n="social__adj"/></e>
@@ -47034,7 +47336,6 @@
     <e lm="guerrillero"><i>guerrill</i><par n="vaqu/ero__n"/></e>
     <e lm="heredero"><i>hered</i><par n="vaqu/ero__n"/></e>
     <e lm="hispano"><i>hisp</i><par n="cristi/ano__n"/></e>
-    <e lm="humano"><i>hum</i><par n="cristi/ano__n"/></e>
     <e lm="iberoamericano"><i>iberoameric</i><par n="cristi/ano__n"/></e>
     <e lm="indefiniu"><i>indefini</i><par n="acusa/u__n"/></e>
     <e lm="indio"><i>indi</i><par n="amig/o__n"/></e>
@@ -47253,7 +47554,6 @@
     <e lm="vacancias"><p><l>vacacions</l><r>vacancias</r></p><par n="afueras__n"/></e>
     <e lm="idioma"><i>idioma</i><par n="libro__n"/></e>
     <e lm="pas"><i>pas</i><par n="agora__adv"/></e>
-    
     <e lm="chusto"><i>chusto</i><par n="agora__adv"/></e>
     <e lm="respecto"><i>respecto</i><par n="libro__n"/></e>    
     <e r="LR" lm="respecto"><p><l>respeto</l><r>respecto</r></p><par n="libro__n"/></e>
@@ -47309,7 +47609,6 @@
     <e lm="normalización"><i>normaliza</i><par n="actua/ción__n"/></e>
     <e lm="chusto"><i>chust</i><par n="academic/o__adj"/></e>
     <e lm="relichioso"><i>relichios</i><par n="academic/o__adj"/></e>
-    <e lm="inhumano"><i>inhum</i><par n="occit/án__adj"/></e>
     <e lm="etnico"><i>etnic</i><par n="academic/o__adj"/></e>
     <e lm="efectivo"><i>efecti</i><par n="cursi/vo__adj"/></e>
     <e lm="economico"><i>economic</i><par n="academic/o__adj"/></e>
@@ -47509,6 +47808,7 @@
     <e lm="punto"><i>punto</i><par n="libro__n"/></e>    
     <e lm="digrafo"><i>digrafo</i><par n="libro__n"/></e>
     <e lm="momento"><i>momento</i><par n="libro__n"/></e>
+    <e r="LR" lm="momento"><p><l>moment</l><r>momento</r></p><par n="pelaire__n"/></e>
     <e lm="inte"><i>inte</i><par n="libro__n"/></e>
     <e lm="fuego"><i>fuego</i><par n="libro__n"/></e>
     <e lm="fierro"><i>fierro</i><par n="libro__n"/></e>
@@ -47923,6 +48223,7 @@
     <e lm="absurdament"><i>absurdam</i><par n="malam/ent__adv"/></e>
     <e lm="abundantment"><i>abundantm</i><par n="malam/ent__adv"/></e>
     <e lm="abundosament"><i>abundosam</i><par n="malam/ent__adv"/></e>
+    <e lm="pretenciosament"><i>pretencisoam</i><par n="malam/ent__adv"/></e>
     <e lm="abusivament"><i>abusivam</i><par n="malam/ent__adv"/></e>
     <e lm="academicament"><i>academicam</i><par n="malam/ent__adv"/></e>
     <e lm="acceleradament"><i>acceleradam</i><par n="malam/ent__adv"/></e>
@@ -47931,10 +48232,13 @@
     <e lm="accesoriament"><i>accesoriam</i><par n="malam/ent__adv"/></e>
     <e lm="accidentalment"><i>accidentalm</i><par n="malam/ent__adv"/></e>
     <e lm="accionarialment"><i>accionarialm</i><par n="malam/ent__adv"/></e>
+    <e lm="espuriament"><i>espuriam</i><par n="malam/ent__adv"/></e>
     <e lm="achilment"><i>achilm</i><par n="malam/ent__adv"/></e>
     <e lm="achitadament"><i>achitadam</i><par n="malam/ent__adv"/></e>
     <e lm="achitadorament"><i>achitadoram</i><par n="malam/ent__adv"/></e>
-    <e lm="aclaparadorament"><i>aclaparadoram</i><par n="malam/ent__adv"/></e>
+    <e lm="encantadorament"><i>encantadoram</i><par n="malam/ent__adv"/></e>
+    <e lm="aclapadorament"><i>aclapadoram</i><par n="malam/ent__adv"/></e>
+    <e lm="atabaladament"><i>atabaladam</i><par n="malam/ent__adv"/></e>
     <e lm="aclaparantment"><i>aclaparantm</i><par n="malam/ent__adv"/></e>
     <e lm="aclaridorament"><i>aclaridoram</i><par n="malam/ent__adv"/></e>
     <e lm="acullidorament"><i>acullidoram</i><par n="malam/ent__adv"/></e>
@@ -47949,6 +48253,8 @@
     <e lm="activament"><i>activam</i><par n="malam/ent__adv"/></e>
     <e lm="actualizablement"><i>actualizablem</i><par n="malam/ent__adv"/></e>
     <e lm="actualment"><i>actualm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="actualment"><p><l>autualm</l><r>actualm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="actualment"><p><l>atualm</l><r>actualm</r></p><par n="malam/ent__adv"/></e>
     <e lm="actuarialment"><i>actuarialm</i><par n="malam/ent__adv"/></e>
     <e lm="acumulablement"><i>acumulablem</i><par n="malam/ent__adv"/></e>
     <e lm="acumulativament"><i>acumulativam</i><par n="malam/ent__adv"/></e>
@@ -47965,6 +48271,11 @@
     <e lm="aditivament"><i>aditivam</i><par n="malam/ent__adv"/></e>
     <e lm="administrablement"><i>administrablem</i><par n="malam/ent__adv"/></e>
     <e lm="administrativament"><i>administrativam</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="administrativament"><p><l>admenistrativam</l><r>administrativam</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="administrativament"><p><l>almenistratibam</l><r>administrativam</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="administrativament"><p><l>almenistrativam</l><r>administrativam</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="administrativament"><p><l>alministratibam</l><r>administrativam</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="administrativament"><p><l>alministrativam</l><r>administrativam</r></p><par n="malam/ent__adv"/></e>
     <e lm="admirablement"><i>admirablem</i><par n="malam/ent__adv"/></e>
     <e lm="admiradorament"><i>admiradoram</i><par n="malam/ent__adv"/></e>
     <e lm="admirativament"><i>admirativam</i><par n="malam/ent__adv"/></e>
@@ -47973,6 +48284,7 @@
     <e lm="adquisitivament"><i>adquisitivam</i><par n="malam/ent__adv"/></e>
     <e lm="adulteradament"><i>adulteradam</i><par n="malam/ent__adv"/></e>
     <e lm="adulterament"><i>adulteram</i><par n="malam/ent__adv"/></e>
+    <e lm="solterament"><i>solteram</i><par n="malam/ent__adv"/></e>
     <e lm="adversament"><i>adversam</i><par n="malam/ent__adv"/></e>
     <e lm="aeriament"><i>aeriam</i><par n="malam/ent__adv"/></e>
     <e lm="aerobicament"><i>aerobicam</i><par n="malam/ent__adv"/></e>
@@ -48094,6 +48406,7 @@
     <e lm="aprecisadament"><i>aprecisadam</i><par n="malam/ent__adv"/></e>
     <e lm="apropiadament"><i>apropiadam</i><par n="malam/ent__adv"/></e>
     <e lm="aproximadament"><i>aproximadam</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="aproximadament"><p><l>aprosimadam</l><r>aproximadam</r></p><par n="malam/ent__adv"/></e>
     <e lm="aproximativament"><i>aproximativam</i><par n="malam/ent__adv"/></e>
     <e lm="aptament"><i>aptam</i><par n="malam/ent__adv"/></e>
     <e lm="aquaticament"><i>aquaticam</i><par n="malam/ent__adv"/></e>
@@ -48129,7 +48442,6 @@
     <e lm="asetegadament"><i>asetegadam</i><par n="malam/ent__adv"/></e>
     <e lm="asambleyariament"><i>asambleyariam</i><par n="malam/ent__adv"/></e>
     <e r="LR" lm="asambleyariament"><p><l>asambleariam</l><r>asambleyariam</r></p><par n="malam/ent__adv"/></e>
-    <e lm="asenyadament"><i>asenyadam</i><par n="malam/ent__adv"/></e>
     <e lm="asepticament"><i>asepticam</i><par n="malam/ent__adv"/></e>
     <e lm="asequiblement"><i>asequiblem</i><par n="malam/ent__adv"/></e>
     <e lm="asertivament"><i>asertivam</i><par n="malam/ent__adv"/></e>
@@ -48300,6 +48612,9 @@
     <e lm="captivament"><i>captivam</i><par n="malam/ent__adv"/></e>
     <e lm="captivament" r="LR"><p><l>cautivam</l><r>captivam</r></p><par n="malam/ent__adv"/></e>
     <e lm="caracteristicament"><i>caracteristicam</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="caracteristicament"><p><l>carateristicam</l><r>caracteristicam</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="caracteristicament"><p><l>carauteristicam</l><r>caracteristicam</r></p><par n="malam/ent__adv"/></e>
+    
     <e lm="carbonicament"><i>carbonicam</i><par n="malam/ent__adv"/></e>
     <e lm="carcelariament"><i>carcelariam</i><par n="malam/ent__adv"/></e>
     <e lm="cardinalment"><i>cardinalm</i><par n="malam/ent__adv"/></e>
@@ -48517,6 +48832,11 @@
     <e lm="conchuntivament"><i>conchuntivam</i><par n="malam/ent__adv"/></e>
     <e lm="conchunturalment"><i>conchunturalm</i><par n="malam/ent__adv"/></e>
     <e lm="conscientment"><i>conscientm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="conscientment"><p><l>conscienm</l><r>conscientm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="conscientment"><p><l>conscientem</l><r>conscientm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="conscientment"><p><l>coscienm</l><r>conscientm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="conscientment"><p><l>coscientem</l><r>conscientm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="conscientment"><p><l>coscientm</l><r>conscientm</r></p><par n="malam/ent__adv"/></e>
     <e lm="consecutivament"><i>consecutivam</i><par n="malam/ent__adv"/></e>
     <e lm="consiguientment"><i>consiguientm</i><par n="malam/ent__adv"/></e>
     <e lm="consensualment"><i>consensualm</i><par n="malam/ent__adv"/></e>
@@ -48527,8 +48847,13 @@
     <e lm="consolidablement"><i>consolidablem</i><par n="malam/ent__adv"/></e>
     <e lm="conspicuament"><i>conspicuam</i><par n="malam/ent__adv"/></e>
     <e lm="constantment"><i>constantm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="constantment"><p><l>constanm</l><r>constantm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="constantment"><p><l>constantem</l><r>constantm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="constantment"><p><l>costanm</l><r>constantm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="constantment"><p><l>costantem</l><r>constantm</r></p><par n="malam/ent__adv"/></e>
     <e lm="constatablement"><i>constatablem</i><par n="malam/ent__adv"/></e>
     <e lm="constitucionalment"><i>constitucionalm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="constitucionalment"><p><l>costitucionalm</l><r>constitucionalm</r></p><par n="malam/ent__adv"/></e>
     <e lm="constitutivament"><i>constitutivam</i><par n="malam/ent__adv"/></e>
     <e lm="constrictivament"><i>constrictivam</i><par n="malam/ent__adv"/></e>
     <e lm="constructivament"><i>constructivam</i><par n="malam/ent__adv"/></e>
@@ -48545,6 +48870,7 @@
     <e lm="continament"><i>continam</i><par n="malam/ent__adv"/></e>
     <e lm="continentalment"><i>continentalm</i><par n="malam/ent__adv"/></e>
     <e lm="continament"><i>continam</i><par n="malam/ent__adv"/></e>
+    <e lm="continament" r="LR"><p><l>continuam</l><r>continam</r></p><par n="malam/ent__adv"/></e>
     <e lm="contractualment"><i>contractualm</i><par n="malam/ent__adv"/></e>
     <e lm="contradictoriament"><i>contradictoriam</i><par n="malam/ent__adv"/></e>
     <e lm="contraproducentment"><i>contraproducentm</i><par n="malam/ent__adv"/></e>
@@ -48684,7 +49010,8 @@
     <e lm="desagradablement"><i>desagradablem</i><par n="malam/ent__adv"/></e>
     <e lm="desambiguadorament"><i>desambiguadoram</i><par n="malam/ent__adv"/></e>
     <e lm="desapercibidament"><i>desapercibidam</i><par n="malam/ent__adv"/></e>
-    <e lm="desasenyadament"><i>desasenyadam</i><par n="malam/ent__adv"/></e>
+    <e lm="barrenadament"><i>barrenadam</i><par n="malam/ent__adv"/></e>
+    <e lm="locament"><i>locam</i><par n="malam/ent__adv"/></e>
     <e lm="desastrosament"><i>desastrosam</i><par n="malam/ent__adv"/></e>
     <e lm="desbordantment"><i>desbordantm</i><par n="malam/ent__adv"/></e>
     <e lm="descaradament"><i>descaradam</i><par n="malam/ent__adv"/></e>
@@ -48697,6 +49024,7 @@
     <e lm="descontadament"><i>descontadam</i><par n="malam/ent__adv"/></e>
     <e lm="descomunalment"><i>descomunalm</i><par n="malam/ent__adv"/></e>
     <e lm="desconcertantment"><i>desconcertantm</i><par n="malam/ent__adv"/></e>
+    <e lm="desconcertadament"><i>desconcertadam</i><par n="malam/ent__adv"/></e>
     <e lm="descontentament" i="yes"><i>descontentam</i><par n="malam/ent__adv"/></e>
     <e lm="descriptiblement"><i>descriptiblem</i><par n="malam/ent__adv"/></e>
     <e lm="descriptivament"><i>descriptivam</i><par n="malam/ent__adv"/></e>
@@ -48719,7 +49047,6 @@
     <e lm="desilusionadament" r="LR"><p><l>desilusionadam</l><r>desilusionadam</r></p><par n="malam/ent__adv"/></e>
     <e lm="desinteresadament"><i>desinteresadam</i><par n="malam/ent__adv"/></e>
     <e lm="desleyalment"><i>desleyalm</i><par n="malam/ent__adv"/></e>
-    <e lm="desmanegadament"><i>desmanegadam</i><par n="malam/ent__adv"/></e>
     <e lm="desmesuradament"><i>desmesuradam</i><par n="malam/ent__adv"/></e>
     <e lm="desmuntablement"><i>desmuntablem</i><par n="malam/ent__adv"/></e>
     <e lm="desobedientment"><i>desobedientm</i><par n="malam/ent__adv"/></e>
@@ -48787,6 +49114,7 @@
     <e lm="diferencialment"><i>diferencialm</i><par n="malam/ent__adv"/></e>
     <e lm="diferentment"><i>diferentm</i><par n="malam/ent__adv"/></e>
     <e lm="dificilment"><i>dificilm</i><par n="malam/ent__adv"/></e>
+      <e r="LR" lm="dificilment"><p><l>difícilm</l><r>dificilm</r></p><par n="malam/ent__adv"/></e>
     <e lm="difusament"><i>difusam</i><par n="malam/ent__adv"/></e>
     <e lm="dignament"><i>dignam</i><par n="malam/ent__adv"/></e>
     <e lm="dilatadament"><i>dilatadam</i><par n="malam/ent__adv"/></e>
@@ -48834,6 +49162,7 @@
     <e lm="diversament"><i>diversam</i><par n="malam/ent__adv"/></e>
     <e lm="diversificadament"><i>diversificadam</i><par n="malam/ent__adv"/></e>
     <e lm="divertidament"><i>divertidam</i><par n="malam/ent__adv"/></e>
+    <e lm="surtidament"><i>surtidam</i><par n="malam/ent__adv"/></e>
     <e lm="divinament"><i>divinam</i><par n="malam/ent__adv"/></e>
     <e lm="divisiblement"><i>divisiblem</i><par n="malam/ent__adv"/></e>
     <e lm="divisoriament"><i>divisoriam</i><par n="malam/ent__adv"/></e>
@@ -48883,9 +49212,8 @@
     <e lm="eficazment"><i>eficazm</i><par n="malam/ent__adv"/></e>
     <e lm="eficientment"><i>eficientm</i><par n="malam/ent__adv"/></e>
     <e lm="egoístament"><i>egoístam</i><par n="malam/ent__adv"/></e>
-        <e r="LR" lm="egoístament"><p><l>egositam</l><r>egoísta</r></p><par n="malam/ent__adv"/></e>    
+    <e r="LR" lm="egoístament"><p><l>egoistam</l><r>egoísta</r></p><par n="malam/ent__adv"/></e>    
     <e lm="eixelebradament"><i>eixelebradam</i><par n="malam/ent__adv"/></e>
-    <e lm="eixeridament"><i>eixeridam</i><par n="malam/ent__adv"/></e>
     <e lm="ixutament"><i>ixutam</i><par n="malam/ent__adv"/></e>
     <e lm="elasticament"><i>elasticam</i><par n="malam/ent__adv"/></e>
     <e lm="elechiacament"><i>elechiacam</i><par n="malam/ent__adv"/></e>
@@ -48909,7 +49237,8 @@
     <e lm="elipticament"><i>elipticam</i><par n="malam/ent__adv"/></e>
     <e lm="eloqüentment"><i>eloqüentm</i><par n="malam/ent__adv"/></e>
     <e lm="eludiblement"><i>eludiblem</i><par n="malam/ent__adv"/></e>
-    <e lm="embafadorament"><i>embafadoram</i><par n="malam/ent__adv"/></e>
+    <e lm="embafaderament"><i>embafaderam</i><par n="malam/ent__adv"/></e>
+        <e lm="embafaderament" r="LR"><p><l>embafadoram</l><r>embafaderam</r></p><par n="malam/ent__adv"/></e>
     <e lm="emblematicament"><i>emblematicam</i><par n="malam/ent__adv"/></e>
     <e lm="embriagament"><i>embriagam</i><par n="malam/ent__adv"/></e>
     <e lm="embrionariament"><i>embrionariam</i><par n="malam/ent__adv"/></e>
@@ -48948,7 +49277,8 @@
     <e lm="enercheticament"><i>enercheticam</i><par n="malam/ent__adv"/></e>
     <e lm="enerchicament"><i>enerchicam</i><par n="malam/ent__adv"/></e>
     <e lm="enesimament"><i>enesimam</i><par n="malam/ent__adv"/></e>
-    <e lm="engalipadorament"><i>engalipadoram</i><par n="malam/ent__adv"/></e>
+    <e lm="embabucaderament"><i>embabucaderam</i><par n="malam/ent__adv"/></e>
+    <e lm="embabucaderament" r="LR"><p><l>embabucadoram</l><r>embabucaderam</r></p><par n="malam/ent__adv"/></e>
     <e lm="enganyosament"><i>enganyosam</i><par n="malam/ent__adv"/></e>
     <e lm="enigmaticament"><i>enigmaticam</i><par n="malam/ent__adv"/></e>
     <e lm="eslucernadorament"><i>eslucernadoram</i><par n="malam/ent__adv"/></e>
@@ -48999,14 +49329,12 @@
     <e lm="erraticament"><i>erraticam</i><par n="malam/ent__adv"/></e>
     <e lm="erroniament"><i>erroniam</i><par n="malam/ent__adv"/></e>
     <e lm="eruditament"><i>eruditam</i><par n="malam/ent__adv"/></e>
-    <e lm="esbiaixadament"><i>esbiaixadam</i><par n="malam/ent__adv"/></e>
-    <e lm="esborronadorament"><i>esborronadoram</i><par n="malam/ent__adv"/></e>
+    <e lm="sesgadament"><i>sesgadam</i><par n="malam/ent__adv"/></e>
+    <e lm="horripilantment"><i>horripilantm</i><par n="malam/ent__adv"/></e>
     <e lm="escabelladament"><i>escabelladam</i><par n="malam/ent__adv"/></e>
     <e lm="escabrosament"><i>escabrosam</i><par n="malam/ent__adv"/></e>
-    <e lm="escaientment"><i>escaientm</i><par n="malam/ent__adv"/></e>
     <e lm="escalonadament"><i>escalonadam</i><par n="malam/ent__adv"/></e>
     <e lm="escandalosament"><i>escandalosam</i><par n="malam/ent__adv"/></e>
-    <e lm="escaridament"><i>escaridam</i><par n="malam/ent__adv"/></e>
     <e lm="escasament"><i>escasam</i><par n="malam/ent__adv"/></e>
     <e lm="tasament"><i>tasam</i><par n="malam/ent__adv"/></e>
     <e r="LR" lm="tasament"><p><l>tansam</l><r>tasam</r></p><par n="malam/ent__adv"/></e>    
@@ -49017,16 +49345,22 @@
     <e lm="escolarment"><i>escolarm</i><par n="malam/ent__adv"/></e>
     <e lm="escripturalment"><i>escripturalm</i><par n="malam/ent__adv"/></e>
     <e lm="escritament"><i>escritam</i><par n="malam/ent__adv"/></e>
-    <e lm="escruixidorament"><i>escruixidoram</i><par n="malam/ent__adv"/></e>
+    <e lm="estremoleixidament"><i>estremoleixidam</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="estremoleixidament"><p><l>estremolecidam</l><r>estremoleixidam</r></p><par n="malam/ent__adv"/></e>    
+    <e r="LR" lm="estremoleixidament"><p><l>estremolexidam</l><r>estremoleixidam</r></p><par n="malam/ent__adv"/></e>    
+    <e lm="esterizadament"><i>esterizadam</i><par n="malam/ent__adv"/></e>
     <e lm="escrupulosament"><i>escrupulosam</i><par n="malam/ent__adv"/></e>
     <e lm="escultoricament"><i>escultoricam</i><par n="malam/ent__adv"/></e>
     <e lm="esculturalment"><i>esculturalm</i><par n="malam/ent__adv"/></e>
     <e lm="esencialment"><i>esencialm</i><par n="malam/ent__adv"/></e>
     <e lm="esfericament"><i>esfericam</i><par n="malam/ent__adv"/></e>
     <e lm="esgarrifosament"><i>esgarrifosam</i><par n="malam/ent__adv"/></e>
-    <e lm="esglaiadorament"><i>esglaiadoram</i><par n="malam/ent__adv"/></e>
-    <e lm="esgrogueïdament"><i>esgrogueïdam</i><par n="malam/ent__adv"/></e>
-    <e lm="esmunyedisament"><i>esmunyedisam</i><par n="malam/ent__adv"/></e>
+    <e lm="esparpalladerament"><i>esparpalladeram</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="esparpalladerament"><p><l>esparpalladoram</l><r>esparpalladeram</r></p><par n="malam/ent__adv"/></e>    
+    <e lm="sobreculliderament"><i>sobrecullideram</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="sobrecullideram"><p><l>sobrecullidoram</l><r>sobrecullideram</r></p><par n="malam/ent__adv"/></e>    
+    <e lm="machurridament"><i>machurridam</i><par n="malam/ent__adv"/></e>
+    <e lm="escorredizament"><i>escorredizam</i><par n="malam/ent__adv"/></e>
     <e lm="esotericament"><i>esotericam</i><par n="malam/ent__adv"/></e>
     <e lm="espacialment"><i>espacialm</i><par n="malam/ent__adv"/></e>
     <e lm="espaiosament"><i>espaiosam</i><par n="malam/ent__adv"/></e>
@@ -49054,8 +49388,9 @@
     <e lm="esporadicament"><i>esporadicam</i><par n="malam/ent__adv"/></e>
     <e lm="esportivament"><i>esportivam</i><par n="malam/ent__adv"/></e>
     <e lm="esquematicament"><i>esquematicam</i><par n="malam/ent__adv"/></e>
-    <e lm="esquerpament"><i>esquerpam</i><par n="malam/ent__adv"/></e>
-    <e lm="esquinzadorament"><i>esquinzadoram</i><par n="malam/ent__adv"/></e>
+    <e lm="garrispament"><i>garrispam</i><par n="malam/ent__adv"/></e>
+    <e lm="furonament"><i>furonam</i><par n="malam/ent__adv"/></e>
+    <e lm="esgarradorament"><i>esgarradoram</i><par n="malam/ent__adv"/></e>
     <e lm="estabilizadorament"><i>estabilizadoram</i><par n="malam/ent__adv"/></e>
     <e lm="establement"><i>establem</i><par n="malam/ent__adv"/></e>
     <e lm="estacionalment"><i>estacionalm</i><par n="malam/ent__adv"/></e>
@@ -49177,6 +49512,7 @@
     <e lm="extrauniversitariament"><i>extrauniversitariam</i><par n="malam/ent__adv"/></e>
     <e lm="extravagantment"><i>extravagantm</i><par n="malam/ent__adv"/></e>
     <e lm="extremadament"><i>extremadam</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="extremadament"><p><l>extrematam</l><r>extremadam</r></p><par n="malam/ent__adv"/></e>
     <e lm="extremament"><i>extremam</i><par n="malam/ent__adv"/></e>
     <e lm="extrinsecament"><i>extrinsecam</i><par n="malam/ent__adv"/></e>
     <e lm="exuberantment"><i>exuberantm</i><par n="malam/ent__adv"/></e>
@@ -49184,6 +49520,7 @@
     <e lm="fabulosament"><i>fabulosam</i><par n="malam/ent__adv"/></e>
     <e lm="facialment"><i>facialm</i><par n="malam/ent__adv"/></e>
     <e lm="facilment"><i>facilm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="facilment"><p><l>fácilm</l><r>facilm</r></p><par n="malam/ent__adv"/></e>
     <e lm="factiblement"><i>factiblem</i><par n="malam/ent__adv"/></e>
     <e lm="facticament"><i>facticam</i><par n="malam/ent__adv"/></e>
     <e lm="factorialment"><i>factorialm</i><par n="malam/ent__adv"/></e>
@@ -49210,6 +49547,7 @@
     <e lm="fatidicament"><i>fatidicam</i><par n="malam/ent__adv"/></e>
     <e lm="favorablement"><i>favorablem</i><par n="malam/ent__adv"/></e>
     <e lm="feblement"><i>feblem</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="debilment"><i>debilm</i><par n="malam/ent__adv"/></e>
     <e lm="febrilment"><i>febrilm</i><par n="malam/ent__adv"/></e>
     <e lm="fecalment"><i>fecalm</i><par n="malam/ent__adv"/></e>
     <e lm="fecundament"><i>fecundam</i><par n="malam/ent__adv"/></e>
@@ -49220,6 +49558,7 @@
     <e lm="felizment"><i>felizm</i><par n="malam/ent__adv"/></e>
     <e lm="fenomenalment"><i>fenomenalm</i><par n="malam/ent__adv"/></e>
     <e lm="fierament"><i>fieram</i><par n="malam/ent__adv"/></e>
+    <e lm="furament"><i>furam</i><par n="malam/ent__adv"/></e>
     <e lm="feridorament"><i>feridoram</i><par n="malam/ent__adv"/></e>
     <e lm="fermament"><i>fermam</i><par n="malam/ent__adv"/></e>
     <e lm="ferochement"><i>ferochem</i><par n="malam/ent__adv"/></e>
@@ -49247,11 +49586,12 @@
     <e lm="finament"><i>finam</i><par n="malam/ent__adv"/></e>
     <e lm="financierament"><i>financieram</i><par n="malam/ent__adv"/></e>
     <e lm="amanadament"><i>amanadam</i><par n="malam/ent__adv"/></e>
+    <e lm="cercanament"><i>cercanam</i><par n="malam/ent__adv"/></e>
     <e lm="finitament"><i>finitam</i><par n="malam/ent__adv"/></e>
     <e lm="firmement"><i>firmem</i><par n="malam/ent__adv"/></e>
     <e lm="fiscalment"><i>fiscalm</i><par n="malam/ent__adv"/></e>
     <e lm="fisicament"><i>fisicam</i><par n="malam/ent__adv"/></e>
-    <e lm="fisicament" r="LR"><p><l>fesicam</l><r>fesicam</r></p><par n="malam/ent__adv"/></e>
+    <e lm="fisicament" r="LR"><p><l>fisicam</l><r>fesicam</r></p><par n="malam/ent__adv"/></e>
     <e lm="fisiolochicament"><i>fisiolochicam</i><par n="malam/ent__adv"/></e>
     <e lm="fitosanitariament"><i>fitosanitariam</i><par n="malam/ent__adv"/></e>
     <e lm="fixament"><i>fixam</i><par n="malam/ent__adv"/></e>
@@ -49268,6 +49608,9 @@
     <e lm="focalment"><i>focalm</i><par n="malam/ent__adv"/></e>
     <e lm="folgadament"><i>folgadam</i><par n="malam/ent__adv"/></e>
     <e lm="folkloricament"><i>folkloricam</i><par n="malam/ent__adv"/></e>
+    <e lm="foscament"><i>foscam</i><par n="malam/ent__adv"/></e>
+    <e lm="escurament"><i>escuram</i><par n="malam/ent__adv"/></e>
+    <e lm="obscurament"><i>obscuram</i><par n="malam/ent__adv"/></e>
     <e lm="fundiblement"><i>fundiblem</i><par n="malam/ent__adv"/></e>
     <e lm="fonematicament"><i>fonematicam</i><par n="malam/ent__adv"/></e>
     <e lm="foneticament"><i>foneticam</i><par n="malam/ent__adv"/></e>
@@ -49301,6 +49644,10 @@
     <e lm="freneticament"><i>freneticam</i><par n="malam/ent__adv"/></e>
     <e lm="freqüencialment"><i>freqüencialm</i><par n="malam/ent__adv"/></e>
     <e lm="freqüentment"><i>freqüentm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="freqüentment"><p><l>frecuenm</l><r>freqüentm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="freqüentment"><p><l>frecuentem</l><r>freqüentm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="freqüentment"><p><l>frecuentm</l><r>freqüentm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="freqüentment"><p><l>freqüentem</l><r>freqüentm</r></p><par n="malam/ent__adv"/></e>
     <e lm="frescament"><i>frescam</i><par n="malam/ent__adv"/></e>
     <e lm="arguelladament"><i>arguelladam</i><par n="malam/ent__adv"/></e>
     <e lm="arguelladament" r="LR"><p><l>arguilladam</l><r>arguelladam</r></p><par n="malam/ent__adv"/></e>
@@ -49313,6 +49660,7 @@
     <e lm="fructiferament"><i>fructiferam</i><par n="malam/ent__adv"/></e>
     <e lm="fructuosament"><i>fructuosam</i><par n="malam/ent__adv"/></e>
     <e lm="frustrantment"><i>frustrantm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="frustradorament"><i>frustradoram</i><par n="malam/ent__adv"/></e>
     <e lm="fuyidizament"><i>fuyidizam</i><par n="malam/ent__adv"/></e>
     <e lm="fuchitivament"><i>fuchitivam</i><par n="malam/ent__adv"/></e>
     <e lm="fuertement"><i>fuertem</i><par n="malam/ent__adv"/></e>
@@ -49330,7 +49678,10 @@
     <e lm="funcionarialment"><i>funcionarialm</i><par n="malam/ent__adv"/></e>
     <e lm="fundacionalment"><i>fundacionalm</i><par n="malam/ent__adv"/></e>
     <e lm="fundamentalment"><i>fundamentalm</i><par n="malam/ent__adv"/></e>
+    <e lm="alazetalment"><i>alazetalm</i><par n="malam/ent__adv"/></e>
     <e lm="fundament"><i>fundam</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="fundament"><p><l>profundam</l><r>fundam</r></p><par n="malam/ent__adv"/></e>
+
     <e lm="funebrement"><i>funebrem</i><par n="malam/ent__adv"/></e>
     <e lm="funerariament"><i>funerariam</i><par n="malam/ent__adv"/></e>
     <e lm="funestament"><i>funestam</i><par n="malam/ent__adv"/></e>
@@ -49343,7 +49694,8 @@
     <e lm="galacticament"><i>galacticam</i><par n="malam/ent__adv"/></e>
     <e lm="galvanicament"><i>galvanicam</i><par n="malam/ent__adv"/></e>
     <e lm="gandulament"><i>gandulam</i><par n="malam/ent__adv"/></e>
-    <e lm="gasivament"><i>gasivam</i><par n="malam/ent__adv"/></e>
+    <e lm="pretament"><i>pretam</i><par n="malam/ent__adv"/></e>
+    <e lm="miseriosament"><i>miseriosam</i><par n="malam/ent__adv"/></e>
     <e lm="gasosament"><i>gasosam</i><par n="malam/ent__adv"/></e>
     <e lm="gastricament"><i>gastricam</i><par n="malam/ent__adv"/></e>
     <e lm="gastronomicament"><i>gastronomicam</i><par n="malam/ent__adv"/></e>
@@ -49375,7 +49727,6 @@
     <e lm="grieument"><i>grieum</i><par n="malam/ent__adv"/></e>
     <e lm="graument"><i>graum</i><par n="malam/ent__adv"/></e>
     <e lm="grisencament"><i>grisencam</i><par n="malam/ent__adv"/></e>
-    <e lm="grollerament"><i>grolleram</i><par n="malam/ent__adv"/></e>
     <e lm="groserament"><i>groseram</i><par n="malam/ent__adv"/></e>
     <e lm="grotescament"><i>grotescam</i><par n="malam/ent__adv"/></e>
     <e lm="gruixudament"><i>gruixudam</i><par n="malam/ent__adv"/></e>
@@ -49384,6 +49735,7 @@
     <e lm="habilment"><i>habilm</i><par n="malam/ent__adv"/></e>
     <e lm="habitablement"><i>habitablem</i><par n="malam/ent__adv"/></e>
     <e lm="habitualment"><i>habitualm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="habitualment"><p><l>abitualm</l><r>habitualm</r></p><par n="malam/ent__adv"/></e>
     <e lm="harmonicament"><i>harmonicam</i><par n="malam/ent__adv"/></e>
     <e lm="harmoniosament"><i>harmoniosam</i><par n="malam/ent__adv"/></e>
     <e lm="hedonistament"><i>hedonistam</i><par n="malam/ent__adv"/></e>
@@ -49502,6 +49854,7 @@
     <e lm="immanentment"><i>immanentm</i><par n="malam/ent__adv"/></e>
     <e lm="immaterialment"><i>immaterialm</i><par n="malam/ent__adv"/></e>
     <e lm="immediatament"><i>immediatam</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="immediatament"><p><l>inmediatam</l><r>immediatament</r></p><par n="malam/ent__adv"/></e>
     <e lm="immemorialment"><i>immemorialm</i><par n="malam/ent__adv"/></e>
     <e lm="immensament"><i>immensam</i><par n="malam/ent__adv"/></e>
     <e lm="immersivament"><i>immersivam</i><par n="malam/ent__adv"/></e>
@@ -49534,9 +49887,6 @@
     <e lm="imperialistament"><i>imperialistam</i><par n="malam/ent__adv"/></e>
     <e lm="imperialment"><i>imperialm</i><par n="malam/ent__adv"/></e>
     <e lm="imperiblement"><i>imperiblem</i><par n="malam/ent__adv"/></e>
-    <e lm="impermeyablement"><i>impermeyablem</i><par n="malam/ent__adv"/></e>
-    <e lm="impermeyablement" r="LR"><p><l>impermiablem</l><r>impermeyablem</r></p><par n="malam/ent__adv"/></e>
-    <e lm="impermeyablement" r="LR"><p><l>impermeablem</l><r>impermeyablem</r></p><par n="malam/ent__adv"/></e>
 
     <e lm="implacablement"><i>implacablem</i><par n="malam/ent__adv"/></e>
     <e lm="implicitament"><i>implicitam</i><par n="malam/ent__adv"/></e>
@@ -49578,7 +49928,6 @@
     <e lm="inapelablement"><i>inapelablem</i><par n="malam/ent__adv"/></e>
     <e lm="inapelablement" r="LR"><p><l>inapelablem</l><r>inapelablem</r></p><par n="malam/ent__adv"/></e>
     <e lm="inasequiblement"><i>inasequiblem</i><par n="malam/ent__adv"/></e>
-    <e lm="inasoliblement"><i>inasoliblem</i><par n="malam/ent__adv"/></e>
     <e lm="inauditament"><i>inauditam</i><par n="malam/ent__adv"/></e>
     <e lm="inauguralment"><i>inauguralm</i><par n="malam/ent__adv"/></e>
     <e lm="incalculablement"><i>incalculablem</i><par n="malam/ent__adv"/></e>
@@ -49616,6 +49965,11 @@
     <e lm="incongruentment"><i>incongruentm</i><par n="malam/ent__adv"/></e>
     <e lm="inconnexament"><i>inconnexam</i><par n="malam/ent__adv"/></e>
     <e lm="inconscientment"><i>inconscientm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="inconscientment"><p><l>inconscienm</l><r>inconscientm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="inconscientment"><p><l>inconscientem</l><r>inconscientm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="inconscientment"><p><l>incoscienm</l><r>inconscientm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="inconscientment"><p><l>incoscientem</l><r>inconscientm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="inconscientment"><p><l>incoscientm</l><r>inconscientm</r></p><par n="malam/ent__adv"/></e>
     <e lm="inconsistentment"><i>inconsistentm</i><par n="malam/ent__adv"/></e>
     <e lm="inconsumiblement"><i>inconsumiblem</i><par n="malam/ent__adv"/></e>
     <e lm="inconteniblement"><i>inconteniblem</i><par n="malam/ent__adv"/></e>
@@ -50004,9 +50358,6 @@
     <e lm="libertariament"><i>libertariam</i><par n="malam/ent__adv"/></e>
     <e lm="librerament"><i>libreram</i><par n="malam/ent__adv"/></e>
     <e lm="lisament"><i>lisam</i><par n="malam/ent__adv"/></e>
-    
-    <e lm="liscadorament"><i>liscadoram</i><par n="malam/ent__adv"/></e>
-    <e lm="liscantment"><i>liscantm</i><par n="malam/ent__adv"/></e>
     <e lm="librement"><i>librem</i><par n="malam/ent__adv"/></e>
     <e lm="lobablement"><i>lobablem</i><par n="malam/ent__adv"/></e>
     <e lm="luminosament"><i>luminosam</i><par n="malam/ent__adv"/></e>
@@ -50046,7 +50397,6 @@
     <e lm="mayusculament"><i>mayusculam</i><par n="malam/ent__adv"/></e>
     <e lm="malaudizam"><i>malaudizam</i><par n="malam/ent__adv"/></e>
     <e lm="malament"><i>malam</i><par n="malam/ent__adv"/></e>
-    <e lm="malastrugament"><i>malastrugam</i><par n="malam/ent__adv"/></e>
     <e lm="malditament"><i>malditam</i><par n="malam/ent__adv"/></e>
     <e lm="maleficament"><i>maleficam</i><par n="malam/ent__adv"/></e>
     <e lm="malgastadament"><i>malgastadam</i><par n="malam/ent__adv"/></e>
@@ -50054,7 +50404,7 @@
     <e lm="malignament"><i>malignam</i><par n="malam/ent__adv"/></e>
     <e lm="malintencionadament"><i>malintencionadam</i><par n="malam/ent__adv"/></e>
     <e lm="malvadament"><i>malvadam</i><par n="malam/ent__adv"/></e>
-    <e lm="mandrosament"><i>mandrosam</i><par n="malam/ent__adv"/></e>
+    <e lm="prezosament"><i>prezosam</i><par n="malam/ent__adv"/></e>
     <e lm="maneyablement"><i>maneyablem</i><par n="malam/ent__adv"/></e>
     <e lm="manifestament"><i>manifestam</i><par n="malam/ent__adv"/></e>
     <e lm="manipulablement"><i>manipulablem</i><par n="malam/ent__adv"/></e>
@@ -50099,6 +50449,7 @@
     <e lm="despreciablement"><i>despreciablem</i><par n="malam/ent__adv"/></e>
     <e lm="despreciablement" r="LR"><p><l>dispreciablem</l><r>despreciablem</r></p><par n="malam/ent__adv"/></e>
     <e lm="despreciadorament"><i>despreciadoram</i><par n="malam/ent__adv"/></e>
+    <e lm="despreciativament"><i>despreciativam</i><par n="malam/ent__adv"/></e>
     <e lm="despreciadorament" r="LR"><p><l>dispreciadoram</l><r>despreciadoram</r></p><par n="malam/ent__adv"/></e>
     <e lm="merament"><i>meram</i><par n="malam/ent__adv"/></e>
     <e lm="mereixidament"><i>mereixidam</i><par n="malam/ent__adv"/></e>
@@ -50128,7 +50479,7 @@
     <e lm="metodolochicament"><i>metodolochicam</i><par n="malam/ent__adv"/></e>
     <e lm="metricament"><i>metricam</i><par n="malam/ent__adv"/></e>
     <e lm="meyanament"><i>meyanam</i><par n="malam/ent__adv"/></e>
-    <e lm="meyanament" r="LR"><p><l>meyanam</l><r>meyanam</r></p><par n="malam/ent__adv"/></e>
+    <e lm="meyanament" r="LR"><p><l>medianam</l><r>meyanam</r></p><par n="malam/ent__adv"/></e>
     <e lm="microbianament"><i>microbianam</i><par n="malam/ent__adv"/></e>
     <e lm="microeconomicament"><i>microeconomicam</i><par n="malam/ent__adv"/></e>
     <e lm="microscopicament"><i>microscopicam</i><par n="malam/ent__adv"/></e>
@@ -50141,13 +50492,14 @@
     <e lm="milimetricament" r="LR"><p><l>milimetricam</l><r>milimetricam</r></p><par n="malam/ent__adv"/></e>
     <e lm="milionesimament"><i>milionesimam</i><par n="malam/ent__adv"/></e>
     <e lm="militarment"><i>militarm</i><par n="malam/ent__adv"/></e>
+    <e lm="militarment" r="LR"><p><l>melitarm</l><r>militarm</r></p><par n="malam/ent__adv"/></e>    
     <e lm="millorablement"><i>millorablem</i><par n="malam/ent__adv"/></e>
     <e lm="millorment"><i>millorm</i><par n="malam/ent__adv"/></e>
     <e lm="mineralment"><i>mineralm</i><par n="malam/ent__adv"/></e>
     <e lm="minimament"><i>minimam</i><par n="malam/ent__adv"/></e>
     <e lm="ministerialment"><i>ministerialm</i><par n="malam/ent__adv"/></e>
     <e lm="minoritariament"><i>minoritariam</i><par n="malam/ent__adv"/></e>
-    <e lm="minsament"><i>minsam</i><par n="malam/ent__adv"/></e>
+    <e lm="enreblement"><i>enreblem</i><par n="malam/ent__adv"/></e>
     <e lm="minuciosament"><i>minuciosam</i><par n="malam/ent__adv"/></e>
     <e lm="miraculosament"><i>miraculosam</i><par n="malam/ent__adv"/></e>
     <e lm="miscelaniament"><i>miscelaniam</i><par n="malam/ent__adv"/></e>
@@ -50221,7 +50573,7 @@
     <e lm="nacionalment"><i>nacionalm</i><par n="malam/ent__adv"/></e>
     <e lm="nadalencament"><i>nadalencam</i><par n="malam/ent__adv"/></e>
     <e lm="nadivament"><i>nadivam</i><par n="malam/ent__adv"/></e>
-    <e lm="naixentment"><i>naixentm</i><par n="malam/ent__adv"/></e>
+    <e lm="naixentment"><i>naixientm</i><par n="malam/ent__adv"/></e>
     <e lm="narcisistament"><i>narcisistam</i><par n="malam/ent__adv"/></e>
     <e lm="narrativament"><i>narrativam</i><par n="malam/ent__adv"/></e>
     <e lm="natalment"><i>natalm</i><par n="malam/ent__adv"/></e>
@@ -50281,8 +50633,13 @@
     <e lm="numericament"><i>numericam</i><par n="malam/ent__adv"/></e>
     <e lm="nutricionalment"><i>nutricionalm</i><par n="malam/ent__adv"/></e>
     <e lm="nutritivament"><i>nutritivam</i><par n="malam/ent__adv"/></e>
-    <e lm="nuvolosament"><i>nuvolosam</i><par n="malam/ent__adv"/></e>
+    <e lm="nubosament"><i>nubosam</i><par n="malam/ent__adv"/></e>
+    <e lm="nublesament"><i>nublem</i><par n="malam/ent__adv"/></e>
+    <e lm="nublament"><i>nublom</i><par n="malam/ent__adv"/></e>
+    <e lm="nubosament"><i>nubosam</i><par n="malam/ent__adv"/></e>
     <e lm="oyiblement"><i>oyiblem</i><par n="malam/ent__adv"/></e>
+    <e lm="oyentment"><i>oyentm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="oyentment"><p><l>oyientm</l><r>oyentm</r></p><par n="malam/ent__adv"/></e>
     <e lm="obchectivament"><i>obchectivam</i><par n="malam/ent__adv"/></e>
     <e lm="obedientment"><i>obedientm</i><par n="malam/ent__adv"/></e>
     <e lm="ubiertament"><i>ubiertam</i><par n="malam/ent__adv"/></e>
@@ -50475,7 +50832,8 @@
     <e lm="picardiosament"><i>picardiosam</i><par n="malam/ent__adv"/></e>
     <e lm="pictoricament"><i>pictoricam</i><par n="malam/ent__adv"/></e>
     <e lm="pintorescament"><i>pintorescam</i><par n="malam/ent__adv"/></e>
-    <e lm="piocament"><i>piocam</i><par n="malam/ent__adv"/></e>
+    <e lm="murriament"><i>murriam</i><par n="malam/ent__adv"/></e>
+    <e lm="calamocanament"><i>calamocanam</i><par n="malam/ent__adv"/></e>
     <e lm="pirotecnicament"><i>pirotecnicam</i><par n="malam/ent__adv"/></e>
     <e lm="pirricament"><i>pirricam</i><par n="malam/ent__adv"/></e>
     <e lm="pitagoricament"><i>pitagoricam</i><par n="malam/ent__adv"/></e>
@@ -50549,6 +50907,7 @@
     <e r="LR" lm="probablement"><p><l>prebablem</l><r>probablem</r></p><par n="malam/ent__adv"/></e>
     <e lm="precariament" a="prompsit2uoc"><i>precariam</i><par n="malam/ent__adv"/></e>
     <e lm="preceptivament"><i>preceptivam</i><par n="malam/ent__adv"/></e>
+    <e lm="perceptivament"><i>perceptivam</i><par n="malam/ent__adv"/></e>
     <e lm="preciosament"><i>preciosam</i><par n="malam/ent__adv"/></e>
     <e lm="precipitadament"><i>precipitadam</i><par n="malam/ent__adv"/></e>
     <e lm="precisament"><i>precisam</i><par n="malam/ent__adv"/></e>
@@ -50563,6 +50922,8 @@
     <e lm="preexistentment"><i>preexistentm</i><par n="malam/ent__adv"/></e>
     <e lm="preferencialment"><i>preferencialm</i><par n="malam/ent__adv"/></e>
     <e lm="preferentment"><i>preferentm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="preferentment"><p><l>preferenm</l><r>preferentm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="preferentment"><p><l>preferentem</l><r>preferentm</r></p><par n="malam/ent__adv"/></e>
     <e lm="preferiblement"><i>preferiblem</i><par n="malam/ent__adv"/></e>
     <e lm="prehistoricament"><i>prehistoricam</i><par n="malam/ent__adv"/></e>
     <e lm="preliminarment"><i>preliminarm</i><par n="malam/ent__adv"/></e>
@@ -50681,7 +51042,8 @@
     <e lm="puntualment"><i>puntualm</i><par n="malam/ent__adv"/></e>
     <e lm="punchigudament"><i>punchigudam</i><par n="malam/ent__adv"/></e>
     <e lm="punchantment"><i>punchantm</i><par n="malam/ent__adv"/></e>
-    <e lm="punyentment"><i>punyentm</i><par n="malam/ent__adv"/></e>
+    <e lm="punchantment"><i>punchantm</i><par n="malam/ent__adv"/></e>
+    <e lm="lacerantment"><i>lacerantm</i><par n="malam/ent__adv"/></e>
     <e lm="purament"><i>puram</i><par n="malam/ent__adv"/></e>
     <e lm="pusilanimement"><i>pusilanimem</i><par n="malam/ent__adv"/></e>
     <e lm="quadrimestralment"><i>quadrimestralm</i><par n="malam/ent__adv"/></e>
@@ -50728,6 +51090,7 @@
     <e lm="reaccionariament"><i>reaccionariam</i><par n="malam/ent__adv"/></e>
     <e lm="reactivament"><i>reactivam</i><par n="malam/ent__adv"/></e>
     <e lm="realment"><i>realm</i><par n="malam/ent__adv"/></e>
+    <e lm="realment"><p><l>reyalm</l><r>realm</r></p><par n="malam/ent__adv"/></e>
     <e lm="rebelment"><i>rebelm</i><par n="malam/ent__adv"/></e>
     <e lm="refusablement"><i>refusablem</i><par n="malam/ent__adv"/></e>
     <e lm="recientment"><i>recientm</i><par n="malam/ent__adv"/></e>
@@ -50781,6 +51144,9 @@
     <e lm="esvarosament"><i>esvarosam</i><par n="malam/ent__adv"/></e>
     <e lm="esvarosament" r="LR"><p><l>esbarosam</l><r>esvarosam</r></p><par n="malam/ent__adv"/></e>
     <e lm="eslizosament"><i>eslizosam</i><par n="malam/ent__adv"/></e>
+    <e lm="eslizantment"><i>eslizantm</i><par n="malam/ent__adv"/></e>
+    <e lm="eslizaderament"><i>eslizaderam</i><par n="malam/ent__adv"/></e>
+    <e lm="eslizaderament" r="LR"><p><l>eslizadoram</l><r>eslizaderam</r></p><par n="malam/ent__adv"/></e>
     <e lm="remarcablement"><i>remarcablem</i><par n="malam/ent__adv"/></e>
     <e lm="remolcadorament"><i>remolcadoram</i><par n="malam/ent__adv"/></e>
     <e lm="remotament"><i>remotam</i><par n="malam/ent__adv"/></e>
@@ -50908,6 +51274,7 @@
     <e lm="semellantment"><i>semellantm</i><par n="malam/ent__adv"/></e>
     <e lm="semestralment"><i>semestralm</i><par n="malam/ent__adv"/></e>
     <e lm="senilment"><i>senilm</i><par n="malam/ent__adv"/></e>
+    <e lm="sensatament"><i>sensatam</i><par n="malam/ent__adv"/></e>
     <e lm="sensiblement"><i>sensiblem</i><par n="malam/ent__adv"/></e>
     <e lm="sensitivament"><i>sensitivam</i><par n="malam/ent__adv"/></e>
     <e lm="sensorialment"><i>sensorialm</i><par n="malam/ent__adv"/></e>
@@ -50992,8 +51359,13 @@
     <e lm="solublement"><i>solublem</i><par n="malam/ent__adv"/></e>
     <e lm="somnambulament"><i>somnambulam</i><par n="malam/ent__adv"/></e>
     <e lm="somnambulament" r="LR"><p><l>sonambulam</l><r>somnambulam</r></p><par n="malam/ent__adv"/></e>
-    <e lm="somortament"><i>somortam</i><par n="malam/ent__adv"/></e>
+    <e lm="moredizament"><i>moredizam</i><par n="malam/ent__adv"/></e>
+    <e lm="mortecinament"><i>mortecinam</i><par n="malam/ent__adv"/></e>
     <e lm="sonorament"><i>sonoram</i><par n="malam/ent__adv"/></e>
+    <e lm="sonyadorament"><i>sonyadoram</i><par n="malam/ent__adv"/></e>
+    <e lm="sonyadorament" r="LR"><p><l>soniadoram</l><r>sonyadoram</r></p><par n="malam/ent__adv"/></e>
+    <e lm="sonyadorament" r="LR"><p><l>sonyaderam</l><r>sonyadoram</r></p><par n="malam/ent__adv"/></e>
+    <e lm="sonyadorament" r="LR"><p><l>sonyadoram</l><r>sonyadoram</r></p><par n="malam/ent__adv"/></e>
     <e lm="sonrientment"><i>sonrientm</i><par n="malam/ent__adv"/></e>
     <e lm="sordidament"><i>sordidam</i><par n="malam/ent__adv"/></e>
     <e lm="somardonament"><i>somardonam</i><par n="malam/ent__adv"/></e>
@@ -51155,6 +51527,7 @@
     <e lm="toscament"><i>toscam</i><par n="malam/ent__adv"/></e>
     <e lm="toscanament"><i>toscanam</i><par n="malam/ent__adv"/></e>
     <e lm="tozudament"><i>tozudam</i><par n="malam/ent__adv"/></e>
+    <e lm="tozolonament"><i>tozolonam</i><par n="malam/ent__adv"/></e>
     <e lm="totalitariament"><i>totalitariam</i><par n="malam/ent__adv"/></e>
     <e lm="totalment"><i>totalm</i><par n="malam/ent__adv"/></e>
     <e lm="tovament"><i>tovam</i><par n="malam/ent__adv"/></e>
@@ -51200,8 +51573,12 @@
     <e lm="trifasicament"><i>trifasicam</i><par n="malam/ent__adv"/></e>
     <e lm="trilingüement"><i>trilingüem</i><par n="malam/ent__adv"/></e>
     <e lm="trimestralment"><i>trimestralm</i><par n="malam/ent__adv"/></e>
-    <e lm="trionfadorament"><i>trionfadoram</i><par n="malam/ent__adv"/></e>
-    <e lm="trionfalment"><i>trionfalm</i><par n="malam/ent__adv"/></e>
+    <e lm="trunfadorament"><i>trunfadoram</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="trunfadorament"><p><l>triunfadoram</l><r>trunfadoram</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="trunfadorament"><p><l>trionfadoram</l><r>trunfadoram</r></p><par n="malam/ent__adv"/></e>
+    <e lm="trunfalment"><i>trunfalm</i><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="trunfalment"><p><l>triunfalm</l><r>trunfalm</r></p><par n="malam/ent__adv"/></e>
+    <e r="LR" lm="trunfalment"><p><l>trionfalm</l><r>trunfalm</r></p><par n="malam/ent__adv"/></e>
     <e lm="triplement"><i>triplem</i><par n="malam/ent__adv"/></e>
     <e lm="tristament"><i>tristam</i><par n="malam/ent__adv"/></e>
     <e r="LR" lm="tristament"><p><l>tristem</l><r>tristam</r></p><par n="malam/ent__adv"/></e>
@@ -51273,6 +51650,7 @@
     <e lm="venalment"><i>venalm</i><par n="malam/ent__adv"/></e>
     <e lm="venerablement"><i>venerablem</i><par n="malam/ent__adv"/></e>
     <e lm="vengativament"><i>vengativam</i><par n="malam/ent__adv"/></e>
+    <e lm="venturosament"><i>venturosam</i><par n="malam/ent__adv"/></e>
     <e lm="verazment"><i>verazm</i><par n="malam/ent__adv"/></e>
     <e lm="verbalment"><i>verbalm</i><par n="malam/ent__adv"/></e>
     <e lm="verdaderament"><i>verdaderam</i><par n="malam/ent__adv"/></e>
@@ -51347,76 +51725,22 @@
     <e lm="vorazment"><i>vorazm</i><par n="malam/ent__adv"/></e>
     <e lm="vulgarment"><i>vulgarm</i><par n="malam/ent__adv"/></e>
     <e lm="vulnerablement"><i>vulnerablem</i><par n="malam/ent__adv"/></e>
+    <e lm="farragosament"><i>farragosam</i><par n="malam/ent__adv"/></e>
+    <e lm="xautament"><i>xautam</i><par n="malam/ent__adv"/></e>
+    <e lm="xautament" r="LR"><p><l>jautam</l><r>xautam</r></p><par n="malam/ent__adv"/></e>
+    <e lm="xautament" r="LR"><p><l>ixautam</l><r>xautam</r></p><par n="malam/ent__adv"/></e>
     <e lm="xenofobament"><i>xenofobam</i><par n="malam/ent__adv"/></e>
     <e lm="fatament"><i>fatam</i><par n="malam/ent__adv"/></e>
     <e lm="chocantment"><i>chocantm</i><par n="malam/ent__adv"/></e>
     <e lm="zaguerament"><i>zagueram</i><par n="malam/ent__adv"/></e>
     <e lm="zenitalment"><i>zenitalm</i><par n="malam/ent__adv"/></e>
     <e lm="zonalment"><i>zonalm</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="adientment"><i>adientm</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="administrativament"><p><l>admenistrativam</l><r>administrativam</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="administrativament"><p><l>almenistratibam</l><r>administrativam</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="administrativament"><p><l>almenistrativam</l><r>administrativam</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="administrativament"><p><l>alministratibam</l><r>administrativam</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="administrativament"><p><l>alministrativam</l><r>administrativam</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="aproximadament"><p><l>aprosimadam</l><r>aproximadam</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="archilosament"><i>archilosam</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="benauradament"><i>benauradam</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="caracteristicament"><p><l>carateristicam</l><r>caracteristicam</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="caracteristicament"><p><l>carauteristicam</l><r>caracteristicam</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="conscientment"><p><l>conscienm</l><r>conscientm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="conscientment"><p><l>conscientem</l><r>conscientm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="conscientment"><p><l>coscienm</l><r>conscientm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="conscientment"><p><l>coscientem</l><r>conscientm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="conscientment"><p><l>coscientm</l><r>conscientm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="constantment"><p><l>constanm</l><r>constantm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="constantment"><p><l>constantem</l><r>constantm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="constantment"><p><l>costanm</l><r>constantm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="constantment"><p><l>costantem</l><r>constantm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="constitucionalment"><p><l>costitucionalm</l><r>constitucionalm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="darrerament"><i>darreram</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="debilment"><i>debilm</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="destrellatadament"><i>destrellatadam</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="desvanidament"><i>desvanidam</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="dificilment"><p><l>difícilm</l><r>dificilm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="disortadament"><i>disortadam</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="encisadorament"><i>encisadoram</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="esbocharradament"><i>esbocharradam</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="esmaperdudament"><i>esmaperdudam</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="extremadament"><p><l>extrematam</l><r>extremadam</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="facilment"><p><l>fácilm</l><r>facilm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="forasenyadament"><i>forasenyadam</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="freqüentment"><p><l>frecuenm</l><r>freqüentm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="freqüentment"><p><l>frecuentem</l><r>freqüentm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="freqüentment"><p><l>frecuentm</l><r>freqüentm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="freqüentment"><p><l>freqüentem</l><r>freqüentm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="frustradorament"><i>frustradoram</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="fuertement"><p><l>fuertm</l><r>fuertem</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="fundament"><p><l>profundam</l><r>fundam</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="habitualment"><p><l>abitualm</l><r>habitualm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="immediatament"><p><l>inmediatam</l><r>immediatament</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="imperfetament"><i>imperfetam</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="llarguerudament"><i>llarguerudam</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="malauradament"><i>malauradam</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="mollament"><i>mollam</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="obscurament"><i>obscuram</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="pedrencament"><i>pedrencam</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="petrosament"><i>petrosam</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="poca-soltament"><i>poca-soltam</i><par n="malam/ent__adv"/></e>
-    
-    <e r="LR" lm="preferentment"><p><l>preferenm</l><r>preferentm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="preferentment"><p><l>preferentem</l><r>preferentm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="prencipalment"><p><l>principalm</l><r>prencipalm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="realment"><p><l>reyalm</l><r>realm</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="reialment"><i>reialm</i><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="simplament"><p><l>simplem</l><r>simplam</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="succesivament"><p><l>sucesivam</l><r>succesivam</r></p><par n="malam/ent__adv"/></e>
-    <e r="LR" lm="toixament"><i>toixam</i><par n="malam/ent__adv"/></e>
-  
-    <e r="RL" lm="atabaladament"><i>atabaladam</i><par n="malam/ent__adv"/></e>
+    <e lm="archilosament"><i>archilosam</i><par n="malam/ent__adv"/></e>
+    <e lm="desvaneixidament"><i>desvaneixidam</i><par n="malam/ent__adv"/></e>
     <e lm="limpiament"><i>limpiam</i><par n="malam/ent__adv"/></e>
     <e lm="netament"><i>netam</i><par n="malam/ent__adv"/></e>
-    <e r="RL" lm="oliosament"><i>oliosam</i><par n="malam/ent__adv"/></e>
+    <e lm="oliosament"><i>oliosam</i><par n="malam/ent__adv"/></e>
+    
     
     <e lm="acompanyamiento"><i>acompanya</i><par n="achunta/miento__n"/></e>
     <e lm="agradeiximiento"><i>agradeixi</i><par n="achunta/miento__n"/></e>
@@ -52889,32 +53213,31 @@
     <e r="LR" lm="aprofitar"><p><l>aprofeit</l><r>aprofit</r></p><par n="cant/ar__vblex"/></e>
     <e r="LR" lm="aprofitar"><p><l>aproveit</l><r>aprofit</r></p><par n="cant/ar__vblex"/></e>
     <e r="LR" lm="aprofitar"><p><l>aprobeit</l><r>aprofit</r></p><par n="cant/ar__vblex"/></e>
-    
-      
+
 
     <e lm="perteneixer"><i>perten</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
     <e r="LR" lm="perteneixer"><i>pertene</i><par n="cono/cer__vblex"/></e>
     <e lm="planyer"><i>plany</i><par n="protech/er__vblex"/></e>
-    
-    <e lm="extender"><i>extend</i><par n="vend/er__vblex"/></e>
-    <e lm="defender"><i>defend</i><par n="vend/er__vblex"/></e>
-    <e lm="esfender"><i>esfend</i><par n="vend/er__vblex"/></e>
-    <e lm="concernir"><i>concern</i><par n="viv/ir__vblex"/></e>
-    
-  
+    <e lm="planyir"><i>plany</i><par n="dirich/ir__vblex"/></e>
     <e lm="teixer"><i>te</i><par n="/ix_x__var"/><par n="protech/er__vblex"/></e>
     <e lm="teixir"><i>te</i><par n="/ix_x__var"/><par n="dirich/ir__vblex"/></e>
-    
     <e lm="anyader"><i>anyad</i><par n="vend/er__vblex"/></e>
     <e lm="anyadir"><i>anyad</i><par n="viv/ir__vblex"/></e>
     
+    <e lm="atender"><i>at</i><par n="enc/ender__vblex"/></e>
+    <e r="LR" lm="atender"><i>atend</i><par n="vend/er__vblex"/></e>
+
+    <e lm="extender"><i>ext</i><par n="enc/ender__vblex"/></e>
+    <e r="LR" lm="extender"><p><l>est</l><r>ext</r></p><par n="enc/ender__vblex"/></e>
+    <e lm="defender"><i>def</i><par n="enc/ender__vblex"/></e>
+    <e lm="esfender"><i>esf</i><par n="enc/ender__vblex"/></e>
+    <e lm="concernir"><i>con</i><par n="conc/ernir__vblex"/></e>
     <e lm="podrir"><i>podr</i><par n="aclar/ir__vblex"/></e>
     <e r="LR" lm="pudrir"><p><l>pudr</l><r>podr</r></p><par n="aclar/ir__vblex"/></e>
     <e lm="corromper"><i>corromp</i><par n="vend/er__vblex"/></e>
     <e lm="cocer"><i>c</i><par n="c/ocer__vblex"/></e>
     <e lm="escocer"><i>esc</i><par n="c/ocer__vblex"/></e>
-    
-    <!-- check next verbs in bidix -->
+
     <e lm="creixer"><i>cr</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
     <e r="LR" lm="creixer"><i>cre</i><par n="cono/cer__vblex"/></e>
     <e lm="escureixer"><i>escur</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
@@ -52931,22 +53254,40 @@
     <e r="LR" lm="escayeixer"><i>escaye</i><par n="cono/cer__vblex"/></e>
     <e r="LR" lm="escayeixer"><p><l>escaix</l><r>escayeix</r></p><par n="conoix/er__vblex"/></e>
     <e r="LR" lm="escayeixer"><p><l>escai</l><r>escaye</r></p><par n="cono/cer__vblex"/></e>
-    <e lm="florir"><i>flor</i><par n="aclar/ir__vblex"/></e>
-    <e lm="guarnir"><i>guarn</i><par n="aclar/ir__vblex"/></e>
-    <e lm="esparcer"><i>espar</i><par n="ven/cer__vblex"/></e>
+    <e lm="succeder"><i>succed</i><par n="vend/er__vblex"/></e>
     <e lm="desenvolver"><i>desenv</i><par n="res/olver__vblex"/></e>
     <e lm="volver"><i>v</i><par n="res/olver__vblex"/></e>
+    <e lm="florir"><i>flor</i><par n="aclar/ir__vblex"/></e>
+    <e lm="guarnir"><i>guarn</i><par n="aclar/ir__vblex"/></e>
+    <e lm="adornar"><i>adorn</i><par n="cant/ar__vblex"/></e>
+    <!-- check next verbs in bidix -->
+    <e lm="esparcer"><i>espar</i><par n="ven/cer__vblex"/></e>
     <e lm="morder"><i>m</i><par n="m/order__vblex"/></e>
+    <e lm="mosegar"><i>mos</i><par n="s/egar__vblex"/></e>
+    <e r="LR" lm="mosegar"><i>moseg</i><par n="pag/ar__vblex"/></e>
+    <e r="LR" lm="mosegar"><p><l>amos</l><r>mos</r></p><par n="s/egar__vblex"/></e>
+    <e r="LR" lm="mosegar"><p><l>amoseg</l><r>moseg</r></p><par n="pag/ar__vblex"/></e>
+    <e lm="mosaquiar"><i>mosaqu</i><par n="camb/iar__vblex"/></e>
     <e lm="perder"><i>p</i><par n="p/erder__vblex"/></e>    
+    <e lm="trafegar"><i>traf</i><par n="s/egar__vblex"/></e>
+    <e r="LR" lm="trafegar"><i>trafeg</i><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->
+    <e lm="cacegar"><i>cac</i><par n="s/egar__vblex"/></e>
+    <e r="LR" lm="cacegar"><i>caceg</i><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->
+    <e r="LR" lm="cacegar"><p><l>acac</l><r>cac</r></p><par n="s/egar__vblex"/></e>
+    <e r="LR" lm="cacegar"><p><l>acaceg</l><r>caceg</r></p><par n="pag/ar__vblex"/></e>
+    <e lm="tresbatir"><i>tresbat</i><par n="viv/ir__vblex"/></e>    
     <e lm="romper"><i>romp</i><par n="vend/er__vblex"/></e>
     <e r="LR" lm="romper"><p><l>rot</l><r>romper<s n="vblex"/></r></p><par n="pp_quiest/o__cnjgt"/></e>
     <e lm="caber"><i>cab</i><par n="/caber__vblex"/></e>
-    <e lm="cojer"><i>coj</i><par n="vend/er__vblex"/></e>
+    <e lm="cog"><i>cog</i><par n="co/ger__vblex"/></e>
+    <e r="LR" lm="cog"><p><l>coj</l><r>cog</r></p><par n="vend/er__vblex"/></e>
+    <e r="LR" lm="romper"><p><l>rot</l><r>romper<s n="vblex"/></r></p><par n="pp_quiest/o__cnjgt"/></e>
     <e lm="mover"><i>m</i><par n="m/over__vblex"/></e>
     <e lm="remover"><i>rem</i><par n="m/over__vblex"/></e>
     <e lm="escorrer"><i>escorr</i><par n="vend/er__vblex"/></e>
     <e lm="proveyer"><i>prov</i><par n="v/eyer__vblex"/></e>
-    <e lm="succeder"><i>succed</i><par n="vend/er__vblex"/></e>
+    <e lm="churriar"><i>churr</i><par n="camb/iar__vblex"/></e>
+    <e lm="chusmiar"><i>chusm</i><par n="camb/iar__vblex"/></e>
   
     <e lm="mal minchador"><i>mal<b/>minchador</i><par n="atletismo__n"/></e>
     <e r="LR" lm="mal minchador"><p><l>mal<b/>comedor</l><r>mal<b/>minchador</r></p><par n="atletismo__n"/></e>    
@@ -53074,7 +53415,7 @@
     <e lm="dictador"><i>dictador</i><par n="treballador__n"/></e>
     <e lm="disenyador"><i>disenyador</i><par n="treballador__n"/></e>
     <e lm="distribuidor"><i>distribuid</i><par n="treballad/or__adj"/></e>
-    <e r="LR" lm="distribuidor"><p><l>distribuyidor</l><r>distribuidor</r></p><par n="treballad/or__adj"/></e>
+    <e r="LR" lm="distribuidor"><p><l>distribuyid</l><r>distribuid</r></p><par n="treballad/or__adj"/></e>
     <e lm="distribuidor"><i>distribuidor</i><par n="treballador__n"/></e>
     <e r="LR" lm="distribuidor"><p><l>distribuyidor</l><r>distribuidor</r></p><par n="treballador__n"/></e>
     <e lm="domador"><i>domador</i><par n="treballador__n"/></e>
@@ -53083,7 +53424,7 @@
     <e lm="emperador"><i>emperador</i><par n="empera/dor__n"/></e>
     <e lm="encantador"><i>encantad</i><par n="treballad/or__adj"/></e>
     <e lm="encantador"><i>encantador</i><par n="treballador__n"/></e>
-    <e lm="trepad"><i>trepad</i><par n="treballad/or__adj"/></e>
+    <e lm="trepador"><i>trepad</i><par n="treballad/or__adj"/></e>
     <e lm="entrenador"><i>entrenador</i><par n="treballador__n"/></e>
     <e lm="borrador"><i>borrador</i><par n="libro__n"/></e>
     <e lm="escalador"><i>escalad</i><par n="treballad/or__adj"/></e>
@@ -53165,12 +53506,14 @@
     <e lm="coordinador"><i>coordinador</i><par n="treballador__n"/></e>
     <e lm="cautivador"><i>cautivad</i><par n="treballad/or__adj"/></e>
     <e lm="cautivador"><i>cautivador</i><par n="treballador__n"/></e>
+    <!--
     <e lm="escargador"><i>escargad</i><par n="treballad/or__adj"/></e>
-    <e r="LR" lm="escargador"><p><l>descargador</l><r>escargador</r></p><par n="treballador__n"/></e>
+    <e r="LR" lm="escargador"><p><l>descargad</l><r>escargad</r></p><par n="treballad/or__adj"/></e>
+    -->
     <e lm="gubernador"><i>gubernador</i><par n="treballador__n"/></e>
     <e lm="indicador"><i>indicad</i><par n="treballad/or__adj"/></e>
     <e lm="indicador"><i>indicador</i><par n="libro__n"/></e>
-    <e lm="menospreciador"><i>menospreciad</i><par n="treballad/or__adj"/></e>
+    <e lm="despreciativo"><i>despreciati</i><par n="cursi/vo__adj"/></e>
     <e lm="ordinador"><i>ordinador</i><par n="libro__n"/></e>
     <e lm="pedricador"><i>pedricador</i><par n="treballador__n"/></e>
     <e lm="rallador"><i>rallador</i><par n="libro__n"/></e>
@@ -53511,7 +53854,7 @@
     <e r="LR" lm="clientalla"><p><l>clientalla</l><r>clientela</r></p><par n="libro__n"/></e>    
     <e lm="clima"><par n="/cl_cll__var"/><i>ima</i><par n="luenga__n"/></e>
     <e lm="clota"><par n="/cl_cll__var"/><i>ota</i><par n="luenga__n"/></e>
-    <e lm="clot"><par n="/cl_cll__var"/><i>ota</i><par n="clo/t__n"/></e>
+    <e lm="clot"><par n="/cl_cll__var"/><i>o</i><par n="clo/t__n"/></e>
     <e lm="cocaína"><i>cocaína</i><par n="luenga__n"/></e>
     <e lm="coincidencia"><i>coincidencia</i><par n="luenga__n"/></e>
     <e lm="almada"><i>almada</i><par n="luenga__n"/></e>
