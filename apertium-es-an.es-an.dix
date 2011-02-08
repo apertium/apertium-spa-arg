@@ -593,8 +593,8 @@
     <e><p><l>brasileño<s n="adj"/></l><r>brasilenyo<s n="adj"/></r></p></e>
     <e><p><l>bravo<s n="adj"/></l><r>bravo<s n="adj"/></r></p></e>
     <e><p><l>breve<s n="adj"/></l><r>breu<s n="adj"/></r></p></e>
-    <e><p><l>leve<s n="adv"/></l><r>lieu<s n="adv"/></r></p></e>
-    <e><p><l>suave<s n="adv"/></l><r>suau<s n="adv"/></r></p></e>
+    <e><p><l>leve<s n="adj"/></l><r>lieu<s n="adj"/></r></p></e>
+    <e><p><l>suave<s n="adj"/></l><r>suau<s n="adj"/></r></p></e>
     <e><p><l>brillante<s n="adj"/></l><r>brilant<s n="adj"/></r></p></e>
     <e><i>bromista<s n="adj"/></i></e>
     <e><p><l>brusco<s n="adj"/></l><r>brusco<s n="adj"/></r></p></e>
@@ -711,7 +711,7 @@
     <e><i>comunista<s n="adj"/></i></e>
     <e><p><l>comunitario<s n="adj"/></l><r>comunitario<s n="adj"/></r></p></e>
     <e r="LR"><p><l>común<s n="adj"/><s n="mf"/></l><r>común<s n="adj"/><s n="GD"/></r></p></e>
-    <e r="RL"><p><l>común<s n="adj"/><s n="mf"/></l><r>común<s n="adj"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>común<s n="adj"/><s n="mf"/></l><r>común<s n="adj"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>común<s n="adj"/><s n="mf"/></l><r>común<s n="adj"/><s n="f"/></r></p></e>
     <e><i>conceptual<s n="adj"/></i></e>
     <e><p><l>conciso<s n="adj"/></l><r>conciso<s n="adj"/></r></p></e>
@@ -2681,7 +2681,7 @@
 <e><p><l>visitable<s n="adj"/></l><r>visitable<s n="adj"/></r></p></e>
 <e><p><l>voluble<s n="adj"/></l><r>voluble<s n="adj"/></r></p></e>
 <e><p><l>vulnerable<s n="adj"/></l><r>vulnerable<s n="adj"/></r></p></e>
-    
+<e><p><l>urbícola<s n="adj"/></l><r>urbicola<s n="adj"/></r></p></e>
 <e><p><l>aberrante<s n="adj"/></l><r>aberrant<s n="adj"/></r></p></e>
 <e><p><l>abundante<s n="adj"/></l><r>abundant<s n="adj"/></r></p></e>
 <e><p><l>acojonante<s n="adj"/></l><r>acollonant<s n="adj"/></r></p></e>
@@ -2991,6 +2991,19 @@
 <e><p><l>unánime<s n="adj"/></l><r>unanime<s n="adj"/></r></p></e>
 <e><p><l>uniforme<s n="adj"/></l><r>uniforme<s n="adj"/></r></p></e>    
 
+<e><p><l>benévolo<s n="adj"/></l><r>benevolo<s n="adj"/></r></p></e>
+<e><p><l>bicéfalo<s n="adj"/></l><r>bicefalo<s n="adj"/></r></p></e>
+<e><p><l>crédulo<s n="adj"/></l><r>credulo<s n="adj"/></r></p></e>
+<e><p><l>díscolo<s n="adj"/></l><r>discolo<s n="adj"/></r></p></e>
+<e><p><l>frívolo<s n="adj"/></l><r>frivolo<s n="adj"/></r></p></e>
+<e><p><l>intranquilo<s n="adj"/></l><r>intranquilo<s n="adj"/></r></p></e>
+<e><p><l>mayúsculo<s n="adj"/></l><r>mayusclo<s n="adj"/></r></p></e>
+<e><p><l>noctámbulo<s n="adj"/></l><r>noctambulo<s n="adj"/></r></p></e>
+<e><p><l>ridículo<s n="adj"/></l><r>ridiclo<s n="adj"/></r></p></e>
+<e><p><l>sonámbulo<s n="adj"/></l><r>somnambulo<s n="adj"/></r></p></e>
+<e><p><l>vernáculo<s n="adj"/></l><r>vernaclo<s n="adj"/></r></p></e>
+<e><p><l>hipócrita<s n="adj"/></l><r>hipocrita<s n="adj"/></r></p></e>
+<e><p><l>longevo<s n="adj"/></l><r>lonchevo<s n="adj"/></r></p></e>
 <e><p><l>atroz<s n="adj"/></l><r>atroz<s n="adj"/></r></p></e>
 <e><p><l>audaz<s n="adj"/></l><r>audaz<s n="adj"/></r></p></e>
 <e><p><l>eficaz<s n="adj"/></l><r>eficaz<s n="adj"/></r></p></e>
@@ -4446,7 +4459,9 @@
 <e><p><l>contencioso<s n="adj"/></l><r>contencioso<s n="adj"/></r></p></e>
 <e><p><l>convulso<s n="adj"/></l><r>convulso<s n="adj"/></r></p></e>
 <e><p><l>copioso<s n="adj"/></l><r>copioso<s n="adj"/></r></p></e>
-<e><p><l>cortés<s n="adj"/></l><r>cortés<s n="adj"/></r></p></e>
+<e r="LR"><p><l>cortés<s n="adj"/><s n="mf"/></l><r>cortés<s n="adj"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>cortés<s n="adj"/><s n="mf"/></l><r>cortés<s n="adj"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>cortés<s n="adj"/><s n="mf"/></l><r>cortés<s n="adj"/><s n="f"/></r></p></e>
 <e><p><l>costoso<s n="adj"/></l><r>costoso<s n="adj"/></r></p></e>
 <e><p><l>cuantioso<s n="adj"/></l><r>quantioso<s n="adj"/></r></p></e>
 <e><p><l>cuidadoso<s n="adj"/></l><r>cudiadoso<s n="adj"/></r></p></e>
@@ -4573,7 +4588,7 @@
 <e><p><l>penoso<s n="adj"/></l><r>penoso<s n="adj"/></r></p></e>
 <e><p><l>perezoso<s n="adj"/></l><r>prezoso<s n="adj"/></r></p></e>
 <e><p><l>pernicioso<s n="adj"/></l><r>pernicioso<s n="adj"/></r></p></e>
-<e><p><l>perso<s n="adj"/></l><r>perso<s n="adj"/></r></p></e>
+<e><p><l>persa<s n="adj"/></l><r>persa<s n="adj"/></r></p></e>
 <e><p><l>perverso<s n="adj"/></l><r>perverso<s n="adj"/></r></p></e>
 <e><p><l>piadoso<s n="adj"/></l><r>piadoso<s n="adj"/></r></p></e>
 <e><p><l>pícaro<s n="adj"/></l><r>picardioso<s n="adj"/></r></p></e>
@@ -4844,7 +4859,7 @@
 <e><p><l>puro<s n="adj"/></l><r>puro<s n="adj"/></r></p></e>
 <e><p><l>raro<s n="adj"/></l><r>raro<s n="adj"/></r></p></e>
 <e><p><l>seguro<s n="adj"/></l><r>seguro<s n="adj"/></r></p></e>
-<e><p><l>deslizador<s n="adj"/></l><r>eslizador<s n="adj"/></r></p></e>
+<e r="RL"><p><l>deslizante<s n="adj"/></l><r>eslizador<s n="adj"/></r></p></e>
 <e><p><l>embaucador<s n="adj"/></l><r>embabucador<s n="adj"/></r></p></e>
 <e><p><l>empalagoso<s n="adj"/></l><r>embafador<s n="adj"/></r></p></e>
 <e><p><l>sobrecogedor<s n="adj"/></l><r>esparpallador<s n="adj"/></r></p></e>
@@ -5171,7 +5186,7 @@
 <e r="LR"><p><l>pulcro<s n="adj"/></l><r>poliu<s n="adj"/></r></p></e>
 <e><p><l>bienvenido<s n="adj"/></l><r>bienveniu<s n="adj"/></r></p></e>
 <e r="RL"><p><l>bienvenido<s n="adj"/></l><r>bienplegau<s n="adj"/></r></p></e>
-<e><p><l>bífido<s n="adj"/></l><r>bifiu<s n="adj"/></r></p></e>
+<e><p><l>bífido<s n="adj"/></l><r>bifido<s n="adj"/></r></p></e>
 <e><p><l>bifurcado<s n="adj"/></l><r>bifurcau<s n="adj"/></r></p></e>
 <e><p><l>cálido<s n="adj"/></l><r>calido<s n="adj"/></r></p></e>
 <e><p><l>callado<s n="adj"/></l><r>callau<s n="adj"/></r></p></e>
@@ -5191,7 +5206,7 @@
 <e><p><l>deformado<s n="adj"/></l><r>deformau<s n="adj"/></r></p></e>
 <e><p><l>deliberado<s n="adj"/></l><r>deliberau<s n="adj"/></r></p></e>
 <e><p><l>delicado<s n="adj"/></l><r>delicau<s n="adj"/></r></p></e>
-<e><p><l>desacostumbrado<s n="adj"/></l><r>desacostumbau<s n="adj"/></r></p></e>
+<e><p><l>desacostumbrado<s n="adj"/></l><r>desacostumbrau<s n="adj"/></r></p></e>
 <e><p><l>desafortunado<s n="adj"/></l><r>desafortunau<s n="adj"/></r></p></e>
 <e><p><l>desamparado<s n="adj"/></l><r>desemparau<s n="adj"/></r></p></e>
 <e><p><l>desapercibido<s n="adj"/></l><r>desapercibiu<s n="adj"/></r></p></e>
@@ -5209,6 +5224,7 @@
 <e><p><l>desilusionado<s n="adj"/></l><r>desilusionau<s n="adj"/></r></p></e>
 <e><p><l>desinteresado<s n="adj"/></l><r>desinteresau<s n="adj"/></r></p></e>
 <e r="LR"><p><l>desjuiciado<s n="adj"/></l><r>barrenau<s n="adj"/></r></p></e>
+<e r="RL"><p><l>loco<s n="adj"/></l><r>barrenau<s n="adj"/></r></p></e>
 <e><p><l>desmelenado<s n="adj"/></l><r>escabellau<s n="adj"/></r></p></e>
 <e><p><l>desmesurado<s n="adj"/></l><r>desmesurau<s n="adj"/></r></p></e>
 <e r="LR"><p><l>desmedido<s n="adj"/></l><r>desmesurau<s n="adj"/></r></p></e>
@@ -5367,9 +5383,9 @@
 <e><p><l>radioaficionado<s n="adj"/></l><r>radioaficionau<s n="adj"/></r></p></e>
 <e><p><l>rapado<s n="adj"/></l><r>rapau<s n="adj"/></r></p></e>
 <e><p><l>rápido<s n="adj"/></l><r>rapido<s n="adj"/></r></p></e>
-<e r="LR"><p><l>rebosant<s n="adj"/><s n="mf"/></l><r>caramullau<s n="adj"/><s n="GD"/></r></p></e>
-<e r="RL"><p><l>rebosant<s n="adj"/><s n="mf"/></l><r>caramullau<s n="adj"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>rebosant<s n="adj"/><s n="mf"/></l><r>caramullau<s n="adj"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>rebosante<s n="adj"/><s n="mf"/></l><r>caramullau<s n="adj"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>rebosante<s n="adj"/><s n="mf"/></l><r>caramullau<s n="adj"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>rebosante<s n="adj"/><s n="mf"/></l><r>caramullau<s n="adj"/><s n="f"/></r></p></e>
 <e><p><l>rebuscado<s n="adj"/></l><r>estudiau<s n="adj"/></r></p></e>
 <e><p><l>refinado<s n="adj"/></l><r>refinau<s n="adj"/></r></p></e>
 <e><p><l>reinsertado<s n="adj"/></l><r>reinsertau<s n="adj"/></r></p></e>
