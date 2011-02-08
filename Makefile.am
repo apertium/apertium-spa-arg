@@ -12,11 +12,11 @@ PREFVAR1=#dejar en blanco
 PREFVAR2=rib-
 PREFVAR3=chi-
 TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
-     $(PREFIX1).autopgen.bin $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
-     $(PREFIX2).autogen.bin $(PREFIX2).autopgen.bin modes 
+	$(PREFIX1).autopgen.bin $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
+	$(PREFIX2).autogen.bin $(PREFIX2).autopgen.bin modes 
 
 TARGETS = $(TARGETS_COMMON) trules-$(PREFIX1).bin trules-$(PREFIX2).bin \
-          trules-$(PREFIX1).xml trules-$(PREFIX2).xml
+	trules-$(PREFIX1).xml trules-$(PREFIX2).xml
 
 
 .deps/commonbil.dix: $(BASENAME).$(PREFIX1).dix
@@ -115,7 +115,6 @@ trules-$(PREFIX1).bin: $(BASENAME).trules-$(PREFIX1).xml
 	apertium-validate-transfer $(BASENAME).trules-$(PREFIX1).xml
 	apertium-preprocess-transfer $(BASENAME).trules-$(PREFIX1).xml \
 	                             trules-$(PREFIX1).bin
->>>>>>> .r27664
 
 $(PREFVAR2)$(PREFIX1).autobil.bin: .deps/$(PREFVAR2)$(PREFIX1).dix
 	apertium-validate-dictionary $<
