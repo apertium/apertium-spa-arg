@@ -29,14 +29,14 @@ for i in $POS; do
 		AT=`cat $INC | grep "<$i>" | grep '@'  | grep -v REGEX | wc -l`;
 		HASH=`cat $INC | grep "<$i>" | grep '>  *#' | grep -v REGEX |  wc -l`;
 	fi
-	UNCLEAN=`calc $AT+$HASH`;
-	CLEAN=`calc $TOTAL-$UNCLEAN`;
-	PERCLEAN=`calc $UNCLEAN/$TOTAL*100 |sed 's/^\W*//g' | sed 's/~//g' | head -c 5`;
+	UNCLEAN=`expr $AT "+" $HASH`;
+	CLEAN=`expr $TOTAL "-" $UNCLEAN`;
+	PERCLEAN=`expr $UNCLEAN "/" $TOTAL "*" 100 |sed 's/^\W*//g' | sed 's/~//g' | head -c 5`;
 	echo $PERCLEAN | grep "Err" > /dev/null;
 	if [ $? -eq 0 ]; then
 		TOTPERCLEAN="100";
 	else
-		TOTPERCLEAN=`calc 100-$PERCLEAN | sed 's/^\W*//g' | sed 's/~//g' | head -c 5`;
+		TOTPERCLEAN=`expr 100 "-" $PERCLEAN | sed 's/^\W*//g' | sed 's/~//g' | head -c 5`;
 	fi
 
 	echo -e $TOTAL";"$i";"$CLEAN";"$AT";"$HASH";"$TOTPERCLEAN;
