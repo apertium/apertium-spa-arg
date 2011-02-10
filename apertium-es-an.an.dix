@@ -17405,7 +17405,7 @@
       <e>
       <p>
         <l>uelt</l>
-        <r>olv<s n="vblex"/></r>
+        <r>olver<s n="vblex"/></r>
       </p>
       <par n="pp_quiest/o__cnjgt"/>
     </e>
@@ -38033,7 +38033,8 @@
     <e lm="centralización"><i>centraliza</i><par n="actua/ción__n"/></e>
     <e lm="cheneración"><i>chenera</i><par n="actua/ción__n"/></e>
     <e lm="cheneralización"><i>cheneraliza</i><par n="actua/ción__n"/></e>
-    <e lm="hierarquización"><i>cherarquiza</i><par n="actua/ción__n"/></e>
+    <e lm="hierarquización"><i>hierarquiza</i><par n="actua/ción__n"/></e>
+    <e lm="hierarquización" r="LR"><p><l>cherarquiza</l><r>hierarquiza</r></p><par n="actua/ción__n"/></e>    
     <e lm="chermanización"><i>chermaniza</i><par n="actua/ción__n"/></e>
     <e lm="cherminación"><i>chermina</i><par n="actua/ción__n"/></e>
     <e lm="chestación"><i>chesta</i><par n="actua/ción__n"/></e>
@@ -38055,7 +38056,7 @@
     <e lm="combinación"><i>combina</i><par n="actua/ción__n"/></e>
     <e lm="comercialización"><i>comercializa</i><par n="actua/ción__n"/></e>
     <e lm="comparación"><i>compara</i><par n="actua/ción__n"/></e>
-    <e lm="contimparación"><i>copara</i><par n="actua/ción__n"/></e>
+    <e lm="contimparación"><i>contimpara</i><par n="actua/ción__n"/></e>
     <e lm="comparanza"><i>comparanza</i><par n="luenga__n"/></e>
     <e lm="contimparanza"><i>contimparanza</i><par n="luenga__n"/></e>
     <e lm="compensación"><i>compensa</i><par n="actua/ción__n"/></e>
@@ -38558,7 +38559,6 @@
     <e lm="a cargo de"><par n="/a_á__var"/><i><b/>cargo<b/></i><par n="contde__pr"/></e>
   <e lm="con a finalidat de"><i>con<b/>a<b/>finalidat<b/></i><par n="contde__pr"/></e>
   <e lm="con a finalidat de" r="LR"><p><l>con<b/>la<b/>finalidat<b/></l><r>con<b/>a<b/>finalidat<b/></r></p><par n="contde__pr"/></e>
-  <e lm="brenca de"><i>brenca<b/></i><par n="contde__pr"/></e>
   <e lm="tenendo en cuenta " r="RL"><i>tenendo<b/>en<b/>cuenta</i><par n="con__pr"/></e>
   <e lm="sabendo" r="RL"><i>sabendo</i><par n="con__pr"/></e>
   <e lm="por tal de"><par n="/por__var"/><i><b/>tal<b/></i><par n="contde__pr"/></e>
@@ -38569,17 +38569,17 @@
   <e r="LR" i="yes" lm="sin l'aduya de"><p><l>sin<b/>d'aduya<b/></l><r>sin<b/>l'aduya<b/></r></p><par n="contde__pr"/></e>
   <e r="LR" i="yes" lm="sin l'aduya de"><p><l>sin<b/>aduya<b/></l><r>sin<b/>l'aduya<b/></r></p><par n="contde__pr"/></e>
   <e r="LR" i="yes" lm="sin l'aduya de"><p><l>sin<b/>achuda<b/></l><r>sin<b/>l'aduya<b/></r></p><par n="contde__pr"/></e>
-  <e lm="en detrimento de"><i>en<b/>detrimento<b/></i><par n="contde__pr"/></e>
+  <e lm="en detrimento de" r="RL"><i>en<b/>detrimento<b/></i><par n="contde__pr"/></e>
   <e lm="en emparo de"><i>en<b/>refirme<b/></i><par n="contde__pr"/></e>
   <e lm="en emparo de" r="LR"><p><l>en<b/>emparo<b/></l><r>en<b/>emparo<b/></r></p><par n="contde__pr"/></e>
   <e lm="en emparo de" r="LR"><p><l>en<b/>suporte<b/></l><r>en<b/>emparo<b/></r></p><par n="contde__pr"/></e>
   <e lm="en emparo de" r="LR"><p><l>en<b/>soporte<b/></l><r>en<b/>emparo<b/></r></p><par n="contde__pr"/></e>
-  <e lm="en intrés de"><i>en<b/>intrés<b/></i><par n="contde__pr"/></e>
-  <e lm="en intrés de" r="LR"><p><l>en<b/>interés<b/></l><r>en<b/>intrés<b/></r></p><par n="contde__pr"/></e>
+  <e lm="en intrés de" r="RL"><i>en<b/>intrés<b/></i><par n="contde__pr"/></e>
+  <e lm="en intrés de" r="LR" i="yes"><p><l>en<b/>interés<b/></l><r>en<b/>intrés<b/></r></p><par n="contde__pr"/></e>
   <e lm="en busca de"><i>en<b/>busca<b/></i><par n="contde__pr"/></e>
   <e lm="a la encerca de"><par n="/a_á__var"/><i><b/>la<b/>encerca<b/></i><par n="contde__pr"/></e>
   <e lm="a la rechira de"><par n="/a_á__var"/><i><b/>la<b/>rechira<b/></i><par n="contde__pr"/></e>
-  <e lm="tot aguardando" r="RL"><i>tot<b/>aguardando</i><par n="con__pr"/></e>
+  <e lm="tot aguardando"><i>tot<b/>aguardando</i><par n="con__pr"/></e>
 <e lm="en pagas de"><i>en<b/>pagas<b/></i><par n="contde__pr"/></e>
 <e lm="en pagas de" r="LR"><p><l>en<b/>pago<b/></l><r>en<b/>pagas<b/></r></p><par n="contde__pr"/></e>
 <e lm="en pagas de" r="LR"><p><l>en<b/>paga<b/></l><r>en<b/>pagas<b/></r></p><par n="contde__pr"/></e>
@@ -38657,11 +38657,11 @@
   <e lm="d'arreo de" r="LR"><p><l>d'arreo<b/></l><r>d'arreu<b/></r></p><par n="contde__pr"/></e>
   <e lm="a l'arreu de"><par n="/a_á__var"/><i><b/>l'arreu<b/></i><par n="contde__pr"/></e>
   <e lm="a l'arreo de" r="LR"><par n="/a_á__var"/><p><l><b/>l'arreo<b/></l><r><b/>l'arreu<b/></r></p><par n="contde__pr"/></e>
-  <e lm="as afirmacions de"><i>as<b/>afirmacions<b/></i><par n="contde__pr"/></e>
-  <e lm="as afirmacions de" r="LR"><p><l>las<b/>afirmacions<b/></l><r>as<b/>afirmacions<b/></r></p><par n="contde__pr"/></e>
+  <e lm="as afirmacions de" r="RL"><i>as<b/>afirmacions<b/></i><par n="contde__pr"/></e>
+  <e lm="as afirmacions de" r="LR" i="yes"><p><l>las<b/>afirmacions<b/></l><r>as<b/>afirmacions<b/></r></p><par n="contde__pr"/></e>
   <e lm="a l'arreu"><par n="/a_á__var"/><i><b/>l'arreu</i><par n="agora__adv"/></e>
   <e lm="a l'arreo" r="LR"><par n="/a_á__var"/><p><l><b/>l'arreo</l><r><b/>l'arreu</r></p><par n="agora__adv"/></e>
-  <e lm="bell poquet más de" r="RL"><i>bell<b/>poquet<b/></i><par n="/mas__var"/><i><b/></i><par n="contde__pr"/></e>
+  <e lm="bell poquet mas de" r="RL"><i>bell<b/>poquet<b/></i><par n="/mas__var"/><i><b/></i><par n="contde__pr"/></e>
   <e lm="bella mica de" r="RL"><i>bella<b/>mica<b/></i><par n="contde__pr"/></e>
      
     <!-- conchuncions -->
@@ -48691,7 +48691,8 @@
     <e lm="ornamental"><i>ornamental</i><par n="social__adj"/></e>
     <e lm="orquestal"><i>orquestal</i><par n="social__adj"/></e>
     <e lm="ortogonal"><i>ortogonal</i><par n="social__adj"/></e>
-    <e lm="d'agüerro" r="RL"><i>d'agüerro</i><par n="multimedia__adj"/></e>
+    <e lm="agorrenco"><i>agorrenc</i><par n="academic/o__adj"/></e>
+    <e lm="agorral"><i>agorral</i><par n="social__adj"/></e>
     <e lm="oval"><i>oval</i><par n="social__adj"/></e>
     <e lm="pacifista"><i>pacifista</i><par n="social__adj"/></e>
     <e lm="palatal"><i>palatal</i><par n="social__adj"/></e>
@@ -49605,6 +49606,7 @@
     <e lm="punto"><i>punto</i><par n="libro__n"/></e>    
     <e lm="digrafo"><i>digrafo</i><par n="libro__n"/></e>
     <e lm="momento"><i>momento</i><par n="libro__n"/></e>
+    <e lm="detrimento"><i>detrimento</i><par n="libro__n"/></e>
     <e lm="momento" r="LR"><p><l>moment</l><r>momento</r></p><par n="pelaire__n"/></e>
     <e lm="inte"><i>inte</i><par n="libro__n"/></e>
     <e lm="fuego"><i>fuego</i><par n="libro__n"/></e>
@@ -49652,13 +49654,7 @@
     <e lm="tener cerina"><i>t</i><par n="t/ener__vblex"/><p><l><b/>cerina</l><r><g><b/>cerina</g></r></p></e>
     <e i="yes" lm="tener por"><i>t</i><par n="t/ener__vblex"/><p><l><b/>por</l><r><g><b/>por</g></r></p></e>
     <e lm="tener por" r="LR"><i>t</i><par n="t/ener__vblex"/><p><l><b/>po</l><r><g><b/>por</g></r></p></e>
-            
-          
     <e lm="estar conforme"><par n="/estar__vbser"/><p><l><b/>conforme</l><r><g><b/>conforme</g></r></p></e>
-    <e lm="estar aplicable" r="RL"><par n="/estar__vbser"/><p><l><b/>aplicable</l><r><g><b/>aplicable</g></r></p></e>
-            
-            
-            
     <e lm="sinyor"><i>sinyor</i><par n="treballador__n"/></e>
     <e lm="sinyor" r="LR"><p><l>senyor</l><r>sinyor</r></p><par n="treballador__n"/></e>
     <e lm="sinyor" r="LR"><p><l>siñor</l><r>sinyor</r></p><par n="treballador__n"/></e>
@@ -53766,7 +53762,6 @@
     <e lm="agarrar"><i>agarr</i><par n="cant/ar__vblex"/></e>
     <e lm="agafar"><i>agaf</i><par n="cant/ar__vblex"/></e>
     <e lm="agarrapizar"><i>agarrapi</i><par n="ca/zar__vblex"/></e>
-    <e lm="agarrapar" r="LR"><p><l>agarrap</l><r>agarrapiz</r></p><par n="cant/ar__vblex"/></e>
     <e lm="aguantar"><i>aguant</i><par n="cant/ar__vblex"/></e>
     <e lm="endurar"><i>endur</i><par n="cant/ar__vblex"/></e>
     <e lm="devantar"><i>devant</i><par n="cant/ar__vblex"/></e>
@@ -54197,7 +54192,7 @@
     <e lm="perdonar"><i>perdon</i><par n="cant/ar__vblex"/></e>
     <e lm="piponiar"><i>pipon</i><par n="camb/iar__vblex"/></e>
     <e lm="predisposar"><i>predispos</i><par n="cant/ar__vblex"/></e>
-    <e lm="presupuestar"><i>presupues</i><par n="cant/ar__vblex"/></e>
+    <e lm="presupuestar"><i>presupuest</i><par n="cant/ar__vblex"/></e>
     <e lm="promocionar"><i>promocion</i><par n="cant/ar__vblex"/></e>
     <e lm="proposar"><i>propos</i><par n="cant/ar__vblex"/></e>
     <e lm="razonar"><i>razon</i><par n="cant/ar__vblex"/></e>
@@ -54572,7 +54567,7 @@
     <e lm="repartir"><i>repart</i><par n="viv/ir__vblex"/></e>
     <e lm="resistir"><i>resist</i><par n="viv/ir__vblex"/></e>
     <e lm="plenar"><i>plen</i><par n="cant/ar__vblex"/></e>
-    <e lm="emplir"><i>s</i><par n="/emplir__vblex"/></e>
+    <e lm="emplir"><i></i><par n="/emplir__vblex"/></e>
     <e lm="sentir"><i>s</i><par n="s/entir__vblex"/></e>
     <e lm="sufrir"><i>suf</i><par n="ub/rir__vblex"/></e>
     <e lm="surtir"><i>surt</i><par n="viv/ir__vblex"/></e>
@@ -54587,7 +54582,6 @@
     <e lm="escolorir" r="LR"><i>escolor</i><par n="aclar/ir__vblex"/></e>
     <e lm="descolorir" r="LR"><p><l>descolor</l><r>escolor</r></p><par n="aclar/ir__vblex"/></e>
     <e lm="revestir"><i>rev</i><par n="v/estir__vblex"/></e>    
-  
     <e lm="abolir"><i>abol</i><par n="viv/ir__vblex"/></e>
     <e lm="acullir"><i>acu</i><par n="cu/llir__vblex"/></e> <!--cullir -->
     <e lm="conseguir"><i>cons</i><par n="s/eguir__vblex"/></e>
@@ -54750,12 +54744,12 @@
     <e lm="apartar" r="LR"><p><l>alpart</l><r>apart</r></p><par n="cant/ar__vblex"/></e>
     <e lm="apartar" r="LR"><p><l>sapart</l><r>sapart</r></p><par n="cant/ar__vblex"/></e>
     <e lm="aibar"><i>aib</i><par n="cant/ar__vblex"/></e>
-    <e lm="agarrapar"><i>agrap</i><par n="cant/ar__vblex"/></e>
+    <e lm="agarrapar"><i>agarrap</i><par n="cant/ar__vblex"/></e>
     <e lm="asfaltar"><i>asfalt</i><par n="cant/ar__vblex"/></e>
     <e lm="engudronar"><i>engudron</i><par n="cant/ar__vblex"/></e>
     <e lm="atabalar"><i>atabal</i><par n="cant/ar__vblex"/></e>
     <e lm="atipar"><i>atip</i><par n="cant/ar__vblex"/></e>
-    <e lm="entiparrar"><i>entipr</i><par n="cant/ar__vblex"/></e>
+    <e lm="entiparrar"><i>entiparr</i><par n="cant/ar__vblex"/></e>
     <e lm="entiparrar" r="LR"><p><l>entifarr</l><r>entiparr</r></p><par n="cant/ar__vblex"/></e>
     <e lm="entiparrar" r="LR"><p><l>atiparr</l><r>entiparr</r></p><par n="cant/ar__vblex"/></e>
     <e lm="alantar"><i>alant</i><par n="cant/ar__vblex"/></e>
@@ -54791,13 +54785,13 @@
     <e lm="estrozar" r="LR"><p><l>destro</l><r>estro</r></p><par n="ca/zar__vblex"/></e>
     <e lm="trestallar"><i>trestall</i><par n="cant/ar__vblex"/></e>
     <e lm="estallar"><i>estall</i><par n="cant/ar__vblex"/></e>
-    <e lm="troixar"><i>tro</i><par n="/ix_x__var"/><i>ar</i><par n="cant/ar__vblex"/></e>
+    <e lm="troixar"><i>tro</i><par n="/ix_x__var"/><par n="cant/ar__vblex"/></e>
     <e lm="embalar"><i>embal</i><par n="cant/ar__vblex"/></e>
     <e lm="empacar"><i>empa</i><par n="trafu/car__vblex"/></e>
     <e lm="desembalar"><i>desembal</i><par n="cant/ar__vblex"/></e>
     <e lm="desempacar"><i>desempa</i><par n="trafu/car__vblex"/></e>
     <e lm="talar"><i>tal</i><par n="cant/ar__vblex"/></e>
-    <e lm="mascarar"><i>masc</i><par n="cant/ar__vblex"/></e>
+    <e lm="mascarar"><i>mascar</i><par n="cant/ar__vblex"/></e>
     <e lm="tacar"><i>ta</i><par n="trafu/car__vblex"/></e>
     <e lm="emporquiar"><i>emporqu</i><par n="camb/iar__vblex"/></e>
     <e lm="emporcar" r="LR"><p><l>empor</l><r>empor</r></p><par n="trafu/car__vblex"/></e>
@@ -54834,7 +54828,7 @@
     <e lm="esgallar"><i>esgall</i><par n="cant/ar__vblex"/></e>
     <e lm="esquirar"><i>esquir</i><par n="cant/ar__vblex"/></e>
     <e lm="chollar"><i>choll</i><par n="cant/ar__vblex"/></e>
-    <e lm="acilitrompar"><i>acilitromp</i><par n="trafu/car__vblex"/></e>
+    <e lm="acilitrompar"><i>acilitromp</i><par n="cant/ar__vblex"/></e>
     <e lm="enarcar"><i>enar</i><par n="trafu/car__vblex"/></e>
     <e lm="enarcar" r="LR"><p><l>nar</l><r>enar</r></p><par n="trafu/car__vblex"/></e>
     <e lm="aturrullar"><i>aturrull</i><par n="cant/ar__vblex"/></e>
@@ -54964,7 +54958,7 @@
     <e lm="extender" r="LR"><p><l>est</l><r>ext</r></p><par n="enc/ender__vblex"/></e>
     <e lm="defender"><i>def</i><par n="enc/ender__vblex"/></e>
     <e lm="esfender"><i>esf</i><par n="enc/ender__vblex"/></e>
-    <e lm="concernir"><i>con</i><par n="conc/ernir__vblex"/></e>
+    <e lm="concernir"><i>conc</i><par n="conc/ernir__vblex"/></e>
     <e lm="podrir"><i>podr</i><par n="aclar/ir__vblex"/></e>
     <e lm="pudrir" r="LR"><p><l>pudr</l><r>podr</r></p><par n="aclar/ir__vblex"/></e>
     <e lm="corromper"><i>corromp</i><par n="vend/er__vblex"/></e>
@@ -54979,6 +54973,8 @@
     <e lm="remeixer" r="LR"><i>reme</i><par n="cono/cer__vblex"/></e>
     <e lm="padeixer"><i>pad</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
     <e lm="padeixer" r="LR"><i>pade</i><par n="cono/cer__vblex"/></e>
+    <e lm="compadeixer"><i>compad</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
+    <e lm="compadeixer" r="LR"><i>compade</i><par n="cono/cer__vblex"/></e>
     <e lm="acayeixer"><i>acay</i><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
     <e lm="acayeixer" r="LR"><i>acaye</i><par n="cono/cer__vblex"/></e>
     <e lm="acayeixer" r="LR"><p><l>acaix</l><r>acayeix</r></p><par n="conoix/er__vblex"/></e>
@@ -55011,9 +55007,9 @@
     <e lm="tresbatir"><i>tresbat</i><par n="viv/ir__vblex"/></e>    
     <e lm="romper"><i>romp</i><par n="vend/er__vblex"/></e>
     <e lm="romper" r="LR"><p><l>rot</l><r>romper<s n="vblex"/></r></p><par n="pp_quiest/o__cnjgt"/></e>
-    <e lm="caber"><i>cab</i><par n="/caber__vblex"/></e>
-    <e lm="cog"><i>cog</i><par n="co/ger__vblex"/></e>
-    <e lm="cog" r="LR"><p><l>coj</l><r>cog</r></p><par n="vend/er__vblex"/></e>
+    <e lm="caber"><i></i><par n="/caber__vblex"/></e>
+    <e lm="coger"><i>co</i><par n="co/ger__vblex"/></e>
+    <e lm="coger" r="LR"><p><l>coj</l><r>cog</r></p><par n="vend/er__vblex"/></e>
     <e lm="romper" r="LR"><p><l>rot</l><r>romper<s n="vblex"/></r></p><par n="pp_quiest/o__cnjgt"/></e>
     <e lm="mover"><i>m</i><par n="m/over__vblex"/></e>
     <e lm="remover"><i>rem</i><par n="m/over__vblex"/></e>
