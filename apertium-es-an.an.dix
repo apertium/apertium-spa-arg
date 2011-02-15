@@ -2516,13 +2516,13 @@
    <e r="LR">
       <p>
         <l>ti</l> 
-        <r>tu<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r> 
+        <r>tu<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
     <e r="LR">
       <p>
         <l>tí</l> 
-        <r>tu<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r> 
+        <r>tu<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r> 
       </p>
     </e>
     
@@ -2815,7 +2815,7 @@
       </p>
     </e>
     
-    <e>
+    <e i="yes">
       <p>
         <l>t</l>
         <r>t<s n="prn"/><s n="tn"/><s n="nt"/><s n="sp"/></r> 
@@ -8800,6 +8800,7 @@
       </p>
       <par n="pis_erai__cnjgt"/>
     </e>
+    <!--
     <e>
       <p>
         <l>ab</l>
@@ -8842,6 +8843,7 @@
       </p>
       <par n="imp_vend/etz__cnjgt"/>
     </e> 
+    -->
     <e>
       <p>
         <l>ab</l>
@@ -9674,8 +9676,8 @@
     
     <e r="LR">
       <p>
-        <l>er</l>
-        <r>irer<s n="vbmod"/></r>
+        <l>ir</l>
+        <r>erer<s n="vbmod"/></r>
       </p>
       <par n="pis_ise__cnjgt"/>
     </e> 
@@ -10649,8 +10651,8 @@
     
     <e r="LR">
       <p>
-        <l>er</l>
-        <r>irer<s n="vblex"/></r>
+        <l>ir</l>
+        <r>erer<s n="vblex"/></r>
       </p>
       <par n="pis_ise__cnjgt"/>
     </e> 
@@ -25921,15 +25923,8 @@
     <e r="LR">
         <p>
         <l>iyendo</l>
-        <r>yir<s n="vblex"/><s n="ger"/></r>
+        <r>eyir<s n="vblex"/><s n="ger"/></r>
       </p>
-    </e>
-    <e>
-      <p>
-        <l>iyendo</l>
-        <r>yir<s n="vblex"/><s n="ger"/></r>
-      </p>
-      <par n="S__cantando"/>
     </e>
     <e r="LR">
       <p>
@@ -28444,7 +28439,7 @@
     <par n="y_e"/>
     <p>
     <l><b/>set</l>
-    <r><b/>siete<s n="num"/><s n="mf"/><s n="sp"/></r>
+    <r><b/>siet<s n="num"/><s n="mf"/><s n="sp"/></r>
     </p>
     </e>
     
@@ -28523,7 +28518,10 @@
     </e>
       <!--  trenta-quatro, etc. -->
     <e r="LR">
-    <i>-un</i>
+    <p>
+    <l>-un</l>
+    <r><b/>y<b/>un</r>
+    </p>
     <par n="un/o__num"/>
     </e>
         
@@ -28635,7 +28633,7 @@
     
     <p>
     <l>-set</l>
-    <r><b/>y<b/>siete<s n="num"/><s n="mf"/><s n="sp"/></r>
+    <r><b/>y<b/>siet<s n="num"/><s n="mf"/><s n="sp"/></r>
     </p>
     </e>
     
@@ -35644,7 +35642,7 @@
     <e lm="res"><i>res</i><par n="cosa__prn"/></e>
     <e lm="no-cosa"><i>no-cosa</i><par n="quaresma__n"/></e>
     <e lm="no-res"><i>no-res</i><par n="atletismo__n"/></e>
-    <e lm="o que s'ha dito"><par n="atletismo__n"/><par n="detarticle_m_sg_var"/><i><b/>que<b/>s'ha<b/>dito</i><par n="atletismo__n"/></e>
+    <e lm="o que s'ha dito"><par n="detarticle_m_sg_var"/><i><b/>que<b/>s'ha<b/>dito</i><par n="atletismo__n"/></e>
     <e lm="tot"><i>to</i><par n="to/t__predet"/></e>
     <e lm="tot"><i>to</i><par n="to/t__prn"/></e>    
     <e lm="ixe"><i>ix</i><par n="ix/e__det"/></e>
@@ -35659,8 +35657,8 @@
     <e lm="este" r="LR"><p><l>íst</l><r>ist</r></p><par n="ix/e__prn"/></e>
     <e lm="aquell"><i>aqu</i><par n="aqu/ell__prn"/></e>
     <e lm="muitos"><i>muit</i><par n="muit/os__prn"/></e>
-    <e lm="muitos" r="LR"><p><l>molt</l><r>muit</r></p><par n="ix/e__prn"/></e>
-    <e lm="muitos" r="LR"><p><l>mut</l><r>muit</r></p><par n="ix/e__prn"/></e>
+    <e lm="muitos" r="LR"><p><l>molt</l><r>muit</r></p><par n="muit/os__prn"/></e>
+    <e lm="muitos" r="LR"><p><l>mut</l><r>muit</r></p><par n="muit/os__prn"/></e>
     <e lm="pocos"><i>poc</i><par n="muit/os__prn"/></e>
     <e lm="poquetz"><i>poqu</i><par n="poqu/etz__prn"/></e>
     
@@ -35738,7 +35736,7 @@
     <e lm="tuyo"><i>tuy</i><par n="mí/o__adj"/></e>
     <e lm="suyo"><i>suy</i><par n="mí/o__adj"/></e>
     <e lm="nuestro"><i>nuestr</i><par n="mí/o__adj"/></e>
-    <e lm="buestro" r="LR"><i>buestr</i><par n="mí/o__adj"/></e>
+    <e lm="buestro" r="LR"><p><l>buestr</l><r>vuestr</r></p><par n="mí/o__adj"/></e>
     <e lm="vuestro"><i>vuestr</i><par n="mí/o__adj"/></e>
     
     <e lm="o mío"><i></i><par n="/o_mío__det"/></e>
@@ -35779,7 +35777,7 @@
     <e lm="demás"><i>demás</i><par n="demás__det"/></e> <!-- biling  -->
     <e lm="senglos"><i>sengl</i><par n="quant/os__det"/></e>
     <e lm="quantos"><i>quant</i><par n="quant/os__det"/></e>
-    <e lm="quantos" r="LR"><p><l>cuantos</l><r>quantos</r></p><par n="qualque__det"/></e>
+    <e lm="quantos" r="LR"><p><l>cuant</l><r>quant</r></p><par n="quant/os__det"/></e>
     <e lm="varios"><i>vari</i><par n="quant/os__det"/></e>
     <e lm="varios" r="LR"><p><l>bari</l><r>vari</r></p><par n="quant/os__det"/></e>
 
@@ -35975,7 +35973,7 @@
     <e lm="docientos"><i>doc</i><par n="quatroc/ientos__num"/></e>
     <e lm="docientos" r="LR"><p><l>dosc</l><r>doc</r></p><par n="quatroc/ientos__num"/></e>
     <e lm="trecientos"><i>trec</i><par n="quatroc/ientos__num"/></e>
-    <e lm="trecientos" r="LR"><p><l>tresc</l><r>trecient</r></p><par n="quatroc/ientos__num"/></e>
+    <e lm="trecientos" r="LR"><p><l>tresc</l><r>trec</r></p><par n="quatroc/ientos__num"/></e>
     <e lm="quatrocientos"><i>quatroc</i><par n="quatroc/ientos__num"/></e>
     <e lm="quatrocientos" r="LR"><p><l>quatrec</l><r>quatroc</r></p><par n="quatroc/ientos__num"/></e>
     <e lm="quatrocientos" r="LR"><p><l>cuatroc</l><r>quatroc</r></p><par n="quatroc/ientos__num"/></e>
@@ -36115,7 +36113,7 @@
     <e lm="obtener" r="LR"><p><l>ot</l><r>obt</r></p><par n="t/ener__vblex"/></e> 
     <e lm="retener"><i>ret</i><par n="t/ener__vblex"/></e>
     <e lm="abstener"><i>abst</i><par n="t/ener__vblex"/></e>
-    <e lm="abstener" r="LR"><p><l>as</l><r>abs</r></p><par n="t/ener__vblex"/></e> 
+    <e lm="abstener" r="LR"><p><l>ast</l><r>abst</r></p><par n="t/ener__vblex"/></e> 
     <e lm="atener"><i>at</i><par n="t/ener__vblex"/></e>
     <e lm="contener"><i>cont</i><par n="t/ener__vblex"/></e>
     <e lm="detener"><i>det</i><par n="t/ener__vblex"/></e>
@@ -36173,7 +36171,7 @@
     <e lm="espanyol"><i>espanyol</i><par n="espanyol__adj"/></e>
     <e lm="espanyol" r="LR"><p><l>español</l><r>espanyol</r></p><par n="espanyol__adj"/></e>
     <e lm="espanyol"><i>espanyol</i><par n="libro__n"/></e>
-    <e lm="español" r="LR"><i>español</i><par n="libro__n"/></e>
+    <e lm="espanyol" r="LR"><p><l>español</l><r>espanyol</r></p><par n="libro__n"/></e>
     <e lm="humán"><i>hum</i><par n="chirm/án__n"/></e>
     <!-- <e lm="humano"><i>hum</i><par n="cristi/ano__n"/></e> -->
     <e lm="humán"><i>hum</i><par n="occit/án__adj"/></e>
@@ -36456,7 +36454,7 @@
     <e lm="cristiano"><i>cristian</i><par n="academic/o__adj"/></e>
     <e lm="crudo"><i>crud</i><par n="academic/o__adj_adv"/></e>
     <e lm="quadrau"><i>quadra</i><par n="adequa/u__adj"/></e>
-    <e lm="quadrau" r="LR"><p><l>cuadra</l><r>quadra</r></p><par n="academic/o__adj"/></e>
+    <e lm="quadrau" r="LR"><p><l>cuadra</l><r>quadra</r></p><par n="adequa/u__adj"/></e>
     <e lm="qualitativo"><i>qualitati</i><par n="cursi/vo__adj"/></e>
     <e lm="qualitativo" r="LR"><p><l>cualitati</l><r>qualitati</r></p><par n="cursi/vo__adj"/></e>
     <e lm="quatreno"><i>quatr</i><par n="dec/eno__adj"/></e>
@@ -36731,9 +36729,9 @@
     <e lm="immediato"><i>immediat</i><par n="academic/o__adj"/></e>
     <e lm="immediato" r="LR"><p><l>inmediat</l><r>immediat</r></p><par n="academic/o__adj"/></e>    
     <e lm="immenso"><i>immens</i><par n="academic/o__adj"/></e>
-    <e lm="immenso" r="LR"><p><l>inmenso</l><r>immenso</r></p><par n="academic/o__adj"/></e>    
+    <e lm="immenso" r="LR"><p><l>inmens</l><r>immens</r></p><par n="academic/o__adj"/></e>    
     <e lm="immerso"><i>immers</i><par n="academic/o__adj"/></e>
-    <e lm="immerso" r="LR"><p><l>inmerso</l><r>immerso</r></p><par n="academic/o__adj"/></e>    
+    <e lm="immerso" r="LR"><p><l>inmers</l><r>immers</r></p><par n="academic/o__adj"/></e>    
     <e lm="immigratorio"><i>immigratori</i><par n="academic/o__adj"/></e>
     <e lm="immigratorio" r="LR"><p><l>inmigratori</l><r>immigratori</r></p><par n="academic/o__adj"/></e>    
     <e lm="immobiliario"><i>immobiliari</i><par n="academic/o__adj"/></e>
@@ -36870,9 +36868,7 @@
     <e lm="mioceno"><i>mioc</i><par n="dec/eno__adj"/></e>
     <e lm="misionero"><i>misioner</i><par n="academic/o__adj"/></e>
     <e lm="mesmo"><i>mesm</i><par n="academic/o__adj"/></e>
-    <e lm="mesmo" r="LR"><p><l>mismo</l><r>mesmo</r></p><par n="academic/o__adj"/></e>
-    <e lm="mesmo"><i>mesm</i><par n="academic/o__adj"/></e>
-    <e lm="mesmo" r="LR"><p><l>mismo</l><r>mesmo</r></p><par n="academic/o__adj"/></e>
+    <e lm="mesmo" r="LR"><p><l>mism</l><r>mesm</r></p><par n="academic/o__adj"/></e>
     <e lm="mesmismo"><i>mesmism</i><par n="academic/o__adj"/></e>
     <e lm="mesmism" r="LR"><p><l>mismism</l><r>mesmism</r></p><par n="academic/o__adj"/></e>
     <e lm="misterioso"><i>misterios</i><par n="academic/o__adj"/></e>
@@ -36998,9 +36994,9 @@
     <e lm="poco"><i>poc</i><par n="academic/o__adj"/></e>
     <e lm="poco"><i>poco</i><par n="libro__n"/></e>
     <e lm="mobil"><i>mobil</i><par n="libro__n"/></e>
-    <e lm="mobil" r="LR"><p><l>móbil</l><r>mobil</r></p><par n="adequa/u__adj"/></e>
-    <e lm="mobil" r="LR"><p><l>móvil</l><r>mobil</r></p><par n="adequa/u__adj"/></e>
-    <e lm="mobil" r="LR"><p><l>movil</l><r>mobil</r></p><par n="adequa/u__adj"/></e>
+    <e lm="mobil" r="LR"><p><l>móbil</l><r>mobil</r></p><par n="libro__n"/></e>
+    <e lm="mobil" r="LR"><p><l>móvil</l><r>mobil</r></p><par n="libro__n"/></e>
+    <e lm="mobil" r="LR"><p><l>movil</l><r>mobil</r></p><par n="libro__n"/></e>
     <e lm="poquet"><i>poqu</i><par n="alaz/et__n"/></e>
     <e lm="mica"><i>mica</i><par n="luenga__n"/></e>
     <e lm="miqueta"><i>miqueta</i><par n="luenga__n"/></e>
@@ -37161,10 +37157,6 @@
     <e lm="subsahariano"><i>subsaharian</i><par n="academic/o__adj"/></e>
     <e lm="suburbano"><i>suburban</i><par n="academic/o__adj"/></e>
     <e lm="succesorio"><i>succesori</i><par n="academic/o__adj"/></e>
-    <e lm="sudafricano"><i>sudafric</i><par n="occit/án__adj"/></e>
-    <e lm="sudafricano" r="LR"><p><l>surafric</l><r>sudafric</r></p><par n="occit/án__adj"/></e>
-    <e lm="sudamericano"><i>sudameric</i><par n="occit/án__adj"/></e>
-    <e lm="sudamericano" r="LR"><p><l>surameric</l><r>sudameric</r></p><par n="occit/án__adj"/></e>
     <e lm="sueco"><i>suec</i><par n="academic/o__adj"/></e>
     <e lm="suizo"><i>suiz</i><par n="academic/o__adj"/></e>
     <e lm="sucheto"><i>suchet</i><par n="academic/o__adj"/></e>
@@ -37344,7 +37336,7 @@
     <e lm="categoría"><i>categoría</i><par n="luenga__n"/></e>
     <e lm="subcategoría"><i>subcategoría</i><par n="luenga__n"/></e>
     <e lm="persona"><i>persona</i><par n="luenga__n"/></e>
-    <e lm="persona" r="LR"><p><l>presona</l><r>persona</r></p><par n="libro__n"/></e>
+    <e lm="persona" r="LR"><p><l>presona</l><r>persona</r></p><par n="luenga__n"/></e>
     <e lm="casa"><i>casa</i><par n="luenga__n"/></e>
     <e lm="forma"><i>forma</i><par n="luenga__n"/></e>
     <e lm="pachina"><i>pachina</i><par n="luenga__n"/></e>
@@ -37359,9 +37351,9 @@
     <e lm="hab"><i>hab</i><par n="accionista__n"/></e>
     <e lm="hab/km²"><i>hab/km²</i><par n="accionista__n"/></e>    
     <e lm="habitant"><i>habitant</i><par n="accionista__n"/></e>
-    <e lm="habitant" r="LR"><p><l>abitant</l><r>habitant</r></p><par n="libro__n"/></e>
-    <e lm="habitant" r="LR"><p><l>abitán</l><r>habitant</r></p><par n="libro__n"/></e>
-    <e lm="habitant" r="LR"><p><l>habitán</l><r>habitant</r></p><par n="libro__n"/></e>
+    <e lm="habitant" r="LR"><p><l>abitant</l><r>habitant</r></p><par n="accionista__n"/></e>
+    <e lm="habitant" r="LR"><p><l>abitán</l><r>habitant</r></p><par n="accionista__n"/></e>
+    <e lm="habitant" r="LR"><p><l>habitán</l><r>habitant</r></p><par n="accionista__n"/></e>
     <e lm="mierques"><i>mierques</i><par n="campus__n"/></e>  
     <e lm="miercols" r="LR"><p><l>miercols</l><r>mierques</r></p><par n="campus__n"/></e>
     <e lm="miercols" r="LR"><p><l>miércols</l><r>mierques</r></p><par n="campus__n"/></e>
@@ -37402,8 +37394,8 @@
     <e lm="luz"><par n="/l_ll__var"/><i>u</i><par n="actri/z__n"/></e>
     <e lm="brazo"><i>brazo</i><par n="libro__n"/></e>
     <e lm="cambeo"><i>cambeo</i><par n="libro__n"/></e>
-    <e lm="cambeo" r="LR"><p><l>cambeyo</l><r>cambeo</r></p><par n="obchecti/vo__n"/></e>
-    <e lm="cambeo" r="LR"><p><l>cambio</l><r>cambeo</r></p><par n="obchecti/vo__n"/></e>
+    <e lm="cambeo" r="LR"><p><l>cambeyo</l><r>cambeo</r></p><par n="libro__n"/></e>
+    <e lm="cambeo" r="LR"><p><l>cambio</l><r>cambeo</r></p><par n="libro__n"/></e>
     <e lm="chenero"><i>chenero</i><par n="libro__n"/></e>
     <e lm="chicolate"><i>chicolate</i><par n="libro__n"/></e>
     <e lm="directorio"><i>directorio</i><par n="libro__n"/></e>
@@ -37441,7 +37433,7 @@
     <e lm="aviento" r="LR"><p><l>abiento</l><r>aviento</r></p><par n="libro__n"/></e>
     <e lm="deciembre" r="LR"><p><l>deciembre</l><r>aviento</r></p><par n="libro__n"/></e>
     <e lm="primavera"><i>primavera</i><par n="luenga__n"/></e>
-    <e lm="primavera" r="LR"><p><l>primabera</l><r>primavera</r></p><par n="libro__n"/></e>
+    <e lm="primavera" r="LR"><p><l>primabera</l><r>primavera</r></p><par n="luenga__n"/></e>
     <e lm="verano"><i>verano</i><par n="libro__n"/></e>
     <e lm="verano" r="LR"><p><l>vrano</l><r>verano</r></p><par n="libro__n"/></e>
     <e lm="verano" r="LR"><p><l>berano</l><r>verano</r></p><par n="libro__n"/></e>
@@ -37477,9 +37469,9 @@
     <e lm="mosica"><i>mosica</i><par n="luenga__n"/></e>
     <e lm="mosica" r="LR"><p><l>musica</l><r>mosica</r></p><par n="luenga__n"/></e>
     <e lm="bue"><i>bue</i><par n="libro__n"/></e>
-    <e lm="bue" r="LR"><p><l>güe</l><r>güe</r></p><par n="libro__n"/></e>
-    <e lm="bue" r="LR"><p><l>güei</l><r>güe</r></p><par n="libro__n"/></e>
-    <e lm="bue" r="LR"><p><l>buei</l><r>güe</r></p><par n="libro__n"/></e>
+    <e lm="bue" r="LR"><p><l>güe</l><r>bue</r></p><par n="libro__n"/></e>
+    <e lm="bue" r="LR"><p><l>güei</l><r>bue</r></p><par n="libro__n"/></e>
+    <e lm="bue" r="LR"><p><l>buei</l><r>bue</r></p><par n="libro__n"/></e>
     <e lm="serie"><i>serie</i><par n="luenga__n"/></e>
     <e lm="sierra"><i>sierra</i><par n="luenga__n"/></e>
     <e lm="comuna"><i>comuna</i><par n="luenga__n"/></e>
@@ -37661,7 +37653,6 @@
     <e lm="conformidat"><i>conformid</i><par n="privacid/at__n"/></e>
     <e lm="contabilidat"><i>contabilid</i><par n="privacid/at__n"/></e>
     <e lm="continuidat"><i>continuid</i><par n="privacid/at__n"/></e>
-    <e lm="convidat"><i>convid</i><par n="privacid/at__n"/></e>
     <e lm="cooficialidat"><i>cooficialid</i><par n="privacid/at__n"/></e>
     <e lm="creyatividat"><i>creyativid</i><par n="privacid/at__n"/></e>
     <e lm="creyatividat" r="LR"><p><l>creativid</l><r>creyativid</r></p><par n="privacid/at__n"/></e>
@@ -37715,7 +37706,7 @@
     <e lm="esterilidat"><i>esterilid</i><par n="privacid/at__n"/></e>
     <e lm="extraterritorialidat"><i>extraterritorialid</i><par n="privacid/at__n"/></e>
     <e lm="extremidat"><i>extremid</i><par n="privacid/at__n"/></e>
-    <e lm="extremidat" r="LR"><p><l>estremid</l><r>extremidat</r></p><par n="privacid/at__n"/></e>
+    <e lm="extremidat" r="LR"><p><l>estremid</l><r>extremid</r></p><par n="privacid/at__n"/></e>
     <e lm="eternidat"><i>eternid</i><par n="privacid/at__n"/></e>
     <e lm="heterochenidat"><i>heterochenid</i><par n="privacid/at__n"/></e>
     <e lm="etnicidat"><i>etnicid</i><par n="privacid/at__n"/></e>
@@ -37953,9 +37944,9 @@
     <e lm="adchudicación"><i>adchudica</i><par n="actua/ción__n"/></e>
     <e lm="adequación"><i>adequa</i><par n="actua/ción__n"/></e>
     <e lm="administración"><i>administra</i><par n="actua/ción__n"/></e>
-    <e lm="administración" r="LR"><p><l>admenistra</l><r>administrar></r></p><par n="actua/ción__n"/></e>
-    <e lm="administración" r="LR"><p><l>almenistra</l><r>administrar></r></p><par n="actua/ción__n"/></e>
-    <e lm="administración" r="LR"><p><l>alministra</l><r>administrar></r></p><par n="actua/ción__n"/></e>
+    <e lm="administración" r="LR"><p><l>admenistra</l><r>administra</r></p><par n="actua/ción__n"/></e>
+    <e lm="administración" r="LR"><p><l>almenistra</l><r>administra</r></p><par n="actua/ción__n"/></e>
+    <e lm="administración" r="LR"><p><l>alministra</l><r>administra</r></p><par n="actua/ción__n"/></e>
     <e lm="adoración"><i>adora</i><par n="actua/ción__n"/></e>
     <e lm="adulteración"><i>adultera</i><par n="actua/ción__n"/></e>
     <e lm="afectación"><i>afecta</i><par n="actua/ción__n"/></e>
@@ -37966,11 +37957,11 @@
     <e lm="agregación"><i>agrega</i><par n="actua/ción__n"/></e>
     <e lm="agrupación"><i>agrupa</i><par n="actua/ción__n"/></e>
     <e lm="aireyación"><i>aireya</i><par n="actua/ción__n"/></e>
-    <e lm="aireyación" r="LR"><p><l>airia</l><r>aireya></r></p><par n="actua/ción__n"/></e>    
-    <e lm="aireyación" r="LR"><p><l>airea</l><r>aireya></r></p><par n="actua/ción__n"/></e>    
+    <e lm="aireyación" r="LR"><p><l>airia</l><r>aireya</r></p><par n="actua/ción__n"/></e>    
+    <e lm="aireyación" r="LR"><p><l>airea</l><r>aireya</r></p><par n="actua/ción__n"/></e>    
     <e lm="aleyación"><i>aleya</i><par n="actua/ción__n"/></e>
-    <e lm="aleyación" r="LR"><p><l>alia</l><r>aleya></r></p><par n="actua/ción__n"/></e>    
-    <e lm="aleyación" r="LR"><p><l>alea</l><r>aleya></r></p><par n="actua/ción__n"/></e>    
+    <e lm="aleyación" r="LR"><p><l>alia</l><r>aleya</r></p><par n="actua/ción__n"/></e>    
+    <e lm="aleyación" r="LR"><p><l>alea</l><r>aleya</r></p><par n="actua/ción__n"/></e>    
     <e lm="alfabetización"><i>alfabetiza</i><par n="actua/ción__n"/></e>
     <e lm="alimentación"><i>alimenta</i><par n="actua/ción__n"/></e>
     <e lm="alteración"><i>altera</i><par n="actua/ción__n"/></e>
@@ -37986,15 +37977,15 @@
     <e lm="aportación"><i>aporta</i><par n="actua/ción__n"/></e>
     <e lm="apreciación"><i>aprecia</i><par n="actua/ción__n"/></e>
     <e lm="aprobación"><i>aproba</i><par n="actua/ción__n"/></e>
-    <e lm="aprobación" r="LR"><p><l>apreba</l><r>aproba></r></p><par n="actua/ción__n"/></e>
+    <e lm="aprobación" r="LR"><p><l>apreba</l><r>aproba</r></p><par n="actua/ción__n"/></e>
     <e lm="aproximación"><i>aproxima</i><par n="actua/ción__n"/></e>
-    <e lm="aproximación" r="LR"><p><l>aprosima</l><r>aproxima></r></p><par n="actua/ción__n"/></e>
+    <e lm="aproximación" r="LR"><p><l>aprosima</l><r>aproxima</r></p><par n="actua/ción__n"/></e>
     <e lm="arabización"><i>arabiza</i><par n="actua/ción__n"/></e>
     <e lm="arborización"><i>arboriza</i><par n="actua/ción__n"/></e>
     <e lm="argumentación"><i>argumenta</i><par n="actua/ción__n"/></e>
     <e lm="articulación"><i>articula</i><par n="actua/ción__n"/></e>
     <e lm="asignación"><i>asigna</i><par n="actua/ción__n"/></e>
-    <e lm="asinnación" r="LR"><p><l>asinna</l><r>asigna></r></p><par n="actua/ción__n"/></e>
+    <e lm="asinnación" r="LR"><p><l>asinna</l><r>asigna</r></p><par n="actua/ción__n"/></e>
     <e lm="asimilación"><i>asimila</i><par n="actua/ción__n"/></e>
     <e lm="asociación"><i>asocia</i><par n="actua/ción__n"/></e>
     <e lm="asociación" r="LR"><p><l>asozia</l><r>asocia</r></p><par n="actua/ción__n"/></e>
@@ -38013,10 +38004,10 @@
     <e lm="acceleración"><i>accelera</i><par n="actua/ción__n"/></e>
     <e lm="accentuación"><i>accentua</i><par n="actua/ción__n"/></e>
     <e lm="acceptación"><i>accepta</i><par n="actua/ción__n"/></e>
-    <e lm="acceptación" r="LR"><p><l>acceutación</l><r>acceptación</r></p><par n="actua/ción__n"/></e>
-    <e lm="acceptación" r="LR"><p><l>aceutación</l><r>acceptación</r></p><par n="actua/ción__n"/></e>
-    <e lm="acceptación" r="LR"><p><l>azeutación</l><r>acceptación</r></p><par n="actua/ción__n"/></e>
-    <e lm="acceptación" r="LR"><p><l>azetación</l><r>acceptación</r></p><par n="actua/ción__n"/></e>
+    <e lm="acceptación" r="LR"><p><l>acceuta</l><r>accepta</r></p><par n="actua/ción__n"/></e>
+    <e lm="acceptación" r="LR"><p><l>aceuta</l><r>accepta</r></p><par n="actua/ción__n"/></e>
+    <e lm="acceptación" r="LR"><p><l>azeuta</l><r>accepta</r></p><par n="actua/ción__n"/></e>
+    <e lm="acceptación" r="LR"><p><l>azeta</l><r>accepta</r></p><par n="actua/ción__n"/></e>
     <e lm="bifurcación"><i>bifurca</i><par n="actua/ción__n"/></e>
     <e lm="brotación"><i>brota</i><par n="actua/ción__n"/></e>
     <e lm="calificación"><i>califica</i><par n="actua/ción__n"/></e>
@@ -38116,7 +38107,8 @@
     <e lm="decapitación"><i>decapita</i><par n="actua/ción__n"/></e>
     <e lm="declaración"><i>declara</i><par n="actua/ción__n"/></e>
     <e lm="declinación"><i>declina</i><par n="actua/ción__n"/></e>
-    <e lm="decodificación"><i>decodifica</i><par n="actua/ción__n"/></e>
+    <e lm="descodificación"><i>descodifica</i><par n="actua/ción__n"/></e>
+    <e lm="descodificación" r="LR"><p><l>decodifica</l><r>descodifica</r></p><par n="actua/ción__n"/></e>
     <e lm="decoración"><i>decora</i><par n="actua/ción__n"/></e>
     <e lm="dedicación"><i>dedica</i><par n="actua/ción__n"/></e>
     <e lm="deflagración"><i>deflagra</i><par n="actua/ción__n"/></e>
@@ -38432,9 +38424,9 @@
     <e lm="d'esquena de"><i>d'esquena<b/></i><par n="conta__pr"/></e>
     <e lm="a falta de"><par n="/a_á__var"/><i><b/>falta<b/></i><par n="contde__pr"/></e>
     <e lm="seguntes o pareixer de"><i>seguntes<b/>o<b/>pareixer<b/></i><par n="contde__pr"/></e>
-    <e lm="seguntes o pareixer de" r="LR"><p><l>seguntes<b/>o<b/>pareixer<b/></l><r><b/>seguntes<b/>o<b/>pareixer<b/></r></p><par n="contde__pr"/></e>      
-    <e lm="seguntes o pareixer de" r="LR"><p><l>seguntes<b/>el<b/>pareixer<b/></l><r><b/>seguntes<b/>o<b/>pareixer<b/></r></p><par n="contde__pr"/></e>      
-    <e lm="seguntes o pareixer de" r="LR"><p><l>seguntes<b/>lo<b/>pareixer<b/></l><r><b/>seguntes<b/>o<b/>pareixer<b/></r></p><par n="contde__pr"/></e>      
+    <e lm="seguntes o pareixer de" r="LR"><p><l>seguntes<b/>o<b/>pareixer<b/></l><r>seguntes<b/>o<b/>pareixer<b/></r></p><par n="contde__pr"/></e>      
+    <e lm="seguntes o pareixer de" r="LR"><p><l>seguntes<b/>el<b/>pareixer<b/></l><r>seguntes<b/>o<b/>pareixer<b/></r></p><par n="contde__pr"/></e>      
+    <e lm="seguntes o pareixer de" r="LR"><p><l>seguntes<b/>lo<b/>pareixer<b/></l><r>seguntes<b/>o<b/>pareixer<b/></r></p><par n="contde__pr"/></e>      
     <e lm="a modo de"><par n="/a_á__var"/><i><b/>modo<b/></i><par n="contde__pr"/></e>
     <e lm="a lo largo de"><par n="/a_á__var"/><i><b/>lo<b/>largo<b/></i><par n="contde__pr"/></e>
     <e lm="a lo largo de" r="LR"><par n="/a_á__var"/><p><l>'l<b/>largo<b/></l><r><b/>lo<b/>largo<b/></r></p><par n="contde__pr"/></e>      
@@ -38499,15 +38491,15 @@
     <e lm="dica dimpués de"><i>dica<b/>dimpués<b/></i><par n="contde__pr"/></e>
     <e lm="dica dimpués de" r="LR"><p><l>dica<b/>dispués<b/></l><r>dica<b/>dimpués<b/></r></p><par n="contde__pr"/></e>
     <e lm="dica dimpués de" r="LR"><p><l>dica<b/>dimpuesas<b/></l><r>dica<b/>dimpués<b/></r></p><par n="contde__pr"/></e>    
-    <e lm="dica dimpués de" r="LR"><p><l>hasta<b/>dimpués<b/></l><r>hasta<b/>dimpués<b/></r></p><par n="contde__pr"/></e>
-    <e lm="dica dimpués de" r="LR"><p><l>hasta<b/>dispués<b/></l><r>hasta<b/>dimpués<b/></r></p><par n="contde__pr"/></e>
-    <e lm="dica dimpués de" r="LR"><p><l>hasta<b/>dimpuesas<b/></l><r>hasta<b/>dimpués<b/></r></p><par n="contde__pr"/></e>    
-    <e lm="dica dimpués de" r="LR"><p><l>basta<b/>dimpués<b/></l><r>basta<b/>dimpués<b/></r></p><par n="contde__pr"/></e>
-    <e lm="dica dimpués de" r="LR"><p><l>basta<b/>dispués<b/></l><r>basta<b/>dimpués<b/></r></p><par n="contde__pr"/></e>
-    <e lm="dica dimpués de" r="LR"><p><l>basta<b/>dimpuesas<b/></l><r>basta<b/>dimpués<b/></r></p><par n="contde__pr"/></e>    
-    <e lm="dica dimpués de" r="LR"><p><l>anda<b/>dimpués<b/></l><r>anda<b/>dimpués<b/></r></p><par n="contde__pr"/></e>
-    <e lm="dica dimpués de" r="LR"><p><l>anda<b/>dispués<b/></l><r>anda<b/>dimpués<b/></r></p><par n="contde__pr"/></e>
-    <e lm="dica dimpués de" r="LR"><p><l>anda<b/>dimpuesas<b/></l><r>anda<b/>dimpués<b/></r></p><par n="contde__pr"/></e>    
+    <e lm="dica dimpués de" r="LR"><p><l>hasta<b/>dimpués<b/></l><r>dica<b/>dimpués<b/></r></p><par n="contde__pr"/></e>
+    <e lm="dica dimpués de" r="LR"><p><l>hasta<b/>dispués<b/></l><r>dica<b/>dimpués<b/></r></p><par n="contde__pr"/></e>
+    <e lm="dica dimpués de" r="LR"><p><l>hasta<b/>dimpuesas<b/></l><r>dica<b/>dimpués<b/></r></p><par n="contde__pr"/></e>    
+    <e lm="dica dimpués de" r="LR"><p><l>basta<b/>dimpués<b/></l><r>dica<b/>dimpués<b/></r></p><par n="contde__pr"/></e>
+    <e lm="dica dimpués de" r="LR"><p><l>basta<b/>dispués<b/></l><r>dica<b/>dimpués<b/></r></p><par n="contde__pr"/></e>
+    <e lm="dica dimpués de" r="LR"><p><l>basta<b/>dimpuesas<b/></l><r>dica<b/>dimpués<b/></r></p><par n="contde__pr"/></e>    
+    <e lm="dica dimpués de" r="LR"><p><l>anda<b/>dimpués<b/></l><r>dica<b/>dimpués<b/></r></p><par n="contde__pr"/></e>
+    <e lm="dica dimpués de" r="LR"><p><l>anda<b/>dispués<b/></l><r>dica<b/>dimpués<b/></r></p><par n="contde__pr"/></e>
+    <e lm="dica dimpués de" r="LR"><p><l>anda<b/>dimpuesas<b/></l><r>dica<b/>dimpués<b/></r></p><par n="contde__pr"/></e>    
     <e lm="a razón de"><par n="/a_á__var"/><i><b/>razón<b/></i><par n="contde__pr"/></e>
 
     <e lm="a riesgo y periglo de"><par n="/a_á__var"/><i><b/>risgo<b/>y<b/>periglo<b/></i><par n="contde__pr"/></e>
@@ -38543,16 +38535,16 @@
     <e lm="respective a" r="LR"><p><l>respeutibe<b/></l><r>respective<b/></r></p><par n="conta__pr"/></e>    
     <e lm="respective a" r="LR"><p><l>respectibe<b/></l><r>respective<b/></r></p><par n="conta__pr"/></e>    
     <e lm="respecto a"><i>respecto<b/></i><par n="conta__pr"/></e>
-    <e lm="respecto a" r="LR"><p><l>respeuto<b/></l><r>respecto<b/></r></p><par n="contde__pr"/></e>    
+    <e lm="respecto a" r="LR"><p><l>respeuto<b/></l><r>respecto<b/></r></p><par n="conta__pr"/></e>    
     <e lm="referent a"><i>referent<b/></i><par n="conta__pr"/></e>
     <e lm="quanto a"><i>quanto<b/></i><par n="conta__pr"/></e>
-    <e lm="quanto a" r="LR"><p><l>cuanto<b/></l><r>quanto<b/></r></p><par n="contde__pr"/></e>    
+    <e lm="quanto a" r="LR"><p><l>cuanto<b/></l><r>quanto<b/></r></p><par n="conta__pr"/></e>    
     <e lm="por lo que fa a"><par n="/por__var"/><i><b/>lo<b/>que<b/>fa<b/></i><par n="conta__pr"/></e>
-    <e lm="por lo que fa a" r="LR"><par n="/por__var"/><p><l>o<b/>que<b/>fa<b/></l><r>lo<b/>que<b/>fa<b/></r></p><par n="contde__pr"/></e>    
-    <e lm="por lo que fa a" r="LR"><par n="/por__var"/><p><l>el<b/>que<b/>fa<b/></l><r>lo<b/>que<b/>fa<b/></r></p><par n="contde__pr"/></e>    
-    <e lm="por lo que fa a" r="LR"><p><l>pe'l<b/>que<b/>fa<b/></l><r>por<b/>lo<b/>que<b/>fa<b/></r></p><par n="contde__pr"/></e>    
-    <e lm="por lo que fa a" r="LR"><p><l>pel<b/>que<b/>fa<b/></l><r>por<b/>lo<b/>que<b/>fa<b/></r></p><par n="contde__pr"/></e>    
-    <e lm="por lo que fa a" r="LR"><p><l>po'l<b/>que<b/>fa<b/></l><r>por<b/>lo<b/>que<b/>fa<b/></r></p><par n="contde__pr"/></e>    
+    <e lm="por lo que fa a" r="LR"><par n="/por__var"/><p><l><b/>o<b/>que<b/>fa<b/></l><r><b/>lo<b/>que<b/>fa<b/></r></p><par n="conta__pr"/></e>    
+    <e lm="por lo que fa a" r="LR"><par n="/por__var"/><p><l>el<b/>que<b/>fa<b/></l><r><b/>lo<b/>que<b/>fa<b/></r></p><par n="conta__pr"/></e>    
+    <e lm="por lo que fa a" r="LR"><p><l>pe'l<b/>que<b/>fa<b/></l><r>por<b/>lo<b/>que<b/>fa<b/></r></p><par n="conta__pr"/></e>    
+    <e lm="por lo que fa a" r="LR"><p><l>pel<b/>que<b/>fa<b/></l><r>por<b/>lo<b/>que<b/>fa<b/></r></p><par n="conta__pr"/></e>    
+    <e lm="por lo que fa a" r="LR"><p><l>po'l<b/>que<b/>fa<b/></l><r>por<b/>lo<b/>que<b/>fa<b/></r></p><par n="conta__pr"/></e>    
     <e lm="por causa de"><par n="/por__var"/><i><b/>causa<b/></i><par n="contde__pr"/></e>
     <e lm="a causa de"><par n="/a_á__var"/><i><b/>causa<b/></i><par n="contde__pr"/></e>
     <e lm="a causa de"><par n="/a_á__var"/><i><b/>fin<b/></i><par n="contde__pr"/></e>
@@ -38570,10 +38562,10 @@
   <e r="LR" i="yes" lm="sin l'aduya de"><p><l>sin<b/>aduya<b/></l><r>sin<b/>l'aduya<b/></r></p><par n="contde__pr"/></e>
   <e r="LR" i="yes" lm="sin l'aduya de"><p><l>sin<b/>achuda<b/></l><r>sin<b/>l'aduya<b/></r></p><par n="contde__pr"/></e>
   <e lm="en detrimento de" r="RL"><i>en<b/>detrimento<b/></i><par n="contde__pr"/></e>
-  <e lm="en emparo de"><i>en<b/>refirme<b/></i><par n="contde__pr"/></e>
-  <e lm="en emparo de" r="LR"><p><l>en<b/>emparo<b/></l><r>en<b/>emparo<b/></r></p><par n="contde__pr"/></e>
-  <e lm="en emparo de" r="LR"><p><l>en<b/>suporte<b/></l><r>en<b/>emparo<b/></r></p><par n="contde__pr"/></e>
-  <e lm="en emparo de" r="LR"><p><l>en<b/>soporte<b/></l><r>en<b/>emparo<b/></r></p><par n="contde__pr"/></e>
+  <e lm="en refirme de"><i>en<b/>refirme<b/></i><par n="contde__pr"/></e>
+  <e lm="en emparo de" r="LR"><p><l>en<b/>emparo<b/></l><r>en<b/>refirme<b/></r></p><par n="contde__pr"/></e>
+  <e lm="en suporte de" r="LR"><p><l>en<b/>suporte<b/></l><r>en<b/>refirme<b/></r></p><par n="contde__pr"/></e>
+  <e lm="en soport de" r="LR"><p><l>en<b/>soporte<b/></l><r>en<b/>refirme<b/></r></p><par n="contde__pr"/></e>
   <e lm="en intrés de" r="RL"><i>en<b/>intrés<b/></i><par n="contde__pr"/></e>
   <e lm="en intrés de" r="LR" i="yes"><p><l>en<b/>interés<b/></l><r>en<b/>intrés<b/></r></p><par n="contde__pr"/></e>
   <e lm="en busca de"><i>en<b/>busca<b/></i><par n="contde__pr"/></e>
@@ -38613,9 +38605,9 @@
 <e lm="por o que concierne a"><par n="/por__var"/><i><b/>o<b/>que<b/>concierne<b/></i><par n="conta__pr"/></e>
 <e lm="por o que concierne a" r="LR"><par n="/por__var"/><p><l><b/>el<b/>que<b/>concierne<b/></l><r><b/>o<b/>que<b/>concierne<b/></r></p><par n="conta__pr"/></e>
 <e lm="por o que concierne a" r="LR"><par n="/por__var"/><p><l><b/>lo<b/>que<b/>concierne<b/></l><r><b/>o<b/>que<b/>concierne<b/></r></p><par n="conta__pr"/></e>
-<e lm="por o que concierne a" r="LR"><p><l>pe'l<b/>que<b/>concierne<b/></l><r>por<b/><b/>o<b/>que<b/>concierne<b/></r></p><par n="conta__pr"/></e>
-<e lm="por o que concierne a" r="LR"><p><l>po'l<b/>que<b/>concierne<b/></l><r>por<b/><b/>o<b/>que<b/>concierne<b/></r></p><par n="conta__pr"/></e>
-<e lm="por o que concierne a" r="LR"><p><l>pel<b/>que<b/>concierne<b/></l><r>por<b/><b/>o<b/>que<b/>concierne<b/></r></p><par n="conta__pr"/></e>
+<e lm="por o que concierne a" r="LR"><p><l>pe'l<b/>que<b/>concierne<b/></l><r>por<b/>o<b/>que<b/>concierne<b/></r></p><par n="conta__pr"/></e>
+<e lm="por o que concierne a" r="LR"><p><l>po'l<b/>que<b/>concierne<b/></l><r>por<b/>o<b/>que<b/>concierne<b/></r></p><par n="conta__pr"/></e>
+<e lm="por o que concierne a" r="LR"><p><l>pel<b/>que<b/>concierne<b/></l><r>por<b/>o<b/>que<b/>concierne<b/></r></p><par n="conta__pr"/></e>
 
 <e lm="dirección a"><i>dirección<b/></i><par n="conta__pr"/></e>
 <e lm="dirección ta"><i>dirección<b/></i><par n="contta__pr"/></e>
@@ -38623,17 +38615,17 @@
 <e lm="endrezau ta"><i>endrezau<b/></i><par n="contta__pr"/></e>
 <e lm="endrezau ta"><p><l>endrezato<b/></l><r>endrezau<b/></r></p><par n="contta__pr"/></e>
 <e lm="sobre a base de"><i>sobre<b/>a<b/>base<b/></i><par n="contde__pr"/></e>
-<e lm="sobre a base de" r="LR"><p><l>sobre<b/>la<b/>base<b/></l><r>por<b/><b/>o<b/>que<b/>concierne<b/></r></p><par n="contde__pr"/></e>
+<e lm="sobre a base de" r="LR"><p><l>sobre<b/>la<b/>base<b/></l><r>sobre<b/>a<b/>base<b/></r></p><par n="contde__pr"/></e>
 <e lm="sin miedo a"><i>sin<b/>miedo<b/></i><par n="conta__pr"/></e>
 <e lm="sin miedo de"><i>sin<b/>miedo<b/></i><par n="contde__pr"/></e>
 <e lm="por miedo a"><i>por<b/>miedo<b/></i><par n="conta__pr"/></e>
 <e lm="en primeras de"><i>en<b/>primeras<b/></i><par n="contde__pr"/></e>
 <e lm="a consonant de"><par n="/a_á__var"/><i><b/>consonant<b/></i><par n="contde__pr"/></e>
-<e lm="a consonant de" r="LR"><par n="/a_á__var"/><p><l><b/>consonante<b/></l><r><b/>consonant</r></p><par n="con__pr"/></e>
-<e lm="a consonant de" r="LR"><p><l>a'l<b/>consonante<b/></l><r>a<b/>consonant</r></p><par n="con__pr"/></e>
-<e lm="a consonant de" r="LR"><p><l>a'l<b/>consonant<b/></l><r>a<b/>consonant</r></p><par n="con__pr"/></e>
-<e lm="a consonant de" r="LR"><p><l>al<b/>consonant<b/></l><r>a<b/>consonant</r></p><par n="con__pr"/></e>
-<e lm="a consonant de" r="LR"><p><l>al<b/>consonante<b/></l><r>a<b/>consonant</r></p><par n="con__pr"/></e>
+<e lm="a consonant de" r="LR"><par n="/a_á__var"/><p><l><b/>consonante<b/></l><r><b/>consonant</r></p><par n="contde__pr"/></e>
+<e lm="a consonant de" r="LR"><p><l>a'l<b/>consonante<b/></l><r>a<b/>consonant<b/></r></p><par n="contde__pr"/></e>
+<e lm="a consonant de" r="LR"><p><l>a'l<b/>consonant<b/></l><r>a<b/>consonant<b/></r></p><par n="contde__pr"/></e>
+<e lm="a consonant de" r="LR"><p><l>al<b/>consonant<b/></l><r>a<b/>consonant<b/></r></p><par n="contde__pr"/></e>
+<e lm="a consonant de" r="LR"><p><l>al<b/>consonante<b/></l><r>a<b/>consonant<b/></r></p><par n="contde__pr"/></e>
 <e lm="sin miedo a"><i>gracias<b/></i><par n="conta__pr"/></e>
 <e lm="si s'ha de chudgar por"><i>si<b/>s'ha<b/>de<b/>chudgar<b/></i><par n="/por__var"/><par n="con__pr"/></e>
 <e lm="si s'ha de chudgar por" r="LR"><p><l>si<b/>s'ha<b/>de<b/>chuzgar<b/></l><r>si<b/>s'ha<b/>de<b/>chudgar<b/></r></p><par n="/por__var"/><par n="con__pr"/></e>
@@ -38643,14 +38635,14 @@
   <e lm="en chunto con"><i>en<b/>chunto<b/>con</i><par n="con__pr"/></e>
   <e lm="chunto con"><i>chunto<b/>con</i><par n="con__pr"/></e>
   <e lm="cosa a veyer con"><i>cosa<b/></i><par n="/a_á__var"/><i><b/>veyer<b/>con</i><par n="con__pr"/></e>
-  <e lm="cos a a veyer con" r="LR"><p><l>cosa<b/>a<b/>vier<b/>con<b/></l><r>cosa<b/>a<b/>veyer<b/>con<b/></r></p><par n="con__pr"/></e>
-  <e lm="cos a a veyer con" r="LR"><p><l>cosa<b/>a<b/>viyer<b/>con<b/></l><r>cosa<b/>a<b/>veyer<b/>con<b/></r></p><par n="con__pr"/></e>
-  <e lm="cos a a veyer con" r="LR"><p><l>cosa<b/>á<b/>vier<b/>con<b/></l><r>cosa<b/>a<b/>veyer<b/>con<b/></r></p><par n="con__pr"/></e>
-  <e lm="cos a a veyer con" r="LR"><p><l>cosa<b/>que<b/>vier<b/>con<b/></l><r>cosa<b/>a<b/>veyer<b/>con<b/></r></p><par n="con__pr"/></e>
-  <e lm="cos a a veyer con" r="LR"><p><l>cosa<b/>que<b/>veyer<b/>con<b/></l><r>cosa<b/>a<b/>veyer<b/>con<b/></r></p><par n="con__pr"/></e>
-  <e lm="cos a a veyer con" r="LR"><p><l>res<b/>a<b/>veyer<b/>con<b/></l><r>cosa<b/>a<b/>veyer<b/>con<b/></r></p><par n="con__pr"/></e>
-  <e lm="cos a a veyer con" r="LR"><p><l>res<b/>a<b/>vier<b/>con<b/></l><r>cosa<b/>a<b/>veyer<b/>con<b/></r></p><par n="con__pr"/></e>
-  <e lm="cos a a veyer con" r="LR"><p><l>res<b/>a<b/>viyer<b/>con<b/></l><r>cosa<b/>a<b/>veyer<b/>con<b/></r></p><par n="con__pr"/></e>
+  <e lm="cos a a veyer con" r="LR"><p><l>cosa<b/>a<b/>vier<b/>con</l><r>cosa<b/>a<b/>veyer<b/>con</r></p><par n="con__pr"/></e>
+  <e lm="cos a a veyer con" r="LR"><p><l>cosa<b/>a<b/>viyer<b/>con</l><r>cosa<b/>a<b/>veyer<b/>con</r></p><par n="con__pr"/></e>
+  <e lm="cos a a veyer con" r="LR"><p><l>cosa<b/>á<b/>vier<b/>con</l><r>cosa<b/>a<b/>veyer<b/>con</r></p><par n="con__pr"/></e>
+  <e lm="cos a a veyer con" r="LR"><p><l>cosa<b/>que<b/>vier<b/>con</l><r>cosa<b/>a<b/>veyer<b/>con</r></p><par n="con__pr"/></e>
+  <e lm="cos a a veyer con" r="LR"><p><l>cosa<b/>que<b/>veyer<b/>con</l><r>cosa<b/>a<b/>veyer<b/>con</r></p><par n="con__pr"/></e>
+  <e lm="cos a a veyer con" r="LR"><p><l>res<b/>a<b/>veyer<b/>con</l><r>cosa<b/>a<b/>veyer<b/>con</r></p><par n="con__pr"/></e>
+  <e lm="cos a a veyer con" r="LR"><p><l>res<b/>a<b/>vier<b/>con</l><r>cosa<b/>a<b/>veyer<b/>con</r></p><par n="con__pr"/></e>
+  <e lm="cos a a veyer con" r="LR"><p><l>res<b/>a<b/>viyer<b/>con</l><r>cosa<b/>a<b/>veyer<b/>con</r></p><par n="con__pr"/></e>
   <e lm="arreu de"><i>arreu<b/></i><par n="contde__pr"/></e>
   <e lm="arreo de" r="LR"><p><l>arreo<b/></l><r>arreu<b/></r></p><par n="contde__pr"/></e>
   <e lm="d'arreu de"><i>d'arreu<b/></i><par n="contde__pr"/></e>
@@ -38674,7 +38666,7 @@
     <e lm="sin dembargo" r="LR"><p><l>sin<b/>embargo</l><r>sindembargo</r></p><par n="porque__cnjadv"/></e>
     <e lm="sin dembargo" r="LR"><p><l>sin<b/>dembargo</l><r>sindembargo</r></p><par n="porque__cnjadv"/></e>
     <e lm="manimenos"><i>manimenos</i><par n="porque__cnjadv"/></e>
-    <e lm="manimenos" r="LR"><p><l>man<b/>y<b/>menos</l><r>manimenos</r></p><par n="pero__cnjcoo"/></e>
+    <e lm="manimenos" r="LR"><p><l>man<b/>y<b/>menos</l><r>manimenos</r></p><par n="porque__cnjadv"/></e>
     <e lm="sino"><i>sino</i><par n="pero__cnjcoo"/></e>
     <e lm="pero"><i>pero</i><par n="pero__cnjcoo"/></e>
     <e lm="alavez"><i>alavez</i><par n="porque__cnjadv"/></e>
@@ -38696,7 +38688,7 @@
     <e lm="bien se vale"><i>bien<b/>se<b/>vale</i><par n="agora__adv"/></e>
     <e lm="seguntes"><i>seguntes</i><par n="porque__cnjadv"/></e>
     <e lm="a fe que"><i>a<b/>fe<b/>que</i><par n="porque__cnjadv"/></e>
-    <e lm="a fe que" r="LR"><p><l>a<b/>fe<b/>a<b/>fe<b/>que</l><r>a<b/>fe<b/>que</r></p><par n="agora__adv"/></e>
+    <e lm="a fe que" r="LR"><p><l>a<b/>fe<b/>a<b/>fe<b/>que</l><r>a<b/>fe<b/>que</r></p><par n="porque__cnjadv"/></e>
     <e lm="nomás"><i>nomás</i><par n="agora__adv"/></e>
     <e lm="nomás" r="LR"><p><l>només</l><r>nomás</r></p><par n="agora__adv"/></e>
     <e lm="muito"><i>muito</i><par n="agora__adv"/></e>
@@ -38802,14 +38794,14 @@
   <e lm="tenendo en cuenta que" r="RL"><i>tenendo<b/>en<b/>cuenta<b/>que</i><par n="porque__cnjadv"/></e>
 
   <e lm="dau o caso que"><i>dau<b/>o<b/>caso<b/>que</i><par n="porque__cnjadv"/></e>  
-  <e lm="dau o caso que" r="LR"><p><l>dau<b/>o<b/>caso<b/>que</l><r>dato<b/>o<b/>caso<b/>que</r></p><par n="porque__cnjadv"/></e>
-  <e lm="dau o caso que" r="LR"><p><l>dau<b/>o<b/>caso<b/>que</l><r>dato<b/>lo<b/>caso<b/>que</r></p><par n="porque__cnjadv"/></e>
-  <e lm="dau o caso que" r="LR"><p><l>dau<b/>o<b/>caso<b/>que</l><r>dato<b/>ro<b/>caso<b/>que</r></p><par n="porque__cnjadv"/></e>
-  <e lm="dau o caso que" r="LR"><p><l>dau<b/>o<b/>caso<b/>que</l><r>dato<b/>el<b/>caso<b/>que</r></p><par n="porque__cnjadv"/></e>
-  <e lm="dau o caso que" r="LR"><p><l>dau<b/>o<b/>caso<b/>que</l><r>dau<b/>lo<b/>caso<b/>que</r></p><par n="porque__cnjadv"/></e>
-  <e lm="dau o caso que" r="LR"><p><l>dau<b/>o<b/>caso<b/>que</l><r>dau<b/>ro<b/>caso<b/>que</r></p><par n="porque__cnjadv"/></e>
-  <e lm="dau o caso que" r="LR"><p><l>dau<b/>o<b/>caso<b/>que</l><r>dau<b/>el<b/>caso<b/>que</r></p><par n="porque__cnjadv"/></e>
-<e lm="en o caso que"><i>en<b/></i><par n="detarticle_m_sg_var"/><i><b/>caso<b/>que</i><par n="porque__cnjadv"/></e>  
+  <e lm="dau o caso que" r="LR"><p><l>dato<b/>o<b/>caso<b/>que</l><r>dau<b/>o<b/>caso<b/>que</r></p><par n="porque__cnjadv"/></e>
+  <e lm="dau o caso que" r="LR"><p><l>dato<b/>lo<b/>caso<b/>que</l><r>dau<b/>o<b/>caso<b/>que</r></p><par n="porque__cnjadv"/></e>
+  <e lm="dau o caso que" r="LR"><p><l>dato<b/>ro<b/>caso<b/>que</l><r>dau<b/>o<b/>caso<b/>que</r></p><par n="porque__cnjadv"/></e>
+  <e lm="dau o caso que" r="LR"><p><l>dato<b/>el<b/>caso<b/>que</l><r>dau<b/>o<b/>caso<b/>que</r></p><par n="porque__cnjadv"/></e>
+  <e lm="dau o caso que" r="LR"><p><l>dau<b/>lo<b/>caso<b/>que</l><r>dau<b/>o<b/>caso<b/>que</r></p><par n="porque__cnjadv"/></e>
+  <e lm="dau o caso que" r="LR"><p><l>dau<b/>ro<b/>caso<b/>que</l><r>dau<b/>o<b/>caso<b/>que</r></p><par n="porque__cnjadv"/></e>
+  <e lm="dau o caso que" r="LR"><p><l>dau<b/>el<b/>caso<b/>que</l><r>dau<b/>o<b/>caso<b/>que</r></p><par n="porque__cnjadv"/></e>
+  <e lm="en o caso que"><i>en<b/></i><par n="detarticle_m_sg_var"/><i><b/>caso<b/>que</i><par n="porque__cnjadv"/></e>  
   <e lm="en caso que"><i>en<b/>caso<b/>que</i><par n="porque__cnjadv"/></e>
   <e lm="caso que"><i>caso<b/>que</i><par n="porque__cnjadv"/></e> <!-- problems in other combinations of "caso que"? -->
   <e lm="dando por feito que" r="RL"><i>dando<b/>por<b/>feito<b/>que</i><par n="porque__cnjadv"/></e>
@@ -38854,8 +38846,8 @@
   <e lm="siempre que" r="LR"><p><l>sempre<b/>que</l><r>siempre<b/>que</r></p><par n="porque__cnjadv"/></e>
   <e lm="tant bien como"><i>tant<b/>bien<b/>como</i><par n="porque__cnjadv"/></e>
   <e lm="tant bien como" r="LR"><p><l>tan<b/>bien<b/>como</l><r>tant<b/>bien<b/>como</r></p><par n="porque__cnjadv"/></e>
-  <e lm="ta ixo"><i>ta<b/>ixo</i><par n="porque__cnjadv"/></e>
-  <e lm="ta ixo" r="LR"><p><l>pa<b/>ixo</l><r>ta<b/>ixo</r></p><par n="porque__cnjadv"/></e>
+  <e lm="ta ixo" r="RL"><i>ta<b/>ixo</i><par n="porque__cnjadv"/></e>
+  <e lm="ta ixo" r="LR" i="yes"><p><l>pa<b/>ixo</l><r>ta<b/>ixo</r></p><par n="porque__cnjadv"/></e>
   <e lm="dimpués que"><i>dimpués<b/>que</i><par n="porque__cnjadv"/></e>
   <e lm="dimpués que" r="LR"><p><l>dispués<b/>que</l><r>dimpués<b/>que</r></p><par n="porque__cnjadv"/></e>
   <e lm="independientment que"><i>independientment<b/>que</i><par n="porque__cnjadv"/></e>
@@ -38991,7 +38983,7 @@
     <e lm="hoder" r="LR"><p><l>joder</l><r>hoder</r></p><par n="adiós__ij"/></e>
     <e lm="foter"><i>foter</i><par n="adiós__ij"/></e>
     <e lm="vai" i="yes"><i>bai</i><par n="adiós__ij"/></e>
-    <e lm="vai" r="LR"><p><l>bai</l><r>vai</r></p><par n="adiós__ij"/></e>
+    <e lm="vai" r="LR"><p><l>vai</l><r>bai</r></p><par n="adiós__ij"/></e>
     <e lm="vaga-le" i="yes"><i>vaga-le</i><par n="adiós__ij"/></e>
     <e lm="vaga-le" r="LR"  i="yes"><p><l>vagale</l><r>vaga-le</r></p><par n="adiós__ij"/></e>
     <e lm="vaga-le" r="LR"  i="yes"><p><l>bágale</l><r>vaga-le</r></p><par n="adiós__ij"/></e>
@@ -39129,11 +39121,11 @@
     <e lm="dentro"><i>dentro</i><par n="agora__adv"/></e>
     <e lm="dentro" r="LR"><p><l>drento</l><r>dentro</r></p><par n="agora__adv"/></e>
     <e lm="endentro"><i>endentro</i><par n="agora__adv"/></e>
-    <e lm="endentro" r="LR"><p><l>en<b/>dentro</l><r>adentro</r></p><par n="agora__adv"/></e>
-    <e lm="endentro" r="LR"><p><l>en<b/>dintro</l><r>adentro</r></p><par n="agora__adv"/></e>
-    <e lm="endentro" r="LR"><p><l>endentro</l><r>adentro</r></p><par n="agora__adv"/></e>
-    <e lm="endentro" r="LR"><p><l>endintro</l><r>adentro</r></p><par n="agora__adv"/></e>
-    <e lm="endentro" r="LR"><p><l>en<b/>drento</l><r>adentro</r></p><par n="agora__adv"/></e>
+    <e lm="endentro" r="LR"><p><l>en<b/>dentro</l><r>endentro</r></p><par n="agora__adv"/></e>
+    <e lm="endentro" r="LR"><p><l>en<b/>dintro</l><r>endentro</r></p><par n="agora__adv"/></e>
+    <e lm="endentro" r="LR"><p><l>endentro</l><r>endentro</r></p><par n="agora__adv"/></e>
+    <e lm="endentro" r="LR"><p><l>endintro</l><r>endentro</r></p><par n="agora__adv"/></e>
+    <e lm="endentro" r="LR"><p><l>en<b/>drento</l><r>endentro</r></p><par n="agora__adv"/></e>
     <e lm="adintro"><i>adintro</i><par n="agora__adv"/></e>
     <e lm="adintro" r="LR"><p><l>a<b/>dintro</l><r>adintro</r></p><par n="agora__adv"/></e>
     <e lm="adintro" r="LR"><p><l>á<b/>dintro</l><r>adintro</r></p><par n="agora__adv"/></e>
@@ -39146,9 +39138,9 @@
     <e lm="leixos"><par n="/l_ll__var"/><i>eixos</i><par n="agora__adv"/></e>
     <e lm="leixos" r="LR"><p><l>lexos</l><r>leixos</r></p><par n="agora__adv"/></e>
     <e lm="pro que sí"><i>pro<b/>que<b/>sí</i><par n="agora__adv"/></e>
-    <e lm="prou que sí" r="LR"><i>prou<b/>que<b/>sí</i><par n="agora__adv"/></e>
+    <e lm="prou que sí" r="LR"><p><l>prou<b/>que<b/>sí</l><r>pro<b/>que<b/>sí</r></p><par n="agora__adv"/></e>
     <e lm="pro que no"><i>pro<b/>que<b/>no</i><par n="agora__adv"/></e>
-    <e lm="prou que no" r="LR"><i>prou<b/>que<b/>no</i><par n="agora__adv"/></e>
+    <e lm="prou que no" r="LR"><p><l>prou<b/>que<b/>no</l><r>pro<b/>que<b/>no</r></p><par n="agora__adv"/></e>    
     <e lm="pro a fes"><i>pro<b/>a<b/>fes</i><par n="agora__adv"/></e>
     <e lm="pro a fes" r="LR"><p><l>profes</l><r>pro<b/>a<b/>fes</r></p><par n="agora__adv"/></e>
     <e lm="pro a fes" r="LR"><p><l>profés</l><r>pro<b/>a<b/>fes</r></p><par n="agora__adv"/></e>
@@ -39222,7 +39214,7 @@
     <e lm="mica"><i>mica</i><par n="agora__adv"/></e>
     <e lm="gota"><i>gota</i><par n="agora__adv"/></e>
     <e lm="pon"><i>pon</i><par n="agora__adv"/></e>
-    <e lm="pon" r="LR"><p><l>pont</l><r>pon</r></p><par n="án__adv"/></e>
+    <e lm="pon" r="LR"><p><l>pont</l><r>pon</r></p><par n="agora__adv"/></e>
     <e lm="quán"><i>quán</i><par n="án__adv"/></e>
     <e lm="cuán" r="LR"><p><l>cuan</l><r>quán</r></p><par n="án__adv"/></e>
     <e lm="quándo" r="LR"><p><l>quándo</l><r>quán</r></p><par n="án__adv"/></e>
@@ -41913,8 +41905,8 @@
     <e lm="encetar" r="LR"><i>encet</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
     <e lm="enronar"><i>enron</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms --><!--check -->
     <e lm="enronar"><p><l>enruen</l><r>enron</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
-    <e lm="encetar" r="LR"><i>enron</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
-    <e lm="encetar" r="LR"><i>enrun</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
+    <e lm="enronar" r="LR"><i>enron</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
+    <e lm="enronar" r="LR"><p><l>enrun</l><r>enron</r></p><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
     <e lm="levar" r="LR"><i>lev</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
     <e lm="levar" r="LR"><p><l>liev</l><r>lev</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
     <e lm="levar"><par n="/l_ll__var"/><i>ev</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
@@ -41933,7 +41925,7 @@
     <e lm="soltar" r="LR"><i>solt</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
     <e lm="acostar"><i>acost</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
     <e lm="acostar"><p><l>acuest</l><r>acost</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
-    <e lm="acostar" r="LR"><i>acostar</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
+    <e lm="acostar" r="LR"><i>acost</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
   <!-- -zar  / iezo / iece-->
     <e lm="alcorzar"><i>alcor</i><par n="almor/zar_nd__vblex"/></e><!-- non-diphtong forms -->
     <e lm="alcorzar"><p><l>alcuer</l><r>alcor</r></p><par n="almuer/zo_d__vblex"/></e> <!-- diphtong forms -->
@@ -41962,7 +41954,7 @@
     <e lm="acumular"><i>acumul</i><par n="cant/ar__vblex"/></e>
     <e lm="adaptar"><i>adapt</i><par n="cant/ar__vblex"/></e>
     <e lm="adotar"><i>adot</i><par n="cant/ar__vblex"/></e>
-    <e lm="adoptar" r="LR"><p><l>adopt</l><r>adopt</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="adoptar"><p><l>adopt</l><r>adopt</r></p><par n="cant/ar__vblex"/></e>
     <e lm="afeminar"><i>afemin</i><par n="cant/ar__vblex"/></e>
     <e lm="agrupar"><i>agrup</i><par n="cant/ar__vblex"/></e>
     <e lm="acochar"><i>acoch</i><par n="cant/ar__vblex"/></e>
@@ -41978,7 +41970,7 @@
     <e lm="alzar"><i>al</i><par n="ca/zar__vblex"/></e>
     <e lm="anexionar"><i>anexion</i><par n="cant/ar__vblex"/></e>
     <e lm="anexionar" r="LR"><p><l>anesion</l><r>anexion</r></p><par n="cant/ar__vblex"/></e>
-    <e lm="anexionar" r="LR"><p><l>anecsion</l><r>anexiond</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="anexionar" r="LR"><p><l>anecsion</l><r>anexion</r></p><par n="cant/ar__vblex"/></e>
     <e lm="anular"><i>anul</i><par n="cant/ar__vblex"/></e>
     <e lm="apoderar"><i>apoder</i><par n="cant/ar__vblex"/></e>
     <e lm="apropiar"><i>apropi</i><par n="cant/ar__vblex"/></e>
@@ -42210,12 +42202,12 @@
     <e lm="arrianismo"><i>arrianismo</i><par n="libro__n"/></e>
     <e lm="ascetismo"><i>ascetismo</i><par n="libro__n"/></e>
     
-    <e lm="asinasmesmo"><p><l>asinasmesmo</l><r>asinas<b/>mesmo</r></p><par n="libro__n"/></e>
-    <e lm="asinasmesmo" r="LR"><p><l>asinasmismo</l><r>asinasmesmo</r></p><par n="libro__n"/></e>
+    <e lm="asinasmesmo"><p><l>asinasmesmo</l><r>asinas<b/>mesmo</r></p><par n="agora__adv"/></e>
+    <e lm="asinasmesmo" r="LR"><p><l>asinasmismo</l><r>asinasmesmo</r></p><par n="agora__adv"/></e>
     <e lm="asinas mesmo"><i>asinas<b/>mesmo</i><par n="agora__adv"/></e>
-    <e lm="asinas mesmo" r="LR"><p><l>asinas<b/>mismo</l><r>asinas<b/>mesmo</r></p><par n="libro__n"/></e>
-    <e lm="asinas mesmo" r="LR"><p><l>asina<b/>mismo</l><r>asinas<b/>mesmo</r></p><par n="libro__n"/></e>
-    <e lm="asinas mesmo" r="LR"><p><l>asina<b/>mesmo</l><r>asinas<b/>mesmo</r></p><par n="libro__n"/></e>
+    <e lm="asinas mesmo" r="LR"><p><l>asinas<b/>mismo</l><r>asinas<b/>mesmo</r></p><par n="agora__adv"/></e>
+    <e lm="asinas mesmo" r="LR"><p><l>asina<b/>mismo</l><r>asinas<b/>mesmo</r></p><par n="agora__adv"/></e>
+    <e lm="asinas mesmo" r="LR"><p><l>asina<b/>mesmo</l><r>asinas<b/>mesmo</r></p><par n="agora__adv"/></e>
     
     <e lm="matrimonio"><i>matrimonio</i><par n="libro__n"/></e>
     <e lm="treballo"><i>treballo</i><par n="libro__n"/></e>
@@ -42388,7 +42380,6 @@
     <e lm="microorganismo"><i>microorganismo</i><par n="libro__n"/></e>
     <e lm="militarismo"><i>militarismo</i><par n="libro__n"/></e>
     <e lm="minimalismo"><i>minimalismo</i><par n="libro__n"/></e>
-    <e lm="mesmo"><i>mesmo</i><par n="libro__n"/></e>
     <e lm="mesmo" r="LR"><p><l>mismo</l><r>mesmo</r></p><par n="libro__n"/></e>
     <e lm="misticismo"><i>misticismo</i><par n="libro__n"/></e>
     <e lm="modernismo"><i>modernismo</i><par n="libro__n"/></e>
@@ -42425,7 +42416,7 @@
     <e lm="paganismo"><i>paganismo</i><par n="libro__n"/></e>
     <e lm="paludismo"><i>paludismo</i><par n="libro__n"/></e>
     <e lm="panarabismo"><i>panarabismo</i><par n="libro__n"/></e>
-    <e lm="panarabismo" r="LR"><p><l>pan-arabismo</l><r>pararabismo</r></p><par n="libro__n"/></e>
+    <e lm="panarabismo" r="LR"><p><l>pan-arabismo</l><r>panarabismo</r></p><par n="libro__n"/></e>
     <e lm="panchermanismo"><i>panchermanismo</i><par n="libro__n"/></e>
     <e lm="paralelismo"><i>paralelismo</i><par n="libro__n"/></e>
     <e lm="parlamentarismo"><i>parlamentarismo</i><par n="libro__n"/></e>
@@ -43458,7 +43449,7 @@
     <e lm="La Habana"><i>La<b/>Habana</i><par n="Afganistán__np"/></e>
     <e lm="La Jonquera"><i>La<b/>Jonquera</i><par n="Afganistán__np"/></e>
     <e lm="L'Albagés"><i>L'Albagés</i><par n="Afganistán__np"/></e>
-    <e lm="L'Albi"><i>L'Albi</i><par n="Afganistán__np"/></e>
+    <e lm="L'Albi" i="yes"><i>L'Albi</i><par n="Afganistán__np"/></e>
     <e lm="L'Albiol"><i>L'Albiol</i><par n="Afganistán__np"/></e>
     <e lm="l'Alcalatén"><i>l'Alcalatén</i><par n="Afganistán__np"/></e>
     <e lm="L'Alcora"><i>L'Alcora</i><par n="Afganistán__np"/></e>
@@ -44232,7 +44223,7 @@
     <e lm="Sud" r="LR"><p><l>Sur</l><r>Sud</r></p><par n="Afganistán__np"/></e>
     <e lm="Sudeste"><i>Sudeste</i><par n="Afganistán__np"/></e>
     <e lm="Sudeste" r="LR"><p><l>Sureste</l><r>Sudeste</r></p><par n="Afganistán__np"/></e>
-    <e lm="Sudeste" r="LR"><p><l>Sud-este</l><r>Sud-este</r></p><par n="Afganistán__np"/></e>
+    <e lm="Sudeste" r="LR"><p><l>Sud-este</l><r>Sudeste</r></p><par n="Afganistán__np"/></e>
     <e lm="Sudueste"><i>Sudueste</i><par n="Afganistán__np"/></e>
     <e lm="Sudueste" r="LR"><p><l>Surueste</l><r>Sudueste</r></p><par n="Afganistán__np"/></e>
     <e lm="Sudueste" r="LR"><p><l>Sud-ueste</l><r>Sudueste</r></p><par n="Afganistán__np"/></e>
@@ -46806,7 +46797,8 @@
 <e lm="Ayelo de Malferit"><i>Ayelo<b/>de<b/>Malferit</i><par n="Afganistán__np"/></e>
 <e lm="Ayelo de Rugat"><i>Ayelo<b/>de<b/>Rugat</i><par n="Afganistán__np"/></e>
 <e lm="Azcón"><i>Azcón</i><par n="Abad__np"/></e>
-<e lm="Azerbaiján" r="LR"><i>Azerbaiján</i><par n="Afganistán__np"/></e>
+<e lm="Azerbaichán"><i>Azerbaichán</i><par n="Afganistán__np"/></e>
+<e lm="Azerbaichán"><p><l>Azerbaiján</l><r>Azerbaichán</r></p><par n="Afganistán__np"/></e>
 <e lm="Azuébar"><i>Azuébar</i><par n="Afganistán__np"/></e>
 <e lm="Añón"><i>Añón</i><par n="Abad__np"/></e>
 <e lm="Bagà"><i>Bagà</i><par n="Afganistán__np"/></e>
@@ -47866,7 +47858,7 @@
 <e lm="l'Armentera"><i>l'Armentera</i><par n="Afganistán__np"/></e>
 <e lm="l'Eliana"><i>l'Eliana</i><par n="Afganistán__np"/></e>
 <e lm="l'Escala"><i>l'Escala</i><par n="Afganistán__np"/></e>
-<e lm="@teneo"><i>@teneo</i><par n="ABC__np"/></e>
+<e lm="Ateneo"><i>Ateneo</i><par n="ABC__np"/></e>
 <e lm="l'Espluga Calba"><i>l'Espluga<b/>Calba</i><par n="Afganistán__np"/></e>
 <e lm="l'Espluga de Francolí"><i>l'Espluga<b/>de<b/>Francolí</i><par n="Afganistán__np"/></e>
 <e lm="l'Espunyola"><i>l'Espunyola</i><par n="Afganistán__np"/></e>
@@ -48245,7 +48237,7 @@
     <e lm="crovata" r="LR"><p><l>croate</l><r>crovata</r></p><par n="social__adj"/></e>  
     <e lm="crucial"><i>crucial</i><par n="social__adj"/></e>
     <e lm="cruel"><i>cruel</i><par n="social__adj"/></e>
-    <e lm="cruel" r="LR"><p><l>crudel</l><r>cruel</r></p><par n="difer/ent__adj"/></e>
+    <e lm="cruel" r="LR"><p><l>crudel</l><r>cruel</r></p><par n="social__adj"/></e>
     <e lm="cruixient"><i>cruixi</i><par n="difer/ent__adj"/></e>
     <e lm="cruxient" r="LR"><p><l>cruxi</l><r>cruixi</r></p><par n="difer/ent__adj"/></e>
     <e lm="quadrangular"><i>quadrangular</i><par n="social__adj"/></e>
@@ -48300,7 +48292,7 @@
     <e lm="ductil"><i>ductil</i><par n="social__adj"/></e>
     <e lm="ductil" r="LR"><p><l>dúctil</l><r>ductil</r></p><par n="social__adj"/></e>  
     <e lm="dulce"><i>dul</i><par n="dul/ce__adj_adv"/></e>
-    <e lm="dulce" r="LR"><p><l>dol</l><r>dul</r></p><par n="social__adj"/></e>  
+    <e lm="dulce" r="LR"><p><l>dol</l><r>dul</r></p><par n="dul/ce__adj_adv"/></e>  
     <e lm="equanime"><i>equanime</i><par n="social__adj"/></e>
     <e lm="equanime" r="LR"><p><l>ecuanime</l><r>equanime</r></p><par n="social__adj"/></e>  
     <e lm="equatorial"><i>equatorial</i><par n="social__adj"/></e>
@@ -48572,8 +48564,8 @@
     <e lm="lider"><par n="/l_ll__var"/><i>ider</i><par n="social__adj"/></e>
     <e lm="lider" r="LR"><p><l>líder</l><r>lider</r></p><par n="social__adj"/></e>
     <e lm="buegant"><i>bueg</i><par n="degrad/ant__adj"/></e>
-    <e lm="buegant" r="LR"><p><l>güeg</l><r>buegant</r></p><par n="degrad/ant__adj"/></e>
-    <e lm="mugant" r="LR"><p><l>mug</l><r>buegant</r></p><par n="degrad/ant__adj"/></e>
+    <e lm="buegant" r="LR"><p><l>güeg</l><r>bueg</r></p><par n="degrad/ant__adj"/></e>
+    <e lm="mugant" r="LR"><p><l>mug</l><r>bueg</r></p><par n="degrad/ant__adj"/></e>
     <e lm="lineal"><par n="/l_ll__var"/><i>ineal</i><par n="social__adj"/></e>
     <e lm="literal"><par n="/l_ll__var"/><i>iteral</i><par n="social__adj"/></e>
     <e lm="litoral"><par n="/l_ll__var"/><i>itoral</i><par n="social__adj"/></e>
@@ -48932,7 +48924,7 @@
     <e lm="universalista"><i>universalista</i><par n="social__adj"/></e>
     <e lm="usual"><i>usual</i><par n="social__adj"/></e>
     <e lm="util"><i>util</i><par n="social__adj"/></e>
-    <e lm="útil" r="LR"><p><l>útil</l><r>util</r></p><par n="Afganistán__np"/></e>
+    <e lm="útil" r="LR"><p><l>útil</l><r>util</r></p><par n="social__adj"/></e>
     <e lm="utilitarista"><i>utilitarista</i><par n="social__adj"/></e>
     <e lm="utilizable"><i>utilizable</i><par n="social__adj"/></e>
     <e lm="valencianista"><i>valencianista</i><par n="social__adj"/></e>
@@ -48959,7 +48951,7 @@
     <e lm="vocacional"><i>vocacional</i><par n="social__adj"/></e>
     <e lm="vocal"><i>vocal</i><par n="social__adj"/></e>    
     <e lm="volátil"><i>volatil</i><par n="social__adj"/></e>
-    <e lm="volátil" r="LR"><p><l>volátil</l><r>volatil</r></p><par n="Afganistán__np"/></e>
+    <e lm="volátil" r="LR"><p><l>volátil</l><r>volatil</r></p><par n="social__adj"/></e>
     <e lm="vulgar"><i>vulgar</i><par n="social__adj"/></e>
     <e lm="vulnerable"><i>vulnerable</i><par n="social__adj"/></e>
     <e lm="yemení"><i>yemení</i><par n="social__adj"/></e>
@@ -49167,7 +49159,7 @@
     <e lm="medico"><i>medic</i><par n="amig/o__n"/></e>
     <e lm="mexicano"><i>mexic</i><par n="cristi/ano__n"/></e>
     <e lm="minero"><i>min</i><par n="vaqu/ero__n"/></e>
-    <e lm="minero" r="LR"><p><l>mener</l><r>miner</r></p><par n="vaqu/ero__n"/></e>
+    <e lm="minero" r="LR"><p><l>men</l><r>min</r></p><par n="vaqu/ero__n"/></e>
     <e lm="morisco"><i>morisc</i><par n="amig/o__n"/></e>
     <e lm="moro"><i>mor</i><par n="amig/o__n"/></e>
     <e lm="nativo"><i>nativ</i><par n="amig/o__n"/></e>
@@ -49210,9 +49202,13 @@
     <e lm="sirio"><i>siri</i><par n="amig/o__n"/></e>
     <e lm="soberano"><i>sober</i><par n="cristi/ano__n"/></e>
     <e lm="sudafricano"><i>sudafric</i><par n="cristi/ano__n"/></e>
-    <e lm="sudafricano" r="LR"><p><l>surafrican</l><r>sudafrican</r></p><par n="cristi/ano__n"/></e>
+    <e lm="sudafricano" r="LR"><p><l>surafric</l><r>sudafric</r></p><par n="cristi/ano__n"/></e>
     <e lm="sudamericano"><i>sudameric</i><par n="cristi/ano__n"/></e>
-    <e lm="sudamericano" r="LR"><p><l>suramerican</l><r>sudamerican</r></p><par n="cristi/ano__n"/></e>
+    <e lm="sudamericano" r="LR"><p><l>surameric</l><r>sudameric</r></p><par n="cristi/ano__n"/></e>
+    <e lm="sudafricano"><i>sudafric</i><par n="occit/án__adj"/></e>
+    <e lm="sudafricano" r="LR"><p><l>surafric</l><r>sudafric</r></p><par n="occit/án__adj"/></e>
+    <e lm="sudamericano"><i>sudameric</i><par n="occit/án__adj"/></e>
+    <e lm="sudamericano" r="LR"><p><l>surameric</l><r>sudameric</r></p><par n="occit/án__adj"/></e>
     <e lm="suizo"><i>suiz</i><par n="amig/o__n"/></e>
     <e lm="sumerio"><i>sumeri</i><par n="amig/o__n"/></e>
     <e lm="teorico"><i>teoric</i><par n="amig/o__n"/></e>
@@ -49248,7 +49244,7 @@
     <e lm="europeu"><i>europe</i><par n="europe/u__n"/></e>
     <e lm="farmaceutico"><i>farmaceutic</i><par n="amig/o__n"/></e>
     <e lm="fisico"><i>fisic</i><par n="amig/o__n"/></e>
-    <e lm="fesico" r="LR"><p><l>fesico</l><r>fisico</r></p><par n="amig/o__n"/></e>
+    <e lm="fesico" r="LR"><p><l>fesic</l><r>fisic</r></p><par n="amig/o__n"/></e>
     <e lm="galo"><i>gal</i><par n="amig/o__n"/></e>
     <e lm="interesau"><i>interesa</i><par n="acusa/u__n"/></e>    
     <e lm="latino"><par n="/l_ll__var"/><i>at</i><par n="palest/ino__n"/></e>
@@ -49573,7 +49569,7 @@
     <e lm="resta"><i>resta</i><par n="luenga__n"/></e>
     <e lm="cambra"><i>cambra</i><par n="luenga__n"/></e>
     <e lm="quarto"><i>quarto</i><par n="libro__n"/></e>
-    <e lm="quarto" r="LR"><p><l>quarto</l><r>cuarto</r></p><par n="libro__n"/></e>
+    <e lm="quarto" r="LR"><p><l>cuarto</l><r>quarto</r></p><par n="libro__n"/></e>
     <e lm="congreso"><i>congreso</i><par n="libro__n"/></e>
     <e lm="sangre"><i>sangre</i><par n="luenga__n"/></e>
     <e lm="sangre" r="LR"><p><l>sang</l><r>sangre</r></p><par n="luenga__n"/></e>
@@ -49586,7 +49582,7 @@
     <e lm="letra"><par n="/l_ll__var"/><i>etra</i><par n="luenga__n"/></e>
     <e lm="grafía"><i>grafía</i><par n="luenga__n"/></e>
     <e lm="seqüencia"><i>seqüencia</i><par n="luenga__n"/></e>
-    <e lm="seqüencia" r="LR"><p><l>secuencia</l><r>seqüencia</r></p><par n="libro__n"/></e>
+    <e lm="seqüencia" r="LR"><p><l>secuencia</l><r>seqüencia</r></p><par n="luenga__n"/></e>
     <e lm="seqüencia"><i>seqüencia</i><par n="luenga__n"/></e>
     <e lm="preposición"><i>preposi</i><par n="actua/ción__n"/></e>
     <e lm="conchunción"><i>conchun</i><par n="actua/ción__n"/></e>
@@ -49606,8 +49602,8 @@
     <e lm="punto"><i>punto</i><par n="libro__n"/></e>    
     <e lm="digrafo"><i>digrafo</i><par n="libro__n"/></e>
     <e lm="momento"><i>momento</i><par n="libro__n"/></e>
+    <e lm="momento" r="LR"><p><l>moment</l><r>momento</r></p><par n="libro__n"/></e>
     <e lm="detrimento"><i>detrimento</i><par n="libro__n"/></e>
-    <e lm="momento" r="LR"><p><l>moment</l><r>momento</r></p><par n="pelaire__n"/></e>
     <e lm="inte"><i>inte</i><par n="libro__n"/></e>
     <e lm="fuego"><i>fuego</i><par n="libro__n"/></e>
     <e lm="fierro"><i>fierro</i><par n="libro__n"/></e>
@@ -49689,7 +49685,7 @@
 
     <e lm="problema"><i>problema</i><par n="libro__n"/></e>
     <e lm="muller"><i>muller</i><par n="luenga__n"/></e>
-    <e lm="muller" r="LR"><p><l>mullé</l><r>mullés</r></p><par n="luenga__n"/></e>
+    <e lm="muller" r="LR"><p><l>mullé</l><r>muller</r></p><par n="luenga__n"/></e>
     <e lm="fillo"><i>fill</i><par n="amig/o__n"/></e>
     <e lm="man"><i>man</i><par n="luenga__n"/></e>
     <e lm="man" r="LR"><p><l>mano</l><r>man</r></p><par n="luenga__n"/></e>
@@ -49716,7 +49712,7 @@
     <e lm="llegar"><i>lleg</i><par n="pag/ar__vblex"/></e>
     <e lm="puyar"><i>puy</i><par n="cant/ar__vblex"/></e>
     <e lm="baixar"><i>baix</i><par n="cant/ar__vblex"/></e>
-    <e lm="baixar" r="LR"><p><l>baxar</l><r>baixar</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="baixar" r="LR"><p><l>bax</l><r>baix</r></p><par n="cant/ar__vblex"/></e>
     <e lm="leyer"><i>l</i><par n="l/eyer__vblex"/></e>  
     <e lm="creyer"><i>cr</i><par n="l/eyer__vblex"/></e> 
     <e lm="escribir"><i>escri</i><par n="escri/bir__vblex"/></e>
@@ -49757,7 +49753,7 @@
     <e lm="predicir"><i>pred</i><par n="d/icir__vblex"/></e>
     <e lm="predicir" r="LR"><p><l>predi</l><r>predi</r></p><par n="dedu/cir__vblex"/></e>
     <e lm="responder"><i>respond</i><par n="vend/er__vblex"/></e> <!-- also participle respuesto (secondary) -->
-    <e lm="responder" r="LR"><p><l>respuest</l><r>respond<s n="vblex"/></r></p><par n="pp_quiest/o__cnjgt"/></e>
+    <e lm="responder" r="LR"><p><l>respuest</l><r>responder<s n="vblex"/></r></p><par n="pp_quiest/o__cnjgt"/></e>
     <e lm="veyer"><i>v</i><par n="v/eyer__vblex"/></e>
     <e lm="veyer" r="LR"><p><l>b</l><r>v</r></p><par n="v/eyer__vblex"/></e>
     <e lm="chugar"><i>chug</i><par n="pag/ar__vblex"/></e>
@@ -49785,7 +49781,7 @@
     <e lm="pareixer" r="LR"><p><l>pare</l><r>pare</r></p><par n="cono/cer__vblex"/></e>
     <e lm="pareixer" r="LR"><p><l>pae</l><r>pare</r></p><par n="cono/cer__vblex"/></e>
     <e lm="pareixer" r="LR"><p><l>pai</l><r>pare</r></p><par n="cono/cer__vblex"/></e>
-    <e lm="pareixer" r="LR"><p><l>pa</l><r>pare</r></p><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
+    <e lm="pareixer" r="LR"><p><l>pa</l><r>par</r></p><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
 
     <e lm="aclarir"><i>aclar</i><par n="aclar/ir__vblex"/></e> <!-- par incoat y no incoat-->
     <e lm="esclarir"><i>esclar</i><par n="aclar/ir__vblex"/></e>
@@ -49825,8 +49821,8 @@
     <e lm="sí"><i>sí</i><par n="agora__adv"/></e>
     <e lm="nunca no" r="LR"><i>nunca<b/>no</i><par n="agora__adv"/></e>
     <e lm="caler"><i>cal</i><par n="cal/er__vbmod"/></e>
-    <e lm="etc"><i>etc.</i><par n="etc.__abbr"/></e>
-    <e lm="etc" r="LR"><p><l>etc</l><r>etc.</r></p><par n="etc.__abbr"/></e>
+    <e lm="etc"><i>etc.</i><par n="agora__adv"/></e>
+    <e lm="etc" r="LR"><p><l>etc</l><r>etc.</r></p><par n="agora__adv"/></e>
     
     <e lm="admiración"><i>admira</i><par n="actua/ción__n"/></e>
     <e lm="admiración" r="LR"><p><l>almira</l><r>admira</r></p><par n="actua/ción__n"/></e>
@@ -49861,7 +49857,7 @@
     <e lm="definición"><i>defini</i><par n="actua/ción__n"/></e>
     <e lm="desaparición"><i>desapari</i><par n="actua/ción__n"/></e>
     <e lm="descripción"><i>descrip</i><par n="actua/ción__n"/></e>
-    <e lm="desesperación"><i>desespera</i><par n="actua/ción__n"/></e>
+    <e lm="desasperación"><i>desaspera</i><par n="actua/ción__n"/></e>
     <e lm="destrucción"><i>destruc</i><par n="actua/ción__n"/></e>
     <e lm="dirección"><i>direc</i><par n="actua/ción__n"/></e>
     <e lm="discrección"><i>discrec</i><par n="actua/ción__n"/></e>
@@ -49925,7 +49921,7 @@
     <e lm="natación"><i>nata</i><par n="actua/ción__n"/></e>
     <e lm="nabegación"><i>nabega</i><par n="actua/ción__n"/></e>
     <e lm="negación"><i>nega</i><par n="actua/ción__n"/></e>
-    <e lm="numaración"><i>numara</i><par n="actua/ción__n"/></e>
+    <e lm="numeración"><i>numera</i><par n="actua/ción__n"/></e>
     <e lm="nutrición"><i>nutri</i><par n="actua/ción__n"/></e>
     <e lm="obchección"><i>obchec</i><par n="actua/ción__n"/></e>
     <e lm="obserbación"><i>obserba</i><par n="actua/ción__n"/></e>
@@ -50122,7 +50118,7 @@
     <e lm="alfabetico"><i>alfabetic</i><par n="academic/o__adj_adv"/></e>
     <e lm="alfanumerico"><i>alfanumeric</i><par n="academic/o__adj_adv"/></e>
     <e lm="algoritmico"><i>algoritmic</i><par n="academic/o__adj_adv"/></e>
-    <e lm="aliquota"><i>aliquota</i><par n="social__adj_adv"/></e>
+    <e lm="aliquot"><i>aliquot</i><par n="academic/o__adj_adv"/></e>
     <e lm="liberador"><i>liberador</i><par n="opresor__adj_adv"/></e>
     <e lm="alicionador"><i>alicionador</i><par n="opresor__adj_adv"/></e>
     <e lm="alopatrico"><i>alopatric</i><par n="academic/o__adj_adv"/></e>
@@ -50695,8 +50691,8 @@
     <e lm="costoso"><i>costos</i><par n="academic/o__adj_adv"/></e>
     <e lm="cranial"><i>cranial</i><par n="social__adj_adv"/></e>
     <e lm="creyible"><i>creyible</i><par n="social__adj_adv"/></e>
-    <e lm="creyible" r="LR"><p><l>creíble</l><r>creible</r></p><par n="social__adj_adv"/></e>
-    <e lm="creyible" r="LR"><p><l>creible</l><r>creible</r></p><par n="social__adj_adv"/></e>
+    <e lm="creyible" r="LR"><p><l>creíble</l><r>creyible</r></p><par n="social__adj_adv"/></e>
+    <e lm="creyible" r="LR"><p><l>creible</l><r>creyible</r></p><par n="social__adj_adv"/></e>
     <e lm="creativo"><i>creati</i><par n="cursi/vo__adj_adv"/></e>
     <e lm="credulo"><i>credul</i><par n="academic/o__adj_adv"/></e>
     <e lm="creyent"><i>crey</i><par n="difer/ent__adj_adv"/></e>
@@ -50910,7 +50906,7 @@
     <e lm="contino"><i>contin</i><par n="academic/o__adj_adv"/></e>
     <e lm="contino" r="LR"><p><l>continu</l><r>contin</r></p><par n="academic/o__adj_adv"/></e>
     <e lm="discontino"><i>discontin</i><par n="academic/o__adj_adv"/></e>
-    <e lm="discontino" r="LR"><p><l>discontinu</l><r>discontin</r></p><par n="social__adj_adv"/></e>
+    <e lm="discontino" r="LR"><p><l>discontinu</l><r>discontin</r></p><par n="academic/o__adj_adv"/></e>
     <e lm="discrecional"><i>discrecional</i><par n="social__adj_adv"/></e>
     <e lm="discreto"><i>discret</i><par n="academic/o__adj_adv"/></e>
     <e lm="discriminau"><i>discrimina</i><par n="adequa/u__adj_adv"/></e>
@@ -51363,7 +51359,7 @@
     <e lm="fermo"><i>ferm</i><par n="academic/o__adj_adv"/></e>
     <e lm="fiscal"><i>fiscal</i><par n="social__adj_adv"/></e>
     <e lm="fisico"><i>fisic</i><par n="academic/o__adj_adv"/></e>
-    <e lm="fisico" r="LR"><p><l>fisic</l><r>fesic</r></p><par n="academic/o__adj_adv"/></e>
+    <e lm="fisico" r="LR"><p><l>fesic</l><r>fisic</r></p><par n="academic/o__adj_adv"/></e>
     <e lm="fisiolochico"><i>fisiolochic</i><par n="academic/o__adj_adv"/></e>
     <e lm="fitosanitario"><i>fitosanitari</i><par n="academic/o__adj_adv"/></e>
     <e lm="fixo"><i>fix</i><par n="academic/o__adj_adv"/></e>
@@ -51444,7 +51440,7 @@
     <e lm="fundamental"><i>fundamental</i><par n="social__adj_adv"/></e>
     <e lm="alazetal"><i>alazetal</i><par n="social__adj_adv"/></e>
     <e lm="fundo"><i>fund</i><par n="academic/o__adj_adv"/></e>
-    <e lm="fundo" r="LR"><p><l>profun</l><r>fun</r></p><par n="adequa/u__adj_adv"/></e>
+    <e lm="fundo" r="LR"><p><l>profund</l><r>fund</r></p><par n="academic/o__adj_adv"/></e>
     <e lm="funebre"><i>funebre</i><par n="social__adj_adv"/></e>
     <e lm="funerario"><i>funerari</i><par n="academic/o__adj_adv"/></e>
     <e lm="funesto"><i>funest</i><par n="academic/o__adj_adv"/></e>
@@ -51554,7 +51550,7 @@
     <e lm="humanistico"><i>humanistic</i><par n="academic/o__adj_adv"/></e>
     <e lm="humanitario"><i>humanitari</i><par n="academic/o__adj_adv"/></e>
     <e lm="humido"><i>humid</i><par n="academic/o__adj_adv"/></e>
-    <e lm="humido" r="LR"><p><l>humed</l><r>humid</r></p><par n="malam/ent__adv"/></e>
+    <e lm="humido" r="LR"><p><l>humed</l><r>humid</r></p><par n="academic/o__adj_adv"/></e>
     <e lm="humil"><i>humil</i><par n="social__adj_adv"/></e>
     <e lm="humil" r="LR"><p><l>humilde</l><r>humil</r></p><par n="social__adj_adv"/></e>
     <e lm="yambico"><i>yambic</i><par n="academic/o__adj_adv"/></e>
@@ -52187,7 +52183,7 @@
     <e lm="mediatico"><i>mediatic</i><par n="academic/o__adj_adv"/></e>
     <e lm="medico"><i>medic</i><par n="academic/o__adj_adv"/></e>
     <e lm="meyeval"><i>meyeval</i><par n="social__adj_adv"/></e>
-    <e lm="meyeval" r="LR"><p><l>medieval</l><r>meyeval</r></p><par n="malam/ent__adv"/></e>
+    <e lm="meyeval" r="LR"><p><l>medieval</l><r>meyeval</r></p><par n="social__adj_adv"/></e>
     <e lm="mediocre"><i>mediocre</i><par n="social__adj_adv"/></e>
     <e lm="medular"><i>medular</i><par n="social__adj_adv"/></e>
     <e lm="megalomano"><i>megaloman</i><par n="academic/o__adj_adv"/></e>
@@ -52883,6 +52879,7 @@
     <e lm="eslizador"><i>eslizad</i><par n="treballad/or__adj_adv"/></e>
     <e lm="remarcable"><i>remarcable</i><par n="social__adj_adv"/></e>
     <e lm="remolcador"><i>remolcador</i><par n="opresor__adj_adv"/></e>
+    <e lm="remolcador"><i>remolcad</i><par n="treballad/or__adj"/></e>
     <e lm="remoto"><i>remot</i><par n="academic/o__adj_adv"/></e>
     <e lm="remunerau"><i>remunera</i><par n="adequa/u__adj_adv"/></e>
     <e lm="rentable"><i>rentable</i><par n="social__adj_adv"/></e>
@@ -53556,8 +53553,8 @@
     <e lm="pai" r="LR"><p><l>padri</l><r>pai</r></p><par n="libro__n"/></e>
     <e lm="pai" r="LR"><p><l>pare</l><r>pai</r></p><par n="libro__n"/></e>
     <e lm="mai"><i>mai</i><par n="luenga__n"/></e>
-    <e lm="mai" r="LR"><p><l>madri</l><r>mai</r></p><par n="libro__n"/></e>
-    <e lm="mai" r="LR"><p><l>mare</l><r>mai</r></p><par n="libro__n"/></e>
+    <e lm="mai" r="LR"><p><l>madri</l><r>mai</r></p><par n="luenga__n"/></e>
+    <e lm="mai" r="LR"><p><l>mare</l><r>mai</r></p><par n="luenga__n"/></e>
     <e lm="abusar"><i>abus</i><par n="cant/ar__vblex"/></e>
     <e lm="admirar"><i>admir</i><par n="cant/ar__vblex"/></e>
     <e lm="admirar" r="LR"><p><l>almir</l><r>admir</r></p><par n="cant/ar__vblex"/></e>
@@ -53683,8 +53680,8 @@
     <e lm="repasar"><i>repas</i><par n="cant/ar__vblex"/></e>
     <e lm="rescatar"><i>rescat</i><par n="cant/ar__vblex"/></e>
     <e lm="resucitar"><i>resucit</i><par n="cant/ar__vblex"/></e>
-    <e lm="retular"><i>retul</i><par n="cant/ar__vblex"/></e>
-    <e lm="retular" r="LR"><p><l>rotul</l><r>retul</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="rotular"><i>rotul</i><par n="cant/ar__vblex"/></e>
+    <e lm="retular" r="LR"><p><l>retul</l><r>rotul</r></p><par n="cant/ar__vblex"/></e>
     <e lm="retratar"><i>retrat</i><par n="cant/ar__vblex"/></e>
     <e lm="revisar"><i>revis</i><par n="cant/ar__vblex"/></e>
     <e lm="rifar"><i>rif</i><par n="cant/ar__vblex"/></e>
@@ -53710,7 +53707,7 @@
     <e lm="chutar"><i>chut</i><par n="cant/ar__vblex"/></e>
     <e lm="solicitar"><i>solicit</i><par n="cant/ar__vblex"/></e>
     <e lm="asasinar"><i>asasin</i><par n="cant/ar__vblex"/></e>
-    <e lm="asasinar" r="LR"><p><l>asesin</l><r>asesin</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="asasinar" r="LR"><p><l>asesin</l><r>asasin</r></p><par n="cant/ar__vblex"/></e>
     <e lm="cudiar"><i>cudi</i><par n="cant/ar__vblex"/></e>
     <e lm="cautivar"><i>cautiv</i><par n="cant/ar__vblex"/></e>
     <e lm="enchufar"><i>enchuf</i><par n="cant/ar__vblex"/></e>
@@ -53727,8 +53724,8 @@
     <e lm="continar"><i>contin</i><par n="cant/ar__vblex"/></e>
     <e lm="declarar"><i>declar</i><par n="cant/ar__vblex"/></e>
     <e lm="desaloixar"><i>desaloix</i><par n="cant/ar__vblex"/></e>
-    <e lm="desaloixar" r="LR"><p><l>desaloch</l><r>desaloix</r></p><par n="ca/zar__vblex"/></e>
-    <e lm="desaloixar" r="LR"><p><l>desalox</l><r>desaloix</r></p><par n="ca/zar__vblex"/></e>
+    <e lm="desaloixar" r="LR"><p><l>desaloch</l><r>desaloix</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="desaloixar" r="LR"><p><l>desalox</l><r>desaloix</r></p><par n="cant/ar__vblex"/></e>
     <e lm="dibuixar"><i>dibuix</i><par n="cant/ar__vblex"/></e>
     <e lm="empuixar"><i>empuix</i><par n="cant/ar__vblex"/></e>
     <e lm="encaixar"><i>encaix</i><par n="cant/ar__vblex"/></e>
@@ -53745,12 +53742,12 @@
     <e lm="rapar"><i>rap</i><par n="cant/ar__vblex"/></e>
     <e lm="sospeitar"><i>sospeit</i><par n="cant/ar__vblex"/></e>
     <e lm="otilar"><i>otil</i><par n="cant/ar__vblex"/></e>
-    <e lm="otilar" r="LR"><p><l>otul</l><r>otul</r></p><par n="ca/zar__vblex"/></e>    
+    <e lm="otilar" r="LR"><p><l>otul</l><r>otil</r></p><par n="cant/ar__vblex"/></e>    
     <e lm="veilar"><i>veil</i><par n="cant/ar__vblex"/></e>
     <e lm="espleitar"><i>espleit</i><par n="cant/ar__vblex"/></e>
     <e lm="espleitar"><i>espleit</i><par n="camb/iar__vblex"/></e>    
     <e lm="analisar"><i>analis</i><par n="cant/ar__vblex"/></e>
-    <e lm="analisar" r="LR"><p><l>analiz</l><r>analis</r></p><par n="ca/zar__vblex"/></e>
+    <e lm="analisar" r="LR"><p><l>analiz</l><r>analis</r></p><par n="cant/ar__vblex"/></e>
     <e lm="desordinar"><i>desordin</i><par n="cant/ar__vblex"/></e>
     <e lm="desordinar" r="LR"><p><l>desorden</l><r>desordin</r></p><par n="cant/ar__vblex"/></e>
     <e lm="rebaixar"><i>rebaix</i><par n="cant/ar__vblex"/></e>
@@ -53951,7 +53948,7 @@
     <e lm="fumigar"><i>fumig</i><par n="pag/ar__vblex"/></e>
     <e lm="chudgar"><i>chudg</i><par n="pag/ar__vblex"/></e>
     <e lm="chudgar" r="LR"><p><l>chutg</l><r>chudg</r></p><par n="pag/ar__vblex"/></e>
-    <e lm="chudgar" r="LR"><p><l>chuzg</l><r>chutg</r></p><par n="pag/ar__vblex"/></e>
+    <e lm="chudgar" r="LR"><p><l>chuzg</l><r>chudg</r></p><par n="pag/ar__vblex"/></e>
     <e lm="negar"><i>n</i><par n="s/egar__vblex"/></e>
     <e lm="negar" r="LR"><i>neg</i><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->
     <e lm="afogar" r="LR"><i>af</i><par n="r/ogar__vblex"/></e>
@@ -54009,12 +54006,12 @@
     <e lm="confesar"><p><l>confies</l><r>confes</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
     <e lm="confesar" r="LR"><i>confes</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
     <e lm="connectar"><i>connect</i><par n="cant/ar__vblex"/></e>
-    <e lm="connectar" r="LR"><p><l>conect</l><r>conect</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="connectar" r="LR"><p><l>conect</l><r>connect</r></p><par n="cant/ar__vblex"/></e>
     <e lm="contestar"><i>contest</i><par n="cant/ar__vblex"/></e>
     <e lm="desaprebar"><i>desapreb</i><par n="cant/ar__vblex"/></e>
     <e lm="desaprebar" r="LR"><p><l>desaprob</l><r>desapreb</r></p><par n="cant/ar__vblex"/></e>
     <e lm="desencadenar"><i>desencaden</i><par n="cant/ar__vblex"/></e>
-    <e lm="desasperar"><i>desesper</i><par n="cant/ar__vblex"/></e>
+    <e lm="desasperar"><i>desasper</i><par n="cant/ar__vblex"/></e>
     <e lm="desasperar" r="LR"><p><l>desesper</l><r>desasper</r></p><par n="cant/ar__vblex"/></e>
     <e lm="desheredar"><i>deshered</i><par n="cant/ar__vblex"/></e>
     <e lm="desinfectar"><i>desinfect</i><par n="cant/ar__vblex"/></e>
@@ -54078,7 +54075,7 @@
     <e lm="pelar"><i>pel</i><par n="cant/ar__vblex"/></e>
     <e lm="pesar"><i>pes</i><par n="cant/ar__vblex"/></e>    
     <e lm="pretar"><i>pret</i><par n="cant/ar__vblex"/></e>
-    <e lm="pretar" r="LR"><i>pretar</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
+    <e lm="pretar" r="LR"><i>pret</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
     <e lm="pretar" r="LR"><p><l>priet</l><r>pret</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
     <e lm="premiar"><i>premi</i><par n="cant/ar__vblex"/></e>
     <e lm="protestar"><i>protest</i><par n="cant/ar__vblex"/></e>
@@ -54154,7 +54151,7 @@
     <e lm="domar"><i>dom</i><par n="cant/ar__vblex"/></e>
     <e lm="dotar"><i>dot</i><par n="cant/ar__vblex"/></e>
     <e lm="ixordar"><i>ixord</i><par n="cant/ar__vblex"/></e>
-    <e lm="ixordar" r="LR"><p><l>xordar</l><r>ixordar</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="ixordar" r="LR"><p><l>xord</l><r>ixord</r></p><par n="cant/ar__vblex"/></e>
     <e lm="elaborar"><i>elabor</i><par n="cant/ar__vblex"/></e>
     <e lm="embolsar"><i>embols</i><par n="cant/ar__vblex"/></e>
     <e lm="esposar"><i>espos</i><par n="cant/ar__vblex"/></e>
@@ -54252,8 +54249,8 @@
     <e lm="cobrar"><i>cobr</i><par n="cant/ar__vblex"/></e>
     <e lm="desauguar"><i>desaug</i><par n="desaug/uar__vblex"/></e>
     <e lm="desauguar" r="LR"><p><l>desaug</l><r>desaugu</r></p><par n="pag/ar__vblex"/></e>
-    <e lm="desauguar" r="LR"><p><l>desaig</l><r>desaugu</r></p><par n="desaug/uar__vblex"/></e>
-    <e lm="desauguar" r="LR"><p><l>desaug</l><r>desaugu</r></p><par n="desaug/uar__vblex"/></e>
+    <e lm="desauguar" r="LR"><p><l>desaig</l><r>desaug</r></p><par n="desaug/uar__vblex"/></e>
+    <e lm="desauguar" r="LR"><p><l>desaug</l><r>desaug</r></p><par n="desaug/uar__vblex"/></e>
     <e lm="designar"><i>design</i><par n="cant/ar__vblex"/></e>
     <e lm="designar" r="LR"><p><l>desinn</l><r>design</r></p><par n="cant/ar__vblex"/></e>
     <e lm="desinflar"><i>desinfl</i><par n="cant/ar__vblex"/></e>
@@ -54457,11 +54454,11 @@
     <e lm="olorar"><i>olor</i><par n="cant/ar__vblex"/></e>
     <e lm="olorar" r="LR"><p><l>ulor</l><r>olor</r></p><par n="cant/ar__vblex"/></e>  <!-- fer buena olor -->
     <e lm="plever"><par n="/pl_pll__var"/><i>ev</i><par n="plev/er__vblex"/></e> <!-- impersonal--> 
-    <e lm="plever" r="LR"><p><l>plov</l><r>plev</r></p><par n="vend/er__vblex"/></e>
-    <e lm="plever" r="LR"><p><l>pllov</l><r>plev</r></p><par n="vend/er__vblex"/></e>
-    <e lm="plever" r="LR"><p><l>plob</l><r>plev</r></p><par n="vend/er__vblex"/></e>
-    <e lm="plever" r="LR"><p><l>pllob</l><r>plev</r></p><par n="vend/er__vblex"/></e>
-    <e lm="plever" r="LR"><p><l>pleb</l><r>plev</r></p><par n="vend/er__vblex"/></e>
+    <e lm="plever" r="LR"><p><l>plov</l><r>plev</r></p><par n="plev/er__vblex"/></e>
+    <e lm="plever" r="LR"><p><l>pllov</l><r>plev</r></p><par n="plev/er__vblex"/></e>
+    <e lm="plever" r="LR"><p><l>plob</l><r>plev</r></p><par n="plev/er__vblex"/></e>
+    <e lm="plever" r="LR"><p><l>pllob</l><r>plev</r></p><par n="plev/er__vblex"/></e>
+    <e lm="plever" r="LR"><p><l>pleb</l><r>plev</r></p><par n="plev/er__vblex"/></e>
     <e lm="preceder"><i>preced</i><par n="vend/er__vblex"/></e>
     <e lm="prener"><i>pr</i><par n="pr/ener__vblex"/></e>
     <e lm="reprener"><i>repr</i><par n="pr/ener__vblex"/></e>
@@ -54542,7 +54539,7 @@
     <e lm="discutir"><i>discut</i><par n="viv/ir__vblex"/></e>
     <e lm="divertir"><i>div</i><par n="adv/ertir__vblex"/></e>
     <e lm="emitir"><i>emit</i><par n="viv/ir__vblex"/></e>
-    <e lm="emeter" r="LR"><p><l>em</l><r>em</r></p><par n="me/ter__vblex"/></e>
+    <e lm="emeter" r="LR"><p><l>eme</l><r>eme</r></p><par n="me/ter__vblex"/></e>
     <e lm="emitir" r="LR"><p><l>emet</l><r>emit</r></p><par n="viv/ir__vblex"/></e>
     
     <e lm="ennegrir"><i>ennegr</i><par n="aclar/ir__vblex"/></e>
@@ -54561,7 +54558,7 @@
     <e lm="parir"><i>par</i><par n="viv/ir__vblex"/></e>
     <e lm="permitir"><i>permit</i><par n="viv/ir__vblex"/></e>
     <e lm="permitir" r="LR"><p><l>premit</l><r>permit</r></p><par n="viv/ir__vblex"/></e>
-    <e lm="permeter" r="LR"><p><l>perm</l><r>perm</r></p><par n="me/ter__vblex"/></e>
+    <e lm="permeter" r="LR"><p><l>perme</l><r>perme</r></p><par n="me/ter__vblex"/></e>
     <e lm="preferir"><i>pref</i><par n="f/erir__vblex"/></e>
     <e lm="recubrir"><i>recub</i><par n="ub/rir__vblex"/></e>
     <e lm="repartir"><i>repart</i><par n="viv/ir__vblex"/></e>
@@ -54573,7 +54570,7 @@
     <e lm="surtir"><i>surt</i><par n="viv/ir__vblex"/></e>
     <e lm="sucherir"><i>such</i><par n="f/erir__vblex"/></e>
     <e lm="transmitir"><i>transmit</i><par n="viv/ir__vblex"/></e>
-    <e lm="transmeter" r="LR"><p><l>transm</l><r>transm</r></p><par n="me/ter__vblex"/></e>
+    <e lm="transmeter" r="LR"><p><l>transme</l><r>transme</r></p><par n="me/ter__vblex"/></e>
     <e lm="vestir"><i>v</i><par n="v/estir__vblex"/></e>
     <e lm="descubrir"><i>descub</i><par n="ub/rir__vblex"/></e>
     <e lm="descubrir" r="LR"><p><l>escub</l><r>descub</r></p><par n="ub/rir__vblex"/></e>
@@ -54616,7 +54613,7 @@
     <e lm="fundir"><i>fund</i><par n="viv/ir__vblex"/></e>
     <e lm="enriquir"><i>enri</i><par n="enri/quir__vblex"/></e>
     <e lm="invadir"><i>invad</i><par n="viv/ir__vblex"/></e>
-    <e lm="invadir" r="LR"><p><l>envad</l><r>invad</r></p><par n="ub/rir__vblex"/></e>
+    <e lm="invadir" r="LR"><p><l>envad</l><r>invad</r></p><par n="viv/ir__vblex"/></e>
     <e lm="aviellir"><i>aviell</i><par n="aviell/ir__vblex"/></e>
     <e lm="escupir"><i>escup</i><par n="viv/ir__vblex"/></e>
     <e lm="esculpir"><i>esculp</i><par n="viv/ir__vblex"/></e>
@@ -54726,8 +54723,8 @@
     <e lm="ansir"><i>ans</i><par n="viv/ir__vblex"/></e>
     <e lm="aparar"><i>apar</i><par n="cant/ar__vblex"/></e>
     <e lm="auguachinar"><i>auguachin</i><par n="cant/ar__vblex"/></e>
-    <e lm="auguachinar" r="LR"><p><l>aguachin</l><r>aguachin</r></p><par n="cant/ar__vblex"/></e>
-    <e lm="auguachinar" r="LR"><p><l>aiguachin</l><r>aguachin</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="auguachinar" r="LR"><p><l>aguachin</l><r>auguachin</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="auguachinar" r="LR"><p><l>aiguachin</l><r>auguachin</r></p><par n="cant/ar__vblex"/></e>
     <e lm="aislar"><i>aisl</i><par n="cant/ar__vblex"/></e> <!-- dipht... -->
     <e lm="isolar"><p><l>isol</l><r>isol</r></p><par n="cant/ar__vblex"/></e>
     <e lm="alucinar"><i>alucin</i><par n="cant/ar__vblex"/></e>
@@ -54736,13 +54733,13 @@
     <e lm="lobar"><par n="/l_ll__var"/><i>ob</i><par n="cant/ar__vblex"/></e>
     <e lm="abantar"><i>abant</i><par n="cant/ar__vblex"/></e>
     <e lm="amuntonar"><i>amunton</i><par n="cant/ar__vblex"/></e>
-    <e lm="amuntonar" r="LR"><p><l>amont</l><r>amunt</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="amuntonar" r="LR"><p><l>amonton</l><r>amunton</r></p><par n="cant/ar__vblex"/></e>
     <e lm="apuyalar"><i>apuyal</i><par n="cant/ar__vblex"/></e>
     <e lm="aburguilar"><i>aburguil</i><par n="cant/ar__vblex"/></e>
     <e lm="acamatonar"><i>acamaton</i><par n="cant/ar__vblex"/></e>
     <e lm="apartar"><i>apart</i><par n="cant/ar__vblex"/></e>
     <e lm="apartar" r="LR"><p><l>alpart</l><r>apart</r></p><par n="cant/ar__vblex"/></e>
-    <e lm="apartar" r="LR"><p><l>sapart</l><r>sapart</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="apartar" r="LR"><p><l>sapart</l><r>apart</r></p><par n="cant/ar__vblex"/></e>
     <e lm="aibar"><i>aib</i><par n="cant/ar__vblex"/></e>
     <e lm="agarrapar"><i>agarrap</i><par n="cant/ar__vblex"/></e>
     <e lm="asfaltar"><i>asfalt</i><par n="cant/ar__vblex"/></e>
@@ -54796,7 +54793,7 @@
     <e lm="emporquiar"><i>emporqu</i><par n="camb/iar__vblex"/></e>
     <e lm="emporcar" r="LR"><p><l>empor</l><r>empor</r></p><par n="trafu/car__vblex"/></e>
     <e lm="avalar"><i>aval</i><par n="cant/ar__vblex"/></e>
-    <e lm="avalar" r="LR"><p><l>abal</l><r>aval</r></p><par n="trafu/car__vblex"/></e>
+    <e lm="avalar" r="LR"><p><l>abal</l><r>aval</r></p><par n="cant/ar__vblex"/></e>
     <e lm="engoletar"><i>engolet</i><par n="cant/ar__vblex"/></e>
     <e lm="tragar"><i>trag</i><par n="pag/ar__vblex"/></e>
     <e lm="trusquir"><i>trus</i><par n="trus/quir__vblex"/></e>
@@ -54930,8 +54927,8 @@
     <e lm="ixublidar" r="LR"><p><l>ixubllid</l><r>ixuplid</r></p><par n="cant/ar__vblex"/></e>
     <e lm="ixublidar" r="LR"><p><l>oblid</l><r>ixuplid</r></p><par n="cant/ar__vblex"/></e>
     <e lm="ixublidar" r="LR"><p><l>obllid</l><r>ixuplid</r></p><par n="cant/ar__vblex"/></e>
-    <e lm="olbidar" r="LR"><p><l>olbid</l><r>oblid</r></p><par n="cant/ar__vblex"/></e>
-    <e lm="olbidar" r="LR"><p><l>olbid</l><r>oblid</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="olbidar" r="LR"><p><l>olbid</l><r>ixuplid</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="olbidar" r="LR"><p><l>olbid</l><r>ixuplid</r></p><par n="cant/ar__vblex"/></e>
     <e lm="ordinar"><i>ordin</i><par n="cant/ar__vblex"/></e>
     <e lm="ordinar" r="LR"><p><l>orden</l><r>ordin</r></p><par n="cant/ar__vblex"/></e>
     <e lm="patinar"><i>patin</i><par n="cant/ar__vblex"/></e>
@@ -55023,7 +55020,7 @@
     <e lm="mal minchador" r="LR"><p><l>malminchador</l><r>mal<b/>minchador</r></p><par n="atletismo__n"/></e>    
     <e lm="asunto"><i>asunto</i><par n="libro__n"/></e>
     <e lm="pion"><i>pion</i><par n="libro__n"/></e>
-    <e lm="afer"><i>af</i><par n="libro__n"/></e>
+    <e lm="afer"><i>afer</i><par n="libro__n"/></e>
     <e lm="fenero"><i>fen</i><par n="plant/ero__n"/></e>
     <e lm="chornalero"><i>chornal</i><par n="vaqu/ero__n"/></e>
     <e lm="cancer"><i>cancer</i><par n="libro__n"/></e>
@@ -55150,7 +55147,7 @@
     <e lm="domador"><i>domador</i><par n="treballador__n"/></e>
     <e lm="envasador"><i>envasador</i><par n="libro__n"/></e>
     <e lm="emperador" r="LR"><i>emperador</i><par n="treballador__n"/></e>
-    <e lm="emperador"><i>emperador</i><par n="empera/dor__n"/></e>
+    <e lm="emperador"><i>empera</i><par n="empera/dor__n"/></e>
     <e lm="encantador"><i>encantad</i><par n="treballad/or__adj"/></e>
     <e lm="encantador"><i>encantador</i><par n="treballador__n"/></e>
     <e lm="trepador"><i>trepad</i><par n="treballad/or__adj"/></e>
@@ -55204,7 +55201,6 @@
     <e lm="pudor"><i>pudor</i><par n="luenga__n"/></e>
     <e lm="radiador"><i>radiador</i><par n="libro__n"/></e>
     <e lm="recibidor"><i>recibidor</i><par n="libro__n"/></e>
-    <e lm="remolcador"><i>remolcad</i><par n="treballad/or__adj"/></e>
     <e lm="remolcador"><i>remolcador</i><par n="libro__n"/></e>
     <e lm="lavador"><par n="/l_ll__var"/><i>avador</i><par n="treballador__n"/></e>
     <e lm="repartidor"><i>repartidor</i><par n="treballador__n"/></e>
@@ -55577,10 +55573,10 @@
     <e lm="hordio" r="LR"><p><l>ordio</l><r>hordio</r></p><par n="libro__n"/></e>    
     <e lm="clausura"><par n="/cl_cll__var"/><i>ausura</i><par n="luenga__n"/></e>
     <e lm="clavicula"><par n="/cl_cll__var"/><i>avicula</i><par n="luenga__n"/></e>
-    <e lm="clavicula" r="LR"><p><l>clavicla</l><r>clavicula</r></p><par n="libro__n"/></e>    
+    <e lm="clavicula" r="LR"><p><l>clavicla</l><r>clavicula</r></p><par n="luenga__n"/></e>    
     <e lm="clavilla"><par n="/cl_cll__var"/><i>avilla</i><par n="luenga__n"/></e>
     <e lm="clientalla"><par n="/cl_cll__var"/><i>ientalla</i><par n="luenga__n"/></e>
-    <e lm="clientalla" r="LR"><p><l>clientalla</l><r>clientela</r></p><par n="libro__n"/></e>    
+    <e lm="clientalla" r="LR"><p><l>clientela</l><r>clientalla</r></p><par n="libro__n"/></e>    
     <e lm="clima"><par n="/cl_cll__var"/><i>ima</i><par n="luenga__n"/></e>
     <e lm="clota"><par n="/cl_cll__var"/><i>ota</i><par n="luenga__n"/></e>
     <e lm="clot"><par n="/cl_cll__var"/><i>o</i><par n="clo/t__n"/></e>
@@ -56179,7 +56175,7 @@
     <e lm="monyiquera"><i>monyiquera</i><par n="luenga__n"/></e>
     <e lm="polvora"><i>polvora</i><par n="luenga__n"/></e>
     <e lm="mazana"><i>mazana</i><par n="luenga__n"/></e>
-    <e lm="mazana" r="LR"><p><l>manzana</l><r>mazana</r></p><par n="libro__n"/></e>    
+    <e lm="mazana" r="LR"><p><l>manzana</l><r>mazana</r></p><par n="luenga__n"/></e>    
     <e lm="pomada"><i>pomada</i><par n="luenga__n"/></e>
     <e lm="mazanera"><i>mazanera</i><par n="luenga__n"/></e>
     <e lm="mazanera" r="LR"><p><l>manzanera</l><r>mazanera</r></p><par n="libro__n"/></e>    
@@ -56229,8 +56225,8 @@
     <e lm="raya"><i>raya</i><par n="luenga__n"/></e>
     <e lm="rabaneta"><i>rabaneta</i><par n="luenga__n"/></e>
     <e lm="ceiquia"><i>ceiquia</i><par n="luenga__n"/></e>
-    <e lm="ceiquia" r="LR"><p><l>ceica</l><r>ceiquia</r></p><par n="libro__n"/></e>
-    <e lm="ceiquia" r="LR"><p><l>cequia</l><r>ceiquia</r></p><par n="libro__n"/></e>
+    <e lm="ceiquia" r="LR"><p><l>ceica</l><r>ceiquia</r></p><par n="luenga__n"/></e>
+    <e lm="ceiquia" r="LR"><p><l>cequia</l><r>ceiquia</r></p><par n="luenga__n"/></e>
     
     <e lm="referencia"><i>referencia</i><par n="luenga__n"/></e>
     <e lm="refinería"><i>refinería</i><par n="luenga__n"/></e>
@@ -56392,7 +56388,6 @@
     <e lm="vespra" r="LR"><p><l>vriespa</l><r>viespra</r></p><par n="luenga__n"/></e>
     <e lm="vespra" r="LR"><p><l>vespra</l><r>viespra</r></p><par n="luenga__n"/></e>
     <e lm="vía"><i>vía</i><par n="luenga__n"/></e>
-    <e lm="viceversa"><i>viceversa</i><par n="luenga__n"/></e>
     <e lm="victima"><i>victima</i><par n="luenga__n"/></e>
     <e lm="victoria"><i>victoria</i><par n="luenga__n"/></e>
     <e lm="vichilancia"><i>vichilancia</i><par n="luenga__n"/></e>
