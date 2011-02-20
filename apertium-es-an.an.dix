@@ -37272,7 +37272,7 @@
     <e lm="fibra"><i>fibra</i><par n="luenga__n"/></e>
     <e lm="fuent"><i>fuent</i><par n="luenga__n"/></e>
     <e lm="fuent" r="LR"><p><l>fuen</l><r>fuent</r></p><par n="luenga__n"/></e>
-    <e lm="frent"><i>frent</i><par n="luenga__n"/></e>
+    <e lm="frent"><i>frent</i><par n="accionista__n"/></e>
     <e lm="frent" r="LR"><p><l>fren</l><r>frent</r></p><par n="luenga__n"/></e>
     <e lm="puent"><i>puent</i><par n="libro__n"/></e>
     <e lm="puent" r="LR"><p><l>puen</l><r>puent</r></p><par n="libro__n"/></e>
@@ -37520,12 +37520,11 @@
     <e lm="relichión"><i>relichi</i><par n="divisi/ón__n"/></e>
     <e lm="rechión"><i>rechi</i><par n="divisi/ón__n"/></e>
     <e lm="división"><i>divisi</i><par n="divisi/ón__n"/></e>
-    <e lm="tozolón"><i>tozol</i><par n="divisi/ón__n"/></e>
     <e lm="impresión"><i>impresi</i><par n="divisi/ón__n"/></e>
     <e lm="qüestión"><i>qüesti</i><par n="divisi/ón__n"/></e>
     <e lm="qüestión" r="LR"><p><l>cuesti</l><r>qüesti</r></p><par n="divisi/ón__n"/></e> 
     <e lm="opinión"><i>opini</i><par n="divisi/ón__n"/></e>
-    <e lm="corazón"><i>coraz</i><par n="divisi/ón__n"/></e>
+    <e lm="corazón"><i>coraz</i><par n="avi/ón__n"/></e>
     <e lm="unión"><i>uni</i><par n="divisi/ón__n"/></e>
     <e lm="constitución"><i>constitu</i><par n="actua/ción__n"/></e>
     <e lm="motivación"><i>motiva</i><par n="actua/ción__n"/></e>
@@ -39490,8 +39489,11 @@
     <e lm="ADNes" a="prompsit2adn"><i>ADNes</i><par n="ABC__np"/></e>
     <e lm="ADN.es" a="prompsit2adn"><i>ADN.es</i><par n="ABC__np"/></e>
     <e lm="The Times" a="prompsit2adn"><i>The<b/>Times</i><par n="ABC__np"/></e>
+    <e lm="AlQaeda" r="LR"><p><l>AlQaeda</l><r>Al-Qaeda</r></p><par n="ABC__np"/></e>
+    <e lm="Al-Qaeda" r="LR"><i>Al-Qaeda</i><par n="ABC__np"/></e>
     <e lm="Al Qaeda" a="prompsit2adn"><i>Al<b/>Qaeda</i><par n="ABC__np"/></e>
     <e lm="Al Qaida" a="prompsit2adn"><i>Al<b/>Qaida</i><par n="ABC__np"/></e>
+    <e lm="al-Qaida" a="prompsit"><i>al-Qaida</i><par n="ABC__np"/></e>
     <e lm="Mediapro" a="prompsit2adn"><i>Mediapro</i><par n="ABC__np"/></e>
     <e lm="Tour" a="prompsit2adn"><i>Tour</i><par n="ABC__np"/></e>
     <e lm="McLaren" a="prompsit2adn"><i>McLaren</i><par n="ABC__np"/></e>
@@ -39621,7 +39623,6 @@
     <e lm="3xl.net" a="prompsit"><i>3xl.net</i><par n="ABC__np"/></e>
     <e lm="Alcázar" a="prompsit"><i>Alcázar</i><par n="ABC__np"/></e>
     <e lm="Alping Running Meeting" a="prompsit"><i>Alping<b/>Running<b/>Meeting</i><par n="ABC__np"/></e>
-    <e lm="al-Qaida" a="prompsit"><i>al-Qaida</i><par n="ABC__np"/></e>
     <e lm="Òmnium" a="prompsit"><i>Òmnium</i><par n="ABC__np"/></e>
     <e lm="Antaviana" a="prompsit"><i>Antaviana</i><par n="ABC__np"/></e>
     <e lm="Apertium" a="prompsit"><i>Apertium</i><par n="ABC__np"/></e>
@@ -42235,7 +42236,7 @@
     <e lm="sud"><i>sud</i><par n="atletismo__n"/></e>
     <e lm="sud" r="LR"><p><l>sur</l><r>sud</r></p><par n="atletismo__n"/></e>
     <e lm="autodeterminismo"><i>autodeterminismo</i><par n="libro__n"/></e>
-    <e lm="automobilismo"><i>automobilismo</i><par n="libro__n"/></e>
+    <e lm="automobilismo"><i>automobilismo</i><par n="atletismo__n"/></e>
     <e lm="automobilismo" r="LR"><p><l>automovilismo</l><r>automobilismo</r></p><par n="libro__n"/></e>
     <e lm="autoritarismo"><i>autoritarismo</i><par n="libro__n"/></e>
     <e lm="bandolerismo"><i>bandolerismo</i><par n="libro__n"/></e>
@@ -44778,7 +44779,6 @@
 <e lm="Ainoa"><i>Ainoa</i><par n="Abad__np"/></e>
 <e lm="Aizpuru"><i>Aizpuru</i><par n="Abad__np"/></e>
 <e lm="Akarregi"><i>Akarregi</i><par n="Abad__np"/></e>
-<e lm="AlQaeda"><i>AlQaeda</i><par n="ABC__np"/></e>
 <e lm="Alabau"><i>Alabau</i><par n="Abad__np"/></e>
 <e lm="Alacreu"><i>Alacreu</i><par n="Abad__np"/></e>
 <e lm="Alagarda"><i>Alagarda</i><par n="Abad__np"/></e>
@@ -46695,7 +46695,6 @@
 <e lm="Ahín"><i>Ahín</i><par n="Afganistán__np"/></e>
 <e lm="Aiguaviva de Gironès"><i>Aiguaviva<b/>de<b/>Gironès</i><par n="Afganistán__np"/></e>
 <e lm="Aiòder"><i>Aiòder</i><par n="Afganistán__np"/></e>
-<e lm="Al-Qaeda" r="LR"><i>Al-Qaeda</i><par n="ABC__np"/></e>
 <e lm="Al Capone"><i>Al<b/>Capone</i><par n="Abad__np"/></e>
 <e lm="Alaquàs"><i>Alaquàs</i><par n="Afganistán__np"/></e>
 <e lm="Alaró"><i>Alaró</i><par n="Afganistán__np"/></e>
@@ -47801,7 +47800,7 @@
 <e lm="el Pont de Vilomara"><i>el<b/>Pont<b/>de<b/>Vilomara</i><par n="Afganistán__np"/></e>
 <e lm="el Pont de Vilomara i Rocafort"><i>el<b/>Pont<b/>de<b/>Vilomara<b/>i<b/>Rocafort</i><par n="Afganistán__np"/></e>
 <e lm="el Prat de Llobregat"><i>el<b/>Prat<b/>de<b/>Llobregat</i><par n="Afganistán__np"/></e>
-<e lm="el Puig" r="LR"><i>el<b/>Puig</i><par n="Afganistán__np"/></e>
+<e lm="el Puig"><i>el<b/>Puig</i><par n="Afganistán__np"/></e>
 <e lm="el Real de Gandía"><i>el<b/>Real<b/>de<b/>Gandía</i><par n="Afganistán__np"/></e>
 <e lm="el Rourell"><i>el<b/>Rourell</i><par n="Afganistán__np"/></e>
 <e lm="el Ràfol d'Almúnia"><i>el<b/>Ràfol<b/>d'Almúnia</i><par n="Afganistán__np"/></e>
@@ -55282,7 +55281,7 @@
     <e lm="locutor"><par n="/l_ll__var"/><i>ocutor</i><par n="treballador__n"/></e>
     <e lm="monitor"><i>monitor</i><par n="treballador__n"/></e>
     <e lm="monitor"><i>monitor</i><par n="opresor__adj"/></e>
-    <e lm="motor"><i>motor</i><par n="treballador__n"/></e>
+    <e lm="motor"><i>motor</i><par n="libro__n"/></e>
     <e lm="motor"><i>motor</i><par n="opresor__adj"/></e>
     <e lm="pastor"><i>pastor</i><par n="treballador__n"/></e>
     <e lm="pintor"><i>pintor</i><par n="treballador__n"/></e>
@@ -55582,7 +55581,7 @@
     <e lm="clavicula" r="LR"><p><l>clavicla</l><r>clavicula</r></p><par n="luenga__n"/></e>    
     <e lm="clavilla"><par n="/cl_cll__var"/><i>avilla</i><par n="luenga__n"/></e>
     <e lm="clientalla"><par n="/cl_cll__var"/><i>ientalla</i><par n="luenga__n"/></e>
-    <e lm="clientalla" r="LR"><p><l>clientela</l><r>clientalla</r></p><par n="libro__n"/></e>    
+    <e lm="clientalla" r="LR"><p><l>clientela</l><r>clientalla</r></p><par n="luenga__n"/></e>    
     <e lm="clima"><par n="/cl_cll__var"/><i>ima</i><par n="luenga__n"/></e>
     <e lm="clota"><par n="/cl_cll__var"/><i>ota</i><par n="luenga__n"/></e>
     <e lm="clot"><par n="/cl_cll__var"/><i>o</i><par n="clo/t__n"/></e>
@@ -55903,7 +55902,7 @@
     <e lm="influencia" r="LR"><p><l>influyencia</l><r>influencia</r></p><par n="luenga__n"/></e>    
     <e lm="iniciativa"><i>iniciativa</i><par n="luenga__n"/></e>
     <e lm="inchusticia"><i>inchusticia</i><par n="luenga__n"/></e>
-    <e lm="insecticida"><i>insecticida</i><par n="libro__n"/></e>
+    <e lm="insecticida"><i>insecticida</i><par n="accionista__n"/></e>
     <e lm="insignia"><i>insignia</i><par n="luenga__n"/></e>
     <e lm="intelichencia"><i>intelichencia</i><par n="luenga__n"/></e>
     <e lm="intolerancia"><i>intolerancia</i><par n="luenga__n"/></e>
@@ -56354,7 +56353,8 @@
     <e lm="quiniela"><i>quiniela</i><par n="luenga__n"/></e>
     <e lm="travesía"><i>travesía</i><par n="luenga__n"/></e>
     <e lm="tregua"><i>tregua</i><par n="luenga__n"/></e>
-    <e lm="trefla"><i>trefla</i><par n="luenga__n"/></e>
+    <e lm="tefla"><i>teefla</i><par n="luenga__n"/></e>
+    <e lm="trefla" r="LR"><p><l>trefla</l><r>tefla</r></p><par n="luenga__n"/></e>        
     <e lm="tribuna"><i>tribuna</i><par n="luenga__n"/></e>
     <e lm="trompeta"><i>trompeta</i><par n="luenga__n"/></e>
     <e lm="tortiella"><i>torti</i><par n="capi/ella__n"/></e>
@@ -56500,7 +56500,7 @@
     <e lm="chancleta"><i>chancleta</i><par n="luenga__n"/></e>
     <e lm="chorrupada"><i>chorrupa</i><par n="vega/da__n"/></e>
     <e lm="barranco"><i>barranco</i><par n="libro__n"/></e>
-    <e lm="futbol"><i>futbol</i><par n="libro__n"/></e>
+    <e lm="futbol"><i>futbol</i><par n="atletismo__n"/></e>
     <e lm="futbol" r="LR"><p><l>fútbol</l><r>futbol</r></p><par n="libro__n"/></e>            
     <e lm="conquiesta"><i>conquiesta</i><par n="luenga__n"/></e>
     <e lm="conquiesta" r="LR"><p><l>conquista</l><r>conquiesta</r></p><par n="luenga__n"/></e>            
