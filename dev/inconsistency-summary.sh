@@ -31,9 +31,15 @@ for i in $POS; do
 	fi
 	UNCLEAN=`expr $AT "+" $HASH`;
 	CLEAN=`expr $TOTAL "-" $UNCLEAN`;
-	PERCLEAN=`expr $UNCLEAN "/" $TOTAL "*" 100 |sed 's/^\W*//g' | sed 's/~//g' | head -c 5`;
+	if [ $TOTAL -eq 0 ]; then
+		PERCLEAN=100
+	else
+		PERCLEAN=`expr $UNCLEAN "/" $TOTAL "*" 100 |sed 's/^\W*//g' | sed 's/~//g' | head -c 5`;
+	fi
 	echo $PERCLEAN | grep "Err" > /dev/null;
 	if [ $? -eq 0 ]; then
+		TOTPERCLEAN="100";
+	elif [ $TOTAL -eq 0 ]; then
 		TOTPERCLEAN="100";
 	else
 		TOTPERCLEAN=`expr 100 "-" $PERCLEAN | sed 's/^\W*//g' | sed 's/~//g' | head -c 5`;
