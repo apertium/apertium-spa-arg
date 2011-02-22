@@ -234,7 +234,7 @@
     <e>       <p><l>conmigo<s n="prn"/></l>           <r>con<b/>yo<s n="prn"/></r></p></e> 
     <e>       <p><l>contigo<s n="prn"/></l>           <r>con<b/>tu<s n="prn"/></r></p></e>
     <e r="LR">       <p><l>consigo<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>con<b/>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="ND"/></r></p></e> <!-- trule for concordancia?? -->
-    <e r="LR">       <p><l>consigo<b/>mismo<s n="prn"/><s n="tn"/><s n="p3"/></l><r>con<b/>ell<b/>mismo<s n="prn"/><s n="tn"/><s n="p3"/></r></p></e>
+    <e r="LR">       <p><l>consigo<b/>mismo<s n="prn"/><s n="tn"/><s n="p3"/></l><r>con<b/>ell<b/>mesmo<s n="prn"/><s n="tn"/><s n="p3"/></r></p></e>
 
     <e r="LR"><p><l>para<b/>conmigo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/></l>   <r>enta<b/>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/></r></p></e>
     <e r="LR"><p><l>para<b/>consigo<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sp"/></l>   <r>enta<b/>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="ND"/></r></p></e>
@@ -304,6 +304,9 @@
 <e r="RL">       <p><l>pocos<s n="prn"/></l>             <r>poquetz<s n="prn"/></r></p></e>
 <e>       <p><l>muchos<s n="prn"/></l>            <r>muitos<s n="prn"/></r></p></e>
 
+
+
+<e r="LR"><p><l>otros<b/>tantos<s n="det"/></l><r>atro<s n="det"/></r></p></e>
 <e>       <p><l>otros<b/>muchos<s n="det"/></l>   <r>muitos<b/>atros<s n="det"/></r></p></e>
 <e>       <p><l>otros<b/>muchos<s n="prn"/></l>   <r>muitos<b/>atros<s n="prn"/></r></p></e>
 <e>       <p><l>uno<b/>y<b/>otro<s n="prn"/></l>            <r>la<b/>uno<b/>y<b/>l'atro<s n="prn"/></r></p></e>
@@ -5843,6 +5846,7 @@
     <e>       <p><l>mientras<s n="adv"/></l>          <r>mientres<s n="adv"/></r></p></e>
     <e>       <p><l>todos<b/>juntos<s n="adv"/></l>       <r>totz<b/>chuntos<s n="adv"/></r></p></e>
     <e>       <p><l>pronto<s n="adv"/></l>       <r>luego<s n="adv"/></r></p></e>
+    <e>       <p><l>tarde<s n="adv"/></l>       <r>tarde<s n="adv"/></r></p></e>
     <e r="RL"><p><l>últimamente<s n="adv"/></l><r>ultimament<s n="adv"/></r></p></e>
     <e r="RL">       <p><l>últimamente<s n="adv"/></l>       <r>zaguerament<s n="adv"/></r></p></e>
     <e>       <p><l>últimamente<s n="adv"/></l>       <r>en<b/>zagueras<s n="adv"/></r></p></e>
@@ -9633,6 +9637,7 @@
 <e>       <p><l>a<b/>juzgar<b/>por<s n="pr"/></l> <r>si<b/>s'ha<b/>de<b/>chudgar<b/>por<s n="pr"/></r></p></e>
 <e r="RL">       <p><l>a<b/>juzgar<b/>por<s n="pr"/></l> <r>a<b/>chudgar<b/>por<s n="pr"/></r></p></e>
 <e><p><l>en<b/>consonancia<b/>con<s n="pr"/></l><r>a<b/>consonant<b/>de<s n="pr"/></r></p></e>
+<e r="LR"><p><l>acorde<b/>con<s n="pr"/></l><r>a<b/>consonant<b/>de<s n="pr"/></r></p></e>
 <e r="LR"><p><l>para<b/>con<s n="pr"/></l>        <r>enta<s n="pr"/></r></p></e>
 <e>       <p><l>nada<b/>que<b/>ver<b/>con<s n="pr"/></l><r>cosa<b/>a<b/>veyer<b/>con<s n="pr"/></r></p></e>
 <e r="RL"><p><l>en<b/>todo<s n="pr"/></l>         <r>arreu<b/>de<s n="pr"/></r></p></e>
@@ -9882,7 +9887,7 @@
     <e r="RL"><p><l>cuando<s n="rel"/></l><r>a<b/>lo<b/>que<s n="rel"/></r></p></e>
     <e><p><l>en<b/>cuanto<s n="rel"/></l><r>malas<b/>que<s n="rel"/></r></p></e>
     <e r="RL"><p><l>en<b/>cuanto<s n="rel"/></l><r>en<b/>que<s n="rel"/></r></p></e>
-    <e r="LR"> <p><l>luego<b/>que<s n="cnjadv"/></l>   <r>en<b/>que<s n="rel"/><s n="adv"/></r></p></e>
+    <e r="LR"> <p><l>luego<b/>que<s n="cnjadv"/></l>   <r>en<b/>que<s n="cnjadv"/><s n="adv"/></r></p></e>
 
     <e><p><l>el<b/>cual<s n="rel"/></l><r>o<b/>qual<s n="rel"/></r></p></e> <!--RL ok, bt LR, I guess there is a better translation for most cases-->
     <e>       <p><l>el<b/>que<s n="rel"/></l>         <r>o<b/>que<s n="rel"/></r></p></e>
@@ -12622,7 +12627,7 @@
     <e><p><l>mercería<s n="n"/></l><r>mercería<s n="n"/></r></p></e>
     <e><p><l>mierda<s n="n"/></l><r>mierda<s n="n"/></r></p></e>
     <e><p><l>metalurgia<s n="n"/></l><r>metalurchia<s n="n"/></r></p></e>
-    <e><p><l>ametrallador<s n="n"/></l><r>metrallador<s n="n"/></r></p></e>
+    <e><p><l>ametrallador<s n="adj"/></l><r>metrallador<s n="adj"/></r></p></e>
     <e><p><l>metralleta<s n="n"/></l><r>metralleta<s n="n"/></r></p></e>
     <e><p><l>siesta<s n="n"/></l><r>meyodiada<s n="n"/></r></p></e>
     <e><p><l>milla<s n="n"/></l><r>milla<s n="n"/></r></p></e>
@@ -14169,6 +14174,8 @@
     <e><p><l>batir<s n="vblex"/></l><r>bater<s n="vblex"/></r></p></e>
     <e><p><l>favorecer<s n="vblex"/></l><r>favoreixer<s n="vblex"/></r></p></e>
     <e><p><l>agradecer<s n="vblex"/></l><r>agradeixer<s n="vblex"/></r></p></e>
+    <e><p><l>adecentar<s n="vblex"/></l><r>acuriosar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>adecentar<s n="vblex"/></l><r>acuriosiar<s n="vblex"/></r></p></e>
     <e><p><l>comparecer<s n="vblex"/></l><r>compareixer<s n="vblex"/></r></p></e>
     <e><p><l>merecer<s n="vblex"/></l><r>mereixer<s n="vblex"/></r></p></e>
     <e><p><l>obedecer<s n="vblex"/></l><r>obedeixer<s n="vblex"/></r></p></e>
@@ -15184,6 +15191,7 @@
     <e><i>Ayora<s n="np"/></i></e>
     <e><i>Ayódar<s n="np"/></i></e>
     <e><p><l>Azerbaiyán<s n="np"/></l><r>Azerbaichán<s n="np"/></r></p></e>
+    <e r="LR"><p><l>Azerbaiján<s n="np"/></l><r>Azerbaichán<s n="np"/></r></p></e>
     <e><i>Azkuna<s n="np"/></i></e>
     <e><i>Aznar<s n="np"/></i></e>
     <e><i>Azores<s n="np"/></i></e>
@@ -21311,7 +21319,6 @@
     <e><i>Próximo<b/>Oriente<s n="np"/></i></e>
     <e><i>Oriente<b/>Medio<s n="np"/></i></e>
     <e><i>Castilla-La<b/>Mancha<s n="np"/></i></e>
-    <e><i>Castilla<b/>la<b/>Mancha<s n="np"/></i></e>
     <e><i>Castilla<b/>y<b/>León<s n="np"/></i></e>
     <e><i>Castilla-León<s n="np"/></i></e>
     <e><i>Trípoli<s n="np"/></i></e>
@@ -21892,8 +21899,7 @@
     <e><i>Ibañez<s n="np"/></i></e>
     <e><i>Ilíada<s n="np"/></i></e>
     <e><i>Indostán<s n="np"/></i></e>
-    <e><i>Institut<b/>Valencià<b/>de<b/>la<b/>Joventut<s n="np"/></i></e>
-    <e><i>Instituto<b/>Valenciano<b/>de<b/>la<b/>Juventud<s n="np"/></i></e>
+    <e><p><l>Instituto<b/>Aragonés<b/>de<b/>la<b/>Juventud<s n="np"/></l><r>Instituto<b/>Aragonés<b/>d'a<b/>Chovenalla</r></p></e>
     <e><i>Isla<b/>Mágica<s n="np"/></i></e>
     <e><i>Isona<b/>i<b/>Conca<b/>Dellà<s n="np"/></i></e>
     <e><i>Isòvol<s n="np"/></i></e>
