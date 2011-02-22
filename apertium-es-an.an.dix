@@ -2660,25 +2660,25 @@
         <e>
       <p>
         <l>ella<b/>mesma</l> 
-        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r> 
+        <r>ell<b/>mesmo<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
         <e r="LR">
       <p>
         <l>ella<b/>misma</l> 
-        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r> 
+        <r>ell<b/>mesmo<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r> 
       </p>
     </e>
         <e>
       <p>
         <l>ellas<b/>mesmas</l> 
-        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r> 
+        <r>ell<b/>mesmo<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
     <e r="LR">
       <p>
         <l>ellas<b/>mismas</l> 
-        <r>ell<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r> 
+        <r>ell<b/>mesmo<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r> 
       </p>
     </e>
     </pardef>
@@ -5519,7 +5519,7 @@
     <e>
      <p>
         <l>as</l>
-        <r><s n="pp"/><s n="m"/><s n="pl"/></r>
+        <r><s n="pp"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
     </pardef>
@@ -38978,7 +38978,8 @@
     <e lm="ten quanti que" r="LR"><p><l>en<b/>cuanti<b/>que</l><r>en<b/>quanti<b/>que</r></p><par n="porque__cnjadv"/></e>
     <e lm="en quanti que" r="LR"><p><l>en<b/>quanto<b/>que</l><r>en<b/>quanti<b/>que</r></p><par n="porque__cnjadv"/></e>
     <e lm="en quanti que" r="LR"><p><l>en<b/>quanto<b/>que</l><r>en<b/>quanti<b/>que</r></p><par n="porque__cnjadv"/></e>
-    <e lm="malas que"><i>malas<b/>que</i><par n="porque__cnjadv"/></e>
+    <e lm="malas que" r="RL"><i>malas<b/>que</i><par n="porque__cnjadv"/></e>
+    <e r="RL" lm="malas que"><i>malas<b/>que</i><par n="an__rel"/></e>
     <e lm="antes que"><i>antes<b/>que</i><par n="porque__cnjadv"/></e>
     <e lm="antes que" r="LR"><p><l>antis<b/>que</l><r>antes<b/>que</r></p><par n="porque__cnjadv"/></e>
     <e lm="si"><i></i><par n="/si__cnjadv"/></e>
@@ -39151,6 +39152,8 @@
     <e lm="manyana"><i>manyana</i><par n="agora__adv"/></e>
     <e lm="luego"><par n="/l_ll__var"/><i>uego</i><par n="agora__adv"/></e>
     <e lm="luego" r="LR"><p><l>lugo</l><r>luego</r></p><par n="agora__adv"/></e>
+    <e lm="tarde"><i>tarde</i><par n="agora__adv"/></e>
+    <e lm="tarde" r="LR"><p><l>tardi</l><r>tarde</r></p><par n="agora__adv"/></e>
     <e lm="acá"><i>acá</i><par n="agora__adv"/></e>
     <e lm="adebant"><i>adebant</i><par n="agora__adv"/></e>
     <e lm="adebant" r="LR"><p><l>adebán</l><r>adebant</r></p><par n="agora__adv"/></e>
@@ -39564,7 +39567,7 @@
     <e lm="ADN.es" a="prompsit2adn"><i>ADN.es</i><par n="ABC__np"/></e>
     <e lm="The Times" a="prompsit2adn"><i>The<b/>Times</i><par n="ABC__np"/></e>
     <e lm="AlQaeda" r="LR"><p><l>AlQaeda</l><r>Al-Qaeda</r></p><par n="ABC__np"/></e>
-    <e lm="Al-Qaeda" r="LR"><i>Al-Qaeda</i><par n="ABC__np"/></e>
+    <e lm="Al-Qaeda"><i>Al-Qaeda</i><par n="ABC__np"/></e>
     <e lm="Al Qaeda" a="prompsit2adn"><i>Al<b/>Qaeda</i><par n="ABC__np"/></e>
     <e lm="Al Qaida" a="prompsit2adn"><i>Al<b/>Qaida</i><par n="ABC__np"/></e>
     <e lm="al-Qaida" a="prompsit"><i>al-Qaida</i><par n="ABC__np"/></e>
@@ -42121,9 +42124,9 @@
     <e lm="asperar"><i>asper</i><par n="cant/ar__vblex"/></e>
     <e lm="asperar" r="LR"><p><l>asper</l><r>esper</r></p><par n="cant/ar__vblex"/></e>
     <e lm="estabilizar"><i>estabili</i><par n="ca/zar__vblex"/></e>
-    <e lm="estudiar"><i>estudi</i><par n="cant/ar__vblex"/></e>
-    <e lm="estudiar" r="LR"><p><l>estude</l><r>estudi</r></p><par n="cant/ar__vblex"/></e>
-    <e lm="estudiar" r="LR"><p><l>estudey</l><r>estudi</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="estudiar"><i>estud</i><par n="camb/iar__vblex"/></e>
+    <e lm="acuriosar"><i>acurios</i><par n="cant/ar__vblex"/></e>
+    <e lm="acuriosiar" r="LR"><i>acurios</i><par n="camb/iar__vblex"/></e>
     <e lm="exiliar"><i>exili</i><par n="cant/ar__vblex"/></e>
     <e lm="fecundar"><i>fecund</i><par n="cant/ar__vblex"/></e>
     <e lm="formalizar"><i>formali</i><par n="ca/zar__vblex"/></e>
@@ -44583,7 +44586,7 @@
 <e lm="Alzira"><i>Alzira</i><par n="Afganistán__np"/></e>
 <e lm="Arganda"><i>Arganda</i><par n="Afganistán__np"/></e>
 <e lm="Argelia"><i>Argelia</i><par n="Afganistán__np"/></e>
-<e lm="Bancaixa" r="LR"><i>Bancaixa</i><par n="ABC__np"/></e>
+<e lm="Bancaixa"><i>Bancaixa</i><par n="ABC__np"/></e>
 <e lm="Catarroja"><i>Catarroja</i><par n="Afganistán__np"/></e>
 <e lm="Novelda"><i>Novelda</i><par n="Afganistán__np"/></e>
 <e lm="Bombay"><i>Bombay</i><par n="Afganistán__np"/></e>
@@ -44957,7 +44960,7 @@
 <e lm="Aranjuelo"><i>Aranjuelo</i><par n="Abad__np"/></e>
 <e lm="Arantza"><i>Arantza</i><par n="Abad__np"/></e>
 <e lm="Arantzazu"><i>Arantzazu</i><par n="Abad__np"/></e>
-<e lm="Aranyel" r="LR"><i>Aranyel</i><par n="Afganistán__np"/></e>
+<e lm="Aranyel"><i>Aranyel</i><par n="Afganistán__np"/></e>
 <e lm="Aranzazu"><i>Aranzazu</i><par n="Abad__np"/></e>
 <e lm="Ararteko"><i>Ararteko</i><par n="Abad__np"/></e>
 <e lm="Araujo"><i>Araujo</i><par n="Abad__np"/></e>
@@ -45427,7 +45430,7 @@
 <e lm="Donatello"><i>Donatello</i><par n="Abad__np"/></e>
 <e lm="Donosti"><i>Donosti</i><par n="Afganistán__np"/></e>
 <e lm="Doris"><i>Doris</i><par n="Abad__np"/></e>
-<e lm="Dosaguas" r="LR"><i>Dosaguas</i><par n="Afganistán__np"/></e>
+<e lm="Dosaguas"><i>Dosaguas</i><par n="Afganistán__np"/></e>
 <e lm="Duhalde"><i>Duhalde</i><par n="Abad__np"/></e>
 <e lm="Durá"><i>Durá</i><par n="Abad__np"/></e>
 <e lm="Dushanbe"><i>Dushanbe</i><par n="Afganistán__np"/></e>
@@ -45475,7 +45478,7 @@
 <e lm="Erasmo"><i>Erasmo</i><par n="Abad__np"/></e>
 <e lm="Erdozain"><i>Erdozain</i><par n="Abad__np"/></e>
 <e lm="Eribe"><i>Eribe</i><par n="Abad__np"/></e>
-<e lm="Erivan" r="LR"><i>Erivan</i><par n="Afganistán__np"/></e>
+<e lm="Erivan"><i>Erivan</i><par n="Afganistán__np"/></e>
 <e lm="Erramun"><i>Erramun</i><par n="Abad__np"/></e>
 <e lm="Errazti"><i>Errazti</i><par n="Abad__np"/></e>
 <e lm="Escandell"><i>Escandell</i><par n="Abad__np"/></e>
@@ -45548,11 +45551,11 @@
 <e lm="Fermí"><i>Fermí</i><par n="Abad__np"/></e>
 <e lm="Ferragut"><i>Ferragut</i><par n="Abad__np"/></e>
 <e lm="Ferrater"><i>Ferrater</i><par n="Abad__np"/></e>
-<e lm="Ferreolo" r="LR"><i>Ferreolo</i><par n="Abad__np"/></e>
+<e lm="Ferreolo"><i>Ferreolo</i><par n="Abad__np"/></e>
 <e lm="Ferri"><i>Ferri</i><par n="Abad__np"/></e>
 <e lm="Ferriol"><i>Ferriol</i><par n="Abad__np"/></e>
 <e lm="Festina"><i>Festina</i><par n="ABC__np"/></e>
-<e lm="Fidji" r="LR"><i>Fidji</i><par n="Afganistán__np"/></e>
+<e lm="Fidji"><i>Fidji</i><par n="Afganistán__np"/></e>
 <e lm="Figaredo"><i>Figaredo</i><par n="Abad__np"/></e>
 <e lm="Finestrat"><i>Finestrat</i><par n="Afganistán__np"/></e>
 <e lm="Fisas"><i>Fisas</i><par n="Abad__np"/></e>
@@ -45705,7 +45708,7 @@
 <e lm="Izaskun"><i>Izaskun</i><par n="Abad__np"/></e>
 <e lm="Izurrategui"><i>Izurrategui</i><par n="Abad__np"/></e>
 <e lm="J.C."><i>J.C.</i><par n="ABC__np"/></e>
-<e lm="JC" r="LR"><i>JC</i><par n="ABC__np"/></e>
+<e lm="JC"><i>JC</i><par n="ABC__np"/></e>
 <e lm="Jabber"><i>Jabber</i><par n="ABC__np"/></e>
 <e lm="Jacarilla"><i>Jacarilla</i><par n="Afganistán__np"/></e>
 <e lm="Jafre"><i>Jafre</i><par n="Afganistán__np"/></e>
@@ -45977,7 +45980,7 @@
 <e lm="Muro"><i>Muro</i><par n="Belén__np"/></e>
 <e lm="Nalec"><i>Nalec</i><par n="Afganistán__np"/></e>
 <e lm="Nanci"><i>Nanci</i><par n="Abad__np"/></e>
-<e lm="Naplusa" r="LR"><i>Naplusa</i><par n="Afganistán__np"/></e>
+<e lm="Naplusa"><i>Naplusa</i><par n="Afganistán__np"/></e>
 <e lm="Naranjito"><i>Naranjito</i><par n="Abad__np"/></e>
 <e lm="Nasarre"><i>Nasarre</i><par n="Abad__np"/></e>
 <e lm="Nasdaq"><i>Nasdaq</i><par n="ABC__np"/></e>
@@ -46575,7 +46578,7 @@
 <e lm="Chamartín"><i>Chamartín</i><par n="Afganistán__np"/></e>
 <e lm="Corea del Norte"><i>Corea<b/>del<b/>Norte</i><par n="Afganistán__np"/></e>
 <e lm="Corea del Sur"><i>Corea<b/>del<b/>Sur</i><par n="Afganistán__np"/></e>
-<e lm="Cornellá" r="LR"><i>Cornellá</i><par n="Afganistán__np"/></e>
+<e lm="Cornellá"><i>Cornellá</i><par n="Afganistán__np"/></e>
 <e lm="Cárcer"><i>Cárcer</i><par n="Afganistán__np"/></e>
 <e lm="Cáucaso"><i>Cáucaso</i><par n="Afganistán__np"/></e>
 <e lm="Córcega"><i>Córcega</i><par n="Afganistán__np"/></e>
@@ -46617,7 +46620,7 @@
 <e lm="Próximo Oriente" a="mginesti"><i>Próximo<b/>Oriente</i><par n="Afganistán__np"/></e>
 <e lm="Oriente Medio"><i>Oriente<b/>Medio</i><par n="Afganistán__np"/></e>
 <e lm="Castilla-La Mancha" a="mginesti"><i>Castilla-La<b/>Mancha</i><par n="Afganistán__np"/></e>
-<e lm="Castilla la Mancha" r="LR" a="mginesti"><i>Castilla<b/>la<b/>Mancha</i><par n="Afganistán__np"/></e>
+<e lm="Castilla-La Mancha" r="LR"><p><l>Castilla<b/>la<b/>Mancha</l><r>Castilla-La<b/>Mancha</r></p><par n="Afganistán__np"/></e>
 <e lm="Castilla y León" a="mginesti"><i>Castilla<b/>y<b/>León</i><par n="Afganistán__np"/></e>
 <e lm="Castilla-León" a="mginesti"><i>Castilla-León</i><par n="Afganistán__np"/></e>
 <e lm="Coruña"><i>Coruña</i><par n="Afganistán__np"/></e>
@@ -47047,7 +47050,7 @@
 <e lm="Cornellà de Llobregat"><i>Cornellà<b/>de<b/>Llobregat</i><par n="Afganistán__np"/></e>
 <e lm="Cortes d'Arenós"><i>Cortes<b/>d'Arenós</i><par n="Afganistán__np"/></e>
 <e lm="Cortes de Arenoso"><i>Cortes<b/>de<b/>Arenoso</i><par n="Afganistán__np"/></e>
-<e lm="Cortes de Arenós" r="LR"><i>Cortes<b/>de<b/>Arenós</i><par n="Afganistán__np"/></e>
+<e lm="Cortes de Arenós"><i>Cortes<b/>de<b/>Arenós</i><par n="Afganistán__np"/></e>
 <e lm="Cortes de Pallars"><i>Cortes<b/>de<b/>Pallars</i><par n="Afganistán__np"/></e>
 <e lm="Cortes de Pallás"><i>Cortes<b/>de<b/>Pallás</i><par n="Afganistán__np"/></e>
 <e lm="Corçà"><i>Corçà</i><par n="Afganistán__np"/></e>
@@ -47108,12 +47111,11 @@
 <e lm="Farrera de Pallars"><i>Farrera<b/>de<b/>Pallars</i><par n="Afganistán__np"/></e>
 <e lm="Farré"><i>Farré</i><par n="Abad__np"/></e>
 <e lm="Faustí"><i>Faustí</i><par n="Abad__np"/></e>
-<e lm="Fernando Po" r="LR"><i>Fernando<b/>Po</i><par n="Afganistán__np"/></e>
 <e lm="Fernando Poo"><i>Fernando<b/>Poo</i><par n="Afganistán__np"/></e>
 <e lm="Fernàndez"><i>Fernàndez</i><par n="Abad__np"/></e>
 <e lm="Ferrández"><i>Ferrández</i><par n="Abad__np"/></e>
 <e lm="Ferrándiz"><i>Ferrándiz</i><par n="Abad__np"/></e>
-<e lm="Ferréolo" r="LR"><i>Ferréolo</i><par n="Abad__np"/></e>
+<e lm="Ferréolo"><i>Ferréolo</i><par n="Abad__np"/></e>
 <e lm="Figaró-Montmany"><i>Figaró-Montmany</i><par n="Afganistán__np"/></e>
 <e lm="Figuerola d'Orcau"><i>Figuerola<b/>d'Orcau</i><par n="Afganistán__np"/></e>
 <e lm="Figueroles de Domenyo"><i>Figueroles<b/>de<b/>Domenyo</i><par n="Afganistán__np"/></e>
@@ -47137,7 +47139,7 @@
 <e lm="Fuente la Reina"><i>Fuente<b/>la<b/>Reina</i><par n="Afganistán__np"/></e>
 <e lm="Fuente Álamo de Murcia"><i>Fuente<b/>Álamo<b/>de<b/>Murcia</i><par n="Afganistán__np"/></e>
 <e lm="Fuentes de Ayódar"><i>Fuentes<b/>de<b/>Ayódar</i><par n="Afganistán__np"/></e>
-<e lm="Fuentes de Ayóder" r="LR"><i>Fuentes<b/>de<b/>Ayóder</i><par n="Afganistán__np"/></e>
+<e lm="Fuentes de Ayóder"><i>Fuentes<b/>de<b/>Ayóder</i><par n="Afganistán__np"/></e>
 <e lm="Fàbregas"><i>Fàbregas</i><par n="Abad__np"/></e>
 <e lm="Fígols"><i>Fígols</i><par n="Afganistán__np"/></e>
 <e lm="Fígols Vell"><i>Fígols<b/>Vell</i><par n="Afganistán__np"/></e>
@@ -47202,8 +47204,12 @@
 <e lm="Ibañez"><i>Ibañez</i><par n="Abad__np"/></e>
 <e lm="Ilíada"><i>Ilíada</i><par n="ABC__np"/></e>
 <e lm="Indostán"><i>Indostán</i><par n="Afganistán__np"/></e>
-<e lm="Institut Valencià de la Joventut"><i>Institut<b/>Valencià<b/>de<b/>la<b/>Joventut</i><par n="ABC__np"/></e>
-<e lm="Instituto Valenciano de la Juventud" r="LR"><i>Instituto<b/>Valenciano<b/>de<b/>la<b/>Juventud</i><par n="ABC__np"/></e>
+<e lm="Instituto Aragonés d'a Chuventut"><i>Instituto<b/>Aragonés<b/>d'a<b/>Chovenalla</i><par n="ABC__np"/></e>
+<e lm="Instituto Aragonés d'a Chuventut" r="LR"><p><l>Instituto<b/>Aragonés<b/>de<b/>la<b/>Chovenalla</l><r>Instituto<b/>Aragonés<b/>d'a<b/>Chovenalla</r></p><par n="ABC__np"/></e>
+<e lm="Instituto Aragonés d'a Chuventut" r="LR"><p><l>Instituto<b/>Aragonés<b/>d'a<b/>Chuventut</l><r>Instituto<b/>Aragonés<b/>d'a<b/>Chovenalla</r></p><par n="ABC__np"/></e>
+<e lm="Instituto Aragonés d'a Chuventut" r="LR"><p><l>Instituto<b/>Aragonés<b/>de<b/>la<b/>Chuventut</l><r>Instituto<b/>Aragonés<b/>d'a<b/>Chovenalla</r></p><par n="ABC__np"/></e>
+<e lm="Instituto Aragonés d'a Chuventut" r="LR"><p><l>Instituto<b/>Aragonés<b/>d'a<b/>Choventut</l><r>Instituto<b/>Aragonés<b/>d'a<b/>Chovenalla</r></p><par n="ABC__np"/></e>
+<e lm="Instituto Aragonés d'a Chuventut" r="LR"><p><l>Instituto<b/>Aragonés<b/>de<b/>la<b/>Choventut</l><r>Instituto<b/>Aragonés<b/>d'a<b/>Chovenalla</r></p><par n="ABC__np"/></e>
 <e lm="Isla Mágica"><i>Isla<b/>Mágica</i><par n="Afganistán__np"/></e>
 <e lm="Isona i Conca Dellà"><i>Isona<b/>i<b/>Conca<b/>Dellà</i><par n="Afganistán__np"/></e>
 <e lm="Isòvol"><i>Isòvol</i><par n="Afganistán__np"/></e>
@@ -47216,7 +47222,7 @@
 <e lm="Iñurrategui"><i>Iñurrategui</i><par n="Abad__np"/></e>
 <e lm="Jafre de Ter"><i>Jafre<b/>de<b/>Ter</i><par n="Afganistán__np"/></e>
 <e lm="Jasón"><i>Jasón</i><par n="Abad__np"/></e>
-<e lm="Jenín" r="LR"><i>Jenín</i><par n="Afganistán__np"/></e>
+<e lm="Jenín"><i>Jenín</i><par n="Afganistán__np"/></e>
 <e lm="Joan Lluís Vives"><i>Joan<b/>Lluís<b/>Vives</i><par n="Abad__np"/></e>
 <e lm="Jordà"><i>Jordà</i><par n="Abad__np"/></e>
 <e lm="Jordá"><i>Jordá</i><par n="Abad__np"/></e>
@@ -47826,7 +47832,7 @@
 <e lm="don Juan"><i>don<b/>Juan</i><par n="Abad__np"/></e>
 <e lm="don Juan Tenorio"><i>don<b/>Juan<b/>Tenorio</i><par n="Abad__np"/></e>
 <e lm="don Quijote"><i>don<b/>Quijote</i><par n="Abad__np"/></e>
-<e lm="el Ampurdán" r="LR"><i>el<b/>Ampurdán</i><par n="Afganistán__np"/></e>
+<e lm="el Ampurdán"><i>el<b/>Ampurdán</i><par n="Afganistán__np"/></e>
 <e lm="el Bruc"><i>el<b/>Bruc</i><par n="Afganistán__np"/></e>
 <e lm="el Brull"><i>el<b/>Brull</i><par n="Afganistán__np"/></e>
 <e lm="el Camp de Mirra"><i>el<b/>Camp<b/>de<b/>Mirra</i><par n="Afganistán__np"/></e>
@@ -47841,9 +47847,9 @@
 <e lm="el Figueró"><i>el<b/>Figueró</i><par n="Afganistán__np"/></e>
 <e lm="el Fondó de les Neus"><i>el<b/>Fondó<b/>de<b/>les<b/>Neus</i><par n="Afganistán__np"/></e>
 <e lm="el Fondó dels Frares"><i>el<b/>Fondó<b/>dels<b/>Frares</i><par n="Afganistán__np"/></e>
-<e lm="el Havre" r="LR"><i>el<b/>Havre</i><par n="Afganistán__np"/></e>
-<e lm="el Irak" r="LR"><i>el<b/>Irak</i><par n="Afganistán__np"/></e>
-<e lm="el Iraq" r="LR"><i>el<b/>Iraq</i><par n="Afganistán__np"/></e>
+<e lm="el Havre"><i>el<b/>Havre</i><par n="Afganistán__np"/></e>
+<e lm="el Irak"><i>el<b/>Irak</i><par n="Afganistán__np"/></e>
+<e lm="el Iraq"><i>el<b/>Iraq</i><par n="Afganistán__np"/></e>
 <e lm="el Hades"><i>el<b/>Hades</i><par n="Afganistán__np"/></e>
 <e lm="el Jordán"><i>el<b/>Jordán</i><par n="Afganistán__np"/></e>
 <e lm="el Masnou"><i>el<b/>Masnou</i><par n="Afganistán__np"/></e>
@@ -47963,7 +47969,7 @@
 <e lm="la Llagosta"><i>la<b/>Llagosta</i><par n="Afganistán__np"/></e>
 <e lm="la Llosa del Bisbe"><i>la<b/>Llosa<b/>del<b/>Bisbe</i><par n="Afganistán__np"/></e>
 <e lm="la Masó"><i>la<b/>Masó</i><par n="Afganistán__np"/></e>
-<e lm="la Mata de Morella" r="LR"><i>la<b/>Mata<b/>de<b/>Morella</i><par n="Afganistán__np"/></e>
+<e lm="la Mata de Morella"><i>la<b/>Mata<b/>de<b/>Morella</i><par n="Afganistán__np"/></e>
 <e lm="la Molsosa"><i>la<b/>Molsosa</i><par n="Afganistán__np"/></e>
 <e lm="la Nou de Berguedà"><i>la<b/>Nou<b/>de<b/>Berguedà</i><par n="Afganistán__np"/></e>
 <e lm="la Nou de Gaià"><i>la<b/>Nou<b/>de<b/>Gaià</i><par n="Afganistán__np"/></e>
@@ -49718,6 +49724,7 @@
     <e i="yes" lm="tener por"><i>t</i><par n="t/ener__vblex"/><p><l><b/>por</l><r><g><b/>por</g></r></p></e>
     <e lm="tener por" r="LR"><i>t</i><par n="t/ener__vblex"/><p><l><b/>po</l><r><g><b/>por</g></r></p></e>
     <e lm="estar conforme"><par n="/estar__vbser"/><p><l><b/>conforme</l><r><g><b/>conforme</g></r></p></e>
+    <e lm="estar aplicable"><par n="/estar__vbser"/><p><l><b/>aplicable</l><r><g><b/>aplicable</g></r></p></e>
     <e lm="fer mención de" r="RL"><i>f</i><par n="f/er__vblex"/><p><l><b/>mención<b/>de</l><r><g><b/>mención<b/><a/>de</g></r></p></e>
     <e lm="fer mención de" r="LR"><i>f</i><par n="f/er__vblex"/><p><l><b/>mención<b/>de</l><r><g><b/>mención<b/>de</g></r></p></e>
     <e lm="fer-ne mención" r="LR"><i>f</i><par n="f/er__vblex"/><p><l>-ne<b/>mención</l><r><g>-ne<b/>mención</g></r></p></e>    
