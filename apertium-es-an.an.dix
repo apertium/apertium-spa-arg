@@ -38677,7 +38677,7 @@
 <e lm="por o que concierne a" r="LR"><p><l>pe'l<b/>que<b/>concierne<b/></l><r>por<b/>o<b/>que<b/>concierne<b/></r></p><par n="conta__pr"/></e>
 <e lm="por o que concierne a" r="LR"><p><l>po'l<b/>que<b/>concierne<b/></l><r>por<b/>o<b/>que<b/>concierne<b/></r></p><par n="conta__pr"/></e>
 <e lm="por o que concierne a" r="LR"><p><l>pel<b/>que<b/>concierne<b/></l><r>por<b/>o<b/>que<b/>concierne<b/></r></p><par n="conta__pr"/></e>
-
+<e lm="dillá de"><i>d</i><par n="/i_e__var"/><i>llá<b/></i><par n="contde__pr"/></e>
 <e lm="dirección a"><i>dirección<b/></i><par n="conta__pr"/></e>
 <e lm="dirección ta"><i>dirección<b/></i><par n="contta__pr"/></e>
 <e lm="endrecera ta"><i>endrecera<b/></i><par n="contta__pr"/></e>
@@ -38761,6 +38761,7 @@
     <e lm="nomás"><i>nomás</i><par n="agora__adv"/></e>
     <e lm="nomás" r="LR"><p><l>només</l><r>nomás</r></p><par n="agora__adv"/></e>
     <e lm="muito"><i>muito</i><par n="agora__adv"/></e>
+    <e lm="poco"><i>poco</i><par n="agora__adv"/></e>
     <e lm="asinas"><i>asinas</i><par n="agora__adv"/></e>
     <e lm="asinas" r="LR"><p><l>asina</l><r>asinas</r></p><par n="agora__adv"/></e>
     <e lm="asinas" r="LR"><p><l>aixit</l><r>asinas</r></p><par n="agora__adv"/></e>
@@ -38778,9 +38779,127 @@
     <e lm="ab initio"><i>ab<b/>initio</i><par n="agora__adv"/></e>
     <e lm="ab irato"><i>ab<b/>irato</i><par n="agora__adv"/></e>
     <e lm="ab origine"><i>ab<b/>origine</i><par n="agora__adv"/></e>
+    
+    <e lm="a la defensiva"><i>a<b/>la<b/>defensiva</i><par n="agora__adv"/></e>
+    <e lm="a la defensiva" r="LR"><p><l>a<b/>la<b/>esfensiva</l><r>a<b/>la<b/>defensiva</r></p><par n="agora__adv"/></e>
+    <e lm="a gran escala"><i>a<b/>gran<b/>escala</i><par n="agora__adv"/></e>
+    <e lm="a escala"><i>a<b/>escala</i><par n="agora__adv"/></e>
+    <e lm="viceversa"><i>viceversa</i><par n="agora__adv"/></e>
 
+    <e lm="acaso"><i>acaso</i><par n="agora__adv"/></e>
+    <e lm="acaso" r="LR"><p><l>alcaso</l><r>acaso</r></p><par n="agora__adv"/></e>
+    <e lm="por si a un caso"><par n="/por__var"/><i><b/>si<b/>a<b/>un<b/>caso</i><par n="agora__adv"/></e>
+    <e lm="por si a un caso"><par n="/por__var"/><p><l><b/>si<b/>á<b/>un<b/>caso</l><r><b/>si<b/>a<b/>un<b/>caso</r></p><par n="agora__adv"/></e>
+    <e lm="por si a un caso"><par n="/por__var"/><p><l><b/>se<b/>a<b/>un<b/>caso</l><r><b/>si<b/>a<b/>un<b/>caso</r></p><par n="agora__adv"/></e>
+    <e lm="si a un caso"><par n="/por__var"/><p><l>si<b/>a'l<b/>caso</l><r><b/>si<b/>a<b/>un<b/>caso</r></p><par n="agora__adv"/></e>
+    <e lm="si a un caso"><par n="/por__var"/><p><l>si<b/>alcaso</l><r><b/>si<b/>a<b/>un<b/>caso</r></p><par n="agora__adv"/></e>
+    <e lm="alerta"><i>alerta</i><par n="agora__adv"/></e>
+    <e lm="anueit"><i>anueit</i><par n="agora__adv"/></e>
+    <e lm="anueit" r="LR"><p><l>anuet</l><r>anueit</r></p><par n="agora__adv"/></e>
+    <e lm="anueit" r="LR"><p><l>anit</l><r>anueit</r></p><par n="agora__adv"/></e>    
+    <e lm="anuitardi"><i>anuitardi</i><par n="agora__adv"/></e>
+    <e lm="anuitardi" r="LR"><p><l>anitarde</l><r>anuitardi</r></p><par n="agora__adv"/></e>
+    <e lm="anuitardi" r="LR"><p><l>anuitarde</l><r>anuitardi</r></p><par n="agora__adv"/></e>    
+    <e lm="antes mas"><i>antes<b/></i><par n="/mas__var"/><par n="agora__adv"/></e>
+    <e lm="antes mas" r="LR"><p><l>antis<b/></l><r>antes<b/></r></p><par n="/mas__var"/><par n="agora__adv"/></e>    
+    <e lm="antes mas" r="LR"><p><l>antesmás</l><r>antes<b/>mas</r></p><par n="agora__adv"/></e>    
+    <e lm="antes mas" r="LR"><p><l>antismás</l><r>antes<b/>mas</r></p><par n="agora__adv"/></e>    
+    <e lm="antes mas" r="LR"><p><l>antesmés</l><r>antes<b/>mas</r></p><par n="agora__adv"/></e>    
+    <e lm="antes mas" r="LR"><p><l>antismés</l><r>antes<b/>mas</r></p><par n="agora__adv"/></e>    
+    <e lm="mas d'antes"><par n="/mas__var"/><i><b/>d'antes</i><par n="agora__adv"/></e>
+    <e lm="mas d'antes" r="LR"><par n="/mas__var"/><p><l><b/>d'antis</l><r><b/>d'antes</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere"><i>antes<b/>d'ahiere</i><par n="agora__adv"/></e>
+    <e lm="antes d'ahiere" r="LR"><p><l>antes<b/>d'ahier</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antis<b/>d'ahier</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antis<b/>d'ahiere</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antis<b/>d'ayer</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antes<b/>d'ayer</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antes<b/>d'ayere</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antis<b/>d'ayere</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antisdahiere</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antesdahier</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antesdahiere</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antisdahier</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antesdayer</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antisdayer</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antesdayere</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antes d'ahiere" r="LR"><p><l>antisdayere</l><r>antes<b/>d'ahiere</r></p><par n="agora__adv"/></e>    
+    <e lm="antiahier"><i>antiayer</i><par n="agora__adv"/></e>
+    <e lm="antiahier" r="LR"><p><l>antiayer</l><r>antiahier</r></p><par n="agora__adv"/></e>    
+    <e lm="antiahier" r="LR"><p><l>anteahier</l><r>antiahier</r></p><par n="agora__adv"/></e>    
+    <e lm="antiahier" r="LR"><p><l>antiahier</l><r>antiahier</r></p><par n="agora__adv"/></e>    
+    <e lm="aparte"><i>aparte</i><par n="agora__adv"/></e>
+    <e lm="aparte" r="LR"><p><l>aparti</l><r>aparte</r></p><par n="agora__adv"/></e>    
+    <e lm="aparte" r="LR"><p><l>apart</l><r>aparte</r></p><par n="agora__adv"/></e>    
+    <e lm="pro"><i>pro</i><par n="agora__adv"/></e>
+    <e lm="prou" r="LR"><p><l>prou</l><r>pro</r></p><par n="agora__adv"/></e>
+    <e lm="chusto"><i>chusto</i><par n="agora__adv"/></e>
+    <e lm="tanto"><i>tanto</i><par n="agora__adv"/></e>    
+    <e lm="a redolons"><i>a<b/>redolons</i><par n="agora__adv"/></e>
+    <e lm="despacio"><i>despacio</i><par n="agora__adv"/></e>
+    <e lm="despaciet"><i>despaciet</i><par n="agora__adv"/></e>
+    <e lm="a bonico"><i>a<b/>bonico</i><par n="agora__adv"/></e>
+    <e lm="a bonico" r="LR"><p><l>a<b/>monico</l><r>a<b/>bonico</r></p><par n="agora__adv"/></e>
+    <e lm="a bonico" r="LR"><p><l>abonico</l><r>a<b/>bonico</r></p><par n="agora__adv"/></e>
+    <e lm="a bonico" r="LR"><p><l>amonico</l><r>a<b/>bonico</r></p><par n="agora__adv"/></e>
+    
+    <e lm="demasiado"><i>demasiado</i><par n="agora__adv"/></e>
+    <e lm="dondequiera"><i>dondequiera</i><par n="agora__adv"/></e>
+    <e lm="enfrente"><i>enfrente</i><par n="agora__adv"/></e>
+    <e lm="enseguida"><i>enseguida</i><par n="agora__adv"/></e>
+    <e lm="fuera"><i>fuera</i><par n="agora__adv"/></e>
+    <e lm="gratis"><i>gratis</i><par n="agora__adv"/></e>
+    <e lm="igual"><i>igual</i><par n="agora__adv"/></e>
+    <e lm="inclusive"><i>inclusive</i><par n="agora__adv"/></e>
+    <e lm="incluso"><i>incluso</i><par n="agora__adv"/></e>
+    <e lm="nada"><i>nada</i><par n="agora__adv"/></e>
+    <e lm="primero"><i>primero</i><par n="agora__adv"/></e>
+    <e lm="de seguro"><i>de<b/>seguro</i><par n="agora__adv"/></e>
+    <e lm="de seguras"><i>de<b/>seguras</i><par n="agora__adv"/></e>
+    <e r="LR" lm="siquiera"><i>siquiera</i><par n="agora__adv"/></e>
+    <e lm="fuerte"><i>fuerte</i><par n="agora__adv"/></e>
+    <e lm="firme"><i>firme</i><par n="agora__adv"/></e>
+    <e lm="deshora"><i>deshora</i><par n="agora__adv"/></e>
+    <e lm="millor"><i>millor</i><par n="agora__adv"/></e>
+    <e lm="pior"><i>pior</i><par n="agora__adv"/></e>
+    <e lm="pior" r="LR"><p><l>peyor</l><r>pior</r></p><par n="agora__adv"/></e>    
+    <e lm="pior" r="LR"><p><l>piyor</l><r>pior</r></p><par n="agora__adv"/></e>    
+    <e lm="cierto"><i>cierto</i><par n="agora__adv"/></e>
+    <e lm="entremistanto"><i>entremistanto</i><par n="agora__adv"/></e>
+    <e lm="entremistanto" r="LR"><p><l>entremestanto</l><r>entremestanto</r></p><par n="agora__adv"/></e>    
+    <e lm="tanimientres"><i>tanimientres</i><par n="agora__adv"/></e>
+    <e lm="tanimientres" r="LR"><p><l>tanimientras</l><r>tanimientres</r></p><par n="agora__adv"/></e>    
+    <e lm="mestanto"><i>mestanto</i><par n="agora__adv"/></e>
+    <e lm="mistanto" r="LR"><p><l>mistanto</l><r>mestanto</r></p><par n="agora__adv"/></e>    
+    <e r="RL" lm="en gran manera"><i>en<b/>gran<b/>manera</i><par n="ahir__adv"/></e>
+    <e lm="entremeyo"><i>entremeyo</i><par n="agora__adv"/></e>
+    <e lm="conforme"><i>conforme</i><par n="agora__adv"/></e>
+    <e lm="forte" a="prompsit2uoc"><i>forte</i><par n="agora__adv"/></e>
+    <e lm="allegro" a="prompsit2uoc"><i>allegro</i><par n="agora__adv"/></e>
+    <e lm="circa" a="prompsit2uoc"><i>circa</i><par n="agora__adv"/></e>
+    <e lm="allegretto" a="prompsit2uoc"><i>allegretto</i><par n="agora__adv"/></e>
+    <e lm="larghetto" a="prompsit2uoc"><i>larghetto</i><par n="agora__adv"/></e>
+    <e lm="ibidem" a="prompsit2uoc"><i>ibidem</i><par n="agora__adv"/></e>
+    <e lm="ibidem" r="LR"><p><l>ibídem</l><r>ibidem</r></p><par n="agora__adv"/></e>    
+    <e lm="prestissimo" a="prompsit2uoc"><i>prestissimo</i><par n="agora__adv"/></e>    
+    <e lm="D.E.P."><i>D.E.P.</i><par n="agora__adv"/></e>
+    <e lm="D.E.P." r="LR"><p><l>E.E.P.</l><r>D.E.P.</r></p><par n="agora__adv"/></e>    
+    <e lm="D.E.P." r="LR"><p><l>DEP</l><r>D.E.P.</r></p><par n="agora__adv"/></e>    
+    <e lm="R.I.P."><i>R.I.P.</i><par n="agora__adv"/></e>
+    <e lm="R.I.P." r="LR"><p><l>RIP</l><r>R.I.P.</r></p><par n="agora__adv"/></e>    
+    <e lm="aldredes"><i>aldredes</i><par n="agora__adv"/></e>
+    <e lm="aldredes" r="LR"><p><l>aldrede</l><r>adredes</r></p><par n="agora__adv"/></e>    
+    <e lm="aldredes" r="LR"><p><l>adredes</l><r>adredes</r></p><par n="agora__adv"/></e>    
+    <e lm="aldredes" r="LR"><p><l>adrede</l><r>adredes</r></p><par n="agora__adv"/></e>    
+    <e lm="enmeyo"><i>enmeyo</i><par n="agora__adv"/></e>    
+    <e lm="aldredes" r="LR"><p><l>enmedio</l><r>enmeyo</r></p><par n="agora__adv"/></e>    
+    <e lm="extramuros"><i>extramuros</i><par n="agora__adv"/></e>
+    
+    <e lm="on-line"><i>on-line</i><par n="agora__adv"/></e>
+    <e lm="on-line" r="LR"><p><l>online</l><r>on-line</r></p><par n="agora__adv"/></e>    
+    <e lm="on line" r="LR"><i>on<b/>line</i><par n="agora__adv"/></e>    
 
-    <e lm="chuntos" r="RL"><i>chuntos</i><par n="agora__adv"/></e>
+    <e lm="chuntos"><i>chuntos</i><par n="agora__adv"/></e>
     <e lm="tot chunto"><i>tot<b/>chunto</i><par n="agora__adv"/></e>
     <e lm="ir chuntos"><par n="/ir__vblex"/><p><l><b/>chuntos</l><r><g><b/>chuntos</g></r></p></e>
     <e lm="ir de conchunta"><par n="/ir__vblex"/><p><l><b/>de<b/>conchunta</l><r><g><b/>de<b/>conchunta</g></r></p></e>
@@ -38983,6 +39102,12 @@
     <e lm="antes que"><i>antes<b/>que</i><par n="porque__cnjadv"/></e>
     <e lm="antes que" r="LR"><p><l>antis<b/>que</l><r>antes<b/>que</r></p><par n="porque__cnjadv"/></e>
     <e lm="si"><i></i><par n="/si__cnjadv"/></e>
+    <e lm="si a un caso"><i>si<b/>a<b/>un<b/>caso</i><par n="porque__cnjadv"/></e>
+    <e lm="si a un caso"><p><l>si<b/>á<b/>un<b/>caso</l><r>si<b/>a<b/>un<b/>caso</r></p><par n="porque__cnjadv"/></e>
+    <e lm="si a un caso"><p><l>se<b/>a<b/>un<b/>caso</l><r>si<b/>a<b/>un<b/>caso</r></p><par n="porque__cnjadv"/></e>
+    <e lm="si a un caso"><p><l>si<b/>a'l<b/>caso</l><r>si<b/>a<b/>un<b/>caso</r></p><par n="porque__cnjadv"/></e>
+    <e lm="si a un caso"><p><l>si<b/>alcaso</l><r>si<b/>a<b/>un<b/>caso</r></p><par n="porque__cnjadv"/></e>
+
     <e lm="tot y que"><i>tot<b/></i><par n="y_e"/><i><b/>que</i><par n="porque__cnjadv"/></e>
     
     <e lm="que"><i>que</i><par n="que__cnjsub"/></e>
@@ -39137,6 +39262,7 @@
     <e lm="encara" r="LR"><p><l>encá</l><r>encara</r></p><par n="agora__adv"/></e>
     <e lm="agún"><i>agún</i><par n="agora__adv"/></e>
     <e lm="mesmo"><i>mesmo</i><par n="agora__adv"/></e>
+    <e lm="dimpués" r="LR"><p><l>mismo</l><r>mesmo</r></p><par n="agora__adv"/></e>
     <e lm="dimpués"><i>dimpués</i><par n="agora__adv"/></e>
     <e lm="dimpués" r="LR"><p><l>dispués</l><r>dimpués</r></p><par n="agora__adv"/></e>
     <e lm="dimpués" r="LR"><p><l>dimpuesas</l><r>dimpués</r></p><par n="agora__adv"/></e>
@@ -39180,6 +39306,7 @@
     <e lm="astibant" i="yes"><i>astibant</i><par n="agora__adv"/></e>
     <e lm="astibant" r="LR" i="yes"><p><l>astibán</l><r>astibant</r></p><par n="agora__adv"/></e>
     <e lm="abaixo"><i>aba</i><par n="/ix_x__var"/><i>o</i><par n="agora__adv"/></e>
+    <e lm="baixo"><i>ba</i><par n="/ix_x__var"/><i>o</i><par n="agora__adv"/></e>
     <e lm="debant"><i>debant</i><par n="agora__adv"/></e>
     <e lm="debant" r="LR"><p><l>debán</l><r>debant</r></p><par n="agora__adv"/></e>
     <e lm="debaixo"><i>deba</i><par n="/ix_x__var"/><i>o</i><par n="agora__adv"/></e>
@@ -39189,7 +39316,6 @@
     <e lm="difuera"><i>difuera</i><par n="agora__adv"/></e>
     <e lm="difuera" r="LR"><p><l>defuera</l><r>difuera</r></p><par n="agora__adv"/></e>
     <e lm="dillá"><i>d</i><par n="/i_e__var"/><i>llá</i><par n="agora__adv"/></e>
-    <e lm="dillá" r="LR"><p><l>dellá</l><r>dillá</r></p><par n="agora__adv"/></e>
     <e lm="dentro"><i>dentro</i><par n="agora__adv"/></e>
     <e lm="dentro" r="LR"><p><l>drento</l><r>dentro</r></p><par n="agora__adv"/></e>
     <e lm="endentro"><i>endentro</i><par n="agora__adv"/></e>
@@ -50576,7 +50702,6 @@
     <e lm="civilizador"><i>civilizador</i><par n="opresor__adj_adv"/></e>
     <e lm="civil"><i>civil</i><par n="social__adj_adv"/></e>
     <e lm="clandestino"><i>clandestin</i><par n="academic/o__adj_adv"/></e>
-    <e lm="claro"><i>clar</i><par n="academic/o__adj_adv"/></e>
     <e lm="claro"><par n="/cl_cll__var"/><i>ar</i><par n="academic/o__adj_adv"/></e>
     <e lm="clarificador"><i>clarificador</i><par n="opresor__adj_adv"/></e>
     <e lm="clarivident"><i>clarivid</i><par n="difer/ent__adj_adv"/></e>

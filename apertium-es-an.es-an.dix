@@ -2120,7 +2120,7 @@
     <e><p><l>temerario<s n="adj"/></l><r>temerario<s n="adj"/></r></p></e>
     <e><i>temible<s n="adj"/></i></e>
     <e><i>temporal<s n="adj"/></i></e>
-    <e><p><l>temprano<s n="adj"/></l><r>temprano<s n="adj"/></r></p></e>
+    <e><p><l>temprano<s n="adj"/></l><r>luego<s n="adj"/></r></p></e>
     <e><p><l>temático<s n="adj"/></l><r>tematico<s n="adj"/></r></p></e>
     <e><p><l>tendencioso<s n="adj"/></l><r>tendencioso<s n="adj"/></r></p></e>
     <e><p><l>tenso<s n="adj"/></l><r>tenso<s n="adj"/></r></p></e>
@@ -3238,7 +3238,6 @@
 <e><p><l>humilde<s n="adj"/></l><r>humil<s n="adj"/></r></p></e>
 <e><p><l>ideal<s n="adj"/></l><r>ideyal<s n="adj"/></r></p></e>
 <e><p><l>idiolectal<s n="adj"/></l><r>idiolectal<s n="adj"/></r></p></e>
-<e><p><l>igual<s n="adj"/></l><r>igual<s n="adj"/></r></p></e>
 <e><p><l>ilegal<s n="adj"/></l><r>ilegal<s n="adj"/></r></p></e>
 <e><p><l>imbécil<s n="adj"/></l><r>imbecil<s n="adj"/></r></p></e>
 <e><p><l>imparcial<s n="adj"/></l><r>imparcial<s n="adj"/></r></p></e>
@@ -5032,7 +5031,7 @@
 <e><p><l>simplificador<s n="adj"/></l><r>simplificador<s n="adj"/></r></p></e>
 <e><p><l>soñador<s n="adj"/></l><r>sonyador<s n="adj"/></r></p></e>
 <e><p><l>sufridor<s n="adj"/></l><r>sufridor<s n="adj"/></r></p></e>
-<e><p><l>sugerente<s n="adv"/></l><r>sucheridor<s n="adj"/></r></p></e>
+<e><p><l>sugerente<s n="adj"/></l><r>sucheridor<s n="adj"/></r></p></e>
 <e r="LR"><p><l>sugerente<s n="adj"/><s n="mf"/></l><r>sucheridor<s n="adj"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>sugerente<s n="adj"/><s n="mf"/></l><r>sucheridor<s n="adj"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>sugerente<s n="adj"/><s n="mf"/></l><r>sucheridor<s n="adj"/><s n="f"/></r></p></e>
@@ -5811,6 +5810,8 @@
     <e r="LR"><p><l>únicamente<s n="adv"/></l><r>solament<s n="adv"/></r></p></e>
     <e r="RL"><p><l>únicamente<s n="adv"/></l><r>unicament<s n="adv"/></r></p></e>
     <e r="RL"><p><l>solo<s n="adv"/></l><r>solo<s n="adv"/></r></p></e>
+    <e><p><l>seguro<s n="adv"/></l><r>de<b/>seguras<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>seguro<s n="adv"/></l><r>de<b/>seguro<s n="adj"/></r></p></e>
     
   
     <e><p><l>deprisa<s n="adv"/></l><r>aprisa<s n="adv"/></r></p></e>
@@ -5846,6 +5847,7 @@
     <e>       <p><l>mientras<s n="adv"/></l>          <r>mientres<s n="adv"/></r></p></e>
     <e>       <p><l>todos<b/>juntos<s n="adv"/></l>       <r>totz<b/>chuntos<s n="adv"/></r></p></e>
     <e>       <p><l>pronto<s n="adv"/></l>       <r>luego<s n="adv"/></r></p></e>
+    <e r="LR">       <p><l>temprano<s n="adv"/></l>       <r>luego<s n="adv"/></r></p></e>
     <e>       <p><l>tarde<s n="adv"/></l>       <r>tarde<s n="adv"/></r></p></e>
     <e r="RL"><p><l>últimamente<s n="adv"/></l><r>ultimament<s n="adv"/></r></p></e>
     <e r="RL">       <p><l>últimamente<s n="adv"/></l>       <r>zaguerament<s n="adv"/></r></p></e>
@@ -5855,11 +5857,15 @@
     <e> <p><l>de<b/>lo<b/>contrario<s n="adv"/></l><r>en<b/>caso<b/>contrario<s n="adv"/></r></p></e>
     <e>       <p><l>por<b/>el<b/>contrario<s n="adv"/></l><r>por<b/>contra<s n="adv"/></r></p></e>
     <e><p><l>además<s n="adv"/></l><r>amás<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>otrosí<s n="adv"/></l><r>antiparte<s n="adv"/></r></p></e>
   <e><p><l>todo<b/>seguido<s n="adv"/></l>         <r>a<b/>l'arreu<s n="adv"/></r></p></e>
     <e r="RL"><p><l>a<b/>menudo<s n="adv"/></l>       <r>a<b/>menuto<s n="adv"/></r></p></e>
     <e r="RL"><p><l>a<b/>menudo<s n="adv"/></l>       <r>a<b/>sobén<s n="adv"/></r></p></e>
     <e>       <p><l>a<b/>menudo<s n="adv"/></l>       <r>a<b/>ormino<s n="adv"/></r></p></e>
-
+    <e>       <i>on<b/>line<s n="adv"/></i></e>
+    <e>       <i>on-line<s n="adv"/></i></e>
+    <e r="LR">       <p><l>bajo<s n="adv"/></l>              <r>baixo<s n="adv"/></r></p></e>
+    <e r="RL">       <p><l>abajo<s n="adv"/></l>              <r>baixo<s n="adv"/></r></p></e>
     <e r="RL"><p><l></l><r>pas<s n="adv"/></r></p></e>
     <e><p><l>arriba<s n="adv"/></l>    <r>alto<s n="adv"/></r></p></e>
     <e r="RL"><p><l>cerca<s n="adv"/></l>             <r>cerca<s n="adv"/></r></p></e>
@@ -5885,6 +5891,7 @@
         <e><p><l>ya<s n="adv"/></l><r>ya<s n="adv"/></r></p></e>
     <e><p><l>antes<s n="adv"/></l><r>antes<s n="adv"/></r></p></e>
     <e><p><l>aquí<s n="adv"/></l><r>aquí<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>acá<s n="adv"/></l><r>aquí<s n="adv"/></r></p></e>
     <e><p><l>ahí<s n="adv"/></l><r>astí<s n="adv"/></r></p></e>
     <e><p><l>allí<s n="adv"/></l><r>allí<s n="adv"/></r></p></e>
     <e><p><l>acá<s n="adv"/></l><r>acás n="adv"/></r></p></e>
@@ -5896,6 +5903,8 @@
     <e r="RL"><p><l>detrás<s n="adv"/></l>        <r>detrás<s n="adv"/></r></p></e>
     <e r="RL"><p><l>detrás<s n="adv"/></l>        <r>derré<s n="adv"/></r></p></e>
     <e r="RL"><p><l>más<b/>allá<s n="adv"/></l>        <r>dillá<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>allende<s n="adv"/></l>        <r>dillá<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>allende<s n="pr"/></l>        <r>dillá<b/>de<s n="pr"/></r></p></e>
     <e><i>igual<s n="adj"/></i></e>   
     <e><p><l>hacia<b/>abajo<s n="adv"/></l>    <r>enta<b/>baixo<s n="adv"/></r></p></e>
     <e><p><l>hacia<b/>arriba<s n="adv"/></l>   <r>enta<b/>alto<s n="adv"/></r></p></e>
@@ -5921,6 +5930,8 @@
     <e>       <p><l>siempre<s n="adv"/></l>     <r>siempre<s n="adv"/></r></p></e>
     <e>       <p><l>hoy<s n="adv"/></l>     <r>hue<s n="adv"/></r></p></e>
     <e>       <p><l>ayer<s n="adv"/></l>     <r>ahiere<s n="adv"/></r></p></e>
+    <e>       <p><l>anteayer<s n="adv"/></l>     <r>antes<b/>d'ahiere<s n="adv"/></r></p></e>
+    <e r="RL">       <p><l>anteayer<s n="adv"/></l>     <r>antiahier<s n="adv"/></r></p></e>
     <e r="RL">       <p><l>mañana<s n="adv"/></l>     <r>manyana<s n="adv"/></r></p></e>
     <e>       <p><l>mañana<s n="adv"/></l>     <r>maitín<s n="adv"/></r></p></e>
     <e r="LR"><p><l>quizá<s n="adv"/></l>             <r>talment<s n="adv"/></r></p></e>
@@ -5929,8 +5940,10 @@
     <e>       <p><l>quizás<s n="adv"/></l>            <r>talment<s n="adv"/></r></p></e>
     <e>       <p><l>tanto<b/>más<b/>cuanto<s n="cnjadv"/></l><r>muito<b/>mas<b/>mientres<s n="cnjadv"/></r></p></e>
   <e><p><l>al<b/>final<s n="adv"/></l> <r>a<b/>la<b/>fin<s n="adv"/></r></p></e>
-  
-
+  <e><p><l>alerta<s n="adv"/></l><r>alerta<s n="adv"/></r></p></e>
+  <e><p><l>acaso<s n="adv"/></l><r>acaso<s n="adv"/></r></p></e>
+  <e>       <p><l>por<b/>si<b/>acaso<s n="adv"/></l><r>por<b/>si<b/>a<b/>un<b/>caso<s n="adv"/></r></p></e>
+  <e>       <p><l>si<b/>acaso<s n="cnjadv"/></l><r>si<b/>a<b/>un<b/>caso<s n="cnjadv"/></r></p></e>
     <e><p><l>acá<s n="adv"/></l><r>acá<s n="adv"/></r></p></e>
     <e><p><l>adelante<s n="adv"/></l>          <r>adebant<s n="adv"/></r></p></e>
     <e r="RL"><p><l>adelante<s n="adv"/></l>          <r>abant<s n="adv"/></r></p></e>
@@ -5958,7 +5971,52 @@
     <e r="RL"><p><l>tampoco<s n="adv"/></l><r>tampoco<b/>no<s n="adv"/></r></p></e>
     <e><p><l>todavía<s n="adv"/></l><r>encara<s n="adv"/></r></p></e>
     <e><p><l>no<s n="adv"/></l><r>no<s n="adv"/></r></p></e>    
-    
+    <e>       <i>igual<s n="adv"/></i></e>
+  <e><p><l>tanto<s n="adv"/></l><r>tanto<s n="adv"/></r></p></e>
+  <e>       <i>viceversa<s n="adv"/></i></e>
+  <e r="RL"><p><l>rodando<s n="adv"/></l>           <r>a<b/>redolons<s n="adv"/></r></p></e>
+  <e r="LR">       <p><l>recio<s n="adv"/></l>             <r>fuerte<s n="adv"/></r></p></e>
+  <e>       <p><l>fuerte<s n="adv"/></l>             <r>fuerte<s n="adv"/></r></p></e>
+  <e r="RL">       <p><l>fuerte<s n="adv"/></l>             <r>firme<s n="adv"/></r></p></e>  
+  
+    <e>       <i>a<b/>la<b/>defensiva<s n="adv"/></i></e>
+    <e>       <i>a<b/>escala<s n="adv"/></i></e>
+    <e>       <i>a<b/>gran<b/>escala<s n="adv"/></i></e>
+    <e>       <i>tal<s n="adv"/></i></e>
+    <e><p><l>anoche<s n="adv"/></l><r>anueit<s n="adv"/></r></p></e>    
+    <e r="RL"><p><l>anoche<s n="adv"/></l><r>anuitardi<s n="adv"/></r></p></e>    
+<e r="LR">       <p><l>antaño<s n="adv"/></l>            <r>antes<b/>mas<s n="adv"/></r></p></e>
+<e>       <p><l>antiguamente<s n="adv"/></l>            <r>antes<b/>mas<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>antiguamente<s n="adv"/></l>            <r>mas<b/>d'antes<s n="adv"/></r></p></e>
+<e r="RL"><p><l>antiguamente<s n="adv"/></l><r>antigament<s n="adv"/></r></p></e>
+<e>       <p><l>poco<s n="adv"/></l>            <r>poco<s n="adv"/></r></p></e>
+<e>       <p><l>despacio<s n="adv"/></l>          <r>a<b/>bonico<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>despacio<s n="adv"/></l>          <r>despacio<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>despacio<s n="adv"/></l>          <r>despaciet<s n="adv"/></r></p></e>
+<e>       <p><l>mejor<s n="adv"/></l>          <r>millor<s n="adv"/></r></p></e>
+<e>       <p><l>peor<s n="adv"/></l>          <r>pior<s n="adv"/></r></p></e>
+<e>       <p><l>cierto<s n="adv"/></l>          <r>cierto<s n="adv"/></r></p></e>
+<e>       <p><l>mientras<b/>tanto<s n="adv"/></l>          <r>entremistanto<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>mientras<b/>tanto<s n="adv"/></l>          <r>tanimientres<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>mientras<b/>tanto<s n="adv"/></l>          <r>mestanto<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>sobremanera<s n="adv"/></l>          <r>en<b/>gran<b/>manera<s n="adv"/></r></p></e>
+<e>       <p><l>entremedias<s n="adv"/></l>          <r>entremeyo<s n="adv"/></r></p></e>
+<e><p><l>conforme<s n="adv"/></l>    <r>conforme<s n="adv"/></r></p></e>
+<e><p><l>forte<s n="adv"/></l>   <r>forte<s n="adv"/></r></p></e>
+<e><p><l>allegro<s n="adv"/></l> <r>allegro<s n="adv"/></r></p></e>
+<e><p><l>circa<s n="adv"/></l>   <r>circa<s n="adv"/></r></p></e>
+<e><p><l>allegretto<s n="adv"/></l>   <r>allegretto<s n="adv"/></r></p></e>
+<e><p><l>larghetto<s n="adv"/></l>   <r>larguetto<s n="adv"/></r></p></e>
+<e><p><l>ibídem<s n="adv"/></l>   <r>ibidem<s n="adv"/></r></p></e>
+<e><p><l>prestissimo<s n="adv"/></l>   <r>prestissimo<s n="adv"/></r></p></e>
+<e r="LR"><p><l>DEP<s n="adv"/></l>               <r>D.E.P.<s n="adv"/></r></p></e>
+<e>       <p><l>D.E.P.<s n="adv"/></l>            <r>D.E.P.<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>RIP<s n="adv"/></l>               <r>R.I.P.<s n="adv"/></r></p></e>
+<e>       <p><l>R.I.P.<s n="adv"/></l>            <r>R.I.P.<s n="adv"/></r></p></e>
+<e><p><l>adrede<s n="adv"/></l>   <r>aldredes<s n="adv"/></r></p></e>
+<e r="LR"><p><l>aposta<s n="adv"/></l>   <r>aldredes<s n="adv"/></r></p></e>
+<e><p><l>extramuros<s n="adv"/></l>   <r>extramuros<s n="adv"/></r></p></e>
+<e><p><l>enmedio<s n="adv"/></l>   <r>enmeyo<s n="adv"/></r></p></e>
 
 <e><p><l>cercanamente<s n="adv"/></l><r>cercanament<s n="adv"/></r></p></e>
 <e r="RL"><p><l>cercanamente<s n="adv"/></l><r>amanadament<s n="adv"/></r></p></e>
@@ -6136,7 +6194,6 @@
 <e><p><l>anticuadamente<s n="adv"/></l><r>antiquadament<s n="adv"/></r></p></e>
 <e><p><l>antidemocráticamente<s n="adv"/></l><r>antidemocraticament<s n="adv"/></r></p></e>
 <e><p><l>antiglobalizadoramente<s n="adv"/></l><r>antiglobalizadorament<s n="adv"/></r></p></e>
-<e><p><l>antiguamente<s n="adv"/></l><r>antigament<s n="adv"/></r></p></e>
 <e><p><l>antinaturalmente<s n="adv"/></l><r>antinaturalment<s n="adv"/></r></p></e>
 <e><p><l>antipáticamente<s n="adv"/></l><r>antipaticament<s n="adv"/></r></p></e>
 <e><p><l>antiseñorialmente<s n="adv"/></l><r>antisinyorialment<s n="adv"/></r></p></e>
@@ -6156,7 +6213,7 @@
 <e><p><l>apetitosamente<s n="adv"/></l><r>apetitosament<s n="adv"/></r></p></e>
 <e r="RL"><p><l>aplastantemente<s n="adv"/></l><r>aclaparantment<s n="adv"/></r></p></e>
 <e r="LR"><p><l>aplastantemente<s n="adv"/></l><r>aclapadorament<s n="adv"/></r></p></e>
-<e><p><l>abrumadoramente<s n="adv"/></l><r>aclapadorament<s n="adv"/></r></p></e> 
+<e><p><l>abrumadoramente<s n="adv"/></l><r>aclapadorament<s n="adv"/></r></p></e>
 <e><p><l>agobiantemente<s n="adv"/></l><r>atosegantment<s n="adv"/></r></p></e>
 <e><p><l>acosadoramente<s n="adv"/></l><r>atosegadorament<s n="adv"/></r></p></e>
 <e><p><l>aplicablemente<s n="adv"/></l><r>aplicablement<s n="adv"/></r></p></e>
@@ -8692,6 +8749,7 @@
 <e><p><l>recesivamente<s n="adv"/></l><r>recesivament<s n="adv"/></r></p></e>
 <e><p><l>rechazablemente<s n="adv"/></l><r>refusablement<s n="adv"/></r></p></e>
 <e><p><l>recientemente<s n="adv"/></l><r>recientment<s n="adv"/></r></p></e>
+<e r="LR"><p><l>recién<s n="adv"/></l><r>recientment<s n="adv"/></r></p></e>
 <e><p><l>recíprocamente<s n="adv"/></l><r>reciprocament<s n="adv"/></r></p></e>
 <e><p><l>recombinantemente<s n="adv"/></l><r>recombinantment<s n="adv"/></r></p></e>
 <e><p><l>recomendablemente<s n="adv"/></l><r>recomendablement<s n="adv"/></r></p></e>
@@ -9321,13 +9379,13 @@
 <e>       <i>ad<b/>rem<s n="adv"/></i></e>
 <e>       <i>ad<b/>usum<s n="adv"/></i></e>
 <e>       <i>ante<b/>meridiem<s n="adv"/></i></e>
-<e r="LR"><p> <l>ante<b/>merídiem<s n="adv"/></l><r>ante<b/>meridiem<s n="adv"/></r></p></e>
+<e r="LR"><p><l>ante<b/>merídiem<s n="adv"/></l><r>ante<b/>meridiem<s n="adv"/></r></p></e>
 <e>       <i>aprox.<s n="adv"/></i></e>
 <e>       <i>corpore<b/>insepulto<s n="adv"/></i></e>
 <e>       <i>de<b/>cara<s n="adv"/></i></e>
 <e>       <i>de<b/>facto<s n="adv"/></i></e>
 <e>       <i>de<b/>iure<s n="adv"/></i></e>
-<e r="LR"><p> <l>de<b/>jure<s n="adv"/></l><r>de<b/>iure<s n="adv"/></r></p></e>
+<e r="LR"><p><l>de<b/>jure<s n="adv"/></l><r>de<b/>iure<s n="adv"/></r></p></e>
 <e>       <i>de<b/>visu<s n="adv"/></i></e>
 <e>       <i>Deo<b/>gratias<s n="adv"/></i></e>
 <e>       <i>deshora<s n="adv"/></i></e>
@@ -9397,7 +9455,6 @@
 <e>       <i>out<s n="adv"/></i></e>
 <e>       <i>viceversa<s n="adv"/></i></e>
 
-
     <!-- ******************************
           group pr_symbol
       ****************************** -->
@@ -9442,7 +9499,8 @@
     <e>       <p><l>en<b/>medio<b/>de<s n="pr"/></l>  <r>enmeyo<b/>de<s n="pr"/></r></p></e>
     <e><p><l>por<b/>debajo<b/>de<s n="pr"/></l><r>por<b/>baixo<b/>de<s n="pr"/></r></p></e>
     <e><p><l>por<b/>encima<b/>de<s n="pr"/></l><r>por<b/>alto<b/>de<s n="pr"/></r></p></e>
-
+    <e r="LR"><p><l>allende<s n="pr"/></l><r>dillá<b/>de<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>allende<s n="adv"/></l><r>dillá<s n="adv"/></r></p></e>
     <e><p><l>hacia<s n="pr"/></l><r>enta<s n="pr"/></r></p></e>
     <e r="RL"><p><l>hacia<s n="pr"/></l><r>cara<s n="pr"/></r></p></e>
     <e r="RL"><p><l>hacia<s n="pr"/></l><r>cara<b/>ta<s n="pr"/></r></p></e> <!-- en dirección a -->
@@ -9473,7 +9531,7 @@
 
     <e><p><l>extra<s n="adj"/></l>            <r>extra<s n="adj"/></r></p></e>
     <e><p><l>extra<s n="n"/></l>            <r>extra<s n="n"/></r></p></e>
-
+    <e>       <p><l>aparte<s n="adv"/></l>            <r>aparte<s n="adv"/></r></p></e>
     <e>       <p><l>aparte<b/>de<s n="pr"/></l><r>antiparte<b/>de<s n="pr"/></r></p></e>  
     <e>       <p><l>a<b/>base<b/>de<s n="pr"/></l>    <r>a<b/>pur<b/>de<s n="pr"/></r></p></e>
     <e r="RL">       <p><l>a<b/>base<b/>de<s n="pr"/></l>    <r>a<b/>fuerza<b/>de<s n="pr"/></r></p></e>
@@ -11453,7 +11511,7 @@
     <e r="RL"><p><l>nunca<s n="adv"/></l>             <r>nunca<b/>no<s n="adv"/></r></p></e>
     <e r="LR"><p><l>jamás<s n="adv"/></l>             <r>nunca<s n="adv"/></r></p></e>
     <e r="LR"> <p><l>nunca<b/>jamás<s n="adv"/></l>    <r>nunca<s n="adv"/></r></p></e>
-
+    <e>       <p><l>justo<s n="adv"/></l>             <r>chusto<s n="adv"/></r></p></e>
 
 
     <e><p><l>admiración<s n="n"/></l><r>admiración<s n="n"/></r></p></e>
