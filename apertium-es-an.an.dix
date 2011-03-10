@@ -4852,19 +4852,19 @@
     <e>
       <p>
         <l>atz</l>
-        <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
+        <r><s n="pri"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
         <l>az</l>
-        <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
+        <r><s n="pri"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
   <e r="LR">
       <p>
         <l>ats</l>
-        <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
+        <r><s n="pri"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
   </pardef>
@@ -5943,13 +5943,13 @@
     <e>
       <p>
         <l>a</l>
-        <r><s n="imp"/><s n="p2"/><s n="sg"/></r>
+        <r><s n="imp"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
     <e>
       <p>
         <l>a</l>
-        <r><s n="imp"/><s n="p2"/><s n="sg"/></r>
+        <r><s n="imp"/><s n="p3"/><s n="sg"/></r>
       </p>
       <par n="S__cante"/> 
     </e>    
@@ -33870,7 +33870,7 @@
         <r>ce<s n="adj"/><s n="f"/><s n="pl"/></r>
       </p>
     </e>
-     <e r="LR">
+     <e>
      <p>
         <l>zam</l>
         <r>zam</r>
@@ -35212,8 +35212,71 @@
       </p>
     </e>
 
+    </pardef>
+   
+    <pardef n="BBC__n">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
 
     </pardef>
+    <pardef n="BBVA__n">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="IRPF__n">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="ATS__n">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="EE.UU.__n">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="acr"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="ETS__n">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="acr"/><s n="f"/><s n="sp"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+    <pardef n="FARC__n">
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="acr"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+</pardef>   
+   
    
     <pardef n="ABC__np">
     <e>
@@ -38737,9 +38800,9 @@
     <e lm="sin dembargo" r="LR"><p><l>sin<b/>dembargo</l><r>sindembargo</r></p><par n="porque__cnjadv"/></e>
     <e lm="manimenos"><i>manimenos</i><par n="porque__cnjadv"/></e>
     <e lm="manimenos" r="LR"><p><l>man<b/>y<b/>menos</l><r>manimenos</r></p><par n="porque__cnjadv"/></e>
-    <e lm="antiparte"><i>antiparte</i><par n="contde__pr"/></e>
-    <e lm="antiparte" r="LR"><p><l>antiparti</l><r>antiparte</r></p><par n="contde__pr"/></e>
-    <e lm="antiparte" r="LR"><p><l>aparte</l><r>antiparte</r></p><par n="contde__pr"/></e>    
+    <e lm="antiparte"><i>antiparte</i><par n="agora__adv"/></e>
+    <e lm="antiparte" r="LR"><p><l>antiparti</l><r>antiparte</r></p><par n="agora__adv"/></e>
+    <e lm="antiparte" r="LR"><p><l>aparte</l><r>antiparte</r></p><par n="agora__adv"/></e>    
     <e lm="sino"><i>sino</i><par n="pero__cnjcoo"/></e>
     <e lm="pero"><i>pero</i><par n="pero__cnjcoo"/></e>
     <e lm="alavez"><i>alavez</i><par n="porque__cnjadv"/></e>
@@ -38915,7 +38978,7 @@
     <e lm="p. eix." r="LR"><p><l>p.<b/>ex.</l><r>p.<b/>eix.</r></p><par n="agora__adv"/></e>    
     <e lm="p.eix." r="LR"><i>p.eix.</i><par n="agora__adv"/></e>    
     <e lm="p.eix." r="LR"><p><l>p.ex.</l><r>p.eix.</r></p><par n="agora__adv"/></e>    
-    <e lm="aprox."><i>aprox</i><par n="agora__adv"/></e>
+    <e lm="aprox."><i>aprox.</i><par n="agora__adv"/></e>
     <e lm="ib."><i>ib.</i><par n="agora__adv"/></e>
     <e lm="id."><i>id.</i><par n="agora__adv"/></e>
     <e lm="loc. cit."><i>loc.<b/>cit.</i><par n="agora__adv"/></e>
@@ -38988,9 +39051,9 @@
    <e lm="q.e.p.d." r="LR"><p><l>q.e.p.d.</l><r>q.<b/>e.<b/>p.<b/>d.</r></p><par n="agora__adv"/></e>  
       
     <e lm="aldredes"><i>aldredes</i><par n="agora__adv"/></e>
-    <e lm="aldredes" r="LR"><p><l>aldrede</l><r>adredes</r></p><par n="agora__adv"/></e>    
-    <e lm="aldredes" r="LR"><p><l>adredes</l><r>adredes</r></p><par n="agora__adv"/></e>    
-    <e lm="aldredes" r="LR"><p><l>adrede</l><r>adredes</r></p><par n="agora__adv"/></e>    
+    <e lm="aldredes" r="LR"><p><l>aldrede</l><r>aldredes</r></p><par n="agora__adv"/></e>    
+    <e lm="aldredes" r="LR"><p><l>adredes</l><r>aldredes</r></p><par n="agora__adv"/></e>    
+    <e lm="aldredes" r="LR"><p><l>adrede</l><r>aldredes</r></p><par n="agora__adv"/></e>    
     <e lm="enmeyo"><i>enmeyo</i><par n="agora__adv"/></e>    
     <e lm="aldredes" r="LR"><p><l>enmedio</l><r>enmeyo</r></p><par n="agora__adv"/></e>    
     <e lm="extramuros"><i>extramuros</i><par n="agora__adv"/></e>
@@ -39629,6 +39692,390 @@
     <e lm="dels" r="LR"><p><l>dels</l><r>de<s n="pr"/><j/>o<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
     <e lm="de'ls" r="LR"><p><l>de'ls</l><r>de<s n="pr"/><j/>o<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
     
+    
+
+<e lm="BBC"><i>BBC</i><par n="BBC__n"/></e>
+<e lm="Cope"><i>Cope</i><par n="BBC__n"/></e>
+<e lm="CAM"><i>CAM</i><par n="BBC__n"/></e>
+<e lm="CGT"><i>CGT</i><par n="BBC__n"/></e>
+<e lm="CNN"><i>CNN</i><par n="BBC__n"/></e>
+<e lm="DGT"><i>DGT</i><par n="BBC__n"/></e>
+<e lm="EMT"><i>EMT</i><par n="BBC__n"/></e>
+<e lm="ETA"><i>ETA</i><par n="BBC__n"/></e>
+<e lm="FIFA"><i>FIFA</i><par n="BBC__n"/></e>
+<e lm="FM"><i>FM</i><par n="BBC__n"/></e>
+<e lm="Logse"><i>Logse</i><par n="BBC__n"/></e>
+<e lm="NASA"><i>NASA</i><par n="BBC__n"/></e>
+<e lm="OCDE"><i>OCDE</i><par n="BBC__n"/></e>
+<e lm="ONU"><i>ONU</i><par n="BBC__n"/></e>
+<e lm="OTAN"><i>OTAN</i><par n="BBC__n"/></e>
+<e lm="UA"><i>UA</i><par n="BBC__n"/></e>
+<e lm="UE"><i>UE</i><par n="BBC__n"/></e>
+<e lm="Uefa"><i>Uefa</i><par n="BBC__n"/></e>
+<e lm="UGT"><i>UGT</i><par n="BBC__n"/></e>
+<e lm="UHF"><i>UHF</i><par n="BBC__n"/></e>
+<e lm="UPC"><i>UPC</i><par n="BBC__n"/></e>
+<e lm="UPV"><i>UPV</i><par n="BBC__n"/></e>
+<e lm="URL"><i>URL</i><par n="BBC__n"/></e>
+<e lm="www"><i>www</i><par n="BBC__n"/></e>
+<e lm="WITSA"><i>WITSA</i><par n="BBC__n"/></e>
+<e lm="UVic"><i>UVic</i><par n="BBC__n"/></e>
+<e lm="UdL"><i>UdL</i><par n="BBC__n"/></e>
+<e lm="UdG"><i>UdG</i><par n="BBC__n"/></e>
+<e lm="AQU"><i>AQU</i><par n="BBC__n"/></e>
+<e lm="Unesco"><i>Unesco</i><par n="BBC__n"/></e>
+<e lm="EEES"><i>EEES</i><par n="BBC__n"/></e>
+<e lm="OMS" a=" alseoane@gmail.com"><i>OMS</i><par n="BBC__n"/></e>
+<e lm="FUOC"><i>FUOC</i><par n="BBC__n"/></e>
+<e lm="ICV"><i>ICV</i><par n="BBC__n"/></e>
+<e lm="CECA" a="prompsit2adn"><i>CECA</i><par n="BBC__n"/></e>
+<e lm="CEE" a="prompsit2adn"><i>CEE</i><par n="BBC__n"/></e>
+<e lm="FAO" a="prompsit2adn"><i>FAO</i><par n="BBC__n"/></e>
+<e lm="OMC" a="prompsit2adn"><i>OMC</i><par n="BBC__n"/></e>
+<e lm="ROM" a="prompsit2adn"><i>ROM</i><par n="BBC__n"/></e>
+<e lm="UB" a="prompsit2adn"><i>UB</i><par n="BBC__n"/></e>
+<e lm="UJI" a="prompsit2adn"><i>UJI</i><par n="BBC__n"/></e>
+<e lm="UOC" a="prompsit2adn"><i>UOC</i><par n="BBC__n"/></e>
+<e lm="ERC" a="prompsit2adn"><i>ERC</i><par n="BBC__n"/></e>
+<e lm="UPN" a="prompsit2adn"><i>UPN</i><par n="BBC__n"/></e>
+<e lm="ANV" a="prompsit2adn"><i>ANV</i><par n="BBC__n"/></e>
+<e lm="FIA" a="prompsit2adn"><i>FIA</i><par n="BBC__n"/></e>
+<e lm="CNMV" a="prompsit2adn"><i>CNMV</i><par n="BBC__n"/></e>
+<e lm="UCI" a="prompsit2adn"><i>UCI</i><par n="BBC__n"/></e>
+<e lm="NBA" a="prompsit2adn"><i>NBA</i><par n="BBC__n"/></e>
+<e lm="LFP" a="prompsit2adn"><i>LFP</i><par n="BBC__n"/></e>
+<e lm="OIEA" a="prompsit2adn"><i>OIEA</i><par n="BBC__n"/></e>
+<e lm="ANP" a="prompsit2adn"><i>ANP</i><par n="BBC__n"/></e>
+<e lm="TAM" a="prompsit2adn"><i>TAM</i><par n="BBC__n"/></e>
+<e lm="AI" a="prompsit2adn"><i>AI</i><par n="BBC__n"/></e>
+<e lm="CNE" a="prompsit2adn"><i>CNE</i><par n="BBC__n"/></e>
+<e lm="CIA" a="prompsit2adn"><i>CIA</i><par n="BBC__n"/></e>
+<e lm="CC" a="prompsit2adn"><i>CC</i><par n="BBC__n"/></e>
+<e lm="AP-7" a="prompsit2adn"><i>AP-7</i><par n="BBC__n"/></e>
+<e lm="OPEP" a="prompsit2adn"><i>OPEP</i><par n="BBC__n"/></e>
+<e lm="REE" a="prompsit2adn"><i>REE</i><par n="BBC__n"/></e>
+<e lm="ISAF" a="prompsit2adn"><i>ISAF</i><par n="BBC__n"/></e>
+<e lm="TDT" a="prompsit2adn"><i>TDT</i><par n="BBC__n"/></e>
+<e lm="UME" a="prompsit2adn"><i>UME</i><par n="BBC__n"/></e>
+<e lm="EEI" a="prompsit2adn"><i>EEI</i><par n="BBC__n"/></e>
+<e lm="SGAE" a="prompsit2adn"><i>SGAE</i><par n="BBC__n"/></e>
+<e lm="OCU" a="prompsit2adn"><i>OCU</i><par n="BBC__n"/></e>
+<e lm="CSC" a="prompsit2adn"><i>CSC</i><par n="BBC__n"/></e>
+<e lm="ACB" a="prompsit2adn"><i>ACB</i><par n="BBC__n"/></e>
+<e lm="AVT" a="prompsit2adn"><i>AVT</i><par n="BBC__n"/></e>
+<e lm="NFL" a="prompsit2adn"><i>NFL</i><par n="BBC__n"/></e>
+<e lm="RNE" a="prompsit2adn"><i>RNE</i><par n="BBC__n"/></e>
+<e lm="MTV" a="prompsit2adn"><i>MTV</i><par n="BBC__n"/></e>
+<e lm="EON" a="prompsit2adn"><i>EON</i><par n="BBC__n"/></e>
+<e lm="CEOE" a="prompsit2adn"><i>CEOE</i><par n="BBC__n"/></e>
+<e lm="RFEF" a="prompsit2adn"><i>RFEF</i><par n="BBC__n"/></e>
+<e lm="FINUL" a="prompsit2adn"><i>FINUL</i><par n="BBC__n"/></e>
+<e lm="FCC" a="prompsit2adn"><i>FCC</i><par n="BBC__n"/></e>
+<e lm="UVI" a="prompsit2adn"><i>UVI</i><par n="BBC__n"/></e>
+<e lm="FEB" a="prompsit2adn"><i>FEB</i><par n="BBC__n"/></e>
+<e lm="FACUA" a="prompsit2adn"><i>FACUA</i><par n="BBC__n"/></e>
+<e lm="AEPD" a="prompsit2adn"><i>AEPD</i><par n="BBC__n"/></e>
+<e lm="RFEC" a="prompsit2adn"><i>RFEC</i><par n="BBC__n"/></e>
+<e lm="CMT" a="prompsit2adn"><i>CMT</i><par n="BBC__n"/></e>
+<e lm="NBC" a="prompsit2adn"><i>NBC</i><par n="BBC__n"/></e>
+<e lm="LND" a="prompsit2adn"><i>LND</i><par n="BBC__n"/></e>
+<e lm="SL" a="prompsit2adn"><i>SL</i><par n="BBC__n"/></e>
+<e lm="AP" a="prompsit2adn"><i>AP</i><par n="BBC__n"/></e>
+<e lm="UIMP" a="prompsit2adn"><i>UIMP</i><par n="BBC__n"/></e>
+<e lm="TVC" a="prompsit2adn"><i>TVC</i><par n="BBC__n"/></e>
+<e lm="UCE" a="prompsit2adn"><i>UCE</i><par n="BBC__n"/></e>
+<e lm="FED" a="prompsit2adn"><i>FED</i><par n="BBC__n"/></e>
+<e lm="ACS" a="prompsit2adn"><i>ACS</i><par n="BBC__n"/></e>
+<e lm="SEPI" a="prompsit2adn"><i>SEPI</i><par n="BBC__n"/></e>
+<e lm="PGA" a="prompsit2adn"><i>PGA</i><par n="BBC__n"/></e>
+<e lm="OPA" a="prompsit2adn"><i>OPA</i><par n="BBC__n"/></e>
+<e lm="FAES" a="prompsit2adn"><i>FAES</i><par n="BBC__n"/></e>
+<e lm="ATP" a="prompsit2adn"><i>ATP</i><par n="BBC__n"/></e>
+<e lm="UPA" a="prompsit2adn"><i>UPA</i><par n="BBC__n"/></e>
+<e lm="UM" a="prompsit2adn"><i>UM</i><par n="BBC__n"/></e>
+<e lm="PA" a="prompsit2adn"><i>PA</i><par n="BBC__n"/></e>
+<e lm="OLP" a="prompsit2adn"><i>OLP</i><par n="BBC__n"/></e>
+<e lm="OEA" a="prompsit2adn"><i>OEA</i><par n="BBC__n"/></e>
+<e lm="FCF" a="prompsit2adn"><i>FCF</i><par n="BBC__n"/></e>
+<e lm="AFP" a="prompsit2adn"><i>AFP</i><par n="BBC__n"/></e>
+<e lm="URSS" a="prompsit2adn"><i>URSS</i><par n="BBC__n"/></e>
+<e lm="Unicef" a="prompsit2adn"><i>Unicef</i><par n="BBC__n"/></e>
+<e lm="UBS" a="prompsit2adn"><i>UBS</i><par n="BBC__n"/></e>
+<e lm="SDAT" a="prompsit2adn"><i>SDAT</i><par n="BBC__n"/></e>
+<e lm="RBA" a="prompsit2adn"><i>RBA</i><par n="BBC__n"/></e>
+<e lm="KGB" a="prompsit2adn"><i>KGB</i><par n="BBC__n"/></e>
+<e lm="UDC" a="prompsit2adn"><i>UDC</i><par n="BBC__n"/></e>
+<e lm="RAF" a="prompsit2adn"><i>RAF</i><par n="BBC__n"/></e>
+<e lm="DYA" a="prompsit2adn"><i>DYA</i><par n="BBC__n"/></e>
+<e lm="DGAIA" a="prompsit2adn"><i>DGAIA</i><par n="BBC__n"/></e>
+<e lm="AECI" a="prompsit2adn"><i>AECI</i><par n="BBC__n"/></e>
+<e lm="AEA" a="prompsit2adn"><i>AEA</i><par n="BBC__n"/></e>
+<e lm="USFP" a="prompsit2adn"><i>USFP</i><par n="BBC__n"/></e>
+<e lm="AI" a="prompsit2adn"><i>AI</i><par n="BBC__n"/></e>
+<e lm="PDVSA" a="prompsit2adn"><i>PDVSA</i><par n="BBC__n"/></e>
+<e lm="IAAF" a="prompsit2adn"><i>IAAF</i><par n="BBC__n"/></e>
+<e lm="SEC" a="prompsit2adn"><i>SEC</i><par n="BBC__n"/></e>
+<e lm="RDC" a="prompsit2adn"><i>RDC</i><par n="BBC__n"/></e>
+<e lm="UTE" a="prompsit2adn"><i>UTE</i><par n="BBC__n"/></e>
+<e lm="UMP" a="prompsit2adn"><i>UMP</i><par n="BBC__n"/></e>
+<e lm="TOR" a="prompsit2adn"><i>TOR</i><par n="BBC__n"/></e>
+<e lm="RCTV" a="prompsit2adn"><i>RCTV</i><par n="BBC__n"/></e>
+<e lm="ING" a="prompsit2adn"><i>ING</i><par n="BBC__n"/></e>
+<e lm="FAPAE" a="prompsit2adn"><i>FAPAE</i><par n="BBC__n"/></e>
+<e lm="CEN" a="prompsit2adn"><i>CEN</i><par n="BBC__n"/></e>
+<e lm="CBS" a="prompsit2adn"><i>CBS</i><par n="BBC__n"/></e>
+<e lm="UICN" a="prompsit2adn"><i>UICN</i><par n="BBC__n"/></e>
+<e lm="LOTC" a="prompsit2adn"><i>LOTC</i><par n="BBC__n"/></e>
+<e lm="ITV" a="prompsit2adn"><i>ITV</i><par n="BBC__n"/></e>
+<e lm="UAB" a="prompsit"><i>UAB</i><par n="BBC__n"/></e>
+<e lm="URV" a="prompsit"><i>URV</i><par n="BBC__n"/></e>
+<e lm="AVL" a="prompsit"><i>AVL</i><par n="BBC__n"/></e>
+<e lm="ISO" a="prompsit"><i>ISO</i><par n="BBC__n"/></e>
+<e lm="SNCF" a="prompsit"><i>SNCF</i><par n="BBC__n"/></e>
+<e lm="Pyme" a="prompsit"><i>Pyme</i><par n="BBC__n"/></e>
+<e lm="Once" a="prompsit"><i>Once</i><par n="BBC__n"/></e>
+<e lm="CAV" a="prompsit"><i>CAV</i><par n="BBC__n"/></e>
+<e lm="CEPYME" a="prompsit"><i>CEPYME</i><par n="BBC__n"/></e>
+<e lm="PIN" a="prompsit"><i>PIN</i><par n="BBC__n"/></e>
+<e lm="ECU" a="prompsit"><i>ECU</i><par n="BBC__n"/></e>
+<e lm="EFTA" a="prompsit"><i>EFTA</i><par n="BBC__n"/></e>
+<e lm="CA" a="prompsit"><i>CA</i><par n="BBC__n"/></e>
+<e lm="ROE"><i>ROE</i><par n="BBC__n"/></e>
+<e lm="ROA"><i>ROA</i><par n="BBC__n"/></e>
+<e lm="UNE-EN"><i>UNE-EN</i><par n="BBC__n"/></e>
+<e lm="ACUP" a="prompsit2uoc"><i>ACUP</i><par n="BBC__n"/></e>
+<e lm="IQUA" a="prompsit2uoc"><i>IQUA</i><par n="BBC__n"/></e>
+<e lm="I+D" a="prompsit2uoc"><i>I+D</i><par n="BBC__n"/></e>
+<e lm="I+D+I" a="prompsit2uoc"><i>I+D+I</i><par n="BBC__n"/></e>
+<e lm="BBDD" a="prompsit2cdl"><i>BBDD</i><par n="BBC__n"/></e>
+<e lm="AM"><i>AM</i><par n="BBC__n"/></e>
+<e lm="CNT"><i>CNT</i><par n="BBC__n"/></e>
+<e lm="ESO"><i>ESO</i><par n="BBC__n"/></e>
+<e lm="LOU"><i>LOU</i><par n="BBC__n"/></e>
+<e lm="RAM"><i>RAM</i><par n="BBC__n"/></e>
+<e lm="UDA"><i>UDA</i><par n="BBC__n"/></e>
+<e lm="UEM"><i>UEM</i><par n="BBC__n"/></e>
+<e lm="UIB"><i>UIB</i><par n="BBC__n"/></e>
+<e lm="UPF"><i>UPF</i><par n="BBC__n"/></e>
+<e lm="UV"><i>UV</i><par n="BBC__n"/></e>
+<e lm="UVEG"><i>UVEG</i><par n="BBC__n"/></e>
+<e lm="RAE"><i>RAE</i><par n="BBC__n"/></e>
+<e lm="EUiA"><i>EUiA</i><par n="BBC__n"/></e>
+
+<e lm="BBVA"><i>BBVA</i><par n="BBVA__n"/></e>
+<e lm="IMS"><i>IMS</i><par n="BBVA__n"/></e>
+<e lm="ICDE"><i>ICDE</i><par n="BBVA__n"/></e>
+<e lm="BOE"><i>BOE</i><par n="BBVA__n"/></e>
+<e lm="CD"><i>CD</i><par n="BBVA__n"/></e>
+<e lm="CIF"><i>CIF</i><par n="BBVA__n"/></e>
+<e lm="CSIF"><i>CSIF</i><par n="BBVA__n"/></e>
+<e lm="DNI"><i>DNI</i><par n="BBVA__n"/></e>
+<e lm="DVD"><i>DVD</i><par n="BBVA__n"/></e>
+<e lm="FBI"><i>FBI</i><par n="BBVA__n"/></e>
+<e lm="FC"><i>FC</i><par n="BBVA__n"/></e>
+<e lm="GPRS"><i>GPRS</i><par n="BBVA__n"/></e>
+<e lm="Inem"><i>Inem</i><par n="BBVA__n"/></e>
+<e lm="IPC"><i>IPC</i><par n="BBVA__n"/></e>
+<e lm="IVA"><i>IVA</i><par n="BBVA__n"/></e>
+<e lm="PNV"><i>PNV</i><par n="BBVA__n"/></e>
+<e lm="PP"><i>PP</i><par n="BBVA__n"/></e>
+<e lm="PSC"><i>PSC</i><par n="BBVA__n"/></e>
+<e lm="PSOE"><i>PSOE</i><par n="BBVA__n"/></e>
+<e lm="PSPV"><i>PSPV</i><par n="BBVA__n"/></e>
+<e lm="NMC"><i>NMC</i><par n="BBVA__n"/></e>
+<e lm="sida"><i>sida</i><par n="BBVA__n"/></e>
+<e lm="PNB"><i>PNB</i><par n="BBVA__n"/></e>
+<e lm="TSJ"><i>TSJ</i><par n="BBVA__n"/></e>
+<e lm="TSJV"><i>TSJV</i><par n="BBVA__n"/></e>
+<e lm="CNI"><i>CNI</i><par n="BBVA__n"/></e>
+<e lm="FMI"><i>FMI</i><par n="BBVA__n"/></e>
+<e lm="BCE"><i>BCE</i><par n="BBVA__n"/></e>
+<e lm="CIS" a="prompsit2adn"><i>CIS</i><par n="BBVA__n"/></e>
+<e lm="IN3"><i>IN3</i><par n="BBVA__n"/></e>
+<e lm="LED" a="prompsit2adn"><i>LED</i><par n="BBVA__n"/></e>
+<e lm="MEC" a="prompsit2adn"><i>MEC</i><par n="BBVA__n"/></e>
+<e lm="PSN" a="prompsit2adn"><i>PSN</i><par n="BBVA__n"/></e>
+<e lm="ADN" a="prompsit2adn"><i>ADN</i><par n="BBVA__n"/></e>
+<e lm="GMT" a="prompsit2adn"><i>GMT</i><par n="BBVA__n"/></e>
+<e lm="AVS" a="prompsit2adn"><i>AVS</i><par n="BBVA__n"/></e>
+<e lm="CGPJ" a="prompsit2adn"><i>CGPJ</i><par n="BBVA__n"/></e>
+<e lm="ABN" a="prompsit2adn"><i>ABN</i><par n="BBVA__n"/></e>
+<e lm="EA" a="prompsit2adn"><i>EA</i><par n="BBVA__n"/></e>
+<e lm="PSM" a="prompsit2adn"><i>PSM</i><par n="BBVA__n"/></e>
+<e lm="CO2" a="prompsit2adn"><i>CO2</i><par n="BBVA__n"/></e>
+<e lm="AKP" a="prompsit2adn"><i>AKP</i><par n="BBVA__n"/></e>
+<e lm="PSE" a="prompsit2adn"><i>PSE</i><par n="BBVA__n"/></e>
+<e lm="RC" a="prompsit2adn"><i>RC</i><par n="BBVA__n"/></e>
+<e lm="YPF" a="prompsit2adn"><i>YPF</i><par n="BBVA__n"/></e>
+<e lm="VIH" a="prompsit2adn"><i>VIH</i><par n="BBVA__n"/></e>
+<e lm="CCOO" a="prompsit2adn"><i>CCOO</i><par n="BBVA__n"/></e>
+<e lm="CC.OO." a="prompsit2adn"><i>CC.OO.</i><par n="BBVA__n"/></e>
+<e lm="PSE-EE" a="prompsit2adn"><i>PSE-EE</i><par n="BBVA__n"/></e>
+<e lm="PS" a="prompsit2adn"><i>PS</i><par n="BBVA__n"/></e>
+<e lm="CNH" a="prompsit2adn"><i>CNH</i><par n="BBVA__n"/></e>
+<e lm="IBM" a="prompsit2adn"><i>IBM</i><par n="BBVA__n"/></e>
+<e lm="PPC" a="prompsit2adn"><i>PPC</i><par n="BBVA__n"/></e>
+<e lm="EBB" a="prompsit2adn"><i>EBB</i><par n="BBVA__n"/></e>
+<e lm="CDN" a="prompsit2adn"><i>CDN</i><par n="BBVA__n"/></e>
+<e lm="BNG" a="prompsit2adn"><i>BNG</i><par n="BBVA__n"/></e>
+<e lm="CDC" a="prompsit2adn"><i>CDC</i><par n="BBVA__n"/></e>
+<e lm="PJD" a="prompsit2adn"><i>PJD</i><par n="BBVA__n"/></e>
+<e lm="PLD" a="prompsit2adn"><i>PLD</i><par n="BBVA__n"/></e>
+<e lm="EB" a="prompsit2adn"><i>EB</i><par n="BBVA__n"/></e>
+<e lm="UPD" a="prompsit2adn"><i>UPD</i><par n="BBVA__n"/></e>
+<e lm="TSJA" a="prompsit2adn"><i>TSJA</i><par n="BBVA__n"/></e>
+<e lm="RR" a="prompsit2adn"><i>RR</i><par n="BBVA__n"/></e>
+<e lm="IUN" a="prompsit2adn"><i>IUN</i><par n="BBVA__n"/></e>
+<e lm="CSIC" a="prompsit2adn"><i>CSIC</i><par n="BBVA__n"/></e>
+<e lm="TS" a="prompsit2adn"><i>TS</i><par n="BBVA__n"/></e>
+<e lm="PKK" a="prompsit2adn"><i>PKK</i><par n="BBVA__n"/></e>
+<e lm="INM" a="prompsit2adn"><i>INM</i><par n="BBVA__n"/></e>
+<e lm="GPS" a="prompsit2adn"><i>GPS</i><par n="BBVA__n"/></e>
+<e lm="AEK" a="prompsit2adn"><i>AEK</i><par n="BBVA__n"/></e>
+<e lm="EADS" a="prompsit2adn"><i>EADS</i><par n="BBVA__n"/></e>
+<e lm="RACC" a="prompsit2adn"><i>RACC</i><par n="BBVA__n"/></e>
+<e lm="HD" a="prompsit2adn"><i>HD</i><par n="BBVA__n"/></e>
+<e lm="FIB" a="prompsit2adn"><i>FIB</i><par n="BBVA__n"/></e>
+<e lm="APEC" a="prompsit2adn"><i>APEC</i><par n="BBVA__n"/></e>
+<e lm="CICR" a="prompsit2adn"><i>CICR</i><par n="BBVA__n"/></e>
+<e lm="Acnur" a="prompsit2adn"><i>Acnur</i><par n="BBVA__n"/></e>
+<e lm="YZR" a="prompsit2adn"><i>YZR</i><par n="BBVA__n"/></e>
+<e lm="TSE" a="prompsit2adn"><i>TSE</i><par n="BBVA__n"/></e>
+<e lm="KTM" a="prompsit2adn"><i>KTM</i><par n="BBVA__n"/></e>
+<e lm="BNP" a="prompsit2adn"><i>BNP</i><par n="BBVA__n"/></e>
+<e lm="RBS" a="prompsit2adn"><i>RBS</i><par n="BBVA__n"/></e>
+<e lm="COI" a="prompsit2adn"><i>COI</i><par n="BBVA__n"/></e>
+<e lm="CAC" a="prompsit2adn"><i>CAC</i><par n="BBVA__n"/></e>
+<e lm="TAS" a="prompsit2adn"><i>TAS</i><par n="BBVA__n"/></e>
+<e lm="SIVE" a="prompsit2adn"><i>SIVE</i><par n="BBVA__n"/></e>
+<e lm="RACE" a="prompsit2adn"><i>RACE</i><par n="BBVA__n"/></e>
+<e lm="PSV" a="prompsit2adn"><i>PSV</i><par n="BBVA__n"/></e>
+<e lm="PDE" a="prompsit2adn"><i>PDE</i><par n="BBVA__n"/></e>
+<e lm="PCE" a="prompsit2adn"><i>PCE</i><par n="BBVA__n"/></e>
+<e lm="Macba" a="prompsit2adn"><i>Macba</i><par n="BBVA__n"/></e>
+<e lm="IPCA" a="prompsit2adn"><i>IPCA</i><par n="BBVA__n"/></e>
+<e lm="SOS" a="prompsit2adn"><i>SOS</i><par n="BBVA__n"/></e>
+<e lm="PASOK" a="prompsit2adn"><i>PASOK</i><par n="BBVA__n"/></e>
+<e lm="MIT" a="prompsit2adn"><i>MIT</i><par n="BBVA__n"/></e>
+<e lm="ADSL" a="prompsit2adn"><i>ADSL</i><par n="BBVA__n"/></e>
+<e lm="ZX" a="prompsit2adn"><i>ZX</i><par n="BBVA__n"/></e>
+<e lm="TSJC" a="prompsit2adn"><i>TSJC</i><par n="BBVA__n"/></e>
+<e lm="PT" a="prompsit2adn"><i>PT</i><par n="BBVA__n"/></e>
+<e lm="PR" a="prompsit2adn"><i>PR</i><par n="BBVA__n"/></e>
+<e lm="CHP" a="prompsit2adn"><i>CHP</i><par n="BBVA__n"/></e>
+<e lm="TSJPV" a="prompsit2adn"><i>TSJPV</i><par n="BBVA__n"/></e>
+<e lm="SMI" a="prompsit2adn"><i>SMI</i><par n="BBVA__n"/></e>
+<e lm="MUSAC" a="prompsit2adn"><i>MUSAC</i><par n="BBVA__n"/></e>
+<e lm="GSV" a="prompsit2adn"><i>GSV</i><par n="BBVA__n"/></e>
+<e lm="GM" a="prompsit2adn"><i>GM</i><par n="BBVA__n"/></e>
+<e lm="TPG" a="prompsit2adn"><i>TPG</i><par n="BBVA__n"/></e>
+<e lm="PCC" a="prompsit2adn"><i>PCC</i><par n="BBVA__n"/></e>
+<e lm="SAMU" a="prompsit2adn"><i>SAMU</i><par n="BBVA__n"/></e>
+<e lm="PITCH" a="prompsit2adn"><i>PITCH</i><par n="BBVA__n"/></e>
+<e lm="JT" a="prompsit2adn"><i>JT</i><par n="BBVA__n"/></e>
+<e lm="FSB" a="prompsit2adn"><i>FSB</i><par n="BBVA__n"/></e>
+<e lm="AC" a="prompsit2adn"><i>AC</i><par n="BBVA__n"/></e>
+<e lm="PGOU" a="prompsit2adn"><i>PGOU</i><par n="BBVA__n"/></e>
+<e lm="IEE" a="prompsit2adn"><i>IEE</i><par n="BBVA__n"/></e>
+<e lm="IBI" a="prompsit2adn"><i>IBI</i><par n="BBVA__n"/></e>
+<e lm="HSBC" a="prompsit2adn"><i>HSBC</i><par n="BBVA__n"/></e>
+<e lm="GTC" a="prompsit2adn"><i>GTC</i><par n="BBVA__n"/></e>
+<e lm="ELN" a="prompsit2adn"><i>ELN</i><par n="BBVA__n"/></e>
+<e lm="CVC" a="prompsit2adn"><i>CVC</i><par n="BBVA__n"/></e>
+<e lm="CIEMAT" a="prompsit2adn"><i>CIEMAT</i><par n="BBVA__n"/></e>
+<e lm="CDH" a="prompsit2adn"><i>CDH</i><par n="BBVA__n"/></e>
+<e lm="BME" a="prompsit2adn"><i>BME</i><par n="BBVA__n"/></e>
+<e lm="AMD" a="prompsit2adn"><i>AMD</i><par n="BBVA__n"/></e>
+<e lm="INC" a="prompsit2adn"><i>INC</i><par n="BBVA__n"/></e>
+<e lm="ICAA" a="prompsit2adn"><i>ICAA</i><par n="BBVA__n"/></e>
+<e lm="UAW" a="prompsit2adn"><i>UAW</i><par n="BBVA__n"/></e>
+<e lm="TAU" a="prompsit2adn"><i>TAU</i><par n="BBVA__n"/></e>
+<e lm="SUMMA" a="prompsit2adn"><i>SUMMA</i><par n="BBVA__n"/></e>
+<e lm="PRT" a="prompsit2adn"><i>PRT</i><par n="BBVA__n"/></e>
+<e lm="PPP" a="prompsit2adn"><i>PPP</i><par n="BBVA__n"/></e>
+<e lm="NYSE" a="prompsit2adn"><i>NYSE</i><par n="BBVA__n"/></e>
+<e lm="MHP" a="prompsit2adn"><i>MHP</i><par n="BBVA__n"/></e>
+<e lm="IEO" a="prompsit"><i>IEO</i><par n="BBVA__n"/></e>
+<e lm="IEC" a="prompsit"><i>IEC</i><par n="BBVA__n"/></e>
+<e lm="BOPV" a="prompsit"><i>BOPV</i><par n="BBVA__n"/></e>
+<e lm="ELA" a="prompsit"><i>ELA</i><par n="BBVA__n"/></e>
+<e lm="GATT" a="prompsit"><i>GATT</i><par n="BBVA__n"/></e>
+<e lm="LAB" a="prompsit"><i>LAB</i><par n="BBVA__n"/></e>
+<e lm="SICA" a="prompsit"><i>SICA</i><par n="BBVA__n"/></e>
+<e lm="EOC" a="prompsit"><i>EOC</i><par n="BBVA__n"/></e>
+<e lm="OP" a="prompsit"><i>OP</i><par n="BBVA__n"/></e>
+<e lm="SCOOP" a="prompsit"><i>SCOOP</i><par n="BBVA__n"/></e>
+<e lm="EPSV" a="prompsit"><i>EPSV</i><par n="BBVA__n"/></e>
+<e lm="TGV" a="prompsit2uoc"><i>TGV</i><par n="BBVA__n"/></e>
+<e lm="AVE" a="prompsit2uoc"><i>AVE</i><par n="BBVA__n"/></e>
+<e lm="http" a="prompsit2cdl"><i>http</i><par n="BBVA__n"/></e>
+<e lm="https" a="prompsit2cdl"><i>https</i><par n="BBVA__n"/></e>
+<e lm="mp3" a="prompsit2cdl"><i>mp3</i><par n="BBVA__n"/></e>
+<e lm="BBV"><i>BBV</i><par n="BBVA__n"/></e>
+<e lm="BCH"><i>BCH</i><par n="BBVA__n"/></e>
+<e lm="BORME"><i>BORME</i><par n="BBVA__n"/></e>
+<e lm="BUP"><i>BUP</i><par n="BBVA__n"/></e>
+<e lm="CESID"><i>CESID</i><par n="BBVA__n"/></e>
+<e lm="COU"><i>COU</i><par n="BBVA__n"/></e>
+<e lm="CP"><i>CP</i><par n="BBVA__n"/></e>
+<e lm="DLSI"><i>DLSI</i><par n="BBVA__n"/></e>
+<e lm="DOGV"><i>DOGV</i><par n="BBVA__n"/></e>
+<e lm="MIBOR"><i>MIBOR</i><par n="BBVA__n"/></e>
+<e lm="PAS"><i>PAS</i><par n="BBVA__n"/></e>
+<e lm="PDI"><i>PDI</i><par n="BBVA__n"/></e>
+<e lm="PSUC"><i>PSUC</i><par n="BBVA__n"/></e>
+<e lm="SEPLA"><i>SEPLA</i><par n="BBVA__n"/></e>
+<e lm="SERVEF"><i>SERVEF</i><par n="BBVA__n"/></e>
+<e lm="IRPF"><i>IRPF</i><par n="IRPF__n"/></e>
+<e lm="PC"><i>PC</i><par n="IRPF__n"/></e>
+<e lm="PIB"><i>PIB</i><par n="IRPF__n"/></e>
+<e lm="WC" a=" alseoane@gmail.com"><i>WC</i><par n="IRPF__n"/></e>
+<e lm="PID"><i>PID</i><par n="IRPF__n"/></e>
+<e lm="UVA" a=" alseoane@gmail.com"><i>UVA</i><par n="IRPF__n"/></e>
+<e lm="IMC" a=" alseoane@gmail.com"><i>IMC</i><par n="IRPF__n"/></e>
+<e lm="PS" a="prompsit2adn"><i>PS</i><par n="IRPF__n"/></e>
+<e lm="PI"><i>PI</i><par n="IRPF__n"/></e>
+<e lm="BMW" a="prompsit2adn"><i>BMW</i><par n="IRPF__n"/></e>
+<e lm="TC" a="prompsit2adn"><i>TC</i><par n="IRPF__n"/></e>
+<e lm="SMS" a="prompsit2adn"><i>SMS</i><par n="IRPF__n"/></e>
+<e lm="GRAPO" a="prompsit2adn"><i>GRAPO</i><par n="IRPF__n"/></e>
+<e lm="JPL" a="prompsit2adn"><i>JPL</i><par n="IRPF__n"/></e>
+<e lm="BMR" a="prompsit2adn"><i>BMR</i><par n="IRPF__n"/></e>
+<e lm="USB" a="prompsit2adn"><i>USB</i><par n="IRPF__n"/></e>
+<e lm="PDA" a="prompsit2adn"><i>PDA</i><par n="IRPF__n"/></e>
+<e lm="SPA" a="prompsit2adn"><i>SPA</i><par n="IRPF__n"/></e>
+<e lm="ABS" a="prompsit2adn"><i>ABS</i><par n="IRPF__n"/></e>
+<e lm="KO" a="prompsit2adn"><i>KO</i><par n="IRPF__n"/></e>
+<e lm="RSS" a="prompsit2adn"><i>RSS</i><par n="IRPF__n"/></e>
+<e lm="GB" a="prompsit2adn"><i>GB</i><par n="IRPF__n"/></e>
+<e lm="XP" a="prompsit2adn"><i>XP</i><par n="IRPF__n"/></e>
+<e lm="BOP" a="prompsit"><i>BOP</i><par n="IRPF__n"/></e>
+<e lm="NIF" a="prompsit"><i>NIF</i><par n="IRPF__n"/></e>
+<e lm="PIN" a="prompsit"><i>PIN</i><par n="IRPF__n"/></e>
+<e lm="PVP" a="prompsit"><i>PVP</i><par n="IRPF__n"/></e>
+<e lm="PAI" a="prompsit"><i>PAI</i><par n="IRPF__n"/></e>
+<e lm="P.V.P."><i>P.V.P.</i><par n="IRPF__n"/></e>
+<e lm="ATS"><i>ATS</i><par n="ATS__n"/></e>
+<e lm="FCI" a="prompsit2adn"><i>FCI</i><par n="ATS__n"/></e>
+<e lm="ACM" a="prompsit2adn"><i>ACM</i><par n="ATS__n"/></e>
+<e lm="WWF" a="prompsit2adn"><i>WWF</i><par n="ATS__n"/></e>
+<e lm="DJ" a="prompsit2adn"><i>DJ</i><par n="ATS__n"/></e>
+<e lm="MVP" a="prompsit2adn"><i>MVP</i><par n="ATS__n"/></e>
+<e lm="DC" a="prompsit2adn"><i>DC</i><par n="ATS__n"/></e>
+<e lm="LG" a="prompsit2adn"><i>LG</i><par n="ATS__n"/></e>
+<e lm="Tedax" a="prompsit2adn"><i>Tedax</i><par n="EE.UU.__n"/></e>
+<e lm="MTV" a="prompsit2adn"><i>MTV</i><par n="EE.UU.__n"/></e>
+<e lm="PGE" a="prompsit2adn"><i>PGE</i><par n="EE.UU.__n"/></e>
+<e lm="ETS"><i>ETS</i><par n="ETS__n"/></e>
+<e lm="TIC"><i>TIC</i><par n="ETS__n"/></e>
+<e lm="PJ" a="prompsit2adn"><i>PJ</i><par n="ETS__n"/></e>
+<e lm="CCAA" a="prompsit2adn"><i>CCAA</i><par n="ETS__n"/></e>
+<e lm="IP" a="prompsit2adn"><i>IP</i><par n="ETS__n"/></e>
+<e lm="SS" a="prompsit2adn"><i>SS</i><par n="ETS__n"/></e>
+<e lm="VPO" a="prompsit2adn"><i>VPO</i><par n="ETS__n"/></e>
+<e lm="FARC" a="prompsit2adn"><i>FARC</i><par n="FARC__n"/></e>
+<e lm="CCAA" a="prompsit"><i>CCAA</i><par n="FARC__n"/></e>
+
     <e lm="Caixa Catalunya"><i>Caixa<b/>Catalunya</i><par n="ABC__np"/></e>
     <e lm="Efe"><i>Efe</i><par n="ABC__np"/></e>
     <e lm="Barbera"><i>Barbera</i><par n="ABC__np"/></e>

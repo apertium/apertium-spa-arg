@@ -2122,6 +2122,7 @@
     <e><i>temible<s n="adj"/></i></e>
     <e><i>temporal<s n="adj"/></i></e>
     <e><p><l>temprano<s n="adj"/></l><r>luego<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>temprano<s n="adj"/></l><r>temprano<s n="adj"/></r></p></e>
     <e><p><l>temático<s n="adj"/></l><r>tematico<s n="adj"/></r></p></e>
     <e><p><l>tendencioso<s n="adj"/></l><r>tendencioso<s n="adj"/></r></p></e>
     <e><p><l>tenso<s n="adj"/></l><r>tenso<s n="adj"/></r></p></e>
@@ -3577,6 +3578,7 @@
 <e><p><l>amargo<s n="adj"/></l><r>amargo<s n="adj"/></r></p></e>
 <e><p><l>ambiguo<s n="adj"/></l><r>ambiguo<s n="adj"/></r></p></e>
 <!-- <e r="LR"><p><l>agorero<s n="adj"/></l><r>malastrugo<s n="adj"/></r></p></e>  * -->
+<e r="LR"><p><l>agorero<s n="adj"/></l><r>agorero<s n="adj"/></r></p></e>
 <e><p><l>análogo<s n="adj"/></l><r>analogo<s n="adj"/></r></p></e>
 <e><p><l>antiguo<s n="adj"/></l><r>antigo<s n="adj"/></r></p></e>
 <e><p><l>arduo<s n="adj"/></l><r>arduo<s n="adj"/></r></p></e>
@@ -5798,7 +5800,6 @@
     <e><p><l>de<b/>inmediato<s n="adv"/></l><r>a<b/>l'inte<s n="adv"/></r></p></e>
     <e r="RL"><p><l>de<b/>inmediato<s n="adv"/></l><r>en<b/>l'inte<s n="adv"/></r></p></e>
     <e><p><l>a<b/>continuación<s n="adv"/></l><r>contino<s n="adv"/></r></p></e>
-    <e><p><l>enseguida<s n="adv"/></l><r>decamín<s n="adv"/></r></p></e>
     <e><p><l>asimismo<s n="adv"/></l>          <r>asinasmesmo<s n="adv"/></r></p></e>    
     <e>       <p><l>así<b/>mismo<s n="adv"/></l>      <r>asinas<b/>mesmo<s n="adv"/></r></p></e>
     <e r="LR"><p><l>malamente<s n="adv"/></l><r>malament<s n="adv"/></r></p></e>
@@ -5812,8 +5813,6 @@
     <e r="LR"><p><l>únicamente<s n="adv"/></l><r>solament<s n="adv"/></r></p></e>
     <e r="RL"><p><l>únicamente<s n="adv"/></l><r>unicament<s n="adv"/></r></p></e>
     <e r="RL"><p><l>solo<s n="adv"/></l><r>solo<s n="adv"/></r></p></e>
-    <e><p><l>seguro<s n="adv"/></l><r>de<b/>seguras<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>seguro<s n="adv"/></l><r>de<b/>seguro<s n="adj"/></r></p></e>
     
   
     <e><p><l>deprisa<s n="adv"/></l><r>aprisa<s n="adv"/></r></p></e>
@@ -5848,6 +5847,7 @@
     <e>       <p><l>por<b/>supuesto<b/>que<b/>no<s n="adv"/></l>    <r>pro<b/>que<b/>no<s n="adv"/></r></p></e>
     <e>       <p><l>mientras<s n="adv"/></l>          <r>mientres<s n="adv"/></r></p></e>
     <e>       <p><l>todos<b/>juntos<s n="adv"/></l>       <r>totz<b/>chuntos<s n="adv"/></r></p></e>
+    <e r="LR">       <p><l>luego<s n="adv"/></l>       <r>dimpués<s n="adv"/></r></p></e>
     <e>       <p><l>pronto<s n="adv"/></l>       <r>luego<s n="adv"/></r></p></e>
     <e r="LR">       <p><l>temprano<s n="adv"/></l>       <r>luego<s n="adv"/></r></p></e>
     <e>       <p><l>tarde<s n="adv"/></l>       <r>tarde<s n="adv"/></r></p></e>
@@ -5860,6 +5860,7 @@
     <e>       <p><l>por<b/>el<b/>contrario<s n="adv"/></l><r>por<b/>contra<s n="adv"/></r></p></e>
     <e><p><l>además<s n="adv"/></l><r>amás<s n="adv"/></r></p></e>
     <e r="LR"><p><l>otrosí<s n="adv"/></l><r>antiparte<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>por<b/>otro<b/>lado<s n="adv"/></l><r>antiparte<s n="adv"/></r></p></e>
   <e><p><l>todo<b/>seguido<s n="adv"/></l>         <r>a<b/>l'arreu<s n="adv"/></r></p></e>
     <e r="RL"><p><l>a<b/>menudo<s n="adv"/></l>       <r>a<b/>menuto<s n="adv"/></r></p></e>
     <e r="RL"><p><l>a<b/>menudo<s n="adv"/></l>       <r>a<b/>sobén<s n="adv"/></r></p></e>
@@ -5954,7 +5955,8 @@
     <e><p><l>adelante<s n="adv"/></l>          <r>adebant<s n="adv"/></r></p></e>
     <e r="RL"><p><l>adelante<s n="adv"/></l>          <r>abant<s n="adv"/></r></p></e>
     <e r="LR"><p><l>enfrente<s n="adv"/></l>          <r>debant<s n="adv"/></r></p></e>
-    <e><p><l>enseguida<s n="adv"/></l>          <r>de<b/>seguida<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>enseguida<s n="adv"/></l>          <r>de<b/>seguida<s n="adv"/></r></p></e>
+    <e><p><l>enseguida<s n="adv"/></l><r>decamín<s n="adv"/></r></p></e>
     <e><p><l>dondequiera<s n="adv"/></l>          <r>ansequiera<s n="adv"/></r></p></e>
     <e r="RL"><p><l>dondequiera<s n="adv"/></l>          <r>dosequiera<s n="adv"/></r></p></e>
     <e r="LR"><p><l>doquier<s n="adv"/></l>          <r>ansequiera<s n="adv"/></r></p></e>
@@ -5988,9 +5990,8 @@
     <e><p><l>no<s n="adv"/></l><r>no<s n="adv"/></r></p></e>    
     <e>       <i>igual<s n="adv"/></i></e>
   <e><p><l>tanto<s n="adv"/></l><r>tanto<s n="adv"/></r></p></e>
-  <e><p><l>seguro<s n="adv"/></l><r>de<b/>seguro<s n="adv"/></r></p></e>
-  <e r="RL"><p><l>seguro<s n="adv"/></l><r>de<b/>seguras<s n="adv"/></r></p></e>
-  <e>       <p><l>adrede<s n="adv"/></l>            <r>adredes<s n="adv"/></r></p></e>
+  <e><p><l>seguro<s n="adv"/></l><r>de<b/>seguras<s n="adv"/></r></p></e>
+  <e r="RL"><p><l>seguro<s n="adv"/></l><r>de<b/>seguro<s n="adv"/></r></p></e>
   <e>       <p><l>siquiera<s n="adv"/></l>            <r>sisquiera<s n="adv"/></r></p></e>
   <e r="RL">       <p><l>siquiera<s n="adv"/></l>            <r>siquiera<s n="adv"/></r></p></e>
   <e>       <p><l>primero<s n="adv"/></l>            <r>primero<s n="adv"/></r></p></e> <!-- en primeras? -->
@@ -6033,10 +6034,11 @@
   <e><p><l>P.<b/>D.<s n="adv"/></l>          <r>P.<b/>D.<s n="adv"/></r></p></e>
 <e>       <p><l>a.C.<s n="adv"/></l>              <r>a.<b/>de<b/>C.<s n="adv"/></r></p></e>
 <e>       <p><l>d.C.<s n="adv"/></l>              <r>d.<b/>de<b/>C.<s n="adv"/></r></p></e>
+<e r="LR"><p><l>d.J.C.<s n="adv"/></l>            <r>d.<b/>de<b/>C.<s n="adv"/></r></p></e>
 <e>       <p><l>a.m.<s n="adv"/></l>              <r>a.<b/>m.<s n="adv"/></r></p></e>
 <e>       <p><l>p.m.<s n="adv"/></l>              <r>p.<b/>m.<s n="adv"/></r></p></e>
-<e>       <p><l>ibid.<s n="adv"/></l>             <r>ibid.<s n="adv"/></r></p></e>
-<e r="RL">       <p><l>ibíd.<s n="adv"/></l>             <r>ibid.<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>ibid.<s n="adv"/></l>             <r>ibid.<s n="adv"/></r></p></e>
+<e>       <p><l>ibíd.<s n="adv"/></l>             <r>ibid.<s n="adv"/></r></p></e>
 <e>       <p><l>k.o.<s n="adv"/></l>              <r>KO<s n="adv"/></r></p></e>
 
 <e><p><l>lu<s n="adv"/></l>                <r>lu.<s n="adv"/></r></p></e>
@@ -6056,13 +6058,13 @@
 <e>       <p><l>N.<b/>B.<s n="adv"/></l>          <r>N.B.<s n="adv"/></r></p></e>
 <e r="LR">       <p><l>N.B.<s n="adv"/></l>              <r>N.B.<s n="adv"/></r></p></e>
 <e>       <p><l>p.o.<s n="adv"/></l>              <r>p.<b/>o.<s n="adv"/></r></p></e>
-<e>       <p><l>P.S.<s n="adv"/></l>              <r>PS<s n="adv"/></r></p></e>
+<e>       <p><l>P.S.<s n="adv"/></l>              <r>P.<b/>S.<s n="adv"/></r></p></e>
 <e>       <p><l>y<b/>ss.<s n="adv"/></l>          <r>y<b/>sigs.<s n="adv"/></r></p></e>
 
 <e r="LR"><p><l>s.a.<s n="adv"/></l>              <r>s.<b/>a.<s n="adv"/></r></p></e>
 <e r="LR"><p><l>e.<b/>p.<b/>d.<s n="adv"/></l>    <r>q.<b/>e.<b/>p.<b/>d.<s n="adv"/></r></p></e>
 <e><p><l>q.<b/>e.<b/>p.<b/>d.<s n="adv"/></l><r>q.<b/>e.<b/>p.<b/>d.<s n="adv"/></r></p></e>
-<e r="LR"><p><l>q.d.e.p.<s n="adv"/></l>          <r>q.<b/>e.<b/>p.<b/>d..<s n="adv"/></r></p></e>
+<e r="LR"><p><l>q.d.e.p.<s n="adv"/></l>          <r>q.<b/>e.<b/>p.<b/>d.<s n="adv"/></r></p></e>
 <e r="LR"><p><l>q.e.g.e.<s n="adv"/></l>          <r>q.<b/>e.<b/>p.<b/>d.<s n="adv"/></r></p></e>
 
   
@@ -6418,7 +6420,7 @@
 <e><p><l>babilónicamente<s n="adv"/></l><r>babilonicament<s n="adv"/></r></p></e>
 <e><p><l>babosamente<s n="adv"/></l><r>babosament<s n="adv"/></r></p></e>
 <e><p><l>bacteriológicamente<s n="adv"/></l><r>bacteriolochicament<s n="adv"/></r></p></e>
-<e><p><l>baldíamente<s n="adj"/></l><r>yermament<s n="adj"/></r></p></e>
+<e><p><l>baldíamente<s n="adv"/></l><r>yermament<s n="adv"/></r></p></e>
 <e><p><l>balísticamente<s n="adv"/></l><r>balisticament<s n="adv"/></r></p></e>
 <e><p><l>bálticamente<s n="adv"/></l><r>balticament<s n="adv"/></r></p></e>
 <e><p><l>banalmente<s n="adv"/></l><r>banalment<s n="adv"/></r></p></e>
@@ -9314,7 +9316,7 @@
 <e><p><l>tropicalmente<s n="adv"/></l><r>tropicalment<s n="adv"/></r></p></e>
 <e><p><l>tumultuariamente<s n="adv"/></l><r>tumultuariament<s n="adv"/></r></p></e>
 
-<e><p><l>turbio<s n="adv"/></l><r>turbido<s n="adv"/></r></p></e>
+<e><p><l>turbio<s n="adj"/></l><r>turbido<s n="adj"/></r></p></e>
 <e><p><l>turbiamente<s n="adv"/></l><r>turbidament<s n="adv"/></r></p></e>
 
 <e><p><l>turísticamente<s n="adv"/></l><r>turisticament<s n="adv"/></r></p></e>
@@ -9491,7 +9493,6 @@
 <e>       <i>grosso<b/>modo<s n="adv"/></i></e>
 <e>       <i>hic<b/>et<b/>nunc<s n="adv"/></i></e>
 <e>       <i>ib.<s n="adv"/></i></e>
-<e>       <i>íd.<s n="adv"/></i></e>
 <e>       <i>in<b/>aeternum<s n="adv"/></i></e>
 <e>       <i>in<b/>albis<s n="adv"/></i></e>
 <e>       <i>in<b/>articulo<b/>mortis<s n="adv"/></i></e>
@@ -9542,7 +9543,6 @@
 <e>       <i>vis<b/>a<b/>vis<s n="adv"/></i></e>
 <e>       <i>vis<b/>à<b/>vis<s n="adv"/></i></e>
 <e r="RL"><i>p.m.<s n="adv"/></i></e>
-<e>       <i>etc<s n="adv"/></i></e>
 <e>       <i>alerta<s n="adv"/></i></e>
 <e r="LR"><p><l>ojo<b/>avizor<s n="adv"/></l>     <r>alerta<s n="adv"/></r></p></e>
 <e>       <i>gratis<s n="adv"/></i></e>
@@ -13334,6 +13334,390 @@
     <e r="RL"><p><l>tener<g><b/>miedo</g><s n="vblex"/></l><r>tener<g><b/>espanto</g><s n="vblex"/></r></p></e>
     <e r="RL"><p><l>tener<g><b/>miedo</g><s n="vblex"/></l><r>tener<g><b/>cera</g><s n="vblex"/></r></p></e>
     <e r="RL"><p><l>tener<g><b/>miedo</g><s n="vblex"/></l><r>tener<g><b/>cerina</g><s n="vblex"/></r></p></e>
+    
+<e><i>ATS<s n="n"/></i></e>
+<e><i>BBC<s n="n"/></i></e>
+<e><i>Cope<s n="n"/></i></e>
+<e><i>BBVA<s n="n"/></i></e>
+<e><i>IMS<s n="n"/></i></e>
+<e><i>ICDE<s n="n"/></i></e>
+<e><i>BOE<s n="n"/></i></e>
+<e><i>CAM<s n="n"/></i></e>
+<e><i>CD<s n="n"/></i></e>
+<e><i>CGT<s n="n"/></i></e>
+<e><i>CIF<s n="n"/></i></e>
+<e><i>CNN<s n="n"/></i></e>
+<e><i>CSIF<s n="n"/></i></e>
+<e><i>DGT<s n="n"/></i></e>
+<e><i>DNI<s n="n"/></i></e>
+<e><i>DVD<s n="n"/></i></e>
+<e><i>EMT<s n="n"/></i></e>
+<e><i>ETA<s n="n"/></i></e>
+<e><i>FBI<s n="n"/></i></e>
+<e><i>FC<s n="n"/></i></e>
+<e><i>FIFA<s n="n"/></i></e>
+<e><i>FM<s n="n"/></i></e>
+<e><i>GPRS<s n="n"/></i></e>
+<e><i>Inem<s n="n"/></i></e>
+<e><i>IPC<s n="n"/></i></e>
+<e><i>IRPF<s n="n"/></i></e>
+<e><i>IVA<s n="n"/></i></e>
+<e><i>Logse<s n="n"/></i></e>
+<e><i>NASA<s n="n"/></i></e>
+<e><i>OCDE<s n="n"/></i></e>
+<e><i>ONU<s n="n"/></i></e>
+<e><i>OTAN<s n="n"/></i></e>
+<e><i>PC<s n="n"/></i></e>
+<e><i>PIB<s n="n"/></i></e>
+<e><i>PNV<s n="n"/></i></e>
+<e><i>PP<s n="n"/></i></e>
+<e><i>PSC<s n="n"/></i></e>
+<e><i>PSOE<s n="n"/></i></e>
+<e><i>PSPV<s n="n"/></i></e>
+<e><i>UA<s n="n"/></i></e>
+<e><i>UE<s n="n"/></i></e>
+<e><i>Uefa<s n="n"/></i></e>
+<e><i>UGT<s n="n"/></i></e>
+<e><i>UHF<s n="n"/></i></e>
+<e><i>UPC<s n="n"/></i></e>
+<e><i>UPV<s n="n"/></i></e>
+<e><i>URL<s n="n"/></i></e>
+<e><i>www<s n="n"/></i></e>
+<e><i>WITSA<s n="n"/></i></e>
+<e><i>NMC<s n="n"/></i></e>
+<e><i>sida<s n="n"/></i></e>
+<e><i>PNB<s n="n"/></i></e>
+<e><i>UVic<s n="n"/></i></e>
+<e><i>UdL<s n="n"/></i></e>
+<e><i>UdG<s n="n"/></i></e>
+<e><i>AQU<s n="n"/></i></e>
+<e><i>TSJ<s n="n"/></i></e>
+<e><i>TSJV<s n="n"/></i></e>
+<e><i>CNI<s n="n"/></i></e>
+<e><i>Unesco<s n="n"/></i></e>
+<e><i>EEES<s n="n"/></i></e>
+<e><i>FMI<s n="n"/></i></e>
+<e><i>EE.UU.<s n="n"/></i></e>
+<e><i>BCE<s n="n"/></i></e>
+<e><i>OMS<s n="n"/></i></e>
+<e><i>WC<s n="n"/></i></e>
+<e><i>PID<s n="n"/></i></e>
+<e><i>UVA<s n="n"/></i></e>
+<e><i>IMC<s n="n"/></i></e>
+<e><i>ETS<s n="n"/></i></e>
+<e><i>TIC<s n="n"/></i></e>
+<e><i>FUOC<s n="n"/></i></e>
+<e><i>ICV<s n="n"/></i></e>
+<e><i>CECA<s n="n"/></i></e>
+<e><i>CEE<s n="n"/></i></e>
+<e><i>CIS<s n="n"/></i></e>
+<e><i>IN3<s n="n"/></i></e>
+<e><i>FAO<s n="n"/></i></e>
+<e><i>LED<s n="n"/></i></e>
+<e><i>MEC<s n="n"/></i></e>
+<e><i>OMC<s n="n"/></i></e>
+<e><i>ROM<s n="n"/></i></e>
+<e><i>Tedax<s n="n"/></i></e>
+<e><i>UB<s n="n"/></i></e>
+<e><i>UJI<s n="n"/></i></e>
+<e><i>UOC<s n="n"/></i></e>
+<e><i>PSN<s n="n"/></i></e>
+<e><i>ERC<s n="n"/></i></e>
+<e><i>UPN<s n="n"/></i></e>
+<e><i>ANV<s n="n"/></i></e>
+<e><i>ADN<s n="n"/></i></e>
+<e><i>FIA<s n="n"/></i></e>
+<e><i>GMT<s n="n"/></i></e>
+<e><i>CNMV<s n="n"/></i></e>
+<e><i>AVS<s n="n"/></i></e>
+<e><i>UCI<s n="n"/></i></e>
+<e><i>NBA<s n="n"/></i></e>
+<e><i>CGPJ<s n="n"/></i></e>
+<e><i>ABN<s n="n"/></i></e>
+<e><i>EA<s n="n"/></i></e>
+<e><i>PSM<s n="n"/></i></e>
+<e><i>CO2<s n="n"/></i></e>
+<e><i>AKP<s n="n"/></i></e>
+<e><i>LFP<s n="n"/></i></e>
+<e><i>OIEA<s n="n"/></i></e>
+<e><i>PSE<s n="n"/></i></e>
+<e><i>Farc<s n="n"/></i></e>
+<e><i>ANP<s n="n"/></i></e>
+<e><i>RC<s n="n"/></i></e>
+<e><i>YPF<s n="n"/></i></e>
+<e><i>VIH<s n="n"/></i></e>
+<e><i>CCOO<s n="n"/></i></e>
+<e><i>CC.OO.<s n="n"/></i></e>
+<e><i>PSE-EE<s n="n"/></i></e>
+<e><i>PS<s n="n"/></i></e>
+<e><i>TAM<s n="n"/></i></e>
+<e><i>AI<s n="n"/></i></e>
+<e><i>CNH<s n="n"/></i></e>
+<e><i>IBM<s n="n"/></i></e>
+<e><i>PS<s n="n"/></i></e>
+<e><i>PI<s n="n"/></i></e>
+<e><i>CNE<s n="n"/></i></e>
+<e><i>CIA<s n="n"/></i></e>
+<e><i>CC<s n="n"/></i></e>
+<e><i>AP-7<s n="n"/></i></e>
+<e><i>PPC<s n="n"/></i></e>
+<e><i>EBB<s n="n"/></i></e>
+<e><i>OPEP<s n="n"/></i></e>
+<e><i>REE<s n="n"/></i></e>
+<e><i>ISAF<s n="n"/></i></e>
+<e><i>BMW<s n="n"/></i></e>
+<e><i>TDT<s n="n"/></i></e>
+<e><i>CDN<s n="n"/></i></e>
+<e><i>BNG<s n="n"/></i></e>
+<e><i>TC<s n="n"/></i></e>
+<e><i>SMS<s n="n"/></i></e>
+<e><i>PJ<s n="n"/></i></e>
+<e><i>CDC<s n="n"/></i></e>
+<e><i>PJD<s n="n"/></i></e>
+<e><i>UME<s n="n"/></i></e>
+<e><i>EEI<s n="n"/></i></e>
+<e><i>PLD<s n="n"/></i></e>
+<e><i>EB<s n="n"/></i></e>
+<e><i>UPD<s n="n"/></i></e>
+<e><i>SGAE<s n="n"/></i></e>
+<e><i>OCU<s n="n"/></i></e>
+<e><i>CSC<s n="n"/></i></e>
+<e><i>ACB<s n="n"/></i></e>
+<e><i>AVT<s n="n"/></i></e>
+<e><i>TSJA<s n="n"/></i></e>
+<e><i>RR<s n="n"/></i></e>
+<e><i>NFL<s n="n"/></i></e>
+<e><i>IUN<s n="n"/></i></e>
+<e><i>CSIC<s n="n"/></i></e>
+<e><i>TS<s n="n"/></i></e>
+<e><i>RNE<s n="n"/></i></e>
+<e><i>MTV<s n="n"/></i></e>
+<e><i>MTV<s n="n"/></i></e>
+<e><i>EON<s n="n"/></i></e>
+<e><i>PKK<s n="n"/></i></e>
+<e><i>INM<s n="n"/></i></e>
+<e><i>CEOE<s n="n"/></i></e>
+<e><i>RFEF<s n="n"/></i></e>
+<e><i>GPS<s n="n"/></i></e>
+<e><i>FINUL<s n="n"/></i></e>
+<e><i>FCC<s n="n"/></i></e>
+<e><i>AEK<s n="n"/></i></e>
+<e><i>PGE<s n="n"/></i></e>
+<e><i>EADS<s n="n"/></i></e>
+<e><i>UVI<s n="n"/></i></e>
+<e><i>FEB<s n="n"/></i></e>
+<e><i>FACUA<s n="n"/></i></e>
+<e><i>AEPD<s n="n"/></i></e>
+<e><i>RFEC<s n="n"/></i></e>
+<e><i>CMT<s n="n"/></i></e>
+<e><i>CCAA<s n="n"/></i></e>
+<e><i>RACC<s n="n"/></i></e>
+<e><i>NBC<s n="n"/></i></e>
+<e><i>LND<s n="n"/></i></e>
+<e><i>HD<s n="n"/></i></e>
+<e><i>FIB<s n="n"/></i></e>
+<e><i>APEC<s n="n"/></i></e>
+<e><i>SL<s n="n"/></i></e>
+<e><i>CICR<s n="n"/></i></e>
+<e><i>AP<s n="n"/></i></e>
+<e><i>Acnur<s n="n"/></i></e>
+<e><i>YZR<s n="n"/></i></e>
+<e><i>TSE<s n="n"/></i></e>
+<e><i>KTM<s n="n"/></i></e>
+<e><i>IP<s n="n"/></i></e>
+<e><i>FCI<s n="n"/></i></e>
+<e><i>BNP<s n="n"/></i></e>
+<e><i>UIMP<s n="n"/></i></e>
+<e><i>TVC<s n="n"/></i></e>
+<e><i>RBS<s n="n"/></i></e>
+<e><i>COI<s n="n"/></i></e>
+<e><i>CAC<s n="n"/></i></e>
+<e><i>UCE<s n="n"/></i></e>
+<e><i>TAS<s n="n"/></i></e>
+<e><i>SIVE<s n="n"/></i></e>
+<e><i>FED<s n="n"/></i></e>
+<e><i>ACS<s n="n"/></i></e>
+<e><i>RACE<s n="n"/></i></e>
+<e><i>GRAPO<s n="n"/></i></e>
+<e><i>SEPI<s n="n"/></i></e>
+<e><i>PSV<s n="n"/></i></e>
+<e><i>PGA<s n="n"/></i></e>
+<e><i>PDE<s n="n"/></i></e>
+<e><i>PCE<s n="n"/></i></e>
+<e><i>OPA<s n="n"/></i></e>
+<e><i>Macba<s n="n"/></i></e>
+<e><i>JPL<s n="n"/></i></e>
+<e><i>IPCA<s n="n"/></i></e>
+<e><i>FAES<s n="n"/></i></e>
+<e><i>BMR<s n="n"/></i></e>
+<e><i>ACM<s n="n"/></i></e>
+<e><i>SOS<s n="n"/></i></e>
+<e><i>PASOK<s n="n"/></i></e>
+<e><i>MIT<s n="n"/></i></e>
+<e><i>ATP<s n="n"/></i></e>
+<e><i>ADSL<s n="n"/></i></e>
+<e><i>ZX<s n="n"/></i></e>
+<e><i>WWF<s n="n"/></i></e>
+<e><i>USB<s n="n"/></i></e>
+<e><i>UPA<s n="n"/></i></e>
+<e><i>UM<s n="n"/></i></e>
+<e><i>TSJC<s n="n"/></i></e>
+<e><i>PT<s n="n"/></i></e>
+<e><i>PR<s n="n"/></i></e>
+<e><i>PDA<s n="n"/></i></e>
+<e><i>PA<s n="n"/></i></e>
+<e><i>OLP<s n="n"/></i></e>
+<e><i>OEA<s n="n"/></i></e>
+<e><i>FCF<s n="n"/></i></e>
+<e><i>DJ<s n="n"/></i></e>
+<e><i>CHP<s n="n"/></i></e>
+<e><i>AFP<s n="n"/></i></e>
+<e><i>URSS<s n="n"/></i></e>
+<e><i>Unicef<s n="n"/></i></e>
+<e><i>UBS<s n="n"/></i></e>
+<e><i>TSJPV<s n="n"/></i></e>
+<e><i>SMI<s n="n"/></i></e>
+<e><i>SDAT<s n="n"/></i></e>
+<e><i>RBA<s n="n"/></i></e>
+<e><i>MUSAC<s n="n"/></i></e>
+<e><i>KGB<s n="n"/></i></e>
+<e><i>GSV<s n="n"/></i></e>
+<e><i>GM<s n="n"/></i></e>
+<e><i>UDC<s n="n"/></i></e>
+<e><i>TPG<s n="n"/></i></e>
+<e><i>SS<s n="n"/></i></e>
+<e><i>SPA<s n="n"/></i></e>
+<e><i>RAF<s n="n"/></i></e>
+<e><i>PCC<s n="n"/></i></e>
+<e><i>DYA<s n="n"/></i></e>
+<e><i>DGAIA<s n="n"/></i></e>
+<e><i>AECI<s n="n"/></i></e>
+<e><i>AEA<s n="n"/></i></e>
+<e><i>ABS<s n="n"/></i></e>
+<e><i>USFP<s n="n"/></i></e>
+<e><i>AI<s n="n"/></i></e>
+<e><i>SAMU<s n="n"/></i></e>
+<e><i>PITCH<s n="n"/></i></e>
+<e><i>PDVSA<s n="n"/></i></e>
+<e><i>JT<s n="n"/></i></e>
+<e><i>IAAF<s n="n"/></i></e>
+<e><i>FSB<s n="n"/></i></e>
+<e><i>AC<s n="n"/></i></e>
+<e><i>VPO<s n="n"/></i></e>
+<e><i>SEC<s n="n"/></i></e>
+<e><i>RDC<s n="n"/></i></e>
+<e><i>PGOU<s n="n"/></i></e>
+<e><i>MVP<s n="n"/></i></e>
+<e><i>KO<s n="n"/></i></e>
+<e><i>IEE<s n="n"/></i></e>
+<e><i>IBI<s n="n"/></i></e>
+<e><i>HSBC<s n="n"/></i></e>
+<e><i>GTC<s n="n"/></i></e>
+<e><i>ELN<s n="n"/></i></e>
+<e><i>CVC<s n="n"/></i></e>
+<e><i>CIEMAT<s n="n"/></i></e>
+<e><i>CDH<s n="n"/></i></e>
+<e><i>BME<s n="n"/></i></e>
+<e><i>AMD<s n="n"/></i></e>
+<e><i>UTE<s n="n"/></i></e>
+<e><i>UMP<s n="n"/></i></e>
+<e><i>TOR<s n="n"/></i></e>
+<e><i>RSS<s n="n"/></i></e>
+<e><i>RCTV<s n="n"/></i></e>
+<e><i>ING<s n="n"/></i></e>
+<e><i>INC<s n="n"/></i></e>
+<e><i>ICAA<s n="n"/></i></e>
+<e><i>GB<s n="n"/></i></e>
+<e><i>FAPAE<s n="n"/></i></e>
+<e><i>DC<s n="n"/></i></e>
+<e><i>CEN<s n="n"/></i></e>
+<e><i>CBS<s n="n"/></i></e>
+<e><i>XP<s n="n"/></i></e>
+<e><i>UICN<s n="n"/></i></e>
+<e><i>UAW<s n="n"/></i></e>
+<e><i>TAU<s n="n"/></i></e>
+<e><i>SUMMA<s n="n"/></i></e>
+<e><i>PRT<s n="n"/></i></e>
+<e><i>PPP<s n="n"/></i></e>
+<e><i>NYSE<s n="n"/></i></e>
+<e><i>MHP<s n="n"/></i></e>
+<e><i>LOTC<s n="n"/></i></e>
+<e><i>LG<s n="n"/></i></e>
+<e><i>ITV<s n="n"/></i></e>
+<e><i>UAB<s n="n"/></i></e>
+<e><i>URV<s n="n"/></i></e>
+<e><i>AVL<s n="n"/></i></e>
+<e><i>ISO<s n="n"/></i></e>
+<e><i>SNCF<s n="n"/></i></e>
+<e><i>IEO<s n="n"/></i></e>
+<e><i>IEC<s n="n"/></i></e>
+<e><i>Pyme<s n="n"/></i></e>
+<e><i>Once<s n="n"/></i></e>
+<e><i>BOP<s n="n"/></i></e>
+<e><i>BOPV<s n="n"/></i></e>
+<e><i>CAV<s n="n"/></i></e>
+<e><i>CEPYME<s n="n"/></i></e>
+<e><i>PIN<s n="n"/></i></e>
+<e><i>ECU<s n="n"/></i></e>
+<e><i>EFTA<s n="n"/></i></e>
+<e><i>ELA<s n="n"/></i></e>
+<e><i>GATT<s n="n"/></i></e>
+<e><i>LAB<s n="n"/></i></e>
+<e><i>NIF<s n="n"/></i></e>
+<e><i>PIN<s n="n"/></i></e>
+<e><i>PVP<s n="n"/></i></e>
+<e><i>SICA<s n="n"/></i></e>
+<e><i>PAI<s n="n"/></i></e>
+<e><i>CA<s n="n"/></i></e>
+<e><i>CCAA<s n="n"/></i></e>
+<e><i>ROE<s n="n"/></i></e>
+<e><i>ROA<s n="n"/></i></e>
+<e><i>UNE-EN<s n="n"/></i></e>
+<e><i>EOC<s n="n"/></i></e>
+<e><i>OP<s n="n"/></i></e>
+<e><i>SCOOP<s n="n"/></i></e>
+<e><i>EPSV<s n="n"/></i></e>
+<e><i>TGV<s n="n"/></i></e>
+<e><i>AVE<s n="n"/></i></e>
+<e><i>ACUP<s n="n"/></i></e>
+<e><i>IQUA<s n="n"/></i></e>
+<e><i>I+D<s n="n"/></i></e>
+<e><i>I+D+I<s n="n"/></i></e>
+<e><i>http<s n="n"/></i></e>
+<e><i>https<s n="n"/></i></e>
+<e><i>mp3<s n="n"/></i></e>
+<e><i>mp3<s n="n"/></i></e>
+<e><i>BBDD<s n="n"/></i></e>
+<e><i>AM<s n="n"/></i></e>
+<e><i>CNT<s n="n"/></i></e>
+<e><i>BBV<s n="n"/></i></e>
+<e><i>BCH<s n="n"/></i></e>
+<e><i>BORME<s n="n"/></i></e>
+<e><i>BUP<s n="n"/></i></e>
+<e><i>CESID<s n="n"/></i></e>
+<e><i>COU<s n="n"/></i></e>
+<e><i>CP<s n="n"/></i></e>
+<e><i>DLSI<s n="n"/></i></e>
+<e><i>DOGV<s n="n"/></i></e>
+<e><i>ESO<s n="n"/></i></e>
+<e><i>LOU<s n="n"/></i></e>
+<e><i>MIBOR<s n="n"/></i></e>
+<e><i>P.V.P.<s n="n"/></i></e>
+<e><i>PAS<s n="n"/></i></e>
+<e><i>PDI<s n="n"/></i></e>
+<e><i>PSUC<s n="n"/></i></e>
+<e><i>RAM<s n="n"/></i></e>
+<e><i>SEPLA<s n="n"/></i></e>
+<e><i>SERVEF<s n="n"/></i></e>
+<e><i>UDA<s n="n"/></i></e>
+<e><i>UEM<s n="n"/></i></e>
+<e><i>UIB<s n="n"/></i></e>
+<e><i>UPF<s n="n"/></i></e>
+<e><i>UV<s n="n"/></i></e>
+<e><i>UVEG<s n="n"/></i></e>
+<e><i>RAE<s n="n"/></i></e>
+<e><i>EUiA<s n="n"/></i></e>
+    
     
     <!-- ******************************
           group vbhaver_symbol
