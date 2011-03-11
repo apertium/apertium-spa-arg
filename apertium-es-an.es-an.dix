@@ -3578,7 +3578,7 @@
 <e><p><l>amargo<s n="adj"/></l><r>amargo<s n="adj"/></r></p></e>
 <e><p><l>ambiguo<s n="adj"/></l><r>ambiguo<s n="adj"/></r></p></e>
 <!-- <e r="LR"><p><l>agorero<s n="adj"/></l><r>malastrugo<s n="adj"/></r></p></e>  * -->
-<e r="LR"><p><l>agorero<s n="adj"/></l><r>agorero<s n="adj"/></r></p></e>
+<e><p><l>agorero<s n="adj"/></l><r>agorero<s n="adj"/></r></p></e>
 <e><p><l>análogo<s n="adj"/></l><r>analogo<s n="adj"/></r></p></e>
 <e><p><l>antiguo<s n="adj"/></l><r>antigo<s n="adj"/></r></p></e>
 <e><p><l>arduo<s n="adj"/></l><r>arduo<s n="adj"/></r></p></e>
@@ -4962,9 +4962,9 @@
 <e><p><l>desambiguador<s n="adj"/></l><r>desambiguador<s n="adj"/></r></p></e>
 <e><p><l>descentralizador<s n="adj"/></l><r>descentralizador<s n="adj"/></r></p></e>
 <e><p><l>desgarrador<s n="adj"/></l><r>esgarrador<s n="adj"/></r></p></e>
-<e r="LR"><p><l>deslumbrante<s n="adj"/><s n="mf"/></l><r>eslucernador<s n="adj"/><s n="GD"/></r></p></e>
-<e r="RL"><p><l>deslumbrante<s n="adj"/><s n="mf"/></l><r>eslucernador<s n="adj"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>deslumbrante<s n="adj"/><s n="mf"/></l><r>eslucernador<s n="adj"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>deslumbrante<s n="adj"/><s n="mf"/></l><r>enlucernador<s n="adj"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>deslumbrante<s n="adj"/><s n="mf"/></l><r>enlucernador<s n="adj"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>deslumbrante<s n="adj"/><s n="mf"/></l><r>enlucernador<s n="adj"/><s n="f"/></r></p></e>
 <e><p><l>desolador<s n="adj"/></l><r>desolador<s n="adj"/></r></p></e>
 <e r="RL"><p><l>despreciativo<s n="adj"/></l><r>despreciador<s n="adj"/></r></p></e>
 <e><p><l>devastador<s n="adj"/></l><r>devastador<s n="adj"/></r></p></e>
@@ -6059,6 +6059,7 @@
 <e r="LR">       <p><l>N.B.<s n="adv"/></l>              <r>N.B.<s n="adv"/></r></p></e>
 <e>       <p><l>p.o.<s n="adv"/></l>              <r>p.<b/>o.<s n="adv"/></r></p></e>
 <e>       <p><l>P.S.<s n="adv"/></l>              <r>P.<b/>S.<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>P.S.<s n="adv"/></l>              <r>p.<b/>s.<s n="adv"/></r></p></e>
 <e>       <p><l>y<b/>ss.<s n="adv"/></l>          <r>y<b/>sigs.<s n="adv"/></r></p></e>
 
 <e r="LR"><p><l>s.a.<s n="adv"/></l>              <r>s.<b/>a.<s n="adv"/></r></p></e>
@@ -6899,7 +6900,7 @@
 <e><p><l>deslealmente<s n="adv"/></l><r>desleyalment<s n="adv"/></r></p></e>
 <e><p><l>deslizaderamente<s n="adv"/></l><r>eslizaderament<s n="adv"/></r></p></e>
 <e><p><l>deslizantemente<s n="adv"/></l><r>eslizantment<s n="adv"/></r></p></e>
-<e><p><l>deslumbrantemente<s n="adv"/></l><r>eslucernadorament<s n="adv"/></r></p></e>
+<e><p><l>deslumbrantemente<s n="adv"/></l><r>enlucernadorament<s n="adv"/></r></p></e>
 <e><p><l>desmelenadamente<s n="adv"/></l><r>escabelladament<s n="adv"/></r></p></e>
 <e><p><l>desmesuradamente<s n="adv"/></l><r>desmesuradament<s n="adv"/></r></p></e>
 <e r="LR"><p><l>desmedidamente<s n="adv"/></l><r>desmesuradament<s n="adv"/></r></p></e>
@@ -9515,7 +9516,6 @@
 <e>       <i>mutatis<b/>mutandis<s n="adv"/></i></e>
 <e>       <i>on<b/>line<s n="adv"/></i></e>
 <e>       <i>on-line<s n="adv"/></i></e>
-<e>       <i>p.<b/>s.<s n="adv"/></i></e>
 <e>       <i>per<b/>capita<s n="adv"/></i></e>
 <e>       <i>per<b/>saecula<b/>saeculorum<s n="adv"/></i></e>
 <e>       <i>per<b/>se<s n="adv"/></i></e>
@@ -9595,6 +9595,7 @@
     <e><p><l>por<b/>encima<b/>de<s n="pr"/></l><r>por<b/>alto<b/>de<s n="pr"/></r></p></e>
     <e r="LR"><p><l>allende<s n="pr"/></l><r>dillá<b/>de<s n="pr"/></r></p></e>
     <e r="LR"><p><l>allende<s n="adv"/></l><r>dillá<s n="adv"/></r></p></e>
+    <e><p><l>más<b/>allá<b/>de<s n="adv"/></l>        <r>dillá<b/>de<s n="adv"/></r></p></e>
     <e><p><l>hacia<s n="pr"/></l><r>enta<s n="pr"/></r></p></e>
     <e r="RL"><p><l>hacia<s n="pr"/></l><r>cara<s n="pr"/></r></p></e>
     <e r="RL"><p><l>hacia<s n="pr"/></l><r>cara<b/>ta<s n="pr"/></r></p></e> <!-- en dirección a -->
@@ -13875,7 +13876,6 @@
     <e><p><l>escapar<s n="vblex"/></l><r>escapar<s n="vblex"/></r></p></e>
     <e><p><l>elegir<s n="vblex"/></l><r>esleir<s n="vblex"/></r></p></e>
     <e><p><l>derribar<s n="vblex"/></l><r>espaldar<s n="vblex"/></r></p></e>
-    <e><p><l>esperar<s n="vblex"/></l><r>esperar<s n="vblex"/></r></p></e>
     <e><p><l>estabilizar<s n="vblex"/></l><r>estabilizar<s n="vblex"/></r></p></e>
     <e><p><l>estallar<s n="vblex"/></l><r>estallar<s n="vblex"/></r></p></e>
     <e><p><l>estrangular<s n="vblex"/></l><r>estrangullar<s n="vblex"/></r></p></e>
@@ -14479,7 +14479,7 @@
     <e><p><l>encomendar<s n="vblex"/></l><r>encomendar<s n="vblex"/></r></p></e>
     <e><p><l>enyesar<s n="vblex"/></l><r>enchesar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>deslumbrar<s n="vblex"/></l><r>enlucernar<s n="vblex"/></r></p></e>
-    <e><p><l>deslumbrar<s n="vblex"/></l><r>eslucernar<s n="vblex"/></r></p></e>
+    <e><p><l>deslumbrar<s n="vblex"/></l><r>enlucernar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>enterrar<s n="vblex"/></l><r>enterrar<s n="vblex"/></r></p></e>
     <e><p><l>entrenar<s n="vblex"/></l><r>entrenar<s n="vblex"/></r></p></e>
     <e><p><l>enumerar<s n="vblex"/></l><r>enumerar<s n="vblex"/></r></p></e>
@@ -15088,7 +15088,6 @@
     <e><p><l>limpiar<s n="vblex"/></l><r>limpiar<s n="vblex"/></r></p></e>
     <e><p><l>derramar<s n="vblex"/></l><r>redamar<s n="vblex"/></r></p></e>
     <e><p><l>inclinar<s n="vblex"/></l><r>abocar<s n="vblex"/></r></p></e>
-    <e><p><l>lisiar<s n="vblex"/></l><r>baldar<s n="vblex"/></r></p></e>
     <e><p><l>lisiar<s n="vblex"/></l><r>baldar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>lisiar<s n="vblex"/></l><r>eslisiar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>lisiar<s n="vblex"/></l><r>lisiar<s n="vblex"/></r></p></e>
@@ -22435,7 +22434,7 @@
     <e><i>Ibañez<s n="np"/></i></e>
     <e><i>Ilíada<s n="np"/></i></e>
     <e><i>Indostán<s n="np"/></i></e>
-    <e><p><l>Instituto<b/>Aragonés<b/>de<b/>la<b/>Juventud<s n="np"/></l><r>Instituto<b/>Aragonés<b/>d'a<b/>Chovenalla</r></p></e>
+    <e><p><l>Instituto<b/>Aragonés<b/>de<b/>la<b/>Juventud<s n="np"/></l><r>Instituto<b/>Aragonés<b/>d'a<b/>Chovenalla<s n="np"/></r></p></e>
     <e><i>Isla<b/>Mágica<s n="np"/></i></e>
     <e><i>Isona<b/>i<b/>Conca<b/>Dellà<s n="np"/></i></e>
     <e><i>Isòvol<s n="np"/></i></e>
