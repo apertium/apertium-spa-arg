@@ -5295,7 +5295,7 @@
 	      </lu>
 	      <b pos="1"/>
 	      <lu>
-		<lit v="què"/>
+		<lit v="que"/>
 		<clip pos="2" side="sl" part="a_que"/>
 	      </lu>
 	    </out>
@@ -5322,7 +5322,7 @@
 	    </test>
 	    <let>
 		<clip pos="2" side="tl" part="lem"/>
-		<lit v="què"/>
+		<lit v="que"/>
 	    </let>
 	  </when>
 	</choose>
