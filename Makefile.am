@@ -1,4 +1,4 @@
-VERSION=0.1.0
+VERSION=0.2.0
 LANG1=es
 LANG2=an
 PREFIX1=$(LANG1)-$(LANG2)
@@ -184,12 +184,15 @@ apertium_es_an_DATA=$(PREFVAR1)$(PREFIX1).automorf.bin $(PREFVAR1)$(PREFIX2).aut
 	trules-$(PREFIX2).bin \
 	trules-$(PREFIX1).xml  \
 	trules-$(PREFIX1).bin \
+	$(PREFIX1).mode \
 	$(PREFVAR1)$(PREFIX2).mode 
 
 install-data-local:
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
 	cp *.mode modes/
 	$(INSTALL_DATA) $(PREFVAR1)$(PREFIX2).mode $(apertium_es_modesdir)
+	$(INSTALL_DATA) $(PREFIX1).mode $(apertium_es_modesdir)
+	$(INSTALL_DATA) $(BASENAME).trules-$(PREFIX1).xml $(apertium_es_andir)
 	$(INSTALL_DATA) $(BASENAME).trules-$(PREFIX2).xml $(apertium_es_andir)
 
 CLEANFILES = -rf $(TARGETS) modes .deps/ 
