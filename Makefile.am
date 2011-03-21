@@ -111,11 +111,6 @@ $(PREFVAR2)$(PREFIX1).automorf.bin: .deps/$(PREFVAR2)$(LANG1).dix $(BASENAME).$(
 #	apertium-validate-dictionary $<
 #	lt-comp rl $< $@
 #
-trules-$(PREFIX1).bin: $(BASENAME).trules-$(PREFIX1).xml
-	apertium-validate-transfer $(BASENAME).trules-$(PREFIX1).xml
-	apertium-preprocess-transfer $(BASENAME).trules-$(PREFIX1).xml \
-	                             trules-$(PREFIX1).bin
-
 $(PREFVAR2)$(PREFIX1).autobil.bin: .deps/$(PREFVAR2)$(PREFIX1).dix
 	apertium-validate-dictionary $<
 	lt-comp lr $< $@
