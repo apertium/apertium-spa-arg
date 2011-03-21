@@ -47,6 +47,10 @@
       <cat-item tags="rel.aa.*"/>	  
     </def-cat>
 
+    <def-cat n="cualrel">          
+      <cat-item lemma="cual" tags="rel.an.mf"/>	  
+    </def-cat>
+
     <def-cat n="prn">   	  	  
       <cat-item tags="prn.tn.*"/>
       <cat-item tags="prn.itg.*"/>
@@ -2932,6 +2936,47 @@
       </action>
     </rule>
 
+
+    <rule>
+      <pattern>
+	<pattern-item n="cualrel"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test> 
+	      <equal>
+		<clip pos="1" side="tl" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test> 
+	      <equal>
+		<clip pos="1" side="tl" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	</choose>	
+	<out>   
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
 
     <rule> <!-- REGLA: NUMERAL-->
       <pattern>
