@@ -49,6 +49,7 @@
 
     <def-cat n="cualrel">          
       <cat-item lemma="cual" tags="rel.an.mf"/>	  
+      <cat-item lemma="cual" tags="rel.an.mf.*"/>	  
     </def-cat>
 
     <def-cat n="prn">   	  	  
