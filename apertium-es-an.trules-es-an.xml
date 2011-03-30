@@ -7227,6 +7227,9 @@
 	<call-macro n="f_bcond">
 	  <with-param pos="1"/>
 	</call-macro>
+	<call-macro n="f_concord1">
+	  <with-param pos="2"/>
+	</call-macro>
 	<out>
 	  <lu>
 	    <clip pos="2" side="tl" part="whole"/>
@@ -7249,6 +7252,9 @@
       <action>
 	<call-macro n="f_bcond">
 	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="f_concord1">
+	  <with-param pos="2"/>
 	</call-macro>
 	<out>
 	  <lu>
