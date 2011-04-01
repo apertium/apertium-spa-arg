@@ -72,7 +72,7 @@
       </e>
     </pardef>
     
-    <pardef n="vocals">
+    <pardef n="vocals_apost">
       <e>
         <i>a</i>
       </e>
@@ -102,8 +102,138 @@
       </e>
       <e>
         <i>á</i>
+      </e>      
+      <e>
+      <i>ha</i>
       </e>
+      <e>
+       <i>he</i>
+      </e>
+      <e>
+        <i>hi</i>
+      </e>
+      <e>
+        <i>ho</i>
+      </e>
+      <e>
+        <i>hu</i>
+      </e>
+      <e>
+        <i>há</i>
+      </e>
+      <e>
+      <i>hé</i>
+      </e>
+      <e>
+      <i>hí</i>
+      </e>
+      <e>
+      <i>hó</i>
+      </e>
+      <e>
+      <i>hú</i>    
+      </e>  
     </pardef>    
+    
+      <pardef n="vocals_no_apost">
+     <e>
+        <i>ia</i>
+      </e>
+     <e>
+        <i>ie</i>
+      </e>
+     <e>
+        <i>io</i>
+     </e>
+     <e>
+        <i>iu</i>
+      </e>
+     <e>
+        <i>iá</i>
+      </e>
+     <e>
+        <i>ié</i>
+      </e>
+     <e>
+        <i>ió</i>
+     </e>
+     <e>
+        <i>iú</i>
+      </e>
+     <e>
+        <i>hia</i>
+      </e>
+     <e>
+        <i>hie</i>
+      </e>
+     <e>
+        <i>hio</i>
+     </e>
+     <e>
+        <i>hiu</i>
+      </e>
+     <e>
+        <i>hiá</i>
+      </e>
+     <e>
+        <i>hié</i>
+      </e>
+     <e>
+        <i>hió</i>
+     </e>
+     <e>
+        <i>hiú</i>
+      </e>
+      <e>
+        <i>ua</i>
+      </e>
+     <e>
+        <i>ue</i>
+      </e>
+     <e>
+        <i>uo</i>
+     </e>
+     <e>
+        <i>ui</i>
+      </e>
+     <e>
+        <i>uá</i>
+      </e>
+     <e>
+        <i>ué</i>
+      </e>
+     <e>
+        <i>uó</i>
+     </e>
+     <e>
+        <i>uí</i>
+      </e>      
+     <e>
+        <i>hua</i>
+      </e>
+     <e>
+        <i>hue</i>
+      </e>
+     <e>
+        <i>huo</i>
+     </e>
+     <e>
+        <i>hui</i>
+      </e>
+     <e>
+        <i>huá</i>
+      </e>
+     <e>
+        <i>hué</i>
+      </e>
+     <e>
+        <i>huó</i>
+     </e>
+     <e>
+        <i>huí</i>
+      </e>      
+    </pardef>    
+
 
     <pardef n="el">
    <!--   <e>
@@ -281,7 +411,14 @@
           <l><a/>de<b/></l>
           <r>d'</r>
         </p>
-        <par n="vocals"/>
+        <par n="vocals_apost"/>
+      </e> 
+      <e>
+        <p>
+          <l><a/>de<b/></l>
+          <r>de<b/></r>
+        </p>
+        <par n="vocals_no_apost"/>
       </e> 
 
   </section>
