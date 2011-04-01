@@ -10017,12 +10017,9 @@
           group rel_symbol
       ****************************** -->
 
-    <e r="RL"><p><l>cual<s n="rel"/><s n="an"/><s n="mf"/><s n="sg"/></l><r>qual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>cual<s n="rel"/><s n="an"/><s n="mf"/><s n="sg"/></l><r>qual<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>cual<s n="rel"/><s n="an"/><s n="mf"/><s n="pl"/></l><r>qual<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>cual<s n="rel"/><s n="an"/><s n="mf"/><s n="pl"/></l><r>qual<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r></p></e>
-    <e r="LR"><p><l>cual<s n="rel"/><s n="an"/><s n="mf"/><s n="sg"/></l><r>qual<s n="rel"/><s n="an"/><s n="GD"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>cual<s n="rel"/><s n="an"/><s n="mf"/><s n="pl"/></l><r>qual<s n="rel"/><s n="an"/><s n="GD"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>cual<s n="rel"/><s n="an"/><s n="mf"/></l><r>qual<s n="rel"/><s n="an"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>cual<s n="rel"/><s n="an"/><s n="mf"/></l><r>qual<s n="rel"/><s n="an"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>cual<s n="rel"/><s n="an"/><s n="mf"/></l><r>qual<s n="rel"/><s n="an"/><s n="GD"/></r></p></e>
 
   <e>       <p><l>como<s n="rel"/></l>              <r>como<s n="rel"/></r></p></e>
   <e r="LR"><p><l>cual<s n="rel"/><s n="adv"/></l>  <r>como<s n="rel"/><s n="adv"/></r></p></e>

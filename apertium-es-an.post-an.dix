@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
   <alphabet/>
   <sdefs>
@@ -71,6 +71,39 @@
         <i>.</i>
       </e>
     </pardef>
+    
+    <pardef n="vocals">
+      <e>
+        <i>a</i>
+      </e>
+      <e>
+        <i>e</i>
+      </e>
+      <e>
+        <i>i</i>
+      </e>
+      <e>
+        <i>o</i>
+      </e>
+      <e>
+        <i>u</i>
+      </e>
+      <e>
+        <i>é</i>
+      </e>
+      <e>
+        <i>í</i>
+      </e>
+      <e>
+        <i>ó</i>
+      </e>
+      <e>
+        <i>ú</i>
+      </e>
+      <e>
+        <i>á</i>
+      </e>
+    </pardef>    
 
     <pardef n="el">
    <!--   <e>
@@ -134,7 +167,7 @@
       <e>
         <p>
           <l><a/>de<b/>o<b/></l>
-          <r>d'el<b/></r>
+          <r>d'o<b/></r>
         </p>
       </e>
       <e>
@@ -149,6 +182,27 @@
           <r>d'os<b/></r>
         </p>
       </e>
+<!--      
+      <e>
+        <p>
+          <l><a/>de<b/>el<b/></l>
+          <r>d'el<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>de<b/>els<b/></l>
+          <r>d'els<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>de<b/>es<b/></l>
+          <r>d'es<b/></r>
+        </p>
+      </e>
+-->
+      
       <e>
         <p>
           <l><a/>de<b/></l>
@@ -221,7 +275,14 @@
         </p>
         <par n="le"/>
       </e>
-
+      
+      <e>
+        <p>
+          <l><a/>de<b/></l>
+          <r>d'</r>
+        </p>
+        <par n="vocals"/>
+      </e> 
 
   </section>
 
