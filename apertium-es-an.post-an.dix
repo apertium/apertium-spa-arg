@@ -234,6 +234,15 @@
       </e>      
     </pardef>    
 
+    <pardef n="vocals_no_apost_o">
+     <e>
+        <i>es</i>
+      </e>
+     <e>
+        <i>hes</i>
+      </e>
+    </pardef>    
+
 
     <pardef n="el">
    <!--   <e>
@@ -262,25 +271,51 @@
       <e>
         <p>
           <l>la<b/></l>
-          <r>se<b/>la<b/></r>
+          <r>le'n<b/></r>
         </p>
       </e>
       <e>
         <p>
           <l>las<b/></l>
-          <r>se<b/>las<b/></r>
+          <r>le'n<b/></r>
         </p>
       </e>
       <e>
         <p>
           <l>lo<b/></l>
-          <r>se<b/>lo<b/></r>
+          <r>le'n<b/></r>
         </p>
       </e>
       <e>
         <p>
           <l>los<b/></l>
-          <r>se<b/>los<b/></r>
+          <r>le'n<b/></r>
+        </p>
+      </e>      
+    </pardef>
+   <pardef n="les">
+      <e>
+        <p>
+          <l>la<b/></l>
+          <r>les<b/>ne<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>las<b/></l>
+          <r>les<b/>ne<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lo<b/></l>
+          <r>les<b/>ne<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>los<b/></l>
+          <r>les<b/>ne<b/></r>
         </p>
       </e>      
     </pardef>
@@ -288,6 +323,34 @@
   </pardefs>
 
   <section id="main" type="standard">
+      <e>
+        <p>
+          <l><a/>o<b/></l>
+          <r>l'</r>
+        </p>
+        <par n="vocals_apost" />
+      </e>
+      <e>
+        <p>
+          <l><a/>o<b/></l>
+          <r>o<b/></r>
+        </p>
+        <par n="vocals_no_apost" />
+      </e>
+      <e>
+        <p>
+          <l><a/>o<b/></l>
+          <r>o<b/></r>
+        </p>
+        <par n="vocals_no_apost_o" />
+      </e>
+      <e>
+        <p>
+          <l><a/>a<b/>a</l>
+          <r>l'a</r>
+        </p>
+      </e>
+
       <e>
         <p>
           <l><a/>de<b/>a<b/></l>
@@ -332,7 +395,117 @@
         </p>
       </e>
 -->
-      
+      <e>
+        <p>
+          <l><a/>ta<b/>a<b/></l>
+          <r>t'a<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>ta<b/>o<b/></l>
+          <r>t'o<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>ta<b/>as<b/></l>
+          <r>t'as<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>ta<b/>os<b/></l>
+          <r>t'os<b/></r>
+        </p>
+      </e>
+<!--      
+      <e>
+        <p>
+          <l><a/>ta<b/>el<b/></l>
+          <r>ta'l<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>ta<b/>els<b/></l>
+          <r>ta'ls<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>ta<b/>es<b/></l>
+          <r>ta's<b/></r>
+        </p>
+      </e>
+-->
+
+      <e>
+        <p>
+          <l><a/>enta<b/>a<b/></l>
+          <r>ent'a<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>enta<b/>o<b/></l>
+          <r>ent'o<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>enta<b/>as<b/></l>
+          <r>ent'as<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>enta<b/>os<b/></l>
+          <r>ent'os<b/></r>
+        </p>
+      </e>
+<!--      
+      <e>
+        <p>
+          <l><a/>enta<b/>el<b/></l>
+          <r>enta'l<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>enta<b/>els<b/></l>
+          <r>enta'ls<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>enta<b/>es<b/></l>
+          <r>enta's<b/></r>
+        </p>
+      </e>
+-->
+<!--      
+      <e>
+        <p>
+          <l><a/>pa<b/>el<b/></l>
+          <r>pa'l<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>pa<b/>els<b/></l>
+          <r>pa'ls<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>pa<b/>es<b/></l>
+          <r>pa's<b/></r>
+        </p>
+      </e>
+-->
+
+<!--      
       <e>
         <p>
           <l><a/>de<b/></l>
@@ -361,36 +534,7 @@
         </p>
         <par n="el"/>
       </e>      
-      <e>
-        <p>
-          <l><a/>y<b/>i</l>
-          <r>e<b/>i</r>
-        </p>
-      </e>     
-      <e>
-        <p>
-          <l><a/>y<b/>hie</l>
-          <r>y<b/>hie</r>
-        </p>
-      </e>    
-      <e>
-        <p>
-          <l><a/>y<b/>hi</l>
-          <r>e<b/>hi</r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l><a/>o<b/>o</l>
-          <r>u<b/>o</r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l><a/>o<b/>ho</l>
-          <r>u<b/>ho</r>
-        </p>
-      </e>
+      -->
       <e>
         <p>
           <l><a/>le<b/></l>
@@ -403,7 +547,7 @@
           <l><a/>les<b/></l>
           <r/>
         </p>
-        <par n="le"/>
+        <par n="les"/>
       </e>
       
       <e>
