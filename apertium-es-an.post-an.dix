@@ -145,8 +145,50 @@
       <e>
         <i>ha</i>
       </e>
+      <e>
+        <i>há</i>
+      </e>
     </pardef>    
     
+    <pardef n="vocals_apost_lo">
+      <e>
+        <i>a</i>
+      </e>
+      <e>
+        <i>á</i>
+      </e>
+      <e>
+        <i>ha</i>
+      </e>
+      <e>
+        <i>há</i>
+      </e>
+      <e>
+        <i>e</i>
+      </e>
+      <e>
+        <i>é</i>
+      </e>
+      <e>
+        <i>he</i>
+      </e>
+      <e>
+        <i>hé</i>
+      </e>
+      <e>
+        <i>o</i>
+      </e>
+      <e>
+        <i>ó</i>
+      </e>
+      <e>
+        <i>ho</i>
+      </e>
+      <e>
+        <i>hó</i>
+      </e>
+    </pardef>    
+
       <pardef n="vocals_no_apost">
      <e>
         <i>ia</i>
@@ -659,6 +701,55 @@
           <r>de<b/></r>
         </p>
         <par n="vocals_no_apost"/>
+      </e> 
+      <e>
+        <p>
+          <l><a/>me<b/></l>
+          <r>m'</r>
+        </p>
+        <par n="vocals_apost"/>
+      </e> 
+      <e>
+        <p>
+          <l><a/>me<b/></l>
+          <r>me<b/></r>
+        </p>
+        <par n="vocals_no_apost"/>
+      </e> 
+      <e>
+        <p>
+          <l><a/>te<b/></l>
+          <r>t'</r>
+        </p>
+        <par n="vocals_apost"/>
+      </e> 
+      <e>
+        <p>
+          <l><a/>te<b/></l>
+          <r>te<b/></r>
+        </p>
+        <par n="vocals_no_apost"/>
+      </e> 
+      <e>
+        <p>
+          <l><a/>se<b/></l>
+          <r>s'</r>
+        </p>
+        <par n="vocals_apost"/>
+      </e> 
+      <e>
+        <p>
+          <l><a/>se<b/></l>
+          <r>se<b/></r>
+        </p>
+        <par n="vocals_no_apost"/>
+      </e> 
+      <e>
+        <p>
+          <l><a/>lo<b/></l>
+          <r>l'</r>
+        </p>
+        <par n="vocals_apost_lo"/>
       </e> 
 
   </section>
