@@ -672,7 +672,13 @@
     </pardef>
     
     <pardef n="detarticle_m_sg_var">
-      <e>
+      <e r="RL">
+        <p>
+          <l><a/>o</l>
+          <r>o</r>
+        </p>
+      </e>
+      <e r="LR">
         <p>
           <l>o</l>
           <r>o</r>
@@ -736,7 +742,13 @@
     </pardef>    
 
     <pardef n="detarticle_f_sg_var">
-      <e>
+      <e r="RL">
+        <p>
+          <l><a/>a</l>
+          <r>o</r>
+        </p>
+      </e>
+      <e r="LR">
         <p>
           <l>a</l>
           <r>o</r>
@@ -3429,20 +3441,31 @@
 
     </pardef>
     <pardef n="/le__prn">
-    <e>
+    <e r="RL">
+      <p>
+        <l><a/>les</l>
+        <r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
       <p>
         <l>les</l>
         <r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
       </p>
     </e>
 
-    <e>
+    <e r="RL">
+      <p>
+        <l><a/>le</l>
+        <r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
       <p>
         <l>le</l>
         <r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
       </p>
     </e>
-
     <e r="LR">
       <p>
         <l>lis</l>
@@ -36544,7 +36567,7 @@
 
     <e r="RL">
       <p>
-        <l><a/>a</l>
+        <l>a</l> <!-- <l><a/>a</l> jp-->
         <r>a<s n="pr"/></r>
       </p>
     </e>
