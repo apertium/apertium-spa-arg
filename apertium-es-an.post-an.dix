@@ -135,6 +135,18 @@
       </e>  
     </pardef>    
     
+    <pardef n="vocals_apost_a">
+      <e>
+        <i>a</i>
+      </e>
+      <e>
+        <i>á</i>
+      </e>
+      <e>
+        <i>ha</i>
+      </e>
+    </pardef>    
+    
       <pardef n="vocals_no_apost">
      <e>
         <i>ia</i>
@@ -346,11 +358,11 @@
       </e>
       <e>
         <p>
-          <l><a/>a<b/>a</l>
-          <r>l'a</r>
+          <l><a/>a<b/></l>
+          <r>l'</r>
         </p>
+        <par n="vocals_apost_a" />
       </e>
-
       <e>
         <p>
           <l><a/>de<b/><a/>a<b/></l>
@@ -363,6 +375,34 @@
           <r>d'o<b/></r>
         </p>
       </e>
+      <e>
+        <p>
+          <l><a/>de<b/><a/>o<b/></l>
+          <r>de<b/>l'</r>
+        </p>
+        <par n="vocals_apost" />
+      </e>
+      <e>
+        <p>
+          <l><a/>de<b/><a/>o<b/></l>
+          <r>d'o<b/></r>
+        </p>
+        <par n="vocals_no_apost" />
+      </e>
+      <e>
+        <p>
+          <l><a/>de<b/><a/>o<b/></l>
+          <r>d'o<b/></r>
+        </p>
+        <par n="vocals_no_apost_o" />
+      </e>
+      <e>
+        <p>
+          <l><a/>de<b/><a/>a<b/></l>
+          <r>de<b/>l'</r>
+        </p>
+        <par n="vocals_apost_a" />
+      </e>      
       <e>
         <p>
           <l><a/>de<b/>as<b/></l>
@@ -409,6 +449,34 @@
       </e>
       <e>
         <p>
+          <l><a/>ta<b/><a/>o<b/></l>
+          <r>ta<b/>l'</r>
+        </p>
+        <par n="vocals_apost" />
+      </e>
+      <e>
+        <p>
+          <l><a/>ta<b/><a/>o<b/></l>
+          <r>t'o<b/></r>
+        </p>
+        <par n="vocals_no_apost" />
+      </e>
+      <e>
+        <p>
+          <l><a/>ta<b/><a/>o<b/></l>
+          <r>t'o<b/></r>
+        </p>
+        <par n="vocals_no_apost_o" />
+      </e>
+      <e>
+        <p>
+          <l><a/>ta<b/><a/>a<b/></l>
+          <r>ta<b/>l'</r>
+        </p>
+        <par n="vocals_apost_a" />
+      </e>      
+      <e>
+        <p>
           <l><a/>ta<b/>as<b/></l>
           <r>t'as<b/></r>
         </p>
@@ -452,6 +520,34 @@
           <r>ent'o<b/></r>
         </p>
       </e>
+      <e>
+        <p>
+          <l><a/>enta<b/><a/>o<b/></l>
+          <r>enta<b/>l'</r>
+        </p>
+        <par n="vocals_apost" />
+      </e>
+      <e>
+        <p>
+          <l><a/>enta<b/><a/>o<b/></l>
+          <r>ent'o<b/></r>
+        </p>
+        <par n="vocals_no_apost" />
+      </e>
+      <e>
+        <p>
+          <l><a/>enta<b/><a/>o<b/></l>
+          <r>ent'o<b/></r>
+        </p>
+        <par n="vocals_no_apost_o" />
+      </e>
+      <e>
+        <p>
+          <l><a/>enta<b/><a/>a<b/></l>
+          <r>enta<b/>l'</r>
+        </p>
+        <par n="vocals_apost_a" />
+      </e>           
       <e>
         <p>
           <l><a/>enta<b/>as<b/></l>
