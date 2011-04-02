@@ -3483,12 +3483,18 @@
     </pardef>
 
     <pardef n="/lo__prn">   <!-- lo may be also neuter: Yo lo foi, but the translation is the same in spanish: yo lo hago-->
-    <e>
+    <e r="RL">
+      <p>
+        <l><a/>lo</l>
+        <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>    
+    <e r="LR">
       <p>
         <l>lo</l>
         <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r>
       </p>
-    </e>    
+    </e>        
     <e r="LR">
       <p>
         <l>el</l>
@@ -3559,7 +3565,13 @@
       </p>
     </e>
 
-    <e>
+    <e r="RL">
+      <p>
+        <l><a/>lo</l> 
+        <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r> 
+      </p>
+    </e>
+    <e r="LR">
       <p>
         <l>lo</l> 
         <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r> 
@@ -37518,11 +37530,14 @@
     <e lm="vusté" r="LR"><p><l>bust</l><r>vust</r></p><par n="vust/é__prn"/></e>
     <e lm="vos"><i>vos</i><par n="vos__prn"/></e>
     <e lm="vos" r="LR"><p><l>bos</l><r>vos</r></p><par n="vos__prn"/></e>
-    <e lm="me"><i>me</i><par n="me__prn"/></e>
-    <e lm="te"><i>te</i><par n="te__prn"/></e>
+    <e lm="me" r="RL"><p><l><a/>me</l><r>me</r></p><par n="me__prn"/></e>
+    <e lm="me" r="LR"><i>me</i><par n="me__prn"/></e>
+    <e lm="se" r="RL"><p><l><a/>te</l><r>te</r></p><par n="te__prn"/></e>
+    <e lm="te" r="LR"><i>te</i><par n="te__prn"/></e>
     <e lm="le"><i></i><par n="/le__prn"/></e>
     <e lm="lo"><i></i><par n="/lo__prn"/></e>
-    <e lm="se"><i>se</i><par n="se__prn"/></e>
+    <e lm="se" r="RL"><p><l><a/>se</l><r>se</r></p><par n="se__prn"/></e>
+    <e lm="se" r="LR"><i>se</i><par n="se__prn"/></e>
     <e lm="nos"><i></i><par n="/nos__prn"/></e>
     <e lm="tos"><i></i><par n="/tos__prn"/></e>
     <e lm="hu" r="LR"><i>hu</i><par n="hu__prn"/></e>
