@@ -36655,7 +36655,7 @@
 
     <e r="RL">
       <p>
-        <l><a/>en</l>
+        <l>en</l> <!--jp:don't mark en<pr> for postgeneration, as it should not be contracted in standard writing </l><l><a/>en</l> -->
         <r>en<s n="pr"/></r>
       </p>
     </e>
@@ -41504,8 +41504,9 @@
     <e lm="mal"><i>mal</i><par n="libro__n"/></e>
     <e lm="mal"><i>mal</i><par n="mal__adj"/></e>
     
-    
-    <e lm="no"><i>no</i><par n="agora__adv"/></e>
+
+    <e lm="no" r="RL"><p><l><a/>no</l><r>no</r></p><par n="agora__adv"/></e>
+    <e lm="no" r="LR"><i>no</i><par n="agora__adv"/></e>
     <e lm="mas"><par n="/mas__var"/><par n="agora__adv"/></e>
     <e lm="menos"><i>menos</i><par n="agora__adv"/></e>
     <e lm="tamién"><i>tamién</i><par n="agora__adv"/></e>
@@ -57895,6 +57896,7 @@
     <e lm="marcador"><i>marcador</i><par n="libro__n"/></e>
     <e lm="minchador"><i>minchad</i><par n="treballad/or__adj"/></e>
     <e lm="minchador"><i>minchador</i><par n="libro__n"/></e>
+    <e lm="brendador"><i>brendador</i><par n="libro__n"/></e>
     <e lm="mirador"><i>mirador</i><par n="libro__n"/></e>
     <e lm="mocador"><i>mocador</i><par n="libro__n"/></e>
     <e lm="mostrador"><i>mostrador</i><par n="libro__n"/></e>
