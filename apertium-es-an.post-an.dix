@@ -133,6 +133,21 @@
       <e>
       <i>hú</i>    
       </e>  
+      <e>
+      <i>1<b/></i>
+      </e>  
+      <e>
+      <i>1</i>
+      <par n="caracter_general"/>
+      </e>  
+      <e>
+      <i>11<b/></i>
+      </e>  
+      <e>
+      <i>11</i>
+      <par n="caracter_general"/>
+      </e>  
+
     </pardef>    
     
     <pardef n="vocals_apost_a">
@@ -750,6 +765,68 @@
           <r>l'</r>
         </p>
         <par n="vocals_apost_lo"/>
+      </e> 
+      <e>
+        <p>
+          <l><a/>en<b/></l>
+          <r>n'</r>
+        </p>
+        <par n="vocals_apost"/>
+      </e> 
+      <e>
+        <p>
+          <l><a/>en<b/></l>
+          <r></r>
+        </p>
+        <par n="vocals_no_apost"/>
+      </e> 
+      <e>
+        <p>
+          <l><a/>se<b/><a/>en<b/></l>
+          <r>se'n<b/></r>
+        </p>
+      </e> 
+      <e>
+        <p>
+          <l><a/>me<b/><a/>en<b/></l>
+          <r>se'n<b/></r>
+        </p>
+      </e> 
+      <e>
+        <p>
+          <l><a/>te<b/><a/>en<b/></l>
+          <r>se'n<b/></r>
+        </p>
+      </e> 
+      <e>
+        <p>
+          <l><a/>lo<b/><a/>en<b/></l>
+          <r>lo'n<b/></r>
+        </p>
+      </e> 
+      <e>
+        <p>
+          <l><a/>le<b/><a/>en<b/></l>
+          <r>le'n<b/></r>
+        </p>
+      </e> 
+      <e>
+        <p>
+          <l><a/>li<b/><a/>en<b/></l>
+          <r>li'n<b/></r>
+        </p>
+      </e> 
+      <e>
+        <p>
+          <l><a/>bi<b/><a/>en<b/></l>
+          <r>bi'n<b/></r>
+        </p>
+      </e> 
+      <e>
+        <p>
+          <l><a/>no<b/><a/>en<b/></l>
+          <r>no'n<b/></r>
+        </p>
       </e> 
 
   </section>
