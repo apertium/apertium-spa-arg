@@ -6015,6 +6015,8 @@
 <e><p><l>en<b/>aquel<b/>tiempo<s n="adv"/></l><r>en<b/>ixas<b/>envueltas<s n="adv"/></r></p></e>
 <e r="LR"><p><l>en<b/>aquellos<b/>tiempos<s n="adv"/></l><r>en<b/>ixas<b/>envueltas<s n="adv"/></r></p></e>
   
+ <e r="LR" a="prompsit"><p><l>al<b/>día<b/>siguiente<s n="adv"/></l><r>a<b/>l'atro'l<b/>día<s n="adv"/></r></p></e>
+ <e r="RL" a="prompsit"><p><l>el<b/>día<b/>siguiente<s n="adv"/></l><r>a<b/>l'atro'l<b/>día<s n="adv"/></r></p></e>
 
   <e><p><l>p.<b/>ej.<s n="adv"/></l><r>p.<b/>eix.<s n="adv"/></r></p></e>
   <e r="RL"><p><l>p.ej.<s n="adv"/></l>             <r>p.eix.<s n="adv"/></r></p></e>
@@ -9856,7 +9858,6 @@
           group cnjsub_symbol
       ****************************** -->
     <e><p><l>que<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
-    <e><p><l>que<b/>no<s n="cnjsub"/></l><r>que<b/>no<s n="cnjsub"/></r></p></e>
     <e r="RL"><p><l>que<b/>no<s n="cnjsub"/></l><r>que<b/>no<b/>pas<s n="cnjsub"/></r></p></e>
     <e r="LR"><p><l>de<b/>que<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
     <e><p><l>a<b/>que<s n="cnjsub"/></l><r>a<b/>que<s n="cnjsub"/></r></p></e>
