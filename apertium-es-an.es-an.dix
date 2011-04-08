@@ -102,7 +102,7 @@
     
     <e r="RL"><p><l></l><r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
     <e r="RL"><p><l></l><r>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
-    <e r="RL"><p><l></l><r>i<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+    <e r="RL"><p><l></l><r>ie<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
     <e r="RL"><p><l></l><r>i<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e r="RL">       <p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>hu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
     <e r="RL">       <p><l>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>hu<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
@@ -270,7 +270,7 @@
     <e>       <p><l>sendos<s n="det"/></l>            <r>senglos<s n="det"/></r></p></e>
     <e><p><l>el<s n="det"/><s n="def"/><s n="m"/></l><r>o<s n="det"/><s n="def"/><s n="m"/></r></p></e>
     <e><p><l>el<s n="det"/><s n="def"/><s n="f"/></l><r>o<s n="det"/><s n="def"/><s n="f"/></r></p></e>
-    <e r="RL"><p><l>el<s n="det"/><s n="def"/><s n="GD"/></l><r>el<s n="det"/><s n="def"/><s n="mf"/></r></p></e>    
+    <e r="RL"><p><l>el<s n="det"/><s n="def"/><s n="GD"/></l><r>o<s n="det"/><s n="def"/><s n="mf"/></r></p></e>    
     
     <e><p><l>ese<s n="det"/></l><r>ixe<s n="det"/></r></p></e>
     <e><p><l>este<s n="det"/></l><r>iste<s n="det"/></r></p></e>
@@ -11022,6 +11022,8 @@
     <e r="RL"><p><l>navidad<s n="n"/></l><r>navidat<s n="n"/></r></p></e>
     <e><p><l>nazismo<s n="n"/></l><r>nazismo<s n="n"/></r></p></e>
     <e><p><l>necesidad<s n="n"/></l><r>necesidat<s n="n"/></r></p></e>
+    <e r="LR"><p><l>menester<s n="n"/></l><r>menister<s n="n"/></r></p></e>
+    <e r="RL"><p><l>necesidad<s n="n"/><s n="f"/></l><r>menister<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>neerlandés<s n="n"/></l><r>neerlandés<s n="n"/></r></p></e>
     <e><p><l>negativa<s n="n"/></l><r>negativa<s n="n"/></r></p></e>
     <e><p><l>negro<s n="n"/></l><r>negro<s n="n"/></r></p></e>
@@ -12165,6 +12167,7 @@
     <e>       <p><l>eco-innovación<s n="n"/></l>        <r>ecoinnovación<s n="n"/></r></p></e>
     <e>       <p><l>eco-eficiencia<s n="n"/></l>        <r>ecoeficiencia<s n="n"/></r></p></e>
     <e>       <p><l>eco-eficiente<s n="adj"/></l>        <r>ecoeficient<s n="adj"/></r></p></e>
+    <e><p><l>lingüista<s n="n"/></l><r>lingüista<s n="n"/></r></p></e>    
     <e><p><l>abreviatura<s n="n"/></l><r>abreviatura<s n="n"/></r></p></e>
     <e><p><l>ausencia<s n="n"/></l><r>ausencia<s n="n"/></r></p></e>
     <e><p><l>abundancia<s n="n"/></l><r>abundancia<s n="n"/></r></p></e>
@@ -12445,6 +12448,7 @@
     <e><p><l>conjura<s n="n"/></l><r>conchura<s n="n"/></r></p></e>
     <e><p><l>conquista<s n="n"/></l><r>conquiesta<s n="n"/></r></p></e>
     <e><p><l>consejería<s n="n"/></l><r>consellería<s n="n"/></r></p></e>
+    <e><p><l>consejo<s n="n"/></l><r>consello<s n="n"/></r></p></e>
     <e><p><l>consecuencia<s n="n"/></l><r>conseqüencia<s n="n"/></r></p></e>
     <e><p><l>consistencia<s n="n"/></l><r>consistencia<s n="n"/></r></p></e>
     <e><p><l>constancia<s n="n"/></l><r>constancia<s n="n"/></r></p></e>
@@ -12712,6 +12716,7 @@
     <e><p><l>guitarra<s n="n"/></l><r>guitarra<s n="n"/></r></p></e>
     <e><p><l>hamaca<s n="n"/></l><r>hamaca<s n="n"/></r></p></e>
     <e><p><l>hamburguesa<s n="n"/></l><r>hamburguesa<s n="n"/></r></p></e>
+    <e><p><l>hotel<s n="n"/></l><r>hotel<s n="n"/></r></p></e>
     <e><p><l>armonía<s n="n"/></l><r>harmonía<s n="n"/></r></p></e>
     <e><p><l>hectárea<s n="n"/></l><r>hectaria<s n="n"/></r></p></e>
     <e><p><l>hierba<s n="n"/></l><r>hierba<s n="n"/></r></p></e>
@@ -13375,6 +13380,7 @@
     <e r="RL"><p><l>miedo<s n="n"/><s n="m"/></l><r>por<s n="n"/><s n="f"/></r></p></e>
     <e r="RL" slr="miedo"><p><l>miedo<s n="n"/><s n="m"/></l><r>cera<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>miedo<s n="n"/><s n="m"/></l><r>cerina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gustar<s n="vblex"/></l><r>fer<g><b/>goyo</g><s n="vblex"/></r></p></e>
     <e><p><l>dar<g><b/>miedo</g><s n="vblex"/></l><r>fer<g><b/>miedo</g><s n="vblex"/></r></p></e>
     <e r="RL"><p><l>dar<g><b/>miedo</g><s n="vblex"/></l><r>fer<g><b/>por</g><s n="vblex"/></r></p></e>
     <e r="RL"><p><l>dar<g><b/>miedo</g><s n="vblex"/></l><r>fer<g><b/>medrana</g><s n="vblex"/></r></p></e>

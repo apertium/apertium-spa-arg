@@ -796,6 +796,12 @@
           <r><j/>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
+      <e c="for cases with elipsis as da-to'me">
+        <p>
+          <l>'me</l>
+          <r><j/>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
     </pardef>
 
     <pardef n="-te__enc">
@@ -820,6 +826,43 @@
           <r><j/>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>-mo</l>
+          <r><j/>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>-no</l>
+          <r><j/>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>'mos</l>
+          <r><j/>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>'nos</l>
+          <r><j/>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>'mo</l>
+          <r><j/>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>'no</l>
+          <r><j/>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      
     </pardef>
 
    <pardef n="-tos__enc">
@@ -859,33 +902,42 @@
           <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
-    </pardef>
-    
-    <pardef n="-os__enc">
-      <e>
+      <e r="LR">
         <p>
-          <l>-os</l>
+          <l>-to</l>
           <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
-          <l>-vos</l>
+          <l>-vo</l>
           <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
-          <l>-bos</l>
+          <l>-bo</l>
           <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
-          <l>-tos</l>
+          <l>-o</l>
           <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>-so</l>
+          <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+     <e r="LR">
+        <p>
+          <l>-zo</l>
+          <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>      
     </pardef>
 
    <pardef n="-le__enc">
@@ -910,6 +962,30 @@
     <e r="LR">
       <p>
         <l>-lis</l>
+        <r><j/>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+      </p>
+    </e>
+     <e r="LR">
+      <p>
+        <l>'les</l>
+        <r><j/>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>'le</l>
+        <r><j/>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>'li</l>
+        <r><j/>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>'lis</l>
         <r><j/>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
       </p>
     </e>
@@ -940,12 +1016,66 @@
         <r><j/>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
+    <e r="LR" c="da-mo'l">
+      <p>
+        <l>'l</l>
+        <r><j/>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
     <e>
       <p>
         <l>-lo</l>
         <r><j/>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r>
       </p>
      </e>
+    <e r="LR">
+      <p>
+        <l>'l</l>
+        <r><j/>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r>
+      </p>
+     </e>     
+    <e r="LR" c="da-mo'las">
+      <p>
+        <l>'las</l>
+        <r><j/>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR" c="da-mo'la">
+      <p>
+        <l>'la</l>
+        <r><j/>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR" c="da-mo'los">
+      <p>
+        <l>'los</l>
+        <r><j/>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR" c="da-mo'ls">
+      <p>
+        <l>'ls</l>
+        <r><j/>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR" c="da-mo's">
+      <p>
+        <l>'s</l>
+        <r><j/>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+      </p>
+    </e>    
+    <e r="LR" c="da-mo'lo">
+      <p>
+        <l>'lo</l>
+        <r><j/>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR" c="da-mo'lo">
+      <p>
+        <l>'lo</l>
+        <r><j/>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r>
+      </p>
+     </e>     
     </pardef>
     
     <pardef n="-ne__enc">
@@ -955,33 +1085,69 @@
           <r><j/>en<s n="prn"/><s n="enc"/><s n="adv"/></r>
         </p>
       </e>
+      <e>
+        <p>
+          <l>'n</l>
+          <r><j/>en<s n="prn"/><s n="enc"/><s n="adv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>'ne</l>
+          <r><j/>en<s n="prn"/><s n="enc"/><s n="adv"/></r>
+        </p>
+      </e>      
     </pardef>
     
 <pardef n="-ie__enc">    
     <e>
       <p>
         <l>-ie</l>
-        <r><j/>bi<s n="prn"/><s n="enc"/><s n="adv"/></r>
+        <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
         <l>-hie</l>
-        <r><j/>bi<s n="prn"/><s n="enc"/><s n="adv"/></r>
+        <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
         <l>-ye</l>
-        <r><j/>bi<s n="prn"/><s n="enc"/><s n="adv"/></r>
+        <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
         <l>-bi</l>
-        <r><j/>bi<s n="prn"/><s n="enc"/><s n="adv"/></r>
+        <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r>
       </p>
     </e>    
+    <e r="LR" c="da-mo'ie">
+      <p>
+        <l>'ie</l>
+        <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>'hie</l>
+        <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>'ye</l>
+        <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>'bi</l>
+        <r><j/>ie<s n="prn"/><s n="enc"/><s n="adv"/></r>
+      </p>
+    </e>        
   </pardef>
      
   <pardef n="-hue__enc"> 
@@ -1015,6 +1181,36 @@
         <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
       </p>
     </e>
+      <e r="LR">
+      <p>
+        <l>'hue</l>
+        <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
+      </p>
+    </e>
+        <e r="LR">
+      <p>
+        <l>'güe</l>
+        <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>'ue</l>
+        <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>'hu</l>
+        <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>'u</l>
+        <r><j/>hue<s n="prn"/><s n="enc"/><s n="adv"/></r>
+      </p>
+    </e>    
    </pardef>    
    
   <pardef n="-se__enc"> 
@@ -12266,6 +12462,34 @@
       </p>
       <par n="pp_quiest/o__cnjgt"/>      
     </e>
+    
+    <e r="LR">
+      <p>
+        <l>eit</l>
+        <r>er<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>et</l>
+        <r>er<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>ei</l>
+        <r>er<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
+        <l>eits</l>
+        <r>er<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+    
     <e r="LR">
       <p>
         <l>et</l>
@@ -26457,8 +26681,21 @@
       </p>
       <par n="pis_erai__cnjgt"/>
     </e> 
-
     <e>
+      <p>
+        <l>i</l>
+        <r>icir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+      </p>
+    </e> 
+    <e>
+      <p>
+        <l>i</l>
+        <r>icir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+      </p>
+      <par n="S__canta"/> 
+    </e> 
+    
+    <e r="LR">
       <p>
         <l>ic</l>
         <r>icir<s n="vblex"/></r>
@@ -37966,11 +38203,11 @@
     <e lm="haber" r="RL"><i>h</i><par n="h/aber__vaux"/></e> <!-- only for generation as an auxiliar -->
     <e lm="haber"><i></i><par n="/haber__vbhaver"/></e>
     <e lm="haber" r="LR"><p><l></l><r>h</r></p><par n="h/aber__vbhaver"/></e>
-    <e lm="bi ha"><p><l>bi<b/>ha</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e lm="bi ha"><p><l>i<b/>hai</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e lm="bi ha" r="LR"><p><l>bi<b/>ha</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="bi ha" r="LR"><p><l>b'ha</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="bi ha" r="LR"><p><l>i<b/>hai</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="bi ha" r="LR"><p><l>hai</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e lm="bi ha" r="LR"><p><l>i<b/>ha</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="bi ha" r="LR"><p><l>i<b/>hei</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>    
     <e lm="bi ha" r="LR"><p><l>i<b/>yei</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>    
     <e lm="bi ha" r="LR"><p><l>i<b/>yey</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>    
@@ -37978,10 +38215,10 @@
     <e lm="bi ha" r="LR"><p><l>bi'stá</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>    
     <e lm="bi ha" r="LR"><p><l>bistá</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>    
     
+    <e lm="bi'n ha" r="LR"><p><l>n'i<b/>hai</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="bi'n ha" r="LR"><p><l>bi'n<b/>ha</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="bi'n ha" r="LR"><p><l>ne<b/>b'ha</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="bi'n ha" r="LR"><p><l>bi<b/>n'ha</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e lm="bi'n ha" r="LR"><p><l>n'i<b/>hai</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="bi'n ha" r="LR"><p><l>n'i<b/>hei</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="bi'n ha" r="LR"><p><l>n'i<b/>ha</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="bi'n ha" r="LR"><p><l>ny'hai</l><r>bi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -39392,7 +39629,7 @@
     <e lm="mensache"><i>mensache</i><par n="libro__n"/></e>
     <e lm="control"><i>control</i><par n="libro__n"/></e>
     <e lm="libro"><par n="/l_ll__var"/><i>ibro</i><par n="libro__n"/></e>
-    <e lm="libro" r="LR"><p><l>llibro</l><r>libro</r></p><par n="libro__n"/></e>
+    <e lm="consello"><i>consello</i><par n="libro__n"/></e>
     <e lm="avión"><i>avi</i><par n="avi/ón__n"/></e>
     <e lm="costa"><i>costa</i><par n="luenga__n"/></e>
     <e lm="cuenca"><i>cuenca</i><par n="luenga__n"/></e>
@@ -39409,7 +39646,9 @@
     <e lm="dominio"><i>dominio</i><par n="libro__n"/></e>
     <e lm="chodigo"><i>chodig</i><par n="amig/o__n"/></e>
     
-    
+    <e lm="hotel"><i>hotel</i><par n="libro__n"/></e>
+    <e lm="menister"><i>menister</i><par n="libro__n"/></e>
+    <e lm="menister" r="LR"><p><l>menester</l><r>menister</r></p><par n="libro__n"/></e>
     
     <e lm="numero"><i>numero</i><par n="libro__n"/></e>
     <e lm="numero" r="LR"><p><l>lumero</l><r>numero</r></p><par n="libro__n"/></e>
@@ -52389,6 +52628,8 @@
     <e lm="medrana"><i>medrana</i><par n="luenga__n"/></e>
     <e lm="espanto"><i>espanto</i><par n="libro__n"/></e>
     <e lm="cerina"><i>cerina</i><par n="luenga__n"/></e>
+    <e lm="fer goyo"><i>f</i><par n="f/er__vblex"/><p><l><b/>goyo</l><r><g><b/>goyo</g></r></p></e>
+    <e lm="fer goyo" r="LR"><i>f</i><par n="f/er__vblex"/><p><l><b/>goi</l><r><g><b/>goyo</g></r></p></e>
     <e lm="fer miedo"><i>f</i><par n="f/er__vblex"/><p><l><b/>miedo</l><r><g><b/>miedo</g></r></p></e>
     <e lm="fer espanto"><i>f</i><par n="f/er__vblex"/><p><l><b/>espanto</l><r><g><b/>espanto</g></r></p></e>
     <e lm="fer medrana"><i>f</i><par n="f/er__vblex"/><p><l><b/>medrana</l><r><g><b/>medrana</g></r></p></e>
@@ -52467,6 +52708,7 @@
     <e lm="barcelonista"><i>barcelonista</i><par n="accionista__n"/></e>
     <e lm="madridista"><i>madridista</i><par n="accionista__n"/></e>
     <e lm="mallorquinista"><i>mallorquinista</i><par n="accionista__n"/></e>
+    <e lm="lingüista"><i>lingüista</i><par n="accionista__n"/></e>
 
     <e lm="ecofinanciación"><par n="eco-"/><i>financia</i><par n="actua/ción__n"/></e>
     <e lm="ecoinnovación"><par n="eco-"/><i>innova</i><par n="actua/ción__n"/></e>
@@ -59357,7 +59599,7 @@
     <e lm="pe'" r="LR"><p><l>pe'</l><r>por<s n="pr"/></r></p></e>
     <e lm="enta'" r="LR"><p><l>enta'</l><r>enta<s n="pr"/></r></p></e>
     <e lm="s'" r="LR"><p><l>s'</l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e lm="l'" r="LR"><p><l>l'</l>                    <r>el<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="l'" r="LR"><p><l>l'</l>                    <r>o<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="n'" r="LR"><p><l>n'</l><r>en<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>    
     <e lm="b'" r="LR"><p><l>b'</l><r>i<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e lm="ib'" r="LR"><p><l>ib'</l><r>i<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>

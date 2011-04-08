@@ -458,6 +458,19 @@
    <pardef n="le">
       <e>
         <p>
+          <l><b/></l>
+          <r>le<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r>le</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
           <l><b/><a/>en<b/></l>
           <r>le'n<b/></r>
         </p>
