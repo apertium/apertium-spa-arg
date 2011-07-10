@@ -40215,6 +40215,7 @@
     <e lm="debat"><i>deb</i><par n="deb/at__n"/></e>      
     <e lm="achent"><i>ach</i><par n="ach/ent__n"/></e>          
     <e lm="ambient"><i>ambi</i><par n="ambi/ent__n"/></e>      
+    <e lm="accident"><i>accid</i><par n="ambi/ent__n"/></e>      
     <e lm="dirichent"><i>dirich</i><par n="ach/ent__n"/></e>          
     <e lm="fe"><i>fe</i><par n="luenga__n"/></e>      
     <e lm="carne"><i>carne</i><par n="luenga__n"/></e>      
@@ -40222,6 +40223,10 @@
     <e lm="vizconde"><i>vizconde</i><par n="alcalde__n"/></e>      
     <e lm="alcalde"><i>alcalde</i><par n="alcalde__n"/></e>      
     <e lm="auto"><i>auto</i><par n="libro__n"/></e>      
+    <e lm="helicoptero"><i>helicoptero</i><par n="libro__n"/></e>
+    <e lm="helicoptero" r="LR"><p><l>helicotero</l><r>helicoptero</r></p><par n="libro__n"/></e>   
+    <e lm="helicoptero" r="LR"><p><l>halicotero</l><r>helicoptero</r></p><par n="libro__n"/></e>   
+    <e lm="helicoptero" r="LR"><p><l>alicotero</l><r>helicoptero</r></p><par n="libro__n"/></e>   
     <e lm="chefe"><i>chef</i><par n="mesach/e__n"/></e>      
     <e lm="piet"><i>pi</i><par n="pi/et__n"/></e>      
     <e lm="piet" r="LR"><p><l>peu</l><r>piet</r></p><par n="libro__n"/></e>   
@@ -40413,6 +40418,9 @@
     <!-- <e lm="anyo" r="LR"><p><l>an</l><r>anyo</r></p><par n="libro__n"/></e>  --> <!-- benasqués: interfiere con an relativo -->
     <e lm="anyo" r="LR"><p><l>ans</l><r>anyo<s n="n"/><s n="m"/><s n="pl"/></r></p></e> <!-- benasques plural does not interfere -->
     <e lm="articlo"><i>articlo</i><par n="libro__n"/></e>
+    <e lm="vehíclo"><i>vehíclo</i><par n="libro__n"/></e>
+    <e lm="vehíclo" r="LR"><p><l>vehiclo</l><r>vehíclo</r></p><par n="libro__n"/></e>
+    <e lm="vehíclo" r="LR"><p><l>beíclo</l><r>vehíclo</r></p><par n="libro__n"/></e>
     <e lm="obchectivo"><i>obchecti</i><par n="obchecti/vo__n"/></e>
     <e lm="honor"><i>honor</i><par n="luenga__n"/></e>
     <e lm="miembro"><i>miembro</i><par n="accionista__n"/></e>
