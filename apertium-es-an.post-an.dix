@@ -627,7 +627,7 @@
       </e>
       <e>
         <p>
-          <l><b/><a/>a<b/></l>
+          <l><b/><a/><a/>a<b/></l>
           <r>d'a<b/></r>
         </p>
       </e>
@@ -660,7 +660,7 @@
       </e>
       <e>
         <p>
-          <l><b/><a/>a<b/></l>
+          <l><b/><a/><a/>a<b/></l>
           <r>de<b/>l'</r>
         </p>
         <par n="vocals_apost_a" />
@@ -720,14 +720,14 @@
       </e>
       <e>
         <p>
-          <l><a/>a<b/></l>
+          <l><a/><a/>a<b/></l>
           <r>a</r>
         </p>
         <par n="el"/>
       </e>
       <e>
         <p>
-          <l><a/>a</l>
+          <l><a/><a/>a</l>
           <r>a</r>
         </p>
         <par n="el"/>
@@ -739,7 +739,7 @@
    <pardef n="ta"> 
       <e>
         <p>
-          <l><b/><a/>a<b/></l>
+          <l><b/><a/><a/>a<b/></l>
           <r>t'a<b/></r>
         </p>
       </e>
@@ -772,8 +772,8 @@
       </e>
       <e>
         <p>
-          <l><b/><a/>a<b/></l>
-          <r>te<b/>l'</r>
+          <l><b/><a/><a/>a<b/></l>
+          <r>ta<b/>l'</r>
         </p>
         <par n="vocals_apost_a" />
       </e>      
@@ -821,7 +821,7 @@
 <pardef n="enta"> 
       <e>
         <p>
-          <l><b/><a/>a<b/></l>
+          <l><b/><a/><a/>a<b/></l>
           <r>ent'a<b/></r>
         </p>
       </e>
@@ -854,8 +854,8 @@
       </e>
       <e>
         <p>
-          <l><b/><a/>a<b/></l>
-          <r>ente<b/>l'</r>
+          <l><b/><a/><a/>a<b/></l>
+          <r>enta<b/>l'</r>
         </p>
         <par n="vocals_apost_a" />
       </e>      
@@ -895,6 +895,88 @@
         <p>
           <l><b/>es<b/></l>
           <r>enta's<b/></r>
+        </p>
+      </e>
+-->
+   </pardef>
+  
+   <pardef n="a_prep"> 
+      <e>
+        <p>
+          <l><b/><a/><a/>a<b/></l>
+          <r>a<b/>la<b/></r>
+        </p>
+      </e>
+      <e>
+      <p>
+          <l><b/><a/>o<b/></l>
+          <r>a<b/>o<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>a<b/>l'</r>
+        </p>
+        <par n="vocals_apost" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>a<b/>o<b/></r>
+        </p>
+        <par n="consonant" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>a<b/>o<b/></r>
+        </p>
+        <par n="vocals_no_apost_o" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>a<b/></l>
+          <r>a<b/>l'</r>
+        </p>
+        <par n="vocals_apost_a" />
+      </e>      
+      <e>
+        <p>
+          <l><b/>as<b/></l>
+          <r>a<b/>las<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>os<b/></l>
+          <r>a<b/>os<b/></r>
+        </p>
+      </e>
+ <!--     <e>         jp: not in standard
+        <p>
+          <l><b/><a/>e</l>
+          <r>ta</r>
+        </p>
+        <par n="contrac"/>
+      </e>   -->
+<!--      
+      <e>
+        <p>
+          <l><b/>el<b/></l>
+          <r>ta'l<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>els<b/></l>
+          <r>ta'ls<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>es<b/></l>
+          <r>ta's<b/></r>
         </p>
       </e>
 -->
@@ -1222,6 +1304,13 @@
       </e>
       <e>
         <p>
+          <l><b/><a/>a</l>
+          <r>no<b/></r>
+        </p>
+        <par n="a_prep"/>
+      </e>
+      <e>
+        <p>
           <l><b/><a/>de</l>
           <r>no<b/></r>
         </p>
@@ -1236,7 +1325,7 @@
       </e>
       <e>
         <p>
-          <l><b/><a/>a</l>
+          <l><b/><a/><a/>a</l>
           <r>no<b/></r>
         </p>
         <par n="a"/>
@@ -1250,7 +1339,7 @@
       </e>
       <e>
         <p>
-          <l><b/><a/>a</l>
+          <l><b/><a/><a/>a</l>
           <r>no<b/></r>
         </p>
         <par n="a_de"/>
@@ -1289,14 +1378,14 @@
        </e>
        <e>
         <p>
-          <l><a/>a</l>
+          <l><a/><a/>a</l>
           <r/>
         </p>
         <par n="a"/>
        </e>
        <e>
         <p>
-          <l><a/>a</l>
+          <l><a/><a/>a</l>
           <r/>
         </p>
         <par n="a_de"/>
@@ -1321,6 +1410,13 @@
           <r/>
         </p>
         <par n="enta"/>
+      </e>
+        <e>
+        <p>
+          <l><a/>a</l>
+          <r/>
+        </p>
+        <par n="a_prep"/>
       </e>
       <e>
         <p>
