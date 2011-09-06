@@ -1,5 +1,11 @@
-Sun 10 Jul 2011 19:20:14 IST
+Tue 6 Sept 2011 9:00:00 UTC
+* Release 0.2.1
+* Solved postgeneration of a (preposition) + a (article f sg) using double
+label <a/><a/> for a (article f sg).
+* See ver 0.2 for main pending issue.
 
+Sun 10 Jul 2011 19:20:14 IST
+* Release 0.2
 * First operative bidirectional release.
 * Improvements:
    * Aragonese monodix and bidix in the initial release (0.1.0) were checked 
