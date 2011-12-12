@@ -798,6 +798,7 @@
     <e><p><l>criollo<s n="adj"/></l><r>criollo<s n="adj"/></r></p></e>
     <e><p><l>cristalino<s n="adj"/></l><r>cristalino<s n="adj"/></r></p></e>
     <e><p><l>cristiano<s n="adj"/></l><r>cristiano<s n="adj"/></r></p></e>
+    <e><p><l>democristiano<s n="adj"/></l><r>democristiano<s n="adj"/></r></p></e>
     <e><p><l>croata<s n="adj"/></l><r>crovata<s n="adj"/></r></p></e>
     <e><i>crucial<s n="adj"/></i></e>
     <e><p><l>crudo<s n="adj"/></l><r>crudo<s n="adj"/></r></p></e>
@@ -1358,7 +1359,8 @@
     <e><p><l>interino<s n="adj"/></l><r>interino<s n="adj"/></r></p></e>
     <e><i>interior<s n="adj"/></i></e>
     <e><p><l>interlingüístico<s n="adj"/></l><r>interlingüistico<s n="adj"/></r></p></e>
-    <e><p><l>intermedio<s n="adj"/></l><r>intermedio<s n="adj"/></r></p></e>
+    <e><p><l>intermedio<s n="adj"/></l><r>intermeyo<s n="adj"/></r></p></e>
+    <e><p><l>intermedio<s n="n"/></l><r>intermeyo<s n="n"/></r></p></e>
     <e><i>interminable<s n="adj"/></i></e>
     <e><i>intermolecular<s n="adj"/></i></e>
     <e><p><l>internacional<s n="adj"/></l><r>internacional<s n="adj"/></r></p></e>
@@ -10147,7 +10149,7 @@
     <e><p><l>acusación<s n="n"/></l><r>acusación<s n="n"/></r></p></e>
     <e><p><l>acusado<s n="n"/></l><r>acusau<s n="n"/></r></p></e>
     <e><p><l>acusativo<s n="n"/></l><r>acusativo<s n="n"/></r></p></e>
-    <e><p><l>acuñación<s n="n"/></l><r>acuñación<s n="n"/></r></p></e>
+    <e><p><l>acuñación<s n="n"/></l><r>acunyación<s n="n"/></r></p></e>
     <e><p><l>adaptación<s n="n"/></l><r>adaptación<s n="n"/></r></p></e>
     <e><p><l>adecuación<s n="n"/></l><r>adequación<s n="n"/></r></p></e>
     <e><p><l>adjetivo<s n="n"/></l><r>adchectivo<s n="n"/></r></p></e>
@@ -10643,6 +10645,7 @@
     <e><p><l>educación<s n="n"/></l><r>educación<s n="n"/></r></p></e>
     <e><p><l>efectivo<s n="n"/></l><r>efectivo<s n="n"/></r></p></e>
     <e><p><l>ejemplo<s n="n"/></l><r>eixemplo<s n="n"/></r></p></e>
+    <e><p><l>ej.<s n="n"/></l><r>eix.<s n="n"/></r></p></e>
     <e><p><l>eje<s n="n"/></l><r>eixe<s n="n"/></r></p></e>
     <e><p><l>ejercicio<s n="n"/></l><r>exercicio<s n="n"/></r></p></e>
     <e><p><l>elaboración<s n="n"/></l><r>elaboración<s n="n"/></r></p></e>
@@ -11729,9 +11732,11 @@
     <e><p><l>inquietud<s n="n"/></l><r>inquietut<s n="n"/></r></p></e>
     <e><p><l>virtud<s n="n"/></l><r>virtut<s n="n"/></r></p></e>
     <e><p><l>juventud<s n="n"/></l><r>choventut<s n="n"/></r></p></e>
-    <e><p><l>aire<s n="n"/></l><r>aire<s n="n"/></r></p></e>
-    <e><p><l>viento<s n="n"/><s n="m"/></l><r>airera<s n="n"/><s n="f"/></r></p></e>
+    <e srl="aire D"><p><l>aire<s n="n"/></l><r>aire<s n="n"/></r></p></e>
+    <e srl="viento"><p><l>viento<s n="n"/></l><r>aire<s n="n"/></r></p></e>
     <e r="RL"><p><l>viento<s n="n"/></l><r>viento<s n="n"/></r></p></e>
+    <e><p><l>ventolera<s n="n"/><s n="m"/></l><r>airera<s n="n"/><s n="f"/></r></p></e>
+     <e><p><l>viento<g><b/>en<b/>contra</g><s n="n"/></l><r>aire<g><b/>de<b/>cara</g><s n="n"/></r></p></e>
     <e><p><l>plan<s n="n"/></l><r>plan<s n="n"/></r></p></e>    
     <e><p><l>juez<s n="n"/></l><r>chuez<s n="n"/></r></p></e>    
     <e><p><l>jueza<s n="n"/></l><r>chueza<s n="n"/></r></p></e>        
@@ -13990,6 +13995,8 @@
     <e><p><l>laca<s n="n"/></l><r>laca<s n="n"/></r></p></e>
     <e><p><l>lámina<s n="n"/></l><r>lamina<s n="n"/></r></p></e>
     <e><p><l>lápida<s n="n"/></l><r>lapida<s n="n"/></r></p></e>
+    <e><p><l>lápiz<s n="n"/></l><r>lapiz<s n="n"/></r></p></e>
+    <e r="LR"><p><l>lapicero<s n="n"/></l><r>lapiz<s n="n"/></r></p></e>
     <e><p><l>lasaña<s n="n"/></l><r>lasanya<s n="n"/></r></p></e>
     <e><p><l>lavativa<s n="n"/></l><r>lavativa<s n="n"/></r></p></e>
     <e><p><l>lectura<s n="n"/></l><r>lectura<s n="n"/></r></p></e>
@@ -14375,7 +14382,7 @@
     <e><p><l>naranja<s n="n"/></l><r>narancha<s n="n"/></r></p></e>
     <e><p><l>naranjada<s n="n"/></l><r>naranchada<s n="n"/></r></p></e>
     <e><p><l>taza<s n="n"/></l><r>taza<s n="n"/></r></p></e>
-    <e><p><l>tasa<s n="n"/></l><r>taixa<s n="n"/></r></p></e>
+    <e><p><l>tasa<s n="n"/></l><r>taxa<s n="n"/></r></p></e>
     <e><p><l>taxista<s n="n"/></l><r>taxista<s n="n"/></r></p></e>
     <e><p><l>tecla<s n="n"/></l><r>tecla<s n="n"/></r></p></e>
     <e><p><l>tecnología<s n="n"/></l><r>tecnolochía<s n="n"/></r></p></e>
@@ -18204,7 +18211,6 @@
     <e><i>Espasa<s n="np"/></i></e>
     <e><i>Espasa<b/>Calpe<s n="np"/></i></e>
     <e><p><l>España<s n="np"/></l><r>Espanya<s n="np"/></r></p></e>
-    <e r="RL"><i>España<s n="np"/></i></e>
     <e><i>Español<s n="np"/></i></e>
     <e><i>Esperanza<s n="np"/></i></e>
     <e><i>Espino<s n="np"/></i></e>
