@@ -494,6 +494,7 @@
     <e><i>arbitral<s n="adj"/></i></e>
     <e><p><l>arbitrario<s n="adj"/></l><r>arbitrario<s n="adj"/></r></p></e>
     <e><p><l>arcaico<s n="adj"/></l><r>arcaico<s n="adj"/></r></p></e>
+    <e><p><l>amarillo<s n="adj"/></l><r>amariello<s n="adj"/></r></p></e>
     <e><p><l>arcaizante<s n="adj"/></l><r>arcaizant<s n="adj"/></r></p></e>
     <e><p><l>arcilloso<s n="adj"/></l><r>archiloso<s n="adj"/></r></p></e>
     <e><p><l>arenoso<s n="adj"/></l><r>arenoso<s n="adj"/></r></p></e>
@@ -1162,6 +1163,7 @@
     <e><p><l>ganadero<s n="adj"/></l><r>ganadero<s n="adj"/></r></p></e>
     <e><p><l>gaseoso<s n="adj"/></l><r>gaseoso<s n="adj"/></r></p></e>
     <e><p><l>gaussiano<s n="adj"/></l><r>gaussiano<s n="adj"/></r></p></e>
+    <e><p><l>booleano<s n="adj"/></l><r>booleano<s n="adj"/></r></p></e>
     <e><p><l>gay<s n="adj"/></l><r>gai<s n="adj"/></r></p></e>
     <e><p><l>gaélico<s n="adj"/></l><r>gaelico<s n="adj"/></r></p></e>
     <e><p><l>generacional<s n="adj"/></l><r>cheneracional<s n="adj"/></r></p></e>
@@ -4716,6 +4718,7 @@
 <e><p><l>aciago<s n="adj"/></l><r>infausto<s n="adj"/></r></p></e>
 <e><p><l>alícuoto<s n="adj"/></l><r>aliquoto<s n="adj"/></r></p></e>
 <e><p><l>alto<s n="adj"/></l><r>alto<s n="adj"/></r></p></e>
+<e><p><l>bajo<s n="adj"/></l><r>baixo<s n="adj"/></r></p></e>
 <e><p><l>analfabeto<s n="adj"/></l><r>analfabeto<s n="adj"/></r></p></e>
 <e><p><l>apretado<s n="adj"/></l><r>preto<s n="adj"/></r></p></e>
 <e><p><l>apto<s n="adj"/></l><r>apto<s n="adj"/></r></p></e>
@@ -5955,6 +5958,7 @@
     <e r="LR"><p><l>a<b/>lo<b/>mejor<s n="adv"/></l>  <r>talment<s n="adv"/></r></p></e>
     <e>       <p><l>quizás<s n="adv"/></l>            <r>talment<s n="adv"/></r></p></e>
     <e>       <p><l>demasiado<s n="adv"/></l>            <r>masiau<s n="adv"/></r></p></e>
+    <e>       <p><l>demasiado<s n="adj"/></l>            <r>masiau<s n="adj"/></r></p></e>
     <e>       <p><l>tanto<b/>más<b/>cuanto<s n="cnjadv"/></l><r>muito<b/>mas<b/>mientres<s n="cnjadv"/></r></p></e>
   <e><p><l>al<b/>final<s n="adv"/></l> <r>a<b/>la<b/>fin<s n="adv"/></r></p></e>
   <e><p><l>alerta<s n="adv"/></l><r>alerta<s n="adv"/></r></p></e>
@@ -12061,7 +12065,8 @@
     <e r="RL"><p><l>pagar<s n="vblex"/></l><r>apoquinar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>costear<s n="vblex"/></l><r>pagar<s n="vblex"/></r></p></e>
     <e><p><l>nacer<s n="vblex"/></l><r>naixer<s n="vblex"/></r></p></e>
-    <e><p><l>conocer<s n="vblex"/></l><r>conoixer<s n="vblex"/></r></p></e>    
+    <e><p><l>conocer<s n="vblex"/></l><r>conoixer<s n="vblex"/></r></p></e>
+    <e><p><l>desconocer<s n="vblex"/></l><r>desconoixer<s n="vblex"/></r></p></e>
     <e><p><l>parecer<s n="vblex"/></l><r>pareixer<s n="vblex"/></r></p></e>    
     <e r="LR">       <p><l>osar<s n="vblex"/></l>            <r>gosar<s n="vblex"/></r></p></e>
     <e>       <p><l>soler<s n="vblex"/><s n="pri"/></l>            <r>gosar<s n="vblex"/><s n="pri"/></r></p></e>  <!-- muitas vegadas no tien traducción trules?? -->
@@ -12354,6 +12359,8 @@
     <e><p><l>jefe<s n="n"/></l><r>chefe<s n="n"/></r></p></e>    
     <e><p><l>helicóptero<s n="n"/></l><r>helicoptero<s n="n"/></r></p></e>    
     <e><p><l>pie<s n="n"/></l><r>piet<s n="n"/></r></p></e>        
+    <e r="LR"><p><l>simiente<s n="n"/></l><r>simient<s n="n"/></r></p></e>
+    <e><p><l>semilla<s n="n"/></l><r>simient<s n="n"/></r></p></e>
 
 <e><p><l>activista<s n="n"/></l><r>activista<s n="n"/></r></p></e>
 <e><p><l>alquimista<s n="n"/></l><r>alquimista<s n="n"/></r></p></e>
@@ -12810,6 +12817,20 @@
     <e><p><l>pilar<s n="n"/></l><r>pilar<s n="n"/></r></p></e>
     <e><p><l>pila<s n="n"/></l><r>pila<s n="n"/></r></p></e>
     <e><p><l>sesión<s n="n"/></l><r>sesión<s n="n"/></r></p></e>
+    <e><p><l>explosión<s n="n"/></l><r>explosión<s n="n"/></r></p></e>
+    <e><p><l>extensión<s n="n"/></l><r>extensión<s n="n"/></r></p></e>
+    <e><p><l>detección<s n="n"/></l><r>detección<s n="n"/></r></p></e>
+    <e><p><l>teledetección<s n="n"/></l><r>teledetección<s n="n"/></r></p></e>
+    <e><p><l>extracción<s n="n"/></l><r>extracción<s n="n"/></r></p></e>
+    <e><p><l>ubicación<s n="n"/></l><r>ubicación<s n="n"/></r></p></e>
+    <e><p><l>reubicación<s n="n"/></l><r>reubicación<s n="n"/></r></p></e>
+    <e><p><l>inicialización<s n="n"/></l><r>inicialización<s n="n"/></r></p></e>
+    <e><p><l>reinicialización<s n="n"/></l><r>reinicialización<s n="n"/></r></p></e>
+    <e><p><l>localización<s n="n"/></l><r>localización<s n="n"/></r></p></e>
+    <e><p><l>deslocalización<s n="n"/></l><r>deslocalización<s n="n"/></r></p></e>
+    <e><p><l>conexión<s n="n"/></l><r>connexión<s n="n"/></r></p></e>
+    <e><p><l>desconexión<s n="n"/></l><r>desconnexión<s n="n"/></r></p></e>
+    <e><p><l>interconexión<s n="n"/></l><r>interconnexión<s n="n"/></r></p></e>
     <e><p><l>radar<s n="n"/></l><r>radar<s n="n"/></r></p></e>
     <e><p><l>altar<s n="n"/></l><r>altar<s n="n"/></r></p></e>
     <e><p><l>autocar<s n="n"/></l><r>autocar<s n="n"/></r></p></e>
@@ -13551,6 +13572,10 @@
     <e><p><l>cafetería<s n="n"/></l><r>cafetería<s n="n"/></r></p></e>
     <e><p><l>caja<s n="n"/></l><r>caixa<s n="n"/></r></p></e>
     <e><p><l>cajita<s n="n"/></l><r>caixeta<s n="n"/></r></p></e>
+    <e r="LR"><p><l>casilla<s n="n"/></l><r>caixeta<s n="n"/></r></p></e>
+    <e slr="rella_aladro"><p><l>reja<s n="n"/></l>          <r>rella<s n="n"/></r></p></e>
+    <e slr="reixa D"><p><l>reja<s n="n"/></l>                <r>reixa<s n="n"/></r></p></e>
+    <e><p><l>rejilla<s n="n"/></l>             <r>reixeta<s n="n"/></r></p></e>
     <e><p><l>caligrafía<s n="n"/></l><r>caligrafía<s n="n"/></r></p></e>
     <e><p><l>calculadora<s n="n"/></l><r>calculadera<s n="n"/></r></p></e>
     <e><p><l>caldera<s n="n"/></l><r>caldera<s n="n"/></r></p></e>
@@ -14088,6 +14113,17 @@
     <e><p><l>musgo<s n="n"/><s n="m"/></l><r>molsa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>momia<s n="n"/></l><r>momia<s n="n"/></r></p></e>
     <e><p><l>monarquía<s n="n"/></l><r>monarquía<s n="n"/></r></p></e>
+    <e><p><l>jerarquía<s n="n"/></l><r>hierarquía<s n="n"/></r></p></e>
+    <e><p><l>oligarquía<s n="n"/></l><r>oligarquía<s n="n"/></r></p></e>
+    <e><p><l>anarquía<s n="n"/></l><r>anarquía<s n="n"/></r></p></e>
+    <e><p><l>tretarquía<s n="n"/></l><r>tretarquía<s n="n"/></r></p></e>
+    <e><p><l>autarquía<s n="n"/></l><r>autarquía<s n="n"/></r></p></e>
+    <e><p><l>negrita<s n="n"/></l><r>negreta<s n="n"/></r></p></e>
+    <e><p><l>conserjería<s n="n"/></l><r>conserchería<s n="n"/></r></p></e>
+    <e><p><l>mensajería<s n="n"/></l><r>mensachería<s n="n"/></r></p></e>
+    <e><p><l>extranjería<s n="n"/></l><r>extranchería<s n="n"/></r></p></e>
+    <e><p><l>brujería<s n="n"/></l><r>broixería<s n="n"/></r></p></e>
+    <e><p><l>cerrajería<s n="n"/></l><r>zarrallería<s n="n"/></r></p></e>
     <e><p><l>moneda<s n="n"/></l><r>moneda<s n="n"/></r></p></e>
     <e><p><l>moqueta<s n="n"/></l><r>moqueta<s n="n"/></r></p></e>
     <e><p><l>mordaza<s n="n"/></l><r>mordaza<s n="n"/></r></p></e>
@@ -14652,7 +14688,68 @@
     <e r="RL"><p><l>roca<s n="n"/></l><r>roca<s n="n"/></r></p></e>
     <e r="RL"><p><l>roca<s n="n"/></l><r>rocha<s n="n"/></r></p></e>
     <e><p><l>mediodía<s n="n"/></l><r>meyodía<s n="n"/></r></p></e>
-   
+    <e><p><l>coreografía<s n="n"/></l><r>coreografía<s n="n"/></r></p></e>
+    <e><p><l>ecografía<s n="n"/></l><r>ecografía<s n="n"/></r></p></e>
+    <e><p><l>escenografía<s n="n"/></l><r>scenografía<s n="n"/></r></p></e>
+    <e><p><l>fotografía<s n="n"/></l><r>fotografía<s n="n"/></r></p></e>
+    <e><p><l>orografía<s n="n"/></l><r>orografía<s n="n"/></r></p></e>
+    <e><p><l>pornografía<s n="n"/></l><r>pornografía<s n="n"/></r></p></e>
+    <e><p><l>reprografía<s n="n"/></l><r>reprografía<s n="n"/></r></p></e>
+    <e><p><l>autobiografía<s n="n"/></l><r>autobiografía<s n="n"/></r></p></e>
+    <e><p><l>autobiografía<s n="n"/></l><r>autobiografía<s n="n"/></r></p></e>
+    <e><p><l>bibliografía<s n="n"/></l><r>bibliografía<s n="n"/></r></p></e>
+    <e><p><l>cartografía<s n="n"/></l><r>cartografía<s n="n"/></r></p></e>
+    <e><p><l>demografía<s n="n"/></l><r>demografía<s n="n"/></r></p></e>
+    <e><p><l>iconografía<s n="n"/></l><r>iconografía<s n="n"/></r></p></e>
+    <e><p><l>litografía<s n="n"/></l><r>litografía<s n="n"/></r></p></e>
+    <e><p><l>tipografía<s n="n"/></l><r>tipografía<s n="n"/></r></p></e>
+    <e><p><l>tomografía<s n="n"/></l><r>tomografía<s n="n"/></r></p></e>
+    <e><p><l>filmografía<s n="n"/></l><r>filmografía<s n="n"/></r></p></e>
+    <e><p><l>discografía<s n="n"/></l><r>discografía<s n="n"/></r></p></e>
+    <e><p><l>mamografía<s n="n"/></l><r>mamografía<s n="n"/></r></p></e>
+    <e><p><l>mastografía<s n="n"/></l><r>mastografía<s n="n"/></r></p></e>
+    <e><p><l>historiografía<s n="n"/></l><r>historiografía<s n="n"/></r></p></e>
+    <e><p><l>etnografía<s n="n"/></l><r>etnografía<s n="n"/></r></p></e>
+    <e><p><l>topografía<s n="n"/></l><r>topografía<s n="n"/></r></p></e>
+    <e><p><l>cromatografía<s n="n"/></l><r>cromatografía<s n="n"/></r></p></e>
+    <e><p><l>lexicografía<s n="n"/></l><r>lexicografía<s n="n"/></r></p></e>
+    <e><p><l>criptografía<s n="n"/></l><r>criptografía<s n="n"/></r></p></e>
+    <e><p><l>monografía<s n="n"/></l><r>monografía<s n="n"/></r></p></e>
+    <e><p><l>hidrografía<s n="n"/></l><r>hidrografía<s n="n"/></r></p></e>
+    <e><p><l>telegrafía<s n="n"/></l><r>telegrafía<s n="n"/></r></p></e>
+    <e><p><l>xilografía<s n="n"/></l><r>xilografía<s n="n"/></r></p></e>
+    <e><p><l>cristalografía<s n="n"/></l><r>cristalografía<s n="n"/></r></p></e>
+    <e><p><l>oceanografía<s n="n"/></l><r>oceanografía<s n="n"/></r></p></e>
+    <e><p><l>paleografía<s n="n"/></l><r>paleografía<s n="n"/></r></p></e>
+    <e><p><l>calcografía<s n="n"/></l><r>calcografía<s n="n"/></r></p></e>
+    <e><p><l>biogeografía<s n="n"/></l><r>biocheografía<s n="n"/></r></p></e>
+    <e><p><l>taquigrafía<s n="n"/></l><r>taquigrafía<s n="n"/></r></p></e>
+    <e><p><l>termografía<s n="n"/></l><r>termografía<s n="n"/></r></p></e>
+    <e><p><l>paleogeografía<s n="n"/></l><r>paleocheografía<s n="n"/></r></p></e>
+    <e><p><l>homografía<s n="n"/></l><r>homografía<s n="n"/></r></p></e>
+    <e><p><l>hagiografía<s n="n"/></l><r>hachiografía<s n="n"/></r></p></e>
+    <e><p><l>holografía<s n="n"/></l><r>holografía<s n="n"/></r></p></e>
+    <e><p><l>videografía<s n="n"/></l><r>videografía<s n="n"/></r></p></e>
+    <e><p><l>polarografía<s n="n"/></l><r>polarografía<s n="n"/></r></p></e>
+    <e><p><l>gammagrafía<s n="n"/></l><r>gammagrafía<s n="n"/></r></p></e>
+    <e><p><l>estratigrafía<s n="n"/></l><r>estratigrafía<s n="n"/></r></p></e>
+    <e><p><l>epigrafía<s n="n"/></l><r>epigrafía<s n="n"/></r></p></e>
+    <e><p><l>fitogeografía<s n="n"/></l><r>fitocheografía<s n="n"/></r></p></e>
+    <e><p><l>zoogeografía<s n="n"/></l><r>zoocheografía<s n="n"/></r></p></e>
+    <e><p><l>xerografía<s n="n"/></l><r>xerografía<s n="n"/></r></p></e>
+    <e><p><l>sigilografía<s n="n"/></l><r>sichilografía<s n="n"/></r></p></e>
+    <e><p><l>ampelografía<s n="n"/></l><r>ampelografía<s n="n"/></r></p></e>
+    <e><p><l>radiotelegrafía<s n="n"/></l><r>radiotelegrafía<s n="n"/></r></p></e>
+    <e><p><l>petrografía<s n="n"/></l><r>petrografía<s n="n"/></r></p></e>
+    <e><p><l>electroencefalografía<s n="n"/></l><r>electroencefalografía<s n="n"/></r></p></e>
+    <e><p><l>agrafía<s n="n"/></l><r>agrafía<s n="n"/></r></p></e>
+    <e><p><l>dactilografía<s n="n"/></l><r>dactilografía<s n="n"/></r></p></e>
+    <e><p><l>fonografía<s n="n"/></l><r>fonografía<s n="n"/></r></p></e>
+    <e><p><l>infografía<s n="n"/></l><r>infografía<s n="n"/></r></p></e>
+    <e><p><l>mecanografía<s n="n"/></l><r>mecanografía<s n="n"/></r></p></e>
+    <e><p><l>mitografía<s n="n"/></l><r>mitografía<s n="n"/></r></p></e>
+    <e><p><l>serigrafía<s n="n"/></l><r>serigrafía<s n="n"/></r></p></e>
+    
     <e><p><l>cazo<s n="n"/></l><r>cullar<s n="n"/></r></p></e>
     <e r="LR"><p><l>cucharón<s n="n"/></l><r>cullar<s n="n"/></r></p></e>
     <e><p><l>pinar<s n="n"/></l><r>pinar<s n="n"/></r></p></e>
