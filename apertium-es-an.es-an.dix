@@ -10250,7 +10250,9 @@
     <e><p><l>araña<s n="n"/></l><r>araina<s n="n"/></r></p></e>
     <e><p><l>arborización<s n="n"/></l><r>arborización<s n="n"/></r></p></e>
     <e><p><l>arcaísmo<s n="n"/></l><r>arcaísmo<s n="n"/></r></p></e>
-    <e><p><l>archivo<s n="n"/></l><r>archivo<s n="n"/></r></p></e>
+    <e slr="archivo"><p><l>archivo<s n="n"/></l><r>archivo<s n="n"/></r></p></e>
+    <e slr="fichero D" r="LR"><p><l>archivo<s n="n"/></l><r>fichero<s n="n"/></r></p></e> <!-- Lo meto por defecto porque s'emplegara ta traduccions de software -->
+    <e><p><l>fichero<s n="n"/></l><r>fichero<s n="n"/></r></p></e>
     <e><p><l>arcilla<s n="n"/></l><r>archila<s n="n"/></r></p></e>
     <e><p><l>argentino<s n="n"/></l><r>archentino<s n="n"/></r></p></e>
     <e><p><l>argumentación<s n="n"/></l><r>argumentación<s n="n"/></r></p></e>
@@ -11093,7 +11095,7 @@
     <e><p><l>neoplatonismo<s n="n"/></l><r>neoplatonismo<s n="n"/></r></p></e>
     <e><p><l>nestorianismo<s n="n"/></l><r>nestorianismo<s n="n"/></r></p></e>
     <e><p><l>neutralidad<s n="n"/></l><r>neutralidat<s n="n"/></r></p></e>
-    <e r="RL"><p><l>nivel<s n="n"/></l><r>nivel<s n="n"/></r></p></e>
+    <e r="RL"><p><l>nivel<s n="n"/></l><r>libel<s n="n"/></r></p></e>
     <e><p><l>niño<s n="n"/></l><r>nino<s n="n"/></r></p></e>
     <e><p><l>noche<s n="n"/></l><r>nueit<s n="n"/></r></p></e>  
     <e><p><l>déficit<s n="n"/></l><r>deficit<s n="n"/></r></p></e>  
@@ -12038,6 +12040,11 @@
     <e><p><l>helipuerto<s n="n"/></l><r>helipuerto<s n="n"/></r></p></e>
     <e><p><l>aeropuerto<s n="n"/></l><r>aeropuerto<s n="n"/></r></p></e>
     
+    <e><p><l>engañar<s n="vblex"/></l><r>enganyar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>engañar<s n="vblex"/></l><r>enganyuflar<s n="vblex"/></r></p></e>
+    <e><p><l>desengañar<s n="vblex"/></l><r>desenganyar<s n="vblex"/></r></p></e>
+    <e><p><l>embaucar<s n="vblex"/></l><r>embabucar<s n="vblex"/></r></p></e>
+  
     <e><p><l>existir<s n="vblex"/></l><r>existir<s n="vblex"/></r></p></e>
     <e><p><l>insistir<s n="vblex"/></l><r>insistir<s n="vblex"/></r></p></e>
     <e><p><l>persistir<s n="vblex"/></l><r>persistir<s n="vblex"/></r></p></e>
@@ -12106,7 +12113,6 @@
 
     <e><p><l>admiración<s n="n"/></l><r>admiración<s n="n"/></r></p></e>
     <e><p><l>adquisición<s n="n"/></l><r>adquisición<s n="n"/></r></p></e>
-    <e><p><l>dirección<s n="n"/></l><r>adreza<s n="n"/></r></p></e>
     <e><p><l>liberación<s n="n"/></l><r>liberación<s n="n"/></r></p></e>
     <e><p><l>ambición<s n="n"/></l><r>ambición<s n="n"/></r></p></e>
     <e><p><l>aparición<s n="n"/></l><r>aparición<s n="n"/></r></p></e>
@@ -12137,7 +12143,9 @@
     <e><p><l>descripción<s n="n"/></l><r>descripción<s n="n"/></r></p></e>
     <e><p><l>desesperación<s n="n"/></l><r>desasperación<s n="n"/></r></p></e>
     <e><p><l>destrucción<s n="n"/></l><r>destrucción<s n="n"/></r></p></e>
-    <e><p><l>dirección<s n="n"/></l><r>dirección<s n="n"/></r></p></e>
+    <e slr="adreza D"><p><l>dirección<s n="n"/></l><r>adreza<s n="n"/></r></p></e>
+    <e slr="dirección"><p><l>dirección<s n="n"/></l><r>dirección<s n="n"/></r></p></e>
+    <e r="RL"><p><l>dirección<s n="n"/></l><r>endrecera<s n="n"/></r></p></e>
     <e><p><l>discreción<s n="n"/></l><r>discrección<s n="n"/></r></p></e>
     <e><p><l>disposición<s n="n"/></l><r>disposición<s n="n"/></r></p></e>
     <e><p><l>disolución<s n="n"/></l><r>disolución<s n="n"/></r></p></e>
@@ -12199,7 +12207,7 @@
     <e><p><l>multiplicación<s n="n"/></l><r>multiplicación<s n="n"/></r></p></e>
     <e><p><l>munición<s n="n"/></l><r>munición<s n="n"/></r></p></e>
     <e><p><l>natación<s n="n"/></l><r>natación<s n="n"/></r></p></e>
-    <e><p><l>navegación<s n="n"/></l><r>nabegación<s n="n"/></r></p></e>
+    <e><p><l>navegación<s n="n"/></l><r>navegación<s n="n"/></r></p></e>
     <e><p><l>negación<s n="n"/></l><r>negación<s n="n"/></r></p></e>
     <e><p><l>numeración<s n="n"/></l><r>numeración<s n="n"/></r></p></e>
     <e><p><l>nutrición<s n="n"/></l><r>nutrición<s n="n"/></r></p></e>
@@ -12226,7 +12234,6 @@
     <e><p><l>radiación<s n="n"/></l><r>radiación<s n="n"/></r></p></e>
     <e><p><l>reacción<s n="n"/></l><r>reacción<s n="n"/></r></p></e>
     <e><p><l>realización<s n="n"/></l><r>realización<s n="n"/></r></p></e>
-    <e><p><l>realizar<s n="n"/></l><r>realización<s n="n"/></r></p></e>
     <e><p><l>reclamación<s n="n"/></l><r>reclamación<s n="n"/></r></p></e>
     <e><p><l>redacción<s n="n"/></l><r>redacción<s n="n"/></r></p></e>
     <e><p><l>reducción<s n="n"/></l><r>reducción<s n="n"/></r></p></e>
@@ -12361,7 +12368,7 @@
     <e><p><l>pie<s n="n"/></l><r>piet<s n="n"/></r></p></e>        
     <e r="LR"><p><l>simiente<s n="n"/></l><r>simient<s n="n"/></r></p></e>
     <e><p><l>semilla<s n="n"/></l><r>simient<s n="n"/></r></p></e>
-
+<e><p><l>cuadrícula<s n="n"/></l><r>quadrícula<s n="n"/></r></p></e>
 <e><p><l>activista<s n="n"/></l><r>activista<s n="n"/></r></p></e>
 <e><p><l>alquimista<s n="n"/></l><r>alquimista<s n="n"/></r></p></e>
 <e><p><l>anarquista<s n="n"/></l><r>anarquista<s n="n"/></r></p></e>
@@ -13015,6 +13022,15 @@
     <e><p><l>predicador<s n="n"/></l><r>pedricador<s n="n"/></r></p></e>
     <e><p><l>rallador<s n="n"/></l><r>rallador<s n="n"/></r></p></e>
     <e><p><l>timbre<s n="n"/></l><r>trucador<s n="n"/></r></p></e>
+    <e><p><l>acceso<s n="n"/></l><r>acceso<s n="n"/></r></p></e>
+    <e><p><l>apodo<s n="n"/><s n="m"/></l><r>embotada<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>atajo<s n="n"/></l><r>alcorce<s n="n"/></r></p></e>
+    <e><p><l>cálculo<s n="n"/></l><r>calculo<s n="n"/></r></p></e>
+    <e><p><l>calendario<s n="n"/></l><r>calandario<s n="n"/></r></p></e>
+    <e><p><l>asistente<s n="n"/></l><r>asistent<s n="n"/></r></p></e>
+    <e><p><l>cliente<s n="n"/></l><r>client<s n="n"/></r></p></e>
+    <e><p><l>índice<s n="n"/></l><r>indice<s n="n"/></r></p></e>
+    <e><p><l>cabecera<s n="n"/></l><r>cabecera<s n="n"/></r></p></e>
     
     
 <e><p><l>abstinencia<s n="n"/></l><r>abstinencia<s n="n"/></r></p></e>
@@ -13457,9 +13473,7 @@
     <e><p><l>astrología<s n="n"/></l><r>astrolochía<s n="n"/></r></p></e>
     <e><p><l>astronauta<s n="n"/></l><r>astronauta<s n="n"/></r></p></e>
     <e><p><l>astronomía<s n="n"/></l><r>astronomía<s n="n"/></r></p></e>
-    <e><p><l>herramienta<s n="n"/><s n="f"/><s n="sg"/></l><r>ferramienta<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>herramienta<s n="n"/><s n="f"/><s n="pl"/></l><r>ferramienta<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    <e r="LR"><p><l>herramienta<s n="n"/><s n="f"/><s n="pl"/></l><r>ferramienta<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>herramienta<s n="n"/><s n="f"/></l><r>ferramienta<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>herramienta<s n="n"/><s n="f"/><s n="pl"/></l><r>ferramenta<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>herramienta<s n="n"/><s n="f"/><s n="pl"/></l><r>ferramenta<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e><p><l>atmósfera<s n="n"/></l><r>atmosfera<s n="n"/></r></p></e>
@@ -15530,6 +15544,7 @@
     <e><p><l>quitar<s n="vblex"/></l><r>sacar<s n="vblex"/></r></p></e>
     <e><p><l>sacar<s n="vblex"/></l><r>quitar<s n="vblex"/></r></p></e>
     <e><p><l>realizar<s n="vblex"/></l><r>realizar<s n="vblex"/></r></p></e>
+    <e><p><l>finalizar<s n="vblex"/></l><r>finalizar<s n="vblex"/></r></p></e>
     <e><p><l>rebelar<s n="vblex"/></l><r>rebelar<s n="vblex"/></r></p></e>
     <e><p><l>recibir<s n="vblex"/></l><r>recullir<s n="vblex"/></r></p></e>
     <e><p><l>recomendar<s n="vblex"/></l><r>recomendar<s n="vblex"/></r></p></e>
@@ -15552,6 +15567,15 @@
     <e r="RL"><p><l>separar<s n="vblex"/></l><r>separar<s n="vblex"/></r></p></e>
     <e><p><l>sindicar<s n="vblex"/></l><r>sindicar<s n="vblex"/></r></p></e>
     <e><p><l>situar<s n="vblex"/></l><r>situar<s n="vblex"/></r></p></e>
+    <e><p><l>acentuar<s n="vblex"/></l><r>accentuar<s n="vblex"/></r></p></e>
+    <e><p><l>rogar<s n="vblex"/></l><r>rogar<s n="vblex"/></r></p></e>
+    <e><p><l>llenar<s n="vblex"/></l><r>emplir<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>llenar<s n="vblex"/></l><r>plenar<s n="vblex"/></r></p></e>
+    <e><p><l>acabar<s n="vblex"/></l><r>acabar<s n="vblex"/></r></p></e>
+    <!-- <e r="LR"><p><l>acabar<s n="vblex"/></l><r>rematar<s n="vblex"/></r></p></e> -->
+    <e><p><l>terminar<s n="vblex"/></l><r>rematar<s n="vblex"/></r></p></e>
+    <e><p><l>soltar<s n="vblex"/></l><r>soltar<s n="vblex"/></r></p></e>
+    <e><p><l>sublevar<s n="vblex"/></l><><l>situar<s n="vblex"/></l><r>situar<s n="vblex"/></r></p></e>
     <e><p><l>acentuar<s n="vblex"/></l><r>accentuar<s n="vblex"/></r></p></e>
     <e><p><l>rogar<s n="vblex"/></l><r>rogar<s n="vblex"/></r></p></e>
     <e><p><l>llenar<s n="vblex"/></l><r>emplir<s n="vblex"/></r></p></e>
@@ -16013,7 +16037,7 @@
     <e><p><l>liberar<s n="vblex"/></l><r>liberar<s n="vblex"/></r></p></e>
     <e><p><l>alterar<s n="vblex"/></l><r>alterar<s n="vblex"/></r></p></e>
     <e><p><l>inquietar<s n="vblex"/></l><r>permenar<s n="vblex"/></r></p></e>
-    <e><p><l>nivelar<s n="vblex"/></l><r>anivelar<s n="vblex"/></r></p></e>
+    <e><p><l>nivelar<s n="vblex"/></l><r>alibelar<s n="vblex"/></r></p></e>
     <e><p><l>apreciar<s n="vblex"/></l><r>apreciar<s n="vblex"/></r></p></e>
     <e><p><l>aprobar<s n="vblex"/></l><r>aprebar<s n="vblex"/></r></p></e>
     <e><p><l>argumentar<s n="vblex"/></l><r>argumentar<s n="vblex"/></r></p></e>
@@ -16182,7 +16206,7 @@
     <e><p><l>soldar<s n="vblex"/></l><r>soldar<s n="vblex"/></r></p></e>
     <e><p><l>soñar<s n="vblex"/></l><r>soniar<s n="vblex"/></r></p></e>
     <e><p><l>sonar<s n="vblex"/></l><r>sonar<s n="vblex"/></r></p></e>
-    <e><p><l>soportar<s n="vblex"/></l><r>soportar<s n="vblex"/></r></p></e>
+    <e><p><l>soportar<s n="vblex"/></l><r>suportar<s n="vblex"/></r></p></e>
     <e><p><l>suponer<s n="vblex"/></l><r>suposar<s n="vblex"/></r></p></e>
     <e><p><l>telefonear<s n="vblex"/></l><r>telefoniar<s n="vblex"/></r></p></e>
     <e><p><l>traicionar<s n="vblex"/></l><r>traicionar<s n="vblex"/></r></p></e>
