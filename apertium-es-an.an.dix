@@ -39274,7 +39274,6 @@
     <e lm="ario"><i>ari</i><par n="academic/o__adj"/></e>
     <e lm="aristocratico"><i>aristocratic</i><par n="academic/o__adj"/></e>
     <e lm="armenio"><i>armeni</i><par n="academic/o__adj"/></e>
-    <e lm="armonioso"><i>armonios</i><par n="alt/o__adj"/></e>
     <e lm="arqueolochico"><i>arqueolochic</i><par n="academic/o__adj"/></e>
     <e lm="artesano"><i>artesan</i><par n="academic/o__adj"/></e>
     <e lm="articulatorio"><i>articulatori</i><par n="academic/o__adj"/></e>
@@ -39973,6 +39972,7 @@
     <e lm="mobil" r="LR"><p><l>móvil</l><r>mobil</r></p><par n="libro__n"/></e>
     <e lm="mobil" r="LR"><p><l>movil</l><r>mobil</r></p><par n="libro__n"/></e>
     <e lm="poquet"><i>poqu</i><par n="alaz/et__n"/></e>
+    <e lm="paquet"><i>paqu</i><par n="alaz/et__n"/></e>
     <e lm="mica"><i>mica</i><par n="luenga__n"/></e>
     <e lm="miqueta"><i>miqueta</i><par n="luenga__n"/></e>
     <e lm="poderoso"><i>poderos</i><par n="alt/o__adj"/></e>
@@ -40327,9 +40327,17 @@
       
     <e lm="limite"><i>limite</i><par n="libro__n"/></e>  
     <e lm="frase"><i>frase</i><par n="luenga__n"/></e>      
-    <e lm="tenient"><i>teni</i><par n="ach/ent__n"/></e>          
+    <e lm="tenient"><i>teni</i><par n="ach/ent__n"/></e>
+    <e lm="resident"><i>resid</i><par n="ach/ent__n"/></e>
+    <e lm="resident"><i>resid</i><par n="difer/ent__adj"/></e>
+    <e lm="fabricant"><i>fabric</i><par n="acompany/ant__n"/></e>
+    <e lm="fabricant"><i>fabric</i><par n="degrad/ant__adj"/></e>
+    <e lm="vichilant"><i>vichil</i><par n="acompany/ant__n"/></e>
+    
     <e lm="personache"><i>personache</i><par n="libro__n"/></e>      
     <e lm="personache" r="LR"><p><l>presonache</l><r>personache</r></p><par n="libro__n"/></e>    
+    <e lm="montache"><i>montache</i><par n="libro__n"/></e>      
+    <e lm="desmontache"><i>desmontache</i><par n="libro__n"/></e>      
     <e lm="parque"><i>parque</i><par n="libro__n"/></e>      
     <e lm="estudiant" r="LR"><i>estudi</i><par n="acompany/ant__n"/></e>      
     <e lm="estudiant"><i>estudiant</i><par n="accionista__n"/></e>      
@@ -40506,6 +40514,7 @@
     <e lm="regle"><i>regle</i><par n="libro__n"/></e>
     <e lm="portal"><i>portal</i><par n="libro__n"/></e>
     <e lm="mensache"><i>mensache</i><par n="libro__n"/></e>
+    <e lm="ancorache"><i>ancorache</i><par n="libro__n"/></e>
     <e lm="control"><i>control</i><par n="libro__n"/></e>
     <e lm="libro"><par n="/l_ll__var"/><i>ibro</i><par n="libro__n"/></e>
     <e lm="consello"><i>consello</i><par n="libro__n"/></e>
@@ -40547,6 +40556,78 @@
     <e lm="capital"><i>capital</i><par n="pelaire__n"/></e>
     <e lm="capital"><i>capital</i><par n="luenga__n"/></e>
     <e lm="sieglo"><i>sieglo</i><par n="libro__n"/></e>
+    <e lm="trianglo"><i>trianglo</i><par n="libro__n"/></e>
+    <e lm="anglo"><i>anglo</i><par n="libro__n"/></e>
+    <e lm="acutanglo"><i>acutanglo</i><par n="libro__n"/></e>    
+    <e lm="obtusanglo"><i>obtusanglo</i><par n="libro__n"/></e>
+    <e lm="rectanglo"><i>rectanglo</i><par n="libro__n"/></e>
+    <e lm="quadranglo"><i>quadranglo</i><par n="libro__n"/></e>
+  
+    
+    <e lm="audio"><i>audio</i><par n="libro__n"/></e>
+    <e lm="promeyo"><i>promeyo</i><par n="libro__n"/></e>
+    <e lm="promeyo" r="LR"><p><l>promedio</l><r>promeyo</r></p><par n="libro__n"/></e>
+    <e lm="binomio"><i>binomio</i><par n="libro__n"/></e>
+    <e lm="lienzo"><i>lienzo</i><par n="libro__n"/></e>
+    <e lm="segmento"><i>segmento</i><par n="libro__n"/></e>
+    <e lm="conducto"><i>conducto</i><par n="libro__n"/></e>
+    <e lm="salvoconducto"><i>salvoconducto</i><par n="libro__n"/></e>
+    <e lm="guiache"><i>guiache</i><par n="libro__n"/></e>
+    <e lm="entorno"><i>entorno</i><par n="libro__n"/></e>
+    <e lm="eco"><i>eco</i><par n="libro__n"/></e>
+    <e lm="eco" r="LR"><p><l>leco</l><r>eco</r></p><par n="libro__n"/></e>
+    <e lm="evento"><i>evento</i><par n="libro__n"/></e>
+    <e lm="pronostico"><i>pronostico</i><par n="libro__n"/></e>
+    <e lm="ton"><i>ton</i><par n="libro__n"/></e>
+    <e lm="ton" r="LR"><p><l>tono</l><r>ton</r></p><par n="libro__n"/></e>
+    <e lm="intercambeo"><i>intercambeo</i><par n="libro__n"/></e>
+    <e lm="intercambeo" r="LR"><p><l>intercambeyo</l><r>intercambeo</r></p><par n="libro__n"/></e>
+    <e lm="intercambeo" r="LR"><p><l>intercambio</l><r>intercambeo</r></p><par n="libro__n"/></e>
+    <e lm="contorno"><i>contorno</i><par n="libro__n"/></e>
+    <e lm="nodo"><i>nodo</i><par n="libro__n"/></e>
+    <e lm="poligono"><i>poligono</i><par n="libro__n"/></e>
+    <e lm="video"><i>video</i><par n="libro__n"/></e>
+    <e lm="video" r="LR"><p><l>vidio</l><r>video</r></p><par n="libro__n"/></e>
+    <e lm="muestreyo"><i>muestreyo</i><par n="libro__n"/></e>
+    <e lm="muestreyo" r="LR"><p><l>mostreyo</l><r>muestreyo</r></p><par n="libro__n"/></e>
+    <e lm="muestreyo" r="LR"><p><l>mostrache</l><r>muestreyo</r></p><par n="libro__n"/></e>
+    <e lm="zocalo"><i>zocalo</i><par n="libro__n"/></e>
+    <e lm="zocalo"><i>zocalo</i><par n="libro__n"/></e>
+    <e lm="almagazenamiento"><i>almagazena</i><par n="achunta/miento__n"/></e>
+    <e lm="almagazenamiento" r="LR"><p><l>almagacena</l><r>almagazena</r></p><par n="achunta/miento__n"/></e>
+    <e lm="almagazenamiento" r="LR"><p><l>almazena</l><r>almagazena</r></p><par n="achunta/miento__n"/></e>
+    <e lm="almagazenamiento" r="LR"><p><l>almacena</l><r>almagazena</r></p><par n="achunta/miento__n"/></e>
+    <e lm="subdirectorio"><i>subdirectorio</i><par n="libro__n"/></e>
+    <e lm="mosaico"><i>mosaico</i><par n="libro__n"/></e>
+    <e lm="vinclo"><i>vinclo</i><par n="libro__n"/></e>
+    <e lm="quaderno"><i>quaderno</i><par n="libro__n"/></e>
+    <e lm="estereotipo"><i>estereotipo</i><par n="libro__n"/></e>
+    <e lm="tabonero"><i>tabon</i><par n="plant/ero__n"/></e>
+    <e lm="argumento"><i>argumento</i><par n="libro__n"/></e>
+    <e lm="simbolo"><i>simbolo</i><par n="libro__n"/></e>
+    <e lm="simbolo" r="LR"><p><l>simbol</l><r>simbolo</r></p><par n="libro__n"/></e>
+    <e lm="simbolo" r="LR"><p><l>símbol</l><r>simbolo</r></p><par n="libro__n"/></e>
+    <e lm="replica"><i>replica</i><par n="luenga__n"/></e>
+    <e lm="contrasenya"><i>contrasenya</i><par n="luenga__n"/></e>
+    <e lm="subcadena"><i>subcadena</i><par n="luenga__n"/></e>
+    <e lm="plantilla"><i>plantilla</i><par n="luenga__n"/></e>
+    <e lm="plantilla" r="LR"><p><l>plantiella</l><r>plantilla</r></p><par n="luenga__n"/></e>
+    <e lm="software"><i>software</i><par n="libro__n"/></e>
+    <e lm="hardware"><i>hardware</i><par n="libro__n"/></e>
+    <e lm="fax"><i>fax</i><par n="país__n"/></e>
+    <e lm="bus"><i>bus</i><par n="país__n"/></e>
+    <e lm="modem"><i>modem</i><par n="libro__n"/></e>
+    <e lm="modem" r="LR"><p><l>módem</l><r>modem</r></p><par n="libro__n"/></e>
+    <e lm="bit"><i>bit</i><par n="libro__n"/></e>
+    <e lm="megabit"><i>megabit</i><par n="libro__n"/></e>
+    <e lm="byte"><i>byte</i><par n="libro__n"/></e>
+    <e lm="kilobyte"><i>kilobyte</i><par n="libro__n"/></e>
+    <e lm="megabyte"><i>megabyte</i><par n="libro__n"/></e>
+    <e lm="chigabyte"><i>chigabyte</i><par n="libro__n"/></e>
+    <e lm="chigabyte" r="LR"><p><l>gigabyte</l><r>chigabyte</r></p><par n="libro__n"/></e>
+    <e lm="pixel"><i>pixel</i><par n="libro__n"/></e>
+    <e lm="pixel" r="LR"><p><l>píxel</l><r>pixel</r></p><par n="libro__n"/></e>
+    
     <e lm="tresorero"><i>tresor</i><par n="vaqu/ero__n"/></e>
     <e lm="agorero"><i>agor</i><par n="vaqu/ero__n"/></e>
     <e lm="eixemplo"><i>eixemplo</i><par n="libro__n"/></e>
@@ -40872,6 +40953,7 @@
     <e lm="navidat" r="LR"><p><l>nabid</l><r>navid</r></p><par n="privacid/at__n"/></e>
     <e lm="nadal"><i>nadal</i><par n="libro__n"/></e>
     <e lm="nacionalidat"><i>nacionalid</i><par n="privacid/at__n"/></e>
+    <e lm="irracionalidat"><i>irracionalid</i><par n="privacid/at__n"/></e>
     <e lm="natalidat"><i>natalid</i><par n="privacid/at__n"/></e>
     <e lm="naturalidat"><i>naturalid</i><par n="privacid/at__n"/></e>
     <e lm="nacionalidat"><i>nacionalid</i><par n="privacid/at__n"/></e>
@@ -41186,6 +41268,7 @@
     <e lm="commemoración" r="LR"><p><l>conmemora</l><r>commemora</r></p><par n="actua/ción__n"/></e>
     <e lm="commutación"><i>commuta</i><par n="actua/ción__n"/></e>
     <e lm="commutación" r="LR"><p><l>conmuta</l><r>commuta</r></p><par n="actua/ción__n"/></e>
+    <e lm="notación"><i>nota</i><par n="actua/ción__n"/></e>
     <e lm="connotación"><i>connota</i><par n="actua/ción__n"/></e>
     <e lm="consagración"><i>consagra</i><par n="actua/ción__n"/></e>
     <e lm="conservación"><i>conserva</i><par n="actua/ción__n"/></e>
@@ -41279,7 +41362,8 @@
     <e lm="dilatación"><i>dilata</i><par n="actua/ción__n"/></e>
     <e lm="diftongación"><i>diftonga</i><par n="actua/ción__n"/></e>
     <e lm="diftongación" r="LR"><p><l>diptonga</l><r>diftonga</r></p><par n="actua/ción__n"/></e>
-    <e lm="diputación"><i>diputa</i><par n="actua/ción__n"/></e>
+    <e lm="deputación"><i>deputa</i><par n="actua/ción__n"/></e>
+    <e lm="deputación" r="LR"><p><l>diputa</l><r>deputa</r></p><par n="actua/ción__n"/></e>
     <e lm="discriminación"><i>discrimina</i><par n="actua/ción__n"/></e>
     <e lm="discriminación" r="LR"><p><l>descrimina</l><r>discrimina</r></p><par n="actua/ción__n"/></e>
     <e lm="disgregación"><i>disgrega</i><par n="actua/ción__n"/></e>
@@ -41333,6 +41417,1311 @@
     <e lm="votación"><par n="/b_v__var"/><i>ota</i><par n="actua/ción__n"/></e>
     <e lm="violación"><par n="/b_v__var"/><i>iola</i><par n="actua/ción__n"/></e>
     <e lm="vulneración"><par n="/b_v__var"/><i>ulnera</i><par n="actua/ción__n"/></e>
+    
+<e lm="ablación"><i>abla</i><par n="actua/ción__n"/></e>
+<e lm="idealización"><i>idealiza</i><par n="actua/ción__n"/></e>
+<e lm="abnegación"><i>abnega</i><par n="actua/ción__n"/></e>
+<e lm="absolución"><i>absolu</i><par n="actua/ción__n"/></e>
+<e lm="fosilización"><i>fosiliza</i><par n="actua/ción__n"/></e>
+<e lm="abstención"><i>absten</i><par n="actua/ción__n"/></e>
+<e lm="acreditación"><i>acredita</i><par n="actua/ción__n"/></e>
+<e lm="activación"><i>activa</i><par n="actua/ción__n"/></e>
+<e lm="adhesión"><i>adhesi</i><par n="divisi/ón__n"/></e>
+<e lm="adicción"><i>adic</i><par n="actua/ción__n"/></e>
+<e lm="admisión"><i>admisi</i><par n="divisi/ón__n"/></e>
+<e lm="adopción"><i>adop</i><par n="actua/ción__n"/></e>
+<e lm="afección"><i>afec</i><par n="actua/ción__n"/></e>
+<e lm="agresión"><i>agresi</i><par n="divisi/ón__n"/></e>
+<e lm="alegación"><i>alega</i><par n="actua/ción__n"/></e>
+<e lm="alusión"><i>alusi</i><par n="divisi/ón__n"/></e>
+<e lm="amonestación"><i>amonesta</i><par n="actua/ción__n"/></e>
+<e lm="interrelación"><i>interrela</i><par n="actua/ción__n"/></e>
+<e lm="amortización"><i>amortiza</i><par n="actua/ción__n"/></e>
+<e lm="anotación"><i>anota</i><par n="actua/ción__n"/></e>
+<e lm="antelación"><i>antela</i><par n="actua/ción__n"/></e>
+<e lm="anticipación"><i>anticipa</i><par n="actua/ción__n"/></e>
+<e lm="apelación"><i>apela</i><par n="actua/ción__n"/></e>
+<e lm="asunción"><i>asun</i><par n="actua/ción__n"/></e>
+<e lm="asunción" r="LR"><p><l>asump</l><r>asun</r></p><par n="actua/ción__n"/></e>
+<e lm="audición"><i>audi</i><par n="actua/ción__n"/></e>
+<e lm="autorregulación"><i>autorregula</i><par n="actua/ción__n"/></e>
+<e lm="bendición"><i>bendi</i><par n="actua/ción__n"/></e>
+<e lm="bonificación"><i>bonifica</i><par n="actua/ción__n"/></e>
+<e lm="certificación"><i>certifica</i><par n="actua/ción__n"/></e>
+<e lm="cesión"><i>cesi</i><par n="divisi/ón__n"/></e>
+<e lm="circumvalación"><i>circumvala</i><par n="actua/ción__n"/></e>
+<e lm="circumvalación" r="LR"><p><l>circunvala</l><r>circumvala</r></p><par n="actua/ción__n"/></e>
+<e lm="citación"><i>cita</i><par n="actua/ción__n"/></e>
+<e lm="claudicación"><i>claudica</i><par n="actua/ción__n"/></e>
+<e lm="coalición"><i>coali</i><par n="actua/ción__n"/></e>
+<e lm="cocción"><i>coc</i><par n="actua/ción__n"/></e>
+<e lm="cohesión"><i>cohesi</i><par n="divisi/ón__n"/></e>
+<e lm="colisión"><i>colisi</i><par n="divisi/ón__n"/></e>
+<e lm="combustión"><i>combusti</i><par n="divisi/ón__n"/></e>
+<e lm="compartimentación"><i>compartimenta</i><par n="actua/ción__n"/></e>
+<e lm="compasión"><i>compasi</i><par n="divisi/ón__n"/></e>
+<e lm="complexión"><i>complexi</i><par n="divisi/ón__n"/></e>
+<e lm="comprebación"><i>compreba</i><par n="actua/ción__n"/></e>
+<e lm="comprebación" r="LR"><p><l>comproba</l><r>compreba</r></p><par n="actua/ción__n"/></e>
+<e lm="comunión"><i>comuni</i><par n="divisi/ón__n"/></e>
+<e lm="concepción"><i>concep</i><par n="actua/ción__n"/></e>
+<e lm="concesión"><i>concesi</i><par n="divisi/ón__n"/></e>
+<e lm="conscienciación"><i>consciencia</i><par n="actua/ción__n"/></e>
+<e lm="conscienciación" r="LR"><p><l>conciencia</l><r>consciencia</r></p><par n="actua/ción__n"/></e>
+<e lm="conclusión"><i>conclusi</i><par n="divisi/ón__n"/></e>
+<e lm="confesión"><i>confesi</i><par n="divisi/ón__n"/></e>
+<e lm="confusión"><i>confusi</i><par n="divisi/ón__n"/></e>
+<e lm="conchestión"><i>conchesti</i><par n="divisi/ón__n"/></e>
+<e lm="desconchestión"><i>desconchesti</i><par n="divisi/ón__n"/></e>
+<e lm="consecución"><i>consecu</i><par n="actua/ción__n"/></e>
+<e lm="consternación"><i>consterna</i><par n="actua/ción__n"/></e>
+<e lm="contraposición"><i>contraposi</i><par n="actua/ción__n"/></e>
+<e lm="contusión"><i>contusi</i><par n="divisi/ón__n"/></e>
+<e lm="convalidación"><i>convalida</i><par n="actua/ción__n"/></e>
+<e lm="convención"><i>conven</i><par n="actua/ción__n"/></e>
+<e lm="cotización"><i>cotiza</i><par n="actua/ción__n"/></e>
+<e lm="crispación"><i>crispa</i><par n="actua/ción__n"/></e>
+<e lm="defunción"><i>defun</i><par n="actua/ción__n"/></e>
+<e lm="degustación"><i>degusta</i><par n="actua/ción__n"/></e>
+<e lm="demolición"><i>demoli</i><par n="actua/ción__n"/></e>
+<e lm="denegación"><i>denega</i><par n="actua/ción__n"/></e>
+<e lm="redenominación"><i>redenomina</i><par n="actua/ción__n"/></e>
+<e lm="descalificación"><i>descalifica</i><par n="actua/ción__n"/></e>
+<e lm="desilusión"><i>desilusi</i><par n="divisi/ón__n"/></e>
+<e lm="desinfección"><i>desinfec</i><par n="actua/ción__n"/></e>
+<e lm="desolación"><i>desola</i><par n="actua/ción__n"/></e>
+<e lm="destitución"><i>destitu</i><par n="actua/ción__n"/></e>
+<e lm="detención"><i>deten</i><par n="actua/ción__n"/></e>
+<e lm="devoción"><i>devo</i><par n="actua/ción__n"/></e>
+<e lm="devolución"><i>devolu</i><par n="actua/ción__n"/></e>
+<e lm="difusión"><i>difusi</i><par n="divisi/ón__n"/></e>
+<e lm="dichestión"><i>dichesti</i><par n="divisi/ón__n"/></e>
+<e lm="dimensión"><i>dimensi</i><par n="divisi/ón__n"/></e>
+<e lm="dimisión"><i>dimisi</i><par n="divisi/ón__n"/></e>
+<e lm="discusión"><i>discusi</i><par n="divisi/ón__n"/></e>
+<e lm="dispersión"><i>dispersi</i><par n="divisi/ón__n"/></e>
+<e lm="distorsión"><i>distorsi</i><par n="divisi/ón__n"/></e>
+<e lm="drogadicción"><i>drogadic</i><par n="actua/ción__n"/></e>
+<e lm="eclosión"><i>eclosi</i><par n="divisi/ón__n"/></e>
+<e lm="elongación"><i>elonga</i><par n="actua/ción__n"/></e>
+<e lm="emisión"><i>emisi</i><par n="divisi/ón__n"/></e>
+<e lm="alienación"><i>aliena</i><par n="actua/ción__n"/></e>
+<e lm="equiparación"><i>equipara</i><par n="actua/ción__n"/></e>
+<e lm="escolarización"><i>escolariza</i><par n="actua/ción__n"/></e>
+<e lm="especialización"><i>especializa</i><par n="actua/ción__n"/></e>
+<e lm="estimación"><i>estima</i><par n="actua/ción__n"/></e>
+<e lm="estimulación"><i>estimula</i><par n="actua/ción__n"/></e>
+<e lm="evasión"><i>evasi</i><par n="divisi/ón__n"/></e>
+<e lm="evocación"><i>evoca</i><par n="actua/ción__n"/></e>
+<e lm="exaltación"><i>exalta</i><par n="actua/ción__n"/></e>
+<e lm="excitación"><i>excita</i><par n="actua/ción__n"/></e>
+<e lm="exclusión"><i>exclusi</i><par n="divisi/ón__n"/></e>
+<e lm="excomunión"><i>excomuni</i><par n="divisi/ón__n"/></e>
+<e lm="excursión"><i>excursi</i><par n="divisi/ón__n"/></e>
+<e lm="exhibición"><i>exhibi</i><par n="actua/ción__n"/></e>
+<e lm="expansión"><i>expansi</i><par n="divisi/ón__n"/></e>
+<e lm="expectación"><i>expecta</i><par n="actua/ción__n"/></e>
+<e lm="experimentación"><i>experimenta</i><par n="actua/ción__n"/></e>
+<e lm="exploración"><i>explora</i><par n="actua/ción__n"/></e>
+<e lm="expropiación"><i>expropia</i><par n="actua/ción__n"/></e>
+<e lm="expulsión"><i>expulsi</i><par n="divisi/ón__n"/></e>
+<e lm="extinción"><i>extin</i><par n="actua/ción__n"/></e>
+<e lm="extradición"><i>extradi</i><par n="actua/ción__n"/></e>
+<e lm="facción"><i>fac</i><par n="actua/ción__n"/></e>
+<e lm="facturación"><i>factura</i><par n="actua/ción__n"/></e>
+<e lm="falsificación"><i>falsifica</i><par n="actua/ción__n"/></e>
+<e lm="figuración"><i>figura</i><par n="actua/ción__n"/></e>
+<e lm="filmación"><i>filma</i><par n="actua/ción__n"/></e>
+<e lm="filtración"><i>filtra</i><par n="actua/ción__n"/></e>
+<e lm="finalización"><i>finaliza</i><par n="actua/ción__n"/></e>
+<e lm="fricción"><i>fric</i><par n="actua/ción__n"/></e>
+<e lm="frustración"><i>frustra</i><par n="actua/ción__n"/></e>
+<e lm="fundación"><i>funda</i><par n="actua/ción__n"/></e>
+<e lm="fusión"><i>fusi</i><par n="divisi/ón__n"/></e>
+<e lm="globalización"><i>globaliza</i><par n="actua/ción__n"/></e>
+<e lm="graduación"><i>gradua</i><par n="actua/ción__n"/></e>
+<e lm="gratificación"><i>gratifica</i><par n="actua/ción__n"/></e>
+<e lm="homologación"><i>homologa</i><par n="actua/ción__n"/></e>
+<e lm="hospitalización"><i>hospitaliza</i><par n="actua/ción__n"/></e>
+<e lm="ilegalización"><i>ilegaliza</i><par n="actua/ción__n"/></e>
+<e lm="ilusión"><i>ilusi</i><par n="divisi/ón__n"/></e>
+<e lm="imitación"><i>imita</i><par n="actua/ción__n"/></e>
+<e lm="implantación"><i>implanta</i><par n="actua/ción__n"/></e>
+<e lm="imprecisión"><i>imprecisi</i><par n="divisi/ón__n"/></e>
+<e lm="improvisación"><i>improvisa</i><par n="actua/ción__n"/></e>
+<e lm="inadmisión"><i>inadmisi</i><par n="divisi/ón__n"/></e>
+<e lm="incineración"><i>incinera</i><par n="actua/ción__n"/></e>
+<e lm="incitación"><i>incita</i><par n="actua/ción__n"/></e>
+<e lm="inclinación"><i>inclina</i><par n="actua/ción__n"/></e>
+<e lm="inclusión"><i>inclusi</i><par n="divisi/ón__n"/></e>
+<e lm="incomprensión"><i>incomprensi</i><par n="divisi/ón__n"/></e>
+<e lm="incomunicación"><i>incomunica</i><par n="actua/ción__n"/></e>
+<e lm="incorrección"><i>incorrec</i><par n="actua/ción__n"/></e>
+<e lm="incursión"><i>incursi</i><par n="divisi/ón__n"/></e>
+<e lm="indefensión"><i>indefensi</i><par n="divisi/ón__n"/></e>
+<e lm="infección"><i>infec</i><par n="actua/ción__n"/></e>
+<e lm="inflación"><i>infla</i><par n="actua/ción__n"/></e>
+<e lm="inflexión"><i>inflexi</i><par n="divisi/ón__n"/></e>
+<e lm="inhabilitación"><i>inhabilita</i><par n="actua/ción__n"/></e>
+<e lm="inhalación"><i>inhala</i><par n="actua/ción__n"/></e>
+<e lm="iniciación"><i>inicia</i><par n="actua/ción__n"/></e>
+<e lm="immersión"><i>immersi</i><par n="divisi/ón__n"/></e>
+<e lm="immersión" r="LR"><p><l>inmersi</l><r>immersi</r></p><par n="divisi/ón__n"/></e>
+<e lm="immigración"><i>immigra</i><par n="actua/ción__n"/></e>
+<e lm="immigración" r="LR"><p><l>inmigra</l><r>immigra</r></p><par n="actua/ción__n"/></e>
+<e lm="innovación"><i>innova</i><par n="actua/ción__n"/></e>
+<e lm="insatisfacción"><i>insatisfac</i><par n="actua/ción__n"/></e>
+<e lm="inseminación"><i>insemina</i><par n="actua/ción__n"/></e>
+<e lm="inserción"><i>inser</i><par n="actua/ción__n"/></e>
+<e lm="insinuación"><i>insinua</i><par n="actua/ción__n"/></e>
+<e lm="inspección"><i>inspec</i><par n="actua/ción__n"/></e>
+<e lm="interacción"><i>interac</i><par n="actua/ción__n"/></e>
+<e lm="interrupción"><i>interrup</i><par n="actua/ción__n"/></e>
+<e lm="intersección"><i>intersec</i><par n="actua/ción__n"/></e>
+<e lm="intimidación"><i>intimida</i><par n="actua/ción__n"/></e>
+<e lm="intoxicación"><i>intoxica</i><par n="actua/ción__n"/></e>
+<e lm="intromisión"><i>intromisi</i><par n="divisi/ón__n"/></e>
+<e lm="intuición"><i>intui</i><par n="actua/ción__n"/></e>
+<e lm="invasión"><i>invasi</i><par n="divisi/ón__n"/></e>
+<e lm="invención"><i>inven</i><par n="actua/ción__n"/></e>
+<e lm="involución"><i>involu</i><par n="actua/ción__n"/></e>
+<e lm="irritación"><i>irrita</i><par n="actua/ción__n"/></e>
+<e lm="irritación" r="LR"><p><l>enrita</l><r>irrita</r></p><par n="actua/ción__n"/></e>
+<e lm="irrupción"><i>irrup</i><par n="actua/ción__n"/></e>
+<e lm="churisdicción"><i>churisdic</i><par n="actua/ción__n"/></e>
+<e lm="legalización"><i>legaliza</i><par n="actua/ción__n"/></e>
+<e lm="lechislación"><i>lechisla</i><par n="actua/ción__n"/></e>
+<e lm="lechión"><i>lechi</i><par n="divisi/ón__n"/></e>
+<e lm="lesión"><i>lesi</i><par n="divisi/ón__n"/></e>
+<e lm="licitación"><i>licita</i><par n="actua/ción__n"/></e>
+<e lm="ligazón"><i>ligaz</i><par n="divisi/ón__n"/></e>
+<e lm="liquidación"><i>liquida</i><par n="actua/ción__n"/></e>
+<e lm="maduración"><i>madura</i><par n="actua/ción__n"/></e>
+<e lm="maldición"><i>maldi</i><par n="actua/ción__n"/></e>
+<e lm="manipulación"><i>manipula</i><par n="actua/ción__n"/></e>
+<e lm="mansión"><i>mansi</i><par n="divisi/ón__n"/></e>
+<e lm="marguinación"><i>marguina</i><par n="actua/ción__n"/></e>
+<e lm="masificación"><i>masifica</i><par n="actua/ción__n"/></e>
+<e lm="masturbación"><i>masturba</i><par n="actua/ción__n"/></e>
+<e lm="materialización"><i>materializa</i><par n="actua/ción__n"/></e>
+<e lm="desmaterialización"><i>desmaterializa</i><par n="actua/ción__n"/></e>
+<e lm="matriculación"><i>matricula</i><par n="actua/ción__n"/></e>
+<e lm="meyación"><i>meya</i><par n="actua/ción__n"/></e>
+<e lm="meyación" r="LR"><p><l>media</l><r>meya</r></p><par n="actua/ción__n"/></e>
+<e lm="medición"><i>medi</i><par n="actua/ción__n"/></e>
+<e lm="meditación"><i>medita</i><par n="actua/ción__n"/></e>
+<e lm="migración"><i>migra</i><par n="actua/ción__n"/></e>
+<e lm="misión"><i>misi</i><par n="divisi/ón__n"/></e>
+<e lm="moción"><i>mo</i><par n="actua/ción__n"/></e>
+<e lm="moderación"><i>modera</i><par n="actua/ción__n"/></e>
+<e lm="modernización"><i>moderniza</i><par n="actua/ción__n"/></e>
+<e lm="mobilización"><i>mobiliza</i><par n="actua/ción__n"/></e>
+<e lm="mobilización" r="LR"><p><l>moviliza</l><r>mobiliza</r></p><par n="actua/ción__n"/></e>
+<e lm="mutación"><i>muta</i><par n="actua/ción__n"/></e>
+<e lm="noción"><i>no</i><par n="actua/ción__n"/></e>
+<e lm="nominación"><i>nomina</i><par n="actua/ción__n"/></e>
+<e lm="notificación"><i>notifica</i><par n="actua/ción__n"/></e>
+<e lm="obsesión"><i>obsesi</i><par n="divisi/ón__n"/></e>
+<e lm="obstinación"><i>obstina</i><par n="actua/ción__n"/></e>
+<e lm="obtención"><i>obten</i><par n="actua/ción__n"/></e>
+<e lm="opción"><i>op</i><par n="actua/ción__n"/></e>
+<e lm="ovación"><i>ova</i><par n="actua/ción__n"/></e>
+<e lm="paralización"><i>paraliza</i><par n="actua/ción__n"/></e>
+<e lm="pasión"><i>pasi</i><par n="divisi/ón__n"/></e>
+<e lm="peatonalización"><i>peatonaliza</i><par n="actua/ción__n"/></e>
+<e lm="penalización"><i>penaliza</i><par n="actua/ción__n"/></e>
+<e lm="penetración"><i>penetra</i><par n="actua/ción__n"/></e>
+<e lm="percepción"><i>percep</i><par n="actua/ción__n"/></e>
+<e lm="percusión"><i>percusi</i><par n="divisi/ón__n"/></e>
+<e lm="pelegrinación"><i>pelegrina</i><par n="actua/ción__n"/></e>
+<e lm="planificación"><i>planifica</i><par n="actua/ción__n"/></e>
+<e lm="posesión"><i>posesi</i><par n="divisi/ón__n"/></e>
+<e lm="precisión"><i>precisi</i><par n="divisi/ón__n"/></e>
+<e lm="predicción"><i>predic</i><par n="actua/ción__n"/></e>
+<e lm="predisposición"><i>predisposi</i><par n="actua/ción__n"/></e>
+<e lm="preinscripción"><i>preinscrip</i><par n="actua/ción__n"/></e>
+<e lm="prescripción"><i>prescrip</i><par n="actua/ción__n"/></e>
+<e lm="preselección"><i>preselec</i><par n="actua/ción__n"/></e>
+<e lm="prestación"><i>presta</i><par n="actua/ción__n"/></e>
+<e lm="presunción"><i>presun</i><par n="actua/ción__n"/></e>
+<e lm="pretensión"><i>pretensi</i><par n="divisi/ón__n"/></e>
+<e lm="prevención"><i>preven</i><par n="actua/ción__n"/></e>
+<e lm="previsión"><i>previsi</i><par n="divisi/ón__n"/></e>
+<e lm="prisión"><i>prisi</i><par n="divisi/ón__n"/></e>
+<e lm="privatización"><i>privatiza</i><par n="actua/ción__n"/></e>
+<e lm="procesión"><i>procesi</i><par n="divisi/ón__n"/></e>
+<e lm="procreación"><i>procrea</i><par n="actua/ción__n"/></e>
+<e lm="profesión"><i>profesi</i><par n="divisi/ón__n"/></e>
+<e lm="programación"><i>programa</i><par n="actua/ción__n"/></e>
+<e lm="progresión"><i>progresi</i><par n="divisi/ón__n"/></e>
+<e lm="proliferación"><i>prolifera</i><par n="actua/ción__n"/></e>
+<e lm="prolongación"><i>prolonga</i><par n="actua/ción__n"/></e>
+<e lm="pronunciación"><i>pronuncia</i><par n="actua/ción__n"/></e>
+<e lm="pronunciación" r="LR"><p><l>prenuncia</l><r>pronuncia</r></p><par n="actua/ción__n"/></e>
+<e lm="propagación"><i>propaga</i><par n="actua/ción__n"/></e>
+<e lm="proposición"><i>proposi</i><par n="actua/ción__n"/></e>
+<e lm="prostitución"><i>prostitu</i><par n="actua/ción__n"/></e>
+<e lm="provisión"><i>provisi</i><par n="divisi/ón__n"/></e>
+<e lm="prochección"><i>prochec</i><par n="actua/ción__n"/></e>
+<e lm="pulsación"><i>pulsa</i><par n="actua/ción__n"/></e>
+<e lm="puntuación"><i>puntua</i><par n="actua/ción__n"/></e>
+<e lm="purificación"><i>purifica</i><par n="actua/ción__n"/></e>
+<e lm="ración"><i>ra</i><par n="actua/ción__n"/></e>
+<e lm="ratificación"><i>ratifica</i><par n="actua/ción__n"/></e>
+<e lm="reagrupación"><i>reagrupa</i><par n="actua/ción__n"/></e>
+<e lm="reaparición"><i>reapari</i><par n="actua/ción__n"/></e>
+<e lm="recaudación"><i>recauda</i><par n="actua/ción__n"/></e>
+<e lm="recepción"><i>recep</i><par n="actua/ción__n"/></e>
+<e lm="recesión"><i>recesi</i><par n="divisi/ón__n"/></e>
+<e lm="reclusión"><i>reclusi</i><par n="divisi/ón__n"/></e>
+<e lm="reconstrucción"><i>reconstruc</i><par n="actua/ción__n"/></e>
+<e lm="recreación"><i>recrea</i><par n="actua/ción__n"/></e>
+<e lm="rectificación"><i>rectifica</i><par n="actua/ción__n"/></e>
+<e lm="recuperación"><i>recupera</i><par n="actua/ción__n"/></e>
+<e lm="reedición"><i>reedi</i><par n="actua/ción__n"/></e>
+<e lm="reeducación"><i>reeduca</i><par n="actua/ción__n"/></e>
+<e lm="reelección"><i>reelec</i><par n="actua/ción__n"/></e>
+<e lm="reelección" r="LR"><p><l>reeslec</l><r>reelec</r></p><par n="actua/ción__n"/></e>
+<e lm="reelección" r="LR"><p><l>reesle</l><r>reelec</r></p><par n="actua/ción__n"/></e>
+<e lm="restructuración"><i>restructura</i><par n="actua/ción__n"/></e>
+<e lm="restructuración" r="LR"><p><l>reestructura</l><r>restructura</r></p><par n="actua/ción__n"/></e>
+<e lm="reflexión"><i>reflexi</i><par n="divisi/ón__n"/></e>
+<e lm="reforestación"><i>reforesta</i><par n="actua/ción__n"/></e>
+<e lm="refricheración"><i>refrichera</i><par n="actua/ción__n"/></e>
+<e lm="recheneración"><i>rechenera</i><par n="actua/ción__n"/></e>
+<e lm="reglamentación"><i>reglamenta</i><par n="actua/ción__n"/></e>
+<e lm="regulación"><i>regula</i><par n="actua/ción__n"/></e>
+<e lm="regularización"><i>regulariza</i><par n="actua/ción__n"/></e>
+<e lm="rehabilitación"><i>rehabilita</i><par n="actua/ción__n"/></e>
+<e lm="reinserción"><i>reinser</i><par n="actua/ción__n"/></e>
+<e lm="relaxación"><i>relaxa</i><par n="actua/ción__n"/></e>
+<e lm="remodelación"><i>remodela</i><par n="actua/ción__n"/></e>
+<e lm="reordenación"><i>reordena</i><par n="actua/ción__n"/></e>
+<e lm="reorganización"><i>reorganiza</i><par n="actua/ción__n"/></e>
+<e lm="repatriación"><i>repatria</i><par n="actua/ción__n"/></e>
+<e lm="repercusión"><i>repercusi</i><par n="divisi/ón__n"/></e>
+<e lm="reposición"><i>reposi</i><par n="actua/ción__n"/></e>
+<e lm="rescisión"><i>rescisi</i><par n="divisi/ón__n"/></e>
+<e lm="resolución"><i>resolu</i><par n="actua/ción__n"/></e>
+<e lm="restauración"><i>restaura</i><par n="actua/ción__n"/></e>
+<e lm="restitución"><i>restitu</i><par n="actua/ción__n"/></e>
+<e lm="resurrección"><i>resurrec</i><par n="actua/ción__n"/></e>
+<e lm="retención"><i>reten</i><par n="actua/ción__n"/></e>
+<e lm="retransmisión"><i>retransmisi</i><par n="divisi/ón__n"/></e>
+<e lm="retribución"><i>retribu</i><par n="actua/ción__n"/></e>
+<e lm="reurbanización"><i>reurbaniza</i><par n="actua/ción__n"/></e>
+<e lm="revisión"><i>revisi</i><par n="divisi/ón__n"/></e>
+<e lm="revitalización"><i>revitaliza</i><par n="actua/ción__n"/></e>
+<e lm="sanción"><i>san</i><par n="actua/ción__n"/></e>
+<e lm="saturación"><i>satura</i><par n="actua/ción__n"/></e>
+<e lm="seducción"><i>seduc</i><par n="actua/ción__n"/></e>
+<e lm="segregación"><i>segrega</i><par n="actua/ción__n"/></e>
+<e lm="sensibilización"><i>sensibiliza</i><par n="actua/ción__n"/></e>
+<e lm="sinyalización"><i>sinyaliza</i><par n="actua/ción__n"/></e>
+<e lm="sinyalización" r="LR"><p><l>senyaliza</l>  <r>sinyaliza</r></p><par n="actua/ción__n"/></e>
+<e lm="significación"><i>significa</i><par n="actua/ción__n"/></e>
+<e lm="simulación"><i>simula</i><par n="actua/ción__n"/></e>
+<e lm="socialización"><i>socializa</i><par n="actua/ción__n"/></e>
+<e lm="subdelegación"><i>subdelega</i><par n="actua/ción__n"/></e>
+<e lm="subestación"><i>subesta</i><par n="actua/ción__n"/></e>
+<e lm="sublevación"><i>subleva</i><par n="actua/ción__n"/></e>
+<e lm="subscripción"><i>subscrip</i><par n="actua/ción__n"/></e>
+<e lm="subscripción" r="LR"><p><l>suscripci</l>  <r>subscripci</r></p><par n="divisi/ón__n"/></e>
+<e lm="substitución"><i>substitu</i><par n="actua/ción__n"/></e>
+<e lm="subvención"><i>subven</i><par n="actua/ción__n"/></e>
+<e lm="succesión"><i>succesi</i><par n="divisi/ón__n"/></e>
+<e lm="succesión" r="LR"><p><l>sucesi</l>  <r>succesi</r></p><par n="divisi/ón__n"/></e>
+<e lm="sumisión"><i>sumisi</i><par n="divisi/ón__n"/></e>
+<e lm="superación"><i>supera</i><par n="actua/ción__n"/></e>
+<e lm="superproducción"><i>superproduc</i><par n="actua/ción__n"/></e>
+<e lm="supervisión"><i>supervisi</i><par n="divisi/ón__n"/></e>
+<e lm="suposición"><i>suposi</i><par n="actua/ción__n"/></e>
+<e lm="suspensión"><i>suspensi</i><par n="divisi/ón__n"/></e>
+<e lm="substitución"><i>substitu</i><par n="actua/ción__n"/></e>
+<e lm="substitución" r="LR"><p><l>sustitu</l>  <r>substitu</r></p><par n="actua/ción__n"/></e>
+<e lm="subtracción"><i>subtrac</i><par n="actua/ción__n"/></e>
+<e lm="subtracción" r="LR"><p><l>sustrac</l>  <r>subtrac</r></p><par n="actua/ción__n"/></e>
+<e lm="subtracción" r="LR"><p><l>substrac</l>  <r>subtrac</r></p><par n="actua/ción__n"/></e>
+<e lm="subtracción" r="LR"><p><l>soztrac</l>  <r>subtrac</r></p><par n="actua/ción__n"/></e>
+<e lm="subtracción" r="LR"><p><l>sostrac</l>  <r>subtrac</r></p><par n="actua/ción__n"/></e>
+<e lm="subtracción" r="LR"><p><l>sostra</l>  <r>subtrac</r></p><par n="actua/ción__n"/></e>
+<e lm="tasación"><i>tasa</i><par n="actua/ción__n"/></e>
+<e lm="telecomunicación"><i>telecomunica</i><par n="actua/ción__n"/></e>
+<e lm="tensión"><i>tensi</i><par n="divisi/ón__n"/></e>
+<e lm="titulación"><i>titula</i><par n="actua/ción__n"/></e>
+<e lm="titulación" r="LR"><p><l>titola</l><r>titula</r></p><par n="actua/ción__n"/></e>
+<e lm="titulación" r="LR"><p><l>tetola</l><r>titula</r></p><par n="actua/ción__n"/></e>
+<e lm="tramitación"><i>tramita</i><par n="actua/ción__n"/></e>
+<e lm="transacción"><i>transac</i><par n="actua/ción__n"/></e>
+<e lm="transfusión"><i>transfusi</i><par n="divisi/ón__n"/></e>
+<e lm="transición"><i>transi</i><par n="actua/ción__n"/></e>
+<e lm="transmisión"><i>transmisi</i><par n="divisi/ón__n"/></e>
+<e lm="transmisión" r="LR"><p><l>trasmisi</l>  <r>transmisi</r></p><par n="divisi/ón__n"/></e>
+<e lm="transposición"><i>transposi</i><par n="actua/ción__n"/></e>
+<e lm="tributación"><i>tributa</i><par n="actua/ción__n"/></e>
+<e lm="tripulación"><i>tripula</i><par n="actua/ción__n"/></e>
+<e lm="vejación"><i>vexa</i><par n="actua/ción__n"/></e>
+<e lm="vinculación"><i>vincula</i><par n="actua/ción__n"/></e>
+<e lm="visión"><i>visi</i><par n="divisi/ón__n"/></e>
+<e lm="visualización"><i>visualiza</i><par n="actua/ción__n"/></e>
+<e lm="simplificación"><i>simplifica</i><par n="actua/ción__n"/></e>
+<e lm="regresión"><i>regresi</i><par n="divisi/ón__n"/></e>
+<e lm="domiciliación"><i>domicilia</i><par n="actua/ción__n"/></e>
+<e lm="validación"><i>valida</i><par n="actua/ción__n"/></e>
+<e lm="autoliquidación"><i>autoliquida</i><par n="actua/ción__n"/></e>
+<e lm="retrocesión"><i>retrocesi</i><par n="divisi/ón__n"/></e>
+<e lm="intermeyación"><i>intermeya</i><par n="actua/ción__n"/></e>
+<e lm="intermeyación" r="LR"><p><l>intermedia</l><r>intermeya</r></p><par n="actua/ción__n"/></e>
+<e lm="imputación"><i>imputa</i><par n="actua/ción__n"/></e>
+<e lm="formalización"><i>formaliza</i><par n="actua/ción__n"/></e>
+<e lm="especificación" a="gema"><i>especifica</i><par n="actua/ción__n"/></e>
+<e lm="cumplimentación" a="gema"><i>cumplimenta</i><par n="actua/ción__n"/></e>
+<e lm="oscilación" a="gema"><i>oscila</i><par n="actua/ción__n"/></e>
+<e lm="adición"><i>adi</i><par n="actua/ción__n"/></e>
+<e lm="habilitación" a="gema"><i>habilita</i><par n="actua/ción__n"/></e>
+<e lm="concertación" a="gema"><i>concerta</i><par n="actua/ción__n"/></e>
+<e lm="fixación" a="gema"><i>fixa</i><par n="actua/ción__n"/></e>
+<e lm="contabilización" a="gema"><i>contabiliza</i><par n="actua/ción__n"/></e>
+<e lm="autofacturación" a="gema"><i>autofactura</i><par n="actua/ción__n"/></e>
+<e lm="impartición" a="gema"><i>imparti</i><par n="actua/ción__n"/></e>
+<e lm="exención" a="gema"><i>exen</i><par n="actua/ción__n"/></e>
+<e lm="consignación" a="gema"><i>consigna</i><par n="actua/ción__n"/></e>
+<e lm="concreción" a="gema"><i>concre</i><par n="actua/ción__n"/></e>
+<e lm="caución" a="gema"><i>cau</i><par n="actua/ción__n"/></e>
+<e lm="autochestión" a="gema"><i>autochesti</i><par n="divisi/ón__n"/></e>
+<e lm="atribución" a="gema"><i>atribu</i><par n="actua/ción__n"/></e>
+<e lm="aclaración" a="gema"><i>aclara</i><par n="actua/ción__n"/></e>
+<e lm="estructuración" a="mikel"><i>estructura</i><par n="actua/ción__n"/></e>
+<e lm="diseminación" a="mikel"><i>disemina</i><par n="actua/ción__n"/></e>
+<e lm="medicación" a=" alseoane@gmail.com"><i>medica</i><par n="actua/ción__n"/></e>
+<e lm="ovulación" a=" alseoane@gmail.com"><i>ovula</i><par n="actua/ción__n"/></e>
+<e lm="secreción" a=" alseoane@gmail.com"><i>secre</i><par n="actua/ción__n"/></e>
+<e lm="inchestión" a=" alseoane@gmail.com"><i>inchesti</i><par n="divisi/ón__n"/></e>
+<e lm="hipertensión" a=" alseoane@gmail.com"><i>hipertensi</i><par n="divisi/ón__n"/></e>
+<e lm="eyaculación" a=" alseoane@gmail.com"><i>eyacula</i><par n="actua/ción__n"/></e>
+<e lm="absorción" a=" alseoane@gmail.com"><i>absor</i><par n="actua/ción__n"/></e>
+<e lm="contraindicación" a=" alseoane@gmail.com"><i>contraindica</i><par n="actua/ción__n"/></e>
+<e lm="sudoración" a=" alseoane@gmail.com"><i>sudora</i><par n="actua/ción__n"/></e>
+<e lm="succión" a=" alseoane@gmail.com"><i>suc</i><par n="actua/ción__n"/></e>
+<e lm="revacunación" a=" alseoane@gmail.com"><i>revacuna</i><par n="actua/ción__n"/></e>
+<e lm="revacunación" r="LR"><p><l>revaccina</l><r>revacuna</r></p><par n="actua/ción__n"/></e>
+<e lm="palpación" a=" alseoane@gmail.com"><i>palpa</i><par n="actua/ción__n"/></e>
+<e lm="ingurchitación" a=" alseoane@gmail.com"><i>ingurchita</i><par n="actua/ción__n"/></e>
+<e lm="infusión" a=" alseoane@gmail.com"><i>infusi</i><par n="divisi/ón__n"/></e>
+<e lm="inflor"><i>inflor</i><par n="luenga__n"/></e>
+<e lm="politización"><i>politiza</i><par n="actua/ción__n"/></e>
+<e lm="seqüenciación"><i>seqüencia</i><par n="actua/ción__n"/></e>
+<e lm="seqüenciación" r="LR"><p><l>secuencia</l><r>seqüencia</r></p><par n="actua/ción__n"/></e>
+<e lm="porción"><i>por</i><par n="actua/ción__n"/></e>
+<e lm="condimentación"><i>condimenta</i><par n="actua/ción__n"/></e>
+<e lm="tarificación"><i>tarifica</i><par n="actua/ción__n"/></e>
+<e lm="aberración" a="prompsit2adn"><i>aberra</i><par n="actua/ción__n"/></e>
+<e lm="abolición" a="prompsit2adn"><i>aboli</i><par n="actua/ción__n"/></e>
+<e lm="adscripción" a="prompsit2adn"><i>adscrip</i><par n="actua/ción__n"/></e>
+<e lm="aliniación" a="prompsit2adn"><i>alinia</i><par n="actua/ción__n"/></e>
+<e lm="alucinación" a="prompsit2adn"><i>alucina</i><par n="actua/ción__n"/></e>
+<e lm="aprehensión" a="prompsit2adn"><i>aprehensi</i><par n="divisi/ón__n"/></e>
+<e lm="prensión" a="prompsit2adn"><i>prensi</i><par n="divisi/ón__n"/></e>
+<e lm="apropiación" a="prompsit2adn"><i>apropia</i><par n="actua/ción__n"/></e>
+<e lm="ascensión" a="prompsit2adn"><i>ascensi</i><par n="divisi/ón__n"/></e>
+<e lm="aseveración" a="prompsit2adn"><i>asevera</i><par n="actua/ción__n"/></e>
+<e lm="automoción" a="prompsit2adn"><i>automo</i><par n="actua/ción__n"/></e>
+<e lm="capacitación" a="prompsit2adn"><i>capacita</i><par n="actua/ción__n"/></e>
+<e lm="capitalización" a="prompsit2adn"><i>capitaliza</i><par n="actua/ción__n"/></e>
+<e lm="casación" a="prompsit2adn"><i>casa</i><par n="actua/ción__n"/></e>
+<e lm="circumcisión" a="prompsit2adn"><i>circumcisi</i><par n="divisi/ón__n"/></e>
+<e lm="circumcisión" r="LR"><p><l>circuncisi</l><r>circumcisi</r></p><par n="divisi/ón__n"/></e>
+<e lm="circumscripción" a="prompsit2adn"><i>circumscrip</i><par n="actua/ción__n"/></e>
+<e lm="circumscripción" r="LR"><p><l>circunscrip</l><r>circumscrip</r></p><par n="actua/ción__n"/></e>
+<e lm="condensación" a="prompsit2adn"><i>condensa</i><par n="actua/ción__n"/></e>
+<e lm="confiscación" a="prompsit2adn"><i>confisca</i><par n="actua/ción__n"/></e>
+<e lm="contención" a="prompsit2adn"><i>conten</i><par n="actua/ción__n"/></e>
+<e lm="convección" a="prompsit2adn"><i>convec</i><par n="actua/ción__n"/></e>
+<e lm="convulsión" a="prompsit2adn"><i>convulsi</i><par n="divisi/ón__n"/></e>
+<e lm="correlación" a="prompsit2adn"><i>correla</i><par n="actua/ción__n"/></e>
+<e lm="depreciación" a="prompsit2adn"><i>deprecia</i><par n="actua/ción__n"/></e>
+<e lm="desacceleración" a="prompsit2adn"><i>desaccelera</i><par n="actua/ción__n"/></e>
+<e lm="desacceleración" r="LR"><p><l>desacelera</l><r>desaccelera</r></p><par n="actua/ción__n"/></e>
+<e lm="desactivación" a="prompsit2adn"><i>desactiva</i><par n="actua/ción__n"/></e>
+<e lm="descomposición" a="prompsit2adn"><i>descomposi</i><par n="actua/ción__n"/></e>
+<e lm="deserción" a="prompsit2adn"><i>deser</i><par n="actua/ción__n"/></e>
+<e lm="desertización" a="prompsit2adn"><i>desertiza</i><par n="actua/ción__n"/></e>
+<e lm="desnucleyarización" a="prompsit2adn"><i>desnucleyariza</i><par n="actua/ción__n"/></e>
+<e lm="desnutrición" a="prompsit2adn"><i>desnutri</i><par n="actua/ción__n"/></e>
+<e lm="despenalización" a="prompsit2adn"><i>despenaliza</i><par n="actua/ción__n"/></e>
+<e lm="desproporción" a="prompsit2adn"><i>despropor</i><par n="actua/ción__n"/></e>
+<e lm="desunión" a="prompsit2adn"><i>desuni</i><par n="divisi/ón__n"/></e>
+<e lm="devastación" a="prompsit2adn"><i>devasta</i><par n="actua/ción__n"/></e>
+<e lm="dichitalización" a="prompsit2adn"><i>dichitaliza</i><par n="actua/ción__n"/></e>
+<e lm="dinamización" a="prompsit2adn"><i>dinamiza</i><par n="actua/ción__n"/></e>
+<e lm="disfunción" a="prompsit2adn"><i>disfun</i><par n="actua/ción__n"/></e>
+<e lm="distensión" a="prompsit2adn"><i>distensi</i><par n="divisi/ón__n"/></e>
+<e lm="disuasión" a="prompsit2adn"><i>disuasi</i><par n="divisi/ón__n"/></e>
+<e lm="duplicación" a="prompsit2adn"><i>duplica</i><par n="actua/ción__n"/></e>
+<e lm="emanación" a="prompsit2adn"><i>emana</i><par n="actua/ción__n"/></e>
+<e lm="erección" a="prompsit2adn"><i>erec</i><par n="actua/ción__n"/></e>
+<e lm="erosión" a="prompsit2adn"><i>erosi</i><par n="divisi/ón__n"/></e>
+<e lm="scisión" a="prompsit2adn"><i>scisi</i><par n="divisi/ón__n"/></e>
+<e lm="scisión" r="LR"><p><l>escisi</l><r>scisi</r></p><par n="divisi/ón__n"/></e>
+<e lm="estabilización" a="prompsit2adn"><i>estabiliza</i><par n="actua/ción__n"/></e>
+<e lm="exhumación" a="prompsit2adn"><i>exhuma</i><par n="actua/ción__n"/></e>
+<e lm="extorsión" a="prompsit2adn"><i>extorsi</i><par n="divisi/ón__n"/></e>
+<e lm="fertilización" a="prompsit2adn"><i>fertiliza</i><par n="actua/ción__n"/></e>
+<e lm="filiación" a="prompsit2adn"><i>filia</i><par n="actua/ción__n"/></e>
+<e lm="fiscalización" a="prompsit2adn"><i>fiscaliza</i><par n="actua/ción__n"/></e>
+<e lm="flexibilización" a="prompsit2adn"><i>flexibiliza</i><par n="actua/ción__n"/></e>
+<e lm="flotación" a="prompsit2adn"><i>flota</i><par n="actua/ción__n"/></e>
+<e lm="fluctuación" a="prompsit2adn"><i>fluctua</i><par n="actua/ción__n"/></e>
+<e lm="formulación" a="prompsit2adn"><i>formula</i><par n="actua/ción__n"/></e>
+<e lm="fragmentación" a="prompsit2adn"><i>fragmenta</i><par n="actua/ción__n"/></e>
+<e lm="fundición" a="prompsit2adn"><i>fundi</i><par n="actua/ción__n"/></e>
+<e lm="implementación" a="prompsit2adn"><i>implementa</i><par n="actua/ción__n"/></e>
+<e lm="imprevisión" a="prompsit2adn"><i>imprevisi</i><par n="divisi/ón__n"/></e>
+<e lm="incautación" a="prompsit2adn"><i>incauta</i><par n="actua/ción__n"/></e>
+<e lm="incubación" a="prompsit2adn"><i>incuba</i><par n="actua/ción__n"/></e>
+<e lm="inculpación" a="prompsit2adn"><i>inculpa</i><par n="actua/ción__n"/></e>
+<e lm="indagación" a="prompsit2adn"><i>indaga</i><par n="actua/ción__n"/></e>
+<e lm="indefinición" a="prompsit2adn"><i>indefini</i><par n="actua/ción__n"/></e>
+<e lm="indisposición" a="prompsit2adn"><i>indisposi</i><par n="actua/ción__n"/></e>
+<e lm="inducción" a="prompsit2adn"><i>induc</i><par n="actua/ción__n"/></e>
+<e lm="infiltración" a="prompsit2adn"><i>infiltra</i><par n="actua/ción__n"/></e>
+<e lm="inhibición" a="prompsit2adn"><i>inhibi</i><par n="actua/ción__n"/></e>
+<e lm="immovilización" a="prompsit2adn"><i>immoviliza</i><par n="actua/ción__n"/></e>
+<e lm="immovilización" r="LR"><p><l>inmoviliza</l><r>immoviliza</r></p><par n="actua/ción__n"/></e>
+<e lm="instauración" a="prompsit2adn"><i>instaura</i><par n="actua/ción__n"/></e>
+<e lm="intensificación" a="prompsit2adn"><i>intensifica</i><par n="actua/ción__n"/></e>
+<e lm="interlocución" a="prompsit2adn"><i>interlocu</i><par n="actua/ción__n"/></e>
+<e lm="internacionalización" a="prompsit2adn"><i>internacionaliza</i><par n="actua/ción__n"/></e>
+<e lm="interpelación" a="prompsit2adn"><i>interpela</i><par n="actua/ción__n"/></e>
+<e lm="intrusión" a="prompsit2adn"><i>intrusi</i><par n="divisi/ón__n"/></e>
+<e lm="lamentación" a="prompsit2adn"><i>lamenta</i><par n="actua/ción__n"/></e>
+<e lm="liberalización" a="prompsit2adn"><i>liberaliza</i><par n="actua/ción__n"/></e>
+<e lm="luxación" a="prompsit2adn"><i>luxa</i><par n="actua/ción__n"/></e>
+<e lm="malformación" a="prompsit2adn"><i>malforma</i><par n="actua/ción__n"/></e>
+<e lm="malnutrición" a="prompsit2adn"><i>malnutri</i><par n="actua/ción__n"/></e>
+<e lm="malversación" a="prompsit2adn"><i>malversa</i><par n="actua/ción__n"/></e>
+<e lm="matización" a="prompsit2adn"><i>matiza</i><par n="actua/ción__n"/></e>
+<e lm="mentalización" a="prompsit2adn"><i>mentaliza</i><par n="actua/ción__n"/></e>
+<e lm="miniaturización" a="prompsit2adn"><i>miniaturiza</i><par n="actua/ción__n"/></e>
+<e lm="modelización" a="prompsit2adn"><i>modeliza</i><par n="actua/ción__n"/></e>
+<e lm="mutilación" a="prompsit2adn"><i>mutila</i><par n="actua/ción__n"/></e>
+<e lm="obstrucción" a="prompsit2adn"><i>obstruc</i><par n="actua/ción__n"/></e>
+<e lm="ocultación" a="prompsit2adn"><i>oculta</i><par n="actua/ción__n"/></e>
+<e lm="optimización" a="prompsit2adn"><i>optimiza</i><par n="actua/ción__n"/></e>
+<e lm="pacificación" a="prompsit2adn"><i>pacifica</i><par n="actua/ción__n"/></e>
+<e lm="partición" a="prompsit2adn"><i>parti</i><par n="actua/ción__n"/></e>
+<e lm="personalización" a="prompsit2adn"><i>personaliza</i><par n="actua/ción__n"/></e>
+<e lm="personalización" r="LR"><p><l>presonaliza</l><r>personaliza</r></p><par n="actua/ción__n"/></e>
+<e lm="perturbación" a="prompsit2adn"><i>perturba</i><par n="actua/ción__n"/></e>
+<e lm="plantación" a="prompsit2adn"><i>planta</i><par n="actua/ción__n"/></e>
+<e lm="plasmación" a="prompsit2adn"><i>plasma</i><par n="actua/ción__n"/></e>
+<e lm="polarización" a="prompsit2adn"><i>polariza</i><par n="actua/ción__n"/></e>
+<e lm="popularización" a="prompsit2adn"><i>populariza</i><par n="actua/ción__n"/></e>
+<e lm="postproducción" a="prompsit2adn"><i>postproduc</i><par n="actua/ción__n"/></e>
+<e lm="potabilización" a="prompsit2adn"><i>potabiliza</i><par n="actua/ción__n"/></e>
+<e lm="potenciación" a="prompsit2adn"><i>potencia</i><par n="actua/ción__n"/></e>
+<e lm="predilección" a="prompsit2adn"><i>predilec</i><par n="actua/ción__n"/></e>
+<e lm="premeditación" a="prompsit2adn"><i>premedita</i><par n="actua/ción__n"/></e>
+<e lm="preservación" a="prompsit2adn"><i>preserva</i><par n="actua/ción__n"/></e>
+<e lm="presurización" a="prompsit2adn"><i>presuriza</i><par n="actua/ción__n"/></e>
+<e lm="prevaricación" a="prompsit2adn"><i>prevarica</i><par n="actua/ción__n"/></e>
+<e lm="privación" a="prompsit2adn"><i>priva</i><par n="actua/ción__n"/></e>
+<e lm="proclamación" a="prompsit2adn"><i>proclama</i><par n="actua/ción__n"/></e>
+<e lm="profanación" a="prompsit2adn"><i>profana</i><par n="actua/ción__n"/></e>
+<e lm="profesionalización" a="prompsit2adn"><i>profesionaliza</i><par n="actua/ción__n"/></e>
+<e lm="profusión" a="prompsit2adn"><i>profusi</i><par n="divisi/ón__n"/></e>
+<e lm="promulgación" a="prompsit2adn"><i>promulga</i><par n="actua/ción__n"/></e>
+<e lm="propensión" a="prompsit2adn"><i>propensi</i><par n="divisi/ón__n"/></e>
+<e lm="propulsión" a="prompsit2adn"><i>propulsi</i><par n="divisi/ón__n"/></e>
+<e lm="prospección" a="prompsit2adn"><i>prospec</i><par n="actua/ción__n"/></e>
+<e lm="racionalización" a="prompsit2adn"><i>racionaliza</i><par n="actua/ción__n"/></e>
+<e lm="orientalización"><i>orientaliza</i><par n="actua/ción__n"/></e>
+<e lm="radicalización" a="prompsit2adn"><i>radicaliza</i><par n="actua/ción__n"/></e>
+<e lm="radiodifusión" a="prompsit2adn"><i>radiodifusi</i><par n="divisi/ón__n"/></e>
+<e lm="ralentización" a="prompsit2adn"><i>ralentiza</i><par n="actua/ción__n"/></e>
+<e lm="ramificación" a="prompsit2adn"><i>ramifica</i><par n="actua/ción__n"/></e>
+<e lm="reactivación" a="prompsit2adn"><i>reactiva</i><par n="actua/ción__n"/></e>
+<e lm="readmisión" a="prompsit2adn"><i>readmisi</i><par n="divisi/ón__n"/></e>
+<e lm="reafirmación" a="prompsit2adn"><i>reafirma</i><par n="actua/ción__n"/></e>
+<e lm="rebelión" a="prompsit2adn"><i>rebeli</i><par n="divisi/ón__n"/></e>
+<e lm="recolección" a="prompsit2adn"><i>recolec</i><par n="actua/ción__n"/></e>
+<e lm="recombinación" a="prompsit2adn"><i>recombina</i><par n="actua/ción__n"/></e>
+<e lm="reconciliación" a="prompsit2adn"><i>reconcilia</i><par n="actua/ción__n"/></e>
+<e lm="reconducción" a="prompsit2adn"><i>reconduc</i><par n="actua/ción__n"/></e>
+<e lm="recriminación" a="prompsit2adn"><i>recrimina</i><par n="actua/ción__n"/></e>
+<e lm="recusación" a="prompsit2adn"><i>recusa</i><par n="actua/ción__n"/></e>
+<e lm="redención" a="prompsit2adn"><i>reden</i><par n="actua/ción__n"/></e>
+<e lm="reencarnación" a="prompsit2adn"><i>reencarna</i><par n="actua/ción__n"/></e>
+<e lm="refundación" a="prompsit2adn"><i>refunda</i><par n="actua/ción__n"/></e>
+<e lm="reincorporación" a="prompsit2adn"><i>reincorpora</i><par n="actua/ción__n"/></e>
+<e lm="reinstauración" a="prompsit2adn"><i>reinstaura</i><par n="actua/ción__n"/></e>
+<e lm="reinterpretación" a="prompsit2adn"><i>reinterpreta</i><par n="actua/ción__n"/></e>
+<e lm="reiteración" a="prompsit2adn"><i>reitera</i><par n="actua/ción__n"/></e>
+<e lm="remisión" a="prompsit2adn"><i>remisi</i><par n="divisi/ón__n"/></e>
+<e lm="renegociación" a="prompsit2adn"><i>renegocia</i><par n="actua/ción__n"/></e>
+<e lm="reorientación" a="prompsit2adn"><i>reorienta</i><par n="actua/ción__n"/></e>
+<e lm="reunificación" a="prompsit2adn"><i>reunifica</i><par n="actua/ción__n"/></e>
+<e lm="revalorización" a="prompsit2adn"><i>revaloriza</i><par n="actua/ción__n"/></e>
+<e lm="revocación" a="prompsit2adn"><i>revoca</i><par n="actua/ción__n"/></e>
+<e lm="romanización" a="prompsit2adn"><i>romaniza</i><par n="actua/ción__n"/></e>
+<e lm="sazón" a="prompsit2adn"><i>saz</i><par n="divisi/ón__n"/></e>
+<e lm="secesión" a="prompsit2adn"><i>secesi</i><par n="divisi/ón__n"/></e>
+<e lm="sincronización" a="prompsit2adn"><i>sincroniza</i><par n="actua/ción__n"/></e>
+<e lm="sobrevaloración" a="prompsit2adn"><i>sobrevalora</i><par n="actua/ción__n"/></e>
+<e lm="subcontratación" a="prompsit2adn"><i>subcontrata</i><par n="actua/ción__n"/></e>
+<e lm="subrogación" a="prompsit2adn"><i>subroga</i><par n="actua/ción__n"/></e>
+<e lm="superposición" a="prompsit2adn"><i>superposi</i><par n="actua/ción__n"/></e>
+<e lm="terminación" a="prompsit2adn"><i>termina</i><par n="actua/ción__n"/></e>
+<e lm="transcripción" a="prompsit2adn"><i>transcrip</i><par n="actua/ción__n"/></e>
+<e lm="transpiración" a="prompsit2adn"><i>transpira</i><par n="actua/ción__n"/></e>
+<e lm="translación" a="prompsit2adn"><i>transla</i><par n="actua/ción__n"/></e>
+<e lm="translación" r="LR"><p><l>trasla</l><r>transla</r></p><par n="actua/ción__n"/></e>
+<e lm="ulceración" a="prompsit2adn"><i>ulcera</i><par n="actua/ción__n"/></e>
+<e lm="unificación" a="prompsit2adn"><i>unifica</i><par n="actua/ción__n"/></e>
+<e lm="usurpación" a="prompsit2adn"><i>usurpa</i><par n="actua/ción__n"/></e>
+<e lm="valorización" a="prompsit2adn"><i>valoriza</i><par n="actua/ción__n"/></e>
+<e lm="chuxtaposición" a="prompsit2adn"><i>chuxtaposi</i><par n="actua/ción__n"/></e>
+<e lm="abchección" a="prompsit2adn"><i>abchec</i><par n="actua/ción__n"/></e>
+<e lm="acepción" a="prompsit2adn"><i>acep</i><par n="actua/ción__n"/></e>
+<e lm="aclimatación" a="prompsit2adn"><i>aclimata</i><par n="actua/ción__n"/></e>
+<e lm="acomodación" a="prompsit2adn"><i>acomoda</i><par n="actua/ción__n"/></e>
+<e lm="achilización" a="prompsit2adn"><i>achiliza</i><par n="actua/ción__n"/></e>
+<e lm="alocución" a="prompsit2adn"><i>alocu</i><par n="actua/ción__n"/></e>
+<e lm="amputación" a="prompsit2adn"><i>amputa</i><par n="actua/ción__n"/></e>
+<e lm="anidación" a="prompsit2adn"><i>anida</i><par n="actua/ción__n"/></e>
+<e lm="anihilación" a="prompsit2adn"><i>anihila</i><par n="actua/ción__n"/></e>
+<e lm="anihilación" r="LR"><p><l>aniquila</l><r>anihila</r></p><par n="actua/ción__n"/></e>
+<e lm="anticontaminación" a="prompsit2adn"><i>anticontamina</i><par n="actua/ción__n"/></e>
+<e lm="antiglobalización" a="prompsit2adn"><i>antiglobaliza</i><par n="actua/ción__n"/></e>
+<e lm="harmonización" a="prompsit2adn"><i>harmoniza</i><par n="actua/ción__n"/></e>
+<e lm="harmonización" r="LR"><p><l>armoniza</l><r>harmoniza</r></p><par n="actua/ción__n"/></e>
+<e lm="atenuación" a="prompsit2adn"><i>atenua</i><par n="actua/ción__n"/></e>
+<e lm="autentificación" a="prompsit2adn"><i>autentifica</i><par n="actua/ción__n"/></e>
+<e lm="autodestrucción" a="prompsit2adn"><i>autodestruc</i><par n="actua/ción__n"/></e>
+<e lm="automedicación" a="prompsit2adn"><i>automedica</i><par n="actua/ción__n"/></e>
+<e lm="autoprotección" a="prompsit2adn"><i>autoprotec</i><par n="actua/ción__n"/></e>
+<e lm="autoprotección" a="prompsit2adn"><i>autoprotec</i><par n="actua/ción__n"/></e>
+<e lm="autopublicación" a="prompsit2adn"><i>autopublica</i><par n="actua/ción__n"/></e>
+<e lm="beatificación" a="prompsit2adn"><i>beatifica</i><par n="actua/ción__n"/></e>
+<e lm="calcinación" a="prompsit2adn"><i>calcina</i><par n="actua/ción__n"/></e>
+<e lm="catalogación" a="prompsit2adn"><i>cataloga</i><par n="actua/ción__n"/></e>
+<e lm="cimentación" a="prompsit2adn"><i>cimenta</i><par n="actua/ción__n"/></e>
+<e lm="circumnavegación" a="prompsit2adn"><i>circumnavega</i><par n="actua/ción__n"/></e>
+<e lm="circumnavegación" r="LR"><p><l>circunnavega</l><r>circumnavega</r></p><par n="actua/ción__n"/></e>
+<e lm="climatización" a="prompsit2adn"><i>climatiza</i><par n="actua/ción__n"/></e>
+<e lm="cloración" a="prompsit2adn"><i>clora</i><par n="actua/ción__n"/></e>
+<e lm="coeducación" a="prompsit2adn"><i>coeduca</i><par n="actua/ción__n"/></e>
+<e lm="coerción" a="prompsit2adn"><i>coer</i><par n="actua/ción__n"/></e>
+<e lm="cognición" a="prompsit2adn"><i>cogni</i><par n="actua/ción__n"/></e>
+<e lm="cohabitación" a="prompsit2adn"><i>cohabita</i><par n="actua/ción__n"/></e>
+<e lm="compactación" a="prompsit2adn"><i>compacta</i><par n="actua/ción__n"/></e>
+<e lm="concatenación" a="prompsit2adn"><i>concatena</i><par n="actua/ción__n"/></e>
+<e lm="concelebración" a="prompsit2adn"><i>concelebra</i><par n="actua/ción__n"/></e>
+<e lm="conceptualización" a="prompsit2adn"><i>conceptualiza</i><par n="actua/ción__n"/></e>
+<e lm="condonación" a="prompsit2adn"><i>condona</i><par n="actua/ción__n"/></e>
+<e lm="constatación" a="prompsit2adn"><i>constata</i><par n="actua/ción__n"/></e>
+<e lm="contrainformación" a="prompsit2adn"><i>contrainforma</i><par n="actua/ción__n"/></e>
+<e lm="contraprogramación" a="prompsit2adn"><i>contraprograma</i><par n="actua/ción__n"/></e>
+<e lm="conurbación" a="prompsit2adn"><i>conurba</i><par n="actua/ción__n"/></e>
+<e lm="coproducción" a="prompsit2adn"><i>coproduc</i><par n="actua/ción__n"/></e>
+<e lm="culpabilización" a="prompsit2adn"><i>culpabiliza</i><par n="actua/ción__n"/></e>
+<e lm="declamación" a="prompsit2adn"><i>declama</i><par n="actua/ción__n"/></e>
+<e lm="decheneración" a="prompsit2adn"><i>dechenera</i><par n="actua/ción__n"/></e>
+<e lm="delación" a="prompsit2adn"><i>dela</i><par n="actua/ción__n"/></e>
+<e lm="dentición" a="prompsit2adn"><i>denti</i><par n="actua/ción__n"/></e>
+<e lm="depilación" a="prompsit2adn"><i>depila</i><par n="actua/ción__n"/></e>
+<e lm="desadaptación" a="prompsit2adn"><i>desadapta</i><par n="actua/ción__n"/></e>
+<e lm="desafección" a="prompsit2adn"><i>desafec</i><par n="actua/ción__n"/></e>
+<e lm="desalación" a="prompsit2adn"><i>desala</i><par n="actua/ción__n"/></e>
+<e lm="desalinización" a="prompsit2adn"><i>desaliniza</i><par n="actua/ción__n"/></e>
+<e lm="desaprobación" a="prompsit2adn"><i>desaproba</i><par n="actua/ción__n"/></e>
+<e lm="desatención" a="prompsit2adn"><i>desaten</i><par n="actua/ción__n"/></e>
+<e lm="desautorización" a="prompsit2adn"><i>desautoriza</i><par n="actua/ción__n"/></e>
+<e lm="descapitalización" a="prompsit2adn"><i>descapitaliza</i><par n="actua/ción__n"/></e>
+<e lm="desclasificación" a="prompsit2adn"><i>desclasifica</i><par n="actua/ción__n"/></e>
+<e lm="desconfiguración" a="prompsit2adn"><i>desconfigura</i><par n="actua/ción__n"/></e>
+<e lm="desconchelación" a="prompsit2adn"><i>desconchela</i><par n="actua/ción__n"/></e>
+<e lm="descontaminación" a="prompsit2adn"><i>descontamina</i><par n="actua/ción__n"/></e>
+<e lm="descoordinación" a="prompsit2adn"><i>descoordina</i><par n="actua/ción__n"/></e>
+<e lm="desertificación" a="prompsit2adn"><i>desertifica</i><par n="actua/ción__n"/></e>
+<e lm="desestabilización" a="prompsit2adn"><i>desestabiliza</i><par n="actua/ción__n"/></e>
+<e lm="desestimación" a="prompsit2adn"><i>desestima</i><par n="actua/ción__n"/></e>
+<e lm="desestructuración" a="prompsit2adn"><i>desestructura</i><par n="actua/ción__n"/></e>
+<e lm="desexualización" a="prompsit2adn"><i>desexualiza</i><par n="actua/ción__n"/></e>
+<e lm="desfeminización" a="prompsit2adn"><i>desfeminiza</i><par n="actua/ción__n"/></e>
+<e lm="desglaciación" a="prompsit2adn"><i>desglacia</i><par n="actua/ción__n"/></e>
+<e lm="desgravación" a="prompsit2adn"><i>desgrava</i><par n="actua/ción__n"/></e>
+<e lm="deshumanización" a="prompsit2adn"><i>deshumaniza</i><par n="actua/ción__n"/></e>
+<e lm="desinstalación" a="prompsit2adn"><i>desinstala</i><par n="actua/ción__n"/></e>
+<e lm="desintoxicación" a="prompsit2adn"><i>desintoxica</i><par n="actua/ción__n"/></e>
+<e lm="deslechitimación" a="prompsit2adn"><i>deslechitima</i><par n="actua/ción__n"/></e>
+<e lm="desmilitarización" a="prompsit2adn"><i>desmilitariza</i><par n="actua/ción__n"/></e>
+<e lm="desmotivación" a="prompsit2adn"><i>desmotiva</i><par n="actua/ción__n"/></e>
+<e lm="desocupación" a="prompsit2adn"><i>desocupa</i><par n="actua/ción__n"/></e>
+<e lm="desorganización" a="prompsit2adn"><i>desorganiza</i><par n="actua/ción__n"/></e>
+<e lm="despreocupación" a="prompsit2adn"><i>despreocupa</i><par n="actua/ción__n"/></e>
+<e lm="desprotección" a="prompsit2adn"><i>desprotec</i><par n="actua/ción__n"/></e>
+<e lm="desvinculación" a="prompsit2adn"><i>desvincula</i><par n="actua/ción__n"/></e>
+<e lm="detonación" a="prompsit2adn"><i>detona</i><par n="actua/ción__n"/></e>
+<e lm="devaluación" a="prompsit2adn"><i>devalua</i><par n="actua/ción__n"/></e>
+<e lm="difamación" a="prompsit2adn"><i>difama</i><par n="actua/ción__n"/></e>
+<e lm="disociación" a="prompsit2adn"><i>disocia</i><par n="actua/ción__n"/></e>
+<e lm="ebullición" a="prompsit2adn"><i>ebulli</i><par n="actua/ción__n"/></e>
+<e lm="electrificación" a="prompsit2adn"><i>electrifica</i><par n="actua/ción__n"/></e>
+<e lm="electrocución" a="prompsit2adn"><i>electrocu</i><par n="actua/ción__n"/></e>
+<e lm="encriptación" a="prompsit2adn"><i>encripta</i><par n="actua/ción__n"/></e>
+<e lm="scenificación" a="prompsit2adn"><i>scenifica</i><par n="actua/ción__n"/></e>
+<e lm="scenificación" r="LR"><p><l>escenifica</l><r>scenifica</r></p><par n="actua/ción__n"/></e>
+<e lm="esterilización" a="prompsit2adn"><i>esteriliza</i><par n="actua/ción__n"/></e>
+<e lm="estigmatización" a="prompsit2adn"><i>estigmatiza</i><par n="actua/ción__n"/></e>
+<e lm="estilización" a="prompsit2adn"><i>estiliza</i><par n="actua/ción__n"/></e>
+<e lm="excarceración" a="prompsit2adn"><i>excarcera</i><par n="actua/ción__n"/></e>
+<e lm="excarceración" r="LR"><p><l>excarcela</l><r>excarcera</r></p><par n="actua/ción__n"/></e>
+<e lm="exculpación" a="prompsit2adn"><i>exculpa</i><par n="actua/ción__n"/></e>
+<e lm="expiación" a="prompsit2adn"><i>expia</i><par n="actua/ción__n"/></e>
+<e lm="extenuación" a="prompsit2adn"><i>extenua</i><par n="actua/ción__n"/></e>
+<e lm="exteriorización" a="prompsit2adn"><i>exterioriza</i><par n="actua/ción__n"/></e>
+<e lm="extirpación" a="prompsit2adn"><i>extirpa</i><par n="actua/ción__n"/></e>
+<e lm="extralimitación" a="prompsit2adn"><i>extralimita</i><par n="actua/ción__n"/></e>
+<e lm="fabulación" a="prompsit2adn"><i>fabula</i><par n="actua/ción__n"/></e>
+<e lm="facilitación" a="prompsit2adn"><i>facilita</i><par n="actua/ción__n"/></e>
+<e lm="fermentación" a="prompsit2adn"><i>fermenta</i><par n="actua/ción__n"/></e>
+<e lm="fidelización" a="prompsit2adn"><i>fideliza</i><par n="actua/ción__n"/></e>
+<e lm="fortificación" a="prompsit2adn"><i>fortifica</i><par n="actua/ción__n"/></e>
+<e lm="fotocomposición" a="prompsit2adn"><i>fotocomposi</i><par n="actua/ción__n"/></e>
+<e lm="fotointerpretación" a="prompsit2adn"><i>fotointerpreta</i><par n="actua/ción__n"/></e>
+<e lm="freqüentación" a="prompsit2adn"><i>freqüenta</i><par n="actua/ción__n"/></e>
+<e lm="freqüentación" r="LR"><p><l>frecuenta</l><r>freqüenta</r></p><par n="actua/ción__n"/></e>
+<e lm="fumigación" a="prompsit2adn"><i>fumiga</i><par n="actua/ción__n"/></e>
+<e lm="gobernación" a="prompsit2adn"><i>goberna</i><par n="actua/ción__n"/></e>
+<e lm="hibridación" a="prompsit2adn"><i>hibrida</i><par n="actua/ción__n"/></e>
+<e lm="homocheneización" a="prompsit2adn"><i>homocheneiza</i><par n="actua/ción__n"/></e>
+<e lm="ignición" a="prompsit2adn"><i>igni</i><par n="actua/ción__n"/></e>
+<e lm="igualación" a="prompsit2adn"><i>iguala</i><par n="actua/ción__n"/></e>
+<e lm="impugnación" a="prompsit2adn"><i>impugna</i><par n="actua/ción__n"/></e>
+<e lm="inacción" a="prompsit2adn"><i>inac</i><par n="actua/ción__n"/></e>
+<e lm="inanición" a="prompsit2adn"><i>inani</i><par n="actua/ción__n"/></e>
+<e lm="incapacitación" a="prompsit2adn"><i>incapacita</i><par n="actua/ción__n"/></e>
+<e lm="incentivación" a="prompsit2adn"><i>incentiva</i><par n="actua/ción__n"/></e>
+<e lm="incoación" a="prompsit2adn"><i>incoa</i><par n="actua/ción__n"/></e>
+<e lm="incriminación" a="prompsit2adn"><i>incrimina</i><par n="actua/ción__n"/></e>
+<e lm="individualización" a="prompsit2adn"><i>individualiza</i><par n="actua/ción__n"/></e>
+<e lm="industrialización" a="prompsit2adn"><i>industrializa</i><par n="actua/ción__n"/></e>
+<e lm="informatización" a="prompsit2adn"><i>informatiza</i><par n="actua/ción__n"/></e>
+<e lm="infravaloración" a="prompsit2adn"><i>infravalora</i><par n="actua/ción__n"/></e>
+<e lm="inoculación" a="prompsit2adn"><i>inocula</i><par n="actua/ción__n"/></e>
+<e lm="inquisición" a="prompsit2adn"><i>inquisi</i><par n="actua/ción__n"/></e>
+<e lm="instigación" a="prompsit2adn"><i>instiga</i><par n="actua/ción__n"/></e>
+<e lm="instrumentación" a="prompsit2adn"><i>instrumenta</i><par n="actua/ción__n"/></e>
+<e lm="instrumentalización" a="prompsit2adn"><i>instrumentaliza</i><par n="actua/ción__n"/></e>
+<e lm="interceptación" a="prompsit2adn"><i>intercepta</i><par n="actua/ción__n"/></e>
+<e lm="intercomunicación" a="prompsit2adn"><i>intercomunica</i><par n="actua/ción__n"/></e>
+<e lm="interdicción" a="prompsit2adn"><i>interdic</i><par n="actua/ción__n"/></e>
+<e lm="interposición" a="prompsit2adn"><i>interposi</i><par n="actua/ción__n"/></e>
+<e lm="introspección" a="prompsit2adn"><i>introspec</i><par n="actua/ción__n"/></e>
+<e lm="invocación" a="prompsit2adn"><i>invoca</i><par n="actua/ción__n"/></e>
+<e lm="islamización" a="prompsit2adn"><i>islamiza</i><par n="actua/ción__n"/></e>
+<e lm="lapidación" a="prompsit2adn"><i>lapida</i><par n="actua/ción__n"/></e>
+<e lm="legación" a="prompsit2adn"><i>lega</i><par n="actua/ción__n"/></e>
+<e lm="lechitimación" a="prompsit2adn"><i>lechitima</i><par n="actua/ción__n"/></e>
+<e lm="levitación" a="prompsit2adn"><i>levita</i><par n="actua/ción__n"/></e>
+<e lm="liqüefacción" a="prompsit2adn"><i>liqüefac</i><par n="actua/ción__n"/></e>
+<e lm="liqüefacción" r="LR"><p><l>licuefac</l><r>liqüefac</r></p><par n="actua/ción__n"/></e>
+<e lm="loción" a="prompsit2adn"><i>lo</i><par n="actua/ción__n"/></e>
+<e lm="locomoción" a="prompsit2adn"><i>locomo</i><par n="actua/ción__n"/></e>
+<e lm="locución" a="prompsit2adn"><i>locu</i><par n="actua/ción__n"/></e>
+<e lm="lubricación" a="prompsit2adn"><i>lubrica</i><par n="actua/ción__n"/></e>
+<e lm="macroestación" a="prompsit2adn"><i>macroesta</i><par n="actua/ción__n"/></e>
+<e lm="macroestación" r="LR"><p><l>macrosta</l><r>macroesta</r></p><par n="actua/ción__n"/></e>
+<e lm="macrogara"><i>macrogara</i><par n="luenga__n"/></e>
+<e lm="macrourbanización" a="prompsit2adn"><i>macrourbaniza</i><par n="actua/ción__n"/></e>
+<e lm="maquinación" a="prompsit2adn"><i>maquina</i><par n="actua/ción__n"/></e>
+<e lm="marcación" a="prompsit2adn"><i>marca</i><par n="actua/ción__n"/></e>
+<e lm="mecanización" a="prompsit2adn"><i>mecaniza</i><par n="actua/ción__n"/></e>
+<e lm="mineralización" a="prompsit2adn"><i>mineraliza</i><par n="actua/ción__n"/></e>
+<e lm="minimización" a="prompsit2adn"><i>minimiza</i><par n="actua/ción__n"/></e>
+<e lm="mitigación" a="prompsit2adn"><i>mitiga</i><par n="actua/ción__n"/></e>
+<e lm="modulación" a="prompsit2adn"><i>modula</i><par n="actua/ción__n"/></e>
+<e lm="monitorización" a="prompsit2adn"><i>monitoriza</i><par n="actua/ción__n"/></e>
+<e lm="motorización" a="prompsit2adn"><i>motoriza</i><par n="actua/ción__n"/></e>
+<e lm="nacionalización" a="prompsit2adn"><i>nacionaliza</i><par n="actua/ción__n"/></e>
+<e lm="nanofabricación" a="prompsit2adn"><i>nanofabrica</i><par n="actua/ción__n"/></e>
+<e lm="obcecación" a="prompsit2adn"><i>obceca</i><par n="actua/ción__n"/></e>
+<e lm="oficialización" a="prompsit2adn"><i>oficializa</i><par n="actua/ción__n"/></e>
+<e lm="ondulación" a="prompsit2adn"><i>ondula</i><par n="actua/ción__n"/></e>
+<e lm="oxidación" a="prompsit2adn"><i>oxida</i><par n="actua/ción__n"/></e>
+<e lm="pasteurización" a="prompsit2adn"><i>pasteuriza</i><par n="actua/ción__n"/></e>
+<e lm="peritación" a="prompsit2adn"><i>perita</i><par n="actua/ción__n"/></e>
+<e lm="perpetuación" a="prompsit2adn"><i>perpetua</i><par n="actua/ción__n"/></e>
+<e lm="pigmentación" a="prompsit2adn"><i>pigmenta</i><par n="actua/ción__n"/></e>
+<e lm="ponderación" a="prompsit2adn"><i>pondera</i><par n="actua/ción__n"/></e>
+<e lm="postración" a="prompsit2adn"><i>postra</i><par n="actua/ción__n"/></e>
+<e lm="postulación" a="prompsit2adn"><i>postula</i><par n="actua/ción__n"/></e>
+<e lm="preadopción" a="prompsit2adn"><i>preadop</i><par n="actua/ción__n"/></e>
+<e lm="premonición" a="prompsit2adn"><i>premoni</i><par n="actua/ción__n"/></e>
+<e lm="preproducción" a="prompsit2adn"><i>preproduc</i><par n="actua/ción__n"/></e>
+<e lm="priorización" a="prompsit2adn"><i>prioriza</i><par n="actua/ción__n"/></e>
+<e lm="profundización" a="prompsit2adn"><i>profundiza</i><par n="actua/ción__n"/></e>
+<e lm="proscripción" a="prompsit2adn"><i>proscrip</i><par n="actua/ción__n"/></e>
+<e lm="punición" a="prompsit2adn"><i>puni</i><par n="actua/ción__n"/></e>
+<e lm="puntualización" a="prompsit2adn"><i>puntualiza</i><par n="actua/ción__n"/></e>
+<e lm="putrefacción" a="prompsit2adn"><i>putrefac</i><par n="actua/ción__n"/></e>
+<e lm="readaptación" a="prompsit2adn"><i>readapta</i><par n="actua/ción__n"/></e>
+<e lm="reanimación" a="prompsit2adn"><i>reanima</i><par n="actua/ción__n"/></e>
+<e lm="reapreciación" a="prompsit2adn"><i>reaprecia</i><par n="actua/ción__n"/></e>
+<e lm="reasignación" a="prompsit2adn"><i>reasigna</i><par n="actua/ción__n"/></e>
+<e lm="reatribución" a="prompsit2adn"><i>reatribu</i><par n="actua/ción__n"/></e>
+<e lm="recalificación" a="prompsit2adn"><i>recalifica</i><par n="actua/ción__n"/></e>
+<e lm="recapitulación" a="prompsit2adn"><i>recapitula</i><par n="actua/ción__n"/></e>
+<e lm="recolocación" a="prompsit2adn"><i>recoloca</i><par n="actua/ción__n"/></e>
+<e lm="reconstitución" a="prompsit2adn"><i>reconstitu</i><par n="actua/ción__n"/></e>
+<e lm="reevaluación" a="prompsit2adn"><i>reevalua</i><par n="actua/ción__n"/></e>
+<e lm="reformulación" a="prompsit2adn"><i>reformula</i><par n="actua/ción__n"/></e>
+<e lm="reindustrialización" a="prompsit2adn"><i>reindustrializa</i><par n="actua/ción__n"/></e>
+<e lm="reintegración" a="prompsit2adn"><i>reintegra</i><par n="actua/ción__n"/></e>
+<e lm="reintroducción" a="prompsit2adn"><i>reintroduc</i><par n="actua/ción__n"/></e>
+<e lm="reinvención" a="prompsit2adn"><i>reinven</i><par n="actua/ción__n"/></e>
+<e lm="relatinización" a="prompsit2adn"><i>relatiniza</i><par n="actua/ción__n"/></e>
+<e lm="remoción" a="prompsit2adn"><i>remo</i><par n="actua/ción__n"/></e>
+<e lm="repartición" a="prompsit2adn"><i>reparti</i><par n="actua/ción__n"/></e>
+<e lm="replicación" a="prompsit2adn"><i>replica</i><par n="actua/ción__n"/></e>
+<e lm="repoblación" a="prompsit2adn"><i>repobla</i><par n="actua/ción__n"/></e>
+<e lm="reprobación" a="prompsit2adn"><i>reproba</i><par n="actua/ción__n"/></e>
+<e lm="retracción" a="prompsit2adn"><i>retrac</i><par n="actua/ción__n"/></e>
+<e lm="reutilización" a="prompsit2adn"><i>reutiliza</i><par n="actua/ción__n"/></e>
+<e lm="revalidación" a="prompsit2adn"><i>revalida</i><par n="actua/ción__n"/></e>
+<e lm="salinización" a="prompsit2adn"><i>saliniza</i><par n="actua/ción__n"/></e>
+<e lm="santificación" a="prompsit2adn"><i>santifica</i><par n="actua/ción__n"/></e>
+<e lm="secularización" a="prompsit2adn"><i>seculariza</i><par n="actua/ción__n"/></e>
+<e lm="sedación" a="prompsit2adn"><i>seda</i><par n="actua/ción__n"/></e>
+<e lm="sedición" a="prompsit2adn"><i>sedi</i><par n="actua/ción__n"/></e>
+<e lm="sobreexplotación" a="prompsit2adn"><i>sobreexplota</i><par n="actua/ción__n"/></e>
+<e lm="sobreproducción" a="prompsit2adn"><i>sobreproduc</i><par n="actua/ción__n"/></e>
+<e lm="sofisticación" a="prompsit2adn"><i>sofistica</i><par n="actua/ción__n"/></e>
+<e lm="sofocación" a="prompsit2adn"><i>sofoca</i><par n="actua/ción__n"/></e>
+<e lm="subdirección" a="prompsit2adn"><i>subdirec</i><par n="actua/ción__n"/></e>
+<e lm="subordinación" a="prompsit2adn"><i>subordina</i><par n="actua/ción__n"/></e>
+<e lm="subsanación" a="prompsit2adn"><i>subsana</i><par n="actua/ción__n"/></e>
+<e lm="subtitulación" a="prompsit2adn"><i>subtitula</i><par n="actua/ción__n"/></e>
+<e lm="subtitulación" r="LR"><p><l>subtitola</l><r>subtitula</r></p><par n="actua/ción__n"/></e>
+<e lm="subtitulación" r="LR"><p><l>subtetola</l><r>subtitula</r></p><par n="actua/ción__n"/></e>
+<e lm="supeditación" a="prompsit2adn"><i>supedita</i><par n="actua/ción__n"/></e>
+<e lm="superdotación" a="prompsit2adn"><i>superdota</i><par n="actua/ción__n"/></e>
+<e lm="superpoblación" a="prompsit2adn"><i>superpobla</i><par n="actua/ción__n"/></e>
+<e lm="sustentación" a="prompsit2adn"><i>sustenta</i><par n="actua/ción__n"/></e>
+<e lm="terchiversación" a="prompsit2adn"><i>terchiversa</i><par n="actua/ción__n"/></e>
+<e lm="tipificación" a="prompsit2adn"><i>tipifica</i><par n="actua/ción__n"/></e>
+<e lm="tracción" a="prompsit2adn"><i>trac</i><par n="actua/ción__n"/></e>
+<e lm="transmutación" a="prompsit2adn"><i>transmuta</i><par n="actua/ción__n"/></e>
+<e lm="triangulación" a="prompsit2adn"><i>triangula</i><par n="actua/ción__n"/></e>
+<e lm="universalización" a="prompsit2adn"><i>universaliza</i><par n="actua/ción__n"/></e>
+<e lm="victimización" a="prompsit2adn"><i>victimiza</i><par n="actua/ción__n"/></e>
+<e lm="virtualización" a="prompsit2adn"><i>virtualiza</i><par n="actua/ción__n"/></e>
+<e lm="vitrificación" a="prompsit2adn"><i>vitrifica</i><par n="actua/ción__n"/></e>
+<e lm="zonificación" a="prompsit2adn"><i>zonifica</i><par n="actua/ción__n"/></e>
+<e lm="pitón" a="prompsit2adn"><i>pit</i><par n="divisi/ón__n"/></e>
+<e lm="pitón"><i>pitón</i><par n="multimedia__adj"/></e>
+<e lm="maquetación" a="prompsit"><i>maqueta</i><par n="actua/ción__n"/></e>
+<e lm="redefinición" a="prompsit"><i>redefini</i><par n="actua/ción__n"/></e>
+<e lm="radiotelevisión" a="prompsit"><i>radiotelevisi</i><par n="divisi/ón__n"/></e>
+<e lm="mitificación" a="prompsit"><i>mitifica</i><par n="actua/ción__n"/></e>
+<e lm="ionización" a="prompsit"><i>ioniza</i><par n="actua/ción__n"/></e>
+<e lm="prosecución" a="prompsit"><i>prosecu</i><par n="actua/ción__n"/></e>
+<e lm="suchestión" a="prompsit"><i>suchesti</i><par n="divisi/ón__n"/></e>
+<e lm="cimentación" a="prompsit"><i>cimenta</i><par n="actua/ción__n"/></e>
+<e lm="cocheneración" a="prompsit"><i>cochenera</i><par n="actua/ción__n"/></e>
+<e lm="criminalización" a="prompsit"><i>criminaliza</i><par n="actua/ción__n"/></e>
+<e lm="desconcentración" a="prompsit"><i>desconcentra</i><par n="actua/ción__n"/></e>
+<e lm="desconsideración" a="prompsit"><i>desconsidera</i><par n="actua/ción__n"/></e>
+<e lm="reconsideración" a="prompsit"><i>reconsidera</i><par n="actua/ción__n"/></e>
+<e lm="elisión" a="prompsit"><i>elisi</i><par n="divisi/ón__n"/></e>
+<e lm="expiración" a="prompsit"><i>expira</i><par n="actua/ción__n"/></e>
+<e lm="familiarización" a="prompsit"><i>familiariza</i><par n="actua/ción__n"/></e>
+<e lm="gradación" a="prompsit"><i>grada</i><par n="actua/ción__n"/></e>
+<e lm="habituación" a="prompsit"><i>habitua</i><par n="actua/ción__n"/></e>
+<e lm="impermeabilización" a="prompsit"><i>impermeabiliza</i><par n="actua/ción__n"/></e>
+<e lm="impermeabilización" r="LR"><p><l>impermiabiliza</l><r>impermeabiliza</r></p><par n="actua/ción__n"/></e>
+<e lm="impermeabilización" r="LR"><p><l>impermiabiliza</l><r>impermeabiliza</r></p><par n="actua/ción__n"/></e>
+<e lm="interiorización" a="prompsit"><i>interioriza</i><par n="actua/ción__n"/></e>
+<e lm="lexicalización" a="prompsit"><i>lexicaliza</i><par n="actua/ción__n"/></e>
+<e lm="memorización" a="prompsit"><i>memoriza</i><par n="actua/ción__n"/></e>
+<e lm="mobilización" a="prompsit"><i>mobiliza</i><par n="actua/ción__n"/></e>
+<e lm="mobilización" r="LR"><p><l>moviliza</l><r>mobiliza</r></p><par n="actua/ción__n"/></e>
+<e lm="permutación" a="prompsit"><i>permuta</i><par n="actua/ción__n"/></e>
+<e lm="perturbación" a="prompsit"><i>perturba</i><par n="actua/ción__n"/></e>
+<e lm="prelación" a="prompsit"><i>prela</i><par n="actua/ción__n"/></e>
+<e lm="presunción" a="prompsit"><i>presun</i><par n="actua/ción__n"/></e>
+<e lm="prorrogación" a="prompsit"><i>prorroga</i><par n="actua/ción__n"/></e>
+<e lm="recitación" a="prompsit"><i>recita</i><par n="actua/ción__n"/></e>
+<e lm="recompilación" a="prompsit"><i>recompila</i><par n="actua/ción__n"/></e>
+<e lm="rechionalización" a="prompsit"><i>rechionaliza</i><par n="actua/ción__n"/></e>
+<e lm="reorganización" a="prompsit"><i>reorganiza</i><par n="actua/ción__n"/></e>
+<e lm="retolación" a="prompsit"><i>retola</i><par n="actua/ción__n"/></e>
+<e lm="retolación" r="LR"><p><l>rotula</l><r>retola</r></p><par n="actua/ción__n"/></e>
+<e lm="retolación" r="LR"><p><l>retula</l><r>retola</r></p><par n="actua/ción__n"/></e>
+<e lm="sufixación" a="prompsit"><i>sufixa</i><par n="actua/ción__n"/></e>
+<e lm="tecnificación" a="prompsit"><i>tecnifica</i><par n="actua/ción__n"/></e>
+<e lm="dislocación" a="prompsit"><i>disloca</i><par n="actua/ción__n"/></e>
+<e lm="feminización" a="prompsit"><i>feminiza</i><par n="actua/ción__n"/></e>
+<e lm="aflicción" a="prompsit"><i>aflic</i><par n="actua/ción__n"/></e>
+<e lm="circumvolución" a="prompsit"><i>circumvolu</i><par n="actua/ción__n"/></e>
+<e lm="circumvolución" r="LR"><p><l>circunvolu</l><r>circumvolu</r></p><par n="actua/ción__n"/></e>
+<e lm="delectación" a="prompsit"><i>delecta</i><par n="actua/ción__n"/></e>
+<e lm="abducción" a="prompsit"><i>abduc</i><par n="actua/ción__n"/></e>
+<e lm="reclasificación" a="prompsit"><i>reclasifica</i><par n="actua/ción__n"/></e>
+<e lm="incentivación" a="prompsit"><i>incentiva</i><par n="actua/ción__n"/></e>
+<e lm="normativización" a="prompsit"><i>normativiza</i><par n="actua/ción__n"/></e>
+<e lm="ornamentación" a="prompsit"><i>ornamenta</i><par n="actua/ción__n"/></e>
+<e lm="vaporización" a="prompsit"><i>vaporiza</i><par n="actua/ción__n"/></e>
+<e lm="desvalorización" a="prompsit"><i>desvaloriza</i><par n="actua/ción__n"/></e>
+<e lm="pignoración" a="prompsit"><i>pignora</i><par n="actua/ción__n"/></e>
+<e lm="impartición" a="prompsit2ecl"><i>imparti</i><par n="actua/ción__n"/></e>
+<e lm="lematización" a="prompsit"><i>lematiza</i><par n="actua/ción__n"/></e>
+<e lm="indexación" a="prompsit"><i>indexa</i><par n="actua/ción__n"/></e>
+<e lm="libelación" a="prompsit2uoc"><i>libela</i><par n="actua/ción__n"/></e>
+<e lm="libelación" r="LR"><p><l>livela</l><r>libela</r></p><par n="actua/ción__n"/></e>
+<e lm="libelación" r="LR"><p><l>nivela</l><r>libela</r></p><par n="actua/ción__n"/></e>
+<e lm="notación" a="prompsit2uoc"><i>nota</i><par n="actua/ción__n"/></e>
+<e lm="glaciación" a="prompsit2uoc"><i>glacia</i><par n="actua/ción__n"/></e>
+<e lm="gravitación" a="prompsit2uoc"><i>gravita</i><par n="actua/ción__n"/></e>
+<e lm="subdivisión" a="prompsit2uoc"><i>subdivisi</i><par n="divisi/ón__n"/></e>
+<e lm="refracción" a="prompsit2uoc"><i>refrac</i><par n="actua/ción__n"/></e>
+<e lm="factorización" a="prompsit2uoc"><i>factoriza</i><par n="actua/ción__n"/></e>
+<e lm="fisión" a="prompsit2uoc"><i>fisi</i><par n="divisi/ón__n"/></e>
+<e lm="corrosión" a="prompsit2uoc"><i>corrosi</i><par n="divisi/ón__n"/></e>
+<e lm="torsión" a="prompsit2uoc"><i>torsi</i><par n="divisi/ón__n"/></e>
+<e lm="difracción" a="prompsit2uoc"><i>difrac</i><par n="actua/ción__n"/></e>
+<e lm="poción" a="prompsit2uoc"><i>po</i><par n="actua/ción__n"/></e>
+<e lm="personificación" a="prompsit2uoc"><i>personifica</i><par n="actua/ción__n"/></e>
+<e lm="personificación" r="LR"><p><l>presonifica</l><r>personifica</r></p><par n="actua/ción__n"/></e>
+<e lm="orquestación" a="prompsit2uoc"><i>orquesta</i><par n="actua/ción__n"/></e>
+<e lm="polimerización" a="prompsit2uoc"><i>polimeriza</i><par n="actua/ción__n"/></e>
+<e lm="polinización" a="prompsit2uoc"><i>poliniza</i><par n="actua/ción__n"/></e>
+<e lm="predicación" a="prompsit2uoc"><i>predica</i><par n="actua/ción__n"/></e>
+<e lm="fosforilación" a="prompsit2uoc"><i>fosforila</i><par n="actua/ción__n"/></e>
+<e lm="colectivización" a="prompsit2uoc"><i>colectiviza</i><par n="actua/ción__n"/></e>
+<e lm="anexión" a="prompsit2uoc"><i>anexi</i><par n="divisi/ón__n"/></e>
+<e lm="anexión" r="LR"><p><l>annexi</l><r>anexi</r></p><par n="divisi/ón__n"/></e>
+<e lm="subducción" a="prompsit2uoc"><i>subduc</i><par n="actua/ción__n"/></e>
+<e lm="tinción" a="prompsit2uoc"><i>tin</i><par n="actua/ción__n"/></e>
+<e lm="palatalización" a="prompsit2uoc"><i>palataliza</i><par n="actua/ción__n"/></e>
+<e lm="neutralización" a="prompsit2uoc"><i>neutraliza</i><par n="actua/ción__n"/></e>
+<e lm="dilución" a="prompsit2uoc"><i>dilu</i><par n="actua/ción__n"/></e>
+<e lm="repulsión" a="prompsit2uoc"><i>repulsi</i><par n="divisi/ón__n"/></e>
+<e lm="dicción" a="prompsit2uoc"><i>dic</i><par n="actua/ción__n"/></e>
+<e lm="castellanización" a="prompsit2uoc"><i>castellaniza</i><par n="actua/ción__n"/></e>
+<e lm="interpolación" a="prompsit2uoc"><i>interpola</i><par n="actua/ción__n"/></e>
+<e lm="incisión" a="prompsit2uoc"><i>incisi</i><par n="divisi/ón__n"/></e>
+<e lm="sublimación" a="prompsit2uoc"><i>sublima</i><par n="actua/ción__n"/></e>
+<e lm="estandardización" a="prompsit2uoc"><i>estandardiza</i><par n="actua/ción__n"/></e>
+<e lm="estandardización" r="LR"><p><l>estandariza</l><r>estandardiza</r></p><par n="actua/ción__n"/></e>
+<e lm="magnetización" a="prompsit2uoc"><i>magnetiza</i><par n="actua/ción__n"/></e>
+<e lm="transgresión" a="prompsit2uoc"><i>transgresi</i><par n="divisi/ón__n"/></e>
+<e lm="persuasión" a="prompsit2uoc"><i>persuasi</i><par n="divisi/ón__n"/></e>
+<e lm="cosmovisión" a="prompsit2uoc"><i>cosmovisi</i><par n="divisi/ón__n"/></e>
+<e lm="decocción" a="prompsit2uoc"><i>decoc</i><par n="actua/ción__n"/></e>
+<e lm="cicatrización" a="prompsit2uoc"><i>cicatriza</i><par n="actua/ción__n"/></e>
+<e lm="sistematización" a="prompsit2uoc"><i>sistematiza</i><par n="actua/ción__n"/></e>
+<e lm="irradiación" a="prompsit2uoc"><i>irradia</i><par n="actua/ción__n"/></e>
+<e lm="emulsión" a="prompsit2uoc"><i>emulsi</i><par n="divisi/ón__n"/></e>
+<e lm="disección" a="prompsit2uoc"><i>disec</i><par n="actua/ción__n"/></e>
+<e lm="solidificación" a="prompsit2uoc"><i>solidifica</i><par n="actua/ción__n"/></e>
+<e lm="reverberación" a="prompsit2uoc"><i>reverbera</i><par n="actua/ción__n"/></e>
+<e lm="parametrización" a="prompsit2uoc"><i>parametriza</i><par n="actua/ción__n"/></e>
+<e lm="vocalización" a="prompsit2uoc"><i>vocaliza</i><par n="actua/ción__n"/></e>
+<e lm="gastrulación" a="prompsit2uoc"><i>gastrula</i><par n="actua/ción__n"/></e>
+<e lm="constricción" a="prompsit2uoc"><i>constric</i><par n="actua/ción__n"/></e>
+<e lm="centrifugación" a="prompsit2uoc"><i>centrifuga</i><par n="actua/ción__n"/></e>
+<e lm="vasodilatación" a="prompsit2uoc"><i>vasodilata</i><par n="actua/ción__n"/></e>
+<e lm="militarización" a="prompsit2uoc"><i>militariza</i><par n="actua/ción__n"/></e>
+<e lm="hipotensión" a="prompsit2uoc"><i>hipotensi</i><par n="divisi/ón__n"/></e>
+<e lm="emulación" a="prompsit2uoc"><i>emula</i><par n="actua/ción__n"/></e>
+<e lm="refutación" a="prompsit2uoc"><i>refuta</i><par n="actua/ción__n"/></e>
+<e lm="pavimentación" a="prompsit2uoc"><i>pavimenta</i><par n="actua/ción__n"/></e>
+<e lm="chemación" a="prompsit2uoc"><i>chema</i><par n="actua/ción__n"/></e>
+<e lm="disertación" a="prompsit2uoc"><i>diserta</i><par n="actua/ción__n"/></e>
+<e lm="translocación" a="prompsit2uoc"><i>transloca</i><par n="actua/ción__n"/></e>
+<e lm="unción" a="prompsit2uoc"><i>un</i><par n="actua/ción__n"/></e>
+<e lm="pachinación" a="prompsit2uoc"><i>pachina</i><par n="actua/ción__n"/></e>
+<e lm="latinización" a="prompsit2uoc"><i>latiniza</i><par n="actua/ción__n"/></e>
+<e lm="hibernación" a="prompsit2uoc"><i>hiberna</i><par n="actua/ción__n"/></e>
+<e lm="extrapolación" a="prompsit2uoc"><i>extrapola</i><par n="actua/ción__n"/></e>
+<e lm="excreción" a="prompsit2uoc"><i>excre</i><par n="actua/ción__n"/></e>
+<e lm="parcelación" a="prompsit2uoc"><i>parcela</i><par n="actua/ción__n"/></e>
+<e lm="imperfección" a="prompsit2uoc"><i>imperfec</i><par n="actua/ción__n"/></e>
+<e lm="cheminación" a="prompsit2uoc"><i>chemina</i><par n="actua/ción__n"/></e>
+<e lm="fonación" a="prompsit2uoc"><i>fona</i><par n="actua/ción__n"/></e>
+<e lm="contracepción" a="prompsit2uoc"><i>contracep</i><par n="actua/ción__n"/></e>
+<e lm="glorificación" a="prompsit2uoc"><i>glorifica</i><par n="actua/ción__n"/></e>
+<e lm="aculturación" a="prompsit2uoc"><i>acultura</i><par n="actua/ción__n"/></e>
+<e lm="ruralización" a="prompsit2uoc"><i>ruraliza</i><par n="actua/ción__n"/></e>
+<e lm="predestinación" a="prompsit2uoc"><i>predestina</i><par n="actua/ción__n"/></e>
+<e lm="complementación" a="prompsit2uoc"><i>complementa</i><par n="actua/ción__n"/></e>
+<e lm="acreción" a="prompsit2uoc"><i>acre</i><par n="actua/ción__n"/></e>
+<e lm="nasalización" a="prompsit2uoc"><i>nasaliza</i><par n="actua/ción__n"/></e>
+<e lm="momificación" a="prompsit2uoc"><i>momifica</i><par n="actua/ción__n"/></e>
+<e lm="masticación" a="prompsit2uoc"><i>mastica</i><par n="actua/ción__n"/></e>
+<e lm="indichestión" a="prompsit2uoc"><i>indichesti</i><par n="divisi/ón__n"/></e>
+<e lm="dechección" a="prompsit2uoc"><i>dechec</i><par n="actua/ción__n"/></e>
+<e lm="burocratización" a="prompsit2uoc"><i>burocratiza</i><par n="actua/ción__n"/></e>
+<e lm="insubordinación" a="prompsit2uoc"><i>insubordina</i><par n="actua/ción__n"/></e>
+<e lm="institucionalización" a="prompsit2uoc"><i>institucionaliza</i><par n="actua/ción__n"/></e>
+<e lm="hidratación" a="prompsit2uoc"><i>hidrata</i><par n="actua/ción__n"/></e>
+<e lm="vacilación" a="prompsit2uoc"><i>vacila</i><par n="actua/ción__n"/></e>
+<e lm="interchección" a="prompsit2uoc"><i>interchec</i><par n="actua/ción__n"/></e>
+<e lm="floculación" a="prompsit2uoc"><i>flocula</i><par n="actua/ción__n"/></e>
+<e lm="carburación" a="prompsit2uoc"><i>carbura</i><par n="actua/ción__n"/></e>
+<e lm="trepanación" a="prompsit2uoc"><i>trepana</i><par n="actua/ción__n"/></e>
+<e lm="oclusión" a="prompsit2uoc"><i>oclusi</i><par n="divisi/ón__n"/></e>
+<e lm="granulación" a="prompsit2uoc"><i>granula</i><par n="actua/ción__n"/></e>
+<e lm="estampación" a="prompsit2uoc"><i>estampa</i><par n="actua/ción__n"/></e>
+<e lm="copulación" a="prompsit2uoc"><i>copula</i><par n="actua/ción__n"/></e>
+<e lm="proletarización" a="prompsit2uoc"><i>proletariza</i><par n="actua/ción__n"/></e>
+<e lm="labialización" a="prompsit2uoc"><i>labializa</i><par n="actua/ción__n"/></e>
+<e lm="invachinación" a="prompsit2uoc"><i>invachina</i><par n="actua/ción__n"/></e>
+<e lm="inadaptación" a="prompsit2uoc"><i>inadapta</i><par n="actua/ción__n"/></e>
+<e lm="hidrochenación" a="prompsit2uoc"><i>hidrochena</i><par n="actua/ción__n"/></e>
+<e lm="estratificación" a="prompsit2uoc"><i>estratifica</i><par n="actua/ción__n"/></e>
+<e lm="dischunción" a="prompsit2uoc"><i>dischun</i><par n="actua/ción__n"/></e>
+<e lm="despolimerización" a="prompsit2uoc"><i>despolimeriza</i><par n="actua/ción__n"/></e>
+<e lm="deflación" a="prompsit2uoc"><i>defla</i><par n="actua/ción__n"/></e>
+<e lm="cochestión" a="prompsit2uoc"><i>cochesti</i><par n="divisi/ón__n"/></e>
+<e lm="adulación" a="prompsit2uoc"><i>adula</i><par n="actua/ción__n"/></e>
+<e lm="velarización" a="prompsit2uoc"><i>velariza</i><par n="actua/ción__n"/></e>
+<e lm="simbolización" a="prompsit2uoc"><i>simboliza</i><par n="actua/ción__n"/></e>
+<e lm="repudiación" a="prompsit2uoc"><i>repudia</i><par n="actua/ción__n"/></e>
+<e lm="reificación" a="prompsit2uoc"><i>reifica</i><par n="actua/ción__n"/></e>
+<e lm="cosificación" a="prompsit2uoc"><i>cosifica</i><par n="actua/ción__n"/></e>
+<e lm="gramaticalización" a="prompsit2uoc"><i>gramaticaliza</i><par n="actua/ción__n"/></e>
+<e lm="gasificación" a="prompsit2uoc"><i>gasifica</i><par n="actua/ción__n"/></e>
+<e lm="encapsulación" a="prompsit2uoc"><i>encapsula</i><par n="actua/ción__n"/></e>
+<e lm="desmoralización" a="prompsit2uoc"><i>desmoraliza</i><par n="actua/ción__n"/></e>
+<e lm="desmodulación" a="prompsit2uoc"><i>desmodula</i><par n="actua/ción__n"/></e>
+<e lm="deshidrochenación" a="prompsit2uoc"><i>deshidrochena</i><par n="actua/ción__n"/></e>
+<e lm="descamación" a="prompsit2uoc"><i>descama</i><par n="actua/ción__n"/></e>
+<e lm="depravación" a="prompsit2uoc"><i>deprava</i><par n="actua/ción__n"/></e>
+<e lm="deliniación" a="prompsit2uoc"><i>delinia</i><par n="actua/ción__n"/></e>
+<e lm="contravención" a="prompsit2uoc"><i>contraven</i><par n="actua/ción__n"/></e>
+<e lm="calcificación" a="prompsit2uoc"><i>calcifica</i><par n="actua/ción__n"/></e>
+<e lm="subchugación" a="prompsit2uoc"><i>subchuga</i><par n="actua/ción__n"/></e>
+<e lm="ixalivación" a="prompsit2uoc"><i>ixaliva</i><par n="actua/ción__n"/></e>
+<e lm="ixalivación" r="LR"><p><l>xaliva</l><r>ixaliva</r></p><par n="actua/ción__n"/></e>
+<e lm="ixalivación" r="LR"><p><l>saliva</l><r>ixaliva</r></p><par n="actua/ción__n"/></e>
+<e lm="maximización" a="prompsit2uoc"><i>maximiza</i><par n="actua/ción__n"/></e>
+<e lm="implosión" a="prompsit2uoc"><i>implosi</i><par n="divisi/ón__n"/></e>
+<e lm="chesticulación" a="prompsit2uoc"><i>chesticula</i><par n="actua/ción__n"/></e>
+<e lm="extrusión" a="prompsit2uoc"><i>extrusi</i><par n="divisi/ón__n"/></e>
+<e lm="desindustrialización" a="prompsit2uoc"><i>desindustrializa</i><par n="actua/ción__n"/></e>
+<e lm="autoedición" a="prompsit2uoc"><i>autoedi</i><par n="actua/ción__n"/></e>
+<e lm="adsorción" a="prompsit2uoc"><i>adsor</i><par n="actua/ción__n"/></e>
+<e lm="abrasión" a="prompsit2uoc"><i>abrasi</i><par n="divisi/ón__n"/></e>
+<e lm="sobrealimentación" a="prompsit2uoc"><i>sobrealimenta</i><par n="actua/ción__n"/></e>
+<e lm="retractación" a="prompsit2uoc"><i>retracta</i><par n="actua/ción__n"/></e>
+<e lm="insonorización" a="prompsit2uoc"><i>insonoriza</i><par n="actua/ción__n"/></e>
+<e lm="expectoración" a="prompsit2uoc"><i>expectora</i><par n="actua/ción__n"/></e>
+<e lm="especiación" a="prompsit2uoc"><i>especia</i><par n="actua/ción__n"/></e>
+<e lm="disrupción" a="prompsit2uoc"><i>disrup</i><par n="actua/ción__n"/></e>
+<e lm="dilapidación" a="prompsit2uoc"><i>dilapida</i><par n="actua/ción__n"/></e>
+<e lm="denotación" a="prompsit2uoc"><i>denota</i><par n="actua/ción__n"/></e>
+<e lm="defraudación" a="prompsit2uoc"><i>defrauda</i><par n="actua/ción__n"/></e>
+<e lm="coprecipitación" a="prompsit2uoc"><i>coprecipita</i><par n="actua/ción__n"/></e>
+<e lm="coparticipación" a="prompsit2uoc"><i>coparticipa</i><par n="actua/ción__n"/></e>
+<e lm="colación" a="prompsit2uoc"><i>cola</i><par n="actua/ción__n"/></e>
+<e lm="carbonatación" a="prompsit2uoc"><i>carbonata</i><par n="actua/ción__n"/></e>
+<e lm="volatilización" a="prompsit2uoc"><i>volatiliza</i><par n="actua/ción__n"/></e>
+<e lm="trisección" a="prompsit2uoc"><i>trisec</i><par n="actua/ción__n"/></e>
+<e lm="torrefacción" a="prompsit2uoc"><i>torrefac</i><par n="actua/ción__n"/></e>
+<e lm="teledifusión" a="prompsit2uoc"><i>teledifusi</i><par n="divisi/ón__n"/></e>
+<e lm="tabulación" a="prompsit2uoc"><i>tabula</i><par n="actua/ción__n"/></e>
+<e lm="sobreexposición" a="prompsit2uoc"><i>sobreexposi</i><par n="actua/ción__n"/></e>
+<e lm="reprensión" a="prompsit2uoc"><i>reprensi</i><par n="divisi/ón__n"/></e>
+<e lm="reconfiguración" a="prompsit2uoc"><i>reconfigura</i><par n="actua/ción__n"/></e>
+<e lm="recirculación" a="prompsit2uoc"><i>recircula</i><par n="actua/ción__n"/></e>
+<e lm="invalidación" a="prompsit2uoc"><i>invalida</i><par n="actua/ción__n"/></e>
+<e lm="intercalación" a="prompsit2uoc"><i>intercala</i><par n="actua/ción__n"/></e>
+<e lm="infibulación" a="prompsit2uoc"><i>infibula</i><par n="actua/ción__n"/></e>
+<e lm="indiscreción" a="prompsit2uoc"><i>indiscre</i><par n="actua/ción__n"/></e>
+<e lm="immunización" a="prompsit2uoc"><i>immuniza</i><par n="actua/ción__n"/></e>
+<e lm="immunización" r="LR"><p><l>inmuniza</l><r>immuniza</r></p><par n="actua/ción__n"/></e>
+<e lm="exfoliación" a="prompsit2uoc"><i>exfolia</i><par n="actua/ción__n"/></e>
+<e lm="digresión" a="prompsit2uoc"><i>digresi</i><par n="divisi/ón__n"/></e>
+<e lm="denigración" a="prompsit2uoc"><i>denigra</i><par n="actua/ción__n"/></e>
+<e lm="capitación" a="prompsit2uoc"><i>capita</i><par n="actua/ción__n"/></e>
+<e lm="accesión" a="prompsit2uoc"><i>accesi</i><par n="divisi/ón__n"/></e>
+<e lm="abchuración" a="prompsit2uoc"><i>abchura</i><par n="actua/ción__n"/></e>
+<e lm="suplantación" a="prompsit2uoc"><i>suplanta</i><par n="actua/ción__n"/></e>
+<e lm="sobreexcitación" a="prompsit2uoc"><i>sobreexcita</i><par n="actua/ción__n"/></e>
+<e lm="rubefacción" a="prompsit2uoc"><i>rubefac</i><par n="actua/ción__n"/></e>
+<e lm="protrusión" a="prompsit2uoc"><i>protrusi</i><par n="divisi/ón__n"/></e>
+<e lm="polvorización" a="prompsit2uoc"><i>polvoriza</i><par n="actua/ción__n"/></e>
+<e lm="liofilización" a="prompsit2uoc"><i>liofiliza</i><par n="actua/ción__n"/></e>
+<e lm="imprecación" a="prompsit2uoc"><i>impreca</i><par n="actua/ción__n"/></e>
+<e lm="expatriación" a="prompsit2uoc"><i>expatria</i><par n="actua/ción__n"/></e>
+<e lm="exhalación" a="prompsit2uoc"><i>exhala</i><par n="actua/ción__n"/></e>
+<e lm="exacción" a="prompsit2uoc"><i>exac</i><par n="actua/ción__n"/></e>
+<e lm="desorción" a="prompsit2uoc"><i>desor</i><par n="actua/ción__n"/></e>
+<e lm="desnitrificación" a="prompsit2uoc"><i>desnitrifica</i><par n="actua/ción__n"/></e>
+<e lm="desmineralización" a="prompsit2uoc"><i>desmineraliza</i><par n="actua/ción__n"/></e>
+<e lm="corroboración" a="prompsit2uoc"><i>corrobora</i><par n="actua/ción__n"/></e>
+<e lm="atestación" a="prompsit2uoc"><i>atesta</i><par n="actua/ción__n"/></e>
+<e lm="aprehensión" a="prompsit2uoc"><i>aprehensi</i><par n="divisi/ón__n"/></e>
+<e lm="aposición" a="prompsit2uoc"><i>aposi</i><par n="actua/ción__n"/></e>
+<e lm="aliteración" a="prompsit2uoc"><i>alitera</i><par n="actua/ción__n"/></e>
+<e lm="subocupación" a="prompsit2uoc"><i>subocupa</i><par n="actua/ción__n"/></e>
+<e lm="sobresaturación" a="prompsit2uoc"><i>sobresatura</i><par n="actua/ción__n"/></e>
+<e lm="recensión" a="prompsit2uoc"><i>recensi</i><par n="divisi/ón__n"/></e>
+<e lm="radiocomunicación" a="prompsit2uoc"><i>radiocomunica</i><par n="actua/ción__n"/></e>
+<e lm="pluriocupación" a="prompsit2uoc"><i>pluriocupa</i><par n="actua/ción__n"/></e>
+<e lm="osificación" a="prompsit2uoc"><i>osifica</i><par n="actua/ción__n"/></e>
+<e lm="nitrificación" a="prompsit2uoc"><i>nitrifica</i><par n="actua/ción__n"/></e>
+<e lm="microminiaturización" a="prompsit2uoc"><i>microminiaturiza</i><par n="actua/ción__n"/></e>
+<e lm="imbricación" a="prompsit2uoc"><i>imbrica</i><par n="actua/ción__n"/></e>
+<e lm="iluviación" a="prompsit2uoc"><i>iluvia</i><par n="actua/ción__n"/></e>
+<e lm="galvanización" a="prompsit2uoc"><i>galvaniza</i><par n="actua/ción__n"/></e>
+<e lm="exterminación" a="prompsit2uoc"><i>extermina</i><par n="actua/ción__n"/></e>
+<e lm="exudación" a="prompsit2uoc"><i>exuda</i><par n="actua/ción__n"/></e>
+<e lm="exasperación" a="prompsit2uoc"><i>exaspera</i><par n="actua/ción__n"/></e>
+<e lm="esterificación" a="prompsit2uoc"><i>esterifica</i><par n="actua/ción__n"/></e>
+<e lm="estanflación" a="prompsit2uoc"><i>estanfla</i><par n="actua/ción__n"/></e>
+<e lm="estabulación" a="prompsit2uoc"><i>estabula</i><par n="actua/ción__n"/></e>
+<e lm="disimulación" a="prompsit2uoc"><i>disimula</i><par n="actua/ción__n"/></e>
+<e lm="disquisición" a="prompsit2uoc"><i>disquisi</i><par n="actua/ción__n"/></e>
+<e lm="despalatalización" a="prompsit2uoc"><i>despalataliza</i><par n="actua/ción__n"/></e>
+<e lm="derrisión" a="prompsit2uoc"><i>derrisi</i><par n="divisi/ón__n"/></e>
+<e lm="dentalización" a="prompsit2uoc"><i>dentaliza</i><par n="actua/ción__n"/></e>
+<e lm="coedición" a="prompsit2uoc"><i>coedi</i><par n="actua/ción__n"/></e>
+<e lm="biodegradación" a="prompsit2uoc"><i>biodegrada</i><par n="actua/ción__n"/></e>
+<e lm="bioacumulación" a="prompsit2uoc"><i>bioacumula</i><par n="actua/ción__n"/></e>
+<e lm="balcanización" a="prompsit2uoc"><i>balcaniza</i><par n="actua/ción__n"/></e>
+<e lm="auscultación" a="prompsit2uoc"><i>ausculta</i><par n="actua/ción__n"/></e>
+<e lm="amalgamación" a="prompsit2uoc"><i>amalgama</i><par n="actua/ción__n"/></e>
+<e lm="aleatorización" a="prompsit2uoc"><i>aleatoriza</i><par n="actua/ción__n"/></e>
+<e lm="aleatorización" r="LR"><p><l>aliatoriza</l><r>aleatoriza</r></p><par n="actua/ción__n"/></e>
+<e lm="aglutinación" a="prompsit2uoc"><i>aglutina</i><par n="actua/ción__n"/></e>
+<e lm="adchectivación" a="prompsit2uoc"><i>adchectiva</i><par n="actua/ción__n"/></e>
+<e lm="abrogación" a="prompsit2uoc"><i>abroga</i><par n="actua/ción__n"/></e>
+<e lm="abominación" a="prompsit2uoc"><i>abomina</i><par n="actua/ción__n"/></e>
+<e lm="zonación" a="prompsit2uoc"><i>zona</i><par n="actua/ción__n"/></e>
+<e lm="vivisección" a="prompsit2uoc"><i>vivisec</i><par n="actua/ción__n"/></e>
+<e lm="sinterización" a="prompsit2uoc"><i>sinteriza</i><par n="actua/ción__n"/></e>
+<e lm="rutinización" a="prompsit2uoc"><i>rutiniza</i><par n="actua/ción__n"/></e>
+<e lm="reprogramación" a="prompsit2uoc"><i>reprograma</i><par n="actua/ción__n"/></e>
+<e lm="radicación" a="prompsit2uoc"><i>radica</i><par n="actua/ción__n"/></e>
+<e lm="pronominalización" a="prompsit2uoc"><i>pronominaliza</i><par n="actua/ción__n"/></e>
+<e lm="plastificación" a="prompsit2uoc"><i>plastifica</i><par n="actua/ción__n"/></e>
+<e lm="percolación" a="prompsit2uoc"><i>percola</i><par n="actua/ción__n"/></e>
+<e lm="pasivación" a="prompsit2uoc"><i>pasiva</i><par n="actua/ción__n"/></e>
+<e lm="obchectivación" a="prompsit2uoc"><i>obchectiva</i><par n="actua/ción__n"/></e>
+<e lm="microinchección" a="prompsit2uoc"><i>microinchec</i><par n="actua/ción__n"/></e>
+<e lm="intubación" a="prompsit2uoc"><i>intuba</i><par n="actua/ción__n"/></e>
+<e lm="imantación" a="prompsit2uoc"><i>imanta</i><par n="actua/ción__n"/></e>
+<e lm="ideyación" a="prompsit2uoc"><i>ideya</i><par n="actua/ción__n"/></e>
+<e lm="ideyación" r="LR"><p><l>idea</l><r>ideya</r></p><par n="actua/ción__n"/></e>
+<e lm="humificación" a="prompsit2uoc"><i>humifica</i><par n="actua/ción__n"/></e>
+<e lm="humidificación" a="prompsit2uoc"><i>humidifica</i><par n="actua/ción__n"/></e>
+<e lm="glotalización" a="prompsit2uoc"><i>glotaliza</i><par n="actua/ción__n"/></e>
+<e lm="chelificación" a="prompsit2uoc"><i>chelifica</i><par n="actua/ción__n"/></e>
+<e lm="fluoración" a="prompsit2uoc"><i>fluora</i><par n="actua/ción__n"/></e>
+<e lm="fibrilación" a="prompsit2uoc"><i>fibrila</i><par n="actua/ción__n"/></e>
+<e lm="eixemplificación" a="prompsit2uoc"><i>eixemplifica</i><par n="actua/ción__n"/></e>
+<e lm="eixemplificación" r="LR"><p><l>exemplifica</l><r>eixemplifica</r></p><par n="actua/ción__n"/></e>
+<e lm="eixemplificación" r="LR"><p><l>ixemplifica</l><r>eixemplifica</r></p><par n="actua/ción__n"/></e>
+<e lm="eutrofización" a="prompsit2uoc"><i>eutrofiza</i><par n="actua/ción__n"/></e>
+<e lm="estipulación" a="prompsit2uoc"><i>estipula</i><par n="actua/ción__n"/></e>
+<e lm="espiritualización" a="prompsit2uoc"><i>espiritualiza</i><par n="actua/ción__n"/></e>
+<e lm="escarificación" a="prompsit2uoc"><i>escarifica</i><par n="actua/ción__n"/></e>
+<e lm="enunciación" a="prompsit2uoc"><i>enuncia</i><par n="actua/ción__n"/></e>
+<e lm="electroerosión" a="prompsit2uoc"><i>electroerosi</i><par n="divisi/ón__n"/></e>
+<e lm="desulfuración" a="prompsit2uoc"><i>desulfura</i><par n="actua/ción__n"/></e>
+<e lm="desionización" a="prompsit2uoc"><i>desioniza</i><par n="actua/ción__n"/></e>
+<e lm="descalcificación" a="prompsit2uoc"><i>descalcifica</i><par n="actua/ción__n"/></e>
+<e lm="circumspección" a="prompsit2uoc"><i>circumspec</i><par n="actua/ción__n"/></e>
+<e lm="circumspección" r="LR"><p><l>circunspec</l><r>circumspec</r></p><par n="actua/ción__n"/></e>
+<e lm="cementación" a="prompsit2uoc"><i>cementa</i><par n="actua/ción__n"/></e>
+<e lm="cauterización" a="prompsit2uoc"><i>cauteriza</i><par n="actua/ción__n"/></e>
+<e lm="bisección" a="prompsit2uoc"><i>bisec</i><par n="actua/ción__n"/></e>
+<e lm="aserción" a="prompsit2uoc"><i>aser</i><par n="actua/ción__n"/></e>
+<e lm="afixación" a="prompsit2uoc"><i>afixa</i><par n="actua/ción__n"/></e>
+<e lm="acidificación" a="prompsit2uoc"><i>acidifica</i><par n="actua/ción__n"/></e>
+<e lm="autenticación" a="prompsit2uoc"><i>autentica</i><par n="actua/ción__n"/></e>
+<e lm="acotación"><i>acota</i><par n="actua/ción__n"/></e>
+<e lm="admonición"><i>admoni</i><par n="actua/ción__n"/></e>
+<e lm="agravación"><i>agrava</i><par n="actua/ción__n"/></e>
+<e lm="anihilación"><i>anihila</i><par n="actua/ción__n"/></e>
+<e lm="anteposición"><i>anteposi</i><par n="actua/ción__n"/></e>
+<e lm="apostrofación"><i>apostrofa</i><par n="actua/ción__n"/></e>
+<e lm="autocreyación"><i>autocreya</i><par n="actua/ción__n"/></e>
+<e lm="autocreyación" r="LR"><p><l>autocrea</l><r>autocreya</r></p><par n="actua/ción__n"/></e>
+<e lm="autoavaluación"><i>autoavalua</i><par n="actua/ción__n"/></e>
+<e lm="autoavaluación" r="LR"><p><l>autoevalua</l><r>autoavalua</r></p><par n="actua/ción__n"/></e>
+<e lm="autoformación"><i>autoforma</i><par n="actua/ción__n"/></e>
+<e lm="autoinculpación"><i>autoinculpa</i><par n="actua/ción__n"/></e>
+<e lm="autoinducción"><i>autoinduc</i><par n="actua/ción__n"/></e>
+<e lm="autolesión"><i>autolesi</i><par n="divisi/ón__n"/></e>
+<e lm="autoproclamación"><i>autoproclama</i><par n="actua/ción__n"/></e>
+<e lm="autorreflexión"><i>autorreflexi</i><par n="divisi/ón__n"/></e>
+<e lm="autosatisfacción"><i>autosatisfac</i><par n="actua/ción__n"/></e>
+<e lm="banalización"><i>banaliza</i><par n="actua/ción__n"/></e>
+<e lm="bichección"><i>bichec</i><par n="actua/ción__n"/></e>
+<e lm="calibración"><i>calibra</i><par n="actua/ción__n"/></e>
+<e lm="cautivación"><i>cautiva</i><par n="actua/ción__n"/></e>
+<e lm="cavilación"><i>cavila</i><par n="actua/ción__n"/></e>
+<e lm="cavitación"><i>cavita</i><par n="actua/ción__n"/></e>
+<e lm="cesación"><i>cesa</i><par n="actua/ción__n"/></e>
+<e lm="clarificación"><i>clarifica</i><par n="actua/ción__n"/></e>
+<e lm="coarción"><i>coar</i><par n="actua/ción__n"/></e>
+<e lm="cohibición"><i>cohibi</i><par n="actua/ción__n"/></e>
+<e lm="colusión"><i>colusi</i><par n="divisi/ón__n"/></e>
+<e lm="comarcalización"><i>comarcaliza</i><par n="actua/ción__n"/></e>
+<e lm="compachinación"><i>compachina</i><par n="actua/ción__n"/></e>
+<e lm="compartición"><i>comparti</i><par n="actua/ción__n"/></e>
+<e lm="compulsión"><i>compulsi</i><par n="divisi/ón__n"/></e>
+<e lm="concisión"><i>concisi</i><par n="divisi/ón__n"/></e>
+<e lm="concusión"><i>concusi</i><par n="divisi/ón__n"/></e>
+<e lm="confabulación"><i>confabula</i><par n="actua/ción__n"/></e>
+<e lm="consumación"><i>consuma</i><par n="actua/ción__n"/></e>
+<e lm="contextualización"><i>contextualiza</i><par n="actua/ción__n"/></e>
+<e lm="contorsión"><i>contorsi</i><par n="divisi/ón__n"/></e>
+<e lm="dación"><i>da</i><par n="actua/ción__n"/></e>
+<e lm="debilitación"><i>debilita</i><par n="actua/ción__n"/></e>
+<e lm="deposición"><i>deposi</i><par n="actua/ción__n"/></e>
+<e lm="desafectación"><i>desafecta</i><par n="actua/ción__n"/></e>
+<e lm="desambiguación"><i>desambigua</i><par n="actua/ción__n"/></e>
+<e lm="descompensación"><i>descompensa</i><par n="actua/ción__n"/></e>
+<e lm="deshabituación"><i>deshabitua</i><par n="actua/ción__n"/></e>
+<e lm="desinhibición"><i>desinhibi</i><par n="actua/ción__n"/></e>
+<e lm="desincronización"><i>desincroniza</i><par n="actua/ción__n"/></e>
+<e lm="desregularización"><i>desregulariza</i><par n="actua/ción__n"/></e>
+<e lm="detracción"><i>detrac</i><par n="actua/ción__n"/></e>
+<e lm="dispensación"><i>dispensa</i><par n="actua/ción__n"/></e>
+<e lm="divagación"><i>divaga</i><par n="actua/ción__n"/></e>
+<e lm="efusión"><i>efusi</i><par n="divisi/ón__n"/></e>
+<e lm="emersión"><i>emersi</i><par n="divisi/ón__n"/></e>
+<e lm="erudición"><i>erudi</i><par n="actua/ción__n"/></e>
+<e lm="estricción"><i>estric</i><par n="actua/ción__n"/></e>
+<e lm="estupefacción"><i>estupefac</i><par n="actua/ción__n"/></e>
+<e lm="europeización"><i>europeiza</i><par n="actua/ción__n"/></e>
+<e lm="excusión"><i>excusi</i><par n="divisi/ón__n"/></e>
+<e lm="exoneración"><i>exonera</i><par n="actua/ción__n"/></e>
+<e lm="expoliación"><i>expolia</i><par n="actua/ción__n"/></e>
+<e lm="echección"><i>echec</i><par n="actua/ción__n"/></e>
+<e lm="felación"><i>fela</i><par n="actua/ción__n"/></e>
+<e lm="flexión"><i>flexi</i><par n="divisi/ón__n"/></e>
+<e lm="focalización"><i>focaliza</i><par n="actua/ción__n"/></e>
+<e lm="foliación"><i>folia</i><par n="actua/ción__n"/></e>
+<e lm="fonolochización"><i>fonolochiza</i><par n="actua/ción__n"/></e>
+<e lm="desfonolochización"><i>desfonolochiza</i><par n="actua/ción__n"/></e>
+<e lm="forestación"><i>foresta</i><par n="actua/ción__n"/></e>
+<e lm="formatación"><i>formata</i><par n="actua/ción__n"/></e>
+<e lm="fruición"><i>frui</i><par n="actua/ción__n"/></e>
+<e lm="fundamentación"><i>fundamenta</i><par n="actua/ción__n"/></e>
+<e lm="chenuflexión"><i>chenuflexi</i><par n="divisi/ón__n"/></e>
+<e lm="cheoreferenciación"><i>cheoreferencia</i><par n="actua/ción__n"/></e>
+<e lm="humanización"><i>humaniza</i><par n="actua/ción__n"/></e>
+<e lm="impregnación"><i>impregna</i><par n="actua/ción__n"/></e>
+<e lm="impulsión"><i>impulsi</i><par n="divisi/ón__n"/></e>
+<e lm="inadequación"><i>inadequa</i><par n="actua/ción__n"/></e>
+<e lm="inadequación" r="LR"><p><l>inadecua</l><r>inadequa</r></p><par n="actua/ción__n"/></e>
+<e lm="incoacción"><i>incoac</i><par n="actua/ción__n"/></e>
+<e lm="incrustación"><i>incrusta</i><par n="actua/ción__n"/></e>
+<e lm="indeterminación"><i>indetermina</i><par n="actua/ción__n"/></e>
+<e lm="inhumación"><i>inhuma</i><par n="actua/ción__n"/></e>
+<e lm="immatriculación"><i>immatricula</i><par n="actua/ción__n"/></e>
+<e lm="immatriculación" r="LR"><p><l>inmatricula</l><r>immatricula</r></p><par n="actua/ción__n"/></e>
+<e lm="preinstalación"><i>preinstala</i><par n="actua/ción__n"/></e>
+<e lm="insumisión"><i>insumisi</i><par n="divisi/ón__n"/></e>
+<e lm="intercesión"><i>intercesi</i><par n="divisi/ón__n"/></e>
+<e lm="intermodulación"><i>intermodula</i><par n="actua/ción__n"/></e>
+<e lm="intimación"><i>intima</i><par n="actua/ción__n"/></e>
+<e lm="seriación"><i>seria</i><par n="actua/ción__n"/></e>
+<e lm="solubilización"><i>solubiliza</i><par n="actua/ción__n"/></e>
+<e lm="inutilización"><i>inutiliza</i><par n="actua/ción__n"/></e>
+<e lm="irrigación"><i>irriga</i><par n="actua/ción__n"/></e>
+<e lm="irrogación"><i>irroga</i><par n="actua/ción__n"/></e>
+<e lm="iteración"><i>itera</i><par n="actua/ción__n"/></e>
+<e lm="liquación"><i>liqua</i><par n="actua/ción__n"/></e>
+<e lm="liquación" r="LR"><p><l>licua</l><r>liqua</r></p><par n="actua/ción__n"/></e>
+<e lm="litigación"><i>litiga</i><par n="actua/ción__n"/></e>
+<e lm="lubrificación"><i>lubrifica</i><par n="actua/ción__n"/></e>
+<e lm="lustración"><i>lustra</i><par n="actua/ción__n"/></e>
+<e lm="mediatización"><i>mediatiza</i><par n="actua/ción__n"/></e>
+<e lm="metaficción"><i>metafic</i><par n="actua/ción__n"/></e>
+<e lm="meteorización"><i>meteoriza</i><par n="actua/ción__n"/></e>
+<e lm="micción"><i>mic</i><par n="actua/ción__n"/></e>
+<e lm="microedición"><i>microedi</i><par n="actua/ción__n"/></e>
+<e lm="minoración"><i>minora</i><par n="actua/ción__n"/></e>
+<e lm="minorización"><i>minoriza</i><par n="actua/ción__n"/></e>
+<e lm="monopolización"><i>monopoliza</i><par n="actua/ción__n"/></e>
+<e lm="moralización"><i>moraliza</i><par n="actua/ción__n"/></e>
+<e lm="mundialización"><i>mundializa</i><par n="actua/ción__n"/></e>
+<e lm="nerviación"><i>nervia</i><par n="actua/ción__n"/></e>
+<e lm="novación"><i>nova</i><par n="actua/ción__n"/></e>
+<e lm="obturación"><i>obtura</i><par n="actua/ción__n"/></e>
+<e lm="ofuscación"><i>ofusca</i><par n="actua/ción__n"/></e>
+<e lm="palpitación"><i>palpita</i><par n="actua/ción__n"/></e>
+<e lm="planificiación"><i>planificia</i><par n="actua/ción__n"/></e>
+<e lm="positivización"><i>positiviza</i><par n="actua/ción__n"/></e>
+<e lm="postposición"><i>postposi</i><par n="actua/ción__n"/></e>
+<e lm="postposición" r="LR"><p><l>posposi</l><r>postposi</r></p><par n="actua/ción__n"/></e>
+<e lm="postedición"><i>postedi</i><par n="actua/ción__n"/></e>
+<e lm="postcheneración"><i>postchenera</i><par n="actua/ción__n"/></e>
+<e lm="precondición"><i>precondi</i><par n="actua/ción__n"/></e>
+<e lm="predeterminación"><i>predetermina</i><par n="actua/ción__n"/></e>
+<e lm="preedición"><i>preedi</i><par n="actua/ción__n"/></e>
+<e lm="prefiguración"><i>prefigura</i><par n="actua/ción__n"/></e>
+<e lm="prefixación"><i>prefixa</i><par n="actua/ción__n"/></e>
+<e lm="presuposición"><i>presuposi</i><par n="actua/ción__n"/></e>
+<e lm="previsualización"><i>previsualiza</i><par n="actua/ción__n"/></e>
+<e lm="pulsión"><i>pulsi</i><par n="divisi/ón__n"/></e>
+<e lm="reavivación"><i>reaviva</i><par n="actua/ción__n"/></e>
+<e lm="recomposición"><i>recomposi</i><par n="actua/ción__n"/></e>
+<e lm="redirección"><i>redirec</i><par n="actua/ción__n"/></e>
+<e lm="reexportación"><i>reexporta</i><par n="actua/ción__n"/></e>
+<e lm="refinación"><i>refina</i><par n="actua/ción__n"/></e>
+<e lm="reinstalación"><i>reinstala</i><par n="actua/ción__n"/></e>
+<e lm="retaxación"><i>retaxa</i><par n="actua/ción__n"/></e>
+<e lm="retorsión"><i>retorsi</i><par n="divisi/ón__n"/></e>
+<e lm="retroalimentación"><i>retroalimenta</i><par n="actua/ción__n"/></e>
+<e lm="revaluación"><i>revalua</i><par n="actua/ción__n"/></e>
+<e lm="sedimentación"><i>sedimenta</i><par n="actua/ción__n"/></e>
+<e lm="segmentación"><i>segmenta</i><par n="actua/ción__n"/></e>
+<e lm="sindicación"><i>sindica</i><par n="actua/ción__n"/></e>
+<e lm="sobrecalificación"><i>sobrecalifica</i><par n="actua/ción__n"/></e>
+<e lm="solicitación"><i>solicita</i><par n="actua/ción__n"/></e>
+<e lm="sonorización"><i>sonoriza</i><par n="actua/ción__n"/></e>
+<e lm="subestimación"><i>subestima</i><par n="actua/ción__n"/></e>
+<e lm="subgobernación"><i>subgoberna</i><par n="actua/ción__n"/></e>
+<e lm="tarifación"><i>tarifa</i><par n="actua/ción__n"/></e>
+<e lm="teleoperación"><i>teleopera</i><par n="actua/ción__n"/></e>
+<e lm="tematización"><i>tematiza</i><par n="actua/ción__n"/></e>
+<e lm="temporalización"><i>temporaliza</i><par n="actua/ción__n"/></e>
+<e lm="temporización"><i>temporiza</i><par n="actua/ción__n"/></e>
+<e lm="teorización"><i>teoriza</i><par n="actua/ción__n"/></e>
+<e lm="transfección"><i>transfec</i><par n="actua/ción__n"/></e>
+<e lm="transliteración"><i>translitera</i><par n="actua/ción__n"/></e>
+<e lm="transposición"><i>transposi</i><par n="actua/ción__n"/></e>
+<e lm="transposición" r="LR"><p><l>trasposi</l><r>transposi</r></p><par n="actua/ción__n"/></e>
+<e lm="triplicación"><i>triplica</i><par n="actua/ción__n"/></e>
+<e lm="turbación"><i>turba</i><par n="actua/ción__n"/></e>
+<e lm="uniformización"><i>uniformiza</i><par n="actua/ción__n"/></e>
+<e lm="vehiculación"><i>vehicula</i><par n="actua/ción__n"/></e>
+<e lm="videograbación"><i>videograba</i><par n="actua/ción__n"/></e>
+<e lm="amortimiento"><i>amorti</i><par n="achunta/miento__n"/></e>
+<e lm="okupación"><i>okupa</i><par n="actua/ción__n"/></e>
+<e lm="bipolarización"><i>bipolariza</i><par n="actua/ción__n"/></e>
+<e lm="dilucidación"><i>dilucida</i><par n="actua/ción__n"/></e>
+<e lm="desfibrilación"><i>desfibrila</i><par n="actua/ción__n"/></e>
+<e lm="autocontención" a="mireiafarrus"><i>autoconten</i><par n="actua/ción__n"/></e>
+<e lm="autocategorización" a="mireiafarrus"><i>autocategoriza</i><par n="actua/ción__n"/></e>
+<e lm="diagonalización" a="mireiafarrus"><i>diagonaliza</i><par n="actua/ción__n"/></e>
+<e lm="anonimización" a="prompsit2ua"><i>anonimiza</i><par n="actua/ción__n"/></e>
+<e lm="automotivación" a="prompsit2ua"><i>automotiva</i><par n="actua/ción__n"/></e>
+<e lm="dramatización" a="prompsit2ua"><i>dramatiza</i><par n="actua/ción__n"/></e>
+<e lm="ensonyación" a="prompsit2ua"><i>ensonya</i><par n="actua/ción__n"/></e>
+<e lm="periodización" a="prompsit2ua"><i>periodiza</i><par n="actua/ción__n"/></e>
+<e lm="rememoración" a="prompsit2ua"><i>rememora</i><par n="actua/ción__n"/></e>    
+    
+    
     
      <!-- preposicions -->    
     <e lm="a"><i></i><par n="conta__pr"/></e>
@@ -45884,7 +47273,7 @@
     <e lm="arrocegar"><i>arroc</i><par n="s/egar__vblex"/></e>
     <e lm="arrocegar" r="LR"><i>arroceg</i><par n="pag/ar__vblex"/></e> <!-- sin diftongación -->
 
-    
+    <e lm="encapsular"><i>encapsul</i><par n="cant/ar__vblex"/></e>
     <e lm="consultar"><i>consult</i><par n="cant/ar__vblex"/></e>
     <e lm="abandonar"><i>abandon</i><par n="cant/ar__vblex"/></e>
     <e lm="achuntar"><i>achunt</i><par n="cant/ar__vblex"/></e>
@@ -45911,6 +47300,8 @@
     <e lm="alufrar"><i>alufr</i><par n="cant/ar__vblex"/></e>
     <e lm="alzar"><i>al</i><par n="ca/zar__vblex"/></e>
     <e lm="autoalzar"><i>autoal</i><par n="ca/zar__vblex"/></e>
+    <e lm="suavezar"><i>suave</i><par n="ca/zar__vblex"/></e>
+    <e lm="suavezar" r="LR"><p><l>suavi</l><r>suave</r></p><par n="ca/zar__vblex"/></e>
     <e lm="reendrezar"><i>reendre</i><par n="ca/zar__vblex"/></e>
     <e lm="anexionar"><i>anexion</i><par n="cant/ar__vblex"/></e>
     <e lm="anexionar" r="LR"><p><l>anesion</l><r>anexion</r></p><par n="cant/ar__vblex"/></e>
@@ -46168,6 +47559,7 @@
     <e lm="arcaísmo" r="LR"><p><l>arcaismo</l><r>arcaísmo</r></p><par n="libro__n"/></e>
     <e lm="arrianismo"><i>arrianismo</i><par n="libro__n"/></e>
     <e lm="ascetismo"><i>ascetismo</i><par n="libro__n"/></e>
+    <e lm="presupuesto"><i>presupuesto</i><par n="libro__n"/></e>
     
     <e lm="por tot arreu"><par n="/por__var"/><i><b/>tot<b/>arreu</i><par n="agora__adv"/></e>
     <e lm="asinasmesmo"><i>asinasmesmo</i><par n="agora__adv"/></e>
@@ -46201,6 +47593,7 @@
     <e lm="v"><i>v</i><par n="quaresma__n"/></e>
     <e lm="w"><i>w</i><par n="quaresma__n"/></e>
     <e lm="x"><i>x</i><par n="quaresma__n"/></e>
+    <e lm="lambda" a="prompsit2uoc"><i>lambda</i><par n="luenga__n"/></e>
     <e lm="atletismo"><i>atletismo</i><par n="atletismo__n"/></e>
     <e lm="norte"><i>norte</i><par n="atletismo__n"/></e>
     <e lm="ueste"><i>ueste</i><par n="atletismo__n"/></e>
@@ -52102,6 +53495,7 @@
     <e lm="audible"><i>audible</i><par n="social__adj"/></e>
     <e lm="audiovisual"><i>audiovisual</i><par n="social__adj"/></e>
     <e lm="ausent"><i>aus</i><par n="urch/ent__adj"/></e>
+    <e lm="coeficient"><i>coefici</i><par n="ambi/ent__n"/></e>
     <e lm="austral"><i>austral</i><par n="social__adj"/></e>
     <e lm="autonomista"><i>autonomista</i><par n="social__adj"/></e>
     <e lm="auxiliar"><i>auxiliar</i><par n="social__adj"/></e>
@@ -53370,6 +54764,7 @@
     <e lm="Cortz Valencianas"><i>Cortz<b/>Valencianas</i><par n="afueras__n"/></e>    
     <e lm="Cortz Valencianas" r="LR"><p><l>Corts<b/>Valencianas</l><r>Cortz<b/>Valencianas</r></p><par n="afueras__n"/></e>
     <e lm="Cortz Valencianas" r="LR"><p><l>Cortes<b/>Valencianas</l><r>Cortz<b/>Valencianas</r></p><par n="afueras__n"/></e>
+    <e lm="Escuelas Pías"><i>Escuelas<b/>Pías</i><par n="afueras__n"/></e>
     <e lm="vacancias"><i>vacancias</i><par n="afueras__n"/></e>    
     <e lm="vacancias" r="LR"><p><l>vacanzas</l><r>vacancias</r></p><par n="afueras__n"/></e>
     <e lm="vacancias" r="LR"><p><l>vacacions</l><r>vacancias</r></p><par n="afueras__n"/></e>
@@ -53385,6 +54780,9 @@
     <e lm="respecto"><i>respecto</i><par n="libro__n"/></e>   
     <e lm="respecto" r="LR"><p><l>respeto</l><r>respecto</r></p><par n="libro__n"/></e>
     <e lm="propiedat"><i>propied</i><par n="privacid/at__n"/></e>
+    <e lm="gravedat"><i>graved</i><par n="privacid/at__n"/></e>
+    <e lm="microgravedat"><i>micrograved</i><par n="privacid/at__n"/></e>
+    <e lm="opacidat"><i>opacid</i><par n="privacid/at__n"/></e>
     <e lm="soledat"><i>soled</i><par n="privacid/at__n"/></e>
     <e lm="orden"><i>orden</i><par n="libro__n"/></e>
     <e lm="orden"><i>orden</i><par n="luenga__n"/></e>
@@ -53465,6 +54863,7 @@
     <e lm="buenpasar" r="LR"><p><l>buempasar</l><r>buenpasar</r></p><par n="libro__n"/></e>
     <e lm="voto"><i>voto</i><par n="libro__n"/></e>
     <e lm="ataque"><i>ataque</i><par n="libro__n"/></e>
+    <e lm="bloque"><i>bloque</i><par n="libro__n"/></e>
     <e lm="honra"><i>honra</i><par n="luenga__n"/></e>
     <e lm="degradant"><i>degrad</i><par n="degrad/ant__adj"/></e>
     <e lm="preferent"><i>prefer</i><par n="difer/ent__adj"/></e>
@@ -53472,6 +54871,7 @@
     <e lm="pacifico"><i>pacific</i><par n="academic/o__adj"/></e>
     <e lm="equitativo"><i>equitati</i><par n="cursi/vo__adj"/></e>
     <e lm="autonomo"><i>autonom</i><par n="academic/o__adj"/></e>
+    <e lm="monocromo"><i>monocrom</i><par n="academic/o__adj"/></e>
     <e lm="unico"><i>unic</i><par n="academic/o__adj"/></e>
     <e lm="arbitrario"><i>arbitrari</i><par n="academic/o__adj"/></e>
     <e lm="medico"><i>medic</i><par n="academic/o__adj"/></e>
@@ -53523,6 +54923,9 @@
     <e lm="descanso" r="LR"><p><l>discanso</l><r>descanso</r></p><par n="libro__n"/></e>
     <e lm="descanso" r="LR"><p><l>escanso</l><r>descanso</r></p><par n="libro__n"/></e>
     <e lm="sexo"><i>sexo</i><par n="libro__n"/></e>
+    <e lm="atributo"><i>atributo</i><par n="libro__n"/></e>
+    <e lm="anexo"><i>anexo</i><par n="libro__n"/></e>
+    <e lm="anexo" r="LR"><p><l>annexo</l><r>anexo</r></p><par n="libro__n"/></e>
     <e lm="pensamiento"><i>pensa</i><par n="achunta/miento__n"/></e>
     <e lm="mantenimiento"><i>manteni</i><par n="achunta/miento__n"/></e>
     <e lm="progreso"><i>progreso</i><par n="libro__n"/></e>
@@ -53609,6 +55012,7 @@
     <e lm="gracia"><i>gracia</i><par n="luenga__n"/></e>
     <e lm="gracia" r="LR"><p><l>grazia</l><r>gracia</r></p><par n="luenga__n"/></e>
     <e lm="hora"><i>hora</i><par n="luenga__n"/></e>
+    <e lm="ancora"><i>ancora</i><par n="luenga__n"/></e>
     <e lm="bomba"><i>bomba</i><par n="luenga__n"/></e>
     <e lm="clase"><par n="/cl_cll__var"/><i>ase</i><par n="luenga__n"/></e>
     <e lm="plaza"><par n="/pl_pll__var"/><i>aza</i><par n="luenga__n"/></e>
@@ -53862,6 +55266,7 @@
     <e lm="motivo"><i>motivo</i><par n="libro__n"/></e>
     <e lm="plazo"><i>plazo</i><par n="libro__n"/></e> <!-- termin -->
     <e lm="companyero"><i>company</i><par n="vaqu/ero__n"/></e>
+    <e lm="incheniero"><i>incheni</i><par n="vaqu/ero__n"/></e>
     <e lm="quadro"><i>quadro</i><par n="libro__n"/></e>
     <e lm="requadro"><i>requadro</i><par n="libro__n"/></e>
     <e lm="suministro"><i>suministro</i><par n="libro__n"/></e>
@@ -53979,6 +55384,7 @@
     <e lm="fer a risalleta" r="LR"><i>f</i><par n="f/er__vblex"/><p><l><b/>una<b/>risilleta</l><r><g><b/>a<b/>risalleta</g></r></p></e>
     <e lm="fer goyo"><i>f</i><par n="f/er__vblex"/><p><l><b/>goyo</l><r><g><b/>goyo</g></r></p></e>
     <e lm="fer goyo" r="LR"><i>f</i><par n="f/er__vblex"/><p><l><b/>goi</l><r><g><b/>goyo</g></r></p></e>
+    <e lm="fer fuera"><i>f</i><par n="f/er__vblex"/><p><l><b/>fuera</l><r><g><b/>fuera</g></r></p></e>
     <e lm="fer miedo"><i>f</i><par n="f/er__vblex"/><p><l><b/>miedo</l><r><g><b/>miedo</g></r></p></e>
     <e lm="fer espanto"><i>f</i><par n="f/er__vblex"/><p><l><b/>espanto</l><r><g><b/>espanto</g></r></p></e>
     <e lm="fer medrana"><i>f</i><par n="f/er__vblex"/><p><l><b/>medrana</l><r><g><b/>medrana</g></r></p></e>
@@ -54016,10 +55422,13 @@
     <e lm="rector"><i>re</i><par n="/ct_ut__var"/><i>or</i><par n="treballador__n"/></e>
     <e lm="rector"><i>re</i><par n="/ct_ut__var"/><i>or</i><par n="opresor__adj"/></e>
     <e lm="lechislador"><i>lechislador</i><par n="treballador__n"/></e>
+    <e lm="actuador"><i>actuador</i><par n="libro__n"/></e>
     <e lm="defensor"><i>defensor</i><par n="treballador__n"/></e>
+    <e lm="lanzador"><i>lanzador</i><par n="treballador__n"/></e>
     <e lm="defensor" r="LR"><p><l>esfensor</l><r>defensor</r></p><par n="treballador__n"/></e>
     <e lm="defensor"><i>defensor</i><par n="opresor__adj"/></e>
     <e lm="defensor" r="LR"><p><l>esfensor</l><r>defensor</r></p><par n="opresor__adj"/></e>
+    <e lm="computador"><i>computador</i><par n="opresor__adj"/></e>    
     <e lm="conquistador"><i>conquistador</i><par n="treballador__n"/></e>    
     <e lm="conqueridor"><i>conqueridor</i><par n="treballador__n"/></e>    
     <e lm="conqueridor" r="LR"><p><l>conquiridor</l><r>conqueridor</r></p><par n="treballador__n"/></e>
@@ -54113,6 +55522,7 @@
     <e lm="comienzo"><i>comienzo</i><par n="libro__n"/></e>
     <e lm="escomienzo"><i>escomienzo</i><par n="libro__n"/></e>    
     <e lm="encomienzo"><i>encomienzo</i><par n="libro__n"/></e>    
+    <e lm="inicio"><i>inicio</i><par n="libro__n"/></e>
     <e lm="prencipio"><i>prencipio</i><par n="libro__n"/></e>    
     <e lm="prencipio" r="LR"><p><l>principio</l><r>prencipio</r></p><par n="libro__n"/></e>
     <e lm="latinismo"><par n="/l_ll__var"/><i>atinismo</i><par n="libro__n"/></e>    
@@ -54219,6 +55629,7 @@
     <e lm="pareixer" r="LR"><p><l>pa</l><r>par</r></p><par n="/eix_ix_ex__var"/><par n="conoix/er__vblex"/></e>
 
     <e lm="aclarir"><i>aclar</i><par n="aclar/ir__vblex"/></e> <!-- par incoat y no incoat-->
+    <e lm="suavir"><i>suav</i><par n="aclar/ir__vblex"/></e> <!-- par incoat y no incoat-->
     <e lm="esclarir"><i>esclar</i><par n="aclar/ir__vblex"/></e>
     <e lm="remanir"><i>reman</i><par n="aclar/ir__vblex"/></e>
     <e lm="velar"><i>velar</i><par n="social__adj"/></e>
@@ -54306,6 +55717,7 @@
     <e lm="disolución"><i>disolu</i><par n="actua/ción__n"/></e>
     <e lm="distracción"><i>distrac</i><par n="actua/ción__n"/></e>
     <e lm="distribución"><i>distribu</i><par n="actua/ción__n"/></e>
+    <e lm="distribución" r="LR"><p><l>destribu</l><r>distribu</r></p><par n="actua/ción__n"/></e>
     <e lm="redistribución"><i>redistribu</i><par n="actua/ción__n"/></e>
     <e lm="durada"><i>dura</i><par n="vega/da__n"/></e>
     <e lm="emoción"><i>emo</i><par n="actua/ción__n"/></e>
@@ -54374,6 +55786,7 @@
     <e lm="orientación"><i>orienta</i><par n="actua/ción__n"/></e>
     <e lm="ostentación"><i>ostenta</i><par n="actua/ción__n"/></e>
     <e lm="participación"><i>participa</i><par n="actua/ción__n"/></e>
+    <e lm="participación" r="LR"><p><l>partecipa</l><r>participa</r></p><par n="actua/ción__n"/></e>
     <e lm="perfección"><i>perfec</i><par n="actua/ción__n"/></e>
     <e lm="perforación"><i>perfora</i><par n="actua/ción__n"/></e>
     <e lm="petición"><i>peti</i><par n="actua/ción__n"/></e>
@@ -54389,7 +55802,7 @@
     <e lm="radiación"><i>radia</i><par n="actua/ción__n"/></e>
     <e lm="reacción"><i>reac</i><par n="actua/ción__n"/></e>
     <e lm="realización"><i>realiza</i><par n="actua/ción__n"/></e>
-    <e lm="realización"><i>realiza</i><par n="actua/ción__n"/></e>
+    <e lm="realización" r="LR"><p><l>reyaliza</l><r>realiza</r></p><par n="actua/ción__n"/></e>
     <e lm="reclamación"><i>reclama</i><par n="actua/ción__n"/></e>
     <e lm="redacción"><i>redac</i><par n="actua/ción__n"/></e>
     <e lm="reducción"><i>reduc</i><par n="actua/ción__n"/></e>
@@ -54424,6 +55837,8 @@
     <e lm="disminución"><i>disminu</i><par n="actua/ción__n"/></e>
     <e lm="explotación"><i>explota</i><par n="actua/ción__n"/></e>
     <e lm="guarnimiento"><i>guarni</i><par n="achunta/miento__n"/></e>
+    <e lm="desistimiento"><i>desisti</i><par n="achunta/miento__n"/></e>
+    <e lm="esbrinamiento"><i>esbrina</i><par n="achunta/miento__n"/></e>
     <e lm="rebaixada"><i>rebaixa</i><par n="vega/da__n"/></e>
     <e lm="inchección"><i>inchec</i><par n="actua/ción__n"/></e>
     <e lm="lición"><par n="/l_ll__var"/><i>i</i><par n="actua/ción__n"/></e>
@@ -54431,6 +55846,7 @@
     <e lm="lición" r="LR"><p><l>lic</l><r>li</r></p><par n="actua/ción__n"/></e>
     <e lm="represa"><i>represa</i><par n="luenga__n"/></e>
     <e lm="reproducción"><i>reproduc</i><par n="actua/ción__n"/></e>
+    <e lm="reconcome"><i>reconcome</i><par n="libro__n"/></e>
     
     <e lm="inabastable"><i>inabastable</i><par n="social__adj_adv"/></e>
     <e lm="impermeyable"><i>impermeyable</i><par n="social__adj_adv"/></e>
@@ -54618,6 +56034,8 @@
     <e lm="anterior"><i>anterior</i><par n="social__adj_adv"/></e>
     <e lm="anticipau"><i>anticipa</i><par n="adequa/u__adj_adv"/></e>
     <e lm="anticlinal"><i>anticlinal</i><par n="social__adj_adv"/></e>
+    <e lm="anticorrupción"><i>anticorrupción</i><par n="multimedia__adj"/></e>
+    <e lm="multifunción"><i>multifunción</i><par n="multimedia__adj"/></e>
     <e lm="antidemocratico"><i>antidemocratic</i><par n="academic/o__adj_adv"/></e>
     <e lm="antigo"><i>antig</i><par n="academic/o__adj_adv"/></e>
     <e lm="antiglobalizador"><i>antiglobalizador</i><par n="opresor__adj_adv"/></e>
@@ -54679,6 +56097,9 @@
     <e lm="asaltant"><i>asalt</i><par n="degrad/ant__adj_adv"/></e>
     <e lm="asayistico"><i>asayistic</i><par n="academic/o__adj_adv"/></e>
     <e lm="ascendent"><i>ascend</i><par n="difer/ent__adj_adv"/></e>
+    <e lm="ascendent" r="LR"><p><l>ascendi</l><r>ascend</r></p><par n="difer/ent__adj_adv"/></e>    
+    <e lm="descendent"><i>descend</i><par n="difer/ent__adj"/></e>
+    <e lm="descendent" r="LR"><p><l>descendi</l><r>descend</r></p><par n="difer/ent__adj"/></e>
     <e lm="asetegau"><i>asetega</i><par n="sala/u__adj_adv"/></e>
     <e lm="asambleyario"><i>asambleyari</i><par n="academic/o__adj_adv"/></e>
     <e lm="asambleyario" r="LR"><p><l>asambleari</l><r>asambleyari</r></p><par n="academic/o__adj_adv"/></e>
@@ -55953,7 +57374,8 @@
     <e lm="habitual"><i>habitual</i><par n="social__adj_adv"/></e>
     <e lm="habitual" r="LR"><p><l>abitual</l><r>habitual</r></p><par n="social__adj_adv"/></e>
     <e lm="harmonico"><i>harmonic</i><par n="academic/o__adj_adv"/></e>
-    <e lm="harmonioso"><i>harmonios</i><par n="academic/o__adj_adv"/></e>
+    <e lm="harmonioso"><i>harmonios</i><par n="alt/o__adj_adv"/></e>
+    <e lm="harmonioso" r="LR"><p><l>armonios</l><r>harmonios</r></p><par n="alt/o__adj_adv"/></e>
     <e lm="hedonista"><i>hedonista</i><par n="social__adj_adv"/></e>
     <e lm="helenistico"><i>helenistic</i><par n="academic/o__adj_adv"/></e>
     <e lm="helicoidal"><i>helicoidal</i><par n="social__adj_adv"/></e>
@@ -57937,6 +59359,7 @@
     <e lm="cenyo"><i>cenyo</i><par n="libro__n"/></e>
     <e lm="acompanyamiento"><i>acompanya</i><par n="achunta/miento__n"/></e>
     <e lm="agradeiximiento"><i>agradeixi</i><par n="achunta/miento__n"/></e>
+    <e lm="desheredamiento"><i>deshereda</i><par n="achunta/miento__n"/></e>
     <e lm="isolamiento"><i>isola</i><par n="achunta/miento__n"/></e>
     <e lm="isolamiento" r="LR"><p><l>aisla</l><r>isola</r></p><par n="achunta/miento__n"/></e>
     <e lm="aplazamiento"><i>aplaza</i><par n="achunta/miento__n"/></e>
@@ -57984,6 +59407,7 @@
     <e lm="sostenimiento"><i>sosteni</i><par n="achunta/miento__n"/></e>
     <e lm="tractamiento"><i>tracta</i><par n="achunta/miento__n"/></e>
     <e lm="escubrimiento"><i>escubri</i><par n="achunta/miento__n"/></e>
+    <e lm="encubrimiento"><i>encubri</i><par n="achunta/miento__n"/></e>
     <e lm="farfallamiento"><i>farfalla</i><par n="achunta/miento__n"/></e>
     <e lm="esboldregue"><i>esboldregue</i><par n="libro__n"/></e>
     <e lm="fundimiento"><i>fundi</i><par n="achunta/miento__n"/></e>
@@ -58072,6 +59496,7 @@
     <e lm="debutar"><i>debut</i><par n="cant/ar__vblex"/></e>
     <e lm="ayunar"><i>ayun</i><par n="cant/ar__vblex"/></e>
     <e lm="desagradar"><i>desagrad</i><par n="cant/ar__vblex"/></e>
+    <e lm="degradar"><i>degrad</i><par n="cant/ar__vblex"/></e>
     <e lm="desanimar"><i>desanim</i><par n="cant/ar__vblex"/></e>
     <e lm="desayunar"><i>desayun</i><par n="cant/ar__vblex"/></e>
                          <!--       <e lm="desayunar-se"><i>desayun-se</i><par n="cant/ar__vblex"/></e>   verb used as reflexive in aragonese, non-reflexive in spanish--> 
@@ -58278,6 +59703,7 @@
     <e lm="dictar"><i>dict</i><par n="cant/ar__vblex"/></e>
     <e lm="duchar"><i>duch</i><par n="cant/ar__vblex"/></e>
     <e lm="encantar"><i>encant</i><par n="cant/ar__vblex"/></e>
+    <e lm="ancorar"><i>ancor</i><par n="cant/ar__vblex"/></e>
     <e lm="entusiasmar"><i>entusiasm</i><par n="cant/ar__vblex"/></e>
     <e lm="escaldar"><i>escald</i><par n="cant/ar__vblex"/></e>
     <e lm="esgarrar"><i>esgarr</i><par n="cant/ar__vblex"/></e>
@@ -58348,6 +59774,13 @@
     <e lm="eslizar"><i>esli</i><par n="ca/zar__vblex"/></e>
     <e lm="aparcar"><i>apar</i><par n="trafu/car__vblex"/></e>
     <e lm="aplicar"><i>apli</i><par n="trafu/car__vblex"/></e>
+    <e lm="duplicar"><i>dupli</i><par n="trafu/car__vblex"/></e>
+    <e lm="replicar"><i>repli</i><par n="trafu/car__vblex"/></e>
+    <e lm="implicar"><i>impli</i><par n="trafu/car__vblex"/></e>
+    <e lm="triplicar"><i>tripli</i><par n="trafu/car__vblex"/></e>
+    <e lm="quintuplicar"><i>quintupli</i><par n="trafu/car__vblex"/></e>
+    
+    
     <e lm="rancar"><i>ran</i><par n="trafu/car__vblex"/></e>
     <e lm="atracar"><i>atra</i><par n="trafu/car__vblex"/></e>
     <e lm="calcar"><i>cal</i><par n="trafu/car__vblex"/></e>
@@ -58512,6 +59945,10 @@
     <e lm="confesar" r="LR"><i>confes</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
     <e lm="connectar"><i>connect</i><par n="cant/ar__vblex"/></e>
     <e lm="connectar" r="LR"><p><l>conect</l><r>connect</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="interconnectar"><i>interconnect</i><par n="cant/ar__vblex"/></e>
+    <e lm="interconnectar" r="LR"><p><l>interconect</l><r>connect</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="desconnectar"><i>desconnect</i><par n="cant/ar__vblex"/></e>
+    <e lm="desconnectar" r="LR"><p><l>desconect</l><r>connect</r></p><par n="cant/ar__vblex"/></e>
     <e lm="contestar"><i>contest</i><par n="cant/ar__vblex"/></e>
     <e lm="desaprebar"><i>desapreb</i><par n="cant/ar__vblex"/></e>
     <e lm="desaprebar" r="LR"><p><l>desaprob</l><r>desapreb</r></p><par n="cant/ar__vblex"/></e>
@@ -58983,6 +60420,8 @@
     <e lm="commover" r="LR"><p><l>conm</l><r>comm</r></p><par n="m/over__vblex"/></e>
     <e lm="componer"><i>comp</i><par n="p/oner__vblex"/></e>
     <e lm="composar"><i>compos</i><par n="cant/ar__vblex"/></e>
+    <e lm="transponer"><i>transp</i><par n="p/oner__vblex"/></e>
+    <e lm="transponer" r="LR"><p><l>trasp</l><r>transp</r></p><par n="p/oner__vblex"/></e>
     <e lm="comprender"><i>comprend</i><par n="vend/er__vblex"/></e>
     <e lm="comprometer"><i>compromet</i><par n="vend/er__vblex"/></e>
     <e lm="comprometer" r="LR"><p><l>compromes</l><r>comprometer<s n="vblex"/></r></p><par n="pp_quiest/o__cnjgt"/></e>
@@ -59086,6 +60525,8 @@
     <e lm="advertir"><i>adv</i><par n="adv/ertir__vblex"/></e>
     <e lm="advertir" r="LR"><p><l>alv</l><r>adv</r></p><par n="adv/ertir__vblex"/></e>
     <e lm="asistir"><i>asist</i><par n="viv/ir__vblex"/></e>
+    <e lm="omitir"><i>omit</i><par n="viv/ir__vblex"/></e>
+    <e lm="omitir" r="LR"><p><l>ome</l><r>ome</r></p><par n="me/ter__vblex"/></e>
     <e lm="cubrir"><i>cub</i><par n="ub/rir__vblex"/></e>
     <e lm="combatir"><i>combat</i><par n="viv/ir__vblex"/></e>
     <e lm="conquerir"><i>conqu</i><par n="f/erir__vblex"/></e>
@@ -59164,6 +60605,7 @@
     <e lm="concluir"><i>conclu</i><par n="inclu/ir__vblex"/></e>
     <e lm="constituir"><i>constitu</i><par n="inclu/ir__vblex"/></e>
     <e lm="construir"><i>constru</i><par n="inclu/ir__vblex"/></e>
+    <e lm="disminuir"><i>disminu</i><par n="inclu/ir__vblex"/></e>
     <e lm="contribuir"><i>contribu</i><par n="inclu/ir__vblex"/></e>
     <e lm="convivir"><i>conviv</i><par n="viv/ir__vblex"/></e>
     <e lm="correchir"><i>corr</i><par n="corr/echir__vblex"/></e>
@@ -59316,6 +60758,38 @@
     <e lm="isolar"><p><l>isol</l><r>isol</r></p><par n="cant/ar__vblex"/></e>
     <e lm="alucinar"><i>alucin</i><par n="cant/ar__vblex"/></e>
     <e lm="alabar"><i>alab</i><par n="cant/ar__vblex"/></e>
+    
+    <e lm="concatenar"><i>concaten</i><par n="cant/ar__vblex"/></e>    
+    <e lm="desactivar"><i>desactiv</i><par n="cant/ar__vblex"/></e>    
+    <e lm="reactivar"><i>reactiv</i><par n="cant/ar__vblex"/></e>    
+    <e lm="activar"><i>activ</i><par n="cant/ar__vblex"/></e>
+    <e lm="descartar"><i>descart</i><par n="cant/ar__vblex"/></e>
+    <e lm="interceptar"><i>intercept</i><par n="cant/ar__vblex"/></e>
+    <e lm="minimizar"><i>minimi</i><par n="ca/zar__vblex"/></e>
+    <e lm="maximizar"><i>maximi</i><par n="ca/zar__vblex"/></e>
+    <e lm="optimizar"><i>optimi</i><par n="ca/zar__vblex"/></e>
+    <e lm="sobredimensionar"><i>sobredimension</i><par n="cant/ar__vblex"/></e>
+    <e lm="redimensionar"><i>redimension</i><par n="cant/ar__vblex"/></e>
+    <e lm="escrutar"><i>escrut</i><par n="cant/ar__vblex"/></e>
+    <e lm="configurar"><i>configur</i><par n="cant/ar__vblex"/></e>
+    <e lm="configurar" r="LR"><p><l>confegur</l><r>configur</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="intercambiar"><i>intercamb</i><par n="camb/iar__vblex"/></e>
+    <e lm="recambiar"><i>recamb</i><par n="camb/iar__vblex"/></e>
+    <e lm="sincronizar"><i>sincroni</i><par n="ca/zar__vblex"/></e>
+    <e lm="commuart"><i>commut</i><par n="cant/ar__vblex"/></e>
+    <e lm="commutar" r="LR"><p><l>conmut</l><r>commut</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="reinstalar"><i>reinstal</i><par n="cant/ar__vblex"/></e>
+    <e lm="desinstalar"><i>desinstal</i><par n="cant/ar__vblex"/></e>
+    <e lm="enamplar"><i>enampl</i><par n="cant/ar__vblex"/></e>
+    <e lm="ixamplar"><i>ixampl</i><par n="cant/ar__vblex"/></e>
+    <e lm="ixamplar" r="LR"><p><l>exampl</l><r>ixampl</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="ixamplar" r="LR"><p><l>xampl</l><r>ixampl</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="replenar"><i>replen</i><par n="cant/ar__vblex"/></e>
+    <e lm="rayar"><i>ray</i><par n="cant/ar__vblex"/></e>
+    <e lm="expulsar"><i>expuls</i><par n="cant/ar__vblex"/></e>
+    <e lm="forachitar"><i>forachit</i><par n="cant/ar__vblex"/></e>
+
+    
     <e lm="emponderar"><i>emponder</i><par n="cant/ar__vblex"/></e>
     <e lm="lobar"><par n="/l_ll__var"/><i>ob</i><par n="cant/ar__vblex"/></e>
     <e lm="abantar"><i>abant</i><par n="cant/ar__vblex"/></e>
@@ -59387,6 +60861,7 @@
     <e lm="agrandar"><i>agrand</i><par n="cant/ar__vblex"/></e>
     <e lm="engrandar"><i>engrand</i><par n="cant/ar__vblex"/></e>
     <e lm="agrandir"><i>agrand</i><par n="aclar/ir__vblex"/></e>
+    <e lm="amortir"><i>amort</i><par n="aclar/ir__vblex"/></e>
     <e lm="f"><i>f</i><par n="enc/ender__vblex"/></e>
     <e lm="fender" r="LR"><i>fend</i><par n="vend/er__vblex"/></e>
     <e lm="asclar"><i>ascl</i><par n="cant/ar__vblex"/></e>
@@ -59883,6 +61358,7 @@
     <e lm="ascensor"><i>ascensor</i><par n="libro__n"/></e>
     <e lm="asesor"><i>asesor</i><par n="treballador__n"/></e>
     <e lm="asesor"><i>asesor</i><par n="opresor__adj"/></e>
+    <e lm="modificador"><i>modificador</i><par n="opresor__adj"/></e>
     <e lm="impresor"><i>impresor</i><par n="treballador__n"/></e>
     <e lm="impresor"><i>impresor</i><par n="opresor__adj"/></e>
     <e lm="invasor"><i>invasor</i><par n="treballador__n"/></e>
@@ -59891,6 +61367,8 @@
     <e lm="opresor"><i>opresor</i><par n="opresor__adj"/></e>
     <e lm="profesor"><i>profesor</i><par n="treballador__n"/></e>
     <e lm="retrovisor"><i>retrovisor</i><par n="libro__n"/></e>
+    <e lm="visor"><i>visor</i><par n="libro__n"/></e>
+    <e lm="descriptor"><i>descriptor</i><par n="libro__n"/></e>
     <e lm="revisor"><i>revisor</i><par n="treballador__n"/></e>
     <e lm="televisor"><i>televisor</i><par n="libro__n"/></e>
     <e lm="agricultor"><i>agricultor</i><par n="treballador__n"/></e>
@@ -59902,6 +61380,8 @@
     <e lm="compositor"><i>compositor</i><par n="treballador__n"/></e>
     <e lm="conductor"><i>conductor</i><par n="treballador__n"/></e>
     <e lm="conductor"><i>conductor</i><par n="opresor__adj"/></e>
+    <e lm="corrector"><i>corrector</i><par n="treballador__n"/></e>
+    <e lm="corrector"><i>corrector</i><par n="opresor__adj"/></e>
     <e lm="constructor"><i>constructor</i><par n="treballador__n"/></e>
     <e lm="director"><i>director</i><par n="treballador__n"/></e>
     <e lm="doctor"><i>doctor</i><par n="treballador__n"/></e>
@@ -59922,6 +61402,7 @@
     <e lm="monitor"><i>monitor</i><par n="opresor__adj"/></e>
     <e lm="motor"><i>motor</i><par n="libro__n"/></e>
     <e lm="motor"><i>motor</i><par n="opresor__adj"/></e>
+    <e lm="cursor"><i>cursor</i><par n="libro__n"/></e>
     <e lm="pastor"><i>pastor</i><par n="treballador__n"/></e>
     <e lm="pintor"><i>pintor</i><par n="treballador__n"/></e>
     <e lm="productor"><i>productor</i><par n="treballador__n"/></e>
@@ -59930,6 +61411,16 @@
     <e lm="reactor"><i>reactor</i><par n="treballador__n"/></e>
     <e lm="receptor"><i>receptor</i><par n="treballador__n"/></e>
     <e lm="reflector"><i>reflector</i><par n="libro__n"/></e>
+    <e lm="temporizador"><i>temporizador</i><par n="treballador__n"/></e>
+    <e lm="tabulador"><i>tabulador</i><par n="libro__n"/></e>
+    <e lm="eslizador"><i>eslizador</i><par n="libro__n"/></e>
+    <e lm="procesador"><i>procesador</i><par n="libro__n"/></e>
+    <e lm="procesador"><i>procesador</i><par n="opresor__adj"/></e>
+    <e lm="microprocesador"><i>microprocesador</i><par n="libro__n"/></e>
+    <e lm="multiprocesador"><i>multiprocesador</i><par n="libro__n"/></e>
+    <e lm="coprocesador"><i>coprocesador</i><par n="libro__n"/></e>
+    <e lm="selector"><i>selector</i><par n="libro__n"/></e>
+    
     <e lm="sector"><i>sector</i><par n="libro__n"/></e>
     <e lm="tractor"><i>tractor</i><par n="libro__n"/></e>
     <e lm="tutor"><i>tutor</i><par n="treballador__n"/></e>
@@ -59978,6 +61469,7 @@
     <e lm="valor" r="LR"><p><l>valor</l><r>valor</r></p><par n="libro__n"/></e>
     <e lm="vapor"><i>vapor</i><par n="libro__n"/></e>
     <e lm="vapor" r="LR"><p><l>vapor</l><r>vapor</r></p><par n="luenga__n"/></e>
+    
 
     <e lm="abreviatura"><i>abreviatura</i><par n="luenga__n"/></e>
     <e lm="ausencia"><i>ausencia</i><par n="luenga__n"/></e>
@@ -60065,6 +61557,7 @@
     <e lm="avantalla"><i>avantalla</i><par n="luenga__n"/></e>
     <e lm="abantguardia"><i>abantguardia</i><par n="luenga__n"/></e>
     <e lm="avería"><i>avería</i><par n="luenga__n"/></e>
+    <e lm="incheniería"><i>incheniería</i><par n="luenga__n"/></e>
     <e lm="avaricia"><i>avaricia</i><par n="luenga__n"/></e>
     <e lm="abillana"><i>abillana</i><par n="luenga__n"/></e>
     <e lm="abillana" r="LR"><p><l>avillana</l><r>abillana</r></p><par n="luenga__n"/></e>    
@@ -60242,6 +61735,7 @@
     <e lm="zruchía" r="LR"><p><l>zruchía</l><r>cirurchía</r></p><par n="luenga__n"/></e>    
     <e lm="zrurchía" r="LR"><p><l>zrurchía</l><r>cirurchía</r></p><par n="luenga__n"/></e>    
     <e lm="cesta"><i>cesta</i><par n="luenga__n"/></e>
+    <e lm="apuesta"><i>apuesta</i><par n="luenga__n"/></e>
     <e lm="cisterna"><i>cisterna</i><par n="luenga__n"/></e>
     <e lm="ciudadanía"><i>ciudadanía</i><par n="luenga__n"/></e>
     <e lm="hordio"><i>hordio</i><par n="libro__n"/></e>
@@ -60309,7 +61803,8 @@
     <e lm="esconderite"><i>esconderite</i><par n="libro__n"/></e>
     <e lm="amagatorio"><i>amagatorio</i><par n="libro__n"/></e>
     <e lm="amagatallo"><i>amagatallo</i><par n="libro__n"/></e>    
-    <e lm="amagatón"><i>amagat</i><par n="avi/ón__n"/></e>    
+    <e lm="amagatón"><i>amagat</i><par n="avi/ón__n"/></e>
+    <e lm="botón"><i>bot</i><par n="avi/ón__n"/></e>
     <e lm="chafada"><i>chafada</i><par n="luenga__n"/></e>
     <e lm="ditalada"><i>ditala</i><par n="vega/da__n"/></e>
     <e lm="galocha"><i>galocha</i><par n="luenga__n"/></e>
@@ -60948,6 +62443,8 @@
     <e lm="presidencia"><i>presidencia</i><par n="luenga__n"/></e>
     <e lm="prisa"><i>prisa</i><par n="luenga__n"/></e>
     <e lm="primicia"><i>primicia</i><par n="luenga__n"/></e>
+    <e lm="histograma"><i>histograma</i><par n="libro__n"/></e>
+    <e lm="diagrama"><i>diagrama</i><par n="libro__n"/></e>
     <e lm="programa"><i>programa</i><par n="libro__n"/></e>
     <e lm="promesa"><i>promesa</i><par n="luenga__n"/></e>
     <e lm="propaganda"><i>propaganda</i><par n="luenga__n"/></e>
