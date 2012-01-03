@@ -505,7 +505,6 @@
     <e><p><l>ario<s n="adj"/></l><r>ario<s n="adj"/></r></p></e>
     <e><p><l>aristocrático<s n="adj"/></l><r>aristocratico<s n="adj"/></r></p></e>
     <e><p><l>armenio<s n="adj"/></l><r>armenio<s n="adj"/></r></p></e>
-    <e><p><l>armonioso<s n="adj"/></l><r>armonioso<s n="adj"/></r></p></e>
     <e><p><l>arqueológico<s n="adj"/></l><r>arqueolochico<s n="adj"/></r></p></e>
     <e><i>arterial<s n="adj"/></i></e>
     <e><i>artesanal<s n="adj"/></i></e>
@@ -1320,6 +1319,8 @@
     <e><p><l>informativo<s n="adj"/></l><r>informativo<s n="adj"/></r></p></e>
     <e><p><l>infortunado<s n="adj"/></l><r>infortunau<s n="adj"/></r></p></e>
     <e><p><l>ingenioso<s n="adj"/></l><r>inchenioso<s n="adj"/></r></p></e>
+    <e><p><l>ingeniería<s n="n"/></l><r>incheniería<s n="n"/></r></p></e>
+    <e><p><l>ingeniero<s n="n"/></l><r>incheniero<s n="n"/></r></p></e>
     <e><p><l>inglés<s n="adj"/></l><r>anglés<s n="adj"/></r></p></e>
     <e><p><l>inhumano<s n="adj"/></l><r>inhumán<s n="adj"/></r></p></e>
     <e><i>inicial<s n="adj"/></i></e>
@@ -1848,8 +1849,10 @@
     <e><p><l>previo<s n="adj"/></l><r>previo<s n="adj"/></r></p></e>
     <e><p><l>primario<s n="adj"/></l><r>primario<s n="adj"/></r></p></e>
     <e><p><l>primero<s n="adj"/></l><r>primer<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>primer<s n="adj"/></l><r>primer<s n="adj"/></r></p></e>
     <e r="RL"><p><l>primero<s n="adj"/><s n="GD"/></l><r>primer<s n="adj"/><s n="mf"/></r></p></e>
     <e><p><l>tercero<s n="adj"/></l><r>tercer<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>tercer<s n="adj"/></l><r>tercer<s n="adj"/></r></p></e>
     <e r="RL"><p><l>tercero<s n="adj"/><s n="GD"/></l><r>tercer<s n="adj"/><s n="mf"/></r></p></e>
     <e r="LR"><p><l>zaguero<s n="adj"/></l><r>zaguer<s n="adj"/></r></p></e>
     <e><p><l>último<s n="adj"/></l><r>zaguer<s n="adj"/></r></p></e>
@@ -10304,6 +10307,7 @@
     <e><p><l>averroísmo<s n="n"/></l><r>averroísmo<s n="n"/></r></p></e>
     <e><p><l>aviación<s n="n"/></l><r>aviación<s n="n"/></r></p></e>
     <e><p><l>avión<s n="n"/></l><r>avión<s n="n"/></r></p></e>
+    <e><p><l>botón<s n="n"/></l><r>botón<s n="n"/></r></p></e>
     <e><p><l>aviso<s n="n"/></l><r>aviso<s n="n"/></r></p></e>
     <e><p><l>avocación<s n="n"/></l><r>avocación<s n="n"/></r></p></e>
     <e><p><l>b<s n="n"/></l><r>b<s n="n"/></r></p></e>
@@ -10602,7 +10606,7 @@
     <e><p><l>dinámica<s n="n"/></l><r>dinamica<s n="n"/></r></p></e>
     <e><p><l>diplomático<s n="n"/></l><r>diplomatico<s n="n"/></r></p></e>
     <e><p><l>diptongación<s n="n"/></l><r>diftongación<s n="n"/></r></p></e>
-    <e><p><l>diputación<s n="n"/></l><r>diputación<s n="n"/></r></p></e>
+    <e><p><l>diputación<s n="n"/></l><r>deputación<s n="n"/></r></p></e>
     <e><p><l>directiva<s n="n"/></l><r>directiva<s n="n"/></r></p></e>
     <e><p><l>directivo<s n="n"/></l><r>directivo<s n="n"/></r></p></e>
     <e><p><l>directorio<s n="n"/></l><r>directorio<s n="n"/></r></p></e>
@@ -10722,7 +10726,7 @@
     <e><p><l>euroescepticismo<s n="n"/></l><r>euroscepticismo<s n="n"/></r></p></e>
     <e><p><l>europeo<s n="n"/></l><r>europeu<s n="n"/></r></p></e>
     <e><p><l>evacuación<s n="n"/></l><r>evaquación<s n="n"/></r></p></e>
-    <e><p><l>evaluación<s n="n"/></l><r>evaluación<s n="n"/></r></p></e>
+    <e r="RL"><p><l>evaluación<s n="n"/></l><r>evaluación<s n="n"/></r></p></e>
     <e><p><l>evangelización<s n="n"/></l><r>evanchelización<s n="n"/></r></p></e>
     <e><p><l>evaporación<s n="n"/></l><r>evaporación<s n="n"/></r></p></e>
     <e><p><l>evitación<s n="n"/></l><r>evitación<s n="n"/></r></p></e>
@@ -11068,6 +11072,8 @@
     <e><p><l>nacimiento<s n="n"/><s n="m"/></l><r>naixencia<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>nacimiento<s n="n"/></l><r>naiximiento<s n="n"/></r></p></e>
     <e><p><l>nacionalidad<s n="n"/></l><r>nacionalidat<s n="n"/></r></p></e>
+    <e><p><l>irracionalidad<s n="n"/></l><r>irracionalidat<s n="n"/></r></p></e>
+    <e r="LR"><p><l>sinrazón<s n="n"/></l><r>irracionalidat<s n="n"/></r></p></e>
    <e><p><l>nacionalismo<s n="n"/></l><r>nacionalismo<s n="n"/></r></p></e>
     <e><p><l>nacionalsocialismo<s n="n"/></l><r>nacionalsocialismo<s n="n"/></r></p></e>
     <e><p><l>nación<s n="n"/></l><r>nación<s n="n"/></r></p></e>
@@ -11515,8 +11521,1294 @@
     <e>       <p><l>título<s n="n"/></l>               <r>titol<s n="n"/></r></p></e>
     <e>       <p><l>mal<s n="n"/></l>               <r>mal<s n="n"/></r></p></e>
     <e>       <p><l>fémur<s n="n"/></l>               <r>femur<s n="n"/></r></p></e>
-    <e>       <p><l>mal<s n="n"/></l>               <r>mal<s n="n"/></r></p></e>
-    <e>       <p><l>mal<s n="n"/></l>               <r>mal<s n="n"/></r></p></e>
+    <e>       <p><l>ángulo<s n="n"/></l>               <r>anglo<s n="n"/></r></p></e>
+    <e>       <p><l>triángulo<s n="n"/></l>               <r>trianglo<s n="n"/></r></p></e>
+    <e>       <p><l>acutángulo<s n="n"/></l>               <r>acutanglo<s n="n"/></r></p></e>
+    <e>       <p><l>obtusángulo<s n="n"/></l>               <r>obtusanglo<s n="n"/></r></p></e>
+    <e>       <p><l>rectángulo<s n="n"/></l>               <r>rectanglo<s n="n"/></r></p></e>
+    <e>       <p><l>cuadrángulo<s n="n"/></l>               <r>quadranglo<s n="n"/></r></p></e>
+    
+    <e>       <p><l>audio<s n="n"/></l>               <r>audio<s n="n"/></r></p></e>
+    <e>       <p><l>promedio<s n="n"/></l>               <r>promeyo<s n="n"/></r></p></e>
+    <e>       <p><l>binomio<s n="n"/></l>               <r>binomio<s n="n"/></r></p></e>
+    <e>       <p><l>lienzo<s n="n"/></l>               <r>lienzo<s n="n"/></r></p></e>
+    <e>       <p><l>segmento<s n="n"/></l>               <r>segmento<s n="n"/></r></p></e>
+    <e>       <p><l>conducto<s n="n"/></l>               <r>conducto<s n="n"/></r></p></e>
+    <e>       <p><l>salvoconducto<s n="n"/></l>               <r>guiache<s n="n"/></r></p></e>
+    <e r="RL">       <p><l>salvoconducto<s n="n"/></l>               <r>salvoconducto<s n="n"/></r></p></e>
+    <e>       <p><l>entorno<s n="n"/></l>               <r>entorno<s n="n"/></r></p></e>
+    <e>       <p><l>eco<s n="n"/></l>               <r>eco<s n="n"/></r></p></e>
+    <e>       <p><l>evento<s n="n"/></l>               <r>evento<s n="n"/></r></p></e>
+    <e>       <p><l>pronóstico<s n="n"/></l>               <r>pronostico<s n="n"/></r></p></e>
+    <e>       <p><l>tono<s n="n"/></l>               <r>ton<s n="n"/></r></p></e>
+    <e>       <p><l>intercambio<s n="n"/></l>               <r>intercambeo<s n="n"/></r></p></e>
+    <e>       <p><l>contorno<s n="n"/></l>               <r>contorno<s n="n"/></r></p></e>
+    <e>       <p><l>nodo<s n="n"/></l>               <r>nodo<s n="n"/></r></p></e>
+    <e>       <p><l>polígono<s n="n"/></l>               <r>poligono<s n="n"/></r></p></e>
+    <e>       <p><l>vídeo<s n="n"/></l>               <r>video<s n="n"/></r></p></e>
+    <e>       <p><l>muestreo<s n="n"/></l>               <r>muestreyo<s n="n"/></r></p></e>
+    <e>       <p><l>zócalo<s n="n"/></l>               <r>zocalo<s n="n"/></r></p></e>
+    <e>       <p><l>almacenamiento<s n="n"/></l>               <r>almagazenamiento<s n="n"/></r></p></e>
+    <e>       <p><l>subdirectorio<s n="n"/></l>               <r>subdirectorio<s n="n"/></r></p></e>
+    <e>       <p><l>mosaico<s n="n"/></l>               <r>mosaico<s n="n"/></r></p></e>
+    <e>       <p><l>vínculo<s n="n"/></l>               <r>vinclo<s n="n"/></r></p></e>
+    <e>       <p><l>cuaderno<s n="n"/></l>               <r>quaderno<s n="n"/></r></p></e>
+    <e>       <p><l>corrector<s n="n"/></l>               <r>corrector<s n="n"/></r></p></e>
+    <e>       <p><l>corrector<s n="adj"/></l>               <r>corrector<s n="adj"/></r></p></e>
+    <e>       <p><l>topo<s n="n"/></l>               <r>tabonero<s n="n"/></r></p></e>
+    <e>       <p><l>símbolo<s n="n"/></l>               <r>simbolo<s n="n"/></r></p></e>
+    <e>       <p><l>argumento<s n="n"/></l>               <r>argumento<s n="n"/></r></p></e>
+    <e>       <p><l>bloque<s n="n"/></l>               <r>bloque<s n="n"/></r></p></e>
+    <e>       <p><l>réplica<s n="n"/></l>               <r>replica<s n="n"/></r></p></e>
+    <e>       <p><l>contraseña<s n="n"/></l>               <r>contrasenya<s n="n"/></r></p></e>
+    <e>       <p><l>notación<s n="n"/></l>               <r>notación<s n="n"/></r></p></e>
+    <e>       <p><l>contraseña<s n="n"/></l>               <r>contrasenya<s n="n"/></r></p></e>
+    <e>       <p><l>subcadena<s n="n"/></l>               <r>subcadena<s n="n"/></r></p></e>
+    
+    <e><p><l>ablación<s n="n"/></l><r>ablación<s n="n"/></r></p></e>
+<e><p><l>idealización<s n="n"/></l><r>idealización<s n="n"/></r></p></e>
+<e><p><l>abnegación<s n="n"/></l><r>abnegación<s n="n"/></r></p></e>
+<e><p><l>absolución<s n="n"/></l><r>absolución<s n="n"/></r></p></e>
+<e><p><l>fosilización<s n="n"/></l><r>fosilización<s n="n"/></r></p></e>
+<e><p><l>abstención<s n="n"/></l><r>abstención<s n="n"/></r></p></e>
+<e><p><l>acreditación<s n="n"/></l><r>acreditación<s n="n"/></r></p></e>
+<e><p><l>activación<s n="n"/></l><r>activación<s n="n"/></r></p></e>
+<e><p><l>adhesión<s n="n"/></l><r>adhesión<s n="n"/></r></p></e>
+<e><p><l>adicción<s n="n"/></l><r>adicción<s n="n"/></r></p></e>
+<e><p><l>admisión<s n="n"/></l><r>admisión<s n="n"/></r></p></e>
+<e><p><l>adopción<s n="n"/></l><r>adopción<s n="n"/></r></p></e>
+<e><p><l>afección<s n="n"/></l><r>afección<s n="n"/></r></p></e>
+<e><p><l>agresión<s n="n"/></l><r>agresión<s n="n"/></r></p></e>
+<e><p><l>alegación<s n="n"/></l><r>alegación<s n="n"/></r></p></e>
+<e><p><l>alienación<s n="n"/></l><r>alienación<s n="n"/></r></p></e>
+<e><p><l>alusión<s n="n"/></l><r>alusión<s n="n"/></r></p></e>
+<e><p><l>amonestación<s n="n"/></l><r>amonestación<s n="n"/></r></p></e>
+<e><p><l>interrelación<s n="n"/></l><r>interrelación<s n="n"/></r></p></e>
+<e><p><l>amortización<s n="n"/></l><r>amortización<s n="n"/></r></p></e>
+<e><p><l>anotación<s n="n"/></l><r>anotación<s n="n"/></r></p></e>
+<e><p><l>antelación<s n="n"/></l><r>antelación<s n="n"/></r></p></e>
+<e><p><l>anticipación<s n="n"/></l><r>anticipación<s n="n"/></r></p></e>
+<e><p><l>apelación<s n="n"/></l><r>apelación<s n="n"/></r></p></e>
+<e><p><l>asunción<s n="n"/></l><r>asunción<s n="n"/></r></p></e>
+<e><p><l>audición<s n="n"/></l><r>audición<s n="n"/></r></p></e>
+<e><p><l>autorregulación<s n="n"/></l><r>autorregulación<s n="n"/></r></p></e>
+<e><p><l>bendición<s n="n"/></l><r>bendición<s n="n"/></r></p></e>
+<e><p><l>bonificación<s n="n"/></l><r>bonificación<s n="n"/></r></p></e>
+<e><p><l>certificación<s n="n"/></l><r>certificación<s n="n"/></r></p></e>
+<e><p><l>cesión<s n="n"/></l><r>cesión<s n="n"/></r></p></e>
+<e><p><l>circunvalación<s n="n"/></l><r>circumvalación<s n="n"/></r></p></e>
+<e><p><l>citación<s n="n"/></l><r>citación<s n="n"/></r></p></e>
+<e><p><l>claudicación<s n="n"/></l><r>claudicación<s n="n"/></r></p></e>
+<e><p><l>coalición<s n="n"/></l><r>coalición<s n="n"/></r></p></e>
+<e><p><l>cocción<s n="n"/></l><r>cocción<s n="n"/></r></p></e>
+<e><p><l>cohesión<s n="n"/></l><r>cohesión<s n="n"/></r></p></e>
+<e><p><l>colisión<s n="n"/></l><r>colisión<s n="n"/></r></p></e>
+<e><p><l>combustión<s n="n"/></l><r>combustión<s n="n"/></r></p></e>
+<e><p><l>compartimentación<s n="n"/></l><r>compartimentación<s n="n"/></r></p></e>
+<e><p><l>compasión<s n="n"/></l><r>compasión<s n="n"/></r></p></e>
+<e><p><l>complexión<s n="n"/></l><r>complexión<s n="n"/></r></p></e>
+<e><p><l>comprobación<s n="n"/></l><r>comprebación<s n="n"/></r></p></e>
+<e><p><l>comunión<s n="n"/></l><r>comunión<s n="n"/></r></p></e>
+<e><p><l>concepción<s n="n"/></l><r>concepción<s n="n"/></r></p></e>
+<e><p><l>concesión<s n="n"/></l><r>concesión<s n="n"/></r></p></e>
+<e><p><l>concienciación<s n="n"/></l><r>conscienciación<s n="n"/></r></p></e>
+<e><p><l>conclusión<s n="n"/></l><r>conclusión<s n="n"/></r></p></e>
+<e><p><l>confesión<s n="n"/></l><r>confesión<s n="n"/></r></p></e>
+<e><p><l>confusión<s n="n"/></l><r>confusión<s n="n"/></r></p></e>
+<e><p><l>congestión<s n="n"/></l><r>conchestión<s n="n"/></r></p></e>
+<e><p><l>descongestión<s n="n"/></l><r>desconchestión<s n="n"/></r></p></e>
+<e><p><l>consecución<s n="n"/></l><r>consecución<s n="n"/></r></p></e>
+<e><p><l>consternación<s n="n"/></l><r>consternación<s n="n"/></r></p></e>
+<e><p><l>contraposición<s n="n"/></l><r>contraposición<s n="n"/></r></p></e>
+<e><p><l>contusión<s n="n"/></l><r>contusión<s n="n"/></r></p></e>
+<e><p><l>convalidación<s n="n"/></l><r>convalidación<s n="n"/></r></p></e>
+<e><p><l>convención<s n="n"/></l><r>convención<s n="n"/></r></p></e>
+<e><p><l>cotización<s n="n"/></l><r>cotización<s n="n"/></r></p></e>
+<e><p><l>crispación<s n="n"/></l><r>crispación<s n="n"/></r></p></e>
+<e><p><l>defunción<s n="n"/></l><r>defunción<s n="n"/></r></p></e>
+<e><p><l>degustación<s n="n"/></l><r>degustación<s n="n"/></r></p></e>
+<e><p><l>demolición<s n="n"/></l><r>demolición<s n="n"/></r></p></e>
+<e><p><l>denegación<s n="n"/></l><r>denegación<s n="n"/></r></p></e>
+<e><p><l>redenominación<s n="n"/></l><r>redenominación<s n="n"/></r></p></e>
+<e><p><l>descalificación<s n="n"/></l><r>descalificación<s n="n"/></r></p></e>
+<e><p><l>desilusión<s n="n"/></l><r>desilusión<s n="n"/></r></p></e>
+<e><p><l>desinfección<s n="n"/></l><r>desinfección<s n="n"/></r></p></e>
+<e><p><l>desolación<s n="n"/></l><r>desolación<s n="n"/></r></p></e>
+<e><p><l>destitución<s n="n"/></l><r>destitución<s n="n"/></r></p></e>
+<e><p><l>detención<s n="n"/></l><r>detención<s n="n"/></r></p></e>
+<e><p><l>devoción<s n="n"/></l><r>devoción<s n="n"/></r></p></e>
+<e><p><l>devolución<s n="n"/></l><r>devolución<s n="n"/></r></p></e>
+<e><p><l>difusión<s n="n"/></l><r>difusión<s n="n"/></r></p></e>
+<e><p><l>digestión<s n="n"/></l><r>dichestión<s n="n"/></r></p></e>
+<e><p><l>dimensión<s n="n"/></l><r>dimensión<s n="n"/></r></p></e>
+<e><p><l>dimisión<s n="n"/></l><r>dimisión<s n="n"/></r></p></e>
+<e><p><l>discusión<s n="n"/></l><r>discusión<s n="n"/></r></p></e>
+<e><p><l>dispersión<s n="n"/></l><r>dispersión<s n="n"/></r></p></e>
+<e><p><l>distorsión<s n="n"/></l><r>distorsión<s n="n"/></r></p></e>
+<e><p><l>drogadicción<s n="n"/></l><r>drogadicción<s n="n"/></r></p></e>
+<e><p><l>eclosión<s n="n"/></l><r>eclosión<s n="n"/></r></p></e>
+<e><p><l>elongación<s n="n"/></l><r>elongación<s n="n"/></r></p></e>
+<e><p><l>emisión<s n="n"/></l><r>emisión<s n="n"/></r></p></e>
+<e r="LR"><p><l>enajenación<s n="n"/></l><r>alienación<s n="n"/></r></p></e>
+<e><p><l>equiparación<s n="n"/></l><r>equiparación<s n="n"/></r></p></e>
+<e><p><l>escolarización<s n="n"/></l><r>escolarización<s n="n"/></r></p></e>
+<e><p><l>especialización<s n="n"/></l><r>especialización<s n="n"/></r></p></e>
+<e><p><l>estimación<s n="n"/></l><r>estimación<s n="n"/></r></p></e>
+<e><p><l>estimulación<s n="n"/></l><r>estimulación<s n="n"/></r></p></e>
+<e><p><l>evasión<s n="n"/></l><r>evasión<s n="n"/></r></p></e>
+<e><p><l>evocación<s n="n"/></l><r>evocación<s n="n"/></r></p></e>
+<e><p><l>exaltación<s n="n"/></l><r>exaltación<s n="n"/></r></p></e>
+<e><p><l>excitación<s n="n"/></l><r>excitación<s n="n"/></r></p></e>
+<e><p><l>exclusión<s n="n"/></l><r>exclusión<s n="n"/></r></p></e>
+<e><p><l>excomunión<s n="n"/></l><r>excomunión<s n="n"/></r></p></e>
+<e><p><l>excursión<s n="n"/></l><r>excursión<s n="n"/></r></p></e>
+<e><p><l>exhibición<s n="n"/></l><r>exhibición<s n="n"/></r></p></e>
+<e><p><l>expansión<s n="n"/></l><r>expansión<s n="n"/></r></p></e>
+<e><p><l>expectación<s n="n"/></l><r>expectación<s n="n"/></r></p></e>
+<e><p><l>experimentación<s n="n"/></l><r>experimentación<s n="n"/></r></p></e>
+<e><p><l>exploración<s n="n"/></l><r>exploración<s n="n"/></r></p></e>
+<e><p><l>expropiación<s n="n"/></l><r>expropiación<s n="n"/></r></p></e>
+<e><p><l>expulsión<s n="n"/></l><r>expulsión<s n="n"/></r></p></e>
+<e><p><l>extinción<s n="n"/></l><r>extinción<s n="n"/></r></p></e>
+<e><p><l>extradición<s n="n"/></l><r>extradición<s n="n"/></r></p></e>
+<e><p><l>facción<s n="n"/></l><r>facción<s n="n"/></r></p></e>
+<e><p><l>facturación<s n="n"/></l><r>facturación<s n="n"/></r></p></e>
+<e><p><l>falsificación<s n="n"/></l><r>falsificación<s n="n"/></r></p></e>
+<e><p><l>figuración<s n="n"/></l><r>figuración<s n="n"/></r></p></e>
+<e><p><l>filmación<s n="n"/></l><r>filmación<s n="n"/></r></p></e>
+<e><p><l>filtración<s n="n"/></l><r>filtración<s n="n"/></r></p></e>
+<e><p><l>finalización<s n="n"/></l><r>finalización<s n="n"/></r></p></e>
+<e><p><l>fricción<s n="n"/></l><r>fricción<s n="n"/></r></p></e>
+<e><p><l>frustración<s n="n"/></l><r>frustración<s n="n"/></r></p></e>
+<e><p><l>fundación<s n="n"/></l><r>fundación<s n="n"/></r></p></e>
+<e><p><l>fusión<s n="n"/></l><r>fusión<s n="n"/></r></p></e>
+<e><p><l>globalización<s n="n"/></l><r>globalización<s n="n"/></r></p></e>
+<e><p><l>graduación<s n="n"/></l><r>graduación<s n="n"/></r></p></e>
+<e><p><l>gratificación<s n="n"/></l><r>gratificación<s n="n"/></r></p></e>
+<e><p><l>homologación<s n="n"/></l><r>homologación<s n="n"/></r></p></e>
+<e><p><l>hospitalización<s n="n"/></l><r>hospitalización<s n="n"/></r></p></e>
+<e><p><l>ilegalización<s n="n"/></l><r>ilegalización<s n="n"/></r></p></e>
+<e><p><l>ilusión<s n="n"/></l><r>ilusión<s n="n"/></r></p></e>
+<e><p><l>imitación<s n="n"/></l><r>imitación<s n="n"/></r></p></e>
+<e><p><l>implantación<s n="n"/></l><r>implantación<s n="n"/></r></p></e>
+<e><p><l>imprecisión<s n="n"/></l><r>imprecisión<s n="n"/></r></p></e>
+<e><p><l>improvisación<s n="n"/></l><r>improvisación<s n="n"/></r></p></e>
+<e><p><l>inadmisión<s n="n"/></l><r>inadmisión<s n="n"/></r></p></e>
+<e><p><l>incineración<s n="n"/></l><r>incineración<s n="n"/></r></p></e>
+<e><p><l>incitación<s n="n"/></l><r>incitación<s n="n"/></r></p></e>
+<e><p><l>inclinación<s n="n"/></l><r>inclinación<s n="n"/></r></p></e>
+<e><p><l>inclusión<s n="n"/></l><r>inclusión<s n="n"/></r></p></e>
+<e><p><l>incomprensión<s n="n"/></l><r>incomprensión<s n="n"/></r></p></e>
+<e><p><l>incomunicación<s n="n"/></l><r>incomunicación<s n="n"/></r></p></e>
+<e><p><l>incorrección<s n="n"/></l><r>incorrección<s n="n"/></r></p></e>
+<e><p><l>incursión<s n="n"/></l><r>incursión<s n="n"/></r></p></e>
+<e><p><l>indefensión<s n="n"/></l><r>indefensión<s n="n"/></r></p></e>
+<e><p><l>infección<s n="n"/></l><r>infección<s n="n"/></r></p></e>
+<e><p><l>inflación<s n="n"/></l><r>inflación<s n="n"/></r></p></e>
+<e><p><l>inflexión<s n="n"/></l><r>inflexión<s n="n"/></r></p></e>
+<e><p><l>inhabilitación<s n="n"/></l><r>inhabilitación<s n="n"/></r></p></e>
+<e><p><l>inhalación<s n="n"/></l><r>inhalación<s n="n"/></r></p></e>
+<e><p><l>iniciación<s n="n"/></l><r>iniciación<s n="n"/></r></p></e>
+<e><p><l>inmersión<s n="n"/></l><r>immersión<s n="n"/></r></p></e>
+<e><p><l>inmigración<s n="n"/></l><r>immigración<s n="n"/></r></p></e>
+<e><p><l>innovación<s n="n"/></l><r>innovación<s n="n"/></r></p></e>
+<e><p><l>insatisfacción<s n="n"/></l><r>insatisfacción<s n="n"/></r></p></e>
+<e><p><l>inseminación<s n="n"/></l><r>inseminación<s n="n"/></r></p></e>
+<e><p><l>inserción<s n="n"/></l><r>inserción<s n="n"/></r></p></e>
+<e><p><l>insinuación<s n="n"/></l><r>insinuación<s n="n"/></r></p></e>
+<e><p><l>inspección<s n="n"/></l><r>inspección<s n="n"/></r></p></e>
+<e><p><l>interacción<s n="n"/></l><r>interacción<s n="n"/></r></p></e>
+<e><p><l>interrupción<s n="n"/></l><r>interrupción<s n="n"/></r></p></e>
+<e><p><l>intersección<s n="n"/></l><r>intersección<s n="n"/></r></p></e>
+<e><p><l>intimidación<s n="n"/></l><r>intimidación<s n="n"/></r></p></e>
+<e><p><l>intoxicación<s n="n"/></l><r>intoxicación<s n="n"/></r></p></e>
+<e><p><l>intromisión<s n="n"/></l><r>intromisión<s n="n"/></r></p></e>
+<e><p><l>intuición<s n="n"/></l><r>intuición<s n="n"/></r></p></e>
+<e><p><l>invasión<s n="n"/></l><r>invasión<s n="n"/></r></p></e>
+<e><p><l>invención<s n="n"/></l><r>invención<s n="n"/></r></p></e>
+<e><p><l>involución<s n="n"/></l><r>involución<s n="n"/></r></p></e>
+<e><p><l>irritación<s n="n"/></l><r>irritación<s n="n"/></r></p></e>
+<e><p><l>irrupción<s n="n"/></l><r>irrupción<s n="n"/></r></p></e>
+<e><p><l>jurisdicción<s n="n"/></l><r>churisdicción<s n="n"/></r></p></e>
+<e><p><l>legalización<s n="n"/></l><r>legalización<s n="n"/></r></p></e>
+<e><p><l>legislación<s n="n"/></l><r>lechislación<s n="n"/></r></p></e>
+<e><p><l>legión<s n="n"/></l><r>lechión<s n="n"/></r></p></e>
+<e><p><l>lesión<s n="n"/></l><r>lesión<s n="n"/></r></p></e>
+<e><p><l>licitación<s n="n"/></l><r>licitación<s n="n"/></r></p></e>
+<e><p><l>ligazón<s n="n"/></l><r>ligazón<s n="n"/></r></p></e>
+<e><p><l>liquidación<s n="n"/></l><r>liquidación<s n="n"/></r></p></e>
+<e><p><l>maduración<s n="n"/></l><r>maduración<s n="n"/></r></p></e>
+<e><p><l>maldición<s n="n"/></l><r>maldición<s n="n"/></r></p></e>
+<e><p><l>manipulación<s n="n"/></l><r>manipulación<s n="n"/></r></p></e>
+<e><p><l>mansión<s n="n"/></l><r>mansión<s n="n"/></r></p></e>
+<e><p><l>marginación<s n="n"/></l><r>marguinación<s n="n"/></r></p></e>
+<e><p><l>masificación<s n="n"/></l><r>masificación<s n="n"/></r></p></e>
+<e><p><l>masturbación<s n="n"/></l><r>masturbación<s n="n"/></r></p></e>
+<e><p><l>materialización<s n="n"/></l><r>materialización<s n="n"/></r></p></e>
+<e><p><l>desmaterialización<s n="n"/></l><r>desmaterialización<s n="n"/></r></p></e>
+<e><p><l>matriculación<s n="n"/></l><r>matriculación<s n="n"/></r></p></e>
+<e><p><l>mediación<s n="n"/></l><r>meyación<s n="n"/></r></p></e>
+<e><p><l>medición<s n="n"/></l><r>medición<s n="n"/></r></p></e>
+<e><p><l>meditación<s n="n"/></l><r>meditación<s n="n"/></r></p></e>
+<e><p><l>migración<s n="n"/></l><r>migración<s n="n"/></r></p></e>
+<e><p><l>misión<s n="n"/></l><r>misión<s n="n"/></r></p></e>
+<e><p><l>moción<s n="n"/></l><r>moción<s n="n"/></r></p></e>
+<e><p><l>moderación<s n="n"/></l><r>moderación<s n="n"/></r></p></e>
+<e><p><l>modernización<s n="n"/></l><r>modernización<s n="n"/></r></p></e>
+<e><p><l>movilización<s n="n"/></l><r>mobilización<s n="n"/></r></p></e>
+<e><p><l>mutación<s n="n"/></l><r>mutación<s n="n"/></r></p></e>
+<e><p><l>noción<s n="n"/></l><r>noción<s n="n"/></r></p></e>
+<e><p><l>nominación<s n="n"/></l><r>nominación<s n="n"/></r></p></e>
+<e><p><l>notificación<s n="n"/></l><r>notificación<s n="n"/></r></p></e>
+<e><p><l>obsesión<s n="n"/></l><r>obsesión<s n="n"/></r></p></e>
+<e><p><l>obstinación<s n="n"/></l><r>obstinación<s n="n"/></r></p></e>
+<e><p><l>obtención<s n="n"/></l><r>obtención<s n="n"/></r></p></e>
+<e><p><l>opción<s n="n"/></l><r>opción<s n="n"/></r></p></e>
+<e><p><l>ovación<s n="n"/></l><r>ovación<s n="n"/></r></p></e>
+<e><p><l>paralización<s n="n"/></l><r>paralización<s n="n"/></r></p></e>
+<e><p><l>pasión<s n="n"/></l><r>pasión<s n="n"/></r></p></e>
+<e><p><l>peatonalización<s n="n"/></l><r>peatonalización<s n="n"/></r></p></e>
+<e><p><l>penalización<s n="n"/></l><r>penalización<s n="n"/></r></p></e>
+<e><p><l>penetración<s n="n"/></l><r>penetración<s n="n"/></r></p></e>
+<e><p><l>percepción<s n="n"/></l><r>percepción<s n="n"/></r></p></e>
+<e><p><l>percusión<s n="n"/></l><r>percusión<s n="n"/></r></p></e>
+<e><p><l>peregrinación<s n="n"/></l><r>pelegrinación<s n="n"/></r></p></e>
+<e><p><l>planificación<s n="n"/></l><r>planificación<s n="n"/></r></p></e>
+<e><p><l>posesión<s n="n"/></l><r>posesión<s n="n"/></r></p></e>
+<e><p><l>precisión<s n="n"/></l><r>precisión<s n="n"/></r></p></e>
+<e><p><l>predicción<s n="n"/></l><r>predicción<s n="n"/></r></p></e>
+<e><p><l>predisposición<s n="n"/></l><r>predisposición<s n="n"/></r></p></e>
+<e><p><l>preinscripción<s n="n"/></l><r>preinscripción<s n="n"/></r></p></e>
+<e><p><l>prescripción<s n="n"/></l><r>prescripción<s n="n"/></r></p></e>
+<e><p><l>preselección<s n="n"/></l><r>preselección<s n="n"/></r></p></e>
+<e><p><l>prestación<s n="n"/></l><r>prestación<s n="n"/></r></p></e>
+<e><p><l>presunción<s n="n"/></l><r>presunción<s n="n"/></r></p></e>
+<e><p><l>pretensión<s n="n"/></l><r>pretensión<s n="n"/></r></p></e>
+<e><p><l>prevención<s n="n"/></l><r>prevención<s n="n"/></r></p></e>
+<e><p><l>previsión<s n="n"/></l><r>previsión<s n="n"/></r></p></e>
+<e><p><l>prisión<s n="n"/></l><r>prisión<s n="n"/></r></p></e>
+<e><p><l>privatización<s n="n"/></l><r>privatización<s n="n"/></r></p></e>
+<e><p><l>procesión<s n="n"/></l><r>procesión<s n="n"/></r></p></e>
+<e><p><l>procreación<s n="n"/></l><r>procreación<s n="n"/></r></p></e>
+<e><p><l>profesión<s n="n"/></l><r>profesión<s n="n"/></r></p></e>
+<e><p><l>programación<s n="n"/></l><r>programación<s n="n"/></r></p></e>
+<e><p><l>progresión<s n="n"/></l><r>progresión<s n="n"/></r></p></e>
+<e><p><l>proliferación<s n="n"/></l><r>proliferación<s n="n"/></r></p></e>
+<e><p><l>prolongación<s n="n"/></l><r>prolongación<s n="n"/></r></p></e>
+<e><p><l>pronunciación<s n="n"/></l><r>pronunciación<s n="n"/></r></p></e>
+<e><p><l>propagación<s n="n"/></l><r>propagación<s n="n"/></r></p></e>
+<e><p><l>proposición<s n="n"/></l><r>proposición<s n="n"/></r></p></e>
+<e><p><l>prostitución<s n="n"/></l><r>prostitución<s n="n"/></r></p></e>
+<e><p><l>provisión<s n="n"/></l><r>provisión<s n="n"/></r></p></e>
+<e><p><l>proyección<s n="n"/></l><r>prochección<s n="n"/></r></p></e>
+<e><p><l>pulsación<s n="n"/></l><r>pulsación<s n="n"/></r></p></e>
+<e><p><l>puntuación<s n="n"/></l><r>puntuación<s n="n"/></r></p></e>
+<e><p><l>purificación<s n="n"/></l><r>purificación<s n="n"/></r></p></e>
+<e><p><l>ración<s n="n"/></l><r>ración<s n="n"/></r></p></e>
+<e><p><l>ratificación<s n="n"/></l><r>ratificación<s n="n"/></r></p></e>
+<e><p><l>reagrupación<s n="n"/></l><r>reagrupación<s n="n"/></r></p></e>
+<e><p><l>reaparición<s n="n"/></l><r>reaparición<s n="n"/></r></p></e>
+<e><p><l>recaudación<s n="n"/></l><r>recaudación<s n="n"/></r></p></e>
+<e><p><l>recepción<s n="n"/></l><r>recepción<s n="n"/></r></p></e>
+<e><p><l>recesión<s n="n"/></l><r>recesión<s n="n"/></r></p></e>
+<e><p><l>reclusión<s n="n"/></l><r>reclusión<s n="n"/></r></p></e>
+<e><p><l>reconstrucción<s n="n"/></l><r>reconstrucción<s n="n"/></r></p></e>
+<e><p><l>recreación<s n="n"/></l><r>recreación<s n="n"/></r></p></e>
+<e><p><l>rectificación<s n="n"/></l><r>rectificación<s n="n"/></r></p></e>
+<e><p><l>recuperación<s n="n"/></l><r>recuperación<s n="n"/></r></p></e>
+<e><p><l>reedición<s n="n"/></l><r>reedición<s n="n"/></r></p></e>
+<e><p><l>reeducación<s n="n"/></l><r>reeducación<s n="n"/></r></p></e>
+<e><p><l>reelección<s n="n"/></l><r>reelección<s n="n"/></r></p></e>
+<e><p><l>reestructuración<s n="n"/></l><r>restructuración<s n="n"/></r></p></e>
+<e r="LR"><p><l>restructuración<s n="n"/></l><r>restructuración<s n="n"/></r></p></e>
+<e><p><l>reflexión<s n="n"/></l><r>reflexión<s n="n"/></r></p></e>
+<e><p><l>reforestación<s n="n"/></l><r>reforestación<s n="n"/></r></p></e>
+<e><p><l>refrigeración<s n="n"/></l><r>refricheración<s n="n"/></r></p></e>
+<e><p><l>regeneración<s n="n"/></l><r>recheneración<s n="n"/></r></p></e>
+<e><p><l>reglamentación<s n="n"/></l><r>reglamentación<s n="n"/></r></p></e>
+<e><p><l>regulación<s n="n"/></l><r>regulación<s n="n"/></r></p></e>
+<e><p><l>regularización<s n="n"/></l><r>regularización<s n="n"/></r></p></e>
+<e><p><l>rehabilitación<s n="n"/></l><r>rehabilitación<s n="n"/></r></p></e>
+<e><p><l>reinserción<s n="n"/></l><r>reinserción<s n="n"/></r></p></e>
+<e><p><l>relajación<s n="n"/></l><r>relaxación<s n="n"/></r></p></e>
+<e><p><l>remodelación<s n="n"/></l><r>remodelación<s n="n"/></r></p></e>
+<e><p><l>reordenación<s n="n"/></l><r>reordenación<s n="n"/></r></p></e>
+<e><p><l>reorganización<s n="n"/></l><r>reorganización<s n="n"/></r></p></e>
+<e><p><l>repatriación<s n="n"/></l><r>repatriación<s n="n"/></r></p></e>
+<e><p><l>repercusión<s n="n"/></l><r>repercusión<s n="n"/></r></p></e>
+<e><p><l>reposición<s n="n"/></l><r>reposición<s n="n"/></r></p></e>
+<e><p><l>rescisión<s n="n"/></l><r>rescisión<s n="n"/></r></p></e>
+<e><p><l>resolución<s n="n"/></l><r>resolución<s n="n"/></r></p></e>
+<e><p><l>restauración<s n="n"/></l><r>restauración<s n="n"/></r></p></e>
+<e><p><l>restitución<s n="n"/></l><r>restitución<s n="n"/></r></p></e>
+<e><p><l>resurrección<s n="n"/></l><r>resurrección<s n="n"/></r></p></e>
+<e><p><l>retención<s n="n"/></l><r>retención<s n="n"/></r></p></e>
+<e><p><l>retransmisión<s n="n"/></l><r>retransmisión<s n="n"/></r></p></e>
+<e><p><l>retribución<s n="n"/></l><r>retribución<s n="n"/></r></p></e>
+<e><p><l>reurbanización<s n="n"/></l><r>reurbanización<s n="n"/></r></p></e>
+<e><p><l>revisión<s n="n"/></l><r>revisión<s n="n"/></r></p></e>
+<e><p><l>revitalización<s n="n"/></l><r>revitalización<s n="n"/></r></p></e>
+<e><p><l>sanción<s n="n"/></l><r>sanción<s n="n"/></r></p></e>
+<e><p><l>saturación<s n="n"/></l><r>saturación<s n="n"/></r></p></e>
+<e><p><l>seducción<s n="n"/></l><r>seducción<s n="n"/></r></p></e>
+<e><p><l>segregación<s n="n"/></l><r>segregación<s n="n"/></r></p></e>
+<e><p><l>sensibilización<s n="n"/></l><r>sensibilización<s n="n"/></r></p></e>
+<e><p><l>señalización<s n="n"/></l><r>sinyalización<s n="n"/></r></p></e>
+<e><p><l>significación<s n="n"/></l><r>significación<s n="n"/></r></p></e>
+<e><p><l>simulación<s n="n"/></l><r>simulación<s n="n"/></r></p></e>
+<e><p><l>socialización<s n="n"/></l><r>socialización<s n="n"/></r></p></e>
+<e><p><l>subdelegación<s n="n"/></l><r>subdelegación<s n="n"/></r></p></e>
+<e><p><l>subestación<s n="n"/></l><r>subestación<s n="n"/></r></p></e>
+<e><p><l>sublevación<s n="n"/></l><r>sublevación<s n="n"/></r></p></e>
+<e><p><l>suscripción<s n="n"/></l><r>subscripción<s n="n"/></r></p></e>
+<e r="LR"><p><l>subscripción<s n="n"/></l><r>subscripción<s n="n"/></r></p></e>
+<e><p><l>substitución<s n="n"/></l><r>substitución<s n="n"/></r></p></e>
+<e><p><l>subvención<s n="n"/></l><r>subvención<s n="n"/></r></p></e>
+<e><p><l>sucesión<s n="n"/></l><r>succesión<s n="n"/></r></p></e>
+<e><p><l>sumisión<s n="n"/></l><r>sumisión<s n="n"/></r></p></e>
+<e><p><l>superación<s n="n"/></l><r>superación<s n="n"/></r></p></e>
+<e><p><l>superproducción<s n="n"/></l><r>superproducción<s n="n"/></r></p></e>
+<e><p><l>supervisión<s n="n"/></l><r>supervisión<s n="n"/></r></p></e>
+<e><p><l>suposición<s n="n"/></l><r>suposición<s n="n"/></r></p></e>
+<e><p><l>suspensión<s n="n"/></l><r>suspensión<s n="n"/></r></p></e>
+<e><p><l>sustitución<s n="n"/></l><r>substitución<s n="n"/></r></p></e>
+<e><p><l>sustracción<s n="n"/></l><r>subtracción<s n="n"/></r></p></e>
+<e><p><l>tasación<s n="n"/></l><r>tasación<s n="n"/></r></p></e>
+<e><p><l>telecomunicación<s n="n"/></l><r>telecomunicación<s n="n"/></r></p></e>
+<e><p><l>tensión<s n="n"/></l><r>tensión<s n="n"/></r></p></e>
+<e><p><l>titulación<s n="n"/></l><r>titulación<s n="n"/></r></p></e>
+<e><p><l>tramitación<s n="n"/></l><r>tramitación<s n="n"/></r></p></e>
+<e><p><l>transacción<s n="n"/></l><r>transacción<s n="n"/></r></p></e>
+<e><p><l>transfusión<s n="n"/></l><r>transfusión<s n="n"/></r></p></e>
+<e><p><l>transición<s n="n"/></l><r>transición<s n="n"/></r></p></e>
+<e><p><l>transmisión<s n="n"/></l><r>transmisión<s n="n"/></r></p></e>
+<e r="LR"><p><l>trasmisión<s n="n"/></l><r>transmisión<s n="n"/></r></p></e>
+<e><p><l>transposición<s n="n"/></l><r>transposición<s n="n"/></r></p></e>
+<e><p><l>tributación<s n="n"/></l><r>tributación<s n="n"/></r></p></e>
+<e><p><l>tripulación<s n="n"/></l><r>tripulación<s n="n"/></r></p></e>
+<e><p><l>vejación<s n="n"/></l><r>vexación<s n="n"/></r></p></e>
+<e><p><l>vinculación<s n="n"/></l><r>vinculación<s n="n"/></r></p></e>
+<e><p><l>visión<s n="n"/></l><r>visión<s n="n"/></r></p></e>
+<e><p><l>visualización<s n="n"/></l><r>visualización<s n="n"/></r></p></e>
+<e><p><l>simplificación<s n="n"/></l><r>simplificación<s n="n"/></r></p></e>
+<e><p><l>regresión<s n="n"/></l><r>regresión<s n="n"/></r></p></e>
+<e><p><l>domiciliación<s n="n"/></l><r>domiciliación<s n="n"/></r></p></e>
+<e><p><l>validación<s n="n"/></l><r>validación<s n="n"/></r></p></e>
+<e><p><l>autoliquidación<s n="n"/></l><r>autoliquidación<s n="n"/></r></p></e>
+<e><p><l>retrocesión<s n="n"/></l><r>retrocesión<s n="n"/></r></p></e>
+<e><p><l>intermediación<s n="n"/></l><r>intermeyación<s n="n"/></r></p></e>
+<e><p><l>imputación<s n="n"/></l><r>imputación<s n="n"/></r></p></e>
+<e><p><l>formalización<s n="n"/></l><r>formalización<s n="n"/></r></p></e>
+<e><p><l>especificación<s n="n"/></l><r>especificación<s n="n"/></r></p></e>
+<e><p><l>cumplimentación<s n="n"/></l><r>cumplimentación<s n="n"/></r></p></e>
+<e><p><l>oscilación<s n="n"/></l><r>oscilación<s n="n"/></r></p></e>
+<e><p><l>adición<s n="n"/></l><r>adición<s n="n"/></r></p></e>
+<e><p><l>habilitación<s n="n"/></l><r>habilitación<s n="n"/></r></p></e>
+<e><p><l>concertación<s n="n"/></l><r>concertación<s n="n"/></r></p></e>
+<e><p><l>fijación<s n="n"/></l><r>fixación<s n="n"/></r></p></e>
+<e><p><l>contabilización<s n="n"/></l><r>contabilización<s n="n"/></r></p></e>
+<e><p><l>autofacturación<s n="n"/></l><r>autofacturación<s n="n"/></r></p></e>
+<e><p><l>impartición<s n="n"/></l><r>impartición<s n="n"/></r></p></e>
+<e><p><l>exención<s n="n"/></l><r>exención<s n="n"/></r></p></e>
+<e><p><l>consignación<s n="n"/></l><r>consignación<s n="n"/></r></p></e>
+<e><p><l>concreción<s n="n"/></l><r>concreción<s n="n"/></r></p></e>
+<e><p><l>caución<s n="n"/></l><r>caución<s n="n"/></r></p></e>
+<e><p><l>autogestión<s n="n"/></l><r>autochestión<s n="n"/></r></p></e>
+<e><p><l>atribución<s n="n"/></l><r>atribución<s n="n"/></r></p></e>
+<e><p><l>aclaración<s n="n"/></l><r>aclaración<s n="n"/></r></p></e>
+<e><p><l>estructuración<s n="n"/></l><r>estructuración<s n="n"/></r></p></e>
+<e><p><l>diseminación<s n="n"/></l><r>diseminación<s n="n"/></r></p></e>
+<e><p><l>medicación<s n="n"/></l><r>medicación<s n="n"/></r></p></e>
+<e><p><l>ovulación<s n="n"/></l><r>ovulación<s n="n"/></r></p></e>
+<e><p><l>secreción<s n="n"/></l><r>secreción<s n="n"/></r></p></e>
+<e><p><l>ingestión<s n="n"/></l><r>inchestión<s n="n"/></r></p></e>
+<e><p><l>hipertensión<s n="n"/></l><r>hipertensión<s n="n"/></r></p></e>
+<e><p><l>eyaculación<s n="n"/></l><r>eyaculación<s n="n"/></r></p></e>
+<e><p><l>absorción<s n="n"/></l><r>absorción<s n="n"/></r></p></e>
+<e><p><l>contraindicación<s n="n"/></l><r>contraindicación<s n="n"/></r></p></e>
+<e><p><l>sudoración<s n="n"/></l><r>sudoración<s n="n"/></r></p></e>
+<e><p><l>succión<s n="n"/></l><r>succión<s n="n"/></r></p></e>
+<e><p><l>revacunación<s n="n"/></l><r>revacunación<s n="n"/></r></p></e>
+<e><p><l>palpación<s n="n"/></l><r>palpación<s n="n"/></r></p></e>
+<e><p><l>ingurgitación<s n="n"/></l><r>ingurchitación<s n="n"/></r></p></e>
+<e><p><l>infusión<s n="n"/></l><r>infusión<s n="n"/></r></p></e>
+<e><p><l>hinchazón<s n="n"/></l><r>inflor<s n="n"/></r></p></e>
+<e><p><l>politización<s n="n"/></l><r>politización<s n="n"/></r></p></e>
+<e><p><l>secuenciación<s n="n"/></l><r>seqüenciación<s n="n"/></r></p></e>
+<e><p><l>porción<s n="n"/></l><r>porción<s n="n"/></r></p></e>
+<e><p><l>condimentación<s n="n"/></l><r>condimentación<s n="n"/></r></p></e>
+<e><p><l>tarificación<s n="n"/></l><r>tarificación<s n="n"/></r></p></e>
+<e><p><l>aberración<s n="n"/></l><r>aberración<s n="n"/></r></p></e>
+<e><p><l>abolición<s n="n"/></l><r>abolición<s n="n"/></r></p></e>
+<e><p><l>adscripción<s n="n"/></l><r>adscripción<s n="n"/></r></p></e>
+<e><p><l>alineación<s n="n"/></l><r>aliniación<s n="n"/></r></p></e>
+<e><p><l>alucinación<s n="n"/></l><r>alucinación<s n="n"/></r></p></e>
+<e><p><l>aprehensión<s n="n"/></l><r>aprehensión<s n="n"/></r></p></e>
+<e><p><l>prensión<s n="n"/></l><r>prensión<s n="n"/></r></p></e>
+<e><p><l>apropiación<s n="n"/></l><r>apropiación<s n="n"/></r></p></e>
+<e><p><l>ascensión<s n="n"/></l><r>ascensión<s n="n"/></r></p></e>
+<e><p><l>aseveración<s n="n"/></l><r>aseveración<s n="n"/></r></p></e>
+<e><p><l>automoción<s n="n"/></l><r>automoción<s n="n"/></r></p></e>
+<e><p><l>capacitación<s n="n"/></l><r>capacitación<s n="n"/></r></p></e>
+<e><p><l>capitalización<s n="n"/></l><r>capitalización<s n="n"/></r></p></e>
+<e><p><l>casación<s n="n"/></l><r>casación<s n="n"/></r></p></e>
+<e><p><l>circuncisión<s n="n"/></l><r>circumcisión<s n="n"/></r></p></e>
+<e><p><l>circunscripción<s n="n"/></l><r>circumscripción<s n="n"/></r></p></e>
+<e><p><l>condensación<s n="n"/></l><r>condensación<s n="n"/></r></p></e>
+<e><p><l>confiscación<s n="n"/></l><r>confiscación<s n="n"/></r></p></e>
+<e><p><l>contención<s n="n"/></l><r>contención<s n="n"/></r></p></e>
+<e><p><l>convección<s n="n"/></l><r>convección<s n="n"/></r></p></e>
+<e><p><l>convulsión<s n="n"/></l><r>convulsión<s n="n"/></r></p></e>
+<e><p><l>correlación<s n="n"/></l><r>correlación<s n="n"/></r></p></e>
+<e><p><l>depreciación<s n="n"/></l><r>depreciación<s n="n"/></r></p></e>
+<e><p><l>desaceleración<s n="n"/></l><r>desacceleración<s n="n"/></r></p></e>
+<e><p><l>desactivación<s n="n"/></l><r>desactivación<s n="n"/></r></p></e>
+<e><p><l>descomposición<s n="n"/></l><r>descomposición<s n="n"/></r></p></e>
+<e><p><l>deserción<s n="n"/></l><r>deserción<s n="n"/></r></p></e>
+<e><p><l>desertización<s n="n"/></l><r>desertización<s n="n"/></r></p></e>
+<e><p><l>desnuclearización<s n="n"/></l><r>desnucleyarización<s n="n"/></r></p></e>
+<e><p><l>desnutrición<s n="n"/></l><r>desnutrición<s n="n"/></r></p></e>
+<e><p><l>despenalización<s n="n"/></l><r>despenalización<s n="n"/></r></p></e>
+<e><p><l>desproporción<s n="n"/></l><r>desproporción<s n="n"/></r></p></e>
+<e><p><l>desunión<s n="n"/></l><r>desunión<s n="n"/></r></p></e>
+<e><p><l>devastación<s n="n"/></l><r>devastación<s n="n"/></r></p></e>
+<e><p><l>digitalización<s n="n"/></l><r>dichitalización<s n="n"/></r></p></e>
+<e><p><l>dinamización<s n="n"/></l><r>dinamización<s n="n"/></r></p></e>
+<e><p><l>disfunción<s n="n"/></l><r>disfunción<s n="n"/></r></p></e>
+<e><p><l>distensión<s n="n"/></l><r>distensión<s n="n"/></r></p></e>
+<e><p><l>disuasión<s n="n"/></l><r>disuasión<s n="n"/></r></p></e>
+<e><p><l>duplicación<s n="n"/></l><r>duplicación<s n="n"/></r></p></e>
+<e><p><l>emanación<s n="n"/></l><r>emanación<s n="n"/></r></p></e>
+<e><p><l>erección<s n="n"/></l><r>erección<s n="n"/></r></p></e>
+<e><p><l>erosión<s n="n"/></l><r>erosión<s n="n"/></r></p></e>
+<e><p><l>escisión<s n="n"/></l><r>scisión<s n="n"/></r></p></e>
+<e><p><l>estabilización<s n="n"/></l><r>estabilización<s n="n"/></r></p></e>
+<e><p><l>exhumación<s n="n"/></l><r>exhumación<s n="n"/></r></p></e>
+<e><p><l>extorsión<s n="n"/></l><r>extorsión<s n="n"/></r></p></e>
+<e><p><l>fertilización<s n="n"/></l><r>fertilización<s n="n"/></r></p></e>
+<e><p><l>filiación<s n="n"/></l><r>filiación<s n="n"/></r></p></e>
+<e><p><l>fiscalización<s n="n"/></l><r>fiscalización<s n="n"/></r></p></e>
+<e><p><l>flexibilización<s n="n"/></l><r>flexibilización<s n="n"/></r></p></e>
+<e><p><l>flotación<s n="n"/></l><r>flotación<s n="n"/></r></p></e>
+<e><p><l>fluctuación<s n="n"/></l><r>fluctuación<s n="n"/></r></p></e>
+<e><p><l>formulación<s n="n"/></l><r>formulación<s n="n"/></r></p></e>
+<e><p><l>fragmentación<s n="n"/></l><r>fragmentación<s n="n"/></r></p></e>
+<e><p><l>fundición<s n="n"/></l><r>fundición<s n="n"/></r></p></e>
+<e><p><l>implementación<s n="n"/></l><r>implementación<s n="n"/></r></p></e>
+<e><p><l>imprevisión<s n="n"/></l><r>imprevisión<s n="n"/></r></p></e>
+<e><p><l>incautación<s n="n"/></l><r>incautación<s n="n"/></r></p></e>
+<e><p><l>incubación<s n="n"/></l><r>incubación<s n="n"/></r></p></e>
+<e><p><l>inculpación<s n="n"/></l><r>inculpación<s n="n"/></r></p></e>
+<e><p><l>indagación<s n="n"/></l><r>indagación<s n="n"/></r></p></e>
+<e><p><l>indefinición<s n="n"/></l><r>indefinición<s n="n"/></r></p></e>
+<e><p><l>indisposición<s n="n"/></l><r>indisposición<s n="n"/></r></p></e>
+<e><p><l>inducción<s n="n"/></l><r>inducción<s n="n"/></r></p></e>
+<e><p><l>infiltración<s n="n"/></l><r>infiltración<s n="n"/></r></p></e>
+<e><p><l>inhibición<s n="n"/></l><r>inhibición<s n="n"/></r></p></e>
+<e><p><l>inmovilización<s n="n"/></l><r>immovilización<s n="n"/></r></p></e>
+<e><p><l>instauración<s n="n"/></l><r>instauración<s n="n"/></r></p></e>
+<e><p><l>intensificación<s n="n"/></l><r>intensificación<s n="n"/></r></p></e>
+<e><p><l>interlocución<s n="n"/></l><r>interlocución<s n="n"/></r></p></e>
+<e><p><l>internacionalización<s n="n"/></l><r>internacionalización<s n="n"/></r></p></e>
+<e><p><l>interpelación<s n="n"/></l><r>interpelación<s n="n"/></r></p></e>
+<e><p><l>intrusión<s n="n"/></l><r>intrusión<s n="n"/></r></p></e>
+<e><p><l>lamentación<s n="n"/></l><r>lamentación<s n="n"/></r></p></e>
+<e><p><l>liberalización<s n="n"/></l><r>liberalización<s n="n"/></r></p></e>
+<e><p><l>luxación<s n="n"/></l><r>luxación<s n="n"/></r></p></e>
+<e><p><l>malformación<s n="n"/></l><r>malformación<s n="n"/></r></p></e>
+<e><p><l>malnutrición<s n="n"/></l><r>malnutrición<s n="n"/></r></p></e>
+<e><p><l>malversación<s n="n"/></l><r>malversación<s n="n"/></r></p></e>
+<e><p><l>matización<s n="n"/></l><r>matización<s n="n"/></r></p></e>
+<e><p><l>mentalización<s n="n"/></l><r>mentalización<s n="n"/></r></p></e>
+<e><p><l>miniaturización<s n="n"/></l><r>miniaturización<s n="n"/></r></p></e>
+<e><p><l>modelización<s n="n"/></l><r>modelización<s n="n"/></r></p></e>
+<e><p><l>mutilación<s n="n"/></l><r>mutilación<s n="n"/></r></p></e>
+<e><p><l>obstrucción<s n="n"/></l><r>obstrucción<s n="n"/></r></p></e>
+<e><p><l>ocultación<s n="n"/></l><r>ocultación<s n="n"/></r></p></e>
+<e><p><l>optimización<s n="n"/></l><r>optimización<s n="n"/></r></p></e>
+<e><p><l>pacificación<s n="n"/></l><r>pacificación<s n="n"/></r></p></e>
+<e><p><l>partición<s n="n"/></l><r>partición<s n="n"/></r></p></e>
+<e><p><l>personalización<s n="n"/></l><r>personalización<s n="n"/></r></p></e>
+<e><p><l>perturbación<s n="n"/></l><r>perturbación<s n="n"/></r></p></e>
+<e><p><l>plantación<s n="n"/></l><r>plantación<s n="n"/></r></p></e>
+<e><p><l>plasmación<s n="n"/></l><r>plasmación<s n="n"/></r></p></e>
+<e><p><l>polarización<s n="n"/></l><r>polarización<s n="n"/></r></p></e>
+<e><p><l>popularización<s n="n"/></l><r>popularización<s n="n"/></r></p></e>
+<e><p><l>postproducción<s n="n"/></l><r>postproducción<s n="n"/></r></p></e>
+<e><p><l>potabilización<s n="n"/></l><r>potabilización<s n="n"/></r></p></e>
+<e><p><l>potenciación<s n="n"/></l><r>potenciación<s n="n"/></r></p></e>
+<e><p><l>predilección<s n="n"/></l><r>predilección<s n="n"/></r></p></e>
+<e><p><l>premeditación<s n="n"/></l><r>premeditación<s n="n"/></r></p></e>
+<e><p><l>preservación<s n="n"/></l><r>preservación<s n="n"/></r></p></e>
+<e><p><l>presurización<s n="n"/></l><r>presurización<s n="n"/></r></p></e>
+<e><p><l>prevaricación<s n="n"/></l><r>prevaricación<s n="n"/></r></p></e>
+<e><p><l>privación<s n="n"/></l><r>privación<s n="n"/></r></p></e>
+<e><p><l>proclamación<s n="n"/></l><r>proclamación<s n="n"/></r></p></e>
+<e><p><l>profanación<s n="n"/></l><r>profanación<s n="n"/></r></p></e>
+<e><p><l>profesionalización<s n="n"/></l><r>profesionalización<s n="n"/></r></p></e>
+<e><p><l>profusión<s n="n"/></l><r>profusión<s n="n"/></r></p></e>
+<e><p><l>promulgación<s n="n"/></l><r>promulgación<s n="n"/></r></p></e>
+<e><p><l>propensión<s n="n"/></l><r>propensión<s n="n"/></r></p></e>
+<e><p><l>propulsión<s n="n"/></l><r>propulsión<s n="n"/></r></p></e>
+<e><p><l>prospección<s n="n"/></l><r>prospección<s n="n"/></r></p></e>
+<e><p><l>racionalización<s n="n"/></l><r>racionalización<s n="n"/></r></p></e>
+<e><p><l>orientalización<s n="n"/></l><r>orientalización<s n="n"/></r></p></e>
+<e><p><l>radicalización<s n="n"/></l><r>radicalización<s n="n"/></r></p></e>
+<e><p><l>radiodifusión<s n="n"/></l><r>radiodifusión<s n="n"/></r></p></e>
+<e><p><l>ralentización<s n="n"/></l><r>ralentización<s n="n"/></r></p></e>
+<e><p><l>ramificación<s n="n"/></l><r>ramificación<s n="n"/></r></p></e>
+<e><p><l>reactivación<s n="n"/></l><r>reactivación<s n="n"/></r></p></e>
+<e><p><l>readmisión<s n="n"/></l><r>readmisión<s n="n"/></r></p></e>
+<e><p><l>reafirmación<s n="n"/></l><r>reafirmación<s n="n"/></r></p></e>
+<e><p><l>rebelión<s n="n"/></l><r>rebelión<s n="n"/></r></p></e>
+<e><p><l>recolección<s n="n"/></l><r>recolección<s n="n"/></r></p></e>
+<e><p><l>recombinación<s n="n"/></l><r>recombinación<s n="n"/></r></p></e>
+<e><p><l>reconciliación<s n="n"/></l><r>reconciliación<s n="n"/></r></p></e>
+<e><p><l>reconducción<s n="n"/></l><r>reconducción<s n="n"/></r></p></e>
+<e><p><l>recriminación<s n="n"/></l><r>recriminación<s n="n"/></r></p></e>
+<e><p><l>recusación<s n="n"/></l><r>recusación<s n="n"/></r></p></e>
+<e><p><l>redención<s n="n"/></l><r>redención<s n="n"/></r></p></e>
+<e><p><l>reencarnación<s n="n"/></l><r>reencarnación<s n="n"/></r></p></e>
+<e><p><l>refundación<s n="n"/></l><r>refundación<s n="n"/></r></p></e>
+<e><p><l>reincorporación<s n="n"/></l><r>reincorporación<s n="n"/></r></p></e>
+<e><p><l>reinstauración<s n="n"/></l><r>reinstauración<s n="n"/></r></p></e>
+<e><p><l>reinterpretación<s n="n"/></l><r>reinterpretación<s n="n"/></r></p></e>
+<e><p><l>reiteración<s n="n"/></l><r>reiteración<s n="n"/></r></p></e>
+<e><p><l>remisión<s n="n"/></l><r>remisión<s n="n"/></r></p></e>
+<e><p><l>renegociación<s n="n"/></l><r>renegociación<s n="n"/></r></p></e>
+<e><p><l>reorientación<s n="n"/></l><r>reorientación<s n="n"/></r></p></e>
+<e><p><l>reunificación<s n="n"/></l><r>reunificación<s n="n"/></r></p></e>
+<e><p><l>revalorización<s n="n"/></l><r>revalorización<s n="n"/></r></p></e>
+<e><p><l>revocación<s n="n"/></l><r>revocación<s n="n"/></r></p></e>
+<e><p><l>romanización<s n="n"/></l><r>romanización<s n="n"/></r></p></e>
+<e><p><l>sazón<s n="n"/></l><r>sazón<s n="n"/></r></p></e>
+<e><p><l>secesión<s n="n"/></l><r>secesión<s n="n"/></r></p></e>
+<e><p><l>sincronización<s n="n"/></l><r>sincronización<s n="n"/></r></p></e>
+<e><p><l>sobrevaloración<s n="n"/></l><r>sobrevaloración<s n="n"/></r></p></e>
+<e><p><l>subcontratación<s n="n"/></l><r>subcontratación<s n="n"/></r></p></e>
+<e><p><l>subrogación<s n="n"/></l><r>subrogación<s n="n"/></r></p></e>
+<e><p><l>superposición<s n="n"/></l><r>superposición<s n="n"/></r></p></e>
+<e><p><l>terminación<s n="n"/></l><r>terminación<s n="n"/></r></p></e>
+<e><p><l>transcripción<s n="n"/></l><r>transcripción<s n="n"/></r></p></e>
+<e><p><l>transpiración<s n="n"/></l><r>transpiración<s n="n"/></r></p></e>
+<e><p><l>traslación<s n="n"/></l><r>translación<s n="n"/></r></p></e>
+<e r="LR"><p><l>translación<s n="n"/></l><r>translación<s n="n"/></r></p></e>
+<e><p><l>ulceración<s n="n"/></l><r>ulceración<s n="n"/></r></p></e>
+<e><p><l>unificación<s n="n"/></l><r>unificación<s n="n"/></r></p></e>
+<e><p><l>usurpación<s n="n"/></l><r>usurpación<s n="n"/></r></p></e>
+<e><p><l>valorización<s n="n"/></l><r>valorización<s n="n"/></r></p></e>
+<e><p><l>yuxtaposición<s n="n"/></l><r>chuxtaposición<s n="n"/></r></p></e>
+<e><p><l>abyección<s n="n"/></l><r>abchección<s n="n"/></r></p></e>
+<e><p><l>acepción<s n="n"/></l><r>acepción<s n="n"/></r></p></e>
+<e><p><l>aclimatación<s n="n"/></l><r>aclimatación<s n="n"/></r></p></e>
+<e><p><l>acomodación<s n="n"/></l><r>acomodación<s n="n"/></r></p></e>
+<e><p><l>agilización<s n="n"/></l><r>achilización<s n="n"/></r></p></e>
+<e><p><l>alocución<s n="n"/></l><r>alocución<s n="n"/></r></p></e>
+<e><p><l>amputación<s n="n"/></l><r>amputación<s n="n"/></r></p></e>
+<e><p><l>anidación<s n="n"/></l><r>anidación<s n="n"/></r></p></e>
+<e><p><l>aniquilación<s n="n"/></l><r>anihilación<s n="n"/></r></p></e>
+<e><p><l>anticontaminación<s n="n"/></l><r>anticontaminación<s n="n"/></r></p></e>
+<e><p><l>antiglobalización<s n="n"/></l><r>antiglobalización<s n="n"/></r></p></e>
+<e><p><l>armonización<s n="n"/></l><r>harmonización<s n="n"/></r></p></e>
+<e><p><l>atenuación<s n="n"/></l><r>atenuación<s n="n"/></r></p></e>
+<e><p><l>autentificación<s n="n"/></l><r>autentificación<s n="n"/></r></p></e>
+<e><p><l>autodestrucción<s n="n"/></l><r>autodestrucción<s n="n"/></r></p></e>
+<e><p><l>automedicación<s n="n"/></l><r>automedicación<s n="n"/></r></p></e>
+<e><p><l>autoprotección<s n="n"/></l><r>autoprotección<s n="n"/></r></p></e>
+<e><p><l>autoprotección<s n="n"/></l><r>autoprotección<s n="n"/></r></p></e>
+<e><p><l>autopublicación<s n="n"/></l><r>autopublicación<s n="n"/></r></p></e>
+<e><p><l>beatificación<s n="n"/></l><r>beatificación<s n="n"/></r></p></e>
+<e><p><l>calcinación<s n="n"/></l><r>calcinación<s n="n"/></r></p></e>
+<e><p><l>catalogación<s n="n"/></l><r>catalogación<s n="n"/></r></p></e>
+<e><p><l>cimentación<s n="n"/></l><r>cimentación<s n="n"/></r></p></e>
+<e><p><l>circunnavegación<s n="n"/></l><r>circumnavegación<s n="n"/></r></p></e>
+<e><p><l>climatización<s n="n"/></l><r>climatización<s n="n"/></r></p></e>
+<e><p><l>cloración<s n="n"/></l><r>cloración<s n="n"/></r></p></e>
+<e><p><l>coeducación<s n="n"/></l><r>coeducación<s n="n"/></r></p></e>
+<e><p><l>coerción<s n="n"/></l><r>coerción<s n="n"/></r></p></e>
+<e><p><l>cognición<s n="n"/></l><r>cognición<s n="n"/></r></p></e>
+<e><p><l>cohabitación<s n="n"/></l><r>cohabitación<s n="n"/></r></p></e>
+<e><p><l>compactación<s n="n"/></l><r>compactación<s n="n"/></r></p></e>
+<e><p><l>concatenación<s n="n"/></l><r>concatenación<s n="n"/></r></p></e>
+<e><p><l>concelebración<s n="n"/></l><r>concelebración<s n="n"/></r></p></e>
+<e><p><l>conceptualización<s n="n"/></l><r>conceptualización<s n="n"/></r></p></e>
+<e><p><l>condonación<s n="n"/></l><r>condonación<s n="n"/></r></p></e>
+<e><p><l>constatación<s n="n"/></l><r>constatación<s n="n"/></r></p></e>
+<e><p><l>contrainformación<s n="n"/></l><r>contrainformación<s n="n"/></r></p></e>
+<e><p><l>contraprogramación<s n="n"/></l><r>contraprogramación<s n="n"/></r></p></e>
+<e><p><l>conurbación<s n="n"/></l><r>conurbación<s n="n"/></r></p></e>
+<e><p><l>coproducción<s n="n"/></l><r>coproducción<s n="n"/></r></p></e>
+<e><p><l>culpabilización<s n="n"/></l><r>culpabilización<s n="n"/></r></p></e>
+<e><p><l>declamación<s n="n"/></l><r>declamación<s n="n"/></r></p></e>
+<e><p><l>degeneración<s n="n"/></l><r>decheneración<s n="n"/></r></p></e>
+<e><p><l>dejación<s n="n"/><s n="f"/></l><r>desistimiento<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>delación<s n="n"/></l><r>delación<s n="n"/></r></p></e>
+<e><p><l>dentición<s n="n"/></l><r>dentición<s n="n"/></r></p></e>
+<e><p><l>depilación<s n="n"/></l><r>depilación<s n="n"/></r></p></e>
+<e><p><l>desadaptación<s n="n"/></l><r>desadaptación<s n="n"/></r></p></e>
+<e><p><l>desafección<s n="n"/></l><r>desafección<s n="n"/></r></p></e>
+<e><p><l>desalación<s n="n"/></l><r>desalación<s n="n"/></r></p></e>
+<e><p><l>desalinización<s n="n"/></l><r>desalinización<s n="n"/></r></p></e>
+<e><p><l>desaprobación<s n="n"/></l><r>desaprobación<s n="n"/></r></p></e>
+<e><p><l>desatención<s n="n"/></l><r>desatención<s n="n"/></r></p></e>
+<e><p><l>desautorización<s n="n"/></l><r>desautorización<s n="n"/></r></p></e>
+<e><p><l>descapitalización<s n="n"/></l><r>descapitalización<s n="n"/></r></p></e>
+<e><p><l>desclasificación<s n="n"/></l><r>desclasificación<s n="n"/></r></p></e>
+<e><p><l>desconfiguración<s n="n"/></l><r>desconfiguración<s n="n"/></r></p></e>
+<e><p><l>descongelación<s n="n"/></l><r>desconchelación<s n="n"/></r></p></e>
+<e><p><l>descontaminación<s n="n"/></l><r>descontaminación<s n="n"/></r></p></e>
+<e><p><l>descoordinación<s n="n"/></l><r>descoordinación<s n="n"/></r></p></e>
+<e><p><l>desertificación<s n="n"/></l><r>desertificación<s n="n"/></r></p></e>
+<e><p><l>desestabilización<s n="n"/></l><r>desestabilización<s n="n"/></r></p></e>
+<e><p><l>desestimación<s n="n"/></l><r>desestimación<s n="n"/></r></p></e>
+<e><p><l>desestructuración<s n="n"/></l><r>desestructuración<s n="n"/></r></p></e>
+<e><p><l>desexualización<s n="n"/></l><r>desexualización<s n="n"/></r></p></e>
+<e><p><l>desfeminización<s n="n"/></l><r>desfeminización<s n="n"/></r></p></e>
+<e><p><l>desglaciación<s n="n"/></l><r>desglaciación<s n="n"/></r></p></e>
+<e><p><l>desgravación<s n="n"/></l><r>desgravación<s n="n"/></r></p></e>
+<e><p><l>deshumanización<s n="n"/></l><r>deshumanización<s n="n"/></r></p></e>
+<e><p><l>desinstalación<s n="n"/></l><r>desinstalación<s n="n"/></r></p></e>
+<e><p><l>desintoxicación<s n="n"/></l><r>desintoxicación<s n="n"/></r></p></e>
+<e><p><l>deslegitimación<s n="n"/></l><r>deslechitimación<s n="n"/></r></p></e>
+<e><p><l>desmilitarización<s n="n"/></l><r>desmilitarización<s n="n"/></r></p></e>
+<e><p><l>desmotivación<s n="n"/></l><r>desmotivación<s n="n"/></r></p></e>
+<e><p><l>desocupación<s n="n"/></l><r>desocupación<s n="n"/></r></p></e>
+<e><p><l>desorganización<s n="n"/></l><r>desorganización<s n="n"/></r></p></e>
+<e><p><l>despreocupación<s n="n"/></l><r>despreocupación<s n="n"/></r></p></e>
+<e><p><l>desprotección<s n="n"/></l><r>desprotección<s n="n"/></r></p></e>
+<e><p><l>desvinculación<s n="n"/></l><r>desvinculación<s n="n"/></r></p></e>
+<e><p><l>detonación<s n="n"/></l><r>detonación<s n="n"/></r></p></e>
+<e><p><l>devaluación<s n="n"/></l><r>devaluación<s n="n"/></r></p></e>
+<e><p><l>difamación<s n="n"/></l><r>difamación<s n="n"/></r></p></e>
+<e><p><l>disociación<s n="n"/></l><r>disociación<s n="n"/></r></p></e>
+<e><p><l>ebullición<s n="n"/></l><r>ebullición<s n="n"/></r></p></e>
+<e><p><l>electrificación<s n="n"/></l><r>electrificación<s n="n"/></r></p></e>
+<e><p><l>electrocución<s n="n"/></l><r>electrocución<s n="n"/></r></p></e>
+<e><p><l>encriptación<s n="n"/></l><r>encriptación<s n="n"/></r></p></e>
+<e><p><l>escenificación<s n="n"/></l><r>scenificación<s n="n"/></r></p></e>
+<e><p><l>esterilización<s n="n"/></l><r>esterilización<s n="n"/></r></p></e>
+<e><p><l>estigmatización<s n="n"/></l><r>estigmatización<s n="n"/></r></p></e>
+<e><p><l>estilización<s n="n"/></l><r>estilización<s n="n"/></r></p></e>
+<e><p><l>excarcelación<s n="n"/></l><r>excarceración<s n="n"/></r></p></e>
+<e><p><l>exculpación<s n="n"/></l><r>exculpación<s n="n"/></r></p></e>
+<e><p><l>expiación<s n="n"/></l><r>expiación<s n="n"/></r></p></e>
+<e><p><l>extenuación<s n="n"/></l><r>extenuación<s n="n"/></r></p></e>
+<e><p><l>exteriorización<s n="n"/></l><r>exteriorización<s n="n"/></r></p></e>
+<e><p><l>extirpación<s n="n"/></l><r>extirpación<s n="n"/></r></p></e>
+<e><p><l>extralimitación<s n="n"/></l><r>extralimitación<s n="n"/></r></p></e>
+<e><p><l>fabulación<s n="n"/></l><r>fabulación<s n="n"/></r></p></e>
+<e><p><l>facilitación<s n="n"/></l><r>facilitación<s n="n"/></r></p></e>
+<e><p><l>fermentación<s n="n"/></l><r>fermentación<s n="n"/></r></p></e>
+<e><p><l>fidelización<s n="n"/></l><r>fidelización<s n="n"/></r></p></e>
+<e><p><l>fortificación<s n="n"/></l><r>fortificación<s n="n"/></r></p></e>
+<e><p><l>fotocomposición<s n="n"/></l><r>fotocomposición<s n="n"/></r></p></e>
+<e><p><l>fotointerpretación<s n="n"/></l><r>fotointerpretación<s n="n"/></r></p></e>
+<e><p><l>frecuentación<s n="n"/></l><r>freqüentación<s n="n"/></r></p></e>
+<e><p><l>fumigación<s n="n"/></l><r>fumigación<s n="n"/></r></p></e>
+<e><p><l>gobernación<s n="n"/></l><r>gobernación<s n="n"/></r></p></e>
+<e><p><l>hibridación<s n="n"/></l><r>hibridación<s n="n"/></r></p></e>
+<e><p><l>homogeneización<s n="n"/></l><r>homocheneización<s n="n"/></r></p></e>
+<e><p><l>ignición<s n="n"/></l><r>ignición<s n="n"/></r></p></e>
+<e><p><l>igualación<s n="n"/></l><r>igualación<s n="n"/></r></p></e>
+<e><p><l>impugnación<s n="n"/></l><r>impugnación<s n="n"/></r></p></e>
+<e><p><l>inacción<s n="n"/></l><r>inacción<s n="n"/></r></p></e>
+<e><p><l>inanición<s n="n"/></l><r>inanición<s n="n"/></r></p></e>
+<e><p><l>incapacitación<s n="n"/></l><r>incapacitación<s n="n"/></r></p></e>
+<e><p><l>incentivación<s n="n"/></l><r>incentivación<s n="n"/></r></p></e>
+<e><p><l>incoación<s n="n"/></l><r>incoación<s n="n"/></r></p></e>
+<e><p><l>incriminación<s n="n"/></l><r>incriminación<s n="n"/></r></p></e>
+<e><p><l>individualización<s n="n"/></l><r>individualización<s n="n"/></r></p></e>
+<e><p><l>industrialización<s n="n"/></l><r>industrialización<s n="n"/></r></p></e>
+<e><p><l>informatización<s n="n"/></l><r>informatización<s n="n"/></r></p></e>
+<e><p><l>infravaloración<s n="n"/></l><r>infravaloración<s n="n"/></r></p></e>
+<e><p><l>inoculación<s n="n"/></l><r>inoculación<s n="n"/></r></p></e>
+<e><p><l>inquisición<s n="n"/></l><r>inquisición<s n="n"/></r></p></e>
+<e><p><l>instigación<s n="n"/></l><r>instigación<s n="n"/></r></p></e>
+<e><p><l>instrumentación<s n="n"/></l><r>instrumentación<s n="n"/></r></p></e>
+<e><p><l>instrumentalización<s n="n"/></l><r>instrumentalización<s n="n"/></r></p></e>
+<e><p><l>interceptación<s n="n"/></l><r>interceptación<s n="n"/></r></p></e>
+<e><p><l>intercomunicación<s n="n"/></l><r>intercomunicación<s n="n"/></r></p></e>
+<e><p><l>interdicción<s n="n"/></l><r>interdicción<s n="n"/></r></p></e>
+<e><p><l>interposición<s n="n"/></l><r>interposición<s n="n"/></r></p></e>
+<e><p><l>introspección<s n="n"/></l><r>introspección<s n="n"/></r></p></e>
+<e><p><l>invocación<s n="n"/></l><r>invocación<s n="n"/></r></p></e>
+<e><p><l>islamización<s n="n"/></l><r>islamización<s n="n"/></r></p></e>
+<e><p><l>lapidación<s n="n"/></l><r>lapidación<s n="n"/></r></p></e>
+<e><p><l>legación<s n="n"/></l><r>legación<s n="n"/></r></p></e>
+<e><p><l>legitimación<s n="n"/></l><r>lechitimación<s n="n"/></r></p></e>
+<e><p><l>levitación<s n="n"/></l><r>levitación<s n="n"/></r></p></e>
+<e><p><l>licuefacción<s n="n"/></l><r>liqüefacción<s n="n"/></r></p></e>
+<e><p><l>loción<s n="n"/></l><r>loción<s n="n"/></r></p></e>
+<e><p><l>locomoción<s n="n"/></l><r>locomoción<s n="n"/></r></p></e>
+<e><p><l>locución<s n="n"/></l><r>locución<s n="n"/></r></p></e>
+<e><p><l>lubricación<s n="n"/></l><r>lubricación<s n="n"/></r></p></e>
+<e><p><l>macroestación<s n="n"/></l><r>macroestación<s n="n"/></r></p></e>
+<e r="RL"><p><l>macroestación<s n="n"/></l><r>macrogara<s n="n"/></r></p></e>
+<e><p><l>macrourbanización<s n="n"/></l><r>macrourbanización<s n="n"/></r></p></e>
+<e><p><l>maquinación<s n="n"/></l><r>maquinación<s n="n"/></r></p></e>
+<e><p><l>marcación<s n="n"/></l><r>marcación<s n="n"/></r></p></e>
+<e><p><l>mecanización<s n="n"/></l><r>mecanización<s n="n"/></r></p></e>
+<e><p><l>mineralización<s n="n"/></l><r>mineralización<s n="n"/></r></p></e>
+<e><p><l>minimización<s n="n"/></l><r>minimización<s n="n"/></r></p></e>
+<e><p><l>mitigación<s n="n"/></l><r>mitigación<s n="n"/></r></p></e>
+<e><p><l>modulación<s n="n"/></l><r>modulación<s n="n"/></r></p></e>
+<e><p><l>monitorización<s n="n"/></l><r>monitorización<s n="n"/></r></p></e>
+<e><p><l>motorización<s n="n"/></l><r>motorización<s n="n"/></r></p></e>
+<e><p><l>nacionalización<s n="n"/></l><r>nacionalización<s n="n"/></r></p></e>
+<e><p><l>nanofabricación<s n="n"/></l><r>nanofabricación<s n="n"/></r></p></e>
+<e><p><l>obcecación<s n="n"/></l><r>obcecación<s n="n"/></r></p></e>
+<e><p><l>oficialización<s n="n"/></l><r>oficialización<s n="n"/></r></p></e>
+<e><p><l>ondulación<s n="n"/></l><r>ondulación<s n="n"/></r></p></e>
+<e><p><l>oxidación<s n="n"/></l><r>oxidación<s n="n"/></r></p></e>
+<e><p><l>pasteurización<s n="n"/></l><r>pasteurización<s n="n"/></r></p></e>
+<e><p><l>peritación<s n="n"/></l><r>peritación<s n="n"/></r></p></e>
+<e><p><l>perpetuación<s n="n"/></l><r>perpetuación<s n="n"/></r></p></e>
+<e><p><l>pigmentación<s n="n"/></l><r>pigmentación<s n="n"/></r></p></e>
+<e><p><l>ponderación<s n="n"/></l><r>ponderación<s n="n"/></r></p></e>
+<e><p><l>postración<s n="n"/></l><r>postración<s n="n"/></r></p></e>
+<e><p><l>postulación<s n="n"/></l><r>postulación<s n="n"/></r></p></e>
+<e><p><l>preadopción<s n="n"/></l><r>preadopción<s n="n"/></r></p></e>
+<e><p><l>premonición<s n="n"/></l><r>premonición<s n="n"/></r></p></e>
+<e><p><l>preproducción<s n="n"/></l><r>preproducción<s n="n"/></r></p></e>
+<e><p><l>priorización<s n="n"/></l><r>priorización<s n="n"/></r></p></e>
+<e><p><l>profundización<s n="n"/></l><r>profundización<s n="n"/></r></p></e>
+<e><p><l>proscripción<s n="n"/></l><r>proscripción<s n="n"/></r></p></e>
+<e><p><l>punición<s n="n"/></l><r>punición<s n="n"/></r></p></e>
+<e><p><l>puntualización<s n="n"/></l><r>puntualización<s n="n"/></r></p></e>
+<e><p><l>putrefacción<s n="n"/></l><r>putrefacción<s n="n"/></r></p></e>
+<e><p><l>readaptación<s n="n"/></l><r>readaptación<s n="n"/></r></p></e>
+<e><p><l>reanimación<s n="n"/></l><r>reanimación<s n="n"/></r></p></e>
+<e><p><l>reapreciación<s n="n"/></l><r>reapreciación<s n="n"/></r></p></e>
+<e><p><l>reasignación<s n="n"/></l><r>reasignación<s n="n"/></r></p></e>
+<e><p><l>reatribución<s n="n"/></l><r>reatribución<s n="n"/></r></p></e>
+<e><p><l>recalificación<s n="n"/></l><r>recalificación<s n="n"/></r></p></e>
+<e><p><l>recapitulación<s n="n"/></l><r>recapitulación<s n="n"/></r></p></e>
+<e><p><l>recolocación<s n="n"/></l><r>recolocación<s n="n"/></r></p></e>
+<e><p><l>reconstitución<s n="n"/></l><r>reconstitución<s n="n"/></r></p></e>
+<e><p><l>reevaluación<s n="n"/></l><r>reevaluación<s n="n"/></r></p></e>
+<e><p><l>reformulación<s n="n"/></l><r>reformulación<s n="n"/></r></p></e>
+<e><p><l>reindustrialización<s n="n"/></l><r>reindustrialización<s n="n"/></r></p></e>
+<e><p><l>reintegración<s n="n"/></l><r>reintegración<s n="n"/></r></p></e>
+<e><p><l>reintroducción<s n="n"/></l><r>reintroducción<s n="n"/></r></p></e>
+<e><p><l>reinvención<s n="n"/></l><r>reinvención<s n="n"/></r></p></e>
+<e><p><l>relatinización<s n="n"/></l><r>relatinización<s n="n"/></r></p></e>
+<e><p><l>remoción<s n="n"/></l><r>remoción<s n="n"/></r></p></e>
+<e><p><l>repartición<s n="n"/></l><r>repartición<s n="n"/></r></p></e>
+<e><p><l>replicación<s n="n"/></l><r>replicación<s n="n"/></r></p></e>
+<e><p><l>repoblación<s n="n"/></l><r>repoblación<s n="n"/></r></p></e>
+<e><p><l>reprobación<s n="n"/></l><r>reprobación<s n="n"/></r></p></e>
+<e><p><l>retracción<s n="n"/></l><r>retracción<s n="n"/></r></p></e>
+<e><p><l>reutilización<s n="n"/></l><r>reutilización<s n="n"/></r></p></e>
+<e><p><l>revalidación<s n="n"/></l><r>revalidación<s n="n"/></r></p></e>
+<e><p><l>salinización<s n="n"/></l><r>salinización<s n="n"/></r></p></e>
+<e><p><l>santificación<s n="n"/></l><r>santificación<s n="n"/></r></p></e>
+<e><p><l>secularización<s n="n"/></l><r>secularización<s n="n"/></r></p></e>
+<e><p><l>sedación<s n="n"/></l><r>sedación<s n="n"/></r></p></e>
+<e><p><l>sedición<s n="n"/></l><r>sedición<s n="n"/></r></p></e>
+<e><p><l>sobreexplotación<s n="n"/></l><r>sobreexplotación<s n="n"/></r></p></e>
+<e><p><l>sobreproducción<s n="n"/></l><r>sobreproducción<s n="n"/></r></p></e>
+<e><p><l>sofisticación<s n="n"/></l><r>sofisticación<s n="n"/></r></p></e>
+<e><p><l>sofocación<s n="n"/></l><r>sofocación<s n="n"/></r></p></e>
+<e><p><l>subdirección<s n="n"/></l><r>subdirección<s n="n"/></r></p></e>
+<e><p><l>subordinación<s n="n"/></l><r>subordinación<s n="n"/></r></p></e>
+<e><p><l>subsanación<s n="n"/></l><r>subsanación<s n="n"/></r></p></e>
+<e><p><l>subtitulación<s n="n"/></l><r>subtitulación<s n="n"/></r></p></e>
+<e><p><l>supeditación<s n="n"/></l><r>supeditación<s n="n"/></r></p></e>
+<e><p><l>superdotación<s n="n"/></l><r>superdotación<s n="n"/></r></p></e>
+<e><p><l>superpoblación<s n="n"/></l><r>superpoblación<s n="n"/></r></p></e>
+<e><p><l>sustentación<s n="n"/></l><r>sustentación<s n="n"/></r></p></e>
+<e><p><l>tergiversación<s n="n"/></l><r>terchiversación<s n="n"/></r></p></e>
+<e><p><l>tipificación<s n="n"/></l><r>tipificación<s n="n"/></r></p></e>
+<e><p><l>tracción<s n="n"/></l><r>tracción<s n="n"/></r></p></e>
+<e><p><l>transmutación<s n="n"/></l><r>transmutación<s n="n"/></r></p></e>
+<e><p><l>triangulación<s n="n"/></l><r>triangulación<s n="n"/></r></p></e>
+<e><p><l>universalización<s n="n"/></l><r>universalización<s n="n"/></r></p></e>
+<e><p><l>victimización<s n="n"/></l><r>victimización<s n="n"/></r></p></e>
+<e><p><l>virtualización<s n="n"/></l><r>virtualización<s n="n"/></r></p></e>
+<e><p><l>vitrificación<s n="n"/></l><r>vitrificación<s n="n"/></r></p></e>
+<e><p><l>zonificación<s n="n"/></l><r>zonificación<s n="n"/></r></p></e>
+<e><p><l>pitón<s n="n"/></l><r>pitón<s n="n"/></r></p></e>
+<e><p><l>pitón<s n="adj"/></l><r>pitón<s n="adj"/></r></p></e>
+<e><p><l>averiguación<s n="n"/><s n="f"/></l><r>esbrinamiento<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>maquetación<s n="n"/></l><r>maquetación<s n="n"/></r></p></e>
+<e><p><l>redefinición<s n="n"/></l><r>redefinición<s n="n"/></r></p></e>
+<e><p><l>radiotelevisión<s n="n"/></l><r>radiotelevisión<s n="n"/></r></p></e>
+<e><p><l>mitificación<s n="n"/></l><r>mitificación<s n="n"/></r></p></e>
+<e><p><l>ionización<s n="n"/></l><r>ionización<s n="n"/></r></p></e>
+<e><p><l>prosecución<s n="n"/></l><r>prosecución<s n="n"/></r></p></e>
+<e><p><l>sugestión<s n="n"/></l><r>suchestión<s n="n"/></r></p></e>
+<e><p><l>cimentación<s n="n"/></l><r>cimentación<s n="n"/></r></p></e>
+<e><p><l>cogeneración<s n="n"/></l><r>cocheneración<s n="n"/></r></p></e>
+<e><p><l>criminalización<s n="n"/></l><r>criminalización<s n="n"/></r></p></e>
+<e><p><l>desconcentración<s n="n"/></l><r>desconcentración<s n="n"/></r></p></e>
+<e><p><l>desconsideración<s n="n"/></l><r>desconsideración<s n="n"/></r></p></e>
+<e><p><l>reconsideración<s n="n"/></l><r>reconsideración<s n="n"/></r></p></e>
+<e><p><l>elisión<s n="n"/></l><r>elisión<s n="n"/></r></p></e>
+<e><p><l>expiración<s n="n"/></l><r>expiración<s n="n"/></r></p></e>
+<e><p><l>familiarización<s n="n"/></l><r>familiarización<s n="n"/></r></p></e>
+<e><p><l>gradación<s n="n"/></l><r>gradación<s n="n"/></r></p></e>
+<e><p><l>habituación<s n="n"/></l><r>habituación<s n="n"/></r></p></e>
+<e><p><l>impermeabilización<s n="n"/></l><r>impermeabilización<s n="n"/></r></p></e>
+<e><p><l>interiorización<s n="n"/></l><r>interiorización<s n="n"/></r></p></e>
+<e><p><l>lexicalización<s n="n"/></l><r>lexicalización<s n="n"/></r></p></e>
+<e><p><l>memorización<s n="n"/></l><r>memorización<s n="n"/></r></p></e>
+<e><p><l>movilización<s n="n"/></l><r>mobilización<s n="n"/></r></p></e>
+<e><p><l>permutación<s n="n"/></l><r>permutación<s n="n"/></r></p></e>
+<e><p><l>perturbación<s n="n"/></l><r>perturbación<s n="n"/></r></p></e>
+<e><p><l>prelación<s n="n"/></l><r>prelación<s n="n"/></r></p></e>
+<e><p><l>presunción<s n="n"/></l><r>presunción<s n="n"/></r></p></e>
+<e><p><l>prorrogación<s n="n"/></l><r>prorrogación<s n="n"/></r></p></e>
+<e><p><l>recitación<s n="n"/></l><r>recitación<s n="n"/></r></p></e>
+<e><p><l>recompilación<s n="n"/></l><r>recompilación<s n="n"/></r></p></e>
+<e><p><l>regionalización<s n="n"/></l><r>rechionalización<s n="n"/></r></p></e>
+<e><p><l>reorganización<s n="n"/></l><r>reorganización<s n="n"/></r></p></e>
+<e><p><l>rotulación<s n="n"/></l><r>retolación<s n="n"/></r></p></e>
+<e><p><l>sufijación<s n="n"/></l><r>sufixación<s n="n"/></r></p></e>
+<e><p><l>tecnificación<s n="n"/></l><r>tecnificación<s n="n"/></r></p></e>
+<e><p><l>dislocación<s n="n"/></l><r>dislocación<s n="n"/></r></p></e>
+<e><p><l>feminización<s n="n"/></l><r>feminización<s n="n"/></r></p></e>
+<e><p><l>aflicción<s n="n"/></l><r>aflicción<s n="n"/></r></p></e>
+<e><p><l>circunvolución<s n="n"/></l><r>circumvolución<s n="n"/></r></p></e>
+<e><p><l>delectación<s n="n"/></l><r>delectación<s n="n"/></r></p></e>
+<e><p><l>abducción<s n="n"/></l><r>abducción<s n="n"/></r></p></e>
+<e><p><l>reclasificación<s n="n"/></l><r>reclasificación<s n="n"/></r></p></e>
+<e><p><l>incentivación<s n="n"/></l><r>incentivación<s n="n"/></r></p></e>
+<e><p><l>normativización<s n="n"/></l><r>normativización<s n="n"/></r></p></e>
+<e><p><l>ornamentación<s n="n"/></l><r>ornamentación<s n="n"/></r></p></e>
+<e><p><l>vaporización<s n="n"/></l><r>vaporización<s n="n"/></r></p></e>
+<e><p><l>desvalorización<s n="n"/></l><r>desvalorización<s n="n"/></r></p></e>
+<e><p><l>pignoración<s n="n"/></l><r>pignoración<s n="n"/></r></p></e>
+<e><p><l>impartición<s n="n"/></l><r>impartición<s n="n"/></r></p></e>
+<e><p><l>lematización<s n="n"/></l><r>lematización<s n="n"/></r></p></e>
+<e><p><l>indexación<s n="n"/></l><r>indexación<s n="n"/></r></p></e>
+<e><p><l>nivelación<s n="n"/></l><r>libelación<s n="n"/></r></p></e>
+<e><p><l>desazón<s n="n"/><s n="f"/></l><r>reconcome<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>notación<s n="n"/></l><r>notación<s n="n"/></r></p></e>
+<e><p><l>glaciación<s n="n"/></l><r>glaciación<s n="n"/></r></p></e>
+<e><p><l>gravitación<s n="n"/></l><r>gravitación<s n="n"/></r></p></e>
+<e><p><l>subdivisión<s n="n"/></l><r>subdivisión<s n="n"/></r></p></e>
+<e><p><l>refracción<s n="n"/></l><r>refracción<s n="n"/></r></p></e>
+<e><p><l>factorización<s n="n"/></l><r>factorización<s n="n"/></r></p></e>
+<e><p><l>fisión<s n="n"/></l><r>fisión<s n="n"/></r></p></e>
+<e><p><l>corrosión<s n="n"/></l><r>corrosión<s n="n"/></r></p></e>
+<e><p><l>torsión<s n="n"/></l><r>torsión<s n="n"/></r></p></e>
+<e><p><l>difracción<s n="n"/></l><r>difracción<s n="n"/></r></p></e>
+<e><p><l>poción<s n="n"/></l><r>poción<s n="n"/></r></p></e>
+<e><p><l>personificación<s n="n"/></l><r>personificación<s n="n"/></r></p></e>
+<e><p><l>orquestación<s n="n"/></l><r>orquestación<s n="n"/></r></p></e>
+<e><p><l>polimerización<s n="n"/></l><r>polimerización<s n="n"/></r></p></e>
+<e><p><l>polinización<s n="n"/></l><r>polinización<s n="n"/></r></p></e>
+<e><p><l>predicación<s n="n"/></l><r>predicación<s n="n"/></r></p></e>
+<e><p><l>fosforilación<s n="n"/></l><r>fosforilación<s n="n"/></r></p></e>
+<e><p><l>colectivización<s n="n"/></l><r>colectivización<s n="n"/></r></p></e>
+<e><p><l>anexión<s n="n"/></l><r>anexión<s n="n"/></r></p></e>
+<e><p><l>subducción<s n="n"/></l><r>subducción<s n="n"/></r></p></e>
+<e><p><l>tinción<s n="n"/></l><r>tinción<s n="n"/></r></p></e>
+<e><p><l>palatalización<s n="n"/></l><r>palatalización<s n="n"/></r></p></e>
+<e><p><l>neutralización<s n="n"/></l><r>neutralización<s n="n"/></r></p></e>
+<e><p><l>dilución<s n="n"/></l><r>dilución<s n="n"/></r></p></e>
+<e><p><l>repulsión<s n="n"/></l><r>repulsión<s n="n"/></r></p></e>
+<e><p><l>dicción<s n="n"/></l><r>dicción<s n="n"/></r></p></e>
+<e><p><l>castellanización<s n="n"/></l><r>castellanización<s n="n"/></r></p></e>
+<e><p><l>interpolación<s n="n"/></l><r>interpolación<s n="n"/></r></p></e>
+<e><p><l>incisión<s n="n"/></l><r>incisión<s n="n"/></r></p></e>
+<e><p><l>sublimación<s n="n"/></l><r>sublimación<s n="n"/></r></p></e>
+<e><p><l>estandarización<s n="n"/></l><r>estandardización<s n="n"/></r></p></e>
+<e><p><l>magnetización<s n="n"/></l><r>magnetización<s n="n"/></r></p></e>
+<e><p><l>transgresión<s n="n"/></l><r>transgresión<s n="n"/></r></p></e>
+<e><p><l>persuasión<s n="n"/></l><r>persuasión<s n="n"/></r></p></e>
+<e><p><l>cosmovisión<s n="n"/></l><r>cosmovisión<s n="n"/></r></p></e>
+<e><p><l>decocción<s n="n"/></l><r>decocción<s n="n"/></r></p></e>
+<e><p><l>cicatrización<s n="n"/></l><r>cicatrización<s n="n"/></r></p></e>
+<e><p><l>sistematización<s n="n"/></l><r>sistematización<s n="n"/></r></p></e>
+<e><p><l>irradiación<s n="n"/></l><r>irradiación<s n="n"/></r></p></e>
+<e><p><l>emulsión<s n="n"/></l><r>emulsión<s n="n"/></r></p></e>
+<e><p><l>disección<s n="n"/></l><r>disección<s n="n"/></r></p></e>
+<e><p><l>solidificación<s n="n"/></l><r>solidificación<s n="n"/></r></p></e>
+<e><p><l>reverberación<s n="n"/></l><r>reverberación<s n="n"/></r></p></e>
+<e><p><l>parametrización<s n="n"/></l><r>parametrización<s n="n"/></r></p></e>
+<e><p><l>vocalización<s n="n"/></l><r>vocalización<s n="n"/></r></p></e>
+<e><p><l>gastrulación<s n="n"/></l><r>gastrulación<s n="n"/></r></p></e>
+<e><p><l>constricción<s n="n"/></l><r>constricción<s n="n"/></r></p></e>
+<e><p><l>centrifugación<s n="n"/></l><r>centrifugación<s n="n"/></r></p></e>
+<e><p><l>vasodilatación<s n="n"/></l><r>vasodilatación<s n="n"/></r></p></e>
+<e><p><l>militarización<s n="n"/></l><r>militarización<s n="n"/></r></p></e>
+<e><p><l>hipotensión<s n="n"/></l><r>hipotensión<s n="n"/></r></p></e>
+<e><p><l>emulación<s n="n"/></l><r>emulación<s n="n"/></r></p></e>
+<e><p><l>refutación<s n="n"/></l><r>refutación<s n="n"/></r></p></e>
+<e><p><l>pavimentación<s n="n"/></l><r>pavimentación<s n="n"/></r></p></e>
+<e><p><l>gemación<s n="n"/></l><r>chemación<s n="n"/></r></p></e>
+<e><p><l>disertación<s n="n"/></l><r>disertación<s n="n"/></r></p></e>
+<e><p><l>translocación<s n="n"/></l><r>translocación<s n="n"/></r></p></e>
+<e><p><l>unción<s n="n"/></l><r>unción<s n="n"/></r></p></e>
+<e><p><l>paginación<s n="n"/></l><r>pachinación<s n="n"/></r></p></e>
+<e><p><l>latinización<s n="n"/></l><r>latinización<s n="n"/></r></p></e>
+<e><p><l>hibernación<s n="n"/></l><r>hibernación<s n="n"/></r></p></e>
+<e><p><l>extrapolación<s n="n"/></l><r>extrapolación<s n="n"/></r></p></e>
+<e><p><l>excreción<s n="n"/></l><r>excreción<s n="n"/></r></p></e>
+<e><p><l>parcelación<s n="n"/></l><r>parcelación<s n="n"/></r></p></e>
+<e><p><l>imperfección<s n="n"/></l><r>imperfección<s n="n"/></r></p></e>
+<e><p><l>geminación<s n="n"/></l><r>cheminación<s n="n"/></r></p></e>
+<e><p><l>fonación<s n="n"/></l><r>fonación<s n="n"/></r></p></e>
+<e><p><l>contracepción<s n="n"/></l><r>contracepción<s n="n"/></r></p></e>
+<e><p><l>glorificación<s n="n"/></l><r>glorificación<s n="n"/></r></p></e>
+<e><p><l>aculturación<s n="n"/></l><r>aculturación<s n="n"/></r></p></e>
+<e><p><l>ruralización<s n="n"/></l><r>ruralización<s n="n"/></r></p></e>
+<e><p><l>predestinación<s n="n"/></l><r>predestinación<s n="n"/></r></p></e>
+<e><p><l>complementación<s n="n"/></l><r>complementación<s n="n"/></r></p></e>
+<e><p><l>acreción<s n="n"/></l><r>acreción<s n="n"/></r></p></e>
+<e><p><l>nasalización<s n="n"/></l><r>nasalización<s n="n"/></r></p></e>
+<e><p><l>momificación<s n="n"/></l><r>momificación<s n="n"/></r></p></e>
+<e><p><l>masticación<s n="n"/></l><r>masticación<s n="n"/></r></p></e>
+<e><p><l>indigestión<s n="n"/></l><r>indichestión<s n="n"/></r></p></e>
+<e><p><l>deyección<s n="n"/></l><r>dechección<s n="n"/></r></p></e>
+<e><p><l>burocratización<s n="n"/></l><r>burocratización<s n="n"/></r></p></e>
+<e><p><l>insubordinación<s n="n"/></l><r>insubordinación<s n="n"/></r></p></e>
+<e><p><l>institucionalización<s n="n"/></l><r>institucionalización<s n="n"/></r></p></e>
+<e><p><l>hidratación<s n="n"/></l><r>hidratación<s n="n"/></r></p></e>
+<e><p><l>vacilación<s n="n"/></l><r>vacilación<s n="n"/></r></p></e>
+<e><p><l>interjección<s n="n"/></l><r>interchección<s n="n"/></r></p></e>
+<e><p><l>floculación<s n="n"/></l><r>floculación<s n="n"/></r></p></e>
+<e><p><l>carburación<s n="n"/></l><r>carburación<s n="n"/></r></p></e>
+<e><p><l>trepanación<s n="n"/></l><r>trepanación<s n="n"/></r></p></e>
+<e><p><l>oclusión<s n="n"/></l><r>oclusión<s n="n"/></r></p></e>
+<e><p><l>granulación<s n="n"/></l><r>granulación<s n="n"/></r></p></e>
+<e><p><l>estampación<s n="n"/></l><r>estampación<s n="n"/></r></p></e>
+<e><p><l>copulación<s n="n"/></l><r>copulación<s n="n"/></r></p></e>
+<e><p><l>proletarización<s n="n"/></l><r>proletarización<s n="n"/></r></p></e>
+<e><p><l>labialización<s n="n"/></l><r>labialización<s n="n"/></r></p></e>
+<e><p><l>invaginación<s n="n"/></l><r>invachinación<s n="n"/></r></p></e>
+<e><p><l>inadaptación<s n="n"/></l><r>inadaptación<s n="n"/></r></p></e>
+<e><p><l>hidrogenación<s n="n"/></l><r>hidrochenación<s n="n"/></r></p></e>
+<e><p><l>estratificación<s n="n"/></l><r>estratificación<s n="n"/></r></p></e>
+<e><p><l>disyunción<s n="n"/></l><r>dischunción<s n="n"/></r></p></e>
+<e><p><l>despolimerización<s n="n"/></l><r>despolimerización<s n="n"/></r></p></e>
+<e><p><l>deflación<s n="n"/></l><r>deflación<s n="n"/></r></p></e>
+<e><p><l>cogestión<s n="n"/></l><r>cochestión<s n="n"/></r></p></e>
+<e><p><l>adulación<s n="n"/></l><r>adulación<s n="n"/></r></p></e>
+<e><p><l>velarización<s n="n"/></l><r>velarización<s n="n"/></r></p></e>
+<e><p><l>simbolización<s n="n"/></l><r>simbolización<s n="n"/></r></p></e>
+<e><p><l>repudiación<s n="n"/></l><r>repudiación<s n="n"/></r></p></e>
+<e><p><l>reificación<s n="n"/></l><r>reificación<s n="n"/></r></p></e>
+<e><p><l>cosificación<s n="n"/></l><r>cosificación<s n="n"/></r></p></e>
+<e><p><l>gramaticalización<s n="n"/></l><r>gramaticalización<s n="n"/></r></p></e>
+<e><p><l>gasificación<s n="n"/></l><r>gasificación<s n="n"/></r></p></e>
+<e><p><l>encapsulación<s n="n"/></l><r>encapsulación<s n="n"/></r></p></e>
+<e><p><l>desmoralización<s n="n"/></l><r>desmoralización<s n="n"/></r></p></e>
+<e><p><l>desmodulación<s n="n"/></l><r>desmodulación<s n="n"/></r></p></e>
+<e><p><l>deshidrogenación<s n="n"/></l><r>deshidrochenación<s n="n"/></r></p></e>
+<e><p><l>descamación<s n="n"/></l><r>descamación<s n="n"/></r></p></e>
+<e><p><l>depravación<s n="n"/></l><r>depravación<s n="n"/></r></p></e>
+<e><p><l>delineación<s n="n"/></l><r>deliniación<s n="n"/></r></p></e>
+<e><p><l>contravención<s n="n"/></l><r>contravención<s n="n"/></r></p></e>
+<e><p><l>calcificación<s n="n"/></l><r>calcificación<s n="n"/></r></p></e>
+<e><p><l>subyugación<s n="n"/></l><r>subchugación<s n="n"/></r></p></e>
+<e><p><l>salivación<s n="n"/></l><r>ixalivación<s n="n"/></r></p></e>
+<e><p><l>maximización<s n="n"/></l><r>maximización<s n="n"/></r></p></e>
+<e><p><l>implosión<s n="n"/></l><r>implosión<s n="n"/></r></p></e>
+<e><p><l>gesticulación<s n="n"/></l><r>chesticulación<s n="n"/></r></p></e>
+<e><p><l>extrusión<s n="n"/></l><r>extrusión<s n="n"/></r></p></e>
+<e><p><l>desindustrialización<s n="n"/></l><r>desindustrialización<s n="n"/></r></p></e>
+<e><p><l>autoedición<s n="n"/></l><r>autoedición<s n="n"/></r></p></e>
+<e><p><l>adsorción<s n="n"/></l><r>adsorción<s n="n"/></r></p></e>
+<e><p><l>abrasión<s n="n"/></l><r>abrasión<s n="n"/></r></p></e>
+<e><p><l>sobrealimentación<s n="n"/></l><r>sobrealimentación<s n="n"/></r></p></e>
+<e><p><l>retractación<s n="n"/></l><r>retractación<s n="n"/></r></p></e>
+<e><p><l>insonorización<s n="n"/></l><r>insonorización<s n="n"/></r></p></e>
+<e><p><l>expectoración<s n="n"/></l><r>expectoración<s n="n"/></r></p></e>
+<e><p><l>especiación<s n="n"/></l><r>especiación<s n="n"/></r></p></e>
+<e><p><l>disrupción<s n="n"/></l><r>disrupción<s n="n"/></r></p></e>
+<e><p><l>dilapidación<s n="n"/></l><r>dilapidación<s n="n"/></r></p></e>
+<e><p><l>denotación<s n="n"/></l><r>denotación<s n="n"/></r></p></e>
+<e><p><l>defraudación<s n="n"/></l><r>defraudación<s n="n"/></r></p></e>
+<e><p><l>coprecipitación<s n="n"/></l><r>coprecipitación<s n="n"/></r></p></e>
+<e><p><l>coparticipación<s n="n"/></l><r>coparticipación<s n="n"/></r></p></e>
+<e><p><l>colación<s n="n"/></l><r>colación<s n="n"/></r></p></e>
+<e><p><l>carbonatación<s n="n"/></l><r>carbonatación<s n="n"/></r></p></e>
+<e><p><l>volatilización<s n="n"/></l><r>volatilización<s n="n"/></r></p></e>
+<e><p><l>trisección<s n="n"/></l><r>trisección<s n="n"/></r></p></e>
+<e><p><l>torrefacción<s n="n"/></l><r>torrefacción<s n="n"/></r></p></e>
+<e><p><l>teledifusión<s n="n"/></l><r>teledifusión<s n="n"/></r></p></e>
+<e><p><l>tabulación<s n="n"/></l><r>tabulación<s n="n"/></r></p></e>
+<e><p><l>sobreexposición<s n="n"/></l><r>sobreexposición<s n="n"/></r></p></e>
+<e><p><l>reprensión<s n="n"/></l><r>reprensión<s n="n"/></r></p></e>
+<e><p><l>reconfiguración<s n="n"/></l><r>reconfiguración<s n="n"/></r></p></e>
+<e><p><l>recirculación<s n="n"/></l><r>recirculación<s n="n"/></r></p></e>
+<e><p><l>invalidación<s n="n"/></l><r>invalidación<s n="n"/></r></p></e>
+<e><p><l>intercalación<s n="n"/></l><r>intercalación<s n="n"/></r></p></e>
+<e><p><l>infibulación<s n="n"/></l><r>infibulación<s n="n"/></r></p></e>
+<e><p><l>indiscreción<s n="n"/></l><r>indiscreción<s n="n"/></r></p></e>
+<e><p><l>inmunización<s n="n"/></l><r>immunización<s n="n"/></r></p></e>
+<e><p><l>exfoliación<s n="n"/></l><r>exfoliación<s n="n"/></r></p></e>
+<e><p><l>digresión<s n="n"/></l><r>digresión<s n="n"/></r></p></e>
+<e><p><l>denigración<s n="n"/></l><r>denigración<s n="n"/></r></p></e>
+<e><p><l>capitación<s n="n"/></l><r>capitación<s n="n"/></r></p></e>
+<e><p><l>accesión<s n="n"/></l><r>accesión<s n="n"/></r></p></e>
+<e><p><l>abjuración<s n="n"/></l><r>abchuración<s n="n"/></r></p></e>
+<e><p><l>suplantación<s n="n"/></l><r>suplantación<s n="n"/></r></p></e>
+<e><p><l>sobreexcitación<s n="n"/></l><r>sobreexcitación<s n="n"/></r></p></e>
+<e><p><l>rubefacción<s n="n"/></l><r>rubefacción<s n="n"/></r></p></e>
+<e><p><l>protrusión<s n="n"/></l><r>protrusión<s n="n"/></r></p></e>
+<e><p><l>polvorización<s n="n"/></l><r>polvorización<s n="n"/></r></p></e>
+<e><p><l>liofilización<s n="n"/></l><r>liofilización<s n="n"/></r></p></e>
+<e><p><l>imprecación<s n="n"/></l><r>imprecación<s n="n"/></r></p></e>
+<e><p><l>expatriación<s n="n"/></l><r>expatriación<s n="n"/></r></p></e>
+<e><p><l>exhalación<s n="n"/></l><r>exhalación<s n="n"/></r></p></e>
+<e><p><l>exacción<s n="n"/></l><r>exacción<s n="n"/></r></p></e>
+<e><p><l>desorción<s n="n"/></l><r>desorción<s n="n"/></r></p></e>
+<e><p><l>desnitrificación<s n="n"/></l><r>desnitrificación<s n="n"/></r></p></e>
+<e><p><l>desmineralización<s n="n"/></l><r>desmineralización<s n="n"/></r></p></e>
+<e><p><l>corroboración<s n="n"/></l><r>corroboración<s n="n"/></r></p></e>
+<e><p><l>atestación<s n="n"/></l><r>atestación<s n="n"/></r></p></e>
+<e><p><l>aprehensión<s n="n"/></l><r>aprehensión<s n="n"/></r></p></e>
+<e><p><l>aposición<s n="n"/></l><r>aposición<s n="n"/></r></p></e>
+<e><p><l>aliteración<s n="n"/></l><r>aliteración<s n="n"/></r></p></e>
+<e><p><l>subocupación<s n="n"/></l><r>subocupación<s n="n"/></r></p></e>
+<e><p><l>sobresaturación<s n="n"/></l><r>sobresaturación<s n="n"/></r></p></e>
+<e><p><l>recensión<s n="n"/></l><r>recensión<s n="n"/></r></p></e>
+<e><p><l>radiocomunicación<s n="n"/></l><r>radiocomunicación<s n="n"/></r></p></e>
+<e><p><l>pluriocupación<s n="n"/></l><r>pluriocupación<s n="n"/></r></p></e>
+<e><p><l>osificación<s n="n"/></l><r>osificación<s n="n"/></r></p></e>
+<e><p><l>nitrificación<s n="n"/></l><r>nitrificación<s n="n"/></r></p></e>
+<e><p><l>microminiaturización<s n="n"/></l><r>microminiaturización<s n="n"/></r></p></e>
+<e><p><l>imbricación<s n="n"/></l><r>imbricación<s n="n"/></r></p></e>
+<e><p><l>iluviación<s n="n"/></l><r>iluviación<s n="n"/></r></p></e>
+<e><p><l>galvanización<s n="n"/></l><r>galvanización<s n="n"/></r></p></e>
+<e><p><l>exterminación<s n="n"/></l><r>exterminación<s n="n"/></r></p></e>
+<e><p><l>exudación<s n="n"/></l><r>exudación<s n="n"/></r></p></e>
+<e><p><l>exasperación<s n="n"/></l><r>exasperación<s n="n"/></r></p></e>
+<e><p><l>esterificación<s n="n"/></l><r>esterificación<s n="n"/></r></p></e>
+<e><p><l>estanflación<s n="n"/></l><r>estanflación<s n="n"/></r></p></e>
+<e><p><l>estabulación<s n="n"/></l><r>estabulación<s n="n"/></r></p></e>
+<e><p><l>disimulación<s n="n"/></l><r>disimulación<s n="n"/></r></p></e>
+<e><p><l>disquisición<s n="n"/></l><r>disquisición<s n="n"/></r></p></e>
+<e><p><l>despalatalización<s n="n"/></l><r>despalatalización<s n="n"/></r></p></e>
+<e><p><l>derrisión<s n="n"/></l><r>derrisión<s n="n"/></r></p></e>
+<e><p><l>dentalización<s n="n"/></l><r>dentalización<s n="n"/></r></p></e>
+<e><p><l>coedición<s n="n"/></l><r>coedición<s n="n"/></r></p></e>
+<e><p><l>biodegradación<s n="n"/></l><r>biodegradación<s n="n"/></r></p></e>
+<e><p><l>bioacumulación<s n="n"/></l><r>bioacumulación<s n="n"/></r></p></e>
+<e><p><l>balcanización<s n="n"/></l><r>balcanización<s n="n"/></r></p></e>
+<e><p><l>auscultación<s n="n"/></l><r>auscultación<s n="n"/></r></p></e>
+<e><p><l>amalgamación<s n="n"/></l><r>amalgamación<s n="n"/></r></p></e>
+<e><p><l>aleatorización<s n="n"/></l><r>aleatorización<s n="n"/></r></p></e>
+<e><p><l>aglutinación<s n="n"/></l><r>aglutinación<s n="n"/></r></p></e>
+<e><p><l>adjetivación<s n="n"/></l><r>adchectivación<s n="n"/></r></p></e>
+<e><p><l>abrogación<s n="n"/></l><r>abrogación<s n="n"/></r></p></e>
+<e><p><l>abominación<s n="n"/></l><r>abominación<s n="n"/></r></p></e>
+<e><p><l>zonación<s n="n"/></l><r>zonación<s n="n"/></r></p></e>
+<e><p><l>vivisección<s n="n"/></l><r>vivisección<s n="n"/></r></p></e>
+<e><p><l>sinterización<s n="n"/></l><r>sinterización<s n="n"/></r></p></e>
+<e><p><l>rutinización<s n="n"/></l><r>rutinización<s n="n"/></r></p></e>
+<e><p><l>reprogramación<s n="n"/></l><r>reprogramación<s n="n"/></r></p></e>
+<e><p><l>radicación<s n="n"/></l><r>radicación<s n="n"/></r></p></e>
+<e><p><l>pronominalización<s n="n"/></l><r>pronominalización<s n="n"/></r></p></e>
+<e><p><l>plastificación<s n="n"/></l><r>plastificación<s n="n"/></r></p></e>
+<e><p><l>percolación<s n="n"/></l><r>percolación<s n="n"/></r></p></e>
+<e><p><l>pasivación<s n="n"/></l><r>pasivación<s n="n"/></r></p></e>
+<e><p><l>objetivación<s n="n"/></l><r>obchectivación<s n="n"/></r></p></e>
+<e><p><l>microinyección<s n="n"/></l><r>microinchección<s n="n"/></r></p></e>
+<e><p><l>intubación<s n="n"/></l><r>intubación<s n="n"/></r></p></e>
+<e><p><l>imantación<s n="n"/></l><r>imantación<s n="n"/></r></p></e>
+<e><p><l>ideación<s n="n"/></l><r>ideyación<s n="n"/></r></p></e>
+<e><p><l>humificación<s n="n"/></l><r>humificación<s n="n"/></r></p></e>
+<e><p><l>humidificación<s n="n"/></l><r>humidificación<s n="n"/></r></p></e>
+<e><p><l>glotalización<s n="n"/></l><r>glotalización<s n="n"/></r></p></e>
+<e><p><l>gelificación<s n="n"/></l><r>chelificación<s n="n"/></r></p></e>
+<e><p><l>fluoración<s n="n"/></l><r>fluoración<s n="n"/></r></p></e>
+<e><p><l>fibrilación<s n="n"/></l><r>fibrilación<s n="n"/></r></p></e>
+<e><p><l>ejemplificación<s n="n"/></l><r>eixemplificación<s n="n"/></r></p></e>
+<e><p><l>eutrofización<s n="n"/></l><r>eutrofización<s n="n"/></r></p></e>
+<e><p><l>estipulación<s n="n"/></l><r>estipulación<s n="n"/></r></p></e>
+<e><p><l>espiritualización<s n="n"/></l><r>espiritualización<s n="n"/></r></p></e>
+<e><p><l>escarificación<s n="n"/></l><r>escarificación<s n="n"/></r></p></e>
+<e><p><l>enunciación<s n="n"/></l><r>enunciación<s n="n"/></r></p></e>
+<e><p><l>electroerosión<s n="n"/></l><r>electroerosión<s n="n"/></r></p></e>
+<e><p><l>desulfuración<s n="n"/></l><r>desulfuración<s n="n"/></r></p></e>
+<e><p><l>desionización<s n="n"/></l><r>desionización<s n="n"/></r></p></e>
+<e><p><l>descalcificación<s n="n"/></l><r>descalcificación<s n="n"/></r></p></e>
+<e><p><l>circunspección<s n="n"/></l><r>circumspección<s n="n"/></r></p></e>
+<e><p><l>cementación<s n="n"/></l><r>cementación<s n="n"/></r></p></e>
+<e><p><l>cauterización<s n="n"/></l><r>cauterización<s n="n"/></r></p></e>
+<e><p><l>bisección<s n="n"/></l><r>bisección<s n="n"/></r></p></e>
+<e><p><l>aserción<s n="n"/></l><r>aserción<s n="n"/></r></p></e>
+<e><p><l>afijación<s n="n"/></l><r>afixación<s n="n"/></r></p></e>
+<e><p><l>acidificación<s n="n"/></l><r>acidificación<s n="n"/></r></p></e>
+<e><p><l>autenticación<s n="n"/></l><r>autenticación<s n="n"/></r></p></e>
+<e><p><l>acotación<s n="n"/></l><r>acotación<s n="n"/></r></p></e>
+<e><p><l>admonición<s n="n"/></l><r>admonición<s n="n"/></r></p></e>
+<e><p><l>agravación<s n="n"/></l><r>agravación<s n="n"/></r></p></e>
+<e><p><l>anihilación<s n="n"/></l><r>anihilación<s n="n"/></r></p></e>
+<e><p><l>anteposición<s n="n"/></l><r>anteposición<s n="n"/></r></p></e>
+<e><p><l>apostrofación<s n="n"/></l><r>apostrofación<s n="n"/></r></p></e>
+<e><p><l>autocreación<s n="n"/></l><r>autocreyación<s n="n"/></r></p></e>
+<e><p><l>autoevaluación<s n="n"/></l><r>autoavaluación<s n="n"/></r></p></e>
+<e><p><l>autoformación<s n="n"/></l><r>autoformación<s n="n"/></r></p></e>
+<e><p><l>autoinculpación<s n="n"/></l><r>autoinculpación<s n="n"/></r></p></e>
+<e><p><l>autoinducción<s n="n"/></l><r>autoinducción<s n="n"/></r></p></e>
+<e><p><l>autolesión<s n="n"/></l><r>autolesión<s n="n"/></r></p></e>
+<e><p><l>autoproclamación<s n="n"/></l><r>autoproclamación<s n="n"/></r></p></e>
+<e><p><l>autorreflexión<s n="n"/></l><r>autorreflexión<s n="n"/></r></p></e>
+<e><p><l>autosatisfacción<s n="n"/></l><r>autosatisfacción<s n="n"/></r></p></e>
+<e><p><l>banalización<s n="n"/></l><r>banalización<s n="n"/></r></p></e>
+<e><p><l>biyección<s n="n"/></l><r>bichección<s n="n"/></r></p></e>
+<e><p><l>calibración<s n="n"/></l><r>calibración<s n="n"/></r></p></e>
+<e><p><l>cautivación<s n="n"/></l><r>cautivación<s n="n"/></r></p></e>
+<e><p><l>cavilación<s n="n"/></l><r>cavilación<s n="n"/></r></p></e>
+<e><p><l>cavitación<s n="n"/></l><r>cavitación<s n="n"/></r></p></e>
+<e><p><l>cesación<s n="n"/></l><r>cesación<s n="n"/></r></p></e>
+<e><p><l>clarificación<s n="n"/></l><r>clarificación<s n="n"/></r></p></e>
+<e><p><l>coarción<s n="n"/></l><r>coarción<s n="n"/></r></p></e>
+<e><p><l>cohibición<s n="n"/></l><r>cohibición<s n="n"/></r></p></e>
+<e><p><l>colusión<s n="n"/></l><r>colusión<s n="n"/></r></p></e>
+<e><p><l>comarcalización<s n="n"/></l><r>comarcalización<s n="n"/></r></p></e>
+<e><p><l>compaginación<s n="n"/></l><r>compachinación<s n="n"/></r></p></e>
+<e><p><l>compartición<s n="n"/></l><r>compartición<s n="n"/></r></p></e>
+<e><p><l>compulsión<s n="n"/></l><r>compulsión<s n="n"/></r></p></e>
+<e><p><l>concisión<s n="n"/></l><r>concisión<s n="n"/></r></p></e>
+<e><p><l>concusión<s n="n"/></l><r>concusión<s n="n"/></r></p></e>
+<e><p><l>confabulación<s n="n"/></l><r>confabulación<s n="n"/></r></p></e>
+<e><p><l>consumación<s n="n"/></l><r>consumación<s n="n"/></r></p></e>
+<e><p><l>contextualización<s n="n"/></l><r>contextualización<s n="n"/></r></p></e>
+<e><p><l>contorsión<s n="n"/></l><r>contorsión<s n="n"/></r></p></e>
+<e><p><l>dación<s n="n"/></l><r>dación<s n="n"/></r></p></e>
+<e><p><l>debilitación<s n="n"/></l><r>debilitación<s n="n"/></r></p></e>
+<e><p><l>deposición<s n="n"/></l><r>deposición<s n="n"/></r></p></e>
+<e><p><l>desafectación<s n="n"/></l><r>desafectación<s n="n"/></r></p></e>
+<e><p><l>desambiguación<s n="n"/></l><r>desambiguación<s n="n"/></r></p></e>
+<e><p><l>descompensación<s n="n"/></l><r>descompensación<s n="n"/></r></p></e>
+<e><p><l>deshabituación<s n="n"/></l><r>deshabituación<s n="n"/></r></p></e>
+<e><p><l>desinhibición<s n="n"/></l><r>desinhibición<s n="n"/></r></p></e>
+<e><p><l>desincronización<s n="n"/></l><r>desincronización<s n="n"/></r></p></e>
+<e><p><l>desregularización<s n="n"/></l><r>desregularización<s n="n"/></r></p></e>
+<e><p><l>detracción<s n="n"/></l><r>detracción<s n="n"/></r></p></e>
+<e><p><l>dispensación<s n="n"/></l><r>dispensación<s n="n"/></r></p></e>
+<e><p><l>divagación<s n="n"/></l><r>divagación<s n="n"/></r></p></e>
+<e><p><l>efusión<s n="n"/></l><r>efusión<s n="n"/></r></p></e>
+<e><p><l>emersión<s n="n"/></l><r>emersión<s n="n"/></r></p></e>
+<e><p><l>erudición<s n="n"/></l><r>erudición<s n="n"/></r></p></e>
+<e><p><l>estricción<s n="n"/></l><r>estricción<s n="n"/></r></p></e>
+<e><p><l>estupefacción<s n="n"/></l><r>estupefacción<s n="n"/></r></p></e>
+<e><p><l>europeización<s n="n"/></l><r>europeización<s n="n"/></r></p></e>
+<e><p><l>excusión<s n="n"/></l><r>excusión<s n="n"/></r></p></e>
+<e><p><l>exoneración<s n="n"/></l><r>exoneración<s n="n"/></r></p></e>
+<e><p><l>expoliación<s n="n"/></l><r>expoliación<s n="n"/></r></p></e>
+<e><p><l>eyección<s n="n"/></l><r>echección<s n="n"/></r></p></e>
+<e><p><l>felación<s n="n"/></l><r>felación<s n="n"/></r></p></e>
+<e><p><l>flexión<s n="n"/></l><r>flexión<s n="n"/></r></p></e>
+<e><p><l>focalización<s n="n"/></l><r>focalización<s n="n"/></r></p></e>
+<e><p><l>foliación<s n="n"/></l><r>foliación<s n="n"/></r></p></e>
+<e><p><l>fonologización<s n="n"/></l><r>fonolochización<s n="n"/></r></p></e>
+<e><p><l>desfonologización<s n="n"/></l><r>desfonolochización<s n="n"/></r></p></e>
+<e><p><l>forestación<s n="n"/></l><r>forestación<s n="n"/></r></p></e>
+<e><p><l>formatación<s n="n"/></l><r>formatación<s n="n"/></r></p></e>
+<e><p><l>fruición<s n="n"/></l><r>fruición<s n="n"/></r></p></e>
+<e><p><l>fundamentación<s n="n"/></l><r>fundamentación<s n="n"/></r></p></e>
+<e><p><l>genuflexión<s n="n"/></l><r>chenuflexión<s n="n"/></r></p></e>
+<e><p><l>georeferenciación<s n="n"/></l><r>cheoreferenciación<s n="n"/></r></p></e>
+<e><p><l>humanización<s n="n"/></l><r>humanización<s n="n"/></r></p></e>
+<e><p><l>impregnación<s n="n"/></l><r>impregnación<s n="n"/></r></p></e>
+<e><p><l>impulsión<s n="n"/></l><r>impulsión<s n="n"/></r></p></e>
+<e><p><l>inadecuación<s n="n"/></l><r>inadequación<s n="n"/></r></p></e>
+<e><p><l>incoacción<s n="n"/></l><r>incoacción<s n="n"/></r></p></e>
+<e><p><l>incrustación<s n="n"/></l><r>incrustación<s n="n"/></r></p></e>
+<e><p><l>indeterminación<s n="n"/></l><r>indeterminación<s n="n"/></r></p></e>
+<e><p><l>inhumación<s n="n"/></l><r>inhumación<s n="n"/></r></p></e>
+<e><p><l>inmatriculación<s n="n"/></l><r>immatriculación<s n="n"/></r></p></e>
+<e><p><l>preinstalación<s n="n"/></l><r>preinstalación<s n="n"/></r></p></e>
+<e><p><l>insumisión<s n="n"/></l><r>insumisión<s n="n"/></r></p></e>
+<e><p><l>intercesión<s n="n"/></l><r>intercesión<s n="n"/></r></p></e>
+<e><p><l>intermodulación<s n="n"/></l><r>intermodulación<s n="n"/></r></p></e>
+<e><p><l>intimación<s n="n"/></l><r>intimación<s n="n"/></r></p></e>
+<e><p><l>seriación<s n="n"/></l><r>seriación<s n="n"/></r></p></e>
+<e><p><l>solubilización<s n="n"/></l><r>solubilización<s n="n"/></r></p></e>
+<e><p><l>inutilización<s n="n"/></l><r>inutilización<s n="n"/></r></p></e>
+<e><p><l>irrigación<s n="n"/></l><r>irrigación<s n="n"/></r></p></e>
+<e><p><l>irrogación<s n="n"/></l><r>irrogación<s n="n"/></r></p></e>
+<e><p><l>iteración<s n="n"/></l><r>iteración<s n="n"/></r></p></e>
+<e><p><l>licuación<s n="n"/></l><r>liquación<s n="n"/></r></p></e>
+<e><p><l>litigación<s n="n"/></l><r>litigación<s n="n"/></r></p></e>
+<e><p><l>lubrificación<s n="n"/></l><r>lubrificación<s n="n"/></r></p></e>
+<e><p><l>lustración<s n="n"/></l><r>lustración<s n="n"/></r></p></e>
+<e><p><l>mediatización<s n="n"/></l><r>mediatización<s n="n"/></r></p></e>
+<e><p><l>metaficción<s n="n"/></l><r>metaficción<s n="n"/></r></p></e>
+<e><p><l>meteorización<s n="n"/></l><r>meteorización<s n="n"/></r></p></e>
+<e><p><l>micción<s n="n"/></l><r>micción<s n="n"/></r></p></e>
+<e><p><l>microedición<s n="n"/></l><r>microedición<s n="n"/></r></p></e>
+<e><p><l>minoración<s n="n"/></l><r>minoración<s n="n"/></r></p></e>
+<e><p><l>minorización<s n="n"/></l><r>minorización<s n="n"/></r></p></e>
+<e><p><l>monopolización<s n="n"/></l><r>monopolización<s n="n"/></r></p></e>
+<e><p><l>moralización<s n="n"/></l><r>moralización<s n="n"/></r></p></e>
+<e><p><l>mundialización<s n="n"/></l><r>mundialización<s n="n"/></r></p></e>
+<e><p><l>nerviación<s n="n"/></l><r>nerviación<s n="n"/></r></p></e>
+<e><p><l>novación<s n="n"/></l><r>novación<s n="n"/></r></p></e>
+<e><p><l>obturación<s n="n"/></l><r>obturación<s n="n"/></r></p></e>
+<e><p><l>ofuscación<s n="n"/></l><r>ofuscación<s n="n"/></r></p></e>
+<e><p><l>palpitación<s n="n"/></l><r>palpitación<s n="n"/></r></p></e>
+<e><p><l>planificiación<s n="n"/></l><r>planificiación<s n="n"/></r></p></e>
+<e><p><l>positivización<s n="n"/></l><r>positivización<s n="n"/></r></p></e>
+<e><p><l>posposición<s n="n"/></l><r>postposición<s n="n"/></r></p></e>
+<e><p><l>postedición<s n="n"/></l><r>postedición<s n="n"/></r></p></e>
+<e><p><l>postgeneración<s n="n"/></l><r>postcheneración<s n="n"/></r></p></e>
+<e><p><l>precondición<s n="n"/></l><r>precondición<s n="n"/></r></p></e>
+<e><p><l>predeterminación<s n="n"/></l><r>predeterminación<s n="n"/></r></p></e>
+<e><p><l>preedición<s n="n"/></l><r>preedición<s n="n"/></r></p></e>
+<e><p><l>prefiguración<s n="n"/></l><r>prefiguración<s n="n"/></r></p></e>
+<e><p><l>prefijación<s n="n"/></l><r>prefixación<s n="n"/></r></p></e>
+<e><p><l>presuposición<s n="n"/></l><r>presuposición<s n="n"/></r></p></e>
+<e><p><l>previsualización<s n="n"/></l><r>previsualización<s n="n"/></r></p></e>
+<e><p><l>pulsión<s n="n"/></l><r>pulsión<s n="n"/></r></p></e>
+<e><p><l>reavivación<s n="n"/></l><r>reavivación<s n="n"/></r></p></e>
+<e><p><l>recomposición<s n="n"/></l><r>recomposición<s n="n"/></r></p></e>
+<e><p><l>redirección<s n="n"/></l><r>redirección<s n="n"/></r></p></e>
+<e><p><l>reexportación<s n="n"/></l><r>reexportación<s n="n"/></r></p></e>
+<e><p><l>refinación<s n="n"/></l><r>refinación<s n="n"/></r></p></e>
+<e><p><l>reinstalación<s n="n"/></l><r>reinstalación<s n="n"/></r></p></e>
+<e><p><l>retasación<s n="n"/></l><r>retaxación<s n="n"/></r></p></e>
+<e><p><l>retorsión<s n="n"/></l><r>retorsión<s n="n"/></r></p></e>
+<e><p><l>retroalimentación<s n="n"/></l><r>retroalimentación<s n="n"/></r></p></e>
+<e><p><l>revaluación<s n="n"/></l><r>revaluación<s n="n"/></r></p></e>
+<e><p><l>sedimentación<s n="n"/></l><r>sedimentación<s n="n"/></r></p></e>
+<e><p><l>segmentación<s n="n"/></l><r>segmentación<s n="n"/></r></p></e>
+<e><p><l>sindicación<s n="n"/></l><r>sindicación<s n="n"/></r></p></e>
+<e><p><l>sobrecalificación<s n="n"/></l><r>sobrecalificación<s n="n"/></r></p></e>
+<e><p><l>solicitación<s n="n"/></l><r>solicitación<s n="n"/></r></p></e>
+<e><p><l>sonorización<s n="n"/></l><r>sonorización<s n="n"/></r></p></e>
+<e><p><l>subestimación<s n="n"/></l><r>subestimación<s n="n"/></r></p></e>
+<e><p><l>subgobernación<s n="n"/></l><r>subgobernación<s n="n"/></r></p></e>
+<e><p><l>tarifación<s n="n"/></l><r>tarifación<s n="n"/></r></p></e>
+<e><p><l>teleoperación<s n="n"/></l><r>teleoperación<s n="n"/></r></p></e>
+<e><p><l>tematización<s n="n"/></l><r>tematización<s n="n"/></r></p></e>
+<e><p><l>temporalización<s n="n"/></l><r>temporalización<s n="n"/></r></p></e>
+<e><p><l>temporización<s n="n"/></l><r>temporización<s n="n"/></r></p></e>
+<e><p><l>teorización<s n="n"/></l><r>teorización<s n="n"/></r></p></e>
+<e><p><l>transfección<s n="n"/></l><r>transfección<s n="n"/></r></p></e>
+<e><p><l>transliteración<s n="n"/></l><r>transliteración<s n="n"/></r></p></e>
+<e><p><l>trasposición<s n="n"/></l><r>transposición<s n="n"/></r></p></e>
+<e><p><l>triplicación<s n="n"/></l><r>triplicación<s n="n"/></r></p></e>
+<e><p><l>turbación<s n="n"/></l><r>turbación<s n="n"/></r></p></e>
+<e><p><l>uniformización<s n="n"/></l><r>uniformización<s n="n"/></r></p></e>
+<e><p><l>vehiculación<s n="n"/></l><r>vehiculación<s n="n"/></r></p></e>
+<e><p><l>videograbación<s n="n"/></l><r>videograbación<s n="n"/></r></p></e>
+<e><p><l>amortiguación<s n="n"/><s n="f"/></l><r>amortimiento<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>okupación<s n="n"/></l><r>okupación<s n="n"/></r></p></e>
+<e><p><l>bipolarización<s n="n"/></l><r>bipolarización<s n="n"/></r></p></e>
+<e><p><l>dilucidación<s n="n"/></l><r>dilucidación<s n="n"/></r></p></e>
+<e><p><l>desfibrilación<s n="n"/></l><r>desfibrilación<s n="n"/></r></p></e>
+<e><p><l>autocontención<s n="n"/></l><r>autocontención<s n="n"/></r></p></e>
+<e><p><l>autocategorización<s n="n"/></l><r>autocategorización<s n="n"/></r></p></e>
+<e><p><l>diagonalización<s n="n"/></l><r>diagonalización<s n="n"/></r></p></e>
+<e><p><l>anonimización<s n="n"/></l><r>anonimización<s n="n"/></r></p></e>
+<e><p><l>automotivación<s n="n"/></l><r>automotivación<s n="n"/></r></p></e>
+<e><p><l>dramatización<s n="n"/></l><r>dramatización<s n="n"/></r></p></e>
+<e><p><l>ensoñación<s n="n"/></l><r>ensonyación<s n="n"/></r></p></e>
+<e><p><l>periodización<s n="n"/></l><r>periodización<s n="n"/></r></p></e>
+<e><p><l>rememoración<s n="n"/></l><r>rememoración<s n="n"/></r></p></e>
+
+    
+    
+    
+    
     
     <e><p><l>prado<s n="n"/></l><r>prau<s n="n"/></r></p></e>
     <e r="RL"><p><l>cama<s n="n"/></l><r>cama<s n="n"/></r></p></e>
@@ -11544,6 +12836,7 @@
     <e r="RL"><p><l>alrededores<s n="n"/><s n="m"/><s n="pl"/></l><r>arredol<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>alrededores<s n="n"/><s n="m"/><s n="pl"/></l><r>arredol<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>tipo<s n="n"/></l><r>tipo<s n="n"/></r></p></e>
+    <e><p><l>estereotipo<s n="n"/></l><r>estereotipo<s n="n"/></r></p></e>
     <e><p><l>valle<s n="n"/><s n="m"/></l><r>val<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>castillo<s n="n"/></l><r>castiello<s n="n"/></r></p></e>
     <e><p><l>fonema<s n="n"/></l><r>fonema<s n="n"/></r></p></e>
@@ -11637,6 +12930,7 @@
     <e><p><l>preposición<s n="n"/></l><r>preposición<s n="n"/></r></p></e>
     <e><p><l>variedad<s n="n"/></l><r>variedat<s n="n"/></r></p></e>
     <e><p><l>principio<s n="n"/></l><r>prencipio<s n="n"/></r></p></e>
+    <e><p><l>inicio<s n="n"/></l><r>inicio<s n="n"/></r></p></e>
     <e><p><l>latinismo<s n="n"/></l><r>latinismo<s n="n"/></r></p></e>
     <e><p><l>conjunción<s n="n"/></l><r>conchunción<s n="n"/></r></p></e>
     <e><p><l>propuesta<s n="n"/></l><r>propuesta<s n="n"/></r></p></e>
@@ -11969,6 +13263,8 @@
     <e><p><l>caballo<s n="n"/></l><r>caballo<s n="n"/></r></p></e>
     <e><p><l>cuello<s n="n"/></l><r>cuello<s n="n"/></r></p></e>
     <e><p><l>estilo<s n="n"/></l><r>estilo<s n="n"/></r></p></e>
+    <e><p><l>presupuesto<s n="n"/></l><r>presupuesto<s n="n"/></r></p></e>
+    <e r="LR"><p><l>presupuestación<s n="n"/><s n="f"/></l><r>presupuesto<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>abuelo<s n="n"/></l><r>güelo<s n="n"/></r></p></e>
     <e><p><l>yayo<s n="n"/></l><r>yayo<s n="n"/></r></p></e>
     <e r="RL"><p><l>yayo<s n="n"/></l><r>lolo<s n="n"/></r></p></e>
@@ -12115,7 +13411,6 @@
     <e r="LR"> <p><l>nunca<b/>jamás<s n="adv"/></l>    <r>nunca<s n="adv"/></r></p></e>
     <e>       <p><l>justo<s n="adv"/></l>             <r>chusto<s n="adv"/></r></p></e>
     <e><p><l>apenas<s n="adv"/></l>            <r>tasament<s n="adv"/></r></p></e>
-
     <e><p><l>admiración<s n="n"/></l><r>admiración<s n="n"/></r></p></e>
     <e><p><l>adquisición<s n="n"/></l><r>adquisición<s n="n"/></r></p></e>
     <e><p><l>liberación<s n="n"/></l><r>liberación<s n="n"/></r></p></e>
@@ -12140,6 +13435,8 @@
     <e><p><l>convicción<s n="n"/></l><r>convicción<s n="n"/></r></p></e>
     <e><p><l>corrección<s n="n"/></l><r>corrección<s n="n"/></r></p></e>
     <e><p><l>corrupción<s n="n"/></l><r>corrupción<s n="n"/></r></p></e>
+    <e><p><l>anticorrupción<s n="adj"/></l><r>anticorrupción<s n="adj"/></r></p></e>
+    <e><p><l>multifunción<s n="adj"/></l><r>multifunción<s n="adj"/></r></p></e>
     <e><p><l>decepción<s n="n"/></l><r>decepción<s n="n"/></r></p></e>
     <e><p><l>deducción<s n="n"/></l><r>deducción<s n="n"/></r></p></e>
     <e><p><l>definición<s n="n"/></l><r>definición<s n="n"/></r></p></e>
@@ -12272,6 +13569,8 @@
     <e><p><l>disminución<s n="n"/></l><r>disminución<s n="n"/></r></p></e>
     <e><p><l>explotación<s n="n"/></l><r>explotación<s n="n"/></r></p></e>
     <e><p><l>guarnición<s n="n"/><s n="f"/></l><r>guarnimiento<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>desheredamiento<s n="n"/></l><r>desheredamiento<s n="n"/></r></p></e>
+    <e r="LR"><p><l>desheredación<s n="n"/><s n="f"/></l><r>desheredamiento<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>humillación<s n="n"/></l><r>rebaixada<s n="n"/></r></p></e>
     <e><p><l>inyección<s n="n"/></l><r>inchección<s n="n"/></r></p></e>
     <e><p><l>lección<s n="n"/></l><r>lición<s n="n"/></r></p></e>
@@ -12302,6 +13601,9 @@
     <e><p><l>calentamiento<s n="n"/></l><r>calentamiento<s n="n"/></r></p></e>
     <e><p><l>estacionamiento<s n="n"/></l><r>estacionamiento<s n="n"/></r></p></e>
     <e><p><l>cimiento<s n="n"/></l><r>alazet<s n="n"/></r></p></e>
+    <e><p><l>paquete<s n="n"/></l><r>paquet<s n="n"/></r></p></e>
+    <e><p><l>anexo<s n="n"/></l><r>anexo<s n="n"/></r></p></e>
+    <e><p><l>atributo<s n="n"/></l><r>atributo<s n="n"/></r></p></e>
     <e><p><l>yacimiento<s n="n"/></l><r>chacimiento<s n="n"/></r></p></e>
     <e><p><l>lanzamiento<s n="n"/></l><r>llanzamiento<s n="n"/></r></p></e>
     <e><p><l>miramiento<s n="n"/></l><r>miramiento<s n="n"/></r></p></e>
@@ -12317,6 +13619,8 @@
     <e><p><l>sostenimiento<s n="n"/></l><r>sostenimiento<s n="n"/></r></p></e>
     <e><p><l>tratamiento<s n="n"/></l><r>tractamiento<s n="n"/></r></p></e>
     <e><p><l>descubrimiento<s n="n"/></l><r>escubrimiento<s n="n"/></r></p></e>
+    <e><p><l>encubrimiento<s n="n"/></l><r>encubrimiento<s n="n"/></r></p></e>
+    <e r="LR"><p><l>receptación<s n="n"/><s n="f"/></l><r>encubrimiento<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>tartajeo<s n="n"/></l><r>farfallamiento<s n="n"/></r></p></e>
     <e><p><l>derrumbamiento<s n="n"/></l><r>esboldregue<s n="n"/></r></p></e>
     <e><p><l>hundimiento<s n="n"/></l><r>fundimiento<s n="n"/></r></p></e>
@@ -12820,6 +14124,8 @@
 <e><p><l>neurofisiología<s n="n"/></l><r>neurofisiolochía<s n="n"/></r></p></e>
 <e><p><l>parasitología<s n="n"/></l><r>parasitolochía<s n="n"/></r></p></e>
 
+<e><p><l>Escuelas<b/>Pías<s n="n"/></l>            <r>Escuelas<b/>Pías<s n="n"/></r></p></e>
+
     <e><p><l>auricular<s n="n"/></l><r>auricular<s n="n"/></r></p></e>
     <e><p><l>billar<s n="n"/></l><r>billar<s n="n"/></r></p></e>
     <e><p><l>calamar<s n="n"/></l><r>calamar<s n="n"/></r></p></e>
@@ -13025,6 +14331,8 @@
     <e><p><l>indicador<s n="adj"/></l><r>indicador<s n="adj"/></r></p></e>
     <e><p><l>menospreciador<s n="adj"/></l><r>menospreciador<s n="adj"/></r></p></e>
     <e><p><l>ordenador<s n="n"/></l><r>ordinador<s n="n"/></r></p></e>
+    <e r="LR"><p><l>computador<s n="n"/></l><r>ordinador<s n="n"/></r></p></e>
+    <e><p><l>computador<s n="adj"/></l><r>computador<s n="adj"/></r></p></e>
     <e><p><l>predicador<s n="n"/></l><r>pedricador<s n="n"/></r></p></e>
     <e><p><l>rallador<s n="n"/></l><r>rallador<s n="n"/></r></p></e>
     <e><p><l>timbre<s n="n"/></l><r>trucador<s n="n"/></r></p></e>
@@ -13038,6 +14346,49 @@
     <e><p><l>índice<s n="n"/></l><r>indiz<s n="n"/></r></p></e>
     <e><p><l>cabecera<s n="n"/></l><r>cabecera<s n="n"/></r></p></e>
     <e><p><l>alias<s n="n"/></l><r>alias<s n="n"/></r></p></e>
+    <e><p><l>software<s n="n"/></l><r>software<s n="n"/></r></p></e>
+    <e><p><l>hardware<s n="n"/></l><r>hardware<s n="n"/></r></p></e>
+    <e><p><l>fax<s n="n"/></l><r>fax<s n="n"/></r></p></e>
+    <e><p><l>bus<s n="n"/></l><r>bus<s n="n"/></r></p></e>
+    <e><p><l>módem<s n="n"/></l><r>modem<s n="n"/></r></p></e>
+    <e r="LR"><p><l>modem<s n="n"/></l><r>modem<s n="n"/></r></p></e>
+    <e><p><l>bit<s n="n"/></l><r>bit<s n="n"/></r></p></e>
+    <e><p><l>megabit<s n="n"/></l><r>megabit<s n="n"/></r></p></e>
+    <e><p><l>byte<s n="n"/></l><r>byte<s n="n"/></r></p></e>
+    <e><p><l>kilobyte<s n="n"/></l><r>kilobyte<s n="n"/></r></p></e>
+    <e><p><l>megabyte<s n="n"/></l><r>megabyte<s n="n"/></r></p></e>
+    <e><p><l>gigabyte<s n="n"/></l><r>chigabyte<s n="n"/></r></p></e>
+    <e><p><l>píxel<s n="n"/></l><r>pixel<s n="n"/></r></p></e>
+    <e r="LR"><p><l>pixel<s n="n"/></l><r>pixel<s n="n"/></r></p></e>
+    <e><p><l>residente<s n="n"/></l><r>resident<s n="n"/></r></p></e>
+    <e><p><l>residente<s n="adj"/></l><r>resident<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>fabricante<s n="n"/><s n="mf"/></l><r>fabricant<s n="n"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>fabricante<s n="n"/><s n="mf"/></l><r>fabricant<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>fabricante<s n="n"/><s n="mf"/></l><r>fabricant<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>fabricante<s n="adj"/></l><r>fabricant<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>vigilante<s n="n"/><s n="mf"/></l><r>vichilant<s n="n"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>vigilante<s n="n"/><s n="mf"/></l><r>vichilant<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>vigilante<s n="n"/><s n="mf"/></l><r>vichilant<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>descendente<s n="adj"/></l><r>descendent<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>descendiente<s n="adj"/></l><r>descendent<s n="adj"/></r></p></e>
+    <e><p><l>ascendente<s n="adj"/></l><r>ascendent<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>ascendiente<s n="adj"/></l><r>ascendent<s n="adj"/></r></p></e>
+    <e><p><l>coeficiente<s n="n"/></l><r>coeficient<s n="n"/></r></p></e>
+    <e><p><l>gravedad<s n="n"/></l><r>gravedat<s n="n"/></r></p></e>
+    <e><p><l>microgravedad<s n="n"/></l><r>microgravedat<s n="n"/></r></p></e>
+    <e><p><l>opacidad<s n="n"/></l><r>opacidat<s n="n"/></r></p></e>
+    
+    
+    <e><p><l>montaje<s n="n"/></l><r>montache<s n="n"/></r></p></e>
+    <e><p><l>desmontaje<s n="n"/></l><r>desmontache<s n="n"/></r></p></e>
+    <e><p><l>duplicar<s n="vblex"/></l><r>duplicar<s n="vblex"/></r></p></e>
+    <e><p><l>replicar<s n="vblex"/></l><r>replicar<s n="vblex"/></r></p></e>
+    <e><p><l>implicar<s n="vblex"/></l><r>implicar<s n="vblex"/></r></p></e>
+    <e><p><l>quintuplicar<s n="vblex"/></l><r>quintuplicar<s n="vblex"/></r></p></e>
+    <e><p><l>triplicar<s n="vblex"/></l><r>triplicar<s n="vblex"/></r></p></e>
+    <e><p><l>interconectar<s n="vblex"/></l><r>interconnectar<s n="vblex"/></r></p></e>
+    <e><p><l>desconectar<s n="vblex"/></l><r>desconnectar<s n="vblex"/></r></p></e>
+  
     
 <e><p><l>abstinencia<s n="n"/></l><r>abstinencia<s n="n"/></r></p></e>
 <e><p><l>afluencia<s n="n"/></l><r>afluencia<s n="n"/></r></p></e>
@@ -13288,6 +14639,20 @@
     <e><p><l>opresor<s n="adj"/></l><r>opresor<s n="adj"/></r></p></e>
     <e><p><l>profesor<s n="n"/></l><r>profesor<s n="n"/></r></p></e>
     <e><p><l>retrovisor<s n="n"/></l><r>retrovisor<s n="n"/></r></p></e>
+    <e><p><l>visor<s n="n"/></l><r>visor<s n="n"/></r></p></e>
+    <e><p><l>descriptor<s n="n"/></l><r>descriptor<s n="n"/></r></p></e>
+    <e><p><l>modificador<s n="adj"/></l><r>modificador<s n="adj"/></r></p></e>
+    <e><p><l>temporizador<s n="n"/></l><r>temporizador<s n="n"/></r></p></e>
+    <e><p><l>tabulador<s n="n"/></l><r>tabulador<s n="n"/></r></p></e>
+    <e><p><l>procesador<s n="n"/></l><r>procesador<s n="n"/></r></p></e>
+    <e><p><l>procesador<s n="adj"/></l><r>procesador<s n="adj"/></r></p></e>
+    <e><p><l>multiprocesador<s n="n"/></l><r>multiprocesador<s n="n"/></r></p></e>
+    <e><p><l>microprocesador<s n="n"/></l><r>microprocesador<s n="n"/></r></p></e>
+    <e><p><l>coprocesador<s n="n"/></l><r>coprocesador<s n="n"/></r></p></e>
+    <e><p><l>selector<s n="n"/></l><r>selector<s n="n"/></r></p></e>
+    <e srl="deslizador"><p><l>deslizador<s n="n"/></l><r>eslizador<s n="n"/></r></p></e>
+    <e srl="tobogan D"><p><l>tobogán<s n="n"/></l><r>eslizador<s n="n"/></r></p></e>
+    
     <e><p><l>revisor<s n="n"/></l><r>revisor<s n="n"/></r></p></e>
     <e><p><l>televisor<s n="n"/></l><r>televisor<s n="n"/></r></p></e>
     <e><p><l>agricultor<s n="n"/></l><r>agricultor<s n="n"/></r></p></e>
@@ -13317,6 +14682,8 @@
     <e><p><l>locutor<s n="n"/></l><r>locutor<s n="n"/></r></p></e>
     <e><p><l>monitor<s n="n"/></l><r>monitor<s n="n"/></r></p></e>
     <e><p><l>monitor<s n="adj"/></l><r>monitor<s n="adj"/></r></p></e>
+    <e><p><l>monocromo<s n="adj"/></l><r>monocromo<s n="adj"/></r></p></e>
+    <e><p><l>cursor<s n="n"/></l><r>cursor<s n="n"/></r></p></e>
     <e><p><l>motor<s n="n"/></l><r>motor<s n="n"/></r></p></e>
     <e><p><l>motor<s n="adj"/></l><r>motor<s n="adj"/></r></p></e>
     <e><p><l>pastor<s n="n"/></l><r>pastor<s n="n"/></r></p></e>
@@ -13362,6 +14729,13 @@
     <e><p><l>conquistador<s n="n"/></l><r>conqueridor<s n="n"/></r></p></e>
     <e r="RL"><p><l>conquistador<s n="n"/></l><r>conquistador<s n="n"/></r></p></e>
     <e><p><l>defensor<s n="n"/></l><r>defensor<s n="n"/></r></p></e>
+    <e><p><l>actuador<s n="n"/></l><r>actuador<s n="n"/></r></p></e>
+    <e><p><l>lanzador<s n="n"/></l><r>lanzador<s n="n"/></r></p></e>
+    <e><p><l>anclaje<s n="n"/></l><r>ancorache<s n="n"/></r></p></e>
+    <e><p><l>ancla<s n="n"/></l><r>ancora<s n="n"/></r></p></e>
+    <e><p><l>anclar<s n="vblex"/></l><r>ancorar<s n="vblex"/></r></p></e>
+    <e><p><l>suavizar<s n="vblex"/></l><r>suavezar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>suavizar<s n="vblex"/></l><r>suavir<s n="vblex"/></r></p></e>
     <e srl="rector D"><p><l>rector<s n="n"/></l><r>rector<s n="n"/></r></p></e>
     <e srl="parroco"><p><l>párroco<s n="n"/></l><r>rector<s n="n"/></r></p></e>
     <e><p><l>rector<s n="adj"/></l><r>rector<s n="adj"/></r></p></e>
@@ -13660,6 +15034,7 @@
     <e><p><l>cerezo<s n="n"/><s n="m"/></l><r>ciresera<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cirugía<s n="n"/></l><r>cirurchía<s n="n"/></r></p></e>
     <e><p><l>cesta<s n="n"/></l><r>cesta<s n="n"/></r></p></e>
+    <e><p><l>apuesta<s n="n"/></l><r>apuesta<s n="n"/></r></p></e>
     <e><p><l>cisterna<s n="n"/></l><r>cisterna<s n="n"/></r></p></e>
     <e><p><l>ciudadanía<s n="n"/></l><r>ciudadanía<s n="n"/></r></p></e>
     <e><p><l>avena<s n="n"/></l><r>cibada<s n="n"/></r></p></e>
@@ -14061,6 +15436,7 @@
     <e r="RL" srl="lentilla"><p><l>lentilla<s n="n"/></l><r>lentilla<s n="n"/></r></p></e>
     <e srl="lenteja D"><p><l>lenteja<s n="n"/></l><r>lentilla<s n="n"/></r></p></e>
     <e><p><l>leña<s n="n"/></l><r>lenya<s n="n"/></r></p></e>
+    <e><p><l>plantilla<s n="n"/></l><r>plantilla<s n="n"/></r></p></e>
     <e><p><l>ligereza<s n="n"/></l><r>lichereza<s n="n"/></r></p></e>
     <e><p><l>librería<s n="n"/></l><r>librería<s n="n"/></r></p></e>
     <e><p><l>libreta<s n="n"/></l><r>libreta<s n="n"/></r></p></e>
@@ -14317,6 +15693,9 @@
     <e><p><l>prisa<s n="n"/></l><r>prisa<s n="n"/></r></p></e>
     <e><p><l>primicia<s n="n"/></l><r>primicia<s n="n"/></r></p></e>
     <e><p><l>programa<s n="n"/></l><r>programa<s n="n"/></r></p></e>
+    <e><p><l>diagrama<s n="n"/></l><r>diagrama<s n="n"/></r></p></e>
+    <e><p><l>histograma<s n="n"/></l><r>histograma<s n="n"/></r></p></e>
+    <e><p><l>lambda<s n="n"/></l><r>lambda<s n="n"/></r></p></e>
     <e><p><l>promesa<s n="n"/></l><r>promesa<s n="n"/></r></p></e>
     <e><p><l>propaganda<s n="n"/></l><r>propaganda<s n="n"/></r></p></e>
     <e><p><l>propina<s n="n"/></l><r>propina<s n="n"/></r></p></e>
@@ -15388,6 +16767,7 @@
     <e><p><l>considerar<s n="vblex"/></l><r>considerar<s n="vblex"/></r></p></e>
     <e><p><l>consolidar<s n="vblex"/></l><r>consolidar<s n="vblex"/></r></p></e>
     <e><p><l>consultar<s n="vblex"/></l><r>consultar<s n="vblex"/></r></p></e>
+    <e><p><l>encapsular<s n="vblex"/></l><r>encapsular<s n="vblex"/></r></p></e>
     <e><p><l>contar<s n="vblex"/></l><r>contar<s n="vblex"/></r></p></e>
     <e><p><l>coordinar<s n="vblex"/></l><r>coordinar<s n="vblex"/></r></p></e>
     <e><p><l>crear<s n="vblex"/></l><r>creyar<s n="vblex"/></r></p></e>
@@ -15402,6 +16782,8 @@
     <e><p><l>desintegrar<s n="vblex"/></l><r>desintegrar<s n="vblex"/></r></p></e>
     <e><p><l>desplazar<s n="vblex"/></l><r>desplazar<s n="vblex"/></r></p></e>
     <e><p><l>despoblar<s n="vblex"/></l><r>despoblar<s n="vblex"/></r></p></e>
+    <e><p><l>transponer<s n="vblex"/></l><r>transponer<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>trasponer<s n="vblex"/></l><r>transponer<s n="vblex"/></r></p></e>
     <e><p><l>disponer<s n="vblex"/></l><r>disposar<s n="vblex"/></r></p></e>
     <e><p><l>detectar<s n="vblex"/></l><r>detectar<s n="vblex"/></r></p></e>
     <e><p><l>afectar<s n="vblex"/></l><r>afectar<s n="vblex"/></r></p></e>
@@ -15486,7 +16868,6 @@
     <e><p><l>investigar<s n="vblex"/></l><r>investigar<s n="vblex"/></r></p></e>
     <e><p><l>invocar<s n="vblex"/></l><r>invocar<s n="vblex"/></r></p></e>
     <e><p><l>islamizar<s n="vblex"/></l><r>islamizar<s n="vblex"/></r></p></e>
-    <e><p><l>echar<s n="vblex"/></l><r>chitar<s n="vblex"/></r></p></e>
     <e><p><l>jubilar<s n="vblex"/></l><r>chubilar<s n="vblex"/></r></p></e>
     <e><p><l>prejubilar<s n="vblex"/></l><r>prechubilar<s n="vblex"/></r></p></e>
     <e><p><l>juntar<s n="vblex"/></l><r>chuntar<s n="vblex"/></r></p></e>
@@ -15644,6 +17025,38 @@
     <e srl="agotar"><p><l>agotar<s n="vblex"/></l><r>acotolar<s n="vblex"/></r></p></e>
     <e srl="aniquilar D"><p><l>aniquilar<s n="vblex"/></l><r>acotolar<s n="vblex"/></r></p></e>
     <e><p><l>dañar<s n="vblex"/></l><r>danyar<s n="vblex"/></r></p></e>
+    <e><p><l>concatenar<s n="vblex"/></l><r>concatenar<s n="vblex"/></r></p></e>
+    <e><p><l>desactivar<s n="vblex"/></l><r>desactivar<s n="vblex"/></r></p></e>
+    <e><p><l>reactivar<s n="vblex"/></l><r>reactivar<s n="vblex"/></r></p></e>
+    <e><p><l>activar<s n="vblex"/></l><r>activar<s n="vblex"/></r></p></e>
+    <e><p><l>descartar<s n="vblex"/></l><r>descartar<s n="vblex"/></r></p></e>
+    <e><p><l>interceptar<s n="vblex"/></l><r>interceptar<s n="vblex"/></r></p></e>
+    <e><p><l>minimizar<s n="vblex"/></l><r>minimizar<s n="vblex"/></r></p></e>
+    <e><p><l>maximizar<s n="vblex"/></l><r>maximizar<s n="vblex"/></r></p></e>
+    <e><p><l>optimizar<s n="vblex"/></l><r>optimizar<s n="vblex"/></r></p></e>
+    <e><p><l>sobredimensionar<s n="vblex"/></l><r>sobredimensionar<s n="vblex"/></r></p></e>
+    <e><p><l>redimensionar<s n="vblex"/></l><r>redimensionar<s n="vblex"/></r></p></e>
+    <e><p><l>escrutar<s n="vblex"/></l><r>escrutar<s n="vblex"/></r></p></e>
+    <e><p><l>configurar<s n="vblex"/></l><r>configurar<s n="vblex"/></r></p></e>
+    <e><p><l>intercambiar<s n="vblex"/></l><r>intercambiar<s n="vblex"/></r></p></e>
+    <e><p><l>recambiar<s n="vblex"/></l><r>recambiar<s n="vblex"/></r></p></e>
+    <e><p><l>sincronizar<s n="vblex"/></l><r>sincronizar<s n="vblex"/></r></p></e>
+    <e><p><l>conmutar<s n="vblex"/></l><r>commutar<s n="vblex"/></r></p></e>
+    <e><p><l>reinstalar<s n="vblex"/></l><r>reinstalar<s n="vblex"/></r></p></e>
+    <e><p><l>desinstalar<s n="vblex"/></l><r>desinstalar<s n="vblex"/></r></p></e>
+    <e><p><l>ampliar<s n="vblex"/></l><r>enamplar<s n="vblex"/></r></p></e>
+    <e><p><l>ensanchar<s n="vblex"/></l><r>ixamplar<s n="vblex"/></r></p></e>
+    <e><p><l>rellenar<s n="vblex"/></l><r>replenar<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>tachar<s n="vblex"/></l><r>rayar<s n="vblex"/></r></p></e>    
+    <e><p><l>rayar<s n="vblex"/></l><r>rayar<s n="vblex"/></r></p></e>    
+    
+    <e r="LR"><p><l>tirar<s n="vblex"/></l><r>tirar<s n="vblex"/></r></p></e>
+    <e slr="tirar"><p><l>echar<s n="vblex"/></l><r>tirar<s n="vblex"/></r></p></e>
+    <e slr="chitar D"><p><l>echar<s n="vblex"/></l><r>chitar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>expulsar<s n="vblex"/></l><r>expulsar<s n="vblex"/></r></p></e>    
+    <e><p><l>expulsar<s n="vblex"/></l><r>fer<g><b/>fuera</g><s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>expulsar<s n="vblex"/></l><r>forachitar<s n="vblex"/></r></p></e>
+    <e><p><l>tachar<s n="vblex"/></l><r>rayar<s n="vblex"/></r></p></e>
     
     <e><p><l>rebelar<s n="vblex"/></l><r>rebelar<s n="vblex"/></r></p></e>
     <e><p><l>recibir<s n="vblex"/></l><r>recullir<s n="vblex"/></r></p></e>
@@ -15679,7 +17092,6 @@
     <e><p><l>subsanar<s n="vblex"/></l><r>subsanar<s n="vblex"/></r></p></e>
     <e><p><l>superar<s n="vblex"/></l><r>superar<s n="vblex"/></r></p></e>
     <e><p><l>tener<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
-    <e><p><l>tirar<s n="vblex"/></l><r>tirar<s n="vblex"/></r></p></e>
     <e><p><l>tomar<s n="vblex"/></l><r>tomar<s n="vblex"/></r></p></e>
     <e><p><l>volver<s n="vblex"/></l><r>tornar<s n="vblex"/></r></p></e>
     <e><p><l>torturar<s n="vblex"/></l><r>torturar<s n="vblex"/></r></p></e>
@@ -15770,6 +17182,7 @@
     <e><p><l>declarar<s n="vblex"/></l><r>declarar<s n="vblex"/></r></p></e>
     <e><p><l>ayunar<s n="vblex"/></l><r>ayunar<s n="vblex"/></r></p></e>
     <e><p><l>desagradar<s n="vblex"/></l><r>desagradar<s n="vblex"/></r></p></e>
+    <e><p><l>degradar<s n="vblex"/></l><r>degradar<s n="vblex"/></r></p></e>
     <e><p><l>desanimar<s n="vblex"/></l><r>desanimar<s n="vblex"/></r></p></e>
     <e><p><l>desayunar<s n="vblex"/></l><r>desayunar<s n="vblex"/></r></p></e>
     <e><p><l>desenmascarar<s n="vblex"/></l><r>desenmascarar<s n="vblex"/></r></p></e>
@@ -16223,6 +17636,7 @@
     <e><p><l>anotar<s n="vblex"/></l><r>anotar<s n="vblex"/></r></p></e>
     <e><p><l>anteponer<s n="vblex"/></l><r>anteposar<s n="vblex"/></r></p></e>
     <e><p><l>apagar<s n="vblex"/></l><r>amortar<s n="vblex"/></r></p></e>
+    <e><p><l>amortiguar<s n="vblex"/></l><r>amortir<s n="vblex"/></r></p></e>
     <e><p><l>saborear<s n="vblex"/></l><r>saboriar<s n="vblex"/></r></p></e>
     <e><p><l>bordar<s n="vblex"/></l><r>bordar<s n="vblex"/></r></p></e>
     <e><p><l>colaborar<s n="vblex"/></l><r>colaborar<s n="vblex"/></r></p></e>
@@ -16477,7 +17891,9 @@
     <e><p><l>proceder<s n="vblex"/></l><r>proceder<s n="vblex"/></r></p></e>
     <e><p><l>prometer<s n="vblex"/></l><r>prometer<s n="vblex"/></r></p></e>
     <e><p><l>proteger<s n="vblex"/></l><r>protecher<s n="vblex"/></r></p></e>
-    <e><p><l>reprender<s n="vblex"/></l><r>reprener<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>reanudar<s n="vblex"/></l><r>reprener<s n="vblex"/></r></p></e>
+    <e><p><l>retomar<s n="vblex"/></l><r>reprener<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>reprender<s n="vblex"/></l><r>reprener<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>reprender<s n="vblex"/></l><r>reprender<s n="vblex"/></r></p></e>
     <e><p><l>resolver<s n="vblex"/></l><r>resolver<s n="vblex"/></r></p></e>
     <e><p><l>satisfacer<s n="vblex"/></l><r>satisfer<s n="vblex"/></r></p></e>
@@ -16521,6 +17937,8 @@
     <e><p><l>prevenir<s n="vblex"/></l><r>aprevenir<s n="vblex"/></r></p></e>
     <e><p><l>admitir<s n="vblex"/></l><r>admitir<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>admitir<s n="vblex"/></l><r>admeter<s n="vblex"/></r></p></e>
+    <e><p><l>omitir<s n="vblex"/></l><r>omitir<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>omitir<s n="vblex"/></l><r>ometer<s n="vblex"/></r></p></e>
     <e><p><l>adquirir<s n="vblex"/></l><r>adquirir<s n="vblex"/></r></p></e>
     <e><p><l>advertir<s n="vblex"/></l><r>advertir<s n="vblex"/></r></p></e>
     <e><p><l>asistir<s n="vblex"/></l><r>asistir<s n="vblex"/></r></p></e>
@@ -16588,6 +18006,7 @@
     <e><p><l>concluir<s n="vblex"/></l><r>concluir<s n="vblex"/></r></p></e>
     <e><p><l>constituir<s n="vblex"/></l><r>constituir<s n="vblex"/></r></p></e>
     <e><p><l>construir<s n="vblex"/></l><r>construir<s n="vblex"/></r></p></e>
+    <e><p><l>disminuir<s n="vblex"/></l><r>disminuir<s n="vblex"/></r></p></e>
     <e><p><l>contribuir<s n="vblex"/></l><r>contribuir<s n="vblex"/></r></p></e>
     <e><p><l>convivir<s n="vblex"/></l><r>convivir<s n="vblex"/></r></p></e>
     <e><p><l>corregir<s n="vblex"/></l><r>correchir<s n="vblex"/></r></p></e>
