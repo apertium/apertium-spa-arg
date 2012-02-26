@@ -585,7 +585,7 @@
       </e>
     </pardef>
 
-    <pardef n="a">
+    <pardef n="a">  <!-- a is an article -->
       <e>
         <p>
           <l><b/></l>
@@ -627,7 +627,7 @@
       </e>
       <e>
         <p>
-          <l><b/><a/><a/>a<b/></l>
+          <l><b/><a/>a<b/></l>
           <r>d'a<b/></r>
         </p>
       </e>
@@ -660,7 +660,7 @@
       </e>
       <e>
         <p>
-          <l><b/><a/><a/>a<b/></l>
+          <l><b/><a/>a<b/></l>
           <r>de<b/>l'</r>
         </p>
         <par n="vocals_apost_a" />
@@ -720,14 +720,14 @@
       </e>
       <e>
         <p>
-          <l><a/><a/>a<b/></l>
+          <l><a/>a<b/></l>
           <r>a</r>
         </p>
         <par n="el"/>
       </e>
       <e>
         <p>
-          <l><a/><a/>a</l>
+          <l><a/>a</l>
           <r>a</r>
         </p>
         <par n="el"/>
@@ -739,7 +739,7 @@
    <pardef n="ta">   <!-- ta which makes, t'o, t'a, t'os, t'as, especially when meaning hacia-->
       <e>
         <p>
-          <l><b/><a/><a/>a<b/></l>
+          <l><b/><a/>a<b/></l>
           <r>t'a<b/></r>
         </p>
       </e>
@@ -772,7 +772,7 @@
       </e>
       <e>
         <p>
-          <l><b/><a/><a/>a<b/></l>
+          <l><b/><a/>a<b/></l>
           <r>ta<b/>l'</r>
         </p>
         <par n="vocals_apost_a" />
@@ -819,10 +819,10 @@
     </pardef>
 
 
-   <pardef n="ta2"> <!-- ta which makes, t'o, t'a, t'os, t'as, especially when meaning hacia-->
+   <pardef n="ta2"> <!-- ta which makes, ta o, ta la, ta os, as, especially when meaning para-->
       <e>
         <p>
-          <l><b/><a/><a/>a<b/></l>
+          <l><b/><a/>a<b/></l>
           <r>ta<b/>la<b/></r>
         </p>
       </e>
@@ -855,7 +855,7 @@
       </e>
       <e>
         <p>
-          <l><b/><a/><a/>a<b/></l>
+          <l><b/><a/>a<b/></l>
           <r>ta<b/>l'</r>
         </p>
         <par n="vocals_apost_a" />
@@ -872,6 +872,13 @@
           <r>ta<b/>os<b/></r>
         </p>
       </e>
+      <e>
+        <p>
+          <l><b/></l>
+          <r>ta<b/></r>
+        </p>
+      </e>
+
  <!--     <e>         jp: not in standard
         <p>
           <l><b/><a/>e</l>
@@ -904,7 +911,7 @@
 <pardef n="enta"> 
       <e>
         <p>
-          <l><b/><a/><a/>a<b/></l>
+          <l><b/><a/>a<b/></l>
           <r>ent'a<b/></r>
         </p>
       </e>
@@ -937,7 +944,7 @@
       </e>
       <e>
         <p>
-          <l><b/><a/><a/>a<b/></l>
+          <l><b/><a/>a<b/></l>
           <r>enta<b/>l'</r>
         </p>
         <par n="vocals_apost_a" />
@@ -983,10 +990,10 @@
 -->
    </pardef>
   
-   <pardef n="a_prep"> 
+   <pardef n="a_prep">  <!-- a is a preposition -->
       <e>
         <p>
-          <l><b/><a/><a/>a<b/></l>
+          <l><b/><a/>a<b/></l>
           <r>a<b/>la<b/></r>
         </p>
       </e>
@@ -1019,7 +1026,7 @@
       </e>
       <e>
         <p>
-          <l><b/><a/><a/>a<b/></l>
+          <l><b/><a/>a<b/></l>
           <r>a<b/>l'</r>
         </p>
         <par n="vocals_apost_a" />
@@ -1036,6 +1043,13 @@
           <r>a<b/>os<b/></r>
         </p>
       </e>
+      <e>
+        <p>
+          <l><b/></l>
+          <r>a<b/></r>
+        </p>
+      </e>
+
  <!--     <e>         jp: not in standard
         <p>
           <l><b/><a/>e</l>
@@ -1387,14 +1401,14 @@
       </e>
       <e>
         <p>
-          <l><b/><a/><a/>ta</l>
+          <l><b/><a/>ta2</l>
           <r>no<b/></r>
         </p>
         <par n="ta2"/>
       </e>
       <e>
         <p>
-          <l><b/><a/>a</l>
+          <l><b/><a/>a2</l>
           <r>no<b/></r>
         </p>
         <par n="a_prep"/>
@@ -1415,7 +1429,7 @@
       </e>
       <e>
         <p>
-          <l><b/><a/><a/>a</l>
+          <l><b/><a/>a</l>
           <r>no<b/></r>
         </p>
         <par n="a"/>
@@ -1429,7 +1443,7 @@
       </e>
       <e>
         <p>
-          <l><b/><a/><a/>a</l>
+          <l><b/><a/>a</l>
           <r>no<b/></r>
         </p>
         <par n="a_de"/>
@@ -1466,16 +1480,16 @@
         </p>
         <par n="o_de"/>
        </e>
-       <e>
+       <e>  <!-- a as an article-->
         <p>
-          <l><a/><a/>a</l>
+          <l><a/>a</l>
           <r/>
         </p>
         <par n="a"/>
        </e>
        <e>
         <p>
-          <l><a/><a/>a</l>
+          <l><a/>a</l>
           <r/>
         </p>
         <par n="a_de"/>
@@ -1487,16 +1501,16 @@
         </p>
         <par n="de"/>
       </e>
-        <e>
+        <e>  <!-- ta with the meaning of 'hacia' -->
         <p>
           <l><a/>ta</l>
           <r/>
         </p>
         <par n="ta"/>
       </e>
-        <e>
+        <e> <!-- ta with the meaning of 'para' -->
         <p>
-          <l><a/><a/>ta</l>
+          <l><a/>ta2</l>
           <r/>
         </p>
         <par n="ta2"/>
@@ -1510,7 +1524,7 @@
       </e>
         <e>
         <p>
-          <l><a/>a</l>
+          <l><a/>a2</l>  <!-- a2 is 'a' preposition -->
           <r/>
         </p>
         <par n="a_prep"/>
