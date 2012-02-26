@@ -744,7 +744,7 @@
     <pardef n="detarticle_f_sg_var">
       <e r="RL">
         <p>
-          <l><a/><a/>a</l>
+          <l><a/>a</l>
           <r>o</r>
         </p>
       </e>
@@ -37701,11 +37701,10 @@
 
     <e r="RL">
       <p>
-        <l><a/>a</l> 
+        <l><a/>a2</l>
         <r>a<s n="pr"/></r>
       </p>
     </e>
-<!-- <l><a/>a</l> jp-->
 
 
     </pardef>
@@ -37725,45 +37724,36 @@
         <r>de<s n="pr"/></r>
       </p>
     </e>
-
     </pardef>
     
-    <pardef n="contta__pr">
+    <pardef n="contta__pr" c="voi ta casa">
     <e r="LR">
       <p>
         <l>ta</l>
         <r>ta<s n="pr"/></r>
       </p>
     </e>
-
-
     <e r="RL">
       <p>
         <l><a/>ta</l>
         <r>ta<s n="pr"/></r>
       </p>
     </e>
-
-
     </pardef>
 
-    <pardef n="contta2__pr">
+    <pardef n="contta2__pr" c="isto ye ta tu">
     <e r="LR">
       <p>
         <l>ta</l>
         <r>ta<s n="pr"/></r>
       </p>
     </e>
-
-
     <e r="RL">
       <p>
-        <l><a/><a/>ta</l>
+        <l><a/>ta2</l>  
         <r>ta2<s n="pr"/></r>
       </p>
     </e>
-
-
     </pardef>
 
 
@@ -42986,8 +42976,8 @@
     <e lm="seguntes"><i>seguntes</i><par n="con__pr"/></e>
     <e lm="sin"><i>sin</i><par n="con__pr"/></e>
     <e lm="sobre"><i>sobre</i><par n="con__pr"/></e>
-    <e lm="ta"><i></i><par n="contta__pr"/></e>
-    <e lm="ta2" r="RL"><i></i><par n="contta2__pr"/></e>
+    <e lm="ta" c="voi ta casa"><i></i><par n="contta__pr"/></e>
+    <e lm="ta2" r="RL" c="isto ye ta tu"><i></i><par n="contta2__pr"/></e>
     <e lm="debant"><i>debant</i><par n="con__pr"/></e>
     <e lm="debant" r="LR"><p><l>debán</l><r>debant</r></p><par n="con__pr"/></e>
     <e lm="debaixo"><i>deba</i><par n="/ix_x__var"/><i>o</i><par n="con__pr"/></e>
