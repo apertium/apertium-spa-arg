@@ -736,7 +736,7 @@
     </pardef>
 
 
-   <pardef n="ta"> 
+   <pardef n="ta">   <!-- ta which makes, t'o, t'a, t'os, t'as, especially when meaning hacia-->
       <e>
         <p>
           <l><b/><a/><a/>a<b/></l>
@@ -787,6 +787,89 @@
         <p>
           <l><b/>os<b/></l>
           <r>t'os<b/></r>
+        </p>
+      </e>
+ <!--     <e>         jp: not in standard
+        <p>
+          <l><b/><a/>e</l>
+          <r>ta</r>
+        </p>
+        <par n="contrac"/>
+      </e>   -->
+<!--      
+      <e>
+        <p>
+          <l><b/>el<b/></l>
+          <r>ta'l<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>els<b/></l>
+          <r>ta'ls<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>es<b/></l>
+          <r>ta's<b/></r>
+        </p>
+      </e>
+-->
+    </pardef>
+
+
+   <pardef n="ta2"> <!-- ta which makes, t'o, t'a, t'os, t'as, especially when meaning hacia-->
+      <e>
+        <p>
+          <l><b/><a/><a/>a<b/></l>
+          <r>ta<b/>la<b/></r>
+        </p>
+      </e>
+      <e>
+      <p>
+          <l><b/><a/>o<b/></l>
+          <r>ta<b/>o<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>ta<b/>l'</r>
+        </p>
+        <par n="vocals_apost" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>ta<b/>o<b/></r>
+        </p>
+        <par n="consonant" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>ta<b/>o<b/></r>
+        </p>
+        <par n="vocals_no_apost_o" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/><a/>a<b/></l>
+          <r>ta<b/>l'</r>
+        </p>
+        <par n="vocals_apost_a" />
+      </e>      
+      <e>
+        <p>
+          <l><b/>as<b/></l>
+          <r>ta<b/>las<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>os<b/></l>
+          <r>ta<b/>os<b/></r>
         </p>
       </e>
  <!--     <e>         jp: not in standard
@@ -956,7 +1039,7 @@
  <!--     <e>         jp: not in standard
         <p>
           <l><b/><a/>e</l>
-          <r>ta</r>
+          <r>a</r>
         </p>
         <par n="contrac"/>
       </e>   -->
@@ -964,19 +1047,19 @@
       <e>
         <p>
           <l><b/>el<b/></l>
-          <r>ta'l<b/></r>
+          <r>a'l<b/></r>
         </p>
       </e>
       <e>
         <p>
           <l><b/>els<b/></l>
-          <r>ta'ls<b/></r>
+          <r>a'ls<b/></r>
         </p>
       </e>
       <e>
         <p>
           <l><b/>es<b/></l>
-          <r>ta's<b/></r>
+          <r>a's<b/></r>
         </p>
       </e>
 -->
@@ -1304,6 +1387,13 @@
       </e>
       <e>
         <p>
+          <l><b/><a/><a/>ta</l>
+          <r>no<b/></r>
+        </p>
+        <par n="ta2"/>
+      </e>
+      <e>
+        <p>
           <l><b/><a/>a</l>
           <r>no<b/></r>
         </p>
@@ -1403,6 +1493,13 @@
           <r/>
         </p>
         <par n="ta"/>
+      </e>
+        <e>
+        <p>
+          <l><a/><a/>ta</l>
+          <r/>
+        </p>
+        <par n="ta2"/>
       </e>
       <e>
         <p>
