@@ -9618,7 +9618,8 @@
     <e r="RL"><p><l>hacia<s n="pr"/></l><r>cara<s n="pr"/></r></p></e>
     <e r="RL"><p><l>hacia<s n="pr"/></l><r>cara<b/>ta<s n="pr"/></r></p></e> <!-- en dirección a -->
     <e r="RL" srl="hacia"><p><l>hacia<s n="pr"/></l><r>ta<s n="pr"/></r></p></e>
-    <e srl="para D"><p><l>para<s n="pr"/></l><r>ta<s n="pr"/></r></p></e>
+    <e srl="para D" r="RL"><p><l>para<s n="pr"/></l><r>ta<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>para<s n="pr"/></l><r>ta2<s n="pr"/></r></p></e>
     <e r="RL"><p><l>para<s n="pr"/></l><r>pa<s n="pr"/></r></p></e>
     <e><p><l>por<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
     <e><p><l>respecto<b/>a<s n="pr"/></l><r>respective<b/>a<s n="pr"/></r></p></e>
@@ -17931,6 +17932,7 @@
     <e><p><l>abstraer<s n="vblex"/></l><r>abstrayer<s n="vblex"/></r></p></e>
     <e><p><l>retraer<s n="vblex"/></l><r>retrayer<s n="vblex"/></r></p></e>
     <e><p><l>caer<s n="vblex"/></l><r>cayer<s n="vblex"/></r></p></e>
+    <e><p><l>acceder<s n="vblex"/></l><r>accedir<s n="vblex"/></r></p></e>
     <e><p><l>decaer<s n="vblex"/></l><r>decayer<s n="vblex"/></r></p></e>
     <e><p><l>distraer<s n="vblex"/></l><r>distrayer<s n="vblex"/></r></p></e>
     <e><p><l>extraer<s n="vblex"/></l><r>extrayer<s n="vblex"/></r></p></e>

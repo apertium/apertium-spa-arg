@@ -37747,6 +37747,26 @@
 
     </pardef>
 
+    <pardef n="contta2__pr">
+    <e r="LR">
+      <p>
+        <l>ta</l>
+        <r>ta<s n="pr"/></r>
+      </p>
+    </e>
+
+
+    <e r="RL">
+      <p>
+        <l><a/><a/>ta</l>
+        <r>ta2<s n="pr"/></r>
+      </p>
+    </e>
+
+
+    </pardef>
+
+
     <pardef n="conten__pr">
     <e r="LR">
       <p>
@@ -40719,7 +40739,9 @@
     
     <e lm="numbro"><i>numbro</i><par n="libro__n"/></e>
     <e lm="numero"><i>numero</i><par n="libro__n"/></e>
+    <e lm="numero" r="LR"><i>num</i><par n="plant/ero__n"/></e>
     <e lm="numero" r="LR"><p><l>lumero</l><r>numero</r></p><par n="libro__n"/></e>
+    <e lm="numero" r="LR"><p><l>lum</l><r>num</r></p><par n="plant/ero__n"/></e>
     <e lm="decenio"><i>decenio</i><par n="libro__n"/></e>
     <e lm="dezenio" r="LR"><p><l>dezenio</l><r>decenio</r></p><par n="libro__n"/></e>
     <e lm="termin"><i>termin</i><par n="libro__n"/></e>
@@ -42965,6 +42987,7 @@
     <e lm="sin"><i>sin</i><par n="con__pr"/></e>
     <e lm="sobre"><i>sobre</i><par n="con__pr"/></e>
     <e lm="ta"><i></i><par n="contta__pr"/></e>
+    <e lm="ta2" r="RL"><i></i><par n="contta2__pr"/></e>
     <e lm="debant"><i>debant</i><par n="con__pr"/></e>
     <e lm="debant" r="LR"><p><l>debán</l><r>debant</r></p><par n="con__pr"/></e>
     <e lm="debaixo"><i>deba</i><par n="/ix_x__var"/><i>o</i><par n="con__pr"/></e>
@@ -61090,6 +61113,7 @@
     <e lm="engrandar"><i>engrand</i><par n="cant/ar__vblex"/></e>
     <e lm="agrandir"><i>agrand</i><par n="aclar/ir__vblex"/></e>
     <e lm="amortir"><i>amort</i><par n="aclar/ir__vblex"/></e>
+    <e lm="accedir"><i>acced</i><par n="aclar/ir__vblex"/></e>
     <e lm="f"><i>f</i><par n="enc/ender__vblex"/></e>
     <e lm="fender" r="LR"><i>fend</i><par n="vend/er__vblex"/></e>
     <e lm="asclar"><i>ascl</i><par n="cant/ar__vblex"/></e>
