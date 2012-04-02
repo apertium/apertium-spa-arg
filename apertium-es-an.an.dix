@@ -940,6 +940,84 @@
       </e>      
     </pardef>
 
+
+   <pardef n="-os__enc">
+      <e>
+        <p>
+          <l>-os</l>
+          <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>-vos</l>
+          <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>-bos</l>
+          <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>-tos</l>
+          <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>-sos</l>
+          <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+     <e r="LR">
+        <p>
+          <l>-zos</l>
+          <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>-to</l>
+          <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>-vo</l>
+          <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>-bo</l>
+          <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>-o</l>
+          <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>-so</l>
+          <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+     <e r="LR">
+        <p>
+          <l>-zo</l>
+          <r><j/>tos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>      
+    </pardef>
+
+
+
    <pardef n="-le__enc">
      <e>
       <p>
@@ -1404,6 +1482,61 @@
    <par n="-tos__enc"/><par n="-hue__enc"/>
   </e>
  </pardef> 
+
+<pardef n="-os-me__enc">
+  <e>
+   <par n="-os__enc"/><par n="-me__enc"/>
+  </e>
+  <e r="LR">
+   <par n="-me__enc"/><par n="-tos__enc"/>
+  </e>
+ </pardef>
+
+<pardef n="-os-nos__enc">
+  <e>
+   <par n="-os__enc"/><par n="-nos__enc"/>
+  </e>
+  <e r="LR">
+   <par n="-nos__enc"/><par n="-tos__enc"/>
+  </e>
+
+ </pardef>
+ <pardef n="-os-le__enc">
+  <e>
+   <par n="-os__enc"/><par n="-le__enc"/>
+  </e>
+  <e r="LR">
+   <par n="-le__enc"/><par n="-tos__enc"/>
+  </e>
+ </pardef>
+
+ <pardef n="-os-la__enc">
+  <e>
+   <par n="-os__enc"/><par n="-la__enc"/>
+  </e>
+  <e r="LR" c="ches">
+   <par n="-la__enc"/><par n="-tos__enc"/>
+  </e>
+ </pardef>
+
+ <pardef n="-os-ne__enc">
+  <e>
+   <par n="-os__enc"/><par n="-ne__enc"/>
+  </e>
+ </pardef>
+ 
+ <pardef n="-os-ie__enc">
+  <e>
+   <par n="-os__enc"/><par n="-ie__enc"/>
+  </e>
+ </pardef>
+
+ <pardef n="-os-hue__enc">
+  <e>
+   <par n="-os__enc"/><par n="-hue__enc"/>
+  </e>
+ </pardef> 
+
 
  <pardef n="-le-la__enc">
   <e>
@@ -1899,28 +2032,28 @@
       <par n="-te-hue__enc"/>
     </e>
     <e>
-      <par n="-tos__enc"/>
+      <par n="-os__enc"/>
     </e>      
    <e>
-      <par n="-tos-me__enc"/>
+      <par n="-os-me__enc"/>
     </e>
     <e>
-      <par n="-tos-nos__enc"/>
+      <par n="-os-nos__enc"/>
     </e>
     <e>
-      <par n="-tos-le__enc"/>
+      <par n="-os-le__enc"/>
     </e>
     <e>
-      <par n="-tos-la__enc"/>
+      <par n="-os-la__enc"/>
     </e>
     <e>
-      <par n="-tos-ne__enc"/>
+      <par n="-os-ne__enc"/>
     </e>
     <e>
-      <par n="-tos-ie__enc"/>
+      <par n="-os-ie__enc"/>
     </e>
     <e r="LR">
-      <par n="-tos-hue__enc"/>
+      <par n="-os-hue__enc"/>
     </e>
     <e>
       <par n="-le__enc"/>
@@ -4601,6 +4734,18 @@
     </e>
     <e r="LR">
       <p>
+        <l>aces</l>
+        <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>atzes</l>
+        <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
         <l>asez</l>
         <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
       </p>
@@ -4754,6 +4899,18 @@
     <e r="LR">
       <p>
         <l>ésetz</l>
+        <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>eces</l>
+        <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>etzes</l>
         <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
@@ -4916,7 +5073,19 @@
         <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
+   <e r="LR">
+      <p>
+        <l>ices</l>
+        <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
+      </p>
+    </e>
     <e r="LR">
+      <p>
+        <l>itzes</l>
+        <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
+      </p>
+    </e>
+<e r="LR">
       <p>
         <l>isez</l>
         <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
@@ -5012,6 +5181,18 @@
     <e>
       <p>
         <l>ísetz</l>
+        <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>íces</l>
+        <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>ítzes</l>
         <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
@@ -6072,13 +6253,13 @@
     <pardef n="imp_cant/atz__cnjgt">
     <e>
       <p>
-        <l>atz</l>
+        <l>at</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
     <e>
       <p>
-        <l>atz</l>
+        <l>at</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
       <par n="S__cantatz"/> 
@@ -6086,13 +6267,13 @@
 
     <e r="LR">
       <p>
-        <l>at</l>
+        <l>atz</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>at</l>
+        <l>atz</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
       <par n="S__cantatz"/> 
@@ -6239,26 +6420,26 @@
     <pardef n="imp_vend/etz__cnjgt">     
     <e>
       <p>
-        <l>etz</l>
+        <l>et</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
     <e>
       <p>
-        <l>etz</l>
+        <l>et</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
       <par n="S__cantatz"/> 
     </e>
     <e r="LR">
       <p>
-        <l>et</l>
+        <l>etz</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>et</l>
+        <l>etz</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
       <par n="S__cantatz"/> 
@@ -6413,13 +6594,13 @@
 <pardef n="imp_viv/itz__cnjgt">
     <e>
       <p>
-        <l>itz</l>
+        <l>it</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
     <e>
       <p>
-        <l>itz</l>
+        <l>it</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
       <par n="S__cantatz"/> 
@@ -6427,13 +6608,13 @@
 
     <e r="LR">
       <p>
-        <l>it</l>
+        <l>itz</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>it</l>
+        <l>itz</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
       <par n="S__cantatz"/> 
@@ -6468,16 +6649,16 @@
     </e>    
 </pardef>
 
-<pardef n="imp_viv/ítz__cnjgt">
+<pardef n="imp_viv/ítz__cnjgt"> <!-- se fa servir nomas en rematanzas que tienga hiato p. ex. freítz -->
     <e>
       <p>
-        <l>ítz</l>
+        <l>ít</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
     <e>
       <p>
-        <l>ítz</l>
+        <l>ít</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
       <par n="S__cantatz"/> 
@@ -6485,13 +6666,13 @@
 
     <e r="LR">
       <p>
-        <l>ít</l>
+        <l>ítz</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>ít</l>
+        <l>ítz</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
       <par n="S__cantatz"/> 
@@ -7258,13 +7439,13 @@
     </e>
     <e>
       <p>
-        <l>setz</l>
+        <l>set</l>
         <r>estar<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>set</l>
+        <l>setz</l>
         <r>estar<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
@@ -7274,13 +7455,13 @@
         <r>estar<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <p>
         <l>sotz</l>
         <r>estar<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <p>
         <l>sot</l>
         <r>estar<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
@@ -8070,13 +8251,13 @@
     </e>
     <e>
       <p>
-        <l>setz</l>
+        <l>set</l>
         <r>ser<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>set</l>
+        <l>setz</l>
         <r>ser<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
@@ -8086,19 +8267,19 @@
         <r>ser<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <p>
         <l>sotz</l>
         <r>ser<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <p>
         <l>sot</l>
         <r>ser<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <p>
         <l>sots</l>
         <r>ser<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
@@ -8430,13 +8611,13 @@
     </e>
     <e>
       <p>
-        <l>estatz</l>
+        <l>estat</l>
         <r>estar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>estat</l>
+        <l>estatz</l>
         <r>estar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
@@ -21707,14 +21888,14 @@
   </e> 
   <e r="LR">
       <p>
-        <l>i</l>
+        <l></l>
         <r>ir<s n="vblex"/></r>
       </p>
       <par n="indefi_e__cnjgt"/>
   </e> 
   <e r="LR">
       <p>
-        <l>i</l>
+        <l></l>
         <r>ir<s n="vblex"/></r>
       </p>
       <par n="indefi_o__cnjgt"/>
@@ -25699,28 +25880,28 @@
 
   <e>
       <p>
-        <l>y</l>
+        <l>yi</l>
         <r>yir<s n="vblex"/></r>
       </p>
       <par n="indefi_e__cnjgt"/>
   </e> 
   <e>
       <p>
-        <l>y</l>
+        <l>yi</l>
         <r>yir<s n="vblex"/></r>
       </p>
       <par n="indefi_o__cnjgt"/>
   </e> 
   <e r="LR">
       <p>
-        <l>yi</l>
+        <l>y</l>
         <r>yir<s n="vblex"/></r>
       </p>
       <par n="indefi_e__cnjgt"/>
-  </e> 
+  </e>
   <e r="LR">
       <p>
-        <l>yi</l>
+        <l>y</l>
         <r>yir<s n="vblex"/></r>
       </p>
       <par n="indefi_o__cnjgt"/>
@@ -26119,42 +26300,42 @@
 
   <e>
       <p>
-        <l>ey</l>
+        <l>eyi</l>
         <r>eyir<s n="vblex"/></r>
       </p>
       <par n="indefi_e__cnjgt"/>
   </e> 
   <e>
       <p>
+        <l>eyi</l>
+        <r>eyir<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+  <e r="LR">
+      <p>
+        <l>iy</l>
+        <r>eyir<s n="vblex"/></r>
+      </p>
+      <par n="indefi_e__cnjgt"/>
+  </e> 
+  <e r="LR">
+      <p>
+        <l>iy</l>
+        <r>eyir<s n="vblex"/></r>
+      </p>
+      <par n="indefi_o__cnjgt"/>
+  </e> 
+  <e r="LR">
+      <p>
         <l>ey</l>
         <r>eyir<s n="vblex"/></r>
       </p>
-      <par n="indefi_o__cnjgt"/>
-  </e> 
-  <e r="LR">
-      <p>
-        <l>iy</l>
-        <r>eyir<s n="vblex"/></r>
-      </p>
       <par n="indefi_e__cnjgt"/>
   </e> 
   <e r="LR">
       <p>
-        <l>iy</l>
-        <r>eyir<s n="vblex"/></r>
-      </p>
-      <par n="indefi_o__cnjgt"/>
-  </e> 
-  <e r="LR">
-      <p>
-        <l>eyi</l>
-        <r>eyir<s n="vblex"/></r>
-      </p>
-      <par n="indefi_e__cnjgt"/>
-  </e> 
-  <e r="LR">
-      <p>
-        <l>eyi</l>
+        <l>ey</l>
         <r>eyir<s n="vblex"/></r>
       </p>
       <par n="indefi_o__cnjgt"/>
@@ -27230,28 +27411,28 @@
 
   <e>
       <p>
-        <l>y</l>
+        <l>yi</l>
         <r>yer<s n="vblex"/></r>
       </p>
       <par n="indefi_e__cnjgt"/>
   </e> 
   <e> 
       <p>
-        <l>y</l>
+        <l>yi</l>
         <r>yer<s n="vblex"/></r>
       </p>
       <par n="indefi_o__cnjgt"/>
   </e> 
      <e r="LR"> 
       <p>
-        <l>yi</l>
+        <l>y</l>
         <r>yer<s n="vblex"/></r>
       </p>
       <par n="indefi_e__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
-        <l>yi</l>
+        <l>y</l>
         <r>yer<s n="vblex"/></r>
       </p>
       <par n="indefi_o__cnjgt"/>
@@ -27594,28 +27775,28 @@
 
   <e>
       <p>
-        <l>ey</l>
+        <l>eyi</l>
         <r>eyer<s n="vblex"/></r>
       </p>
       <par n="indefi_e__cnjgt"/>
   </e> 
   <e> 
       <p>
-        <l>ey</l>
+        <l>eyi</l>
         <r>eyer<s n="vblex"/></r>
       </p>
       <par n="indefi_o__cnjgt"/>
   </e> 
      <e r="LR"> 
       <p>
-        <l>eyi</l>
+        <l>ey</l>
         <r>eyer<s n="vblex"/></r>
       </p>
       <par n="indefi_e__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
-        <l>eyi</l>
+        <l>ey</l>
         <r>eyer<s n="vblex"/></r>
       </p>
       <par n="indefi_o__cnjgt"/>
@@ -27630,7 +27811,7 @@
   </e> 
   <e r="LR">
       <p>
-        <l>iyi</l>
+        <l>iy</l>
         <r>eyer<s n="vblex"/></r>
       </p>
       <par n="indefi_o__cnjgt"/>
@@ -28054,28 +28235,28 @@
 
   <e>
       <p>
-        <l>ey</l>
+        <l>eyi</l>
         <r>eyer<s n="vblex"/></r>
       </p>
       <par n="indefi_e__cnjgt"/>
   </e> 
   <e> 
       <p>
-        <l>ey</l>
+        <l>eyi</l>
         <r>eyer<s n="vblex"/></r>
       </p>
       <par n="indefi_o__cnjgt"/>
   </e> 
      <e r="LR"> 
       <p>
-        <l>eyi</l>
+        <l>ey</l>
         <r>eyer<s n="vblex"/></r>
       </p>
       <par n="indefi_e__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
-        <l>eyi</l>
+        <l>ey</l>
         <r>eyer<s n="vblex"/></r>
       </p>
       <par n="indefi_o__cnjgt"/>
@@ -28090,7 +28271,7 @@
   </e> 
   <e r="LR">
       <p>
-        <l>iyi</l>
+        <l>iy</l>
         <r>eyer<s n="vblex"/></r>
       </p>
       <par n="indefi_o__cnjgt"/>
@@ -40359,6 +40540,7 @@
     <e lm="uruguayo"><i>uruguay</i><par n="academic/o__adj"/></e>
     <e lm="usuario"><i>usuari</i><par n="academic/o__adj"/></e>
     <e lm="vacío"><i>vací</i><par n="academic/o__adj"/></e>
+    <e lm="vuedo"><i>vued</i><par n="academic/o__adj"/></e>
     <e lm="vacuno"><i>vacun</i><par n="academic/o__adj"/></e>
     <e lm="vago"><i>vag</i><par n="academic/o__adj"/></e>
     <e lm="valenciano"><i>valencian</i><par n="academic/o__adj"/></e>
@@ -40477,6 +40659,7 @@
     <e lm="luenga"><par n="/l_ll__var"/><i>uenga</i><par n="luenga__n"/></e>
     <e lm="puerta"><i>puerta</i><par n="luenga__n"/></e>
     <e lm="biera"><i>biera</i><par n="luenga__n"/></e>
+    <e lm="enruena"><i>enruena</i><par n="luenga__n"/></e>
       
     <e lm="limite"><i>limite</i><par n="libro__n"/></e>  
     <e lm="frase"><i>frase</i><par n="luenga__n"/></e>      
@@ -40489,7 +40672,8 @@
     <e lm="vesant"><i>ves</i><par n="ves/ant__n"/></e>
     <e lm="vesant" r="LR"><p><l>vers</l><r>ves</r></p><par n="ves/ant__n"/></e>    
     
-    <e lm="personache"><i>personache</i><par n="libro__n"/></e>      
+    <e lm="homenache"><i>homenache</i><par n="libro__n"/></e>
+    <e lm="personache"><i>personache</i><par n="libro__n"/></e>
     <e lm="personache" r="LR"><p><l>presonache</l><r>personache</r></p><par n="libro__n"/></e>    
     <e lm="montache"><i>montache</i><par n="libro__n"/></e>      
     <e lm="desmontache"><i>desmontache</i><par n="libro__n"/></e>      
@@ -40536,6 +40720,7 @@
     <e lm="hiperenlaz" r="LR"><p><l>hiperenlace</l><r>hiperenlaz</r></p><par n="libro__n"/></e>
     <e lm="enlazamiento"><i>enlaza</i><par n="achunta/miento__n"/></e>
     <e lm="enrastre" r="LR"><p><l>enrastre</l><r>enrastre</r></p><par n="libro__n"/></e>
+    <e lm="desenronamiento"><i>desenrona</i><par n="achunta/miento__n"/></e>
     <e lm="cruce"><i>cruce</i><par n="libro__n"/></e>
     
     <e lm="indiz"><i>indi</i><par n="chue/z__n"/></e>    
@@ -42910,7 +43095,8 @@
 <e lm="turbación"><i>turba</i><par n="actua/ción__n"/></e>
 <e lm="uniformización"><i>uniformiza</i><par n="actua/ción__n"/></e>
 <e lm="vehiculación"><i>vehicula</i><par n="actua/ción__n"/></e>
-<e lm="videograbación"><i>videograba</i><par n="actua/ción__n"/></e>
+<e lm="videogravación"><i>videograva</i><par n="actua/ción__n"/></e>
+<e lm="videogravación" r="LR"><p><l>videograba</l><r>videograva</r></p><par n="actua/ción__n"/></e>
 <e lm="amortimiento"><i>amorti</i><par n="achunta/miento__n"/></e>
 <e lm="okupación"><i>okupa</i><par n="actua/ción__n"/></e>
 <e lm="bipolarización"><i>bipolariza</i><par n="actua/ción__n"/></e>
@@ -47441,6 +47627,10 @@
     <e lm="enronar"><p><l>enruen</l><r>enron</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
     <e lm="enronar" r="LR"><i>enron</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
     <e lm="enronar" r="LR"><p><l>enrun</l><r>enron</r></p><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
+    <e lm="desenronar"><i>desenron</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms --><!--check -->
+    <e lm="desenronar"><p><l>desenruen</l><r>desenron</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
+    <e lm="desenronar" r="LR"><i>desenron</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
+    <e lm="desenronar" r="LR"><p><l>desenrun</l><r>desenron</r></p><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
     <e lm="levar" r="LR"><i>lev</i><par n="recomend/ar_nd__vblex"/></e> <!-- non-diphtong forms -->
     <e lm="levar" r="LR"><p><l>liev</l><r>lev</r></p><par n="recomiend/o_d__vblex"/></e> <!-- diphtong forms -->
     <e lm="levar"><par n="/l_ll__var"/><i>ev</i><par n="cant/ar__vblex"/></e> <!-- sin diftongación -->
@@ -55064,6 +55254,7 @@
     <e lm="sindicar"><i>sindi</i><par n="trafu/car__vblex"/></e>
     <e lm="invocar"><i>invo</i><par n="trafu/car__vblex"/></e>
     <e lm="mercar"><i>mer</i><par n="trafu/car__vblex"/></e>
+    <e lm="blocar"><i>blo</i><par n="trafu/car__vblex"/></e>
     <e lm="comprar"><i>compr</i><par n="cant/ar__vblex"/></e>
     <e lm="comprar"><p><l>cromp</l><r>compr</r></p><par n="cant/ar__vblex"/></e>
     <e lm="torturar"><i>tortur</i><par n="cant/ar__vblex"/></e>
@@ -55149,6 +55340,7 @@
     <e lm="deber"><i>deber</i><par n="libro__n"/></e>
     <e lm="poder"><i>poder</i><par n="libro__n"/></e>
     <e lm="convento"><i>convento</i><par n="libro__n"/></e>
+    <e lm="disenyo"><i>disenyo</i><par n="libro__n"/></e>
     <e lm="hombre"><i>hombre</i><par n="libro__n"/></e>
     <e lm="nombre"><i>nombre</i><par n="libro__n"/></e>
     <e lm="dibuixo"><i>dibu</i><par n="/ix_x__var"/><i>o</i><par n="libro__n"/></e>
@@ -55234,6 +55426,7 @@
     <e lm="hora"><i>hora</i><par n="luenga__n"/></e>
     <e lm="ancora"><i>ancora</i><par n="luenga__n"/></e>
     <e lm="bomba"><i>bomba</i><par n="luenga__n"/></e>
+    <e lm="base"><i>base</i><par n="luenga__n"/></e>
     <e lm="clase"><par n="/cl_cll__var"/><i>ase</i><par n="luenga__n"/></e>
     <e lm="plaza"><par n="/pl_pll__var"/><i>aza</i><par n="luenga__n"/></e>
     <e lm="resta"><i>resta</i><par n="luenga__n"/></e>
@@ -55280,6 +55473,8 @@
     <e lm="digrafo"><i>digrafo</i><par n="libro__n"/></e>
     <e lm="momento"><i>momento</i><par n="libro__n"/></e>
     <e lm="momento" r="LR"><p><l>moment</l><r>momento</r></p><par n="libro__n"/></e>
+    <e lm="paragrafo"><i>paragrafo</i><par n="libro__n"/></e>
+    <e lm="paragrafo" r="LR"><p><l>parrafo</l><r>paragrafo</r></p><par n="libro__n"/></e>
     <e lm="detrimento"><i>detrimento</i><par n="libro__n"/></e>
     <e lm="inte"><i>inte</i><par n="libro__n"/></e>
     <e lm="fuego"><i>fuego</i><par n="libro__n"/></e>
@@ -55674,6 +55869,7 @@
     <e lm="gripia"><i>gripia</i><par n="luenga__n"/></e>
     <e lm="gribia"><i>gribia</i><par n="luenga__n"/></e>
     <e lm="periodo"><i>periodo</i><par n="libro__n"/></e>
+    <e lm="tema"><i>tema</i><par n="libro__n"/></e>
     <e lm="sistema"><i>sistema</i><par n="libro__n"/></e>
     <e lm="subsistema"><i>subsistema</i><par n="libro__n"/></e>
     <e lm="traza"><i>traza</i><par n="luenga__n"/></e>
@@ -55967,7 +56163,8 @@
     <e lm="formación"><i>forma</i><par n="actua/ción__n"/></e>
     <e lm="fracción"><i>frac</i><par n="actua/ción__n"/></e>
     <e lm="mención"><i>men</i><par n="actua/ción__n"/></e>
-    <e lm="grabación"><i>graba</i><par n="actua/ción__n"/></e>
+    <e lm="gravación"><i>grava</i><par n="actua/ción__n"/></e>
+    <e lm="gravación" r="LR"><p><l>graba</l><r>grava</r></p><par n="actua/ción__n"/></e>
     <e lm="habitación"><i>habita</i><par n="actua/ción__n"/></e>
     <e lm="identificación"><i>identifica</i><par n="actua/ción__n"/></e>
     <e lm="iluminación"><i>ilumina</i><par n="actua/ción__n"/></e>
@@ -59875,8 +60072,8 @@
     <e lm="encaixar"><i>encaix</i><par n="cant/ar__vblex"/></e>
     <e lm="escuitar"><i>escuit</i><par n="cant/ar__vblex"/></e>
     <e lm="desainar"><i>desain</i><par n="cant/ar__vblex"/></e>
-    <e lm="esbarar"><i>esbar</i><par n="cant/ar__vblex"/></e>
-    <e lm="esbarar" r="LR"><p><l>esvar</l><r>esbar</r></p><par n="cant/ar__vblex"/></e>    
+    <e lm="esvarar"><i>esvar</i><par n="cant/ar__vblex"/></e>
+    <e lm="esvarar" r="LR"><p><l>esbar</l><r>esvar</r></p><par n="cant/ar__vblex"/></e>    
     <e lm="gratar"><i>grat</i><par n="cant/ar__vblex"/></e>
     <e lm="aguaitar"><i>aguait</i><par n="cant/ar__vblex"/></e>
     <e lm="luitar"><par n="/l_ll__var"/><i>uit</i><par n="cant/ar__vblex"/></e>
@@ -59961,7 +60158,8 @@
     <e lm="tardar"><i>tard</i><par n="cant/ar__vblex"/></e>
     <e lm="tintar"><i>tint</i><par n="cant/ar__vblex"/></e>
     <e lm="turrar"><i>turr</i><par n="cant/ar__vblex"/></e>
-    <e lm="viachar"><i>viach</i><par n="cant/ar__vblex"/></e>
+    <e lm="viachar" r="LR"><i>viach</i><par n="cant/ar__vblex"/></e>
+    <e lm="viachiar"><i>viach</i><par n="camb/iar__vblex"/></e>
     <e lm="carranyar"><i>carrany</i><par n="cant/ar__vblex"/></e>
     <e lm="retallar"><i>retall</i><par n="cant/ar__vblex"/></e>    
     <e lm="menazar"><i>mena</i><par n="ca/zar__vblex"/></e>
@@ -60542,9 +60740,9 @@
     <e lm="esviar"><i>esv</i><par n="esp/iar__vblex"/></e>
     <e lm="esviar" r="LR"><p><l>desv</l><r>esv</r></p><par n="esp/iar__vblex"/></e>    
     <e lm="esvarrar"><i>esvarr</i><par n="cant/ar__vblex"/></e>
-    <e lm="esvarrar" r="LR"><p><l>esbarr</l><r>esvarr</r></p><par n="cant/ar__vblex"/></e>
-    <e lm="esvarrar" r="LR"><p><l>desbarr</l><r>esvarr</r></p><par n="cant/ar__vblex"/></e>
-    <e lm="esvarrar" r="LR"><p><l>desvarr</l><r>esvarr</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="esbarrar" r="LR"><p><l>esvarr</l><r>esbarr</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="esbarrar" r="LR"><p><l>desvarr</l><r>esbarr</r></p><par n="cant/ar__vblex"/></e>
+    <e lm="esbarrar" r="LR"><p><l>desbarr</l><r>esbarr</r></p><par n="cant/ar__vblex"/></e>
     <e lm="espiar"><i>esp</i><par n="esp/iar__vblex"/></e>
     <e lm="esquiar"><i>esqu</i><par n="esp/iar__vblex"/></e>
     <e lm="fotografiar"><i>fotograf</i><par n="esp/iar__vblex"/></e>
@@ -60552,6 +60750,10 @@
     <e lm="guiar" r="LR"><p><l>guid</l><r>gui</r></p><par n="cant/ar__vblex"/></e>
     <e lm="telegrafiar"><i>telegraf</i><par n="esp/iar__vblex"/></e>
     <e lm="bloquiar"><par n="/bl_bll__var"/><i>oqu</i><par n="camb/iar__vblex"/></e>
+    <e lm="tuitiar"><i>tuit</i><par n="camb/iar__vblex"/></e>
+    <e lm="tuitiar" r="LR"><p><l>twitt</l><r>tuit</r></p><par n="camb/iar__vblex"/></e>
+    <e lm="tuitar"><i>tuit</i><par n="cant/ar__vblex"/></e>
+    <e lm="tuitar" r="LR"><p><l>twitt</l><r>tuit</r></p><par n="cant/ar__vblex"/></e>
     <e lm="bombardiar"><i>bombard</i><par n="camb/iar__vblex"/></e>
     <e lm="bofetiar"><i>bofet</i><par n="camb/iar__vblex"/></e>
     <e lm="vaciar"><i>vac</i><par n="camb/iar__vblex"/></e>
@@ -60853,10 +61055,10 @@
     <e lm="destruir"><i>destru</i><par n="inclu/ir__vblex"/></e>
     <e lm="dirichir"><i>dirich</i><par n="dirich/ir__vblex"/></e>
     <e lm="exichir"><i>exich</i><par n="dirich/ir__vblex"/></e>
-    <e lm="exichir" r="LR"><p><l>desich</l><r>exich</r></p><par n="viv/ir__vblex"/></e>
-    <e lm="exichir" r="LR"><p><l>esich</l><r>exich</r></p><par n="viv/ir__vblex"/></e>
-    <e lm="exichir" r="LR"><p><l>esix</l><r>exich</r></p><par n="viv/ir__vblex"/></e>
-    <e lm="exichir" r="LR"><p><l>desix</l><r>exich</r></p><par n="viv/ir__vblex"/></e>
+    <e lm="exichir" r="LR"><p><l>desich</l><r>exich</r></p><par n="dirich/ir__vblex"/></e>
+    <e lm="exichir" r="LR"><p><l>esich</l><r>exich</r></p><par n="dirich/ir__vblex"/></e>
+    <e lm="exichir" r="LR"><p><l>esix</l><r>exich</r></p><par n="dirich/ir__vblex"/></e>
+    <e lm="exichir" r="LR"><p><l>desix</l><r>exich</r></p><par n="dirich/ir__vblex"/></e>
     <e lm="distinguir"><i>distingu</i><par n="viv/ir__vblex"/></e>
     <e lm="distribuir"><i>distribu</i><par n="inclu/ir__vblex"/></e>
     <e lm="redistribuir"><i>redistribu</i><par n="inclu/ir__vblex"/></e>
@@ -60943,6 +61145,7 @@
     <e lm="esclafar"><i>esclaf</i><par n="cant/ar__vblex"/></e>
     <e lm="esclatar"><i>esclat</i><par n="cant/ar__vblex"/></e>
     <e lm="espantar"><i>espant</i><par n="cant/ar__vblex"/></e>
+    <e lm="esbafar"><i>esbaf</i><par n="cant/ar__vblex"/></e>
     <e lm="avantar"><i>avant</i><par n="cant/ar__vblex"/></e>
     <e lm="avantar" r="LR"><p><l>vant</l><r>avant</r></p><par n="cant/ar__vblex"/></e>
     <e lm="estirar"><i>estir</i><par n="cant/ar__vblex"/></e>
@@ -62445,6 +62648,7 @@
     <e lm="luna"><par n="/l_ll__var"/><i>una</i><par n="luenga__n"/></e>
     <e lm="sol"><i>sol</i><par n="libro__n"/></e>
     <e lm="mesache"><i>mesach</i><par n="mesach/e__n"/></e>
+    <e lm="viache"><i>viache</i><par n="libro__n"/></e>
     <e lm="silencio"><i>silencio</i><par n="libro__n"/></e>
     <e lm="club"><i>club</i><par n="libro__n"/></e>
     <e lm="leixanía"><par n="/l_ll__var"/><i>eixanía</i><par n="luenga__n"/></e>
@@ -62733,6 +62937,7 @@
     <e lm="rabanyo"><i>rabanyo</i><par n="libro__n"/></e>
     <e lm="rabanyo" r="LR"><p><l>rebanyo</l><r>rabanyo</r></p><par n="libro__n"/></e>        
     <e lm="garrampa"><i>garrampa</i><par n="luenga__n"/></e>
+    <e lm="lampa"><i>lampa</i><par n="luenga__n"/></e>
     <e lm="raqueta"><i>raqueta</i><par n="luenga__n"/></e>
     <e lm="rata"><i>rata</i><par n="luenga__n"/></e>
     <e lm="raya"><i>raya</i><par n="luenga__n"/></e>
@@ -62779,7 +62984,7 @@
     <e lm="caravana"><i>caravana</i><par n="luenga__n"/></e>
     <e lm="ruptura"><i>ruptura</i><par n="luenga__n"/></e>
     <e lm="arna"><i>arna</i><par n="luenga__n"/></e>
-    <e lm="ruta"><i>ruta</i><par n="luenga__n"/></e>
+    <e lm="rota"><i>rota</i><par n="luenga__n"/></e>
     <e lm="zapatería"><i>zapatería</i><par n="luenga__n"/></e>
     <e lm="zapatilla"><i>zapatilla</i><par n="luenga__n"/></e>
     <e lm="sacarina"><i>sacarina</i><par n="luenga__n"/></e>
