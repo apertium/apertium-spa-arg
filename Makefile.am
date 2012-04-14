@@ -15,8 +15,7 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
 	$(PREFIX1).autopgen.bin $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
 	$(PREFIX2).autogen.bin $(PREFIX2).autopgen.bin modes 
 
-TARGETS = $(TARGETS_COMMON) trules-$(PREFIX1).bin trules-$(PREFIX2).bin \
-	trules-$(PREFIX1).xml trules-$(PREFIX2).xml
+TARGETS = $(TARGETS_COMMON) $(PREFIX1).t1x.bin $(PREFIX2).t1x.bin 
 
 
 .deps/commonbil.dix: $(BASENAME).$(PREFIX1).dix
@@ -132,26 +131,20 @@ $(PREFVAR2)$(PREFIX2).autogen.bin: .deps/$(PREFVAR2)$(LANG1).dix
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@
 
-trules-$(PREFIX1).bin: $(BASENAME).trules-$(PREFIX1).xml
-	apertium-validate-transfer $(BASENAME).trules-$(PREFIX1).xml
-	apertium-preprocess-transfer $(BASENAME).trules-$(PREFIX1).xml \
-	                             trules-$(PREFIX1).bin
+$(PREFIX1).t1x.bin: $(BASENAME).$(PREFIX1).t1x
+	apertium-validate-transfer $(BASENAME).$(PREFIX1).t1x
+	apertium-preprocess-transfer $(BASENAME).$(PREFIX1).t1x \
+	                             $(PREFIX1).t1x.bin
 
-trules-$(PREFIX2).bin: $(BASENAME).trules-$(PREFIX2).xml
-	apertium-validate-transfer $(BASENAME).trules-$(PREFIX2).xml
-	apertium-preprocess-transfer $(BASENAME).trules-$(PREFIX2).xml \
-	                             trules-$(PREFIX2).bin
-
-trules-$(PREFIX1).xml: $(BASENAME).trules-$(PREFIX1).xml
-	ln -s $(BASENAME).trules-$(PREFIX1).xml trules-$(PREFIX1).xml
-
-trules-$(PREFIX2).xml: $(BASENAME).trules-$(PREFIX2).xml
-	ln -s $(BASENAME).trules-$(PREFIX2).xml trules-$(PREFIX2).xml
+$(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
+	apertium-validate-transfer $(BASENAME).$(PREFIX2).t1x
+	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t1x \
+	                             $(PREFIX2).t1x.bin
 
 EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
            $(BASENAME).$(LANG2).dix $(BASENAME).$(LANG1).tsx \
-           $(BASENAME).trules-$(PREFIX2).xml $(BASENAME).trules-$(PREFIX1).xml $(PREFIX1).prob $(PREFIX2).prob \
+           $(BASENAME).$(PREFIX2).t1x $(BASENAME).$(PREFIX1).t1x $(PREFIX1).prob $(PREFIX2).prob \
            modes.xml translate-to-default-equivalent.xsl alt.xsl filter.xsl filter.sh \
            $(BASENAME).$(LANG1).acx $(BASENAME).$(LANG2).acx
 
@@ -175,10 +168,10 @@ apertium_es_an_DATA=$(PREFVAR1)$(PREFIX1).automorf.bin $(PREFVAR1)$(PREFIX2).aut
 	$(PREFVAR1)$(PREFIX1).autogen.bin $(PREFVAR1)$(PREFIX2).autogen.bin \
 	$(PREFIX1).autopgen.bin $(PREFIX2).autopgen.bin \
 	$(PREFIX1).prob $(PREFIX2).prob \
-	trules-$(PREFIX2).xml  \
-	trules-$(PREFIX2).bin \
-	trules-$(PREFIX1).xml  \
-	trules-$(PREFIX1).bin \
+	$(BASENAME).$(PREFIX2).t1x  \
+	$(PREFIX2).t1x.bin \
+	$(BASENAME).$(PREFIX1).t1x  \
+	$(PREFIX1).t1x.bin \
 	$(PREFIX1).mode \
 	$(PREFVAR1)$(PREFIX2).mode 
 
@@ -187,8 +180,8 @@ install-data-local:
 	cp *.mode modes/
 	$(INSTALL_DATA) $(PREFVAR1)$(PREFIX2).mode $(DESTDIR)$(apertium_es_modesdir)
 	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_es_modesdir)
-	$(INSTALL_DATA) $(BASENAME).trules-$(PREFIX1).xml $(DESTDIR)$(apertium_es_andir)
-	$(INSTALL_DATA) $(BASENAME).trules-$(PREFIX2).xml $(DESTDIR)$(apertium_es_andir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_es_andir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_es_andir)
 
 CLEANFILES = -rf $(TARGETS) modes .deps/ 
 
