@@ -4451,12 +4451,14 @@
         <r><s n="ifi"/><s n="p2"/><s n="sg"/></r>
       </p>
     </e>
+    <!--  dialectal (cheso) version commented to avoid tagger errors 
     <e r="LR">
       <p>
         <l>é</l>
         <r><s n="ifi"/><s n="p3"/><s n="sg"/></r>
       </p>
    </e>
+   -->
     <e>
       <p>
         <l>emos</l>
@@ -14404,12 +14406,14 @@
         <r>ar<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r>
       </p>
    </e>
+   <!--  cheso commentd  to avoid tagger errors  to decomment if its solvable in tsx
     <e r="LR">
       <p>
         <l>ie</l>
         <r>ar<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r>
       </p>
    </e>
+   -->
     <e>
       <p>
         <l>iemos</l>
@@ -58924,7 +58928,7 @@
     <e lm="glarimoso"><i>glarimos</i><par n="alt/o__adj_adv"/></e>
     <e lm="laminero"><i>lamin</i><par n="verdad/ero__adj_adv"/></e>
     <e lm="largo"><i>larg</i><par n="academic/o__adj_adv"/></e>
-    <e lm="luengo"><i>lueng</i><par n="academic/o__adj_adv"/></e>
+    <!-- <e lm="luengo"><i>lueng</i><par n="academic/o__adj_adv"/></e> --> <!-- archaic in aragonese, and gives problems with tagger, comment until solved -->
     <e lm="labrador"><i>labrador</i><par n="opresor__adj_adv"/></e>
     <e lm="leyible"><i>leyible</i><par n="social__adj_adv"/></e>
     <e lm="leyal"><i>leyal</i><par n="social__adj_adv"/></e>
