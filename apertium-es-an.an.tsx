@@ -1567,12 +1567,16 @@
       </label-set>
      </enforce-after> <!--Afegit 11/11/05 MG -->
   </enforce-rules>
-
+  
   <preferences>
    <prefer tags="vblex.pii.p3.sg"/>
    <prefer tags="vbser.pii.p3.sg"/>
    <prefer tags="vbhaver.pii.p3.sg"/>
    <prefer tags="vbmod.pii.p3.sg"/>
+   <prefer tags="vblex.pii.p3.pl"/>
+   <prefer tags="vbser.pii.p3.pl"/>
+   <prefer tags="vbhaver.pii.p3.pl"/>
+   <prefer tags="vbmod.pii.p3.pl"/>   
    <prefer tags="vblex.prs.p3.sg"/>
    <prefer tags="vbser.prs.p3.sg"/>
    <prefer tags="vbhaver.prs.p3.sg"/>
@@ -1581,14 +1585,30 @@
    <prefer tags="vbser.cni.p3.sg"/>
    <prefer tags="vbhaver.cni.p3.sg"/>
    <prefer tags="vbmod.cni.p3.sg"/>
+   <prefer tags="vblex.cni.p3.pl"/>
+   <prefer tags="vbser.cni.p3.pl"/>
+   <prefer tags="vbhaver.cni.p3.pl"/>
+   <prefer tags="vbmod.cni.p3.pl"/>      
    <prefer tags="vblex.pis.p3.sg"/>
    <prefer tags="vbser.pis.p3.sg"/>
    <prefer tags="vbhaver.pis.p3.sg"/>
    <prefer tags="vbmod.pis.p3.sg"/>
+   <prefer tags="vblex.pis.p3.pl"/>
+   <prefer tags="vbser.pis.p3.pl"/>
+   <prefer tags="vbhaver.pis.p3.pl"/>
+   <prefer tags="vbmod.pis.p3.pl"/>
    <prefer tags="vblex.pri.p3.sg"/>
    <prefer tags="vbser.pri.p3.sg"/>
    <prefer tags="vbhaver.pri.p3.sg"/>
    <prefer tags="vbmod.pri.p3.sg"/>
+   <prefer tags="vblex.ifi.p1.pl"/>
+   <prefer tags="vbser.ifi.p1.pl"/>
+   <prefer tags="vbhaver.ifi.p1.pl"/>
+   <prefer tags="vbmod.ifi.p1.pl"/>
+   <prefer tags="vblex.ifi.p1.sg"/>
+   <prefer tags="vbser.ifi.p1.sg"/>
+   <prefer tags="vbhaver.ifi.p1.sg"/>
+   <prefer tags="vbmod.ifi.p1.sg"/>   
    <prefer tags="vblex.inf"/>
    <prefer tags="vbser.inf"/>
    <prefer tags="vbhaver.inf"/>
