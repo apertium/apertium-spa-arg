@@ -4451,14 +4451,14 @@
         <r><s n="ifi"/><s n="p2"/><s n="sg"/></r>
       </p>
     </e>
-    <!--  dialectal (cheso) version commented to avoid tagger errors 
+
     <e r="LR">
       <p>
         <l>é</l>
         <r><s n="ifi"/><s n="p3"/><s n="sg"/></r>
       </p>
    </e>
-   -->
+
     <e>
       <p>
         <l>emos</l>
@@ -6294,20 +6294,21 @@
       </p>
       <par n="S__cantatz"/> 
     </e>    
-    
-   <e r="LR">
+<!-- ignore non-normative imperative in r to avoid tagger problems -->
+   <e r="LR" i="yes">
       <p>
         <l>ar</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <p>
         <l>ar</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
       <par n="S__cantatz"/> 
     </e>    
+    
 </pardef>
 
 
@@ -6460,14 +6461,14 @@
       </p>
       <par n="S__cantatz"/> 
     </e>    
-  
-   <e r="LR">
+  <!-- ignore non-normative imperative in r to avoid tagger problems -->
+   <e r="LR" i="yes">
       <p>
         <l>er</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <p>
         <l>er</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
@@ -6635,20 +6636,21 @@
       </p>
       <par n="S__cantatz"/> 
     </e>    
-    
-   <e r="LR">
+    <!-- ignore non-normative imperative in r to avoid tagger problems -->
+   <e r="LR" i="yes">
       <p>
         <l>ir</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <p>
         <l>ir</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
       <par n="S__cantatz"/> 
     </e>    
+    
 </pardef>
 
 <pardef n="imp_viv/ítz__cnjgt"> <!-- se fa servir nomas en rematanzas que tienga hiato p. ex. freítz -->
@@ -6693,20 +6695,21 @@
       </p>
       <par n="S__cantatz"/> 
     </e>    
-    
-   <e r="LR">
+    <!-- ignore non-normative imperative in r to avoid tagger problems -->
+   <e r="LR" i="yes">
       <p>
         <l>ír</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <p>
         <l>ír</l>
         <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
       <par n="S__cantatz"/> 
     </e>    
+    
 </pardef>
 
   <pardef n="/estar__vbser">
@@ -7451,12 +7454,14 @@
         <r>estar<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
-    <e r="LR">
+    <!-- ignore non-normative imperative in r to avoid tagger problems -->
+    <e r="LR" i="yes">
       <p>
         <l>ser</l>
         <r>estar<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
+    
     <e r="LR" i="yes">
       <p>
         <l>sotz</l>
@@ -8617,13 +8622,14 @@
         <r>estar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <p>
         <l>estatz</l>
         <r>estar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
-    <e r="LR">
+    <!-- ignore non-normative imperative in r to avoid tagger problems -->
+    <e r="LR" i="yes">
       <p>
         <l>estar</l>
         <r>estar<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
@@ -14406,14 +14412,14 @@
         <r>ar<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r>
       </p>
    </e>
-   <!--  cheso commentd  to avoid tagger errors  to decomment if its solvable in tsx
+   
     <e r="LR">
       <p>
         <l>ie</l>
         <r>ar<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r>
       </p>
    </e>
-   -->
+   
     <e>
       <p>
         <l>iemos</l>
