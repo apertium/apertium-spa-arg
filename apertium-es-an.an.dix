@@ -1301,7 +1301,7 @@
     <e>
       <p>
         <l>-sen</l>
-        <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+        <r><j/>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
       </p>
     </e>
   </pardef>    
@@ -9197,31 +9197,31 @@
     </pardef>    
 
 <pardef n="h/aber__vbhaver">  <!-- I keep this paradigm for analyzing old orthography forms (it will be used only in the LR direction) -->
-  <e>
+  <e i="yes"> <!-- saco ta privar problemas de desambigación -->
       <p>
         <l>e</l>
         <r>aber<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e r="LR"  i="yes"> <!-- saco ta privar problemas de desambigación -->
       <p>
         <l>ei</l>
         <r>aber<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
       </p>
     </e>
-    <e>
+    <e i="yes"> <!-- saco ta privar problemas de desambigación -->
       <p>
         <l>as</l>
         <r>aber<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
       </p>
     </e>
-    <e>
+    <e i="yes"> <!-- saco ta privar problemas de desambigación -->
       <p>
         <l>a</l>
         <r>aber<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
-    <e>
+    <e  i="yes"> <!-- saco ta privar problemas de desambigación -->
       <p>
         <l>an</l>
         <r>aber<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
@@ -14524,7 +14524,7 @@
         <r>ar<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">  <!-- comento ta privar errors d'etiquetache -->
       <p>
         <l>e</l>
         <r>ar<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r>
@@ -52848,12 +52848,12 @@
     <e lm="Castiella y Leyón" r="LR"><i>Castiella<b/></i><par n="/y_e__var"/><p><l><b/>Lión</l><r><b/>Leyón</r></p><par n="Afganistán__np"/></e>
     <e lm="Castiella y Leyón" r="LR"><i>Castiella<b/></i><par n="/y_e__var"/><p><l><b/>León</l><r><b/>Leyón</r></p><par n="Afganistán__np"/></e>
     <e lm="Castiella-Leyón"><i>Castiella-Leyón</i><par n="Afganistán__np"/></e>
-    <e lm="Castiella-Leyón" r="LR"><p><l>Castiella-Leyón</l><r>Castiella-Leyón</r></p></e>
-    <e lm="Castiella-Leyón" r="LR"><p><l>Castiella-León</l><r>Castiella-Leyón</r></p></e>
-    <e lm="Castiella-Leyón" r="LR"><p><l>Castiella-Lión</l><r>Castiella-Leyón</r></p></e>
-    <e lm="Castiella-Leyón" r="LR"><p><l>Castilla-Leyón</l><r>Castiella-Leyón</r></p></e>
-    <e lm="Castiella-Leyón" r="LR"><p><l>Castilla-León</l><r>Castiella-Leyón</r></p></e>
-    <e lm="Castiella-Leyón" r="LR"><p><l>Castilla-Lión</l><r>Castiella-Leyón</r></p></e>
+    <e lm="Castiella-Leyón" r="LR"><p><l>Castiella-Leyón</l><r>Castiella-Leyón</r></p><par n="Afganistán__np"/></e>
+    <e lm="Castiella-Leyón" r="LR"><p><l>Castiella-León</l><r>Castiella-Leyón</r></p><par n="Afganistán__np"/></e>
+    <e lm="Castiella-Leyón" r="LR"><p><l>Castiella-Lión</l><r>Castiella-Leyón</r></p><par n="Afganistán__np"/></e>
+    <e lm="Castiella-Leyón" r="LR"><p><l>Castilla-Leyón</l><r>Castiella-Leyón</r></p><par n="Afganistán__np"/></e>
+    <e lm="Castiella-Leyón" r="LR"><p><l>Castilla-León</l><r>Castiella-Leyón</r></p><par n="Afganistán__np"/></e>
+    <e lm="Castiella-Leyón" r="LR"><p><l>Castilla-Lión</l><r>Castiella-Leyón</r></p><par n="Afganistán__np"/></e>
 
     <e lm="Coruña"><i>Coruña</i><par n="Afganistán__np"/></e>
     <e lm="Trípoli"><i>Trípoli</i><par n="Afganistán__np"/></e>

@@ -866,7 +866,8 @@
     <e><i>deplorable<s n="adj"/></i></e>
     <e><p><l>deportivo<s n="adj"/></l><r>esportivo<s n="adj"/></r></p></e>
     <e><p><l>derechista<s n="adj"/></l><r>dreitista<s n="adj"/></r></p></e>
-    <e><p><l>derecho<s n="adj"/></l><r>dreito<s n="adj"/></r></p></e>
+    <e srl="derecho D"><p><l>derecho<s n="adj"/></l><r>dreito<s n="adj"/></r></p></e>
+    <e srl="directo"><p><l>directo<s n="adj"/></l><r>dreito<s n="adj"/></r></p></e>
     <e><p><l>desaconsejable<s n="adj"/></l><r>desaconsellable<s n="adj"/></r></p></e>
     <e><i>desagradable<s n="adj"/></i></e>
     <e><p><l>desastroso<s n="adj"/></l><r>desastroso<s n="adj"/></r></p></e>
@@ -4765,7 +4766,6 @@
 <e><p><l>desprovisto<s n="adj"/></l><r>desprovisto<s n="adj"/></r></p></e>
 <e><p><l>diminuto<s n="adj"/></l><r>diminuto<s n="adj"/></r></p></e>
 <e r="RL"><p><l>directo<s n="adj"/></l><r>directo<s n="adj"/></r></p></e>
-<e><p><l>directo<s n="adj"/></l><r>dreito<s n="adj"/></r></p></e>
 <e><p><l>discreto<s n="adj"/></l><r>discreto<s n="adj"/></r></p></e>
 <e><p><l>distinto<s n="adj"/></l><r>distinto<s n="adj"/></r></p></e>
 <e><p><l>docto<s n="adj"/></l><r>docto<s n="adj"/></r></p></e>
