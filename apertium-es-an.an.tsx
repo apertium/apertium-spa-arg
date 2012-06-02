@@ -123,6 +123,12 @@
   <def-label name="VA"><!--Afegit 10/11/05 MG -->
     <tags-item lemma="ir" tags="vblex.pri.*"/>
   </def-label>
+  <def-label name="UNA_UNAS_UNO_VBLEX"><!--Afegit 01/06/12 JPM -->
+    <tags-item lemma="unir" tags="vblex.prs.p1.sg"/>
+    <tags-item lemma="unir" tags="vblex.prs.p2.sg"/>
+    <tags-item lemma="unir" tags="vblex.prs.p3.sg"/>
+    <tags-item lemma="unir" tags="vblex.pri.p1.sg"/>
+  </def-label>
   <def-label name="VLEXINF">
     <tags-item tags="vblex.inf"/>
   </def-label>
@@ -693,6 +699,10 @@
     </label-sequence>
     <label-sequence>
       <label-item label="PREP"/>
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PREP"/>
       <label-item label="VLEXIPI"/>
     </label-sequence>
     <label-sequence>
@@ -767,6 +777,10 @@
       <label-item label="DETM"/>
       <label-item label="VA"/>
     </label-sequence>
+     <label-sequence>
+      <label-item label="DETM"/>
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
     <label-sequence>
       <label-item label="DETM"/>
       <label-item label="VLEXIPI"/>
@@ -855,6 +869,10 @@
       <label-item label="DETF"/>
       <label-item label="VA"/>
     </label-sequence>
+     <label-sequence>
+      <label-item label="DETF"/>
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>    
     <label-sequence>
       <label-item label="DETF"/>
       <label-item label="VLEXIPI"/>
@@ -942,6 +960,10 @@
     <label-sequence>
       <label-item label="DETMF"/>
       <label-item label="VA"/>
+    </label-sequence>
+     <label-sequence>
+      <label-item label="DETMF"/>
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
     </label-sequence>
     <label-sequence>
       <label-item label="DETMF"/>
@@ -1213,6 +1235,10 @@
     </label-sequence>
     <label-sequence>
       <label-item label="VLEXIMP"/>
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXIMP"/>
       <label-item label="VLEXIPI"/>
     </label-sequence>
     <label-sequence>
@@ -1295,6 +1321,10 @@
       <label-item label="VSERIMP"/>
       <label-item label="VA"/>
     </label-sequence>
+     <label-sequence>
+      <label-item label="VSERIMP"/>
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
     <label-sequence>
       <label-item label="VSERIMP"/>
       <label-item label="VLEXIPI"/>
@@ -1370,6 +1400,10 @@
     <label-sequence>
       <label-item label="VMODALIMP"/>
       <label-item label="VA"/>
+    </label-sequence>
+     <label-sequence>
+      <label-item label="VMODALIMP"/>
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
     </label-sequence>
     <label-sequence>
       <label-item label="VMODALIMP"/>
@@ -1527,8 +1561,122 @@
       <label-item label="VLEXIMP"/>
       <label-item label="VSERIMP"/>
     </label-sequence>
-
-
+    <label-sequence>
+      <label-item label="VA"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence> 
+    <label-sequence>
+      <label-item label="UNA_UNAS_UNO_VBLEX"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXINF"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXGER"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXPARTPI"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXPFCI"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXIPI"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXSUBJ"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXIMP"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERINF"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERGER"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERPARTPI"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERPFCI"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERIPI"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERSUBJ"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERIMP"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+     <label-sequence>
+      <label-item label="VHABERINF"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERGER"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERPARTPI"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERPFCI"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERIPI"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VHABERSUBJ"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+         <label-sequence>
+      <label-item label="VMODALINF"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALGER"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALPARTPI"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALPFCI"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALIPI"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALSUBJ"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALIMP"/><!--Adhibiu 01/06/12 JPM -->
+      <label-item label="UNA_UNAS_UNO_VBLEX"/>
+    </label-sequence>
   </forbid>
 
   <enforce-rules>
@@ -1601,6 +1749,7 @@
    <prefer tags="vbser.pri.p3.sg"/>
    <prefer tags="vbhaver.pri.p3.sg"/>
    <prefer tags="vbmod.pri.p3.sg"/>
+   <prefer tags="vbser.pri.p3.pl"/>
    <prefer tags="vblex.ifi.p1.pl"/>
    <prefer tags="vbser.ifi.p1.pl"/>
    <prefer tags="vbhaver.ifi.p1.pl"/>

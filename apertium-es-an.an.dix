@@ -5075,7 +5075,7 @@
         <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
       </p>
     </e>
-   <e r="LR">
+   <e r="LR" i="yes">
       <p>
         <l>ices</l>
         <r><s n="pis"/><s n="p2"/><s n="pl"/></r>
@@ -39618,7 +39618,7 @@
     <e lm="poder"><i>p</i><par n="p/oder__vbmod"/></e>
     <e lm="tener"><i>t</i><par n="t/ener__vblex"/></e>
     <e lm="venir"><i>v</i><par n="v/enir__vblex"/></e>
-    <e lm="venir" r="LR"><p><l>b</l><r>v</r></p><par n="v/enir__vblex"/></e> 
+    <e lm="venir" r="LR" i="yes"><p><l>b</l><r>v</r></p><par n="v/enir__vblex"/></e> 
     <e lm="advenir"><i>adv</i><par n="v/enir__vblex"/></e>
     <e lm="atorgar"><i>atorg</i><par n="cant/ar__vblex"/></e>
 
