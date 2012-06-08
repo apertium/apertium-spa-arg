@@ -93,6 +93,10 @@
       <cat-item lemma="bien" tags="preadv"/>
     </def-cat>
 
+    <def-cat n="ir">
+      <cat-item lemma="ir" tags="vblex.pri.*"/>
+    </def-cat>
+    
     <def-cat n="de">   	  	  
       <cat-item lemma="de" tags="pr"/>
     </def-cat>
@@ -426,8 +430,138 @@
     <def-var n="interrogativa"/>
     <def-var n="exclamativa"/>
   </section-def-vars>
+  
+  <section-def-lists>
+    <def-list n="verbs_moviment">
+      <list-item v="ir"/>
+      <list-item v="tresladar"/>
+      <list-item v="viachiar"/>
+      <list-item v="emigrar"/>
+      <list-item v="immigrar"/>
+      <list-item v="mover"/>
+      <list-item v="venir"/>
+      <list-item v="salir"/>
+      <list-item v="surtir"/>
+      <list-item v="dentrar"/>
+      <list-item v="puyar"/>
+      <list-item v="baixar"/>
+      <list-item v="caminar"/>
+      <list-item v="dirichir"/>
+      <list-item v="endrezar"/>
+      <list-item v="amanar"/>      
+      <list-item v="correr"/>
+      <list-item v="levar"/>
+      <list-item v="tornar"/>
+      <list-item v="regresar"/>
+      <list-item v="arribar"/>
+      <list-item v="plegar"/>
+      <list-item v="marchar"/>
+      <list-item v="ninviar"/>
+      <list-item v="mandar"/>
+    </def-list>
+
+      <def-list n="verbs_estat">
+      <list-item v="convivir"/>
+      <list-item v="vivir"/>
+      <list-item v="actuar"/>
+      <list-item v="alochar"/>
+      <list-item v="asentar"/>
+      <list-item v="buscar"/>
+      <list-item v="celebrar"/>
+      <list-item v="centralizar"/>
+      <list-item v="colocar"/>
+      <list-item v="concentrar"/>
+      <list-item v="desembocar"/>
+      <list-item v="endinsar"/>
+      <list-item v="establir"/>
+      <list-item v="estrenar"/>
+      <list-item v="excavar"/>
+      <list-item v="exercir"/>
+      <list-item v="existir"/>
+      <list-item v="exposar"/>
+      <list-item v="ficar"/>
+      <list-item v="inaugurar"/>
+      <list-item v="incluir"/>
+      <list-item v="indagar"/>
+      <list-item v="ingresar"/>
+      <list-item v="colar"/>
+      <list-item v="calar"/>
+      <list-item v="instalar"/>
+      <list-item v="introducir"/>
+      <list-item v="irromper"/>
+      <list-item v="penetrar"/>
+      <list-item v="pescar"/>
+      <list-item v="publicar"/>
+      <list-item v="reunir"/>
+      <list-item v="remanir"/>
+      <list-item v="treballar"/>
+      <list-item v="trobar"/>
+      <list-item v="ubicar"/> 
+      <list-item v="estudiar"/> 
+      <list-item v="retener"/> 
+    </def-list>
+  </section-def-lists>
 
   <section-def-macros>
+  <def-macro n="f_tipusverb" npar="1">
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="a_val"/>
+	      <lit-tag v="v2"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="valverb"/>
+	    <lit v="2"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+<!--	<when>
+	  <test>
+	    <in caseless="yes">
+	      <clip pos="1" side="sl" part="lem"/>
+	      <list n="per_de"/>
+	    </in>
+	  </test>
+	  <let>
+	    <var n="tipusverb"/>
+	    <lit v="vbper_de"/>
+	  </let>
+	</when>
+	-->
+	<when>
+	  <test>
+	    <in caseless="yes">
+	      <clip pos="1" side="sl" part="lem"/>
+	      <list n="verbs_estat"/>
+	    </in>
+	  </test>
+	  <let>
+	    <var n="tipusverb"/>
+	    <lit v="vba_en"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <in caseless="yes">
+	      <clip pos="1" side="sl" part="lem"/>
+	      <list n="verbs_moviment"/>
+	    </in>
+	  </test>
+	  <let>
+	    <var n="tipusverb"/>
+	    <lit v="verbmov"/>
+	  </let>
+	</when>
+      </choose>
+      <call-macro n="f_serhi">
+	<with-param pos="1"/>
+      </call-macro>
+    </def-macro>
+
     <def-macro n="f_hi" npar="1">
       <choose>
 	<when>
@@ -450,16 +584,16 @@
 	<when>
 	  <test>
 	    <and>
-	      <or>
+	      <!-- <or> -->
 		<equal>
 		  <clip pos="1" side="sl" part="a_verb"/>
 		  <lit-tag v="vbser"/>
 		</equal>
-		<equal>
+<!--		<equal>
 		  <clip pos="1" side="sl" part="lem"/>
-		  <lit v="restar"/>
+		  <lit v="quedar"/>
 		</equal>
-	      </or>
+	      </or>-->
 	      <equal>
 		<var n="bi"/>
 		<lit v="yes"/>
@@ -482,7 +616,7 @@
       </let>
     </def-macro>
 
-    <def-macro n="f_outverb2" npar="2"><!--Comprueba si hay pronombres que se traducen por nada de catalán a español según el diccionario ("hi" y "en") y envía el verbo con o sin pronombres de acuerdo con esta comprobación. Esta función es para el caso de verbo + 1 enclítico. Función necesaria para el correcto colocamiento de la cola en multipalabras con flexión intercalada. -->
+    <def-macro n="f_outverb2" npar="2"><!--Comprueba si hay pronombres que se traducen por nada de aragonés a español según el diccionario ("bi" y "en") y envía el verbo con o sin pronombres de acuerdo con esta comprobación. Esta función es para el caso de verbo + 1 enclítico. Función necesaria para el correcto colocamiento de la cola en multipalabras con flexión intercalada. -->
       <choose>
 	<when>
 	  <test>
@@ -638,6 +772,7 @@
 	</when>     	    
       </choose>
     </def-macro>
+    
     <def-macro n="f_concord1" npar="1">
       
       <choose><!--To determine value of variables of gender and
@@ -4967,10 +5102,9 @@
     </rule>
 
 
-<!--
-    <rule> <!-x- REGLA: PRETÈRIT INDEFINIT --><!-- Para traducir "vaig fer" por "hice" -x->
+    <rule> <!-- x- REGLA: PRETÈRIT INDEFINIT --><!-- Para traducir "vas fer" por "hiciste" -->
       <pattern>
-	<pattern-item n="anar"/>
+	<pattern-item n="ir"/>
 	<pattern-item n="inf"/>
       </pattern>
       <action>
@@ -4979,7 +5113,7 @@
 	</call-macro>
 	<out>
 	  <lu>
-	    <get-case-from pos="1">            
+	    <get-case-from pos="1">
 	      <clip pos="2" side="tl" part="lemh"/>
 	    </get-case-from>
 	    <clip pos="2" side="tl" part="a_verb"/>
@@ -4987,8 +5121,8 @@
 	    <clip pos="1" side="tl" part="persona"/>
 	    <clip pos="1" side="tl" part="nbr"/>
 	    <clip pos="2" side="tl" part="lemq"/>    
-	  </lu>  
-	</out>  
+	  </lu>
+	</out>
 	<call-macro n="f_bcond">
 	  <with-param pos="1"/>
 	</call-macro>
@@ -4997,9 +5131,9 @@
 
 
 
-    <rule> <!-x- REGLA: PRETÈRIT INDEFINIT + ENCLÍTIC --><!-- Para traducir "van acabar-se" por "se acabaron" -x->
+    <rule> <!--- REGLA: PRETÈRIT INDEFINIT + ENCLÍTIC --><!-- Para traducir "van acabar-se" por "se acabaron" -->
       <pattern>
-	<pattern-item n="anar"/>
+	<pattern-item n="ir"/>
 	<pattern-item n="inf"/>
 	<pattern-item n="prnenc"/>
       </pattern>
@@ -5012,7 +5146,7 @@
 	    <test>
 	      <not>
 		<equal>
-		  <clip pos="3" side="tl" part="whole"/><!-x-Comprueba que el pronombre no se traduzca por nada (pronombres "bi" y "en" -x->
+		  <clip pos="3" side="tl" part="whole"/><!---Comprueba que el pronombre no se traduzca por nada (pronombres "bi" y "en" -->
 		  <lit v=""/>
 		</equal>
 	      </not>
@@ -5036,7 +5170,7 @@
 	      </lu> 
 	    </out>
 	  </when>
-	  <otherwise><!-x-En caso de que el pronombre no se traduzca, envía sólo el verbo -x->
+	  <otherwise><!--En caso de que el pronombre no se traduzca, envía sólo el verbo -->
 	    <out>
 	      <lu>
 		<get-case-from pos="1">            
@@ -5058,9 +5192,9 @@
     </rule>
 
 
-    <rule> <!-x- REGLA: PRETÈRIT INDEFINIT + ENCLÍTIC + ENCLÍTIC -x-><!-x- Para traducir "van acabar-se'ls" por "se los acabaron" -x->
+    <rule> <!-- REGLA: PRETÈRIT INDEFINIT + ENCLÍTIC + ENCLÍTIC --><!-- Para traducir "van acabar-se'ls" por "se los acabaron" -->
       <pattern>
-	<pattern-item n="anar"/>
+	<pattern-item n="ir"/>
 	<pattern-item n="inf"/>
 	<pattern-item n="prnenc"/>
 	<pattern-item n="prnenc"/>
@@ -5071,7 +5205,7 @@
 	</call-macro>
 	<choose>
 	  <when>
-	    <test> <!-x-si el primer pronom no desapareix (traducció buida, p. ex: "bi", "en"), envia'l i assigna-li les majúscules -x->
+	    <test> <!--si el primer pronom no desapareix (traducció buida, p. ex: "bi", "en"), envia'l i assigna-li les majúscules -->
 	      <not>
 		<equal>
 		  <clip pos="3" side="tl" part="whole"/>
@@ -5091,7 +5225,7 @@
 	    </out>
 	    <choose>
 	      <when>
-		<test><!-x- Si el segon pronom no desapareix, envia'l també (si desapareix el 2n, ja no s'envia) -x->
+		<test><!-- Si el segon pronom no desapareix, envia'l també (si desapareix el 2n, ja no s'envia) -->
 		  <not>
 		    <equal>
 		      <clip pos="4" side="tl" part="whole"/> 
@@ -5120,7 +5254,7 @@
 	      </lu> 
 	    </out>
 	  </when>
-	  <when> <!-x-Si el primer pronom desapareix...el segon també... (mai no es dóna el cas que desapareix el primer i el segon no) -x->
+	  <when> <!--Si el primer pronom desapareix...el segon també... (mai no es dóna el cas que desapareix el primer i el segon no) -->
 	    <test>
 	      <equal>
 		<clip pos="3" side="tl" part="whole"/>
@@ -5145,7 +5279,7 @@
 	  </when>
 	</choose>
       </action>
-    </rule>-->
+    </rule>
 
     <rule> <!--REGLA: VERB (per a multiparaules sense enclítics)-->
       <pattern>
@@ -5682,9 +5816,9 @@
       </action>
     </rule>   
 
-    <rule> <!-x-REGLA: "anar" + inf + prep + nploc: Estudio a Madrid - Estudio en Madrid. Sóc a Sabadell - Estoy en Sabadell (igual que l'anterior però amb verb en forma perifràstica (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si és un nom de la llista "locatiu")-x->
+    <rule> <!-x-REGLA: "ir" + inf + prep + nploc: Estudio a Madrid - Estudio en Madrid. Sóc a Sabadell - Estoy en Sabadell (igual que l'anterior però amb verb en forma perifràstica (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si és un nom de la llista "locatiu")-x->
       <pattern>
-	<pattern-item n="anar"/>
+	<pattern-item n="ir"/>
 	<pattern-item n="inf"/>
 	<pattern-item n="a"/>
 	<pattern-item n="nom_loc"/>
@@ -6056,9 +6190,9 @@
       </action>
     </rule>   
 
-    <rule> <!-x-REGLA: "anar" + inf + prep + nploc: va treballar al poble - trabajó en el pueblo (igual que l'anterior però amb verb en forma perifràstica) -x->
+    <rule> <!-x-REGLA: "ir" + inf + prep + nploc: va treballar al poble - trabajó en el pueblo (igual que l'anterior però amb verb en forma perifràstica) -x->
       <pattern>
-	<pattern-item n="anar"/>
+	<pattern-item n="ir"/>
 	<pattern-item n="inf"/>
 	<pattern-item n="a"/>
 	<pattern-item n="det"/>
