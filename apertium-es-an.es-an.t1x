@@ -396,6 +396,11 @@
       <attr-item tags="prn.enc.ref"/>
     </def-attr>
 
+    <def-attr n="a_prnpro">
+      <attr-item tags="prn.pro"/>
+      <attr-item tags="prn.pro.ref"/>
+    </def-attr>
+
     <def-attr n="gen">
       <attr-item tags="m"/>
       <attr-item tags="f"/>
@@ -584,7 +589,7 @@
       <list-item v="diciembre"/>
       <list-item v="semana"/>
       <list-item v="fin de semana"/>
-      <list-item v="lustro"/>
+      <list-item v="lustro"/> <!-- jp: tamién días d'a semana??? -->
 
     </def-list>
 
@@ -740,13 +745,13 @@
 	  <test>
 	    <equal caseless="yes">
 	      <clip pos="1" side="tl" part="lem"/>
-	      <lit v="mitjà"/>
+	      <lit v="bueno"/>
 		    </equal>	  
 	  </test>
 	  <let>
 	    <clip pos="1" side="tl" part="lem"/>
 	    <get-case-from pos="1">
-	      <lit v="mig"/>
+        <lit v="buen"/>
 	    </get-case-from>
 	  </let>
 	</when>
@@ -761,7 +766,7 @@
 	      <equal caseless="yes">
 		<var n="numvist"/>
 		<lit v="yes"/>
-	      </equal>	  
+        </equal>	  
 	      <equal caseless="yes">
 		<clip pos="1" side="sl" part="lem"/>
 		<lit v="otros tantos"/>
@@ -3302,49 +3307,48 @@
 	  <when>
 	    <test>
 	      <and>
-		<in caseless="yes">
-		  <clip pos="3" side="sl" part="lem"/>
-		  <list n="tiempo"/>
-		</in>
-		<or>
-		  <and>
-		    <equal caseless="yes">
-		      <clip pos="2" side="sl" part="lem"/>
-		      <lit v="próximo"/>
-		    </equal>
-		    <equal>
-		      <clip pos="2" side="sl" part="nbr"/>
-		      <lit-tag v="sg"/>
-		    </equal>
-		  </and>
-		  <equal caseless="yes">
-		    <clip pos="2" side="sl" part="lem"/>
-		    <lit v="pasado"/>
-		  </equal>
-		</or>		
+		      <in caseless="yes">
+		        <clip pos="3" side="sl" part="lem"/>
+		        <list n="tiempo"/>
+		      </in>
+		      <or>
+		        <and>
+		          <equal caseless="yes">
+		            <clip pos="2" side="sl" part="lem"/>
+		            <lit v="próximo"/>
+		          </equal>
+		          <equal>
+		            <clip pos="2" side="sl" part="nbr"/>
+		            <lit-tag v="sg"/>
+		          </equal>
+		        </and>
+		        <equal caseless="yes">
+		          <clip pos="2" side="sl" part="lem"/>
+		          <lit v="pasado"/>
+		        </equal>
+		      </or>		
 	      </and>
 	    </test>
 	    <choose>
 	      <when>
-		<test>
-		  <equal caseless="yes">
-		    <clip pos="2" side="sl" part="lem"/>
-		    <lit v="próximo"/>
-		  </equal>
-		</test>
-		<let>
-		    <clip pos="2" side="tl" part="lem"/>
-		    <get-case-from pos="2">
-		      <lit v="vinent"/>
-		    </get-case-from>
-		</let>
-		<let>
-		  <clip pos="2" side="tl" part="gen"/>
-		  <lit-tag v="mf"/>
-		</let>
-	      </when>
+		      <test>
+		        <equal caseless="yes">
+		          <clip pos="2" side="sl" part="lem"/>
+		          <lit v="próximo"/>
+		        </equal>
+		      </test>
+		      <let>
+		          <clip pos="2" side="tl" part="lem"/>
+		          <get-case-from pos="2">
+              <lit v="vinient"/>
+		          </get-case-from>
+		      </let>
+		      <let>
+		        <clip pos="2" side="tl" part="gen"/>
+		        <lit-tag v="mf"/>
+		      </let>
+        </when>
 	    </choose>
-		    
 	    <out>  
 	      <lu>    
 		<clip pos="1" side="tl" part="whole"/>
@@ -5348,7 +5352,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: VERB + ENCLÍTIC -->
+    <rule> <!--REGLA: VERB + ENCLÍTIC cómelo/mincha-lo, pero véase / se veiga, háganlo / lo faigan a="juanpablo"-->
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="prnenc"/>
@@ -5357,14 +5361,10 @@
 	<call-macro n="f_tipusverb">
 	  <with-param pos="1"/>
 	</call-macro>   
-	<choose><!-- véase : vegeu -->
+	<choose><!-- véase : se veiga-->
 	  <when>
 	    <test>
 	      <and>
-		<equal caseless="yes">
-		  <clip pos="1" side="sl" part="lem"/>
-		  <lit v="ver"/>
-		</equal>
 		<equal>
 		  <clip pos="1" side="sl" part="temps"/>
 		  <lit-tag v="imp"/>
@@ -5373,32 +5373,29 @@
 		  <clip pos="1" side="sl" part="persona"/>
 		  <lit-tag v="p3"/>
 		</equal>
-		<equal>
-		  <clip pos="1" side="sl" part="nbr"/>
-		  <lit-tag v="sg"/>
-		</equal>
-		<equal caseless="yes">
-		  <clip pos="2" side="sl" part="lem"/>
-		  <lit v="se"/>
-		</equal>
 	      </and>
 	    </test>
-	    <let>
-	      <clip pos="1" side="tl" part="persona"/>
-	      <lit-tag v="p2"/>
-	    </let>
 	    <let>	      
-	      <clip pos="1" side="tl" part="nbr"/>
-	      <lit-tag v="pl"/>
+        <clip pos="2" side="tl" part="a_encpro"/>
+	      <lit-tag v="pro"/>
 	    </let>
 	    <out>
-	      <lu>
-		<clip pos="1" side="tl" part="lem"/>
-		<clip pos="1" side="tl" part="a_verb"/>
-		<clip pos="1" side="tl" part="temps"/>
-		<clip pos="1" side="tl" part="persona"/>
-		<clip pos="1" side="tl" part="nbr"/>
-	      </lu>
+	        <lu>
+      		<clip pos="2" side="tl" part="lem"/>
+		      <clip pos="2" side="tl" part="a_prnpro"/>
+		      <clip pos="2" side="tl" part="persona"/>
+		      <clip pos="2" side="tl" part="gen"/>
+		      <clip pos="2" side="tl" part="nbr"/>
+	        </lu>
+	        <b pos="1"/>
+	        <lu>
+      		  <clip pos="1" side="tl" part="lemh"/>
+      		  <clip pos="1" side="tl" part="a_verb"/>
+      		  <clip pos="1" side="tl" part="temps"/>
+      		  <clip pos="1" side="tl" part="persona"/>
+      		  <clip pos="1" side="tl" part="nbr"/>
+      		  <clip pos="1" side="tl" part="lemq"/>
+	        </lu>		
 	    </out>
 	  </when>
 	  <otherwise>
@@ -5427,7 +5424,7 @@
     </rule>
 
 
-    <rule> <!--REGLA: VERB + ENCLÍTIC + ENCLÍTIC-->
+    <rule> <!--REGLA: VERB + ENCLÍTIC + ENCLÍTIC juanpablo cómetelo/ mincha-te-lo pero démelo / me lo dé -->
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="prnenc"/>
@@ -5437,32 +5434,84 @@
 	<call-macro n="f_tipusverb">
 	  <with-param pos="1"/>
 	</call-macro>   
-	<out>
-	  <mlu>
-	    <lu>
-	      <clip pos="1" side="tl" part="lemh"/>
-	      <clip pos="1" side="tl" part="a_verb"/>
-	      <clip pos="1" side="tl" part="temps"/>
-	      <clip pos="1" side="tl" part="persona"/>
-	      <clip pos="1" side="tl" part="nbr"/>
-	    </lu>
-	    <lu>
-	      <clip pos="2" side="tl" part="lem"/>
-	      <clip pos="2" side="tl" part="a_prnenc"/>
-	      <clip pos="2" side="tl" part="persona"/>
-	      <clip pos="2" side="tl" part="gen"/>
-	      <clip pos="2" side="tl" part="nbr"/>
-	    </lu>
-	    <lu>
-	      <clip pos="3" side="tl" part="lem"/>
-	      <clip pos="3" side="tl" part="a_prnenc"/>
-	      <clip pos="3" side="tl" part="persona"/>
-	      <clip pos="3" side="tl" part="gen"/>
-	      <clip pos="3" side="tl" part="nbr"/>
-	      <clip pos="1" side="tl" part="lemq"/>
-	    </lu>    
-	  </mlu>
-	</out>
+	<choose><!-- véase : se veiga-->
+	  <when>
+	    <test>
+	      <and>
+		<equal>
+		  <clip pos="1" side="sl" part="temps"/>
+		  <lit-tag v="imp"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="persona"/>
+		  <lit-tag v="p3"/>
+		</equal>
+	      </and>
+	    </test>
+	    <let>	      
+        <clip pos="2" side="tl" part="a_encpro"/>
+	      <lit-tag v="pro"/>
+	    </let>
+	    <let>	      
+        <clip pos="3" side="tl" part="a_encpro"/>
+	      <lit-tag v="pro"/>
+	    </let>
+	    <out>
+	        <lu>
+      		<clip pos="2" side="tl" part="lem"/>
+		      <clip pos="2" side="tl" part="a_prnpro"/>
+		      <clip pos="2" side="tl" part="persona"/>
+		      <clip pos="2" side="tl" part="gen"/>
+		      <clip pos="2" side="tl" part="nbr"/>
+	        </lu>
+	        <b pos="1"/>
+	        <lu>
+      		<clip pos="3" side="tl" part="lem"/>
+		      <clip pos="3" side="tl" part="a_prnpro"/>
+		      <clip pos="3" side="tl" part="persona"/>
+		      <clip pos="3" side="tl" part="gen"/>
+		      <clip pos="3" side="tl" part="nbr"/>
+	        </lu>
+	        <b pos="2"/>
+	        <lu>
+      		  <clip pos="1" side="tl" part="lemh"/>
+      		  <clip pos="1" side="tl" part="a_verb"/>
+      		  <clip pos="1" side="tl" part="temps"/>
+      		  <clip pos="1" side="tl" part="persona"/>
+      		  <clip pos="1" side="tl" part="nbr"/>
+      		  <clip pos="1" side="tl" part="lemq"/>
+	        </lu>		
+	    </out>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <mlu>
+		<lu>
+		  <clip pos="1" side="tl" part="lemh"/>
+		  <clip pos="1" side="tl" part="a_verb"/>
+		  <clip pos="1" side="tl" part="temps"/>
+		  <clip pos="1" side="tl" part="persona"/>
+		  <clip pos="1" side="tl" part="nbr"/>
+		</lu>
+		<lu>
+		  <clip pos="2" side="tl" part="lem"/>
+		  <clip pos="2" side="tl" part="a_prnenc"/>
+		  <clip pos="2" side="tl" part="persona"/>
+		  <clip pos="2" side="tl" part="gen"/>
+		  <clip pos="2" side="tl" part="nbr"/>
+		</lu>  
+		<lu>
+		  <clip pos="3" side="tl" part="lem"/>
+		  <clip pos="3" side="tl" part="a_prnenc"/>
+		  <clip pos="3" side="tl" part="persona"/>
+		  <clip pos="3" side="tl" part="gen"/>
+		  <clip pos="3" side="tl" part="nbr"/>
+		  <clip pos="1" side="tl" part="lemq"/>
+		</lu>  
+	      </mlu>
+	    </out>
+	  </otherwise>
+	</choose>
       </action>
     </rule>
 
@@ -6958,24 +7007,23 @@
 		</test>		    
 		<let>
 		  <clip pos="2" side="tl" part="lem"/>
-		  <lit v="dir"/>
+		  <lit v="decir"/>
 		</let>
 	      </when>
-	      <when>
-		<test>
+	<!-- jp 	      <when>
+      <test>
 		  <equal>
 		    <clip pos="2" side="sl" part="lem"/>
 		    <lit v="parecer"/>
 		  </equal>
-		</test>		    
+		</test>		   
 		<let>
 		  <clip pos="2" side="tl" part="lem"/>
 		  <lit v="assemblar"/>
-		</let>
-	      </when>
+		</let> 
+	      </when>  -->
 	    </choose>
 	  </when>
-
 
 
 	</choose>

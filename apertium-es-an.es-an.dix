@@ -133,10 +133,10 @@
     
     <e><p><l>os<s n="prn"/><s n="pro"/></l><r>tos<s n="prn"/><s n="pro"/></r></p></e>
     <e><p><l>os<s n="prn"/><s n="enc"/></l><r>tos<s n="prn"/><s n="enc"/></r></p></e>
-    <e r="RL"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e r="LR"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="ND"/></r></p></e>
+    <!-- <e r="LR"><p><l>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="ND"/></r></p></e> -->
     <e><p><l>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>te<s n="prn"/><s n="pro"/></l><r>te<s n="prn"/><s n="pro"/></r></p></e>
     <e><p><l>te<s n="prn"/><s n="enc"/></l><r>te<s n="prn"/><s n="enc"/></r></p></e>
@@ -639,6 +639,7 @@
     <e><i>bucal<s n="adj"/></i></e>
     <e><i>budista<s n="adj"/></i></e>
     <e><p><l>bueno<s n="adj"/></l><r>bueno<s n="adj"/></r></p></e>
+    <e><p><l>buen<s n="adj"/></l><r>buen<s n="adj"/></r></p></e>
     <e><p><l>burdo<s n="adj"/></l><r>burdo<s n="adj"/></r></p></e>
     <e><p><l>bárbaro<s n="adj"/></l><r>barbaro<s n="adj"/></r></p></e>
     <e><p><l>bélico<s n="adj"/></l><r>belico<s n="adj"/></r></p></e>
@@ -1503,7 +1504,8 @@
     <e><p><l>majo<s n="adj"/></l><r>majo<s n="adj"/></r></p></e>
     <e><p><l>maldito<s n="adj"/></l><r>maldito<s n="adj"/></r></p></e>
     <e><i>maleable<s n="adj"/></i></e>
-    <e><p><l>malo<s n="adj"/></l><r>malo<s n="adj"/></r></p></e>
+    <e slr="dolent"><p><l>malo<s n="adj"/></l><r>dolent<s n="adj"/></r></p></e>
+    <e slr="malo D"><p><l>malo<s n="adj"/></l><r>malo<s n="adj"/></r></p></e>
     <e>       <p><l>mal<s n="adj"/></l>               <r>mal<s n="adj"/></r></p></e>
     <e><p><l>manchego<s n="adj"/></l><r>manchego<s n="adj"/></r></p></e>
     <e><p><l>manco<s n="adj"/></l><r>manco<s n="adj"/></r></p></e>
@@ -1920,6 +1922,7 @@
     <e><p><l>prudente<s n="adj"/></l><r>prudent<s n="adj"/></r></p></e>
     <e><p><l>próspero<s n="adj"/></l><r>próspero<s n="adj"/></r></p></e>
     <e><p><l>próximo<s n="adj"/></l><r>proximo<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>próximo<s n="adj"/><s n="GD"/></l><r>vinient<s n="adj"/><s n="mf"/></r></p></e>
     <e><p><l>puertorriqueño<s n="adj"/></l><r>puertorriquenyo<s n="adj"/></r></p></e>
     <e><p><l>pulcro<s n="adj"/></l><r>pulcro<s n="adj"/></r></p></e>
     <e><i>pulmonar<s n="adj"/></i></e>
@@ -4480,7 +4483,6 @@
 <e><p><l>óptimo<s n="adj"/></l><r>optimo<s n="adj"/></r></p></e>
 <e><p><l>pésimo<s n="adj"/></l><r>pesimo<s n="adj"/></r></p></e>
 <e><p><l>póstumo<s n="adj"/></l><r>postumo<s n="adj"/></r></p></e>
-<e><p><l>próximo<s n="adj"/></l><r>proximo<s n="adj"/></r></p></e>
 <e><p><l>pseudónimo<s n="adj"/></l><r>pseudonimo<s n="adj"/></r></p></e>
 <e><p><l>sumo<s n="adj"/></l><r>sumo<s n="adj"/></r></p></e>
 <e><p><l>abundoso<s n="adj"/></l><r>abundoso<s n="adj"/></r></p></e>
