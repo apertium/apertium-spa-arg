@@ -796,7 +796,7 @@
           <r><j/>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
         </p>
       </e>
-      <e c="for cases with elipsis as da-to'me">
+      <e c="for cases with elipsis as da-to'me" r="LR">
         <p>
           <l>'me</l>
           <r><j/>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
@@ -1295,10 +1295,10 @@
     <e>
       <p>
         <l>-se</l>
-        <r><j/>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
+        <r><j/>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>-sen</l>
         <r><j/>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
@@ -33728,6 +33728,37 @@
 
     </pardef>
 
+      <pardef n="buen__adj">
+    <e r="RL">
+      <p>
+        <l>as</l> 
+        <r><s n="adj"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>a</l> 
+        <r><s n="adj"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e r="RL">
+      <p>
+        <l>s</l> 
+        <r><s n="adj"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="adj"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    
+    </pardef>
+
     <pardef n="verdad/ero__adj">
     <e r="LR">
       <p>
@@ -45228,6 +45259,7 @@
     <e lm="quánto" r="LR"><p><l>cuánt</l><r>quánt</r></p><par n="quánt/o__prn"/></e>
     <e lm="mal"><i>mal</i><par n="libro__n"/></e>
     <e lm="mal"><i>mal</i><par n="mal__adj"/></e>
+    <e lm="buen" r="RL"><i>buen</i><par n="buen__adj"/></e>
     
 
     <e lm="no" r="RL"><p><l><a/>no</l><r>no</r></p><par n="agora__adv"/></e>
@@ -54691,6 +54723,8 @@
     <e lm="budista"><i>budista</i><par n="social__adj"/></e>
     <e lm="cabal"><i>cabal</i><par n="social__adj"/></e>
     <e lm="calient"><i>cali</i><par n="difer/ent__adj"/></e>
+    <e lm="vinient"><i>vini</i><par n="difer/ent__adj"/></e>
+    <e lm="vinient" r="LR"><p><l>veni</l><r>vini</r></p><par n="difer/ent__adj"/></e>
     <e lm="campal"><i>campal</i><par n="social__adj"/></e>
     <e lm="canadiense"><i>canadiense</i><par n="social__adj"/></e>
     <e lm="cantonal"><i>cantonal</i><par n="social__adj"/></e>
@@ -55475,6 +55509,7 @@
     <e lm="utilitarista"><i>utilitarista</i><par n="social__adj"/></e>
     <e lm="utilizable"><i>utilizable</i><par n="social__adj"/></e>
     <e lm="valencianista"><i>valencianista</i><par n="social__adj"/></e>
+    <e lm="dolent"><i>dol</i><par n="vali/ent__adj"/></e>
     <e lm="valient"><i>vali</i><par n="vali/ent__adj_adv"/></e>
     <e lm="variable"><i>variable</i><par n="social__adj"/></e>
     <e lm="vascular"><i>vascular</i><par n="social__adj"/></e>
@@ -56584,7 +56619,7 @@
     <e lm="fer a risalleta" r="LR"><i>f</i><par n="f/er__vblex"/><p><l><b/>la<b/>risilleta</l><r><g><b/>a<b/>risalleta</g></r></p></e>
     <e lm="fer a risalleta" r="LR"><i>f</i><par n="f/er__vblex"/><p><l><b/>ra<b/>risilleta</l><r><g><b/>a<b/>risalleta</g></r></p></e>
     <e lm="fer a risalleta" r="LR"><i>f</i><par n="f/er__vblex"/><p><l><b/>una<b/>risilleta</l><r><g><b/>a<b/>risalleta</g></r></p></e>
-    <e lm="fer ploros"><i>f</i><par n="f/er__vblex"/><p><l><b/>ploros</l><r><g><b/>goyo</g></r></p></e>
+    <e lm="fer ploros"><i>f</i><par n="f/er__vblex"/><p><l><b/>ploros</l><r><g><b/>ploros</g></r></p></e>
     <e lm="fer goyo"><i>f</i><par n="f/er__vblex"/><p><l><b/>goyo</l><r><g><b/>goyo</g></r></p></e>
     <e lm="fer goyo" r="LR"><i>f</i><par n="f/er__vblex"/><p><l><b/>goi</l><r><g><b/>goyo</g></r></p></e>
     <e lm="fer fuera"><i>f</i><par n="f/er__vblex"/><p><l><b/>fuera</l><r><g><b/>fuera</g></r></p></e>
