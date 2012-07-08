@@ -230,8 +230,8 @@
 
     <def-cat n="verbospron">
       <cat-item lemma="caer" tags="vblex.*"/>
-      <cat-item lemma="reír" tags="vblex.*"/>
       <cat-item lemma="callar" tags="vblex.*"/>
+      <!-- borrau reir -->
       <cat-item lemma="asomarse" tags="vblex.*"/>
       <cat-item lemma="asomar" tags="vblex.*"/> 
       <cat-item lemma="afanar# en" tags="vblex.*"/> 
@@ -239,8 +239,8 @@
 
     <def-cat n="verbospron_pp">
       <cat-item lemma="caer" tags="vblex.pp.*"/>
-      <cat-item lemma="reír" tags="vblex.pp.*"/>
-      <cat-item lemma="callar" tags="vblex.pp.*"/>
+      <!-- borrau reir -->
+     <cat-item lemma="callar" tags="vblex.pp.*"/>
       <cat-item lemma="asomarse" tags="vblex.pp.*"/>
       <cat-item lemma="afanar# en" tags="vblex.pp.*"/> 
     </def-cat>
@@ -617,6 +617,7 @@
         <lit v="temp"/>
       </let>
     </def-macro>
+<!--
     <def-macro n="f_coma" npar="1">
       <choose>
 	<when>
@@ -635,6 +636,8 @@
 	</when>
       </choose>
     </def-macro>
+    -->
+    
     <def-macro n="f_bcond" npar="1"><!--Para mirar si el blanco contiene o no formato. Hay que poner esta función en las reglas en que desaparezca alguna palabra, con tal de decidir si el blanco de la palabra eliminada debe eliminarse también o conservarse. Si contiene formato hay que conservarla, si no contiene formato hay que eliminarla para que no aparezcan dos espacios seguidos. -->
       <choose>
 	<when>
@@ -4026,9 +4029,9 @@
       </action>
     </rule>
     -->
-    <!-- 
-    <rule> --> <!-- REGLA: PREP PRONOM --><!--Special case, macro f_concord1 
-					  is not applicable because gender and number cannot be taken from previous rules --> <!-- jp:
+    <!--  jp
+    <rule>  <!-+- REGLA: PREP PRONOM -+-><!-+-Special case, macro f_concord1 
+					  is not applicable because gender and number cannot be taken from previous rules -+-> 
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="prn"/>
@@ -7578,7 +7581,9 @@
       </action>
 </rule>
 --> 
- <rule> <!-- REGLA: DETERMINANT NOM -->
+<!-- REGLA: NÚMERO en es-an cal una diferent  -->
+<!--
+ <rule> 
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="número"/>
@@ -7618,9 +7623,9 @@
 	</out>	
       </action>
     </rule>
-
-
- <rule> <!-- REGLA: PREP DETERMINANT NOM -->
+-->
+<!--
+ <rule> <!-+- REGLA: PREP DETERMINANT NOM -+->
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="det"/>
@@ -7666,10 +7671,10 @@
 	</out>
 	
       </action>
-    </rule>
+    </rule> -->
 
-
- <rule> <!-- REGLA: ser de aplicación + ADJ (perquè els del servei ling UA volen que tradueixi "ser aplicable", cal aquesta regla per quan va seguit d'adjectiu-->
+<!--
+ <rule> <!-+- REGLA: ser de aplicación + ADJ (perquè els del servei ling UA volen que tradueixi "ser aplicable", cal aquesta regla per quan va seguit d'adjectiu-+->
       <pattern>
 	<pattern-item n="ser_de_aplicación"/>
 	<pattern-item n="adjec"/>
@@ -7704,7 +7709,7 @@
 	  </lu>
 	  <b/>
 	  <lu>
-	    <lit v="aplicació"/>
+	    <lit v="aplicación"/>
 	    <lit-tag v="n.f.sg"/>
 	  </lu>
 	  <b pos="1"/>
@@ -7714,9 +7719,9 @@
 	</out>
       </action>
 </rule>
-	  
-
-    <rule> <!-- REGLA: uno similar - un de similar -->
+	  -->
+<!--
+    <rule> <!-+- REGLA: uno similar - un de similar -+->
       <pattern>
 	<pattern-item n="uno_prn"/>
 	<pattern-item n="adj"/>
@@ -7741,7 +7746,7 @@
       </action>
 </rule>
 	  
-
+-->
 
 
 
