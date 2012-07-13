@@ -11076,6 +11076,9 @@
     <e><p><l>manifestación<s n="n"/></l><r>manifestación<s n="n"/></r></p></e>
     <e><p><l>maniobrabilidad<s n="n"/></l><r>maniobrabilidat<s n="n"/></r></p></e>
     <e><p><l>mantenimiento<s n="n"/></l><r>mantenimiento<s n="n"/></r></p></e>
+    <e><p><l>mantequilla<s n="n"/></l><r>manteca<s n="n"/></r></p></e>
+    <e><p><l>queso<s n="n"/></l><r>queso<s n="n"/></r></p></e>
+    <e><p><l>vinagre<s n="n"/></l><r>vinagre<s n="n"/></r></p></e>
     <e><p><l>mar<s n="n"/></l><r>mar<s n="n"/></r></p></e>
     <e><p><l>marina<s n="n"/></l><r>marina<s n="n"/></r></p></e>
     <e><p><l>marinero<s n="n"/></l><r>marinero<s n="n"/></r></p></e>
@@ -13076,6 +13079,7 @@
     <e><p><l>plaza<s n="n"/></l><r>plaza<s n="n"/></r></p></e>
     <e><p><l>fuego<s n="n"/></l><r>fuego<s n="n"/></r></p></e>
     <e><p><l>llama<s n="n"/></l><r>flama<s n="n"/></r></p></e>
+    <e><p><l>cacao<s n="n"/></l><r>cacau<s n="n"/></r></p></e>
     <e><p><l>cabeza<s n="n"/></l><r>cabeza<s n="n"/></r></p></e>
     <e r="RL"><p><l>cabeza<s n="n"/><s n="f"/></l><r>tozuelo<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>gozo<s n="n"/></l><r>gozo<s n="n"/></r></p></e>
@@ -15096,7 +15100,7 @@
     <e><p><l>brasa<s n="n"/></l><r>brasa<s n="n"/></r></p></e>
     <e><p><l>broza<s n="n"/></l><r>broza<s n="n"/></r></p></e>
     <e><p><l>bruja<s n="n"/></l><r>broixa<s n="n"/></r></p></e>
-    <e><p><l>brújula<s n="n"/></l><r>bruixula<s n="n"/></r></p></e>
+    <e><p><l>brújula<s n="n"/></l><r>bruixola<s n="n"/></r></p></e>
     <e><p><l>blusa<s n="n"/></l><r>brusa<s n="n"/></r></p></e>
     <e><p><l>suciedad<s n="n"/></l><r>bardoma<s n="n"/></r></p></e>
     <e><p><l>vejiga<s n="n"/></l><r>vuixiga<s n="n"/></r></p></e>
@@ -15730,7 +15734,8 @@
     <e><p><l>ostra<s n="n"/></l><r>ostra<s n="n"/></r></p></e>
     <e><p><l>oveja<s n="n"/></l><r>uella<s n="n"/></r></p></e>
     <e><p><l>paciencia<s n="n"/></l><r>paciencia<s n="n"/></r></p></e>
-    <e><p><l>paella<s n="n"/></l><r>padella<s n="n"/></r></p></e>
+    <e r="RL"><p><l>paella<s n="n"/></l><r>padella<s n="n"/></r></p></e>
+    <e><p><l>paella<s n="n"/></l><r>paella<s n="n"/></r></p></e>
     <e><p><l>pala<s n="n"/></l><r>pala<s n="n"/></r></p></e>
     <e><p><l>palangana<s n="n"/></l><r>palangana<s n="n"/></r></p></e>
     <e><p><l>paleta<s n="n"/></l><r>paleta<s n="n"/></r></p></e>
@@ -22082,7 +22087,7 @@
     <e><i>Oden<s n="np"/></i></e>
     <e><i>Odriozola<s n="np"/></i></e>
     <e><i>Odyssey<s n="np"/></i></e>
-    <e><i>Oeste<s n="np"/></i></e>
+    <e><p><l>Oeste<s n="np"/></l><r>Ueste<s n="np"/></r></p></e>    
     <e><i>Ohio<s n="np"/></i></e>
     <e><i>Oise<s n="np"/></i></e>
     <e><i>Oix<s n="np"/></i></e>
@@ -25086,7 +25091,7 @@
     <e><i>Noemi<s n="np"/></i></e>
     <e><i>Nolla<s n="np"/></i></e>
     <e><i>Nomdedeu<s n="np"/></i></e>
-    <e><i>Noroeste<s n="np"/></i></e>
+    <e><p><l>Noroeste<s n="np"/></l><r>Norueste<s n="np"/></r></p></e>
     <e><i>Nortes<s n="np"/></i></e>
     <e><i>Notario<s n="np"/></i></e>
     <e><i>Nuakchott<s n="np"/></i></e>
