@@ -41300,6 +41300,7 @@
     <e lm="cambeo" r="LR"><p><l>cambio</l><r>cambeo</r></p><par n="libro__n"/></e>
     <e lm="chenero"><i>chenero</i><par n="libro__n"/></e>
     <e lm="chicolate"><i>chicolate</i><par n="libro__n"/></e>
+    <e lm="manteca"><i>manteca</i><par n="luenga__n"/></e>
     <e lm="directorio"><i>directorio</i><par n="libro__n"/></e>
     <e lm="instrumento"><i>instrumento</i><par n="libro__n"/></e>
     <e lm="instrumento" r="LR"><p><l>istrumento</l><r>instrumento</r></p><par n="libro__n"/></e>
@@ -41511,6 +41512,8 @@
     <e lm="vehíclo"><i>vehíclo</i><par n="libro__n"/></e>
     <e lm="vehíclo" r="LR"><p><l>vehiclo</l><r>vehíclo</r></p><par n="libro__n"/></e>
     <e lm="vehíclo" r="LR"><p><l>beíclo</l><r>vehíclo</r></p><par n="libro__n"/></e>
+    <e lm="queso"><i>queso</i><par n="libro__n"/></e>
+    <e lm="vinagre"><i>vinagre</i><par n="libro__n"/></e>
     <e lm="obchectivo"><i>obchecti</i><par n="obchecti/vo__n"/></e>
     <e lm="honor"><i>honor</i><par n="luenga__n"/></e>
     <e lm="miembro"><i>miembro</i><par n="accionista__n"/></e>
@@ -50367,7 +50370,7 @@
     <e lm="Occitania"><i>Occitania</i><par n="Afganistán__np"/></e>
     <e lm="Oceanía"><i>Oceanía</i><par n="Afganistán__np"/></e>
     <e lm="Òdena"><i>Òdena</i><par n="Afganistán__np"/></e>
-    <e lm="Oeste"><i>Oeste</i><par n="Afganistán__np"/></e>
+    <e lm="Ueste"><i>Ueste</i><par n="Afganistán__np"/></e>
     <e lm="Ohio"><i>Ohio</i><par n="Afganistán__np"/></e>
     <e lm="Oise"><i>Oise</i><par n="Afganistán__np"/></e>
     <e lm="Oix"><i>Oix</i><par n="Afganistán__np"/></e>
@@ -52492,7 +52495,7 @@
     <e lm="Noemi"><i>Noemi</i><par n="Abad__np"/></e>
     <e lm="Nolla"><i>Nolla</i><par n="Abad__np"/></e>
     <e lm="Nomdedeu"><i>Nomdedeu</i><par n="Abad__np"/></e>
-    <e lm="Noroeste"><i>Noroeste</i><par n="Afganistán__np"/></e>
+    <e lm="Norueste"><i>Norueste</i><par n="Afganistán__np"/></e>
     <e lm="Nortes"><i>Nortes</i><par n="Abad__np"/></e>
     <e lm="Notario"><i>Notario</i><par n="Abad__np"/></e>
     <e lm="Nuakchott"><i>Nuakchott</i><par n="Afganistán__np"/></e>
@@ -55610,7 +55613,7 @@
     <e lm="immobiliaria" r="LR"><p><l>inmobiliaria</l><r>immobiliaria</r></p><par n="luenga__n"/></e>
     <e lm="ezquierda"><i>ezquierda</i><par n="luenga__n"/></e>
     <e lm="cucha"><i>cucha</i><par n="luenga__n"/></e>
-    <e lm="zurda"><i>cucha</i><par n="luenga__n"/></e>
+    <e lm="zurda"><i>zurda</i><par n="luenga__n"/></e>
     <e lm="chudía"><i>chudía</i><par n="luenga__n"/></e>
     <e lm="chudieta"><i>chudieta</i><par n="luenga__n"/></e>
     <e lm="lingüistica"><par n="/l_ll__var"/><i>ingüistica</i><par n="luenga__n"/></e>
@@ -63120,7 +63123,8 @@
     <e lm="broixa" r="LR"><p><l>bruixa</l><r>broixa</r></p><par n="luenga__n"/></e>
     <e lm="broixa" r="LR"><p><l>bruxa</l><r>broixa</r></p><par n="luenga__n"/></e>
     <e lm="broixa" r="LR"><p><l>broxa</l><r>broixa</r></p><par n="luenga__n"/></e>
-    <e lm="bruixula"><i>bruixula</i><par n="luenga__n"/></e>
+    <e lm="bruixola"><i>bruixola</i><par n="luenga__n"/></e>
+    <e lm="bruixola" r="LR"><p><l>bruixula</l><r>bruixola</r></p><par n="luenga__n"/></e>    
     <e lm="brusa"><i>brusa</i><par n="luenga__n"/></e>
     <e lm="bardoma"><i>bardoma</i><par n="luenga__n"/></e>
     <e lm="bofetada"><i>bofetada</i><par n="luenga__n"/></e>
@@ -63137,6 +63141,7 @@
     <e lm="cabana" r="LR"><p><l>cabanya</l><r>cabana</r></p><par n="luenga__n"/></e>    
     <e lm="craba"><i>craba</i><par n="luenga__n"/></e>
     <e lm="caca"><i>caca</i><par n="luenga__n"/></e>
+    <e lm="cacau"><i>cacau</i><par n="libro__n"/></e>
     <e lm="cacera"><i>cacera</i><par n="luenga__n"/></e>
     <e lm="cadena"><i>cadena</i><par n="luenga__n"/></e>
     <e lm="cardelina"><i>cardelina</i><par n="luenga__n"/></e>
@@ -63862,6 +63867,7 @@
     <e lm="uella" r="LR"><p><l>ovella</l><r>uella</r></p><par n="luenga__n"/></e>    
     <e lm="paciencia"><i>paciencia</i><par n="luenga__n"/></e>
     <e lm="padella"><i>padella</i><par n="luenga__n"/></e>
+    <e lm="paella"><i>paella</i><par n="luenga__n"/></e>
     <e lm="pala"><i>pala</i><par n="luenga__n"/></e>
     <e lm="palangana"><i>palangana</i><par n="luenga__n"/></e>
     <e lm="paleta"><i>paleta</i><par n="luenga__n"/></e>
