@@ -13,7 +13,7 @@ PREFVAR2=rib-
 PREFVAR3=chi-
 TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
 	$(PREFIX1).autopgen.bin $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
-	$(PREFIX2).autogen.bin $(PREFIX2).autopgen.bin modes 
+	$(PREFIX2).autogen.bin $(PREFIX2).autopgen.bin
 
 TARGETS = $(TARGETS_COMMON) $(PREFIX1).t1x.bin $(PREFIX2).t1x.bin 
 
@@ -152,16 +152,13 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
 apertium_es_andir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_es_modesdir=$(prefix)/share/apertium/modes/
 
-$(PREFIX1).mode: modes.xml 
+modes/$(PREFIX1).mode: modes.xml 
+	apertium-validate-modes modes.xml
 	apertium-gen-modes modes.xml
 	cp *.mode modes/
 
-$(PREFIX2).mode: modes.xml 
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
-modes: modes.xml
-	apertium-gen-modes modes.xml
+# All modes are created by the same goal, listing several will just give problems with make -j2
+noinst_DATA=modes/$(PREFIX1).mode
 
 apertium_es_an_DATA=$(PREFVAR1)$(PREFIX1).automorf.bin $(PREFVAR1)$(PREFIX2).automorf.bin \
 	$(PREFVAR1)$(PREFIX1).autobil.bin $(PREFVAR1)$(PREFIX2).autobil.bin \
@@ -171,13 +168,13 @@ apertium_es_an_DATA=$(PREFVAR1)$(PREFIX1).automorf.bin $(PREFVAR1)$(PREFIX2).aut
 	$(BASENAME).$(PREFIX2).t1x  \
 	$(PREFIX2).t1x.bin \
 	$(BASENAME).$(PREFIX1).t1x  \
-	$(PREFIX1).t1x.bin \
-	$(PREFIX1).mode \
-	$(PREFVAR1)$(PREFIX2).mode 
+	$(PREFIX1).t1x.bin
 
 install-data-local:
+	mv modes modes.bak
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
-	cp *.mode modes/
+	rm -rf modes
+	mv modes.bak modes
 	test -d $(DESTDIR)$(apertium_es_modesdir) || mkdir $(DESTDIR)$(apertium_es_modesdir)
 	$(INSTALL_DATA) $(PREFVAR1)$(PREFIX2).mode $(DESTDIR)$(apertium_es_modesdir)
 	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_es_modesdir)
