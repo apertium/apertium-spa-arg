@@ -1,8 +1,33 @@
+Tue 29 Dec 2012 9:00:00 UTC
+* Release 0.3
+* Improvements since version 0.2:
+   * Improved tagger (PoS desambiguator) for Aragonese. Changes in the tagger
+   rules (...an.tsx) and unsupervised training in the Wikipedia corpus. 
+   * Improvement in coverage and morphology of Aragonese monolingual dictionary.
+     > 546 paradigms, 
+     > 21073 lemmae (of which, 8047 proper nouns), including 1921 multi-words. 
+     ~568 000 different analyzable surface forms, 
+     ~117 500 different generated surface forms. 
+     Naïve coverage: from 88.4% in an.wikipedia to 94.0% in a corpus of narrative texts.
+   * Some paradigms fixed (e.g. seguir)
+   * Some rules fixed (e.g. prep+el+que --> prep+o+que)
+   * Some rules added (véase --> se veiga, léaselo --> se lo leiga, behaviour of
+   buen, mal before a noun)
+   * Improved distinction beteen a<pr> and a<det> (a2) and two meanings of "ta" so
+   that the postgenerator can apply different rules to them.
+   * Use of apocopated posesives mi, tu, su is dealt with in analysis.
+   * Periphrastic past dealt with in analysis (synthetic forms are used for
+   generation, although rules for using periphrastic instead are written and
+   commented).
+* Main pending Issues:
+   * Still room to improve on coverage.
+   * Still much to work on transfer.
+
 Tue 6 Sept 2011 9:00:00 UTC
 * Release 0.2.1
 * Solved postgeneration of a (preposition) + a (article f sg) using double
 label <a/><a/> for a (article f sg).
-* See ver 0.2 for main pending issue.
+* See ver 0.2 for main pending issues.
 
 Sun 10 Jul 2011 19:20:14 IST
 * Release 0.2
@@ -26,15 +51,15 @@ Sun 10 Jul 2011 19:20:14 IST
      > 17500 lemmae (of which, 8025 proper nouns), including 1786 multi-words. 
      ~500 000 analyzable surface forms, 
      ~120 000 generated surface forms. 
-     86.3% naÃ¯ve coverage in wikipedia.
+     86.3% naïve coverage in wikipedia.
    * es monodix trimmed to bidix using ignore label (i="yes").
 * Main pending Issues:
    * Still room to improve on coverage.
    * Still much to work on transfer (current version based on a reduced and 
      tuned subset of rules from es-ca).
    * Current POS disambiguator is directly taken from es-ca.
-     Note: Orthography is taken from "Academia de l'AragonÃ©s - Estudio de 
-     FilolochÃ­a Aragonesa", a board created in the II Congreso de l'AragonÃ©s.  
+     Note: Orthography is taken from "Academia de l'Aragonés - Estudio de 
+     Filolochía Aragonesa", a board created in the II Congreso de l'Aragonés.  
      http://www.academiadelaragones.org/biblio/EDACAR7_2.pdf . 
      It is the orthography used in Wikipedia in Aragonese 
      (http://an.wikipedia.org). 
