@@ -4307,13 +4307,13 @@
         <r><s n="cni"/><s n="p3"/><s n="sg"/></r>
       </p>
   </e>
-    <e>
+    <e r="LR">
       <p>
         <l>rbanos</l>
         <r><s n="cni"/><s n="p1"/><s n="pl"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e>
       <p>
         <l>rbamos</l>
         <r><s n="cni"/><s n="p1"/><s n="pl"/></r>
@@ -4338,6 +4338,34 @@
       </p>
     </e>
   </pardef>
+
+  <pardef n="cond_rba_acc__cnjgt">
+    <e r="LR">
+      <p>
+        <l>rbanos</l>
+        <r><s n="cni"/><s n="p1"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>rbamos</l>
+        <r><s n="cni"/><s n="p1"/><s n="pl"/></r>
+      </p>
+    </e>
+  <e>
+      <p>
+        <l>rbatz</l>
+        <r><s n="cni"/><s n="p2"/><s n="pl"/></r>
+      </p>
+  </e>    
+   <e r="LR">
+      <p>
+        <l>rbaz</l>
+        <r><s n="cni"/><s n="p2"/><s n="pl"/></r>
+      </p>
+    </e>
+  </pardef>
+
 
   <pardef n="pimpi_ba__cnjgt">
     <e>
@@ -4425,6 +4453,52 @@
       </p>
     </e>
   </pardef>
+
+  <pardef n="pimpi_ba_acc__cnjgt">
+    <e r="LR">
+      <p>
+        <l>bai</l>
+        <r><s n="pii"/><s n="p1"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>banos</l>
+        <r><s n="pii"/><s n="p1"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>bamos</l>
+        <r><s n="pii"/><s n="p1"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>bam</l>
+        <r><s n="pii"/><s n="p1"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>batz</l>
+        <r><s n="pii"/><s n="p2"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>baz</l>
+        <r><s n="pii"/><s n="p2"/><s n="pl"/></r>
+      </p>
+    </e>
+    <e r="LR">
+      <p>
+        <l>bats</l>
+        <r><s n="pii"/><s n="p2"/><s n="pl"/></r>
+      </p>
+    </e>
+  </pardef>
+
 
   <pardef n="indefi_e__cnjgt">
     <e>
@@ -5263,7 +5337,7 @@
     </e>
     <e r="LR">
       <p>
-        <l>aramos</l>
+        <l>áramos</l>
         <r><s n="pis"/><s n="p1"/><s n="pl"/></r>
       </p>
     </e>
@@ -5344,13 +5418,13 @@
     </e>
     <e r="LR">
       <p>
-        <l>eranos</l>
+        <l>éranos</l>
         <r><s n="pis"/><s n="p1"/><s n="pl"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>eramos</l>
+        <l>éramos</l>
         <r><s n="pis"/><s n="p1"/><s n="pl"/></r>
       </p>
     </e>
@@ -7322,7 +7396,7 @@
         <l>sé</l>
         <r>estar<s n="vbser"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
    
     <e r="LR">
@@ -7338,7 +7412,7 @@
         <l>está</l>
         <r>estar<s n="vbser"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
     <e>
       <p>
@@ -8166,7 +8240,7 @@
         <l>sé</l>
         <r>ser<s n="vbser"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
    
     <e>
@@ -8454,7 +8528,7 @@
         <l>está</l>
         <r>estar<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -8515,7 +8589,7 @@
         <l>está</l>
         <r>estar<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
   
     <e>
@@ -8781,7 +8855,7 @@
         <l>hé</l>
         <r>haber<s n="vbhaver"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
@@ -8795,7 +8869,7 @@
         <l>habé</l>
         <r>haber<s n="vbhaver"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e>
       <p>
@@ -8953,7 +9027,7 @@
         <l>habé</l>
         <r>haber<s n="vbhaver"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -9253,7 +9327,7 @@
         <l>é</l>
         <r>aber<s n="vbhaver"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
@@ -9267,7 +9341,7 @@
         <l>abé</l>
         <r>aber<s n="vbhaver"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e>
       <p>
@@ -9339,7 +9413,7 @@
         <l>abé</l>
         <r>aber<s n="vbhaver"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -9535,7 +9609,7 @@
         <l>é</l>
         <r>aber<s n="vaux"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
@@ -9549,7 +9623,7 @@
         <l>abé</l>
         <r>aber<s n="vaux"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e>
       <p>
@@ -9621,7 +9695,7 @@
         <l>abé</l>
         <r>aber<s n="vaux"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -9824,7 +9898,7 @@
         <l>é</l>
         <r>aber<s n="vbmod"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
@@ -9838,7 +9912,7 @@
         <l>abé</l>
         <r>aber<s n="vbmod"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e>
       <p>
@@ -9911,7 +9985,7 @@
         <l>abé</l>
         <r>aber<s n="vbmod"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -10185,7 +10259,7 @@
         <l>eré</l>
         <r>erer<s n="vbmod"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
@@ -10199,7 +10273,7 @@
         <l>erí</l>
         <r>erer<s n="vbmod"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -10275,7 +10349,7 @@
         <l>eré</l>
         <r>erer<s n="vbmod"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -10633,7 +10707,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
     <e>
@@ -10786,7 +10860,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -11245,7 +11319,7 @@
         <l>eré</l>
         <r>erer<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
@@ -11259,7 +11333,7 @@
         <l>erí</l>
         <r>erer<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -11335,7 +11409,7 @@
         <l>eré</l>
         <r>erer<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -11539,7 +11613,7 @@
         <l>zá</l>
         <r>zar<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -11586,7 +11660,7 @@
         <l>zá</l>
         <r>zar<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -11727,7 +11801,7 @@
         <l>cá</l>
         <r>car<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -11774,7 +11848,7 @@
         <l>cá</l>
         <r>car<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -11940,7 +12014,7 @@
         <l>orzá</l>
         <r>orzar<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -11987,7 +12061,7 @@
         <l>orzá</l>
         <r>orzar<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -12119,7 +12193,7 @@
         <l>zá</l>
         <r>zar<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e>
       <p>
@@ -12161,7 +12235,7 @@
         <l>zá</l>
         <r>zar<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
     <e>
       <p>
@@ -12292,7 +12366,7 @@
         <l>á</l>
         <r>ar<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e>
       <p>
@@ -12334,7 +12408,7 @@
         <l>á</l>
         <r>ar<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
     <e>
       <p>
@@ -12551,7 +12625,7 @@
         <l>é</l>
         <r>er<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e>
       <p>
@@ -12622,7 +12696,7 @@
         <l>é</l>
         <r>er<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
     <e>
       <p>
@@ -12921,7 +12995,7 @@
         <l>odé</l>
         <r>oder<s n="vbmod"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -12997,7 +13071,7 @@
         <l>odé</l>
         <r>oder<s n="vbmod"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -13192,7 +13266,7 @@
         <l>ení</l>
         <r>enir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -13259,7 +13333,7 @@
         <l>ení</l>
         <r>enir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -13485,7 +13559,7 @@
         <l>ené</l>
         <r>ener<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
@@ -13499,7 +13573,7 @@
         <l>ení</l>
         <r>ener<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -13575,7 +13649,7 @@
         <l>ené</l>
         <r>ener<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -13785,7 +13859,7 @@
         <l>á</l>
         <r>ar<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -13832,7 +13906,7 @@
         <l>á</l>
         <r>ar<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -13971,7 +14045,7 @@
         <l>á</l>
         <r>ar<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -14018,7 +14092,7 @@
         <l>á</l>
         <r>ar<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -14497,7 +14571,7 @@
         <l>á</l>
         <r>ar<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 <!-- ifi for dar -->
     <e>
@@ -14632,7 +14706,7 @@
         <l>á</l>
         <r>ar<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
     <e>
       <p>
@@ -14940,21 +15014,21 @@
         <l>iá</l>
         <r>iar<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 <e r="LR">
       <p>
         <l>eá</l>
         <r>iar<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 <e r="LR">
       <p>
         <l>eyá</l>
         <r>iar<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
 
@@ -15073,21 +15147,21 @@
         <l>iá</l>
         <r>iar<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
     <e r="LR">
       <p>
         <l>eá</l>
         <r>iar<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
     <e r="LR">
       <p>
         <l>eyá</l>
         <r>iar<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -15407,7 +15481,7 @@
         <l>iá</l>
         <r>iar<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e>
       <p>
@@ -15449,7 +15523,7 @@
         <l>iá</l>
         <r>iar<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
     <e>
       <p>
@@ -15576,7 +15650,7 @@
         <l>uá</l>
         <r>uar<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e>
       <p>
@@ -15618,7 +15692,7 @@
         <l>uá</l>
         <r>uar<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
     <e>
       <p>
@@ -15745,7 +15819,7 @@
         <l>uá</l>
         <r>uar<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e>
       <p>
@@ -15787,7 +15861,7 @@
         <l>uá</l>
         <r>uar<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
     <e>
       <p>
@@ -15891,7 +15965,7 @@
         <l>á</l>
         <r>ar<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -15938,7 +16012,7 @@
         <l>á</l>
         <r>ar<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -16108,7 +16182,7 @@
         <l>té</l>
         <r>ter<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -16155,7 +16229,7 @@
         <l>té</l>
         <r>ter<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -16332,7 +16406,7 @@
         <l>é</l>
         <r>er<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -16379,7 +16453,7 @@
         <l>é</l>
         <r>er<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -16541,7 +16615,7 @@
         <l>é</l>
         <r>er<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -16602,7 +16676,7 @@
         <l>é</l>
         <r>er<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -16807,7 +16881,7 @@
         <l>cabé</l>
         <r>caber<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e r="LR">
@@ -16822,7 +16896,7 @@
         <l>capé</l>
         <r>caber<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -16896,7 +16970,7 @@
         <l>cabé</l>
         <r>caber<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
     <e r="LR">
       <p>
@@ -16911,7 +16985,7 @@
         <l>capé</l>
         <r>caber<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -17204,7 +17278,7 @@
         <l>oné</l>
         <r>oner<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -17271,7 +17345,7 @@
         <l>oné</l>
         <r>oner<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -17425,7 +17499,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
 
@@ -17458,7 +17532,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
     <e r="LR">
       <p>
@@ -17537,7 +17611,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
 
@@ -17570,7 +17644,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
       <e r="LR">
       <p>
@@ -17899,7 +17973,7 @@
         <l>é</l>
         <r>er<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -17946,7 +18020,7 @@
         <l>é</l>
         <r>er<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -18065,7 +18139,7 @@
         <l>é</l>
         <r>er<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -18112,7 +18186,7 @@
         <l>é</l>
         <r>er<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -19227,7 +19301,7 @@
         <l>é</l>
         <r>er<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -19287,7 +19361,7 @@
         <l>é</l>
         <r>er<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -19490,7 +19564,7 @@
         <l>cé</l>
         <r>ixer<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -19535,7 +19609,7 @@
         <l>cé</l>
         <r>ixer<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -19712,7 +19786,7 @@
         <l>cé</l>
         <r>cer<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -19757,7 +19831,7 @@
         <l>cé</l>
         <r>cer<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -19932,7 +20006,7 @@
         <l>gé</l>
         <r>ger<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -19977,7 +20051,7 @@
         <l>gé</l>
         <r>ger<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -20152,7 +20226,7 @@
         <l>cé</l>
         <r>cer<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -20197,7 +20271,7 @@
         <l>cé</l>
         <r>cer<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -20372,7 +20446,7 @@
         <l>orcé</l>
         <r>orcer<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -20417,7 +20491,7 @@
         <l>orcé</l>
         <r>orcer<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -20640,7 +20714,7 @@
         <l>océ</l>
         <r>ocer<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -20685,7 +20759,7 @@
         <l>océ</l>
         <r>ocer<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -20895,7 +20969,7 @@
         <l>olvé</l>
         <r>olver<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -20940,7 +21014,7 @@
         <l>olvé</l>
         <r>olver<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -21125,7 +21199,7 @@
         <l>olé</l>
         <r>oler<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -21170,7 +21244,7 @@
         <l>olé</l>
         <r>oler<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -21371,7 +21445,7 @@
         <l>ené</l>
         <r>ener<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -21430,7 +21504,7 @@
         <l>ené</l>
         <r>ener<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -21625,7 +21699,7 @@
         <l>é</l>
         <r>er<s n="vbmod"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -21672,7 +21746,7 @@
         <l>é</l>
         <r>er<s n="vbmod"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -21805,7 +21879,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -21851,7 +21925,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -22004,7 +22078,7 @@
         <l>uí</l>
         <r>uir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -22050,7 +22124,7 @@
         <l>uí</l>
         <r>uir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -22204,7 +22278,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -22264,7 +22338,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -22431,7 +22505,7 @@
         <l>llí</l>
         <r>llir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -22491,7 +22565,7 @@
         <l>llí</l>
         <r>llir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -22671,7 +22745,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -22732,7 +22806,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -22884,7 +22958,7 @@
         <l>rí</l>
         <r>rir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -22930,7 +23004,7 @@
         <l>rí</l>
         <r>rir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
     
     <e>
@@ -23095,7 +23169,7 @@
         <l>entá</l>
         <r>entar<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -23142,7 +23216,7 @@
         <l>entá</l>
         <r>entar<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -23283,7 +23357,7 @@
         <l>bí</l>
         <r>bir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -23329,7 +23403,7 @@
         <l>bí</l>
         <r>bir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -23570,7 +23644,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
     <e r="LR">
       <par n ="aclar/eix_ix_ex__var"/>
@@ -23586,7 +23660,7 @@
         <l>é</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
     </e>
     <e r="LR">
       <p>
@@ -23600,7 +23674,7 @@
         <l>ecé</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
     </e>
 
   <e>
@@ -23735,7 +23809,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
      <e r="LR">
       <par n ="aclar/eix_ix_ex__var"/>
@@ -23751,7 +23825,7 @@
         <l>é</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e>   
      <e r="LR">
       <p>
@@ -23765,7 +23839,7 @@
         <l>ecé</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e>   
     
      <e>
@@ -24227,7 +24301,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
     <e r="LR">
       <par n ="aclar/eix_ix_ex__var"/>
@@ -24243,7 +24317,7 @@
         <l>é</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
     </e>
     <e r="LR">
       <p>
@@ -24257,7 +24331,7 @@
         <l>ecé</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
     </e>
 
   <e>
@@ -24378,7 +24452,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
      <e r="LR">
       <par n ="aclar/eix_ix_ex__var"/>
@@ -24394,7 +24468,7 @@
         <l>é</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e>   
      <e r="LR">
       <p>
@@ -24408,7 +24482,7 @@
         <l>ecé</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e>   
     
      <e>
@@ -24872,7 +24946,7 @@
         <l>quí</l>
         <r>quir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
     <e r="LR">
       <p><l>qu</l><r></r></p>
@@ -24890,7 +24964,7 @@
         <l>é</l>
         <r>quir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
     </e>
     <e r="LR">
       <p>
@@ -24904,7 +24978,7 @@
         <l>quecé</l>
         <r>quir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
     </e>
 
   <e>
@@ -25031,7 +25105,7 @@
         <l>quí</l>
         <r>quir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
      <e r="LR">
        <p><l>qu</l><r></r></p>
@@ -25049,7 +25123,7 @@
         <l>é</l>
         <r>quir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e>   
      <e r="LR">
       <p>
@@ -25063,7 +25137,7 @@
         <l>quecé</l>
         <r>quir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e>   
     
      <e>
@@ -25446,7 +25520,7 @@
         <l>quí</l>
         <r>quir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e>
       <p>
@@ -25489,7 +25563,7 @@
         <l>quí</l>
         <r>quir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
     <e>
       <p>
@@ -25636,7 +25710,7 @@
         <l>entá</l>
         <r>entar<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -25683,7 +25757,7 @@
         <l>entá</l>
         <r>entar<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -25846,7 +25920,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
@@ -25860,7 +25934,7 @@
         <l>yí</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -25928,7 +26002,7 @@
         <l>í</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e r="LR">
@@ -25952,7 +26026,7 @@
         <l>yí</l>
         <r>ir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -26196,7 +26270,7 @@
         <l>yí</l>
         <r>yir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
@@ -26210,7 +26284,7 @@
         <l>í</l>
         <r>yir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -26285,7 +26359,7 @@
         <l>í</l>
         <r>yir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
     
     <e r="LR">
@@ -26301,7 +26375,7 @@
         <l>yí</l>
         <r>yir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -26616,7 +26690,7 @@
         <l>eyí</l>
         <r>eyir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
@@ -26630,7 +26704,7 @@
         <l>eí</l>
         <r>eyir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -26734,7 +26808,7 @@
         <l>eyí</l>
         <r>eyir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
     <e r="LR">
       <p>
@@ -26748,7 +26822,7 @@
         <l>eí</l>
         <r>eyir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -27094,7 +27168,7 @@
         <l>ecí</l>
         <r>ecir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
@@ -27108,7 +27182,7 @@
         <l>í</l>
         <r>ecir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
@@ -27122,7 +27196,7 @@
         <l>icí</l>
         <r>ecir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -27217,7 +27291,7 @@
         <l>icí</l>
         <r>ecir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e r="LR">
@@ -27233,7 +27307,7 @@
         <l>ecí</l>
         <r>ecir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
     
     <e r="LR">
@@ -27249,7 +27323,7 @@
         <l>í</l>
         <r>ecir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -27508,7 +27582,7 @@
         <l>cí</l>
         <r>cir<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -27569,7 +27643,7 @@
         <l>cí</l>
         <r>cir<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -27748,7 +27822,7 @@
         <l>yé</l>
         <r>yer<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -27823,7 +27897,7 @@
         <l>yé</l>
         <r>yer<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -28098,7 +28172,7 @@
         <l>eyé</l>
         <r>eyer<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
@@ -28112,7 +28186,7 @@
         <l>ié</l>
         <r>eyer<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -28231,7 +28305,7 @@
         <l>eyé</l>
         <r>eyer<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -28544,7 +28618,7 @@
         <l>eyé</l>
         <r>eyer<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
@@ -28558,7 +28632,7 @@
         <l>iyé</l>
         <r>eyer<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
@@ -28572,7 +28646,7 @@
         <l>ié</l>
         <r>eyer<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
 
   <e>
@@ -28699,7 +28773,7 @@
         <l>eyé</l>
         <r>eyer<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
     <e>
@@ -29007,7 +29081,7 @@
         <l>abé</l>
         <r>aber<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e r="LR">
       <p>
@@ -29021,7 +29095,7 @@
         <l>apé</l>
         <r>aber<s n="vblex"/></r>
       </p>
-      <par n="pimpi_ba__cnjgt"/>
+      <par n="pimpi_ba_acc__cnjgt"/>
 </e> 
   <e>
       <p>
@@ -29096,7 +29170,7 @@
         <l>abé</l>
         <r>aber<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
         <e r="LR">
       <p>
@@ -29111,7 +29185,7 @@
         <l>apé</l>
         <r>aber<s n="vblex"/></r>
       </p>
-      <par n="cond_rba__cnjgt"/>
+      <par n="cond_rba_acc__cnjgt"/>
     </e> 
 
 
