@@ -1677,7 +1677,7 @@
    <e>
       <par n="-me__enc"/>
     </e>  
-    <e>
+    <e i="yes">
       <par n="-me-le__enc"/>
     </e>
     <e>
@@ -1695,7 +1695,7 @@
     <e>
       <par n="-nos__enc"/>
     </e>
-   <e>
+    <e i="yes">
       <par n="-nos-le__enc"/>
     </e>
     <e>
@@ -1738,10 +1738,10 @@
     <e>
       <par n="-tos__enc"/>
     </e>      
-   <e>
+   <e i="yes">
       <par n="-tos-me__enc"/>
     </e>
-    <e>
+   <e i="yes">
       <par n="-tos-nos__enc"/>
     </e>
     <e>
@@ -1974,7 +1974,7 @@
    <e>
       <par n="-me__enc"/>
     </e>  
-    <e>
+    <e i="yes">
       <par n="-me-le__enc"/>
     </e>
     <e>
@@ -1992,7 +1992,7 @@
     <e>
       <par n="-nos__enc"/>
     </e>
-   <e>
+    <e i="yes">
       <par n="-nos-le__enc"/>
     </e>
     <e>
@@ -2007,28 +2007,28 @@
     <e r="LR">
       <par n="-nos-hue__enc"/>
     </e>
-    <e>
+    <e i="yes">
       <par n="-te__enc"/>
     </e>
-   <e>
+    <e i="yes">
       <par n="-te-me__enc"/>
     </e>
-    <e>
+    <e i="yes">
       <par n="-te-nos__enc"/>
     </e>
-    <e>
+    <e i="yes">
       <par n="-te-le__enc"/>
     </e>
-    <e>
+    <e i="yes">
       <par n="-te-la__enc"/>
     </e>
-    <e>
+     <e i="yes">
       <par n="-te-ne__enc"/>
     </e>
-    <e>
+     <e i="yes">
       <par n="-te-ie__enc"/>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <par n="-te-hue__enc"/>
     </e>
     <e>
@@ -2040,7 +2040,7 @@
     <e>
       <par n="-os-nos__enc"/>
     </e>
-    <e>
+    <e i="yes">
       <par n="-os-le__enc"/>
     </e>
     <e>
@@ -2052,7 +2052,7 @@
     <e>
       <par n="-os-ie__enc"/>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <par n="-os-hue__enc"/>
     </e>
     <e>
@@ -2103,22 +2103,22 @@
   </pardef>    
   
   <pardef n="S__cantemos">
-   <e>
+    <e i="yes">
       <par n="-me__enc"/>
     </e>  
-    <e>
+    <e i="yes">
       <par n="-me-le__enc"/>
     </e>
-    <e>
+    <e i="yes">
       <par n="-me-la__enc"/>
     </e>
-    <e>
+    <e i="yes">
       <par n="-me-ne__enc"/>
     </e>
-    <e>
+     <e i="yes">
       <par n="-me-ie__enc"/>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <par n="-me-hue__enc"/>
     </e>    
     <e r="LR">
@@ -2140,52 +2140,52 @@
       <par n="-nos-hue__enc"/>
     </e>
     
-    <e>
+    <e i="yes">
       <par n="-te__enc"/>
     </e>
-   <e>
+    <e i="yes">
       <par n="-te-me__enc"/>
     </e>
-    <e>
+     <e i="yes">
       <par n="-te-nos__enc"/>
     </e>
-    <e>
+    <e i="yes">
       <par n="-te-le__enc"/>
     </e>
-    <e>
+    <e i="yes">
       <par n="-te-la__enc"/>
     </e>
-    <e>
+    <e i="yes">
       <par n="-te-ne__enc"/>
     </e>
-    <e>
+    <e i="yes">
       <par n="-te-ie__enc"/>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <par n="-te-hue__enc"/>
     </e>
     <e>
       <par n="-tos__enc"/>
     </e>      
-   <e>
+    <e i="yes">
       <par n="-tos-me__enc"/>
     </e>
     <e>
       <par n="-tos-nos__enc"/>
     </e>
-    <e>
+   <e i="yes">
       <par n="-tos-le__enc"/>
     </e>
-    <e>
+   <e i="yes">
       <par n="-tos-la__enc"/>
     </e>
-    <e>
+   <e i="yes">
       <par n="-tos-ne__enc"/>
     </e>
-    <e>
+   <e i="yes">
       <par n="-tos-ie__enc"/>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <par n="-tos-hue__enc"/>
     </e>
     <e>
@@ -2254,28 +2254,28 @@
     <e>
       <par n="-nos-hue__enc"/>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <par n="-tos__enc"/>
     </e>      
-   <e r="LR">
+   <e r="LR" i="yes">
       <par n="-tos-me__enc"/>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <par n="-tos-nos__enc"/>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <par n="-tos-le__enc"/>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <par n="-tos-la__enc"/>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <par n="-tos-ne__enc"/>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <par n="-tos-ie__enc"/>
     </e>
-    <e r="LR">
+    <e r="LR" i="yes">
       <par n="-tos-hue__enc"/>
     </e>
   </pardef>      
