@@ -23619,14 +23619,14 @@
     <e r="LR">
       <par n ="aclar/eix_ix_ex__var"/>
       <p>
-        <l>e</l>
+        <l></l>
         <r>ir<s n="vblex"/></r>
       </p>
       <par n="pri12pl_emos__cnjgt"/>
     </e>
     <e r="LR">
       <p>
-        <l>ece</l>
+        <l>ec</l>
         <r>ir<s n="vblex"/></r>
       </p>
       <par n="pri12pl_emos__cnjgt"/>
@@ -24276,14 +24276,14 @@
     <e r="LR">
       <par n ="aclar/eix_ix_ex__var"/>
       <p>
-        <l>e</l>
+        <l></l>
         <r>ir<s n="vblex"/></r>
       </p>
       <par n="pri12pl_emos__cnjgt"/>
     </e>
     <e r="LR">
       <p>
-        <l>ece</l>
+        <l>ec</l>
         <r>ir<s n="vblex"/></r>
       </p>
       <par n="pri12pl_emos__cnjgt"/>
@@ -24921,14 +24921,14 @@
       <p><l>qu</l><r></r></p>
       <par n ="aclar/eix_ix_ex__var"/>
       <p>
-        <l>e</l>
+        <l></l>
         <r>quir<s n="vblex"/></r>
       </p>
       <par n="pri12pl_emos__cnjgt"/>
     </e>
     <e r="LR">
       <p>
-        <l>quece</l>
+        <l>quec</l>
         <r>quir<s n="vblex"/></r>
       </p>
       <par n="pri12pl_emos__cnjgt"/>
@@ -29003,13 +29003,13 @@
     </e>
     <e r="LR">
       <p>
-        <l>sapo</l>
+        <l>apo</l>
         <r>aber<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
       </p>
     </e>
     <e r="LR">
       <p>
-        <l>sabo</l>
+        <l>abo</l>
         <r>aber<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
       </p>
     </e>
@@ -39927,7 +39927,7 @@
     <e lm="buscar"><i>bus</i><par n="trafu/car__vblex"/></e>
     <e lm="sucar"><i>su</i><par n="trafu/car__vblex"/></e>
     <e lm="corrucar"><i>corru</i><par n="trafu/car__vblex"/></e>
-    <e lm="corrucar" r="LR"><p><l>curr</l><r>corru</r></p><par n="trafu/car__vblex"/></e> 
+    <e lm="corrucar" r="LR"><p><l>curru</l><r>corru</r></p><par n="trafu/car__vblex"/></e> 
     <e lm="corrugar"><i>corrug</i><par n="pag/ar__vblex"/></e>
     <e lm="fer"><i>f</i><par n="f/er__vblex"/></e>
     <e lm="poder"><i>p</i><par n="p/oder__vbmod"/></e>
@@ -48738,7 +48738,7 @@
     <e lm="relacionar"><i>relacion</i><par n="cant/ar__vblex"/></e>
     <e lm="remontar"><i>remont</i><par n="cant/ar__vblex"/></e>
     <e lm="reemplazar"><i>reempla</i><par n="ca/zar__vblex"/></e>
-    <e lm="reemplazar" r="LR"><p><l>remplaz</l><r>reempla</r></p><par n="ca/zar__vblex"/></e>
+    <e lm="reemplazar" r="LR"><p><l>rempla</l><r>reempla</r></p><par n="ca/zar__vblex"/></e>
     <e lm="reorganizar"><i>reorgani</i><par n="ca/zar__vblex"/></e>
     <e lm="reservar"><i>reserv</i><par n="cant/ar__vblex"/></e>
     <e lm="resguardar"><i>resguard</i><par n="cant/ar__vblex"/></e>
@@ -54783,10 +54783,10 @@
     <e lm="azteca"><i>azteca</i><par n="social__adj"/></e>
     <e lm="azul"><i>azul</i><par n="social__adj"/></e>
     <e lm="azulgrana"><i>azulgrana</i><par n="social__adj"/></e>
-    <e lm="baixomeyeval"><i>baixomeyeval</i><par n="social__adj"/></e>
-    <e lm="baixomeyeval" r="LR"><p><l>baixomedieval</l><r>baixomeyeval</r></p><par n="social__adj"/></e>
-    <e lm="baixomeyeval" r="LR"><p><l>baxomeyeval</l><r>baixomeyeval</r></p><par n="social__adj"/></e>
-    <e lm="baixomeyeval" r="LR"><p><l>baxomedieval</l><r>baixomeyeval</r></p><par n="social__adj"/></e>
+    <e lm="baixomedieval"><i>baixomedieval</i><par n="social__adj"/></e>
+    <e lm="baixomedieval" r="LR"><p><l>baixomeyeval</l><r>baixomedieval</r></p><par n="social__adj"/></e>
+    <e lm="baixomedieval" r="LR"><p><l>baxomedieval</l><r>baixomedieval</r></p><par n="social__adj"/></e>
+    <e lm="baixomedieval" r="LR"><p><l>baxomeyeval</l><r>baixomedieval</r></p><par n="social__adj"/></e>
     <e lm="balear"><i>balear</i><par n="social__adj"/></e>
     <e lm="banal"><i>banal</i><par n="social__adj"/></e>
     <e lm="basal"><i>basal</i><par n="social__adj"/></e>
@@ -55260,8 +55260,6 @@
     <e lm="mayor"><i>mayor</i><par n="social__adj"/></e>
     <e lm="medial"><i>medial</i><par n="social__adj"/></e>
     <e lm="medicinal"><i>medicinal</i><par n="social__adj"/></e>
-    <e lm="meyeval"><i>meyeval</i><par n="social__adj"/></e>
-    <e lm="meyeval" r="LR"><p><l>medieval</l><r>meyeval</r></p><par n="social__adj"/></e>
     <e lm="mediocre"><i>mediocre</i><par n="social__adj"/></e>
     <e lm="memorable"><i>memorable</i><par n="social__adj"/></e>
     <e lm="menor"><i>menor</i><par n="social__adj"/></e>
@@ -58525,7 +58523,6 @@
     <e lm="extrauniversitario"><i>extrauniversitari</i><par n="academic/o__adj_adv"/></e>
     <e lm="extravagant"><i>extravag</i><par n="degrad/ant__adj_adv"/></e>
     <e lm="extremau"><i>extrema</i><par n="sala/u__adj_adv"/></e>
-    <e lm="extremau" r="LR"><p><l>extremat</l><r>extrema</r></p><par n="sala/u__adj_adv"/></e>
     <e lm="extremo"><i>extrem</i><par n="academic/o__adj_adv"/></e>
     <e lm="extrinseco"><i>extrinsec</i><par n="academic/o__adj_adv"/></e>
     <e lm="exuberant"><i>exuber</i><par n="degrad/ant__adj_adv"/></e>
@@ -59076,7 +59073,7 @@
     <e lm="inintelichible" r="LR"><p><l>inintelichible</l><r>inintelichible</r></p><par n="social__adj_adv"/></e>
     <e lm="ininterrompiu"><i>ininterrompi</i><par n="adequa/u__adj_adv"/></e>
     <e lm="ininterrompiu" r="LR"><p><l>ininterrumpi</l><r>ininterrompi</r></p><par n="adequa/u__adj_adv"/></e>
-    <e lm="ininterrompiu" r="LR"><p><l>ininterrupt</l><r>ininterrompi</r></p><par n="adequa/u__adj_adv"/></e>
+    <e lm="ininterrompiu" r="LR"><p><l>ininterrupt</l><r>ininterrompi</r></p><par n="academic/o__adj_adv"/></e>
     <e lm="inchuriau"><i>inchuria</i><par n="sala/u__adj_adv"/></e>
     <e lm="inchusto"><i>inchust</i><par n="alt/o__adj_adv"/></e>
     <e lm="inchustificau"><i>inchustifica</i><par n="sala/u__adj_adv"/></e>
@@ -59430,8 +59427,8 @@
     <e lm="meyoambiental" r="LR"><p><l>medioambiental</l><r>meyoambiental</r></p><par n="social__adj_adv"/></e>
     <e lm="mediatico"><i>mediatic</i><par n="academic/o__adj_adv"/></e>
     <e lm="medico"><i>medic</i><par n="academic/o__adj_adv"/></e>
-    <e lm="meyeval"><i>meyeval</i><par n="social__adj_adv"/></e>
-    <e lm="meyeval" r="LR"><p><l>medieval</l><r>meyeval</r></p><par n="social__adj_adv"/></e>
+    <e lm="medieval"><i>medieval</i><par n="social__adj_adv"/></e>
+    <e lm="medieval" r="LR"><p><l>meyeval</l><r>medieval</r></p><par n="social__adj_adv"/></e>
     <e lm="mediocre"><i>mediocre</i><par n="social__adj_adv"/></e>
     <e lm="medular"><i>medular</i><par n="social__adj_adv"/></e>
     <e lm="megalomano"><i>megaloman</i><par n="academic/o__adj_adv"/></e>
@@ -59496,7 +59493,7 @@
     <e lm="minucioso"><i>minucios</i><par n="alt/o__adj_adv"/></e>
     <e lm="miraculoso"><i>miraculos</i><par n="alt/o__adj_adv"/></e>
     <e lm="miscelanio"><i>miscelani</i><par n="academic/o__adj_adv"/></e>
-    <e lm="miscelanio" r="LR"><p><l>miscelaneam</l><r>miscelani</r></p><par n="academic/o__adj_adv"/></e>
+    <e lm="miscelanio" r="LR"><p><l>miscelane</l><r>miscelani</r></p><par n="academic/o__adj_adv"/></e>
     <e lm="miserable"><i>miserable</i><par n="social__adj_adv"/></e>
     <e lm="misericordioso"><i>misericordios</i><par n="academic/o__adj_adv"/></e>
     <e lm="misionero"><i>mision</i><par n="verdad/ero__adj_adv"/></e>
@@ -59506,8 +59503,8 @@
     <e lm="mitolochico"><i>mitolochic</i><par n="academic/o__adj_adv"/></e>
     <e lm="mixto"><i>mixt</i><par n="academic/o__adj_adv"/></e>
     <e lm="mnemotecnico"><i>mnemotecnic</i><par n="academic/o__adj_adv"/></e>
-    <e lm="mobible"><i>mobible</i><par n="social__adj_adv"/></e>
-    <e lm="mobible" r="LR"><p><l>movible</l><r>mobible</r></p><par n="social__adj_adv"/></e>
+    <e lm="movible"><i>movible</i><par n="social__adj_adv"/></e>
+    <e lm="movible" r="LR"><p><l>mobible</l><r>movible</r></p><par n="social__adj_adv"/></e>
     <e lm="mobil"><i>mobil</i><par n="social__adj_adv"/></e>
     <e lm="mobil" r="LR"><p><l>movil</l><r>mobil</r></p><par n="social__adj_adv"/></e>
     <e lm="modal"><i>modal</i><par n="social__adj_adv"/></e>
