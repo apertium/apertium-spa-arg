@@ -56940,12 +56940,20 @@
     <e lm="responder" r="LR"><p><l>respuest</l><r>responder<s n="vblex"/></r></p><par n="pp_quiest/o__cnjgt"/></e>
     <e lm="veyer"><i>v</i><par n="v/eyer__vblex"/></e>
     <e lm="veyer" r="LR"><p><l>b</l><r>v</r></p><par n="v/eyer__vblex"/></e>
-    <e lm="chugar"><i>chug</i><par n="pag/ar__vblex"/></e>
     <e lm="imachinar"><i>imachin</i><par n="cant/ar__vblex"/></e>
     <e lm="imachinar" r="LR"><p><l>imaxin</l><r>imachin</r></p><par n="cant/ar__vblex"/></e>
     <e lm="esmachinar"><i>esmachin</i><par n="cant/ar__vblex"/></e>
     <e lm="esmachinar" r="LR"><p><l>esmaxin</l><r>esmachin</r></p><par n="cant/ar__vblex"/></e>
     <e lm="chugar"><i>chug</i><par n="pag/ar__vblex"/></e>
+    <e lm="ixugar"><i>ixug</i><par n="pag/ar__vblex"/></e>
+    <e lm="ixugar" r="LR"><p><l>aixug</l><r>ixug</r></p><par n="pag/ar__vblex"/></e>
+    <e lm="ixugar" r="LR"><p><l>xug</l><r>ixug</r></p><par n="pag/ar__vblex"/></e>
+    <e lm="ixugar" r="LR"><p><l>eixug</l><r>ixug</r></p><par n="pag/ar__vblex"/></e>
+    <e lm="ixucar" r="LR"><p><l>ixu</l><r>ixu</r></p><par n="trafu/car__vblex"/></e>
+    <e lm="ixucar" r="LR"><p><l>eixu</l><r>ixu</r></p><par n="trafu/car__vblex"/></e>    
+    <e lm="secar"><i>se</i><par n="trafu/car__vblex"/></e>
+    <e lm="secar" r="LR"><p><l>ixe</l><r>se</r></p><par n="trafu/car__vblex"/></e>
+
     <e lm="vulcar"><i>vulc</i><par n="cant/ar__vblex"/></e>
     <e lm="vulcar" r="LR"><p><l>bulc</l><r>vulc</r></p><par n="cant/ar__vblex"/></e>
     <e lm="acabar"><i>acab</i><par n="cant/ar__vblex"/></e>
@@ -56989,8 +56997,8 @@
     <e lm="canso"><i>cans</i><par n="academic/o__adj"/></e>
     <e lm="farto"><i>fart</i><par n="alt/o__adj"/></e>
     <e lm="preto"><i>pret</i><par n="alt/o__adj"/></e>
-    <e lm="xuto"><i>xut</i><par n="academic/o__adj"/></e>   <!-- tamién participio verbal ??-->
-    <e lm="xuto" r="LR"><p><l>ixut</l><r>xut</r></p><par n="academic/o__adj"/></e>     <!-- tamién participio verbal ??-->
+    <e lm="ixuto"><i>ixut</i><par n="academic/o__adj"/></e>
+    <e lm="ixuto" r="LR"><p><l>xut</l><r>ixut</r></p><par n="academic/o__adj"/></e>
     <e lm="ubierto"><i>ubiert</i><par n="academic/o__adj"/></e>     <!-- tamién participio verbal -->
     <e lm="ubierto" r="LR"><p><l>obiert</l><r>ubiert</r></p><par n="academic/o__adj"/></e>     <!-- tamién participio verbal -->
     <e lm="tuerto"><i>tuert</i><par n="academic/o__adj"/></e>    <!-- tamién participio verbal -->
