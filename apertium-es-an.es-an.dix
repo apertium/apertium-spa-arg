@@ -13490,8 +13490,8 @@
     <e><p><l>helipuerto<s n="n"/></l><r>helipuerto<s n="n"/></r></p></e>
     <e><p><l>aeropuerto<s n="n"/></l><r>aeropuerto<s n="n"/></r></p></e>
     <e><p><l>parpadear<s n="vblex"/></l><r>parpaguiar<s n="vblex"/></r></p></e>
-    <e><p><l>deletrear<s n="vblex"/></l><r>letreyar<s n="vblex"/></r></p></e>
-    <e r="RL"><p><l>deletrear<s n="vblex"/></l><r>letriar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>deletrear<s n="vblex"/></l><r>letreyar<s n="vblex"/></r></p></e>
+    <e><p><l>deletrear<s n="vblex"/></l><r>letriar<s n="vblex"/></r></p></e>
     <e><p><l>engañar<s n="vblex"/></l><r>enganyar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>engañar<s n="vblex"/></l><r>enganyuflar<s n="vblex"/></r></p></e>
     <e><p><l>desengañar<s n="vblex"/></l><r>desenganyar<s n="vblex"/></r></p></e>
@@ -14924,6 +14924,7 @@
     
     <e><p><l>diseño<s n="n"/></l><r>disenyo<s n="n"/></r></p></e>
     <e><p><l>oscuridad<s n="n"/></l><r>foscor<s n="n"/></r></p></e>
+    <e r="RL"><p><l>oscuridad<s n="n"/></l><r>escureldat<s n="n"/></r></p></e>
     <e><p><l>horror<s n="n"/><s n="m"/></l><r>horror<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>humor<s n="n"/><s n="m"/></l><r>humor<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>licor<s n="n"/></l><r>licor<s n="n"/></r></p></e>
@@ -17267,10 +17268,10 @@
     <e r="RL"><p><l>bañar<s n="vblex"/></l><r>banyar<s n="vblex"/></r></p></e>
     <e><p><l>bañar<s n="vblex"/></l><r>ficar<g><b/>en<b/>augua</g><s n="vblex"/></r></p></e>
     <e><p><l>blindar<s n="vblex"/></l><r>blindar<s n="vblex"/></r></p></e>
-    <e><p><l>broncear<s n="vblex"/></l><r>bronzeyar<s n="vblex"/></r></p></e>
-    <e r="RL"><p><l>broncear<s n="vblex"/></l><r>bronziar<s n="vblex"/></r></p></e>
-    <e><p><l>escanear<s n="vblex"/></l><r>escaneyar<s n="vblex"/></r></p></e>
-    <e r="RL"><p><l>escanear<s n="vblex"/></l><r>escaniar<s n="vblex"/></r></p></e>    
+    <e r="RL"><p><l>broncear<s n="vblex"/></l><r>bronzeyar<s n="vblex"/></r></p></e>
+    <e><p><l>broncear<s n="vblex"/></l><r>bronziar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>escanear<s n="vblex"/></l><r>escaneyar<s n="vblex"/></r></p></e>
+    <e><p><l>escanear<s n="vblex"/></l><r>escaniar<s n="vblex"/></r></p></e>    
     <e><p><l>calentar<s n="vblex"/></l><r>calentar<s n="vblex"/></r></p></e>
     <e><p><l>cambiar<s n="vblex"/></l><r>cambiar<s n="vblex"/></r></p></e>
     <e><p><l>cantar<s n="vblex"/></l><r>cantar<s n="vblex"/></r></p></e>
@@ -17513,11 +17514,11 @@
     <e><p><l>parcelar<s n="vblex"/></l><r>parcelar<s n="vblex"/></r></p></e>
     <e><p><l>participar<s n="vblex"/></l><r>participar<s n="vblex"/></r></p></e>
     <e><p><l>pasar<s n="vblex"/></l><r>pasar<s n="vblex"/></r></p></e>
-    <e><p><l>pelear<s n="vblex"/></l><r>peleyar<s n="vblex"/></r></p></e>
-    <e r="RL"><p><l>pelear<s n="vblex"/></l><r>peliar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>pelear<s n="vblex"/></l><r>peleyar<s n="vblex"/></r></p></e>
+    <e><p><l>pelear<s n="vblex"/></l><r>peliar<s n="vblex"/></r></p></e>
     <e><p><l>pensar<s n="vblex"/></l><r>pensar<s n="vblex"/></r></p></e>
-    <e><p><l>plantear<s n="vblex"/></l><r>planteyar<s n="vblex"/></r></p></e>
-    <e r="RL"><p><l>plantear<s n="vblex"/></l><r>plantiar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>plantear<s n="vblex"/></l><r>planteyar<s n="vblex"/></r></p></e>
+    <e><p><l>plantear<s n="vblex"/></l><r>plantiar<s n="vblex"/></r></p></e>
     <e><p><l>preguntar<s n="vblex"/></l><r>preguntar<s n="vblex"/></r></p></e>
     <e><p><l>presentar<s n="vblex"/></l><r>presentar<s n="vblex"/></r></p></e>
     <e><p><l>presumir<s n="vblex"/></l><r>presumir<s n="vblex"/></r></p></e>
@@ -18145,8 +18146,8 @@
     <e><p><l>interpelar<s n="vblex"/></l><r>interpelar<s n="vblex"/></r></p></e>
     <e><p><l>inventar<s n="vblex"/></l><r>inventar<s n="vblex"/></r></p></e>
     <e><p><l>lamentar<s n="vblex"/></l><r>lamentar<s n="vblex"/></r></p></e>
-    <e><p><l>menear<s n="vblex"/></l><r>meneyar<s n="vblex"/></r></p></e>
-    <e r="RL"><p><l>menear<s n="vblex"/></l><r>meniar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>menear<s n="vblex"/></l><r>meneyar<s n="vblex"/></r></p></e>
+    <e><p><l>menear<s n="vblex"/></l><r>meniar<s n="vblex"/></r></p></e>
     <e><p><l>maravillar<s n="vblex"/></l><r>marabillar<s n="vblex"/></r></p></e>
     <e><p><l>modelar<s n="vblex"/></l><r>modelar<s n="vblex"/></r></p></e>
     <e><p><l>nevar<s n="vblex"/></l><r>nevar<s n="vblex"/></r></p></e>
