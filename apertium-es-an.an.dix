@@ -14877,13 +14877,13 @@
         <r>iar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>eo</l>
         <r>iar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e>
       <p>
         <l>eyo</l>
         <r>iar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
@@ -14902,13 +14902,13 @@
         <r>iar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>eas</l>
         <r>iar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e>
       <p>
         <l>eyas</l>
         <r>iar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
@@ -14927,13 +14927,13 @@
         <r>iar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>ea</l>
         <r>iar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e>
       <p>
         <l>eya</l>
         <r>iar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
@@ -14952,13 +14952,13 @@
         <r>iar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
       </p>
     </e>
-    <e>
+    <e r="LR">
       <p>
         <l>ean</l>
         <r>iar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
       </p>
     </e>
-    <e r="LR">
+    <e>
       <p>
         <l>eyan</l>
         <r>iar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
@@ -15200,7 +15200,7 @@
       </p>
       <par n="prsrest_e__cnjgt"/>
     </e> 
-    <e>
+    <e r="LR">
       <p>
         <l>e</l>
         <r>iar<s n="vblex"/></r>
@@ -15214,7 +15214,7 @@
       </p>
       <par n="prsrest_e__cnjgt"/>
     </e> 
-    <e r="LR">
+    <e>
       <p>
         <l>ey</l>
         <r>iar<s n="vblex"/></r>
@@ -15280,14 +15280,14 @@
       </p>
       <par n="imp_cant/a__cnjgt"/>
     </e> 
-    <e>
+    <e r="LR">
       <p>
         <l>e</l>
         <r>iar<s n="vblex"/></r>
       </p>
       <par n="imp_cant/a__cnjgt"/>
     </e> 
-    <e r="LR">
+    <e>
       <p>
         <l>ey</l>
         <r>iar<s n="vblex"/></r>
@@ -15309,14 +15309,14 @@
       </p>
       <par n="imp_cant/e__cnjgt"/>
     </e>     
-    <e>
+    <e r="LR">
       <p>
         <l>e</l>
         <r>iar<s n="vblex"/></r>
       </p>
       <par n="imp_cant/e__cnjgt"/>
     </e>     
-    <e r="LR">
+    <e>
       <p>
         <l>ey</l>
         <r>iar<s n="vblex"/></r>
