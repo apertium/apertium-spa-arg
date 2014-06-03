@@ -48605,13 +48605,13 @@
     <e lm="banyar" r="LR"><p><l>bañ</l><r>bany</r></p><par n="cant/ar__vblex"/></e>
     <e lm="basar"><i>bas</i><par n="cant/ar__vblex"/></e>
     <e lm="blindar"><par n="/bl_bll__var"/><i>ind</i><par n="cant/ar__vblex"/></e>
-    <e lm="bronzeyar"><i>bronzey</i><par n="cant/ar__vblex"/></e>   <!-- versión regular con incremento en todas as formas -->
+    <!-- <e lm="bronzeyar"><i>bronzey</i><par n="cant/ar__vblex"/></e>   versión regular con incremento en todas as formas incluida en a irregular-->
     <e lm="bronziar"><i>bronz</i><par n="camb/iar__vblex"/></e><!-- versión tipo cambiar, con incremento en formas rizotónicas -->
-    <e lm="bronzeyar" r="LR"><p><l>broncey</l><r>bronzey</r></p><par n="cant/ar__vblex"/></e>   <!-- versión regular con incremento en todas as formas -->
+    <!-- <e lm="bronzeyar" r="LR"><p><l>broncey</l><r>bronzey</r></p><par n="cant/ar__vblex"/></e>    versión regular con incremento en todas as formas -->
     <e lm="bronziar" r="LR"><p><l>bronc</l><r>bronz</r></p><par n="camb/iar__vblex"/></e><!-- versión tipo cambiar, con incremento en formas rizotónicas -->
-    <e lm="letreyar"><i>letrey</i><par n="cant/ar__vblex"/></e><!-- versión regular con incremento en todas as formas -->
+    <!-- <e lm="letreyar"><i>letrey</i><par n="cant/ar__vblex"/></e> versión regular con incremento en todas as formas -->
     <e lm="letriar"><i>letr</i><par n="camb/iar__vblex"/></e><!-- versión tipo cambiar, con incremento en formas rizotónicas -->
-    <e lm="escaneyar"><i>escaney</i><par n="cant/ar__vblex"/></e><!-- versión regular con incremento en todas as formas -->
+    <!-- <e lm="escaneyar"><i>escaney</i><par n="cant/ar__vblex"/></e> versión regular con incremento en todas as formas -->
     <e lm="escaniar"><i>escan</i><par n="camb/iar__vblex"/></e><!-- versión tipo cambiar, con incremento en formas rizotónicas -->
     <e lm="casar"><i>cas</i><par n="cant/ar__vblex"/></e>
     <e lm="castellanizar"><i>castellani</i><par n="ca/zar__vblex"/></e>
@@ -48720,9 +48720,9 @@
     <e lm="parcelar"><i>parcel</i><par n="cant/ar__vblex"/></e>
     <e lm="desmantelar"><i>desmantel</i><par n="cant/ar__vblex"/></e>
     <e lm="pasar"><i>pas</i><par n="cant/ar__vblex"/></e>
-    <e lm="peleyar"><i>peley</i><par n="cant/ar__vblex"/></e>   <!-- versión regular con incremento en todas as formas -->
+   <!-- <e lm="peleyar"><i>peley</i><par n="cant/ar__vblex"/></e>   versión regular con incremento en todas as formas -->
     <e lm="peliar"><i>pel</i><par n="camb/iar__vblex"/></e><!-- versión tipo cambiar, con incremento en formas rizotónicas -->
-    <e lm="planteyar"><par n="/pl_pll__var"/><i>antey</i><par n="cant/ar__vblex"/></e>   <!-- versión regular con incremento en todas as formas -->
+    <!-- <e lm="planteyar"><par n="/pl_pll__var"/><i>antey</i><par n="cant/ar__vblex"/></e>   versión regular con incremento en todas as formas -->
     <e lm="plantiar"><par n="/pl_pll__var"/><i>ant</i><par n="camb/iar__vblex"/></e><!-- versión tipo cambiar, con incremento en formas rizotónicas -->
     <e lm="puntiar"><i>punt</i><par n="camb/iar__vblex"/></e><!-- versión tipo cambiar, con incremento en formas rizotónicas -->
     <e lm="tecliar"><i>tecl</i><par n="camb/iar__vblex"/></e>
@@ -61416,7 +61416,7 @@
     <e lm="interpelar"><i>interpel</i><par n="cant/ar__vblex"/></e>
     <e lm="inventar"><i>invent</i><par n="cant/ar__vblex"/></e>
     <e lm="lamentar"><par n="/l_ll__var"/><i>ament</i><par n="cant/ar__vblex"/></e>
-    <e lm="meneyar"><i>meney</i><par n="cant/ar__vblex"/></e>   <!-- versión regular con incremento en todas as formas -->
+    <!-- <e lm="meneyar"><i>meney</i><par n="cant/ar__vblex"/></e>   versión regular con incremento en todas as formas -->
     <e lm="meniar"><i>men</i><par n="camb/iar__vblex"/></e><!-- versión tipo cambiar, con incremento en formas rizotónicas -->
     <e lm="marabillar"><i>marabill</i><par n="cant/ar__vblex"/></e>
     <e lm="marabillar" r="LR"><p><l>marabell</l><r>marabill</r></p><par n="cant/ar__vblex"/></e>
