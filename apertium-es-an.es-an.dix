@@ -2470,6 +2470,7 @@
 <e><p><l>equiparable<s n="adj"/></l><r>equiparable<s n="adj"/></r></p></e>
 <e><p><l>estable<s n="adj"/></l><r>estable<s n="adj"/></r></p></e>
 <e><p><l>exigible<s n="adj"/></l><r>exichible<s n="adj"/></r></p></e>
+<e><p><l>reseñable<s n="adj"/></l><r>resinyable<s n="adj"/></r></p></e>
 <e r="RL"><p><l>exiguo<s n="adj"/><s n="GD"/></l><r>enreble<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>exiguo<s n="adj"/><s n="m"/></l><r>enreble<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>exiguo<s n="adj"/><s n="f"/></l><r>enreble<s n="adj"/><s n="mf"/></r></p></e>
@@ -11304,8 +11305,8 @@
     <e r="RL"><p><l>perro<s n="n"/></l><r>cocho<s n="n"/></r></p></e>
     <e r="RL"><p><l>perro<s n="n"/></l><r>chucho<s n="n"/></r></p></e>
     <e><p><l>perro<b/>guía<s n="n"/></l><r>can<g><b/>de<b/>guida</g><s n="n"/></r></p></e>
-    
-    
+    <e><p><l>calcetín<s n="n"/></l><r>pedaleta<s n="n"/></r></p></e>
+    <e r="RL"><p><l>calcetín<s n="n"/></l><r>calcetín<s n="n"/></r></p></e>
     <e><p><l>lagartija<s n="n"/></l><r>sargantana<s n="n"/></r></p></e>    
     <e r="RL"><p><l>lagartija<s n="n"/></l><r>engardaixina<s n="n"/></r></p></e>    
     
@@ -14893,6 +14894,7 @@
     <e><p><l>escultor<s n="n"/></l><r>escultor<s n="n"/></r></p></e>
     <e><p><l>extintor<s n="n"/></l><r>extintor<s n="n"/></r></p></e>
     <e><p><l>extractor<s n="n"/></l><r>extractor<s n="n"/></r></p></e>
+    <e><p><l>proyector<s n="n"/></l><r>prochector<s n="n"/></r></p></e>
     <e><p><l>factor<s n="n"/></l><r>factor<s n="n"/></r></p></e>
     <e><p><l>inspector<s n="n"/></l><r>inspector<s n="n"/></r></p></e>
     <e><p><l>instructor<s n="n"/></l><r>instructor<s n="n"/></r></p></e>
@@ -15536,7 +15538,20 @@
     <e><p><l>hormiga<s n="n"/></l><r>forniga<s n="n"/></r></p></e>
     <e><p><l>fórmula<s n="n"/></l><r>formula<s n="n"/></r></p></e>
     <e><p><l>fortuna<s n="n"/></l><r>fortuna<s n="n"/></r></p></e>
+    <e><p><l>gavilán<s n="n"/></l><r>esparvero<s n="n"/></r></p></e>
     <e r="LR"><p><l>fosa<s n="n"/></l><r>fuesa<s n="n"/></r></p></e>
+   <e><p><l>cornucopia<s n="n"/></l><r>cornucopia<s n="n"/></r></p></e>
+    <e><p><l>radioscopia<s n="n"/></l><r>radioscopia<s n="n"/></r></p></e>
+    <e><p><l>copia<s n="n"/></l><r>copia<s n="n"/></r></p></e>
+    <e><p><l>espectroscopia<s n="n"/></l><r>espectroscopia<s n="n"/></r></p></e>
+    <e><p><l>microscopia<s n="n"/></l><r>microscopia<s n="n"/></r></p></e>
+    <e><p><l>artroscopia<s n="n"/></l><r>artroscopia<s n="n"/></r></p></e>
+    <e><p><l>estereoscopia<s n="n"/></l><r>estereoscopia<s n="n"/></r></p></e>
+    <e><p><l>endoscopia<s n="n"/></l><r>endoscopia<s n="n"/></r></p></e>
+    <e><p><l>laparoscopia<s n="n"/></l><r>laparoscopia<s n="n"/></r></p></e>
+    <e><p><l>gastroscopia<s n="n"/></l><r>gastroscopia<s n="n"/></r></p></e>
+    <e><p><l>esofagoscopia<s n="n"/></l><r>esofagoscopia<s n="n"/></r></p></e>
+    <e><p><l>citoscopia<s n="n"/></l><r>citoscopia<s n="n"/></r></p></e>
     <e><p><l>fotocopia<s n="n"/></l><r>fotocopia<s n="n"/></r></p></e>
     <e><p><l>fotocopiadora<s n="n"/></l><r>fotocopiadora<s n="n"/></r></p></e>
     <e><p><l>fractura<s n="n"/></l><r>fractura<s n="n"/></r></p></e>
@@ -15787,7 +15802,7 @@
     <e><p><l>noticia<s n="n"/></l><r>noticia<s n="n"/></r></p></e>
     <e><p><l>novelista<s n="n"/></l><r>novelista<s n="n"/></r></p></e>
     <e><p><l>nuca<s n="n"/></l><r>foyeta<s n="n"/></r></p></e>
-    <e><p><l>nube<s n="n"/></l><r>boira<s n="n"/></r></p></e>
+    <e r="LR"><p><l>nube<s n="n"/></l><r>boira<s n="n"/></r></p></e>
     <e><p><l>niebla<s n="n"/></l><r>boira<s n="n"/></r></p></e>
     <e r="RL"><p><l>nube<s n="n"/></l><r>nuble<s n="n"/></r></p></e>
     <e><p><l>obediencia<s n="n"/></l><r>obediencia<s n="n"/></r></p></e>
@@ -15823,7 +15838,11 @@
     <e><p><l>palma<s n="n"/></l><r>palma<s n="n"/></r></p></e>
     <e><p><l>palmera<s n="n"/></l><r>palmera<s n="n"/></r></p></e>
     <e><p><l>pancarta<s n="n"/></l><r>pancarta<s n="n"/></r></p></e>
-    <e><p><l>panda<s n="n"/></l><r>panda<s n="n"/></r></p></e>
+    <e><p><l>panda<s n="n"/><s n="m"/></l><r>panda<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>panda<s n="n"/><s n="f"/></l><r>panda<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>panda<s n="n"/><s n="f"/></l><r>colla<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>pandilla<s n="n"/><s n="f"/></l><r>colla<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cuadrilla<s n="n"/><s n="f"/></l><r>colla<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pandereta<s n="n"/></l><r>pandereta<s n="n"/></r></p></e>
     <e><p><l>panera<s n="n"/></l><r>panera<s n="n"/></r></p></e>
     <e><p><l>panorama<s n="n"/></l><r>panorama<s n="n"/></r></p></e>
@@ -17315,7 +17334,7 @@
     <e><p><l>ayudar<s n="vblex"/></l><r>aduyar<s n="vblex"/></r></p></e>
     <e><p><l>basar<s n="vblex"/></l><r>basar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>bañar<s n="vblex"/></l><r>banyar<s n="vblex"/></r></p></e>
-    <e><p><l>tecliar<s n="vblex"/></l><r>teclear<s n="vblex"/></r></p></e>
+    <e><p><l>teclear<s n="vblex"/></l><r>tecliar<s n="vblex"/></r></p></e>
     <e><p><l>bañar<s n="vblex"/></l><r>ficar<g><b/>en<b/>augua</g><s n="vblex"/></r></p></e>
     <e><p><l>blindar<s n="vblex"/></l><r>blindar<s n="vblex"/></r></p></e>
    <!--  <e r="RL"><p><l>broncear<s n="vblex"/></l><r>bronzeyar<s n="vblex"/></r></p></e> -->

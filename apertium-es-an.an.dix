@@ -41955,6 +41955,7 @@
     <e lm="modalidat"><i>modalid</i><par n="privacid/at__n"/></e>
     <e lm="modernidat"><i>modernid</i><par n="privacid/at__n"/></e>
     <e lm="molín"><i>mol</i><par n="mol/ín__n"/></e>
+    <e lm="calcetín"><i>calcet</i><par n="mol/ín__n"/></e>
     <e lm="redolín"><i>redol</i><par n="mol/ín__n"/></e>
     <e lm="destín"><i>dest</i><par n="mol/ín__n"/></e>
     <e lm="maitín"><i>mait</i><par n="mol/ín__n"/></e>
@@ -43768,6 +43769,8 @@
 <e lm="vueitre" r="LR"><p><l>voitre</l><r>vueitre</r></p><par n="achunta/miento__n"/></e>
 <e lm="vueitre" r="LR"><p><l>vuitre</l><r>vueitre</r></p><par n="achunta/miento__n"/></e>
 <e lm="vueitre" r="LR"><p><l>buitre</l><r>vueitre</r></p><par n="achunta/miento__n"/></e>
+<e lm="vueitre" r="LR"><p><l>vutre</l><r>vueitre</r></p><par n="achunta/miento__n"/></e>
+<e lm="vueitre" r="LR"><p><l>butre</l><r>vueitre</r></p><par n="achunta/miento__n"/></e>
 <e lm="vueitre" r="LR"><p><l>boitre</l><r>vueitre</r></p><par n="achunta/miento__n"/></e>
 <e lm="vueitre" r="LR"><p><l>bueitre</l><r>vueitre</r></p><par n="achunta/miento__n"/></e>
 <e lm="vueitre" r="LR"><p><l>güeitre</l><r>vueitre</r></p><par n="achunta/miento__n"/></e>
@@ -48919,8 +48922,8 @@
     <e lm="antropocentrismo"><i>antropocentrismo</i><par n="libro__n"/></e>
     <e lm="arabismo"><i>arabismo</i><par n="libro__n"/></e>
     <e lm="rudio"><i>rudio</i><par n="libro__n"/></e>
-    <e lm="rudio"><p><l>roído</l><r>rudio</r></p><par n="libro__n"/></e>
-    <e lm="rudio"><p><l>ruido</l><r>rudio</r></p><par n="libro__n"/></e>
+    <e lm="rudio" r="RL"><p><l>roído</l><r>rudio</r></p><par n="libro__n"/></e>
+    <e lm="rudio" r="RL"><p><l>ruido</l><r>rudio</r></p><par n="libro__n"/></e>
     <e lm="vuedar"><i>vued</i><par n="cant/ar__vblex"/></e>
     <e lm="ziga-zaga"><i>ziga-zaga</i><par n="libro__n"/></e>
     <e lm="aragonesismo"><i>aragonesismo</i><par n="libro__n"/></e>
@@ -55560,6 +55563,7 @@
     <e lm="rechionalista"><i>rechionalista</i><par n="social__adj"/></e>
     <e lm="regular"><i>regular</i><par n="social__adj"/></e>
     <e lm="relativista"><i>relativista</i><par n="social__adj"/></e>
+    <e lm="resinyable"><i>resinyable</i><par n="social__adj"/></e>
     <e lm="remarcable"><i>remarcable</i><par n="social__adj"/></e>
     <e lm="renacentista"><i>renacentista</i><par n="social__adj"/></e>
     <e lm="renal"><i>renal</i><par n="social__adj"/></e>
@@ -63107,6 +63111,10 @@
     <e lm="escultor"><i>escultor</i><par n="treballador__n"/></e>
     <e lm="extintor"><i>extintor</i><par n="libro__n"/></e>
     <e lm="extractor"><i>extractor</i><par n="libro__n"/></e>
+    <e lm="prochector"><i>prochector</i><par n="libro__n"/></e>
+    <e lm="prochector" r="LR"><p><l>proyector</l><r>prochector</r></p><par n="libro__n"/></e>
+    <e lm="prochector" r="LR"><p><l>proyeutor</l><r>prochector</r></p><par n="libro__n"/></e>
+    <e lm="prochector" r="LR"><p><l>procheutor</l><r>prochector</r></p><par n="libro__n"/></e>
     <e lm="factor"><i>factor</i><par n="libro__n"/></e>
     <e lm="inspector"><i>inspector</i><par n="treballador__n"/></e>
     <e lm="instructor"><i>instructor</i><par n="treballador__n"/></e>
@@ -63542,6 +63550,9 @@
     <e lm="tanque"><i>tanque</i><par n="libro__n"/></e>    
     <e lm="fichero"><i>fich</i><par n="plant/ero__n"/></e>    
     <e lm="cordero"><i>cord</i><par n="plant/ero__n"/></e>
+    <e lm="esparvero"><i>esparv</i><par n="plant/ero__n"/></e>
+    <e lm="esparvero" r="LR"><p><l>esparb</l><r>esparv</r></p><par n="plant/ero__n"/></e>
+    <e lm="esparvel" r="LR"><p><l>esparvel</l><r>esparvero</r></p><par n="libro__n"/></e>
     <e lm="tablero"><i>tabl</i><par n="plant/ero__n"/></e>    
     <e lm="demonio"><i>demonio</i><par n="libro__n"/></e>
     <e lm="demonio" r="LR"><p><l>dimonio</l><r>demonio</r></p><par n="libro__n"/></e>
@@ -63814,6 +63825,18 @@
     <e lm="formula"><i>formula</i><par n="luenga__n"/></e>
     <e lm="fortuna"><i>fortuna</i><par n="luenga__n"/></e>
     <e lm="fuesa"><i>fuesa</i><par n="luenga__n"/></e>
+    <e lm="cornucopia"><i>cornucopia</i><par n="luenga__n"/></e>
+    <e lm="radioscopia"><i>radioscopia</i><par n="luenga__n"/></e>
+    <e lm="copia"><i>copia</i><par n="luenga__n"/></e>
+    <e lm="espectroscopia"><i>espectroscopia</i><par n="luenga__n"/></e>
+    <e lm="microscopia"><i>microscopia</i><par n="luenga__n"/></e>
+    <e lm="artroscopia"><i>artroscopia</i><par n="luenga__n"/></e>
+    <e lm="estereoscopia"><i>estereoscopia</i><par n="luenga__n"/></e>
+    <e lm="endoscopia"><i>endoscopia</i><par n="luenga__n"/></e>
+    <e lm="laparoscopia"><i>laparoscopia</i><par n="luenga__n"/></e>
+    <e lm="gastroscopia"><i>gastroscopia</i><par n="luenga__n"/></e>
+    <e lm="esofagoscopia"><i>esofagoscopia</i><par n="luenga__n"/></e>
+    <e lm="citoscopia"><i>citoscopia</i><par n="luenga__n"/></e>
     <e lm="fotocopia"><i>fotocopia</i><par n="luenga__n"/></e>
     <e lm="fotocopiadora"><i>fotocopiadora</i><par n="luenga__n"/></e>
     <e lm="fractura"><i>fractura</i><par n="luenga__n"/></e>
@@ -64040,7 +64063,7 @@
     <e lm="vetiello" r="LR"><p><l>betiell</l><r>vetiell</r></p><par n="luenga__n"/></e>
     <e lm="vetiello" r="LR"><p><l>bediell</l><r>vetiell</r></p><par n="luenga__n"/></e>
     <e lm="rabosa"><i>rabosa</i><par n="luenga__n"/></e>
-    
+    <e lm="raboso"><i>raboso</i><par n="libro__n"/></e>
     <e lm="molestia"><i>molestia</i><par n="luenga__n"/></e>
     <e lm="molsa"><i>molsa</i><par n="luenga__n"/></e>
     <e lm="momia"><i>momia</i><par n="luenga__n"/></e>
@@ -64051,6 +64074,9 @@
     <e lm="anarquía"><i>anarquía</i><par n="luenga__n"/></e>
     <e lm="tetrarquía"><i>tetrarquía</i><par n="luenga__n"/></e>
     <e lm="autarquía"><i>autarquía</i><par n="luenga__n"/></e>
+    <e lm="pedaleta"><i>pedaleta</i><par n="luenga__n"/></e>
+    <e lm="pedaleta" r="LR"><p><l>pealeta</l><r>pedaleta</r></p><par n="luenga__n"/></e>
+    <e lm="pedaleta" r="LR"><p><l>pialeta</l><r>pedaleta</r></p><par n="luenga__n"/></e>
     <e lm="negreta"><i>negreta</i><par n="luenga__n"/></e>
     <e lm="moneda"><i>moneda</i><par n="luenga__n"/></e>
     <e lm="moqueta"><i>moqueta</i><par n="luenga__n"/></e>
