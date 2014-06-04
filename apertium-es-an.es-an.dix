@@ -5438,7 +5438,7 @@
 <e><p><l>prestigiado<s n="adj"/></l><r>prestichiau<s n="adj"/></r></p></e>
 <e><p><l>privado<s n="adj"/></l><r>privau<s n="adj"/></r></p></e>
 <e><p><l>privatizado<s n="adj"/></l><r>privatizau<s n="adj"/></r></p></e>
-<e><p><l>priviliegiado<s n="adj"/></l><r>priviliechiau<s n="adj"/></r></p></e>
+<e><p><l>privilegiado<s n="adj"/></l><r>privilechiau<s n="adj"/></r></p></e>
 <e><p><l>profesionalizado<s n="adj"/></l><r>profesionalizau<s n="adj"/></r></p></e>
 <e><p><l>provisto<s n="adj"/></l><r>proveyiu<s n="adj"/></r></p></e>
 <e><p><l>radioaficionado<s n="adj"/></l><r>radioaficionau<s n="adj"/></r></p></e>
@@ -8782,7 +8782,7 @@
 <e><p><l>privadamente<s n="adv"/></l><r>privadament<s n="adv"/></r></p></e>
 <e><p><l>privativamente<s n="adv"/></l><r>privativament<s n="adv"/></r></p></e>
 <e><p><l>privatizadamente<s n="adv"/></l><r>privatizadament<s n="adv"/></r></p></e>
-<e><p><l>priviliegiadamente<s n="adv"/></l><r>priviliechiadament<s n="adv"/></r></p></e>
+<e><p><l>privilegiadamente<s n="adv"/></l><r>privilechiadament<s n="adv"/></r></p></e>
 <e><p><l>probablemente<s n="adv"/></l><r>prebablement<s n="adv"/></r></p></e>
 <e><p><l>probatoriamente<s n="adv"/></l><r>probatoriament<s n="adv"/></r></p></e>
 <e><p><l>problemáticamente<s n="adv"/></l><r>problematicament<s n="adv"/></r></p></e>
@@ -10920,6 +10920,7 @@
     <e><p><l>hab<s n="n"/></l><r>hab<s n="n"/></r></p></e>
     <e><p><l>hab/km²<s n="n"/></l><r>hab/km²<s n="n"/></r></p></e>
     <e><p><l>habilidad<s n="n"/></l><r>habilidat<s n="n"/></r></p></e>
+    <e><p><l>fiabilidad<s n="n"/></l><r>fiabilidat<s n="n"/></r></p></e>
     <e><p><l>habitante<s n="n"/></l><r>habitant<s n="n"/></r></p></e>
     <e><p><l>hedonismo<s n="n"/></l><r>hedonismo<s n="n"/></r></p></e>
     <e><p><l>helenismo<s n="n"/></l><r>helenismo<s n="n"/></r></p></e>
@@ -11150,6 +11151,7 @@
     <e><p><l>motivación<s n="n"/></l><r>motivación<s n="n"/></r></p></e>
     <e><p><l>motociclismo<s n="n"/></l><r>motociclismo<s n="n"/></r></p></e>
     <e><p><l>movilidad<s n="n"/></l><r>mobilidat<s n="n"/></r></p></e>
+    <e><p><l>vulnerabilidad<s n="n"/></l><r>vulnerabilidat<s n="n"/></r></p></e>
     <e><p><l>muerta<s n="n"/></l><r>muerta<s n="n"/></r></p></e>
     <e><p><l>muerte<s n="n"/></l><r>muerte<s n="n"/></r></p></e>
     <e><p><l>mujer<s n="n"/></l><r>muller<s n="n"/></r></p></e>
@@ -11294,12 +11296,31 @@
     <e><p><l>periodismo<s n="n"/></l><r>periodismo<s n="n"/></r></p></e>
     <e><p><l>permeabilidad<s n="n"/></l><r>permeabilidat<s n="n"/></r></p></e>
     <e><p><l>coma<s n="n"/></l><r>coma<s n="n"/></r></p></e>
+    <e><p><l>cerdo<s n="n"/><s n="m"/></l><r>cochín<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cerda<s n="n"/><s n="f"/></l><r>cochín<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>jabalí<s n="n"/><s n="m"/></l><r>chabalín<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>jabalina<s n="n"/><s n="f"/></l><r>chabalín<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>perro<s n="n"/></l><r>can<s n="n"/></r></p></e>
     <e r="RL"><p><l>perro<s n="n"/></l><r>cocho<s n="n"/></r></p></e>
     <e r="RL"><p><l>perro<s n="n"/></l><r>chucho<s n="n"/></r></p></e>
     <e><p><l>perro<b/>guía<s n="n"/></l><r>can<g><b/>de<b/>guida</g><s n="n"/></r></p></e>
+    
+    
+    <e><p><l>lagartija<s n="n"/></l><r>sargantana<s n="n"/></r></p></e>    
+    <e r="RL"><p><l>lagartija<s n="n"/></l><r>engardaixina<s n="n"/></r></p></e>    
+    
+    <e><p><l>gato<s n="n"/></l><r>gato<s n="n"/></r></p></e>
+    <e r="RL"><p><l>gato<s n="n"/></l><r>mixín<s n="n"/></r></p></e>
+    <e><p><l>pez<s n="n"/></l><r>peix<s n="n"/></r></p></e>
+    <e><p><l>pájaro<s n="n"/></l><r>muixón<s n="n"/></r></p></e>
+    <e r="RL"><p><l>pájaro<s n="n"/></l><r>paixarico<s n="n"/></r></p></e>
+    <e><p><l>ternero<s n="n"/></l><r>vetiello<s n="n"/></r></p></e>
+    <e><p><l>zorro<s n="n"/><s n="m"/></l><r>rabosa<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>zorro<s n="n"/><s n="f"/></l><r>rabosa<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>zorro<s n="n"/><s n="m"/></l><r>rabosa<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>suegro<s n="n"/></l><r>suegro<s n="n"/></r></p></e>
     <e><p><l>conejo<s n="n"/></l><r>conello<s n="n"/></r></p></e>
+    <e><p><l>comadreja<s n="n"/></l><r>paniquesa<s n="n"/></r></p></e>
     <e><p><l>persecución<s n="n"/></l><r>persecución<s n="n"/></r></p></e>
     <e><p><l>persona<s n="n"/></l><r>persona<s n="n"/></r></p></e>
     <e><p><l>personalidad<s n="n"/></l><r>personalidat<s n="n"/></r></p></e>
@@ -13823,8 +13844,10 @@
     <e><p><l>príncipe<s n="n"/></l><r>principe<s n="n"/></r></p></e>
     <e><p><l>debate<s n="n"/></l><r>debat<s n="n"/></r></p></e>
     <e><p><l>agente<s n="n"/></l><r>achent<s n="n"/></r></p></e>
+    <e><p><l>componente<s n="n"/></l><r>component<s n="n"/></r></p></e>
     <e><p><l>dirigente<s n="n"/></l><r>dirichent<s n="n"/></r></p></e>
     <e><p><l>dirigente<s n="adj"/></l><r>dirichent<s n="adj"/></r></p></e>
+    <e><p><l>saliente<s n="adj"/></l><r>salient<s n="adj"/></r></p></e>
     <e><p><l>ambiente<s n="n"/></l><r>ambient<s n="n"/></r></p></e>
     <e><p><l>referente<s n="n"/></l><r>referent<s n="n"/></r></p></e>
     <e><p><l>accidente<s n="n"/></l><r>accident<s n="n"/></r></p></e>
@@ -14371,7 +14394,7 @@
     <e><p><l>animador<s n="n"/></l><r>animador<s n="n"/></r></p></e>
     <e><p><l>estante<s n="n"/></l><r>aparador<s n="n"/></r></p></e>
     <e><p><l>aparejador<s n="n"/></l><r>aparellador<s n="n"/></r></p></e>
-    <e><p><l>manejador<s n="n"/></l><r>maneyador<s n="n"/></r></p></e>
+    <e><p><l>manejador<s n="n"/></l><r>maniador<s n="n"/></r></p></e>
     <e><p><l>puntero<s n="n"/></l><r>puntero<s n="n"/></r></p></e>
     <e><p><l>puntero<s n="adj"/></l><r>puntero<s n="adj"/></r></p></e>
     <e><p><l>chaleco<s n="n"/></l><r>achustador<s n="n"/></r></p></e>
@@ -14471,6 +14494,7 @@
     <e><p><l>remolcador<s n="adj"/></l><r>remolcador<s n="adj"/></r></p></e>
     <e><p><l>lavadero<s n="n"/><s n="m"/></l><r>lavador<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lavadora<s n="n"/><s n="f"/></l><r>lavador<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>proveedor<s n="n"/></l><r>furnidor<s n="n"/></r></p></e>
     <e><p><l>repartidor<s n="n"/></l><r>repartidor<s n="n"/></r></p></e>
     <e><p><l>repetidor<s n="n"/></l><r>repetidor<s n="n"/></r></p></e>
     <e><p><l>rotulador<s n="n"/></l><r>rotulador<s n="n"/></r></p></e>
@@ -14831,6 +14855,8 @@
     <e><p><l>invasor<s n="adj"/></l><r>invasor<s n="adj"/></r></p></e>
     <e><p><l>opresor<s n="n"/></l><r>opresor<s n="n"/></r></p></e>
     <e><p><l>opresor<s n="adj"/></l><r>opresor<s n="adj"/></r></p></e>
+    <e><p><l>instalador<s n="n"/></l><r>instalador<s n="n"/></r></p></e>
+    <e><p><l>instalador<s n="adj"/></l><r>instalador<s n="adj"/></r></p></e>
     <e><p><l>profesor<s n="n"/></l><r>profesor<s n="n"/></r></p></e>
     <e><p><l>retrovisor<s n="n"/></l><r>retrovisor<s n="n"/></r></p></e>
     <e><p><l>visor<s n="n"/></l><r>visor<s n="n"/></r></p></e>
@@ -15265,7 +15291,8 @@
     <!-- <e r="RL" srl="cometa_D"><p><l>cometa<s n="n"/><s n="f"/></l><r>cometa<s n="n"/><s n="f"/></r></p></e> -->
    <!-- <e r="RL" srl="comilla"><p><l>comilla<s n="n"/><s n="f"/></l><r>cometa<s n="n"/><s n="f"/></r></p></e> -->
    <!-- in plural, it probably refers to comillas, in singular, to a comet -->
-   
+    <e><p><l>buitre<s n="n"/></l><r>vueitre<s n="n"/></r></p></e>   
+    <e><p><l>cabrón<s n="n"/></l><r>buco<s n="n"/></r></p></e>
     <e r="RL"><p><l>cometa<s n="n"/><s n="m"/></l><r>cometa<s n="n"/><s n="m"/></r></p></e>
     
     <e><p><l>comisaría<s n="n"/></l><r>comisaría<s n="n"/></r></p></e>
@@ -16237,6 +16264,7 @@
     <e><p><l>postura<s n="n"/></l><r>postura<s n="n"/></r></p></e>
     <e><p><l>fantasía<s n="n"/></l><r>fantesía<s n="n"/></r></p></e>
     <e><p><l>faena<s n="n"/></l><r>fayena<s n="n"/></r></p></e>
+    <e><p><l>halcón<s n="n"/></l><r>falcón<s n="n"/></r></p></e>
     <e><p><l>fruta<s n="n"/></l><r>fruita<s n="n"/></r></p></e>
     <e><p><l>cuchillada<s n="n"/></l><r>cuitellada<s n="n"/></r></p></e>
     <e><p><l>chirrido<s n="n"/><s n="m"/></l><r>esgarrillada<s n="n"/><s n="f"/></r></p></e>
@@ -17259,6 +17287,7 @@
     <e><p><l>acortar<s n="vblex"/></l><r>alcorzar<s n="vblex"/></r></p></e>
     <e><p><l>almorzar<s n="vblex"/></l><r>almorzar<s n="vblex"/></r></p></e>
     <e><p><l>alimentar<s n="vblex"/></l><r>alimentar<s n="vblex"/></r></p></e>
+    <e><p><l>implementar<s n="vblex"/></l><r>implementar<s n="vblex"/></r></p></e>
     <e><p><l>alinear<s n="vblex"/></l><r>aliniar<s n="vblex"/></r></p></e>
     <e><p><l>alistar<s n="vblex"/></l><r>alistar<s n="vblex"/></r></p></e>
     <e><p><l>alquilar<s n="vblex"/></l><r>logar<s n="vblex"/></r></p></e>
@@ -17342,6 +17371,7 @@
     <e><p><l>afectar<s n="vblex"/></l><r>afectar<s n="vblex"/></r></p></e>
     <e><p><l>desafectar<s n="vblex"/></l><r>desafectar<s n="vblex"/></r></p></e>
     <e><p><l>diferenciar<s n="vblex"/></l><r>diferenciar<s n="vblex"/></r></p></e>
+    <e><p><l>referenciar<s n="vblex"/></l><r>referenciar<s n="vblex"/></r></p></e>
     <e><p><l>silenciar<s n="vblex"/></l><r>silenciar<s n="vblex"/></r></p></e>
     <e><p><l>disfrutar<s n="vblex"/></l><r>desfrutar<s n="vblex"/></r></p></e>
     <e><p><l>enrutar<s n="vblex"/></l><r>enrotar<s n="vblex"/></r></p></e>
@@ -18329,6 +18359,7 @@
     <e><p><l>ilustrar<s n="vblex"/></l><r>ilustrar<s n="vblex"/></r></p></e>
     <e><p><l>indignar<s n="vblex"/></l><r>indignar<s n="vblex"/></r></p></e>
     <e><p><l>hinchar<s n="vblex"/></l><r>inflar<s n="vblex"/></r></p></e> <!-- ?? -->
+    <e><p><l>cuadrar<s n="vblex"/></l><r>quadrar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>ladrar<s n="vblex"/></l><r>ladrar<s n="vblex"/></r></p></e>
     <e><p><l>ladrar<s n="vblex"/></l><r>escanyutar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>ladrar<s n="vblex"/></l><r>nyapir<s n="vblex"/></r></p></e>
@@ -18567,6 +18598,7 @@
     <e><p><l>permitir<s n="vblex"/></l><r>permitir<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>permitir<s n="vblex"/></l><r>permeter<s n="vblex"/></r></p></e>
     <e><p><l>preferir<s n="vblex"/></l><r>preferir<s n="vblex"/></r></p></e>
+    <e><p><l>interferir<s n="vblex"/></l><r>interferir<s n="vblex"/></r></p></e>
     <e><p><l>requerir<s n="vblex"/></l><r>requerir<s n="vblex"/></r></p></e>
     <e><p><l>referir<s n="vblex"/></l><r>referir<s n="vblex"/></r></p></e>
     <e><p><l>transferir<s n="vblex"/></l><r>transferir<s n="vblex"/></r></p></e>
