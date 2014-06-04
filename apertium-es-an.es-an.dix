@@ -5461,6 +5461,10 @@
 <e><p><l>salado<s n="adj"/></l><r>salau<s n="adj"/></r></p></e>
 <e><p><l>saneado<s n="adj"/></l><r>saneyau<s n="adj"/></r></p></e>
 <e><p><l>sediento<s n="adj"/></l><r>asetegau<s n="adj"/></r></p></e>
+<e><p><l>hambriento<s n="adj"/></l><r>fambrudo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>hambriento<s n="adj"/></l><r>fambriento<s n="adj"/></r></p></e>
+<e r="RL"><p><l>hambriento<s n="adj"/></l><r>afamegau<s n="adj"/></r></p></e>
+<e r="RL"><p><l>hambriento<s n="adj"/></l><r>fambroso<s n="adj"/></r></p></e>
 <e><p><l>seguido<s n="adj"/></l><r>seguiu<s n="adj"/></r></p></e>
 <e><p><l>parecido<s n="adj"/></l><r>pareixiu<s n="adj"/></r></p></e>
 <e r="RL"><p><l>sensato<s n="adj"/></l><r>asentau<s n="adj"/></r></p></e>
@@ -10328,6 +10332,9 @@
     <e><p><l>cojón<s n="n"/></l><r>collón<s n="n"/></r></p></e>
     <e r="RL"><p><l>cojón<s n="n"/></l><r>macaco<s n="n"/></r></p></e>
     <e><p><l>coleta<s n="n"/></l><r>codeta<s n="n"/></r></p></e>
+    <e><p><l>pellejo<s n="n"/><s n="m"/></l><r>pelleta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>quema<s n="n"/></l><r>cremada<s n="n"/></r></p></e>
+    <e><p><l>quemadura<s n="n"/></l><r>cremadura<s n="n"/></r></p></e>
     <e><p><l>arruga<s n="n"/></l><r>corruca<s n="n"/></r></p></e>
     <e><p><l>arrugar<s n="vblex"/></l><r>corrucar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>arrugar<s n="vblex"/></l><r>corrugar<s n="vblex"/></r></p></e>
@@ -10345,6 +10352,7 @@
     <e><p><l>aspiración<s n="n"/></l><r>aspiración<s n="n"/></r></p></e>
     <e><p><l>asturianismo<s n="n"/></l><r>asturianismo<s n="n"/></r></p></e>
     <e><p><l>asturiano<s n="n"/></l><r>asturiano<s n="n"/></r></p></e>
+    <e><p><l>angina<s n="n"/></l><r>anchina<s n="n"/></r></p></e>
     <e><p><l>ataque<s n="n"/></l><r>ataque<s n="n"/></r></p></e>
     <e><p><l>ateo<s n="n"/></l><r>ateu<s n="n"/></r></p></e>
     <e><p><l>atletismo<s n="n"/></l><r>atletismo<s n="n"/></r></p></e>
@@ -10368,6 +10376,7 @@
     <e><p><l>autoritarismo<s n="n"/></l><r>autoritarismo<s n="n"/></r></p></e>
     <e><p><l>autorización<s n="n"/></l><r>autorización<s n="n"/></r></p></e>
     <e><p><l>autónomo<s n="n"/></l><r>autonomo<s n="n"/></r></p></e>
+    <e><p><l>abdomen<s n="n"/></l><r>abdomen<s n="n"/></r></p></e>
     <e><p><l>ave<s n="n"/></l><r>au<s n="n"/></r></p></e>
     <e><p><l>averroísmo<s n="n"/></l><r>averroísmo<s n="n"/></r></p></e>
     <e><p><l>aviación<s n="n"/></l><r>aviación<s n="n"/></r></p></e>
@@ -10605,6 +10614,7 @@
     <e><p><l>cubismo<s n="n"/></l><r>cubismo<s n="n"/></r></p></e>
     <e><p><l>cuerda<s n="n"/></l><r>cuerda<s n="n"/></r></p></e>
     <e><p><l>cuerpo<s n="n"/></l><r>cuerpo<s n="n"/></r></p></e>
+    <e><p><l>higiene<s n="n"/></l><r>hichiene<s n="n"/></r></p></e>
     <e><p><l>cuidado<s n="n"/></l><r>cudiau<s n="n"/></r></p></e>
     <e><p><l>culminación<s n="n"/></l><r>culminación<s n="n"/></r></p></e>
     <e><p><l>culpabilidad<s n="n"/></l><r>culpabilidat<s n="n"/></r></p></e>
@@ -11573,6 +11583,7 @@
     <e><p><l>utilidad<s n="n"/></l><r>utilidat<s n="n"/></r></p></e>
     <e><p><l>v<s n="n"/></l><r>v<s n="n"/></r></p></e>
     <e><p><l>vacaciones<s n="n"/></l><r>vacancias<s n="n"/></r></p></e>
+    <e><p><l>gafas<s n="n"/></l><r>lunetas<s n="n"/></r></p></e>
     <e><p><l>vacunación<s n="n"/></l><r>vacunación<s n="n"/></r></p></e>
     <e><p><l>valencianismo<s n="n"/></l><r>valencianismo<s n="n"/></r></p></e>
     <e><p><l>valenciano<s n="n"/></l><r>valenciano<s n="n"/></r></p></e>
@@ -14549,6 +14560,7 @@
     <e><p><l>panadero<s n="n"/></l><r>fornero<s n="n"/></r></p></e>
     <e><p><l>jengibre<s n="n"/></l><r>chinchebre<s n="n"/></r></p></e>
     <e><p><l>índice<s n="n"/></l><r>indiz<s n="n"/></r></p></e>
+    <e><p><l>apéndice<s n="n"/></l><r>apendiz<s n="n"/></r></p></e>
     <e><p><l>subíndice<s n="n"/></l><r>subindiz<s n="n"/></r></p></e>
     <e><p><l>superíndice<s n="n"/></l><r>superindiz<s n="n"/></r></p></e>
     <e><p><l>cabecera<s n="n"/></l><r>cabecera<s n="n"/></r></p></e>
@@ -15267,11 +15279,16 @@
     <e><p><l>ciudadanía<s n="n"/></l><r>ciudadanía<s n="n"/></r></p></e>
     <e><p><l>avena<s n="n"/></l><r>cibada<s n="n"/></r></p></e>
     <e><p><l>cebada<s n="n"/><s n="f"/></l><r>hordio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>gangrena<s n="n"/></l><r>cangrena<s n="n"/></r></p></e>
     <e><p><l>clausura<s n="n"/></l><r>clausura<s n="n"/></r></p></e>
     <e><p><l>clavícula<s n="n"/></l><r>clavicula<s n="n"/></r></p></e>
     <e><p><l>clavija<s n="n"/></l><r>clavilla<s n="n"/></r></p></e>
     <e><p><l>clientela<s n="n"/></l><r>clientalla<s n="n"/></r></p></e>
     <e><p><l>clima<s n="n"/></l><r>clima<s n="n"/></r></p></e>
+    <e><p><l>huevo<s n="n"/></l><r>uego<s n="n"/></r></p></e>
+    <e><p><l>huerto<s n="n"/></l><r>hortal<s n="n"/></r></p></e>
+    <e r="RL"><p><l>huerto<s n="n"/></l><r>huerto<s n="n"/></r></p></e>
+    <e><p><l>hueso<s n="n"/></l><r>ueso<s n="n"/></r></p></e>
     <e><p><l>hoyo<s n="n"/></l><r>clot<s n="n"/></r></p></e>
     <e r="RL"><p><l>hoyo<s n="n"/><s n="m"/></l><r>clota<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cocaína<s n="n"/></l><r>cocaína<s n="n"/></r></p></e>
@@ -15328,6 +15345,7 @@
     <e><p><l>cristalería<s n="n"/></l><r>cristalería<s n="n"/></r></p></e>
     <e><p><l>cronista<s n="n"/></l><r>cronista<s n="n"/></r></p></e>
     <e><p><l>muleta<s n="n"/></l><r>chanca<s n="n"/></r></p></e>
+    <e><p><l>palanca<s n="n"/><s n="f"/></l><r>ceprén<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cola<s n="n"/></l><r>coda<s n="n"/></r></p></e>
     <e><p><l>voltereta<s n="n"/></l><r>pintacoda<s n="n"/></r></p></e>
     <e><p><l>coraza<s n="n"/></l><r>coraza<s n="n"/></r></p></e>
@@ -16247,6 +16265,7 @@
     <e r="RL"><p><l>diarrea<s n="n"/></l><r>caguera<s n="n"/></r></p></e>
     <e><p><l>diarrea<s n="n"/></l><r>zurrera<s n="n"/></r></p></e>
     <e r="RL"><p><l>diarrea<s n="n"/></l><r>diarrea<s n="n"/></r></p></e>
+    <e><p><l>ano<s n="n"/></l><r>ano<s n="n"/></r></p></e>
     <e><p><l>mesa<s n="n"/></l><r>mesa<s n="n"/></r></p></e>
     <e><p><l>cámara<s n="n"/></l><r>camera<s n="n"/></r></p></e>
     <e r="RL"><p><l>cámara<s n="n"/></l><r>camara<s n="n"/></r></p></e>
@@ -17360,6 +17379,7 @@
     <e><p><l>aportar<s n="vblex"/></l><r>aportar<s n="vblex"/></r></p></e>
     <e><p><l>reportar<s n="vblex"/></l><r>reportar<s n="vblex"/></r></p></e>
     <e><p><l>aerotransportar<s n="vblex"/></l><r>aerotransportar<s n="vblex"/></r></p></e>        
+    <e><p><l>gangrenar<s n="vblex"/></l><r>cangrenar<s n="vblex"/></r></p></e>
     <e><p><l>comportar<s n="vblex"/></l><r>comportar<s n="vblex"/></r></p></e>
     <e><p><l>concentrar<s n="vblex"/></l><r>concentrar<s n="vblex"/></r></p></e>
     <e><p><l>condenar<s n="vblex"/></l><r>condenar<s n="vblex"/></r></p></e>
@@ -17411,7 +17431,11 @@
     <e><p><l>comenzar<s n="vblex"/></l><r>prencipiar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>enfrentar<s n="vblex"/></l><r>enfrentar<s n="vblex"/></r></p></e>
     <e><p><l>enfrentar<s n="vblex"/></l><r>enfrontinar<s n="vblex"/></r></p></e>
+    <e><p><l>arrodillar<s n="vblex"/></l><r>achenullar<s n="vblex"/></r></p></e>
     <e><p><l>enfriar<s n="vblex"/></l><r>enfriar<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>resfriar<s n="vblex"/></l><r>resfriar<s n="vblex"/></r></p></e>
+    <e><p><l>resfriar<s n="vblex"/></l><r>enmorgar<s n="vblex"/></r></p></e>
+    <e><p><l>follar<s n="vblex"/></l><r>buquir<s n="vblex"/></r></p></e>
     <e><p><l>enganchar<s n="vblex"/></l><r>enganchar<s n="vblex"/></r></p></e>
     <e><p><l>enlazar<s n="vblex"/></l><r>enlazar<s n="vblex"/></r></p></e>
     <e><p><l>vincular<s n="vblex"/></l><r>vincular<s n="vblex"/></r></p></e>
