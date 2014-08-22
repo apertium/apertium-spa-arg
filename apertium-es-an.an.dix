@@ -58277,6 +58277,7 @@
     <e lm="diplomatico"><i>diplomatic</i><par n="academic/o__adj_adv"/></e>
     <e lm="direccional"><i>direccional</i><par n="social__adj_adv"/></e>
     <e lm="directo"><i>direct</i><par n="academic/o__adj_adv"/></e>
+    <e lm="directo" r="LR"><p><l>direut</l><r>direct</r></p><par n="academic/o__adj_adv"/></e>
     <e lm="directivo"><i>directi</i><par n="cursi/vo__adj_adv"/></e>
     <e lm="disciplinario"><i>disciplinari</i><par n="academic/o__adj_adv"/></e>
     <e lm="discografico"><i>discografic</i><par n="academic/o__adj_adv"/></e>
@@ -58343,8 +58344,6 @@
     <e lm="dreito"><i>dreit</i><par n="academic/o__adj_adv"/></e>
     <e lm="dreito" r="LR"><p><l>dret</l><r>dreit</r></p><par n="academic/o__adj_adv"/></e>    
     <e lm="dreito" r="LR"><p><l>drech</l><r>dreit</r></p><par n="academic/o__adj_adv"/></e>    
-    <e lm="dreito" r="LR"><p><l>direct</l><r>dreit</r></p><par n="academic/o__adj_adv"/></e>
-    <e lm="dreito" r="LR"><p><l>direut</l><r>dreit</r></p><par n="academic/o__adj_adv"/></e>
     <e lm="recto"><i>rect</i><par n="academic/o__adj_adv"/></e>
     <e lm="recto" r="LR"><p><l>reut</l><r>rect</r></p><par n="academic/o__adj_adv"/></e>
     <e lm="dual"><i>dual</i><par n="social__adj_adv"/></e>
