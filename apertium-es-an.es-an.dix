@@ -880,9 +880,9 @@
     <e><p><l>deportivo<s n="adj"/></l><r>esportivo<s n="adj"/></r></p></e>
     <e><p><l>derechista<s n="adj"/></l><r>dreitista<s n="adj"/></r></p></e>
     <e srl="derecho D"><p><l>derecho<s n="adj"/></l><r>dreito<s n="adj"/></r></p></e>
-    <e srl="directo"><p><l>directo<s n="adj"/></l><r>dreito<s n="adj"/></r></p></e>
     <e srl="recto"><p><l>recto<s n="adj"/></l><r>dreito<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>directo<s n="adj"/></l><r>directo<s n="adj"/></r></p></e>
+    <e><p><l>directo<s n="adj"/></l><r>directo<s n="adj"/></r></p></e>
+    <e><p><l>indirecto<s n="adj"/></l><r>indirecto<s n="adj"/></r></p></e>
     <e r="RL"><p><l>recto<s n="adj"/></l><r>recto<s n="adj"/></r></p></e>
     <e><p><l>desaconsejable<s n="adj"/></l><r>desaconsellable<s n="adj"/></r></p></e>
     <e><i>desagradable<s n="adj"/></i></e>
@@ -925,7 +925,6 @@
     <e><i>diploide<s n="adj"/></i></e>
     <e><p><l>diplomático<s n="adj"/></l><r>diplomatico<s n="adj"/></r></p></e>
     <e><p><l>directivo<s n="adj"/></l><r>directivo<s n="adj"/></r></p></e>
-    <e><p><l>directo<s n="adj"/></l><r>directo<s n="adj"/></r></p></e>
     <e><p><l>discreto<s n="adj"/></l><r>discreto<s n="adj"/></r></p></e>
     <e><i>discutible<s n="adj"/></i></e>
     <e><p><l>disperso<s n="adj"/></l><r>disperso<s n="adj"/></r></p></e>
@@ -1325,7 +1324,6 @@
     <e><p><l>indicativo<s n="adj"/></l><r>indicativo<s n="adj"/></r></p></e>
     <e><p><l>indigno<s n="adj"/></l><r>indigno<s n="adj"/></r></p></e>
     <e><p><l>indio<s n="adj"/></l><r>indio<s n="adj"/></r></p></e>
-    <e><p><l>indirecto<s n="adj"/></l><r>indirecto<s n="adj"/></r></p></e>
     <e><i>indiscutible<s n="adj"/></i></e>
     <e><i>indispensable<s n="adj"/></i></e>
     <e><p><l>individual<s n="adj"/></l><r>individual<s n="adj"/></r></p></e>
@@ -4832,7 +4830,6 @@
 <e><p><l>incorrecto<s n="adj"/></l><r>incorrecto<s n="adj"/></r></p></e>
 <e><p><l>incruento<s n="adj"/></l><r>incruento<s n="adj"/></r></p></e>
 <e><p><l>inculto<s n="adj"/></l><r>inculto<s n="adj"/></r></p></e>
-<e><p><l>indirecto<s n="adj"/></l><r>indirecto<s n="adj"/></r></p></e>
 <e><p><l>indistinto<s n="adj"/></l><r>indistinto<s n="adj"/></r></p></e>
 <e><p><l>inédito<s n="adj"/></l><r>inedito<s n="adj"/></r></p></e>
 <e><p><l>inexacto<s n="adj"/></l><r>inexacto<s n="adj"/></r></p></e>
@@ -4879,7 +4876,6 @@
 <e><p><l>pronto<s n="adj"/></l><r>pronto<s n="adj"/></r></p></e>
 <e><p><l>quieto<s n="adj"/></l><r>quieto<s n="adj"/></r></p></e>
 <e><p><l>recóndito<s n="adj"/></l><r>recondito<s n="adj"/></r></p></e>
-<e><p><l>recto<s n="adj"/></l><r>recto<s n="adj"/></r></p></e>
 <e><p><l>remoto<s n="adj"/></l><r>remoto<s n="adj"/></r></p></e>
 <e><p><l>repleto<s n="adj"/></l><r>repleto<s n="adj"/></r></p></e>
 <e><p><l>robusto<s n="adj"/></l><r>robusto<s n="adj"/></r></p></e>
