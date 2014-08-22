@@ -32581,6 +32581,30 @@
     </pardef>
 
 
+    <pardef n="troz__n">
+    <e>
+      <p>
+        <l>os</l> 
+        <r><s n="n"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l></l> 
+        <r><s n="n"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    
+    <e r="LR">
+      <p>
+        <l>o</l> 
+        <r><s n="n"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    </pardef>
+
+
     <pardef n="portavo/z__n">
     <e>
       <p>
@@ -32598,22 +32622,6 @@
 
     </pardef>
     
-    <pardef n="tapi/z__n">
-    <e>
-      <p>
-        <l>ces</l> 
-        <r>z<s n="n"/><s n="m"/><s n="pl"/></r> 
-      </p>
-    </e>
-
-    <e>
-      <p>
-        <l>z</l> 
-        <r>z<s n="n"/><s n="m"/><s n="sg"/></r> 
-      </p>
-    </e>
-
-    </pardef>
 
     <pardef n="anal/ís__n">
     <e>
@@ -41146,7 +41154,8 @@
     <e lm="vano"><i>van</i><par n="alt/o__adj"/></e>
     <e lm="vaquero"><i>vaqu</i><par n="verdad/ero__adj"/></e>
     <e lm="vario"><i>vari</i><par n="academic/o__adj"/></e>
-    <e lm="vasco"><i>vasc</i><par n="academic/o__adj"/></e>
+    <e lm="basco"><i>basc</i><par n="academic/o__adj"/></e>
+    <e lm="basco" r="LR"><p><l>vasc</l><r>basc</r></p><par n="academic/o__adj"/></e>
     <e lm="vecino"><i>vecin</i><par n="academic/o__adj"/></e>
     <e lm="veneciano"><i>venecian</i><par n="academic/o__adj"/></e>
     <e lm="venidero"><i>venid</i><par n="verdad/ero__adj"/></e>
@@ -41215,7 +41224,7 @@
     <e lm="vez"><par n="/b_v__var"/><i>e</i><par n="actri/z__n"/></e>
     <e lm="radiz"><i>radi</i><par n="actri/z__n"/></e>
     <e lm="nariz"><i>nari</i><par n="actri/z__n"/></e>
-    <e lm="tapiz"><i>tapi</i><par n="tapi/z__n"/></e>
+    <e lm="tapiz"><i>tapi</i><par n="chue/z__n"/></e>
     <e lm="naso"><i>naso</i><par n="libro__n"/></e>
     <e lm="nas" r="LR"><p><l>nas</l><r>naso</r></p><par n="atletismo__n"/></e>
     <e lm="gas"><i>gas</i><par n="país__n"/></e>
@@ -41925,7 +41934,7 @@
     <e lm="impunidat"><i>impunid</i><par n="privacid/at__n"/></e>
     <e lm="inactividat"><i>inactivid</i><par n="privacid/at__n"/></e>
     <e lm="incapacidat"><i>incapacid</i><par n="privacid/at__n"/></e>
-    <e lm="incapacidat"><i>incapacid</i><par n="privacid/at__n"/></e>
+    <e lm="discapacidat"><i>discapacid</i><par n="privacid/at__n"/></e>
     <e lm="individualidat"><i>individualid</i><par n="privacid/at__n"/></e>
     <e lm="individualidat" r="LR"><p><l>indibidualid</l><r>individualid</r></p><par n="privacid/at__n"/></e>
     <e lm="inestabilidat"><i>inestabilid</i><par n="privacid/at__n"/></e>
@@ -49884,7 +49893,6 @@
     <e lm="el Molar"><i>el<b/>Molar</i><par n="Afganistán__np"/></e>
     <e lm="El Montmell"><i>El<b/>Montmell</i><par n="Afganistán__np"/></e>
     <e lm="El Morell"><i>El<b/>Morell</i><par n="Afganistán__np"/></e>
-    <e lm="el País Valenciano"><i>el<b/>País<b/>Valenciano</i><par n="Afganistán__np"/></e>
     <e lm="el Palomar"><i>el<b/>Palomar</i><par n="Afganistán__np"/></e>
     <e lm="el Perelló"><i>el<b/>Perelló</i><par n="Afganistán__np"/></e>
     <e lm="el Pirineo"><i>el<b/>Pirineo</i><par n="Afganistán__np"/></e>
@@ -50615,7 +50623,8 @@
     <e lm="Pacs del Penedès"><i>Pacs<b/>del<b/>Penedès</i><par n="Afganistán__np"/></e>
     <e lm="Padua"><i>Padua</i><par n="Afganistán__np"/></e>
     <e lm="Paiporta"><i>Paiporta</i><par n="Afganistán__np"/></e>
-    <e lm="País Vasco"><i>País<b/>Vasco</i><par n="Afganistán__np"/></e>
+    <e lm="País Basco"><i>País<b/>Basco</i><par n="Afganistán__np"/></e>
+    <e lm="País Basco" r="LR"><p><l>País<b/>Vasco</l><r>País<b/>Basco</r></p><par n="Afganistán__np"/></e>
     <e lm="Pakistán"><i>Pakistán</i><par n="Afganistán__np"/></e>
     <e lm="Palafrugell"><i>Palafrugell</i><par n="Afganistán__np"/></e>
     <e lm="Palamós"><i>Palamós</i><par n="Afganistán__np"/></e>
@@ -54569,7 +54578,6 @@
     <e lm="el Morell"><i>el<b/>Morell</i><par n="Afganistán__np"/></e>
     <e lm="el Palau d'Anglesola"><i>el<b/>Palau<b/>d'Anglesola</i><par n="Afganistán__np"/></e>
     <e lm="el Papiol"><i>el<b/>Papiol</i><par n="Afganistán__np"/></e>
-    <e lm="el País Vasco"><i>el<b/>País<b/>Vasco</i><par n="Afganistán__np"/></e>
     <e lm="el Peñón de Ifach"><i>el<b/>Peñón<b/>de<b/>Ifach</i><par n="Afganistán__np"/></e>
     <e lm="el Pilar de la Foradada"><i>el<b/>Pilar<b/>de<b/>la<b/>Foradada</i><par n="Afganistán__np"/></e>
     <e lm="el Pinell de Brai"><i>el<b/>Pinell<b/>de<b/>Brai</i><par n="Afganistán__np"/></e>
@@ -56021,7 +56029,8 @@
     <e lm="universitario"><i>universitari</i><par n="amig/o__n"/></e>
     <e lm="urbano"><i>urb</i><par n="cristi/ano__n"/></e>
     <e lm="valenciano"><i>valenci</i><par n="cristi/ano__n"/></e>
-    <e lm="vasco"><i>vasc</i><par n="amig/o__n"/></e>
+    <e lm="basco"><i>basc</i><par n="amig/o__n"/></e>
+    <e lm="basco" r="LR"><p><l>vasc</l><r>basc</r></p><par n="amig/o__n"/></e>
     <e lm="vecino"><i>vec</i><par n="palest/ino__n"/></e>
     <e lm="veneciano"><i>veneci</i><par n="cristi/ano__n"/></e>
     <e lm="visigodo"><i>visigod</i><par n="amig/o__n"/></e>
@@ -56778,6 +56787,7 @@
     <e lm="coste"><i>coste</i><par n="libro__n"/></e>
     <e lm="costo"><i>costo</i><par n="libro__n"/></e>
     <e lm="credito"><i>credito</i><par n="libro__n"/></e>
+    <e lm="reuto"><i>reuto</i><par n="libro__n"/></e>
     <e lm="descredito"><i>descredito</i><par n="libro__n"/></e>
     <e lm="microcredito"><i>microcredito</i><par n="libro__n"/></e>
     <e lm="departamento"><i>departamento</i><par n="libro__n"/></e>
@@ -58332,9 +58342,11 @@
     <e lm="drastico"><i>drastic</i><par n="academic/o__adj_adv"/></e>
     <e lm="dreito"><i>dreit</i><par n="academic/o__adj_adv"/></e>
     <e lm="dreito" r="LR"><p><l>dret</l><r>dreit</r></p><par n="academic/o__adj_adv"/></e>    
+    <e lm="dreito" r="LR"><p><l>drech</l><r>dreit</r></p><par n="academic/o__adj_adv"/></e>    
     <e lm="dreito" r="LR"><p><l>direct</l><r>dreit</r></p><par n="academic/o__adj_adv"/></e>
     <e lm="dreito" r="LR"><p><l>direut</l><r>dreit</r></p><par n="academic/o__adj_adv"/></e>
-
+    <e lm="recto"><i>rect</i><par n="academic/o__adj_adv"/></e>
+    <e lm="recto" r="LR"><p><l>reut</l><r>rect</r></p><par n="academic/o__adj_adv"/></e>
     <e lm="dual"><i>dual</i><par n="social__adj_adv"/></e>
     <e lm="dubitativo"><i>dubitati</i><par n="cursi/vo__adj_adv"/></e>
     <e lm="dubdoso"><i>dubdos</i><par n="academic/o__adj_adv"/></e>
@@ -60214,7 +60226,6 @@
     <e lm="recondito"><i>recondit</i><par n="academic/o__adj_adv"/></e>
     <e lm="reconfortant"><i>reconfort</i><par n="degrad/ant__adj_adv"/></e>
     <e lm="recreativo"><i>recreati</i><par n="cursi/vo__adj_adv"/></e>
-    <e lm="recto"><i>rect</i><par n="academic/o__adj_adv"/></e>
     <e lm="rectangular"><i>rectangular</i><par n="social__adj_adv"/></e>
     <e lm="rectilinio"><i>rectilini</i><par n="academic/o__adj_adv"/></e>
     <e lm="recuperable"><i>recuperable</i><par n="social__adj_adv"/></e>
@@ -63334,7 +63345,7 @@
     <e lm="paca"><i>paca</i><par n="luenga__n"/></e>
     <e lm="bala"><i>bala</i><par n="luenga__n"/></e>
     <e lm="balanz" r="LR"><p><l>balance</l><r>balanz</r></p><par n="libro__n"/></e>
-    <e lm="balanz"><i>balan</i><par n="tapi/z__n"/></e>
+    <e lm="balanz"><i>balan</i><par n="chue/z__n"/></e>
     <e lm="balanza"><i>balanza</i><par n="luenga__n"/></e>
     <e lm="galdrufa"><i>galdrufa</i><par n="luenga__n"/></e>
     <e lm="ballena"><i>ballena</i><par n="luenga__n"/></e>
@@ -64763,7 +64774,7 @@
     <e lm="paranza"><i>paranza</i><par n="luenga__n"/></e>
     <e lm="trapa"><i>trapa</i><par n="luenga__n"/></e>
     <e lm="pedrera"><i>pedrera</i><par n="luenga__n"/></e>
-    <e lm="trozo"><i>trozo</i><par n="libro__n"/></e>
+    <e lm="trozo"><i>troz</i><par n="troz__n"/></e>
     <e lm="preza"><i>preza</i><par n="luenga__n"/></e>
     <e lm="pestanya"><i>pestanya</i><par n="luenga__n"/></e>
     <e lm="ladrillo"><i>ladrillo</i><par n="libro__n"/></e>

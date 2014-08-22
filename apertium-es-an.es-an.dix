@@ -881,6 +881,9 @@
     <e><p><l>derechista<s n="adj"/></l><r>dreitista<s n="adj"/></r></p></e>
     <e srl="derecho D"><p><l>derecho<s n="adj"/></l><r>dreito<s n="adj"/></r></p></e>
     <e srl="directo"><p><l>directo<s n="adj"/></l><r>dreito<s n="adj"/></r></p></e>
+    <e srl="recto"><p><l>recto<s n="adj"/></l><r>dreito<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>directo<s n="adj"/></l><r>directo<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>recto<s n="adj"/></l><r>recto<s n="adj"/></r></p></e>
     <e><p><l>desaconsejable<s n="adj"/></l><r>desaconsellable<s n="adj"/></r></p></e>
     <e><i>desagradable<s n="adj"/></i></e>
     <e><p><l>desastroso<s n="adj"/></l><r>desastroso<s n="adj"/></r></p></e>
@@ -1951,7 +1954,6 @@
     <e><p><l>recopilatorio<s n="adj"/></l><r>recopilatorio<s n="adj"/></r></p></e>
     <e><p><l>recreativo<s n="adj"/></l><r>recreativo<s n="adj"/></r></p></e>
     <e><i>rectangular<s n="adj"/></i></e>
-    <e><p><l>recto<s n="adj"/></l><r>recto<s n="adj"/></r></p></e>
     <e><p><l>redondo<s n="adj"/></l><r>redondo<s n="adj"/></r></p></e>
     <e><p><l>redundante<s n="adj"/></l><r>redundant<s n="adj"/></r></p></e>
     <e><p><l>reflexivo<s n="adj"/></l><r>reflexivo<s n="adj"/></r></p></e>
@@ -2278,7 +2280,7 @@
     <e><p><l>vaquero<s n="adj"/></l><r>vaquero<s n="adj"/></r></p></e>
     <e><i>variable<s n="adj"/></i></e>
     <e><p><l>vario<s n="adj"/></l><r>vario<s n="adj"/></r></p></e>
-    <e><p><l>vasco<s n="adj"/></l><r>vasco<s n="adj"/></r></p></e>
+    <e><p><l>vasco<s n="adj"/></l><r>basco<s n="adj"/></r></p></e>
     <e><i>vascular<s n="adj"/></i></e>
     <e><i>vecinal<s n="adj"/></i></e>
     <e><p><l>vecino<s n="adj"/></l><r>vecino<s n="adj"/></r></p></e>
@@ -4787,7 +4789,6 @@
 <e><p><l>despierto<s n="adj"/></l><r>dispierto<s n="adj"/></r></p></e>
 <e><p><l>desprovisto<s n="adj"/></l><r>desprovisto<s n="adj"/></r></p></e>
 <e><p><l>diminuto<s n="adj"/></l><r>diminuto<s n="adj"/></r></p></e>
-<e r="RL"><p><l>directo<s n="adj"/></l><r>directo<s n="adj"/></r></p></e>
 <e><p><l>discreto<s n="adj"/></l><r>discreto<s n="adj"/></r></p></e>
 <e><p><l>distinto<s n="adj"/></l><r>distinto<s n="adj"/></r></p></e>
 <e><p><l>docto<s n="adj"/></l><r>docto<s n="adj"/></r></p></e>
@@ -7038,6 +7039,7 @@
 <e><p><l>direccionalmente<s n="adv"/></l><r>direccionalment<s n="adv"/></r></p></e>
 <e r="RL"><p><l>directamente<s n="adv"/></l><r>directament<s n="adv"/></r></p></e>
 <e><p><l>directamente<s n="adv"/></l><r>dreitament<s n="adv"/></r></p></e>
+<e r="LR"><p><l>rectamente<s n="adv"/></l><r>dreitament<s n="adv"/></r></p></e>
 <e><p><l>directivamente<s n="adv"/></l><r>directivament<s n="adv"/></r></p></e>
 <e><p><l>disciplinariamente<s n="adv"/></l><r>disciplinariament<s n="adv"/></r></p></e>
 <e><p><l>discográficamente<s n="adv"/></l><r>discograficament<s n="adv"/></r></p></e>
@@ -8907,7 +8909,6 @@
 <e><p><l>reconfortantemente<s n="adv"/></l><r>reconfortantment<s n="adv"/></r></p></e>
 <e><p><l>reconociblemente<s n="adv"/></l><r>reconoixiblement<s n="adv"/></r></p></e>
 <e><p><l>recreativamente<s n="adv"/></l><r>recreativament<s n="adv"/></r></p></e>
-<e><p><l>rectamente<s n="adv"/></l><r>rectament<s n="adv"/></r></p></e>
 <e><p><l>rectangularmente<s n="adv"/></l><r>rectangularment<s n="adv"/></r></p></e>
 <e><p><l>rectilíneamente<s n="adv"/></l><r>rectiliniament<s n="adv"/></r></p></e>
 <e><p><l>recuperablemente<s n="adv"/></l><r>recuperablement<s n="adv"/></r></p></e>
@@ -10165,8 +10166,8 @@
     <e r="RL"><p><l>poco<s n="n"/><s n="m"/></l><r>mica<s n="n"/><s n="f"/></r></p></e>    
     <e r="RL" srl="poco"><p><l>poco<s n="n"/><s n="m"/></l><r>miqueta<s n="n"/><s n="f"/></r></p></e>    
     <e r="RL" srl="pedazo D"><p><l>pedazo<s n="n"/><s n="m"/></l><r>miqueta<s n="n"/><s n="f"/></r></p></e>    
-    <e r="LR"><p><l>pedazo<s n="n"/></l><r>trozo<s n="n"/></r></p></e>    
-    <e><p><l>trozo<s n="n"/></l><r>trozo<s n="n"/></r></p></e>
+    <e r="LR"><p><l>pedazo<s n="n"/></l><r>troz<s n="n"/></r></p></e>    
+    <e><p><l>trozo<s n="n"/></l><r>troz<s n="n"/></r></p></e>
     <e r="RL"><p><l>poco<s n="n"/><s n="m"/></l><r>poco<s n="n"/><s n="m"/></r></p></e>    
     <e r="RL"><p><l>poco<s n="n"/><s n="m"/></l><r>poquet<s n="n"/><s n="m"/></r></p></e>    
     <e><p><l>verdad<s n="n"/></l><r>verdat<s n="n"/></r></p></e>
@@ -10913,8 +10914,8 @@
     <e r="RL"><p><l>huelga<s n="n"/></l><r>vaga<s n="n"/></r></p></e>
     <e r="RL"><p><l>huelga<s n="n"/></l><r>vada<s n="n"/></r></p></e>
     <e><p><l>audiencia<s n="n"/></l><r>audiencia<s n="n"/></r></p></e>
-    <e r="RL"><p><l>lluvia<s n="n"/></l><r>plevida<s n="n"/></r></p></e>
-    <e><p><l>lluvia<s n="n"/></l><r>plevia<s n="n"/></r></p></e>
+    <e><p><l>lluvia<s n="n"/></l><r>plevida<s n="n"/></r></p></e>
+    <e r="RL"><p><l>lluvia<s n="n"/></l><r>plevia<s n="n"/></r></p></e>
     <e><p><l>apertura<s n="n"/></l><r>obridura<s n="n"/></r></p></e>
     <e r="RL"><p><l>apertura<s n="n"/></l><r>obertura<s n="n"/></r></p></e>
     <e r="RL"><p><l>apertura<s n="n"/></l><r>apertura<s n="n"/></r></p></e>
@@ -10971,7 +10972,7 @@
     <e><p><l>impunidad<s n="n"/></l><r>impunidat<s n="n"/></r></p></e>
     <e><p><l>inactividad<s n="n"/></l><r>inactividat<s n="n"/></r></p></e>
     <e><p><l>incapacidad<s n="n"/></l><r>incapacidat<s n="n"/></r></p></e>
-    <e r="RL"><p><l>incapacidad<s n="n"/></l><r>incapacidat<s n="n"/></r></p></e>
+    <e><p><l>discapacidad<s n="n"/></l><r>discapacidat<s n="n"/></r></p></e>
     <e><p><l>incorporación<s n="n"/></l><r>encorporación<s n="n"/></r></p></e>
     <e><p><l>indefinido<s n="n"/></l><r>indefiniu<s n="n"/></r></p></e>
     <e><p><l>independentismo<s n="n"/></l><r>independentismo<s n="n"/></r></p></e>
@@ -11211,7 +11212,6 @@
     <e><p><l>neoplatonismo<s n="n"/></l><r>neoplatonismo<s n="n"/></r></p></e>
     <e><p><l>nestorianismo<s n="n"/></l><r>nestorianismo<s n="n"/></r></p></e>
     <e><p><l>neutralidad<s n="n"/></l><r>neutralidat<s n="n"/></r></p></e>
-    <e r="RL"><p><l>nivel<s n="n"/></l><r>libel<s n="n"/></r></p></e>
     <e><p><l>niño<s n="n"/></l><r>nino<s n="n"/></r></p></e>
     <e><p><l>noche<s n="n"/></l><r>nueit<s n="n"/></r></p></e>  
     <e><p><l>déficit<s n="n"/></l><r>deficit<s n="n"/></r></p></e>  
@@ -11592,7 +11592,7 @@
     <e><p><l>vaporación<s n="n"/></l><r>vaporación<s n="n"/></r></p></e>
     <e><p><l>vaquero<s n="n"/></l><r>vaquero<s n="n"/></r></p></e>
     <e><p><l>variación<s n="n"/></l><r>variación<s n="n"/></r></p></e>
-    <e><p><l>vasco<s n="n"/></l><r>vasco<s n="n"/></r></p></e>
+    <e><p><l>vasco<s n="n"/></l><r>basco<s n="n"/></r></p></e>
     <e><p><l>vasquismo<s n="n"/></l><r>basquismo<s n="n"/></r></p></e>
     <e><p><l>vecino<s n="n"/></l><r>vecino<s n="n"/></r></p></e>
     <e><p><l>vegetación<s n="n"/></l><r>vechetación<s n="n"/></r></p></e>
@@ -13019,7 +13019,8 @@
     <e><p><l>pesebre<s n="n"/><s n="m"/></l><r>gribia<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>pesebre<s n="n"/></l><r>pesebre<s n="n"/></r></p></e>
     <e><p><l>gracia<s n="n"/></l><r>gracia<s n="n"/></r></p></e>
-    <e><p><l>nivel<s n="n"/></l><r>ran<s n="n"/></r></p></e>
+    <e r="RL"><p><l>nivel<s n="n"/></l><r>ran<s n="n"/></r></p></e>
+    <e><p><l>nivel<s n="n"/></l><r>libel<s n="n"/></r></p></e>
     <e><p><l>hora<s n="n"/></l><r>hora<s n="n"/></r></p></e>
     <e><p><l>línea<s n="n"/></l><r>linia<s n="n"/></r></p></e>
     <e><p><l>polilínea<s n="n"/></l><r>polilinia<s n="n"/></r></p></e>
@@ -13513,6 +13514,7 @@
     <e><p><l>descrédito<s n="n"/></l><r>descredito<s n="n"/></r></p></e>
     <e><p><l>microcrédito<s n="n"/></l><r>microcredito<s n="n"/></r></p></e>
     <e><p><l>crédito<s n="n"/></l><r>credito<s n="n"/></r></p></e>
+    <e><p><l>rédito<s n="n"/></l><r>reuto<s n="n"/></r></p></e>
     <e><p><l>ámbito<s n="n"/></l><r>ambito<s n="n"/></r></p></e>
     <e><p><l>gestión<s n="n"/></l><r>chestión<s n="n"/></r></p></e>
     <e><p><l>régimen<s n="n"/></l><r>rechimen<s n="n"/></r></p></e>
@@ -22405,7 +22407,7 @@
     <e><i>Pavarotti<s n="np"/></i></e>
     <e><i>Pavías<s n="np"/></i></e>
     <e><i>Pazo<s n="np"/></i></e>
-    <e><i>País<b/>Vasco<s n="np"/></i></e>
+    <e><p><l>País<b/>Vasco<s n="np"/></l><r>País<b/>Basco<s n="np"/></r></p></e>
     <e><p><l>Países<b/>Bajos<s n="np"/></l><r>Países<b/>Baixos<s n="np"/></r></p></e>
     <e><i>Paüls<s n="np"/></i></e>
     <e><i>Pedralbes<s n="np"/></i></e>
@@ -23718,7 +23720,6 @@
     <e><i>el<b/>Lloar<s n="np"/></i></e>
     <e><i>el<b/>Molar<s n="np"/></i></e>
     <e><i>el<b/>Palomar<s n="np"/></i></e>
-    <e><i>el<b/>País<b/>Valenciano<s n="np"/></i></e>
     <e><i>el<b/>Perelló<s n="np"/></i></e>
     <e><i>el<b/>Pirineo<s n="np"/></i></e>
     <e><i>el<b/>Pla<b/>de<b/>Santa<b/>Maria<s n="np"/></i></e>
@@ -27111,7 +27112,6 @@
     <e><i>el<b/>Morell<s n="np"/></i></e>
     <e><i>el<b/>Palau<b/>d'Anglesola<s n="np"/></i></e>
     <e><i>el<b/>Papiol<s n="np"/></i></e>
-    <e><i>el<b/>País<b/>Vasco<s n="np"/></i></e>
     <e><i>el<b/>Peñón<b/>de<b/>Ifach<s n="np"/></i></e>
     <e><i>el<b/>Pilar<b/>de<b/>la<b/>Foradada<s n="np"/></i></e>
     <e><i>el<b/>Pinell<b/>de<b/>Brai<s n="np"/></i></e>
