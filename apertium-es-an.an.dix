@@ -40120,7 +40120,7 @@
     <e lm="deficit"><i>defici</i><par n="defici/t__n"/></e>
     <e lm="superavit"><i>superavi</i><par n="defici/t__n"/></e>
     <e lm="accesit"><i>accesi</i><par n="defici/t__n"/></e>
-    <e lm="accesit"><p><l>accési</l><r>accesi</r></p><par n="defici/t__n"/></e>
+    <e lm="accesit" r="LR"><p><l>accési</l><r>accesi</r></p><par n="defici/t__n"/></e>
     
     <e lm="leit"><i>le</i><par n="nue/it__n"/></e>
     <e lm="leit" r="LR"><p><l>le</l><r>lei</r></p><par n="nue/t__n"/></e>
@@ -40163,7 +40163,6 @@
     <e lm="afirmativo"><i>afirmati</i><par n="cursi/vo__adj"/></e>
     <e lm="afortunau"><i>afortuna</i><par n="sala/u__adj"/></e>
     <e lm="africau"><i>africa</i><par n="adequa/u__adj"/></e>
-    <e lm="africano"><i>african</i><par n="academic/o__adj"/></e>
     <e lm="agonico"><i>agonic</i><par n="academic/o__adj"/></e>
     <e lm="agrario"><i>agrari</i><par n="academic/o__adj"/></e>
     <e lm="agroalimentario"><i>agroalimentari</i><par n="academic/o__adj"/></e>
@@ -45270,9 +45269,9 @@
     <e lm="maitín"><i>maitín</i><par n="agora__adv"/></e>    
     <e lm="manyana"><i>manyana</i><par n="agora__adv"/></e>
     <e lm="a l'atro'l día"><par n="/a_á__var"/><i><b/>l'</i><par n="atr_altr_otr__var"/><i>o'l<b/>día</i><par n="agora__adv"/></e>
-    <e lm="a l'atro'l día"><par n="/a_á__var"/><i><b/>l'</i><par n="atr_altr_otr__var"/><p><l>o<b/>día</l><r>o'l<b/>día</r></p><par n="agora__adv"/></e>
-    <e lm="a l'atro'l día"><par n="/a_á__var"/><i><b/>l'</i><par n="atr_altr_otr__var"/><p><l>o<b/>diya</l><r>o'l<b/>día</r></p><par n="agora__adv"/></e>
-    <e lm="a l'atro'l día"><par n="/a_á__var"/><i><b/>l'</i><par n="atr_altr_otr__var"/><p><l>o'l<b/>diya</l><r>o'l<b/>día</r></p><par n="agora__adv"/></e>
+    <e lm="a l'atro'l día" r="LR"><par n="/a_á__var"/><i><b/>l'</i><par n="atr_altr_otr__var"/><p><l>o<b/>día</l><r>o'l<b/>día</r></p><par n="agora__adv"/></e>
+    <e lm="a l'atro'l día" r="LR"><par n="/a_á__var"/><i><b/>l'</i><par n="atr_altr_otr__var"/><p><l>o<b/>diya</l><r>o'l<b/>día</r></p><par n="agora__adv"/></e>
+    <e lm="a l'atro'l día" r="LR"><par n="/a_á__var"/><i><b/>l'</i><par n="atr_altr_otr__var"/><p><l>o'l<b/>diya</l><r>o'l<b/>día</r></p><par n="agora__adv"/></e>
   
     <e lm="luego"><par n="/l_ll__var"/><i>uego</i><par n="agora__adv"/></e>
     <e lm="luego" r="LR"><p><l>lugo</l><r>luego</r></p><par n="agora__adv"/></e>
@@ -48945,8 +48944,8 @@
     <e lm="antropocentrismo"><i>antropocentrismo</i><par n="libro__n"/></e>
     <e lm="arabismo"><i>arabismo</i><par n="libro__n"/></e>
     <e lm="rudio"><i>rudio</i><par n="libro__n"/></e>
-    <e lm="rudio" r="RL"><p><l>roído</l><r>rudio</r></p><par n="libro__n"/></e>
-    <e lm="rudio" r="RL"><p><l>ruido</l><r>rudio</r></p><par n="libro__n"/></e>
+    <e lm="rudio" r="LR"><p><l>roído</l><r>rudio</r></p><par n="libro__n"/></e>
+    <e lm="rudio" r="LR"><p><l>ruido</l><r>rudio</r></p><par n="libro__n"/></e>
     <e lm="vuedar"><i>vued</i><par n="cant/ar__vblex"/></e>
     <e lm="ziga-zaga"><i>ziga-zaga</i><par n="libro__n"/></e>
     <e lm="aragonesismo"><i>aragonesismo</i><par n="libro__n"/></e>
@@ -58369,8 +58368,8 @@
     <e lm="elastico"><i>elastic</i><par n="academic/o__adj_adv"/></e>
     <e lm="elechiaco"><i>elechiac</i><par n="academic/o__adj_adv"/></e>
     <e lm="esleyible"><i>esleyible</i><par n="social__adj_adv"/></e>
-    <e lm="esleyible"><p><l>eslechible</l><r>esleyible</r></p><par n="social__adj_adv"/></e>
-    <e lm="esleyible"><p><l>esleíble</l><r>esleyible</r></p><par n="social__adj_adv"/></e>
+    <e lm="esleyible" r="LR"><p><l>eslechible</l><r>esleyible</r></p><par n="social__adj_adv"/></e>
+    <e lm="esleyible" r="LR"><p><l>esleíble</l><r>esleyible</r></p><par n="social__adj_adv"/></e>
     <e lm="electo"><i>elect</i><par n="alt/o__adj_adv"/></e>
     <e lm="electoral"><i>electoral</i><par n="social__adj_adv"/></e>
     <e lm="electrico"><i>electric</i><par n="academic/o__adj_adv"/></e>
