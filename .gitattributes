@@ -1,2 +1,13 @@
 * text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-spa-arg.arg-spa.lrx -text
+/apertium-spa-arg.spa-arg.lrx -text
+/autogen.sh -text
+/configure.ac -text
+/modes.xml -text
 /svn-commit.tmp -text
