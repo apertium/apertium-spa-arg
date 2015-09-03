@@ -96,7 +96,7 @@
 <!-- cartero -->
 
 <rule>
-    <match lemma="rato"><select lemma="ratón"/></match>
+    <match lemma="rato"><select lemma="rato"/></match>
  </rule>
 <!-- rata, rato --> 
 
@@ -131,9 +131,9 @@
 <!-- oír  --> 
 
 <rule>
-    <match lemma="rechirar"><select lemma="revolver"/></match>
+    <match lemma="rechirar"><select lemma="rebuscar"/></match>
  </rule>
-<!-- rebuscar --> 
+<!-- revolver --> 
     
 <rule>
     <match lemma="emponderar"><select lemma="ensalzar"/></match>

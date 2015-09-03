@@ -16419,8 +16419,8 @@
     <e><p><l>sonido<s n="n"/></l><r>son<s n="n"/></r></p></e>
     <e><p><l>nieve<s n="n"/></l><r>nieu<s n="n"/></r></p></e>
     <e srl="correo D"><p><l>correo<s n="n"/></l><r>correu<s n="n"/></r></p></e>
-    <e srl="cartero"><p><l>cartero<s n="n"/><s n="m"/></l><r>correu<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>cartero<s n="n"/><s n="f"/></l><r>correua<s n="n"/><s n="f"/></r></p></e>
+    <e srl="cartero"><p><l>cartero<s n="n"/></l><r>correu<s n="n"/></r></p></e>
+    <e><p><l>cartero<s n="n"/></l><r>correua<s n="n"/></r></p></e>
     <e><p><l>desarrollador<s n="n"/></l><r>desembolicador<s n="n"/></r></p></e>
     <e><p><l>transmisor<s n="n"/></l><r>transmisor<s n="n"/></r></p></e>
     <e r="LR"><p><l>trasmisor<s n="n"/></l><r>transmisor<s n="n"/></r></p></e>
@@ -18812,8 +18812,8 @@
     <e><p><l>robar<s n="vblex"/></l><r>furtar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>desechar<s n="vblex"/></l><r>repuyar<s n="vblex"/></r></p></e>
     <e><p><l>repudiar<s n="vblex"/></l><r>repuyar<s n="vblex"/></r></p></e>
-    <e srl="revolver D"><p><l>revolver<s n="vblex"/></l><r>rechirar<s n="vblex"/></r></p></e>
-    <e srl="rebuscar"><p><l>rebuscar<s n="vblex"/></l><r>rechirar<s n="vblex"/></r></p></e>
+    <e srl="revolver"><p><l>revolver<s n="vblex"/></l><r>rechirar<s n="vblex"/></r></p></e>
+    <e srl="rebuscar D"><p><l>rebuscar<s n="vblex"/></l><r>rechirar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>marginar<s n="vblex"/></l><r>marguinar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>bordear<s n="vblex"/></l><r>marguinar<s n="vblex"/></r></p></e>
     <e><p><l>orillar<s n="vblex"/></l><r>marguinar<s n="vblex"/></r></p></e>
@@ -18977,8 +18977,6 @@
     <e r="RL" srl="ahuyentar D"><p><l>ahuyentar<s n="vblex"/></l><r>uixar<s n="vblex"/></r></p></e>
     <e r="RL" srl="incitar"><p><l>incitar<s n="vblex"/></l><r>uixar<s n="vblex"/></r></p></e>        
     <e r="LR"><p><l>ahuyentar<s n="vblex"/></l><r>espantar<s n="vblex"/></r></p></e>
-    <e><p><l>revolver<s n="vblex"/></l><r>rechirar<s n="vblex"/></r></p></e>
-    <e><p><l>rebuscar<s n="vblex"/></l><r>rechirar<s n="vblex"/></r></p></e>
     <e><p><l>indagar<s n="vblex"/></l><r>indagar<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>indagar<s n="vblex"/></l><r>encercar<s n="vblex"/></r></p></e>
     <e><p><l>interpolar<s n="vblex"/></l><r>interpolar<s n="vblex"/></r></p></e>
