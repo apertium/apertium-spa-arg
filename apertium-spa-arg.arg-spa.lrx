@@ -16,9 +16,6 @@
     <match lemma="pro"><select lemma="bastante"/></match>
  </rule>
 
- <rule>
-    <match lemma="entre"><select lemma="durante"/></match>
- </rule>
 
  <rule>
     <match lemma="ta"><select lemma="para"/></match>
@@ -181,7 +178,12 @@
 <rule>
     <match lemma="espardir"><select lemma="difundir"/></match>
  </rule>
-<!-- desenvolver  --> 
+<!-- desenvolver  -->
+
+<rule>
+    <match lemma="entre"><select lemma="entre"/></match>
+ </rule>
+<!-- durante  --> 
 
   <rule>
     <match lemma="wind"/>
