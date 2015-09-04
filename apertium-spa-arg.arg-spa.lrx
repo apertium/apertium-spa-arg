@@ -34,9 +34,14 @@
  </rule>
 
  <rule>
-    <match lemma="ordinación" tags="n.pl"><select lemma="estatuto"  tags="n.pl"/></match>
+    <match lemma="ordinación" tags="n.f.pl"><select lemma="estatuto" tags="n.m.pl"/></match>
  </rule>
 
+ <rule>
+    <match lemma="ordinación" tags="n.f.sg"><select lemma="ordenación" tags="n.m.sg"/></match>
+ </rule>
+ <!-- de autonomía estatuto -->
+ 
  <rule>
     <match lemma="corredor"><select lemma="corredor"/></match>
  </rule>

@@ -138,6 +138,16 @@
   </rule>
   <!-- anvista -->
   
+   <rule>
+    <match lemma="estatuto" tags="n.m.pl"><select lemma="ordinación" tags="n.f.pl"/></match>
+ </rule>
+
+ <rule>
+    <match lemma="estatuto" tags="n.m.sg"><select lemma="estatuto" tags="n.m.sg"/></match>
+ </rule>
+ <!-- de autonomía estatuto-->
+ 
+  
   <rule>
     <match lemma="wind"/>
     <match lemma="power" tags="n.*">

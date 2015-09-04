@@ -10326,7 +10326,7 @@
     <e slr="chugadero"><p><l>articulación<s n="n"/><s n="f"/></l><r>chugadero<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>articulación<s n="n"/></l><r>chugadera<s n="n"/></r></p></e>
     <e srl="nudillo"><p><l>nudillo<s n="n"/><s n="m"/></l><r>chunta<s n="n"/><s n="f"/></r></p></e>
-    <e srl="junta D"><p><l>junta<s n="n"/></l><r>chunta<s n="n"/></r></p></e>
+    <e srl="junta D"><p><l>junta<s n="n"/><s n="f"/></l><r>chunta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cicatriz<s n="n"/></l><r>cicatriza<s n="n"/></r></p></e>
     <e r="RL"><p><l>cicatriz<s n="n"/></l><r>cicatriz<s n="n"/></r></p></e>
     <e><p><l>cojón<s n="n"/></l><r>collón<s n="n"/></r></p></e>
@@ -13521,12 +13521,11 @@
     <e><p><l>departamento<s n="n"/></l><r>departamento<s n="n"/></r></p></e>
     <e><p><l>macrodepartamento<s n="n"/></l><r>macrodepartamento<s n="n"/></r></p></e>
     <e><p><l>ejército<s n="n"/></l><r>exercito<s n="n"/></r></p></e>
-    <e><p><l>estatuto<s n="n"/><s n="m"/><s n="sg"/></l><r>estatuto<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>estatuto<s n="n"/><s n="m"/><s n="pl"/></l><r>estatuto<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-    <e srl="estatutos D"><p><l>estatuto<s n="n"/><s n="m"/><s n="pl"/></l><r>ordinación<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    <e srl="ordenaciones"><p><l>ordenación<s n="n"/><s n="f"/><s n="pl"/></l><r>ordinación<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    <e><p><l>ordenación<s n="n"/><s n="f"/><s n="sg"/></l><r>ordinación<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>ordinación<s n="n"/></l><r>ordinación<s n="n"/></r></p></e>
+    
+    <e><p><l>estatuto<s n="n"/><s n="m"/></l><r>estatuto<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>estatuto<s n="n"/><s n="m"/></l><r>ordinación<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ordenación<s n="n"/><s n="f"/></l><r>ordinación<s n="n"/><s n="f"/></r></p></e>
+    
     <e><p><l>éxito<s n="n"/></l><r>exito<s n="n"/></r></p></e>
     <e><p><l>instituto<s n="n"/></l><r>instituto<s n="n"/></r></p></e>
     <e><p><l>minuto<s n="n"/></l><r>menuto<s n="n"/></r></p></e>
@@ -15264,7 +15263,7 @@
     <e><p><l>ceniza<s n="n"/></l><r>cenisa<s n="n"/></r></p></e>
     <e><p><l>centena<s n="n"/></l><r>centena<s n="n"/></r></p></e>
     <e><p><l>cepa<s n="n"/></l><r>cepa<s n="n"/></r></p></e>
-    <e srl="cera D"><p><l>cera<s n="n"/></l><r>cera<s n="n"/></r></p></e>
+    <e srl="cera D"><p><l>cera<s n="n"/><s n="f"/></l><r>cera<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cerámica<s n="n"/></l><r>ceramica<s n="n"/></r></p></e>
     <e><p><l>ceremonia<s n="n"/></l><r>ceremonia<s n="n"/></r></p></e>
     <e><p><l>certeza<s n="n"/></l><r>certeza<s n="n"/></r></p></e>
@@ -15357,7 +15356,7 @@
     <e><p><l>corazón<s n="n"/></l><r>corazón<s n="n"/></r></p></e>
     <e><p><l>culata<s n="n"/></l><r>culata<s n="n"/></r></p></e>
     <e><p><l>cuchara<s n="n"/></l><r>cullara<s n="n"/></r></p></e>
-    <e srl="cucharilla D"><p><l>cucharilla<s n="n"/></l><r>cullareta<s n="n"/></r></p></e>
+    <e srl="cucharilla D"><p><l>cucharilla<s n="n"/><s n="f"/></l><r>cullareta<s n="n"/><s n="f"/></r></p></e>
     <e srl="renacuajo"><p><l>renacuajo<s n="n"/><s n="m"/></l><r>cullareta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>culpa<s n="n"/></l><r>culpa<s n="n"/></r></p></e>
     <e><p><l>cúpula<s n="n"/></l><r>cupula<s n="n"/></r></p></e>
