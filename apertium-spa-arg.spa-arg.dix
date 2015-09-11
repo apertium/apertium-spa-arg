@@ -1189,7 +1189,7 @@
     <e><p><l>gallego<s n="adj"/></l><r>gallego<s n="adj"/></r></p></e>
     <e><p><l>galo<s n="adj"/></l><r>galo<s n="adj"/></r></p></e>
     <e><p><l>ganadero<s n="adj"/></l><r>ganadero<s n="adj"/></r></p></e>
-    <e><p><l>gaseoso<s n="adj"/></l><r>gaseoso<s n="adj"/></r></p></e>
+    <e><p><l>gaseoso<s n="adj"/></l><r>gasioso<s n="adj"/></r></p></e>
     <e><p><l>gaussiano<s n="adj"/></l><r>gaussiano<s n="adj"/></r></p></e>
     <e><p><l>booleano<s n="adj"/></l><r>booleano<s n="adj"/></r></p></e>
     <e><p><l>gay<s n="adj"/></l><r>gai<s n="adj"/></r></p></e>
@@ -3364,6 +3364,7 @@
 <e><p><l>moral<s n="adj"/></l><r>moral<s n="adj"/></r></p></e>
 <e><p><l>mortal<s n="adj"/></l><r>mortal<s n="adj"/></r></p></e>
 <e><p><l>móvil<s n="adj"/></l><r>mobil<s n="adj"/></r></p></e>
+<e><p><l>mozo<s n="n"/></l><r>mozo<s n="n"/></r></p></e>
 <e><p><l>multicultural<s n="adj"/></l><r>multicultural<s n="adj"/></r></p></e>
 <e><p><l>multilateral<s n="adj"/></l><r>multilateral<s n="adj"/></r></p></e>
 <e><p><l>multinacional<s n="adj"/></l><r>multinacional<s n="adj"/></r></p></e>
@@ -4577,7 +4578,7 @@
 <e><p><l>frondoso<s n="adj"/></l><r>frondoso<s n="adj"/></r></p></e>
 <e><p><l>fructuoso<s n="adj"/></l><r>fructuoso<s n="adj"/></r></p></e>
 <e><p><l>furioso<s n="adj"/></l><r>furioso<s n="adj"/></r></p></e>
-<e><p><l>gaseoso<s n="adj"/></l><r>gasoso<s n="adj"/></r></p></e>
+<e r="RL"><p><l>gaseoso<s n="adj"/></l><r>gasoso<s n="adj"/></r></p></e>
 <e><p><l>generoso<s n="adj"/></l><r>cheneroso<s n="adj"/></r></p></e>
 <e><p><l>glorioso<s n="adj"/></l><r>glorioso<s n="adj"/></r></p></e>
 <e><p><l>gozoso<s n="adj"/></l><r>goyoso<s n="adj"/></r></p></e>
@@ -4605,7 +4606,8 @@
 <e><p><l>intravenoso<s n="adj"/></l><r>intravenoso<s n="adj"/></r></p></e>
 <e><p><l>intruso<s n="adj"/></l><r>intruso<s n="adj"/></r></p></e>
 <e><p><l>inverso<s n="adj"/></l><r>inverso<s n="adj"/></r></p></e>
-<e><p><l>jactancioso<s n="adj"/></l><r>chactancioso<s n="adj"/></r></p></e>
+<e r="RL"><p><l>jactancioso<s n="adj"/></l><r>chactancioso<s n="adj"/></r></p></e>
+<e><p><l>jactancioso<s n="adj"/></l><r>fachendoso<s n="adj"/></r></p></e>
 <e r="RL"><p><l>jocoso<s n="adj"/></l><r>chocoso<s n="adj"/></r></p></e>
 <e r="LR"><p><l>jocoso<s n="adj"/></l><r>gracioso<s n="adj"/></r></p></e>
 <e><p><l>jugoso<s n="adj"/></l><r>sucoso<s n="adj"/></r></p></e>
@@ -5805,6 +5807,7 @@
     <e r="RL"><p><l>de<b/>lo<b/>contrario<s n="cnjadv"/></l><r>atrament<s n="cnjadv"/></r></p></e>
     <e><p><l>por<b/>eso<s n="cnjadv"/></l><r>por<b/>ixo<s n="cnjadv"/></r></p></e>    
     <e>       <p><l>antes<b/>de<b/>que<s n="cnjadv"/></l><r>antes<b/>que<s n="cnjadv"/></r></p></e>
+    <e r="RL">       <p><l>antes<b/>de<b/>que<s n="cnjadv"/></l><r>dinantes<b/>que<s n="cnjadv"/></r></p></e>
     <e>       <p><l>después<b/>de<b/>que<s n="cnjadv"/></l><r>dimpués<b/>que<s n="cnjadv"/></r></p></e>
     <e r="LR">       <p><l>en<b/>cuanto<b/>que<s n="cnjadv"/></l><r>malas<b/>que<s n="cnjadv"/></r></p></e>
     <e r="RL">       <p><l>en<b/>cuanto<b/>que<s n="cnjadv"/></l><r>en<b/>quanti<b/>que<s n="cnjadv"/></r></p></e>
@@ -5947,7 +5950,8 @@
     <e r="RL">       <p><l>nada<s n="n"/><s n="f"/></l>      <r>no-res<s n="n"/><s n="m"/></r></p></e>
     
         <e><p><l>ya<s n="adv"/></l><r>ya<s n="adv"/></r></p></e>
-    <e><p><l>antes<s n="adv"/></l><r>antes<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>antes<s n="adv"/></l><r>antes<s n="adv"/></r></p></e>
+    <e><p><l>antes<s n="adv"/></l><r>dinantes<s n="adv"/></r></p></e>
     <e><p><l>aquí<s n="adv"/></l><r>aquí<s n="adv"/></r></p></e>
     <e r="LR"><p><l>acá<s n="adv"/></l><r>aquí<s n="adv"/></r></p></e>
     <e><p><l>ahí<s n="adv"/></l><r>astí<s n="adv"/></r></p></e>
@@ -6046,6 +6050,7 @@
     <e><p><l>tampoco<s n="adv"/></l><r>tampoco<s n="adv"/></r></p></e>
     <e r="RL"><p><l>tampoco<s n="adv"/></l><r>tampoco<b/>no<s n="adv"/></r></p></e>
     <e><p><l>todavía<s n="adv"/></l><r>encara<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>todavía<s n="adv"/></l><r>entavía<s n="adv"/></r></p></e>
     <e><p><l>no<s n="adv"/></l><r>no<s n="adv"/></r></p></e>    
     <e>       <i>igual<s n="adv"/></i></e>
   <e><p><l>tanto<s n="adv"/></l><r>tanto<s n="adv"/></r></p></e>
@@ -8108,7 +8113,8 @@
 <e><p><l>iterativamente<s n="adv"/></l><r>iterativament<s n="adv"/></r></p></e>
 <e><p><l>itinerantemente<s n="adv"/></l><r>itinerantment<s n="adv"/></r></p></e>
 <e><p><l>jaboneramente<s n="adv"/></l><r>sabonerament<s n="adv"/></r></p></e>
-<e><p><l>jactanciosamente<s n="adv"/></l><r>chactanciosament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>jactanciosamente<s n="adv"/></l><r>chactanciosament<s n="adv"/></r></p></e>
+<e><p><l>jactanciosamente<s n="adv"/></l><r>fachendosamente<s n="adv"/></r></p></e>
 <e><p><l>jerárquicamente<s n="adv"/></l><r>hierarquicament<s n="adv"/></r></p></e>
 <e><p><l>jerarquizadamente<s n="adv"/></l><r>hierarquizadament<s n="adv"/></r></p></e>
 <e r="RL"><p><l>jocosamente<s n="adv"/></l><r>chocosament<s n="adv"/></r></p></e>
@@ -9609,6 +9615,7 @@
     <e><p><l>a<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
     <e r="LR"><p><l>ante<s n="pr"/></l><r>debant<b/>de<s n="pr"/></r></p></e>
     <e><p><l>antes<b/>de<s n="pr"/></l><r>antes<b/>de<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>antes<b/>de<s n="pr"/></l><r>dinantes<b/>de<s n="pr"/></r></p></e>
     <e><p><l>bajo<s n="pr"/></l><r>baixo<s n="pr"/></r></p></e>
     <e><p><l>como<s n="pr"/></l><r>como<s n="pr"/></r></p></e>
     <e><p><l>con<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
@@ -10592,6 +10599,7 @@
     <e><p><l>correspondencia<s n="n"/></l><r>correspondencia<s n="n"/></r></p></e>
     <e r="RL"><p><l>cosa<s n="n"/></l><r>cosa<s n="n"/></r></p></e>
     <e><p><l>cosa<s n="n"/></l><r>coseta<s n="n"/></r></p></e>
+    <e><p><l>costumbre<s n="n"/><s n="f"/></l><r>costumbre<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>creación<s n="n"/></l><r>creyación<s n="n"/></r></p></e>
     <e><p><l>creatividad<s n="n"/></l><r>creyatividat<s n="n"/></r></p></e>
     <e><p><l>crecimiento<s n="n"/></l><r>creiximiento<s n="n"/></r></p></e>
@@ -10720,7 +10728,8 @@
     <e><p><l>documentación<s n="n"/></l><r>documentación<s n="n"/></r></p></e>
     <e><p><l>aliento<s n="n"/></l><r>aliento<s n="n"/></r></p></e>
     <e><p><l>documento<s n="n"/></l><r>documento<s n="n"/></r></p></e>
-    <e><p><l>instrumento<s n="n"/></l><r>instrumento<s n="n"/></r></p></e>
+    <e r="RL"><p><l>instrumento<s n="n"/></l><r>instrumento<s n="n"/></r></p></e>
+    <e><p><l>instrumento<s n="n"/></l><r>traste<s n="n"/></r></p></e>
     <e><p><l>domesticación<s n="n"/></l><r>domesticación<s n="n"/></r></p></e>
     <e><p><l>domicilio<s n="n"/></l><r>domicilio<s n="n"/></r></p></e>
     <e><p><l>dominación<s n="n"/></l><r>dominación<s n="n"/></r></p></e>
@@ -11170,8 +11179,8 @@
     <e><p><l>músculo<s n="n"/></l><r>musclo<s n="n"/></r></p></e>
     <e><p><l>mutualismo<s n="n"/></l><r>mutualismo<s n="n"/></r></p></e>
     <e><p><l>médico<s n="n"/></l><r>medico<s n="n"/></r></p></e>
-    <e r="LR"><p><l>muchacho<s n="n"/></l><r>mesache<s n="n"/></r></p></e>
-    <e><p><l>chico<s n="n"/></l><r>mesache<s n="n"/></r></p></e>
+    <e><p><l>muchacho<s n="n"/></l><r>mesache<s n="n"/></r></p></e>
+    <e><p><l>chico<s n="n"/></l><r>mocet<s n="n"/></r></p></e>
     <e><p><l>n<s n="n"/></l><r>n<s n="n"/></r></p></e>
     <e><p><l>nacimiento<s n="n"/><s n="m"/></l><r>naixencia<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>nacimiento<s n="n"/></l><r>naiximiento<s n="n"/></r></p></e>
@@ -11603,6 +11612,7 @@
     <e r="RL"><p><l>verano<s n="n"/></l><r>vrano<s n="n"/></r></p></e>
     <e r="RL"><p><l>verano<s n="n"/></l><r>estivo<s n="n"/></r></p></e>
     <e r="RL"><p><l>verano<s n="n"/></l><r>estiu<s n="n"/></r></p></e>
+    <e><p><l>adverbio<s n="n"/></l><r>adverbio<s n="n"/></r></p></e>
     <e><p><l>verbo<s n="n"/></l><r>verbo<s n="n"/></r></p></e>
     <e><p><l>verificación<s n="n"/></l><r>verificación<s n="n"/></r></p></e>
     <e><p><l>versatilidad<s n="n"/></l><r>versatilidat<s n="n"/></r></p></e>
@@ -13119,6 +13129,7 @@
     <e><p><l>acompañante<s n="adj"/></l><r>acompanyant<s n="adj"/></r></p></e>
     <e><p><l>soldado<s n="n"/></l><r>soldau<s n="n"/></r></p></e>
     <e><p><l>estado<s n="n"/></l><r>estau<s n="n"/></r></p></e>
+    <e><p><l>modelo<s n="n"/></l><r>modelo<s n="n"/></r></p></e>
     <e><p><l>momento<s n="n"/></l><r>momento<s n="n"/></r></p></e>
     <e><p><l>instante<s n="n"/></l><r>inte<s n="n"/></r></p></e>
     <e><p><l>nombre<s n="n"/></l><r>nombre<s n="n"/></r></p></e>
@@ -14459,6 +14470,11 @@
     <e><p><l>esplendor<s n="n"/><s n="m"/></l><r>esplendor<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>esquiador<s n="n"/></l><r>esquiador<s n="n"/></r></p></e>
     <e><p><l>estantería<s n="n"/><s n="f"/></l><r>aparador<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>caballería<s n="n"/><s n="f"/></l><r>abrío<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>caballería<s n="n"/><s n="f"/></l><r>caballería<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>helecho<s n="n"/><s n="m"/></l><r>falaguera<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>capricho<s n="n"/><s n="m"/></l><r>falaguera<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>capricho<s n="n"/><s n="m"/></l><r>concieto<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>flotador<s n="n"/></l><r>flotador<s n="n"/></r></p></e>
     <e><p><l>fumador<s n="n"/></l><r>fumador<s n="n"/></r></p></e>
     <e><p><l>fumador<s n="adj"/></l><r>fumador<s n="adj"/></r></p></e>
@@ -14577,6 +14593,7 @@
     <e><p><l>kilobyte<s n="n"/></l><r>kilobyte<s n="n"/></r></p></e>
     <e><p><l>megabyte<s n="n"/></l><r>megabyte<s n="n"/></r></p></e>
     <e><p><l>gigabyte<s n="n"/></l><r>chigabyte<s n="n"/></r></p></e>
+    <e><p><l>kilómetro<s n="n"/></l><r>kilometro<s n="n"/></r></p></e>
     <e><p><l>píxel<s n="n"/></l><r>pixel<s n="n"/></r></p></e>
     <e r="LR"><p><l>pixel<s n="n"/></l><r>pixel<s n="n"/></r></p></e>
     <e><p><l>residente<s n="n"/></l><r>resident<s n="n"/></r></p></e>
@@ -14833,7 +14850,8 @@
 <e><p><l>interdependencia<s n="n"/></l><r>interdependencia<s n="n"/></r></p></e>
 <e><p><l>intransigencia<s n="n"/></l><r>intransichencia<s n="n"/></r></p></e>
 <e><p><l>irreverencia<s n="n"/></l><r>irreverencia<s n="n"/></r></p></e>
-<e><p><l>jactancia<s n="n"/></l><r>chactancia<s n="n"/></r></p></e>
+<e r="RL"><p><l>jactancia<s n="n"/></l><r>chactancia<s n="n"/></r></p></e>
+<e><p><l>jactancia<s n="n"/></l><r>fachenda<s n="n"/></r></p></e>
 <e><p><l>latencia<s n="n"/></l><r>latencia<s n="n"/></r></p></e>
 <e><p><l>litispendencia<s n="n"/></l><r>litispendencia<s n="n"/></r></p></e>
 <e><p><l>omnisciencia<s n="n"/></l><r>omnisciencia<s n="n"/></r></p></e>
@@ -16349,6 +16367,7 @@
     <e r="RL"><p><l>evaluación<s n="n"/></l><r>avaloración<s n="n"/></r></p></e>
     <e r="RL"><p><l>canción<s n="n"/></l><r>canción<s n="n"/></r></p></e>
     <e><p><l>canción<s n="n"/></l><r>canta<s n="n"/></r></p></e>
+    <e><p><l>borde<s n="n"/></l><r>canto<s n="n"/></r></p></e>
     <e r="RL"><p><l>inauguración<s n="n"/></l><r>inauguración<s n="n"/></r></p></e>
     <e><p><l>inauguración<s n="n"/></l><r>devantadera<s n="n"/></r></p></e>
     <e><p><l>inundación<s n="n"/></l><r>inundación<s n="n"/></r></p></e>
@@ -16856,6 +16875,7 @@
     <e r="RL"><p><l>miedo<s n="n"/><s n="m"/></l><r>por<s n="n"/><s n="f"/></r></p></e>
     <e r="RL" srl="miedo"><p><l>miedo<s n="n"/><s n="m"/></l><r>cera<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>miedo<s n="n"/><s n="m"/></l><r>cerina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>alegrar<s n="vblex"/></l><r>fer<g><b/>contento</g><s n="vblex"/></r></p></e>
     <e><p><l>gustar<s n="vblex"/></l><r>fer<g><b/>goyo</g><s n="vblex"/></r></p></e>
     <e><p><l>sonreír<s n="vblex"/></l><r>fer<g><b/>a<b/>riseta</g><s n="vblex"/></r></p></e>
     <e r="RL"><p><l>sonreír<s n="vblex"/></l><r>fer<g><b/>a<b/>risalleta</g><s n="vblex"/></r></p></e>
