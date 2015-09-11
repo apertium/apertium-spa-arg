@@ -190,6 +190,11 @@
  </rule>
 <!-- durante  --> 
 
+<rule>
+    <match lemma="falaguera"><select lemma="helecho"/></match>
+ </rule>
+<!-- capricho  dar falaguera  -->
+
   <rule>
     <match lemma="wind"/>
     <match lemma="power" tags="n.*">
