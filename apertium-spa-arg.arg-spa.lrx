@@ -181,6 +181,11 @@
 <!-- desenvolver  --> 
 
 <rule>
+    <match lemma="tornar"><select lemma="volver"/></match>
+ </rule>
+<!-- devolver --> 
+
+<rule>
     <match lemma="espardir"><select lemma="difundir"/></match>
  </rule>
 <!-- desenvolver  -->
@@ -194,6 +199,7 @@
     <match lemma="falaguera"><select lemma="helecho"/></match>
  </rule>
 <!-- capricho  dar falaguera  -->
+
 
   <rule>
     <match lemma="wind"/>
