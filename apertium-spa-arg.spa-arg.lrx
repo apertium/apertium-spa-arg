@@ -127,6 +127,16 @@
     <match lemma="explotar"><select lemma="esclatar"/></match>
   </rule>
   <!-- espleitar -->
+
+  <rule>
+    <match lemma="tocar"><select lemma="tocar"/></match>
+  </rule>
+  <!-- tanyer -->
+
+  <rule>
+    <match lemma="recibir"><select lemma="recibir"/></match>
+  </rule>
+  <!-- recullir -->
   
   <rule>
     <match lemma="arreglar"><select lemma="apanyar"/></match>

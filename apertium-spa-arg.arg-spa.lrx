@@ -185,6 +185,11 @@
  </rule>
 <!-- devolver --> 
 
+ <rule>
+    <match lemma="andar"><select lemma="ir"/></match>
+</rule>
+<!-- andar -->
+  
 <rule>
     <match lemma="espardir"><select lemma="difundir"/></match>
  </rule>
