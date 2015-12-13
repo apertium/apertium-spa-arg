@@ -33,4 +33,3 @@ export ACLOCAL_PATH
 
 # Pass on all args to configure
 autoreconf -fi && ./configure "$@"
-
