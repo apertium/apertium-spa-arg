@@ -73,10 +73,10 @@
 <!-- renacuajo -->
 
  <rule>
-    <match lemma="lentilla" tags="n.pl"><select lemma="lenteja" tags="n.pl"/></match>
+    <match lemma="lentilla" tags="n.f.pl"><select lemma="lenteja" tags="n.f.pl"/></match>
  </rule>
  <rule>
-    <match lemma="lentilla" tags="n.sg"><select lemma="lentilla" tags="n.sg"/></match>
+    <match lemma="lentilla" tags="n.f.sg"><select lemma="lentilla" tags="n.f.sg"/></match>
  </rule>
 
  <rule>
@@ -96,7 +96,11 @@
 <!-- traición -->
 
  <rule>
-    <match lemma="correu"><select lemma="correo"/></match>
+    <match lemma="correu" tags="n.m.*"><select lemma="correo" tags="n.m.*"/></match>
+ </rule>
+ 
+  <rule>
+    <match lemma="correu"  tags="n.f.*"><select lemma="cartero" tags="n.f.*"/></match>
  </rule>
 <!-- cartero -->
 
