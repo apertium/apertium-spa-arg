@@ -3626,11 +3626,14 @@
 <e><p><l>colmillo<s n="n"/></l><r>catirón<s n="n"/></r></p></e>
 <e><p><l>meñique<s n="n"/></l><r>currín<s n="n"/></r></p></e>
 <e r="RL"><p><l>meñique<s n="n"/></l><r>gorrín<s n="n"/></r></p></e>
-<e><p><l>cura<s n="n"/><s n="m"/></l><r>mosen<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>capellán<s n="n"/><s n="m"/></l><r>capellán<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>cura<s n="n"/><s n="m"/></l><r>capellán<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>cura<s n="n"/><s n="m"/></l><r>mosen<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>cura<s n="n"/><s n="m"/></l><r>cura<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>cura<s n="n"/><s n="m"/></l><r>mosén<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>cura<s n="n"/><s n="f"/></l><r>cura<s n="n"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>cura<s n="n"/></l><r>mosén<s n="n"/></r></p></e>
 <e><p><l>bolsillo<s n="n"/><s n="m"/></l><r>pocha<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>mili<s n="n"/></l><r>mili<s n="n"/></r></p></e>
 <e><p><l>amargo<s n="adj"/></l><r>amargo<s n="adj"/></r></p></e>
 <e><p><l>ambiguo<s n="adj"/></l><r>ambiguo<s n="adj"/></r></p></e>
 <!-- <e r="LR"><p><l>agorero<s n="adj"/></l><r>malastrugo<s n="adj"/></r></p></e>  * -->
@@ -5114,8 +5117,12 @@
 <e><p><l>obsceno<s n="adj"/></l><r>obsceno<s n="adj"/></r></p></e>
 <e><p><l>ajeno<s n="adj"/></l><r>alleno<s n="adj"/></r></p></e>
 <e r="LR"><p><l>henchido<s n="adj"/></l><r>pleno<s n="adj"/></r></p></e>
-<e srl="lleno D"><p><l>lleno<s n="adj"/></l><r>pleno<s n="adj"/></r></p></e>
-<e srl="pleno"><p><l>pleno<s n="adj"/></l><r>pleno<s n="adj"/></r></p></e>
+<e><p><l>lleno<s n="adj"/></l><r>pleno<s n="adj"/></r></p></e>
+<e r="LR"><p><l>pleno<s n="adj"/></l><r>pleno<s n="adj"/></r></p></e>
+<e><p><l>pleno<s n="n"/></l><r>pleno<s n="n"/></r></p></e>
+<e><p><l>con<b/>pleno<b/>derecho<s n="adv"/></l><r>con<b/>tot<b/>lo<b/>dreito<s n="adv"/></r></p></e>
+<e><p><l>pleno<b/>auge<s n="n"/><s n="m"/></l><r>plena<b/>expansión<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>pleno<b/>rendimiento<s n="n"/></l><r>pleno<b/>rendimiento<s n="n"/></r></p></e>
 <e><p><l>sereno<s n="adj"/></l><r>sereno<s n="adj"/></r></p></e>
 <e><p><l>terreno<s n="adj"/></l><r>terreno<s n="adj"/></r></p></e>
 <e><p><l>huraño<s n="adj"/></l><r>furón<s n="adj"/></r></p></e>
@@ -5783,7 +5790,7 @@
     <e><p><l>dado<b/>que<s n="cnjadv"/></l>    <r>dau<b/>que<s n="cnjadv"/></r></p></e>
     <e r="LR"><p><l>comoquiera<b/>que<s n="cnjadv"/></l><r>dau<b/>que<s n="cnjadv"/></r></p></e>
     <e r="LR"><p><l>toda<b/>vez<b/>que<s n="cnjadv"/></l><r>dau<b/>que<s n="cnjadv"/></r></p></e>
-    <e><p><l>para<b/>que<s n="cnjadv"/></l>    <r>ta<b/>que<s n="cnjadv"/></r></p></e>    
+    <e><p><l>para<b/>que<s n="cnjadv"/></l>    <r>pa<b/>que<s n="cnjadv"/></r></p></e>    
     <e r="RL"><p><l>para<b/>que<s n="cnjadv"/></l>    <r>por<b/>tal<b/>que<s n="cnjadv"/></r></p></e>
     <e><p><l>según<s n="cnjadv"/></l><r>seguntes<s n="cnjadv"/></r></p></e>
     <e>       <i>a<b/>fe<b/>que<s n="cnjadv"/></i></e>
@@ -5852,7 +5859,7 @@
     <e r="LR"><p><l>de<b/>suerte<b/>que<s n="cnjadv"/></l><r>de<b/>traza<b/>que<s n="cnjadv"/></r></p></e>
     <e r="RL"><p><l>de<b/>forma<b/>que<s n="cnjadv"/></l><r>de<b/>manera<b/>que<s n="cnjadv"/></r></p></e>
     <e r="RL"><p><l>de<b/>forma<b/>que<s n="cnjadv"/></l><r>de<b/>modo<b/>que<s n="cnjadv"/></r></p></e>
-    <e r="LR"><p><l>para<b/>lo<b/>cual<s n="cnjadv"/></l><r>ta<b/>ixo<s n="cnjadv"/></r></p></e>
+    <e r="LR"><p><l>para<b/>lo<b/>cual<s n="cnjadv"/></l><r>pa<b/>ixo<s n="cnjadv"/></r></p></e>
     
     <e><p><l>al<b/>menos<s n="adv"/></l><r>a<b/>lo<b/>menos<s n="adv"/></r></p></e>
     <e r="LR"><p><l>por<b/>lo<b/>menos<s n="adv"/></l><r>a<b/>lo<b/>menos<s n="adv"/></r></p></e>
@@ -5997,8 +6004,8 @@
     <e>       <p><l>ayer<s n="adv"/></l>     <r>ahiere<s n="adv"/></r></p></e>
     <e>       <p><l>anteayer<s n="adv"/></l>     <r>antes<b/>d'ahiere<s n="adv"/></r></p></e>
     <e r="RL">       <p><l>anteayer<s n="adv"/></l>     <r>antiahier<s n="adv"/></r></p></e>
-    <e r="RL">       <p><l>mañana<s n="adv"/></l>     <r>manyana<s n="adv"/></r></p></e>
-    <e>       <p><l>mañana<s n="adv"/></l>     <r>maitín<s n="adv"/></r></p></e>
+    <e r="RL">       <p><l>mañana<s n="adv"/></l>     <r>maitín<s n="adv"/></r></p></e>
+    <e>       <p><l>mañana<s n="adv"/></l>     <r>manyana<s n="adv"/></r></p></e>
     <e r="LR"><p><l>quizá<s n="adv"/></l>             <r>talment<s n="adv"/></r></p></e>
     <e r="LR"><p><l>talmente<s n="adv"/></l>             <r>talment<s n="adv"/></r></p></e>
     <e r="LR"><p><l>a<b/>lo<b/>mejor<s n="adv"/></l>  <r>talment<s n="adv"/></r></p></e>
@@ -8115,7 +8122,7 @@
 <e><p><l>itinerantemente<s n="adv"/></l><r>itinerantment<s n="adv"/></r></p></e>
 <e><p><l>jaboneramente<s n="adv"/></l><r>sabonerament<s n="adv"/></r></p></e>
 <e r="RL"><p><l>jactanciosamente<s n="adv"/></l><r>chactanciosament<s n="adv"/></r></p></e>
-<e><p><l>jactanciosamente<s n="adv"/></l><r>fachendosamente<s n="adv"/></r></p></e>
+<e><p><l>jactanciosamente<s n="adv"/></l><r>fachendosament<s n="adv"/></r></p></e>
 <e><p><l>jerárquicamente<s n="adv"/></l><r>hierarquicament<s n="adv"/></r></p></e>
 <e><p><l>jerarquizadamente<s n="adv"/></l><r>hierarquizadament<s n="adv"/></r></p></e>
 <e r="RL"><p><l>jocosamente<s n="adv"/></l><r>chocosament<s n="adv"/></r></p></e>
@@ -9662,8 +9669,9 @@
     <e r="RL"><p><l>hacia<s n="pr"/></l><r>cara<b/>ta<s n="pr"/></r></p></e> <!-- en dirección a -->
     <e r="RL" srl="hacia"><p><l>hacia<s n="pr"/></l><r>ta<s n="pr"/></r></p></e>
     <e srl="para D" r="RL"><p><l>para<s n="pr"/></l><r>ta<s n="pr"/></r></p></e>
-    <e r="LR"><p><l>para<s n="pr"/></l><r>ta2<s n="pr"/></r></p></e>
-    <e r="RL"><p><l>para<s n="pr"/></l><r>pa<s n="pr"/></r></p></e>
+    <!-- <e r="LR"><p><l>para<s n="pr"/></l><r>ta2<s n="pr"/></r></p></e> -->
+    <!-- <e r="RL"><p><l>para<s n="pr"/></l><r>pa<s n="pr"/></r></p></e> -->
+    <e><p><l>para<s n="pr"/></l><r>pa<s n="pr"/></r></p></e>
     <e><p><l>por<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
     <e><p><l>respecto<b/>a<s n="pr"/></l><r>respective<b/>a<s n="pr"/></r></p></e>
     <e><p><l>sin<s n="pr"/></l><r>sin<s n="pr"/></r></p></e>
@@ -9910,7 +9918,7 @@
     <e r="RL"><p><l>joder<s n="ij"/></l><r>hodo<s n="ij"/></r></p></e>
     <e r="RL"><p><l>joder<s n="ij"/></l><r>me<b/>hodo<s n="ij"/></r></p></e>
     <e><p><l>hasta<b/>luego<s n="ij"/></l>     <r>dica<b/>agora<s n="ij"/></r></p></e>
-    <e r="LR"><p><l>hasta<b/>ahora<s n="adv"/></l>     <r>dica<b/>agora<s n="adv"/></r></p></e>
+    <e><p><l>hasta<b/>ahora<s n="adv"/></l>     <r>dica<b/>agora<s n="adv"/></r></p></e>
     <e><p><l>hasta<b/>pronto<s n="ij"/></l>    <r>dica<b/>luego<s n="ij"/></r></p></e>
     <e><p><l>hasta<b/>la<b/>vista<s n="ij"/></l>    <r>dica<b/>mas<b/>veyer<s n="ij"/></r></p></e>
     <e><p><l>oh<s n="ij"/></l><r>oh<s n="ij"/></r></p></e> 
@@ -11159,8 +11167,9 @@
     <e><p><l>modernidad<s n="n"/></l><r>modernidat<s n="n"/></r></p></e>
     <e><p><l>modernismo<s n="n"/></l><r>modernismo<s n="n"/></r></p></e>
     <e><p><l>molino<s n="n"/></l><r>molín<s n="n"/></r></p></e>
+    <e><p><l>monte<s n="n"/></l><r>mont<s n="n"/></r></p></e>
     <e><p><l>mañana<s n="n"/><s n="f"/></l><r>maitín<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>mañana<s n="n"/><s n="f"/></l><r>manyana<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>mañana<s n="n"/><s n="f"/></l><r>manyana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>camino<s n="n"/></l><r>camín<s n="n"/></r></p></e>
     <e><p><l>monaquismo<s n="n"/></l><r>monaquismo<s n="n"/></r></p></e>
     <e><p><l>monarquismo<s n="n"/></l><r>monarquismo<s n="n"/></r></p></e>
@@ -11266,6 +11275,11 @@
     <e><p><l>octubre<s n="n"/></l><r>octubre<s n="n"/></r></p></e>
     <e><p><l>ocupación<s n="n"/></l><r>ocupación<s n="n"/></r></p></e>
     <e><p><l>oeste<s n="n"/></l><r>ueste<s n="n"/></r></p></e>
+    <e><p><l>suroeste<s n="n"/></l><r>sudueste<s n="n"/></r></p></e>
+    <e><p><l>sudeste<s n="n"/></l><r>sudeste<s n="n"/></r></p></e>
+    <e><p><l>noroeste<s n="n"/></l><r>nordueste<s n="n"/></r></p></e>
+    <e r="LR"><p><l>noreste<s n="n"/></l><r>nordeste<s n="n"/></r></p></e>
+    <e><p><l>nordeste<s n="n"/></l><r>nordeste<s n="n"/></r></p></e>
     <e><p><l>ofensiva<s n="n"/></l><r>ofensiva<s n="n"/></r></p></e>
     <e><p><l>oficialidad<s n="n"/></l><r>oficialidat<s n="n"/></r></p></e>
     <e><p><l>ojo<s n="n"/></l><r>uello<s n="n"/></r></p></e>
@@ -16476,7 +16490,6 @@
     <e><p><l>nieve<s n="n"/></l><r>nieu<s n="n"/></r></p></e>
     <e srl="correo D"><p><l>correo<s n="n"/></l><r>correu<s n="n"/></r></p></e>
     <e srl="cartero"><p><l>cartero<s n="n"/></l><r>correu<s n="n"/></r></p></e>
-    <e><p><l>cartero<s n="n"/></l><r>correua<s n="n"/></r></p></e>
     <e><p><l>desarrollador<s n="n"/></l><r>desembolicador<s n="n"/></r></p></e>
     <e><p><l>transmisor<s n="n"/></l><r>transmisor<s n="n"/></r></p></e>
     <e r="LR"><p><l>trasmisor<s n="n"/></l><r>transmisor<s n="n"/></r></p></e>
@@ -19712,9 +19725,7 @@
     <e><i>Aransalut<s n="np"/></i></e>
     <e><i>Aransís<s n="np"/></i></e>
     <e><i>Arantxa<s n="np"/></i></e>
-    <e><i>Aranyuel<s n="np"/></i></e>
     <e><i>Aras<b/>de<b/>Alpuente<s n="np"/></i></e>
-    <e><i>Arañuel<s n="np"/></i></e>
     <e><i>Arbeca<s n="np"/></i></e>
     <e><i>Arbolí<s n="np"/></i></e>
     <e><i>Arcadi<s n="np"/></i></e>
@@ -20667,6 +20678,9 @@
     <e><i>Dordoña<s n="np"/></i></e>
     <e><i>Dorothy<s n="np"/></i></e>
     <e><i>Dos<b/>Aguas<s n="np"/></i></e>
+    <e><p><l>Dosaguas<s n="np"/></l><r>Dos<b/>Aguas<s n="np"/></r></p></e>
+    <e><p><l>Dos<b/>Aguas<s n="np"/></l><r>Dosaguas<s n="np"/></r></p></e>
+    <e><i>Dosaigües<s n="np"/></i></e>
     <e><i>Dosquers<s n="np"/></i></e>
     <e><i>Dosrius<s n="np"/></i></e>
     <e><i>Doubs<s n="np"/></i></e>
@@ -20773,6 +20787,7 @@
     <e><i>Erasmus<s n="np"/></i></e>
     <e><i>Erdogan<s n="np"/></i></e>
     <e><i>Ereván<s n="np"/></i></e>
+    <e r="LR"><p><l>Erivan<s n="np"/></l><r>Ereván<s n="np"/></r></p></e>
     <e><i>Eric<s n="np"/></i></e>
     <e><i>Erika<s n="np"/></i></e>
     <e><i>Eritrea<s n="np"/></i></e>
@@ -22590,11 +22605,9 @@
     <e><i>Pira<s n="np"/></i></e>
     <e><i>Pirena<s n="np"/></i></e>
     <e><i>Pires<s n="np"/></i></e>
-    <e><i>Pirineo<s n="np"/></i></e>
+    <e><p><l>Pirineo<s n="np"/></l><r>Pireneu<s n="np"/></r></p></e>
     <e r="RL"><i>Pirineos<s n="np"/></i></e>
-    <e><p><l>Pirineos<s n="np"/></l><r>Perineus<s n="np"/></r></p></e>
-    <e r="RL"><p><l>Pirineos<s n="np"/></l><r>Perinés<s n="np"/></r></p></e>
-    <e r="RL"><p><l>Pirineos<s n="np"/></l><r>Pirinés<s n="np"/></r></p></e>
+    <e><p><l>Pirineos<s n="np"/></l><r>Pireneus<s n="np"/></r></p></e>
     <e><i>Pisa<s n="np"/></i></e>
     <e><i>Pitcairn<s n="np"/></i></e>
     <e><i>Pitt<s n="np"/></i></e>
@@ -23910,8 +23923,6 @@
     <e><i>Gernika<s n="np"/></i></e>
     <e><i>Guernica<s n="np"/></i></e>
     <e><i>Pietro<s n="np"/></i></e>
-    <e><p><l>Pedro<b/>Saputo<s n="np"/></l><r>Pietro<b/>Saputo<s n="np"/></r></p></e>
-    <e><p><l>Pedro<b/>Saputo<s n="np"/></l><r>Pero<b/>Saputo<s n="np"/></r></p></e>
     <e><i>Pedro<b/>Saputo<s n="np"/></i></e>
     <e><i>Tarik<s n="np"/></i></e>
     <e><i>Paulina<s n="np"/></i></e>
@@ -24303,7 +24314,12 @@
     <e><i>Aranjuelo<s n="np"/></i></e>
     <e><i>Arantza<s n="np"/></i></e>
     <e><i>Arantzazu<s n="np"/></i></e>
-    <e r="LR"><i>Aranyel<s n="np"/></i></e>
+    <e><p><l>Arañuel<s n="np"/></l><r>Aranyuel<s n="np"/></r></p></e>
+    <e r="RL"><p><l>Arañuel<s n="np"/></l><r>Aranyel<s n="np"/></r></p></e>
+    <e><p><l>Arañuel<s n="np"/></l><r>Aranyuel<s n="np"/></r></p></e>
+    <e r="LR"><p><l>Aranyel<s n="np"/></l><r>Aranyuel<s n="np"/></r></p></e>
+    <e r="LR"><i>Aranyuel<s n="np"/></i></e>
+    <e r="RL"><i>Arañuel<s n="np"/></i></e>
     <e><i>Aranzazu<s n="np"/></i></e>
     <e><i>Ararteko<s n="np"/></i></e>
     <e><i>Araujo<s n="np"/></i></e>
@@ -24773,7 +24789,6 @@
     <e><i>Donatello<s n="np"/></i></e>
     <e><i>Donosti<s n="np"/></i></e>
     <e><i>Doris<s n="np"/></i></e>
-    <e r="LR"><i>Dosaguas<s n="np"/></i></e>
     <e><i>Duhalde<s n="np"/></i></e>
     <e><i>Durá<s n="np"/></i></e>
     <e><i>Dushanbe<s n="np"/></i></e>
@@ -24821,7 +24836,6 @@
     <e><i>Erasmo<s n="np"/></i></e>
     <e><i>Erdozain<s n="np"/></i></e>
     <e><i>Eribe<s n="np"/></i></e>
-    <e r="LR"><p><l>Erivan<s n="np"/></l><r>Erivan<s n="np"/></r></p></e>
     <e><i>Erramun<s n="np"/></i></e>
     <e><i>Errazti<s n="np"/></i></e>
     <e><i>Escandell<s n="np"/></i></e>
@@ -26416,7 +26430,6 @@
     <e><i>Dolç<s n="np"/></i></e>
     <e><i>Donzell<b/>d'Urgell<s n="np"/></i></e>
     <e><i>Doraemón<s n="np"/></i></e>
-    <e><i>Dosaigües<s n="np"/></i></e>
     <e><i>Doñate<s n="np"/></i></e>
     <e><i>Durà<s n="np"/></i></e>
     <e><i>Dámaso<s n="np"/></i></e>
