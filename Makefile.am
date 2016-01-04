@@ -2,7 +2,7 @@
 ## Makefile for Spanish--Aragonese
 ###############################################################################
 
-VERSION=0.1.0
+VERSION=0.4.0
 LANG1=spa
 LANG2=arg
 PREFIX1=$(LANG1)-$(LANG2)
@@ -156,11 +156,12 @@ EXTRA_DIST=					\
 		$(BASENAME).$(PREFIX2).lrx	\
 		$(BASENAME).$(PREFIX1).t1x	\
 		$(BASENAME).$(PREFIX1).t2x	\
-		$(BASENAME).$(PREFIX1).t3x	\
 		$(BASENAME).$(PREFIX2).t1x	\
 		$(BASENAME).$(PREFIX2).t2x	\
-		$(BASENAME).$(PREFIX2).t3x	\
 		modes.xml
+
+#$(BASENAME).$(PREFIX1).t3x
+#$(BASENAME).$(PREFIX2).t3x
 
 ###############################################################################
 ## Installation
@@ -202,4 +203,3 @@ test: all
 	@echo "house" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
-
