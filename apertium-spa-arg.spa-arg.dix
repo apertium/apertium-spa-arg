@@ -275,7 +275,7 @@
     <e>       <p><l>sendos<s n="det"/></l>            <r>senglos<s n="det"/></r></p></e>
     <e><p><l>el<s n="det"/><s n="def"/><s n="m"/></l><r>o<s n="det"/><s n="def"/><s n="m"/></r></p></e>
     <e><p><l>el<s n="det"/><s n="def"/><s n="f"/></l><r>o<s n="det"/><s n="def"/><s n="f"/></r></p></e>
-    <e r="RL"><p><l>el<s n="det"/><s n="def"/><s n="GD"/></l><r>o<s n="det"/><s n="def"/><s n="mf"/></r></p></e>    
+    <!-- <e r="RL"><p><l>el<s n="det"/><s n="def"/><s n="GD"/></l><r>o<s n="det"/><s n="def"/><s n="mf"/></r></p></e>    -->
     
     <e><p><l>ese<s n="det"/></l><r>ixe<s n="det"/></r></p></e>
     <e><p><l>este<s n="det"/></l><r>iste<s n="det"/></r></p></e>
@@ -6003,7 +6003,6 @@
     <e>       <p><l>hoy<s n="adv"/></l>     <r>hue<s n="adv"/></r></p></e>
     <e>       <p><l>ayer<s n="adv"/></l>     <r>ahiere<s n="adv"/></r></p></e>
     <e>       <p><l>anteayer<s n="adv"/></l>     <r>antes<b/>d'ahiere<s n="adv"/></r></p></e>
-    <e r="RL">       <p><l>anteayer<s n="adv"/></l>     <r>antiahier<s n="adv"/></r></p></e>
     <e r="RL">       <p><l>mañana<s n="adv"/></l>     <r>maitín<s n="adv"/></r></p></e>
     <e>       <p><l>mañana<s n="adv"/></l>     <r>manyana<s n="adv"/></r></p></e>
     <e r="LR"><p><l>quizá<s n="adv"/></l>             <r>talment<s n="adv"/></r></p></e>
@@ -6065,7 +6064,6 @@
   <e><p><l>seguro<s n="adv"/></l><r>de<b/>seguras<s n="adv"/></r></p></e>
   <e r="RL"><p><l>seguro<s n="adv"/></l><r>de<b/>seguro<s n="adv"/></r></p></e>
   <e>       <p><l>siquiera<s n="adv"/></l>            <r>sisquiera<s n="adv"/></r></p></e>
-  <e r="RL">       <p><l>siquiera<s n="adv"/></l>            <r>siquiera<s n="adv"/></r></p></e>
   <e r="RL">       <p><l>primero<s n="adv"/></l>            <r>primero<s n="adv"/></r></p></e>
   <e>       <p><l>primero<s n="adv"/></l>            <r>en<b/>primeras<s n="adv"/></r></p></e>
   <e r="RL"><p><l>primeramente<s n="adv"/></l><r>primerament<s n="adv"/></r></p></e>
@@ -7511,8 +7509,8 @@
 <e><p><l>frecuentemente<s n="adv"/></l><r>freqüentment<s n="adv"/></r></p></e>
 <e><p><l>frenéticamente<s n="adv"/></l><r>freneticament<s n="adv"/></r></p></e>
 <e><p><l>frescamente<s n="adv"/></l><r>frescament<s n="adv"/></r></p></e>
-<e><p><l>fríamente<s n="adv"/></l><r>fríament<s n="adv"/></r></p></e>
-<e r="RL"><p><l>fríamente<s n="adv"/></l><r>fredament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>fríamente<s n="adv"/></l><r>fríament<s n="adv"/></r></p></e>
+<e><p><l>fríamente<s n="adv"/></l><r>fredament<s n="adv"/></r></p></e>
 <e><p><l>fricativamente<s n="adv"/></l><r>fricativament<s n="adv"/></r></p></e>
 <e><p><l>frigoríficamente<s n="adv"/></l><r>frigorificament<s n="adv"/></r></p></e>
 <e><p><l>frívolamente<s n="adv"/></l><r>frivolament<s n="adv"/></r></p></e>
@@ -13270,132 +13268,99 @@
     <e><p><l>juez<s n="n"/></l><r>chuez<s n="n"/></r></p></e>    
     <e><p><l>jueza<s n="n"/></l><r>chueza<s n="n"/></r></p></e>        
     <e><p><l>ecu<s n="n"/></l><r>ecu<s n="n"/></r></p></e>    
-    <e r="RL"><p><l>crisis<s n="n"/><s n="f"/><s n="sp"/></l><r>crisi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>crisis<s n="n"/><s n="f"/><s n="sp"/></l><r>crisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>crisis<s n="n"/><s n="f"/><s n="sp"/></l><r>crisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>crisis<s n="n"/><s n="f"/><s n="sp"/></l><r>crisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>sintaxis<s n="n"/><s n="f"/><s n="sp"/></l><r>sintaxi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>sintaxis<s n="n"/><s n="f"/><s n="sp"/></l><r>sintaxi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>sintaxis<s n="n"/><s n="f"/><s n="sp"/></l><r>sintaxi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>sintaxis<s n="n"/><s n="f"/><s n="sp"/></l><r>sintaxi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>tisis<s n="n"/><s n="f"/><s n="sp"/></l><r>tisi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>tisis<s n="n"/><s n="f"/><s n="sp"/></l><r>tisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>tisis<s n="n"/><s n="f"/><s n="sp"/></l><r>tisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>tisis<s n="n"/><s n="f"/><s n="sp"/></l><r>tisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>tesis<s n="n"/><s n="f"/><s n="sp"/></l><r>tesi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>tesis<s n="n"/><s n="f"/><s n="sp"/></l><r>tesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>tesis<s n="n"/><s n="f"/><s n="sp"/></l><r>tesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>tesis<s n="n"/><s n="f"/><s n="sp"/></l><r>tesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>síntesis<s n="n"/><s n="f"/><s n="sp"/></l><r>sintesi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>síntesis<s n="n"/><s n="f"/><s n="sp"/></l><r>sintesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>síntesis<s n="n"/><s n="f"/><s n="sp"/></l><r>sintesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>síntesis<s n="n"/><s n="f"/><s n="sp"/></l><r>sintesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>antítesis<s n="n"/><s n="f"/><s n="sp"/></l><r>antitesi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>antítesis<s n="n"/><s n="f"/><s n="sp"/></l><r>antitesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>antítesis<s n="n"/><s n="f"/><s n="sp"/></l><r>antitesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>antítesis<s n="n"/><s n="f"/><s n="sp"/></l><r>antitesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>fotosíntesis<s n="n"/><s n="f"/><s n="sp"/></l><r>fotosintesi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>fotosíntesis<s n="n"/><s n="f"/><s n="sp"/></l><r>fotosintesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>fotosíntesis<s n="n"/><s n="f"/><s n="sp"/></l><r>fotosintesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>fotosíntesis<s n="n"/><s n="f"/><s n="sp"/></l><r>fotosintesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>hipótesis<s n="n"/><s n="f"/><s n="sp"/></l><r>hipotesi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>hipótesis<s n="n"/><s n="f"/><s n="sp"/></l><r>hipotesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>hipótesis<s n="n"/><s n="f"/><s n="sp"/></l><r>hipotesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>hipótesis<s n="n"/><s n="f"/><s n="sp"/></l><r>hipotesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>hipófisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hipofisi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>hipófisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hipofisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>hipófisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hipofisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>hipófisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hipofisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>metátesis<s n="n"/><s n="f"/><s n="sp"/></l><r>metatesi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>metátesis<s n="n"/><s n="f"/><s n="sp"/></l><r>metatesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>metátesis<s n="n"/><s n="f"/><s n="sp"/></l><r>metatesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>metátesis<s n="n"/><s n="f"/><s n="sp"/></l><r>metatesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>paréntesis<s n="n"/><s n="m"/><s n="sp"/></l><r>parentesi<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>paréntesis<s n="n"/><s n="m"/><s n="sp"/></l><r>parentesi<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>paréntesis<s n="n"/><s n="m"/><s n="sp"/></l><r>parentesi<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>paréntesis<s n="n"/><s n="m"/><s n="sp"/></l><r>parentesi<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>prótesis<s n="n"/><s n="f"/><s n="sp"/></l><r>protesi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>prótesis<s n="n"/><s n="f"/><s n="sp"/></l><r>protesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>prótesis<s n="n"/><s n="f"/><s n="sp"/></l><r>protesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>prótesis<s n="n"/><s n="f"/><s n="sp"/></l><r>protesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>catálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>catalisi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>catálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>catalisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>catálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>catalisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>catálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>catalisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>hemodiálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hemodialisi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-    <e r="RL"><p><l>hemodiálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hemodialisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+     <e r="RL"><p><l>hemodiálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hemodialisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>hemodiálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hemodialisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>hemodiálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hemodialisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>hidrólisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hidrolisi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>hidrólisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hidrolisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>hidrólisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hidrolisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>hidrólisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hidrolisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>electrólisis<s n="n"/><s n="f"/><s n="sp"/></l><r>electrolisi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>electrólisis<s n="n"/><s n="f"/><s n="sp"/></l><r>electrolisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>electrólisis<s n="n"/><s n="f"/><s n="sp"/></l><r>electrolisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>electrólisis<s n="n"/><s n="f"/><s n="sp"/></l><r>electrolisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>archidiócesis<s n="n"/><s n="f"/><s n="sp"/></l><r>archidiocesi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>archidiócesis<s n="n"/><s n="f"/><s n="sp"/></l><r>archidiocesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>archidiócesis<s n="n"/><s n="f"/><s n="sp"/></l><r>archidiocesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>archidiócesis<s n="n"/><s n="f"/><s n="sp"/></l><r>archidiocesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>diéresis<s n="n"/><s n="f"/><s n="sp"/></l><r>dieresi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>diéresis<s n="n"/><s n="f"/><s n="sp"/></l><r>dieresi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>diéresis<s n="n"/><s n="f"/><s n="sp"/></l><r>dieresi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>diéresis<s n="n"/><s n="f"/><s n="sp"/></l><r>dieresi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>electroforesis<s n="n"/><s n="f"/><s n="sp"/></l><r>electroforesi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>electroforesis<s n="n"/><s n="f"/><s n="sp"/></l><r>electroforesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>electroforesis<s n="n"/><s n="f"/><s n="sp"/></l><r>electroforesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>electroforesis<s n="n"/><s n="f"/><s n="sp"/></l><r>electroforesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>espermatogénesis<s n="n"/><s n="f"/><s n="sp"/></l><r>espermatochenesi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>espermatogénesis<s n="n"/><s n="f"/><s n="sp"/></l><r>espermatochenesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>espermatogénesis<s n="n"/><s n="f"/><s n="sp"/></l><r>espermatochenesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>espermatogénesis<s n="n"/><s n="f"/><s n="sp"/></l><r>espermatochenesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>exégesis<s n="n"/><s n="f"/><s n="sp"/></l><r>exechesi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>exégesis<s n="n"/><s n="f"/><s n="sp"/></l><r>exechesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>exégesis<s n="n"/><s n="f"/><s n="sp"/></l><r>exechesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>exégesis<s n="n"/><s n="f"/><s n="sp"/></l><r>exechesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>génesis<s n="n"/><s n="mf"/><s n="sp"/></l><r>chenesi<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>génesis<s n="n"/><s n="mf"/><s n="sp"/></l><r>chenesi<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>génesis<s n="n"/><s n="mf"/><s n="sp"/></l><r>chenesi<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>génesis<s n="n"/><s n="mf"/><s n="sp"/></l><r>chenesi<s n="n"/><s n="mf"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>anamnesis<s n="n"/><s n="f"/><s n="sp"/></l><r>anamnesi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>anamnesis<s n="n"/><s n="f"/><s n="sp"/></l><r>anamnesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>anamnesis<s n="n"/><s n="f"/><s n="sp"/></l><r>anamnesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>anamnesis<s n="n"/><s n="f"/><s n="sp"/></l><r>anamnesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>histéresis<s n="n"/><s n="f"/><s n="sp"/></l><r>histeresi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>histéresis<s n="n"/><s n="f"/><s n="sp"/></l><r>histeresi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>histéresis<s n="n"/><s n="f"/><s n="sp"/></l><r>histeresi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>histéresis<s n="n"/><s n="f"/><s n="sp"/></l><r>histeresi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>diócesis<s n="n"/><s n="f"/><s n="sp"/></l><r>diocesi<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>diócesis<s n="n"/><s n="f"/><s n="sp"/></l><r>diocesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>diócesis<s n="n"/><s n="f"/><s n="sp"/></l><r>diocesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>diócesis<s n="n"/><s n="f"/><s n="sp"/></l><r>diocesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    
-    <e r="RL"><p><l>parálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>paralís<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>parálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>paralís<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>parálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>paralís<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>parálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>paralís<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>análisis<s n="n"/><s n="m"/><s n="sp"/></l><r>analís<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>análisis<s n="n"/><s n="m"/><s n="sp"/></l><r>analís<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>análisis<s n="n"/><s n="m"/><s n="sp"/></l><r>analís<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>análisis<s n="n"/><s n="m"/><s n="sp"/></l><r>analís<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>autoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>autoanalís<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>autoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>autoanalís<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>autoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>autoanalís<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>autoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>autoanalís<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>criptoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>criptoanalís<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>criptoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>criptoanalís<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>criptoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>criptoanalís<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>criptoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>criptoanalís<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanalís<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanalís<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanalís<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanalís<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanalís<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanalís<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanalís<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanalís<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>psicoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>psicoanalís<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
     <e r="RL"><p><l>psicoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>psicoanalís<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>psicoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>psicoanalís<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>psicoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>psicoanalís<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
