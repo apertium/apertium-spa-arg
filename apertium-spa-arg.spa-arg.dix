@@ -10116,7 +10116,8 @@
     <e>       <p><l>noventa<b/>y<b/>ocho<s n="num"/></l><r>novanta<b/>y<b/>ueito<s n="num"/></r></p></e>
     <e>       <p><l>noventa<b/>y<b/>nueve<s n="num"/></l><r>novanta<b/>y<b/>nueu<s n="num"/></r></p></e>
     <e>       <p><l>cien<s n="num"/></l>              <r>cient<s n="num"/></r></p></e>
-    <e><p><l>ciento<s n="num"/></l>            <r>ciento<s n="num"/></r></p></e>
+    <e><p><l>ciento<s n="num"/><s n="m"/><s n="sp"/></l>            <r>ciento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>ciento<s n="num"/><s n="m"/><s n="pl"/></l>            <r>ciento<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     <e>       <p><l>doscientos<s n="num"/></l>        <r>docientos<s n="num"/></r></p></e>
     <e>       <p><l>trescientos<s n="num"/></l>        <r>trecientos<s n="num"/></r></p></e>
     <e>       <p><l>cuatrocientos<s n="num"/></l>        <r>quatrocientos<s n="num"/></r></p></e>
@@ -14431,7 +14432,8 @@
     <e><p><l>radar<s n="n"/></l><r>radar<s n="n"/></r></p></e>
     <e><p><l>altar<s n="n"/></l><r>altar<s n="n"/></r></p></e>
     <e><p><l>autocar<s n="n"/></l><r>autocar<s n="n"/></r></p></e>
-    <e><p><l>centenar<s n="num"/></l><r>centenar<s n="num"/></r></p></e>
+    <e><p><l>centenar<s n="num"/><s n="mf"/><s n="sp"/></l><r>centenar<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>centenar<s n="num"/><s n="mf"/><s n="pl"/></l><r>centenar<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>millar<s n="n"/></l><r>milar<s n="n"/></r></p></e>
     <e><p><l>telar<s n="n"/></l><r>telar<s n="n"/></r></p></e>
     <e><p><l>collar<s n="n"/></l><r>collar<s n="n"/></r></p></e>
