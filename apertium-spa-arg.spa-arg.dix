@@ -1610,7 +1610,10 @@
     <e><p><l>mortuorio<s n="adj"/></l><r>mortuorio<s n="adj"/></r></p></e>
     <e><p><l>mozárabe<s n="adj"/></l><r>mozarabe<s n="adj"/></r></p></e>
     <e><p><l>mucho<s n="prn"/></l><r>muito<s n="prn"/></r></p></e>
-    <e><p><l>mucho<s n="adj"/><s n="ind"/></l><r>muito<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>mucho<s n="adj"/><s n="ind"/></l><r>muito<s n="adj"/></r></p></e>
+    <e><p><l>mucho<s n="adj"/><s n="m"/></l><r>muito<s n="adj"/><s n="m"/></r></p></e>
+    <e><p><l>mucho<s n="adj"/><s n="f"/></l><r>muito<s n="adj"/><s n="f"/></r></p></e>
+    <e><p><l>mucho<s n="adj"/><s n="sup"/></l><r>muito<s n="adj"/><s n="sup"/></r></p></e>
     <e r="RL"><p><l>mucho<s n="adj"/><s n="GD"/></l><r>muito<s n="adj"/><s n="mf"/></r></p></e>
     <e><p><l>mudo<s n="adj"/></l><r>mudo<s n="adj"/></r></p></e>
     <e><p><l>mudéjar<s n="adj"/></l><r>mudeixar<s n="adj"/></r></p></e>
@@ -5800,6 +5803,9 @@
     <e r="LR"><p><l>sin<b/>embargo<s n="cnjadv"/></l><r>manimenos<s n="cnjadv"/></r></p></e>
     <e r="RL"><p><l>aun<b/>así<s n="cnjadv"/></l>     <r>mesmo<b/>asinas<s n="cnjadv"/></r></p></e>
     <e><p><l>aun<b/>así<s n="cnjadv"/></l><r>con<b/>tot<b/>y<b/>con<b/>ixo<s n="cnjadv"/></r></p></e>
+    <e r="RL"><p><l>aun<b/>así<s n="cnjadv"/></l><r>con<b/>ixo<b/>y<b/>con<b/>tot<s n="cnjadv"/></r></p></e>
+    <e r="LR"><p><l>pese<b/>a<b/>todo<s n="adv"/></l><r>con<b/>ixo<b/>y<b/>con<b/>tot<s n="cnjadv"/></r></p></e>
+    <e r="LR"><p><l>pese<b/>a<b/>eso<s n="adv"/></l><r>con<b/>tot<b/>y<b/>con<b/>ixo<s n="cnjadv"/></r></p></e>
     <e><p><l>ni<b/>aun<b/>así<s n="cnjadv"/></l><r>nian<b/>asinas<s n="cnjadv"/></r></p></e>
     <e>       <p><l>basta<b/>con<b/>que<s n="cnjadv"/></l><r>ye<b/>pro<b/>con<b/>que<s n="cnjadv"/></r></p></e>
     <e>       <p><l>con<b/>el<b/>fin<b/>de<b/>que<s n="cnjadv"/></l><r>con<b/>a<b/>finalidat<b/>que<s n="cnjadv"/></r></p></e>
@@ -9753,8 +9759,9 @@
 <e>       <p><l>en<b/>mitad<b/>de<s n="pr"/></l>  <r>en<b/>metat<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>a<b/>disposición<b/>de<s n="pr"/></l><r>a<b/>la<b/>disposición<b/>de<s n="pr"/></r></p></e>
 <e r="RL">       <p><l>a<b/>disposición<b/>de<s n="pr"/></l><r>a<b/>disposición<b/>de<s n="pr"/></r></p></e>
-<e>       <p><l>a<b/>pesar<b/>de<s n="pr"/></l><r>manimenos<s n="pr"/></r></p></e>
-<e r="LR">       <p><l>pese<b/>a<s n="pr"/></l><r>manimenos<s n="pr"/></r></p></e>
+<e r="RL">       <p><l>a<b/>pesar<b/>de<s n="pr"/></l><r>a<b/>pesar<b/>de<s n="pr"/></r></p></e>
+<e>       <p><l>a<b/>pesar<b/>de<s n="pr"/></l><r>tot<b/>y<b/>con<s n="pr"/></r></p></e>
+<e r="LR">       <p><l>pese<b/>a<s n="pr"/></l><r>tot<b/>y<b/>con<s n="pr"/></r></p></e>
 <!-- a tamas,  si fuera por .. also a pesar de??.--> 
 <e>       <p><l>a<b/>través<s n="adv"/></l> <r>a<b/>traviés<s n="adv"/></r></p></e>
 <e>       <p><l>través<s n="n"/></l><r>traviés<s n="n"/></r></p></e>
@@ -10675,6 +10682,7 @@
     <e><p><l>cuerpo<s n="n"/></l><r>cuerpo<s n="n"/></r></p></e>
     <e><p><l>higiene<s n="n"/></l><r>hichiene<s n="n"/></r></p></e>
     <e><p><l>cuidado<s n="n"/></l><r>cudiau<s n="n"/></r></p></e>
+    <e><p><l>tratado<s n="n"/></l><r>tractau<s n="n"/></r></p></e>
     <e><p><l>culminación<s n="n"/></l><r>culminación<s n="n"/></r></p></e>
     <e><p><l>culpabilidad<s n="n"/></l><r>culpabilidat<s n="n"/></r></p></e>
     <e><p><l>cultismo<s n="n"/></l><r>cultismo<s n="n"/></r></p></e>
@@ -10935,8 +10943,7 @@
     <e><p><l>francés<s n="n"/></l><r>francés<s n="n"/></r></p></e>
     <e><p><l>franquismo<s n="n"/></l><r>franquismo<s n="n"/></r></p></e>
     <e><p><l>fraternidad<s n="n"/></l><r>fraternidat<s n="n"/></r></p></e>
-    <e><p><l>frente<s n="n"/><s n="m"/></l><r>frent<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>frente<s n="n"/><s n="f"/></l><r>frent<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>frente<s n="n"/><s n="mf"/></l><r>frent<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>frivolidad<s n="n"/></l><r>frivolidat<s n="n"/></r></p></e>
     <e><p><l>frontera<s n="n"/></l><r>buega<s n="n"/></r></p></e>
     <e><p><l>fuente<s n="n"/></l><r>fuent<s n="n"/></r></p></e>
@@ -13165,7 +13172,7 @@
     <e><p><l>extremo<s n="n"/></l><r>cabo<s n="n"/></r></p></e>
     <e r="LR"><p><l>cabo<s n="n"/></l><r>cabo<s n="n"/></r></p></e>
     <e r="RL"><p><l>extremo<s n="n"/></l><r>extremo<s n="n"/></r></p></e>
-    <e>       <p><l>fin<b/>de<b/>semana<s n="n"/></l> <r>cabo<b/>de<b/>semana<s n="n"/></r></p></e>
+    <e>       <p><l>fin<g><b/>de<b/>semana</g><s n="n"/></l> <r>cabo<g><b/>de<b/>semana</g><s n="n"/></r></p></e>
     <e><p><l>señal<s n="n"/><s n="f"/></l><r>sinyal<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>criterio<s n="n"/></l><r>criterio<s n="n"/></r></p></e>
     <e><p><l>uso<s n="n"/></l><r>uso<s n="n"/></r></p></e>
@@ -13877,6 +13884,7 @@
     <e><p><l>sufrimiento<s n="n"/></l><r>sufrimiento<s n="n"/></r></p></e>
     <e><p><l>sostenimiento<s n="n"/></l><r>sostenimiento<s n="n"/></r></p></e>
     <e><p><l>tratamiento<s n="n"/></l><r>tractamiento<s n="n"/></r></p></e>
+    <e><p><l>trato<s n="n"/></l>               <r>tracto<s n="n"/></r></p></e>
     <e><p><l>descubrimiento<s n="n"/></l><r>escubrimiento<s n="n"/></r></p></e>
     <e><p><l>encubrimiento<s n="n"/></l><r>encubrimiento<s n="n"/></r></p></e>
     <e r="LR"><p><l>receptación<s n="n"/><s n="f"/></l><r>encubrimiento<s n="n"/><s n="m"/></r></p></e>
@@ -17847,6 +17855,7 @@
     <e><p><l>transformar<s n="vblex"/></l><r>transformar<s n="vblex"/></r></p></e>
     <e><p><l>trasladar<s n="vblex"/></l><r>tresladar<s n="vblex"/></r></p></e>
     <e><p><l>tratar<s n="vblex"/></l><r>tractar<s n="vblex"/></r></p></e>
+    <e><p><l>tratar<g><b/>de</g><s n="vblex"/></l><r>tractar<g><b/>de</g><s n="vblex"/></r></p></e>
     <e><p><l>encontrar<s n="vblex"/></l><r>trobar<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>hallar<s n="vblex"/></l><r>trobar<s n="vblex"/></r></p></e>
     <e><p><l>tumbar<s n="vblex"/></l><r>tumbar<s n="vblex"/></r></p></e>
@@ -26522,8 +26531,8 @@
     <e><i>Generalitat<b/>Valenciana<s n="np"/></i></e>
     <e><i>Generalitat<b/>de<b/>Catalunya<s n="np"/></i></e>
     <e><i>Generalitat<b/>de<b/>Valencia<s n="np"/></i></e>
-    <e r="LR"><p><l>corte<s n="n"/><s n="mf"/></l><r>corte<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR"><p><l>corte<s n="n"/><s n="mf"/></l><r>tallo<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>corte<s n="n"/><s n="mf"/></l><r>corte<s n="n"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>corte<s n="n"/><s n="mf"/></l><r>tallo<s n="n"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>corte<s n="n"/><s n="mf"/></l><r>corte<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>corte<s n="n"/><s n="mf"/></l><r>corte<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Cortes<s n="n"/></l><r>Cortz<s n="n"/></r></p></e>
