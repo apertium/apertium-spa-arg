@@ -222,6 +222,7 @@
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
       <attr-item tags="np.loc"/>
+      <attr-item tags="num"/>
     </def-attr>
 
     <def-attr n="a_npant">
@@ -388,7 +389,7 @@
       <attr-item tags="p2.mf.pl"/>
       <attr-item tags="p3.mf.sg"/>
       <attr-item tags="p3.mf.pl"/>
-      <attr-item tags="p3.mf.sp"/> <!--incorrecte, tradueix "li<prn><enc><p3><mf><sp>" per "se", cal canviar diccionari ja que és li-ho<sg> i los-ho<pl> (dárselo)-->
+      <attr-item tags="p3.mf.sp"/> <!--incorrecte, tradueix "li<prn><enc><p3><mf><sp>" per "se", cal canviar diccionari ja que ï¿½s li-ho<sg> i los-ho<pl> (dï¿½rselo)-->
       <attr-item tags="p3.m.sg"/>
       <attr-item tags="p3.m.pl"/>
       <attr-item tags="p3.f.sg"/>
@@ -616,7 +617,7 @@
       </let>
     </def-macro>
 
-    <def-macro n="f_outverb2" npar="2"><!--Comprueba si hay pronombres que se traducen por nada de aragonés a español según el diccionario ("bi" y "en") y envía el verbo con o sin pronombres de acuerdo con esta comprobación. Esta función es para el caso de verbo + 1 enclítico. Función necesaria para el correcto colocamiento de la cola en multipalabras con flexión intercalada. -->
+    <def-macro n="f_outverb2" npar="2"><!--Comprueba si hay pronombres que se traducen por nada de aragonï¿½s a espaï¿½ol segï¿½n el diccionario ("bi" y "en") y envï¿½a el verbo con o sin pronombres de acuerdo con esta comprobaciï¿½n. Esta funciï¿½n es para el caso de verbo + 1 enclï¿½tico. Funciï¿½n necesaria para el correcto colocamiento de la cola en multipalabras con flexiï¿½n intercalada. -->
       <choose>
 	<when>
 	  <test>
@@ -668,7 +669,7 @@
       </choose>
     </def-macro>
 
-    <def-macro n="f_outverb3" npar="3"><!--Comprueba si hay pronombres que se traducen por nada de catalán a español según el diccionario ("hi" y "en") y envía el verbo con o sin pronombres de acuerdo con esta comprobación. Esta función es para el caso de verbo + 2 enclíticos.-->
+    <def-macro n="f_outverb3" npar="3"><!--Comprueba si hay pronombres que se traducen por nada de catalï¿½n a espaï¿½ol segï¿½n el diccionario ("hi" y "en") y envï¿½a el verbo con o sin pronombres de acuerdo con esta comprobaciï¿½n. Esta funciï¿½n es para el caso de verbo + 2 enclï¿½ticos.-->
       <choose>
 	<when>
 	  <test>
@@ -755,7 +756,7 @@
     </def-macro>
 
 
-    <def-macro n="f_bcond" npar="1"><!--Per mirar si el blanc conté o no format. Cal posar aquesta funció en les regles en què desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si conté format cal conservar-la, si no en conté cal eliminar-la perquè no apareguin dos espais seguits. -->
+    <def-macro n="f_bcond" npar="1"><!--Per mirar si el blanc contï¿½ o no format. Cal posar aquesta funciï¿½ en les regles en quï¿½ desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si contï¿½ format cal conservar-la, si no en contï¿½ cal eliminar-la perquï¿½ no apareguin dos espais seguits. -->
       <choose>
 	<when>
 	  <test>
@@ -3222,7 +3223,7 @@
       </action>
     </rule>
 
-    <rule> <!-- REGLA NOVA 2: DET NOM VERB ADJECTIU: El núvol és vermell - La nube es roja (suposo que serveix per a qualsevol verb) "mireiafarrus"-->
+    <rule> <!-- REGLA NOVA 2: DET NOM VERB ADJECTIU: El nï¿½vol ï¿½s vermell - La nube es roja (suposo que serveix per a qualsevol verb) "mireiafarrus"-->
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -5029,7 +5030,7 @@
     </rule>
 
 
-   <rule> <!--REGLA: DETDEF + NOM PROPI (antropònim)-->
+   <rule> <!--REGLA: DETDEF + NOM PROPI (antropï¿½nim)-->
       <pattern>
 	<pattern-item n="detdef"/>
 	<pattern-item n="npant"/>
@@ -5047,7 +5048,7 @@
       </action>
     </rule>
 
-    <rule> <!-- REGLA: RELAT --> <!-- revisar què fa aquesta regla!!!! : qui <ND>?-->
+    <rule> <!-- REGLA: RELAT --> <!-- revisar quï¿½ fa aquesta regla!!!! : qui <ND>?-->
       <pattern>
 	<pattern-item n="relat"/>
       </pattern>
@@ -5102,7 +5103,7 @@
     </rule>
 
 
-    <rule> <!-- x- REGLA: PRETÈRIT INDEFINIT --><!-- Para traducir "vas fer" por "hiciste" -->
+    <rule> <!-- x- REGLA: PRETï¿½RIT INDEFINIT --><!-- Para traducir "vas fer" por "hiciste" -->
       <pattern>
 	<pattern-item n="ir"/>
 	<pattern-item n="inf"/>
@@ -5131,7 +5132,7 @@
 
 
 
-    <rule> <!--- REGLA: PRETÈRIT INDEFINIT + ENCLÍTIC --><!-- Para traducir "van acabar-se" por "se acabaron" -->
+    <rule> <!--- REGLA: PRETï¿½RIT INDEFINIT + ENCLï¿½TIC --><!-- Para traducir "van acabar-se" por "se acabaron" -->
       <pattern>
 	<pattern-item n="ir"/>
 	<pattern-item n="inf"/>
@@ -5170,7 +5171,7 @@
 	      </lu> 
 	    </out>
 	  </when>
-	  <otherwise><!--En caso de que el pronombre no se traduzca, envía sólo el verbo -->
+	  <otherwise><!--En caso de que el pronombre no se traduzca, envï¿½a sï¿½lo el verbo -->
 	    <out>
 	      <lu>
 		<get-case-from pos="1">            
@@ -5192,7 +5193,7 @@
     </rule>
 
 
-    <rule> <!-- REGLA: PRETÈRIT INDEFINIT + ENCLÍTIC + ENCLÍTIC --><!-- Para traducir "van acabar-se'ls" por "se los acabaron" -->
+    <rule> <!-- REGLA: PRETï¿½RIT INDEFINIT + ENCLï¿½TIC + ENCLï¿½TIC --><!-- Para traducir "van acabar-se'ls" por "se los acabaron" -->
       <pattern>
 	<pattern-item n="ir"/>
 	<pattern-item n="inf"/>
@@ -5205,7 +5206,7 @@
 	</call-macro>
 	<choose>
 	  <when>
-	    <test> <!--si el primer pronom no desapareix (traducció buida, p. ex: "bi", "en"), envia'l i assigna-li les majúscules -->
+	    <test> <!--si el primer pronom no desapareix (traducciï¿½ buida, p. ex: "bi", "en"), envia'l i assigna-li les majï¿½scules -->
 	      <not>
 		<equal>
 		  <clip pos="3" side="tl" part="whole"/>
@@ -5225,7 +5226,7 @@
 	    </out>
 	    <choose>
 	      <when>
-		<test><!-- Si el segon pronom no desapareix, envia'l també (si desapareix el 2n, ja no s'envia) -->
+		<test><!-- Si el segon pronom no desapareix, envia'l tambï¿½ (si desapareix el 2n, ja no s'envia) -->
 		  <not>
 		    <equal>
 		      <clip pos="4" side="tl" part="whole"/> 
@@ -5254,7 +5255,7 @@
 	      </lu> 
 	    </out>
 	  </when>
-	  <when> <!--Si el primer pronom desapareix...el segon també... (mai no es dóna el cas que desapareix el primer i el segon no) -->
+	  <when> <!--Si el primer pronom desapareix...el segon tambï¿½... (mai no es dï¿½na el cas que desapareix el primer i el segon no) -->
 	    <test>
 	      <equal>
 		<clip pos="3" side="tl" part="whole"/>
@@ -5281,7 +5282,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: VERB (per a multiparaules sense enclítics)-->
+    <rule> <!--REGLA: VERB (per a multiparaules sense enclï¿½tics)-->
       <pattern>
 	<pattern-item n="verb"/>
       </pattern>
@@ -5300,7 +5301,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: VERB + ENCLÍTIC-->
+    <rule> <!--REGLA: VERB + ENCLï¿½TIC-->
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="prnenc"/>
@@ -5313,7 +5314,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: VERB + ENCLÍTIC + ENCLÍTIC-->
+    <rule> <!--REGLA: VERB + ENCLï¿½TIC + ENCLï¿½TIC-->
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="prnenc"/>
@@ -5360,7 +5361,7 @@
       </action>
     </rule>
 
-    <rule> <!-x-REGLA: EN + INF + ENCLÍTIC-x->
+    <rule> <!-x-REGLA: EN + INF + ENCLï¿½TIC-x->
       <pattern>
 	<pattern-item n="en"/>
 	<pattern-item n="infnm"/>
@@ -5391,7 +5392,7 @@
       </action>
     </rule>
 
-    <rule> <!-x-REGLA: EN + INF + ENCLÍTIC + ENCLÍTIC-x->
+    <rule> <!-x-REGLA: EN + INF + ENCLï¿½TIC + ENCLï¿½TIC-x->
       <pattern>
 	<pattern-item n="en"/>
 	<pattern-item n="infnm"/>
@@ -5449,7 +5450,7 @@
     </rule> 
 
 
-    <rule> <!--REGLA: TA + infinitiu + enclític= per trobar-se -> para encontrarse-->
+    <rule> <!--REGLA: TA + infinitiu + enclï¿½tic= per trobar-se -> para encontrarse-->
       <pattern>
 	<pattern-item n="ta"/>
 	<pattern-item n="infnh"/>
@@ -5472,7 +5473,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: PER + infinitiu + enclític + enclític = per explicar-los-ho -> para explicárselo-->
+    <rule> <!--REGLA: PER + infinitiu + enclï¿½tic + enclï¿½tic = per explicar-los-ho -> para explicï¿½rselo-->
       <pattern>
 	<pattern-item n="ta"/>
 	<pattern-item n="infnh"/>
@@ -5526,7 +5527,7 @@
     </rule> 
 
 
-    <rule> <!--REGLA: PER + adv + infinitiu + enclític= per no trobar-se -> para no encontrarse-->
+    <rule> <!--REGLA: PER + adv + infinitiu + enclï¿½tic= per no trobar-se -> para no encontrarse-->
       <pattern>
 	<pattern-item n="ta"/>
 	<pattern-item n="adv"/>
@@ -5554,7 +5555,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: PER + adv + infinitiu + enclític + enclític = per no explicar-los-ho -> para no explicárselo-->
+    <rule> <!--REGLA: PER + adv + infinitiu + enclï¿½tic + enclï¿½tic = per no explicar-los-ho -> para no explicï¿½rselo-->
       <pattern>
 	<pattern-item n="ta"/>
 	<pattern-item n="adv"/>
@@ -5609,7 +5610,7 @@
     </rule> 
 
 
-    <rule> <!-x-REGLA NOVA 6: a + DET + nploc = al Segrià -> en el Segrià "mireiafarrus"-x->
+    <rule> <!-x-REGLA NOVA 6: a + DET + nploc = al Segriï¿½ -> en el Segriï¿½ "mireiafarrus"-x->
       <pattern>
 	<pattern-item n="a"/>
 	<pattern-item n="det"/>
@@ -5624,7 +5625,7 @@
 		<lit-tag v="GD"/>
 	      </equal>
 	    </test>
-	    <let><!-x-hauríem de mirar d'assignar gènere d'una altra manera (l'Amèrica llatina / l'Europa Occiental / l'Amazones) -x->
+	    <let><!-x-haurï¿½em de mirar d'assignar gï¿½nere d'una altra manera (l'Amï¿½rica llatina / l'Europa Occiental / l'Amazones) -x->
 		<clip pos="2" side="tl" part="gen"/>
 		<lit-tag v="f"/>
 	    </let>
@@ -5651,7 +5652,7 @@
     </rule> 
 
 
-    <rule> <!-x-REGLA: verb + prep + nploc/noms_locatius: Estudio a Madrid  - Estudio en Madrid. Sóc a Sabadell - Estoy en Sabadell. Sóc a casa - Estoy en casa (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si és un nom de la llista "locatiu". Molts canvis de prep ja es tracten amb la macro f_preps, però no permet fer el canvi de 'ser' a 'estar', cosa que sí que es fa amb aquesta regla i les 3 posteriors) -x->
+    <rule> <!-x-REGLA: verb + prep + nploc/noms_locatius: Estudio a Madrid  - Estudio en Madrid. Sï¿½c a Sabadell - Estoy en Sabadell. Sï¿½c a casa - Estoy en casa (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si ï¿½s un nom de la llista "locatiu". Molts canvis de prep ja es tracten amb la macro f_preps, perï¿½ no permet fer el canvi de 'ser' a 'estar', cosa que sï¿½ que es fa amb aquesta regla i les 3 posteriors) -x->
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="a"/>
@@ -5816,7 +5817,7 @@
       </action>
     </rule>   
 
-    <rule> <!-x-REGLA: "ir" + inf + prep + nploc: Estudio a Madrid - Estudio en Madrid. Sóc a Sabadell - Estoy en Sabadell (igual que l'anterior però amb verb en forma perifràstica (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si és un nom de la llista "locatiu")-x->
+    <rule> <!-x-REGLA: "ir" + inf + prep + nploc: Estudio a Madrid - Estudio en Madrid. Sï¿½c a Sabadell - Estoy en Sabadell (igual que l'anterior perï¿½ amb verb en forma perifrï¿½stica (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si ï¿½s un nom de la llista "locatiu")-x->
       <pattern>
 	<pattern-item n="ir"/>
 	<pattern-item n="inf"/>
@@ -6190,7 +6191,7 @@
       </action>
     </rule>   
 
-    <rule> <!-x-REGLA: "ir" + inf + prep + nploc: va treballar al poble - trabajó en el pueblo (igual que l'anterior però amb verb en forma perifràstica) -x->
+    <rule> <!-x-REGLA: "ir" + inf + prep + nploc: va treballar al poble - trabajï¿½ en el pueblo (igual que l'anterior perï¿½ amb verb en forma perifrï¿½stica) -x->
       <pattern>
 	<pattern-item n="ir"/>
 	<pattern-item n="inf"/>
@@ -6478,7 +6479,7 @@
 	    <test>
 	      <not>
 		<equal>
-		  <clip pos="1" side="tl" part="whole"/><!--Comprueba que el pronombre no tenga traducción vacía (pronombres "bi" y "en" -->
+		  <clip pos="1" side="tl" part="whole"/><!--Comprueba que el pronombre no tenga traducciï¿½n vacï¿½a (pronombres "bi" y "en" -->
 		  <lit v=""/>
 		</equal>
 	      </not>
@@ -6497,7 +6498,7 @@
 	      </lu>
 	    </out>
 	  </when>
-	  <otherwise><!--En caso de que el pronombre no se traduzca, envía sólo el verbo -->
+	  <otherwise><!--En caso de que el pronombre no se traduzca, envï¿½a sï¿½lo el verbo -->
 	    <out>
 	      <lu>
 		<get-case-from pos="1">            
@@ -6529,7 +6530,7 @@
     </rule> 
 
 
-    <rule> <!--REGLA: haver-enc participi (femení sg i pl, masculí pl) -> haver-enc participi-masc-sg-->
+    <rule> <!--REGLA: haver-enc participi (femenï¿½ sg i pl, masculï¿½ pl) -> haver-enc participi-masc-sg-->
       <pattern>
 	<pattern-item n="haber"/>
 	<pattern-item n="prnenc"/>
@@ -6554,7 +6555,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: haver-enc-enc participi (femení sg i pl, masculí pl) -> haver-enc-enc participi-masc-sg-->
+    <rule> <!--REGLA: haver-enc-enc participi (femenï¿½ sg i pl, masculï¿½ pl) -> haver-enc-enc participi-masc-sg-->
       <pattern>
 	<pattern-item n="haber"/>
 	<pattern-item n="prnenc"/>
@@ -6611,7 +6612,7 @@
       </action>
     </rule>
 -->
-<!--REGLA: ben de + INF + ENCLÍTIC -> deber + INF + ENCLÍTIC
+<!--REGLA: ben de + INF + ENCLï¿½TIC -> deber + INF + ENCLï¿½TIC
     <rule> 
       <pattern>
 	<pattern-item n="ben"/>
@@ -6639,7 +6640,7 @@
       </action>
     </rule>
 -->
- <!--REGLA: ben de + INF + ENCLÍTIC + ENCLÍTIC  -> deber + INF + ENCLÍTIC + ENCLÍTIC
+ <!--REGLA: ben de + INF + ENCLï¿½TIC + ENCLï¿½TIC  -> deber + INF + ENCLï¿½TIC + ENCLï¿½TIC
     <rule>
       <pattern>
 	<pattern-item n="ben"/>
