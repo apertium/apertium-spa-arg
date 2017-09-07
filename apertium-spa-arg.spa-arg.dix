@@ -2295,6 +2295,7 @@
     <e r="RL"><p><l>valiente<s n="adj"/><s n="mf"/></l>  <r>valient<s n="adj"/><s n="m"/></r></p></e>
     <e><p><l>vano<s n="adj"/></l><r>vano<s n="adj"/></r></p></e>
     <e><p><l>vaquero<s n="adj"/></l><r>vaquero<s n="adj"/></r></p></e>
+    <e>       <p><l>forastero<s n="adj"/></l>           <r>forastero<s n="adj"/></r></p></e>
     <e><i>variable<s n="adj"/></i></e>
     <e><p><l>vario<s n="adj"/></l><r>vario<s n="adj"/></r></p></e>
     <e><p><l>vasco<s n="adj"/></l><r>basco<s n="adj"/></r></p></e>
@@ -10235,7 +10236,8 @@
     <e r="RL"><p><l>tiempo<s n="n"/><s n="m"/><s n="ND"/></l><r>temps<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
     <e><p><l>publicación<s n="n"/></l><r>publicación<s n="n"/></r></p></e>
     <e><p><l>habla<s n="n"/></l><r>fabla<s n="n"/></r></p></e>
-    <e><p><l>defensa<s n="n"/></l><r>defensa<s n="n"/></r></p></e>
+    <e><p><l>defensa<s n="n"/><s n="mf"/></l><r>defensa<s n="n"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>defensa<s n="n"/><s n="mf"/></l><r>defensa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>estómago<s n="n"/></l><r>estamago<s n="n"/></r></p></e>
     <e><p><l>entrepierna<s n="n"/></l><r>forcacha<s n="n"/></r></p></e>    
     <e><p><l>olfato<s n="n"/></l><r>flato<s n="n"/></r></p></e>    
@@ -10981,6 +10983,8 @@
     <e><p><l>huelga<s n="n"/></l><r>huelga<s n="n"/></r></p></e>
     <e r="RL"><p><l>huelga<s n="n"/></l><r>vaga<s n="n"/></r></p></e>
     <e r="RL"><p><l>huelga<s n="n"/></l><r>vada<s n="n"/></r></p></e>
+    <e><p><l>enseñanza<s n="n"/><s n="f"/></l><r>ensenyanza<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>enseñanza<s n="n"/><s n="f"/></l><r>amostranza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>audiencia<s n="n"/></l><r>audiencia<s n="n"/></r></p></e>
     <e><p><l>lluvia<s n="n"/></l><r>plevida<s n="n"/></r></p></e>
     <e r="RL"><p><l>lluvia<s n="n"/></l><r>plevia<s n="n"/></r></p></e>
@@ -11006,6 +11010,7 @@
     <e><p><l>helenismo<s n="n"/></l><r>helenismo<s n="n"/></r></p></e>
     <e><p><l>heredero<s n="n"/></l><r>heredero<s n="n"/></r></p></e>
     <e><p><l>hermano<s n="n"/></l><r>chirmán<s n="n"/></r></p></e>
+    <e><p><l>gitano<s n="n"/></l><r>chitán<s n="n"/></r></p></e>
     <e><p><l>hermetismo<s n="n"/></l><r>hermetismo<s n="n"/></r></p></e>
     <e><p><l>heroísmo<s n="n"/></l><r>heroísmo<s n="n"/></r></p></e>
     <e><p><l>heterogeneidad<s n="n"/></l><r>heterochenidat<s n="n"/></r></p></e>
@@ -11384,6 +11389,8 @@
     <e><p><l>periodismo<s n="n"/></l><r>periodismo<s n="n"/></r></p></e>
     <e><p><l>permeabilidad<s n="n"/></l><r>permeabilidat<s n="n"/></r></p></e>
     <e><p><l>coma<s n="n"/></l><r>coma<s n="n"/></r></p></e>
+    <e r="RL"><p><l>cerdo<s n="n"/><s n="m"/></l><r>tocino<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>cerda<s n="n"/><s n="f"/></l><r>tocino<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cerdo<s n="n"/><s n="m"/></l><r>cochín<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cerda<s n="n"/><s n="f"/></l><r>cochín<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>jabalí<s n="n"/><s n="m"/></l><r>chabalín<s n="n"/><s n="m"/></r></p></e>
@@ -13057,6 +13064,14 @@
     <e><p><l>clave<s n="adj"/></l><r>clau<s n="adj"/></r></p></e>
     <e><p><l>clavo<s n="n"/><s n="m"/></l><r>clau<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>llave<s n="n"/><s n="f"/></l><r>clau<s n="n"/><s n="f"/></r></p></e>
+    
+   <e r="LR"><p><l>hedor<s n="n"/><s n="m"/></l>     <r>pudor<s n="n"/><s n="f"/></r></p></e>
+   <e>       <p><l>mal<b/>olor<s n="n"/><s n="m"/></l><r>mala<b/>olor<s n="n"/><s n="f"/></r></p></e>
+   <e r="RL"><p><l>mal<b/>olor<s n="n"/><s n="m"/></l><r>pudor<s n="n"/><s n="f"/></r></p></e>
+   <e>       <i>pudor<s n="n"/><s n="m"/></i></e>    
+   
+    <e>       <p><l>dote<s n="n"/><s n="mf"/></l>     <r>dote<s n="n"/><s n="m"/></r></p></e>
+    
     <e r="RL">       <p><l>contraseña<s n="n"/></l>               <r>parola<g><b/>de<b/>paso</g><s n="n"/></r></p></e>
     <e r="RL">       <p><l>contraseña<s n="n"/></l>               <r>clau<g><b/>d'acceso</g><s n="n"/></r></p></e>
     <e r="LR">       <p><l>contraseña<s n="n"/></l>               <r>clau<s n="n"/></r></p></e>
@@ -13069,6 +13084,7 @@
     <e r="LR"><p><l>mulo<s n="n"/><s n="f"/></l><r>macho<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>mulo<s n="n"/><s n="m"/></l><r>macho<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>mulo<s n="n"/><s n="m"/></l><r>macho<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>alfalfa<s n="n"/><s n="f"/></l><r>alfalz<s n="n"/><s n="m"/></r></p></e>    
     <e><p><l>capítulo<s n="n"/></l><r>capitol<s n="n"/></r></p></e>
     <e r="RL"><p><l>marido<s n="n"/></l><r>mariu<s n="n"/></r></p></e>
     <e r="LR"><p><l>marido<s n="n"/></l><r>hombre<s n="n"/></r></p></e>
@@ -13395,27 +13411,31 @@
     <e r="RL"><p><l>diócesis<s n="n"/><s n="f"/><s n="sp"/></l><r>diocesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>diócesis<s n="n"/><s n="f"/><s n="sp"/></l><r>diocesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>diócesis<s n="n"/><s n="f"/><s n="sp"/></l><r>diocesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>parálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>paralís<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>parálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>paralís<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>parálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>paralís<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>análisis<s n="n"/><s n="m"/><s n="sp"/></l><r>analís<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>análisis<s n="n"/><s n="m"/><s n="sp"/></l><r>analís<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>análisis<s n="n"/><s n="m"/><s n="sp"/></l><r>analís<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>autoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>autoanalís<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>autoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>autoanalís<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>autoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>autoanalís<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>criptoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>criptoanalís<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>criptoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>criptoanalís<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>criptoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>criptoanalís<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanalís<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanalís<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanalís<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanalís<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanalís<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanalís<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>psicoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>psicoanalís<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>psicoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>psicoanalís<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>psicoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>psicoanalís<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+
+    <e r="RL"><p><l>parálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>paralisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>parálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>paralisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>parálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>paralisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+    <e r="RL"><p><l>parálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>paralís<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>parálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>paralís<s n="n"/><s n="m"/><s n="pl"/></r></p></e>        
+    <e r="RL"><p><l>análisis<s n="n"/><s n="m"/><s n="sp"/></l><r>analisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>análisis<s n="n"/><s n="m"/><s n="sp"/></l><r>analisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>análisis<s n="n"/><s n="m"/><s n="sp"/></l><r>analisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+    <e r="RL"><p><l>análisis<s n="n"/><s n="m"/><s n="sp"/></l><r>analís<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>análisis<s n="n"/><s n="m"/><s n="sp"/></l><r>analís<s n="n"/><s n="m"/><s n="pl"/></r></p></e>        
+   
+    <e r="RL"><p><l>autoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>autoanalisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>autoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>autoanalisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>autoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>autoanalisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+    <e r="RL"><p><l>criptoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>criptoanalisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>criptoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>criptoanalisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>criptoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>criptoanalisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+    <e r="RL"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanalisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanalisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanalisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+    <e r="RL"><p><l>psicoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>psicoanalisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>psicoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>psicoanalisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>psicoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>psicoanalisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+    
     <e><p><l>firma<s n="n"/></l><r>sinyatura<s n="n"/></r></p></e>    
     <e r="RL"><p><l>firma<s n="n"/></l><r>firma<s n="n"/></r></p></e>    
     <e><p><l>espíritu<s n="n"/></l><r>esprito<s n="n"/></r></p></e>    
@@ -13477,6 +13497,9 @@
     <e r="LR"><p><l>postgrado<s n="n"/></l><r>postgrau<s n="n"/></r></p></e>    
     <e><p><l>diputado<s n="n"/></l><r>deputau<s n="n"/></r></p></e>    
     <e><p><l>abogado<s n="n"/></l><r>advogau<s n="n"/></r></p></e>    
+    <e><p><l>cuñado<s n="n"/></l><r>cunyau<s n="n"/></r></p></e>
+    <e><p><l>criado<s n="n"/></l><r>criau<s n="n"/></r></p></e>
+    <e>       <p><l>forastero<s n="n"/></l>           <r>forastero<s n="n"/></r></p></e>
     <e><p><l>riesgo<s n="n"/></l><r>risgo<s n="n"/></r></p></e>        
     <e><p><l>diálogo<s n="n"/></l><r>dialogo<s n="n"/></r></p></e>        
     <e><p><l>decálogo<s n="n"/></l><r>decalogo<s n="n"/></r></p></e>        
@@ -13530,8 +13553,10 @@
     <e><p><l>yayo<s n="n"/></l><r>yayo<s n="n"/></r></p></e>
     <e r="RL"><p><l>yayo<s n="n"/></l><r>lolo<s n="n"/></r></p></e>
     <e><p><l>alumno<s n="n"/></l><r>alumno<s n="n"/></r></p></e>
-    <e r="LR"><p><l>campesino<s n="n"/></l><r>labrador<s n="n"/></r></p></e>
-    <e><p><l>labrador<s n="n"/></l><r>labrador<s n="n"/></r></p></e>
+    <e>       <p><l>sastre<s n="n"/></l>          <r>sastre<s n="n"/></r></p></e>
+    <e>       <i>tigre<s n="n"/></i></e>
+    <e><p><l>campesino<s n="n"/></l><r>labrador<s n="n"/></r></p></e>
+    <e r="RL"><p><l>labrador<s n="n"/></l><r>labrador<s n="n"/></r></p></e>
     <e r="RL"><p><l>recuerdo<s n="n"/><s n="m"/></l><r>acordanza<s n="n"/><s n="f"/></r></p></e>    
     <e r="RL"><p><l>recuerdo<s n="n"/></l><r>recuerdo<s n="n"/></r></p></e>    
     <e r="RL"><p><l>recuerdo<s n="n"/><s n="m"/></l><r>recordanza<s n="n"/><s n="f"/></r></p></e>    
@@ -13927,6 +13952,11 @@
     <e><p><l>homenaje<s n="n"/></l><r>homenache<s n="n"/></r></p></e>
     <e><p><l>parque<s n="n"/></l><r>parque<s n="n"/></r></p></e>
     
+   <e>       <p><l>golosina<s n="n"/><s n="f"/></l>            <r>lamín<s n="n"/><s n="m"/></r></p></e>
+   <e r="LR">       <p><l>chuchería<s n="n"/><s n="f"/></l>            <r>lamín<s n="n"/><s n="m"/></r></p></e>
+   <e r="RL"><p><l>golosina<s n="n"/><s n="f"/></l>            <r>laminería<s n="n"/><s n="f"/></r></p></e>
+   <e>       <p><l>heredero<s n="n"/></l>            <r>hereu<s n="n"/></r></p></e>
+
     <e><p><l>comerciante<s n="n"/><s n="mf"/></l><r>comerciant<s n="n"/><s n="mf"/></r></p></e>
     <e r="RL"><p><l>comerciante<s n="n"/><s n="mf"/></l><r>comerciant<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>estudiante<s n="n"/><s n="mf"/></l><r>estudiant<s n="n"/><s n="mf"/></r></p></e>
@@ -13943,8 +13973,10 @@
     <e><p><l>accidente<s n="n"/></l><r>accident<s n="n"/></r></p></e>
     <e><p><l>vidente<s n="n"/></l><r>vident<s n="n"/></r></p></e>
     <e><p><l>fe<s n="n"/></l><r>fe<s n="n"/></r></p></e>
+    <e><p><l>boj<s n="n"/><s n="m"/></l><r>buixo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>carne<s n="n"/></l><r>carne<s n="n"/></r></p></e>
     <e><p><l>conde<s n="n"/></l><r>conde<s n="n"/></r></p></e>
+    <e r="RL"><p><l>conde<s n="n"/></l><r>conte<s n="n"/></r></p></e>
     <e><p><l>vizconde<s n="n"/></l><r>vizconde<s n="n"/></r></p></e>
     <e><p><l>alcalde<s n="n"/></l><r>alcalde<s n="n"/></r></p></e>
     <e><p><l>coche<s n="n"/></l><r>auto<s n="n"/></r></p></e>    
@@ -14258,6 +14290,11 @@
 <e><p><l>creacionista<s n="n"/></l><r>creyacionista<s n="n"/></r></p></e>
 <e><p><l>darwinista<s n="n"/></l><r>darwinista<s n="n"/></r></p></e>
 <e><p><l>copista<s n="n"/></l><r>copista<s n="n"/></r></p></e>
+<e><p><l>aceite<s n="n"/><s n="m"/></l><r>aceite<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>óleo<s n="n"/><s n="m"/></l><r>olio<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>almíbar<s n="n"/><s n="m"/></l>   <r>almibar<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>red<s n="n"/><s n="f"/></l>                 <r>ret<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>crin<s n="n"/><s n="f"/></l>                <r>clin<s n="n"/><s n="m"/></r></p></e>
 <e slr="vista_D"><p><l>vista<s n="n"/></l><r>vista<s n="n"/></r></p></e>
 <e slr="anvista"><p><l>vista<s n="n"/></l><r>anvista<s n="n"/></r></p></e>
 <e r="RL"><p><l>insurgencia<s n="n"/></l>         <r>insurchencia<s n="n"/></r></p></e>
@@ -15271,6 +15308,7 @@
     <e><p><l>brasa<s n="n"/></l><r>brasa<s n="n"/></r></p></e>
     <e><p><l>broza<s n="n"/></l><r>broza<s n="n"/></r></p></e>
     <e><p><l>bruja<s n="n"/></l><r>broixa<s n="n"/></r></p></e>
+    <e><p><l>brujo<s n="n"/></l><r>bruixón<s n="n"/></r></p></e>
     <e><p><l>brújula<s n="n"/></l><r>bruixola<s n="n"/></r></p></e>
     <e><p><l>blusa<s n="n"/></l><r>brusa<s n="n"/></r></p></e>
     <e><p><l>suciedad<s n="n"/></l><r>bardoma<s n="n"/></r></p></e>
@@ -15290,6 +15328,7 @@
     <e><p><l>cacería<s n="n"/></l><r>cacera<s n="n"/></r></p></e>
     <e><p><l>cadena<s n="n"/></l><r>cadena<s n="n"/></r></p></e>
     <e><p><l>jilguero<s n="n"/><s n="m"/></l><r>cardelina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mártir<s n="n"/><s n="mf"/></l>              <r>martir<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>silla<s n="n"/></l><r>siella<s n="n"/></r></p></e>
     <e><p><l>cafetera<s n="n"/></l><r>cafetera<s n="n"/></r></p></e>
     <e><p><l>cafetería<s n="n"/></l><r>cafetería<s n="n"/></r></p></e>
@@ -15632,6 +15671,7 @@
     <e><p><l>ventanilla<s n="n"/></l><r>finestreta<s n="n"/></r></p></e>
     <e><p><l>feria<s n="n"/></l><r>feria<s n="n"/></r></p></e>
     <e><p><l>ficha<s n="n"/></l><r>ficha<s n="n"/></r></p></e>
+    <e><p><l>marta<s n="n"/></l><r>fuina<s n="n"/></r></p></e>
     <e><p><l>llamarada<s n="n"/></l><r>flamarada<s n="n"/></r></p></e>
     <e><p><l>flauta<s n="n"/></l><r>flauta<s n="n"/></r></p></e>
     <e><p><l>flautista<s n="n"/></l><r>flautista<s n="n"/></r></p></e>
@@ -15648,7 +15688,9 @@
     <e><p><l>fórmula<s n="n"/></l><r>formula<s n="n"/></r></p></e>
     <e><p><l>fortuna<s n="n"/></l><r>fortuna<s n="n"/></r></p></e>
     <e><p><l>gavilán<s n="n"/></l><r>esparvero<s n="n"/></r></p></e>
+    <e>       <p><l>elefante<s n="n"/></l>            <r>elefant<s n="n"/></r></p></e>
     <e r="LR"><p><l>fosa<s n="n"/></l><r>fuesa<s n="n"/></r></p></e>
+   <e><p><l>lagarto<s n="n"/></l>   <r>fardacho<s n="n"/></r></p></e>
    <e><p><l>cornucopia<s n="n"/></l><r>cornucopia<s n="n"/></r></p></e>
     <e><p><l>radioscopia<s n="n"/></l><r>radioscopia<s n="n"/></r></p></e>
     <e><p><l>copia<s n="n"/></l><r>copia<s n="n"/></r></p></e>
@@ -15713,6 +15755,7 @@
     <e><p><l>goma<s n="n"/></l><r>goma<s n="n"/></r></p></e>
     <e><p><l>gorila<s n="n"/></l><r>gorila<s n="n"/></r></p></e>
     <e><p><l>gorra<s n="n"/></l><r>gorra<s n="n"/></r></p></e>
+    <e><p><l>gorrión<s n="n"/></l>       <r>gurrión<s n="n"/></r></p></e>
     <e><p><l>gota<s n="n"/></l><r>gota<s n="n"/></r></p></e>
     <e><p><l>grada<s n="n"/></l><r>grada<s n="n"/></r></p></e>
     <e><p><l>gramática<s n="n"/></l><r>gramatica<s n="n"/></r></p></e>
@@ -16061,6 +16104,7 @@
     <e><p><l>poema<s n="n"/></l><r>poema<s n="n"/></r></p></e>
     <e><p><l>poesía<s n="n"/></l><r>poesía<s n="n"/></r></p></e>
     <e><p><l>poeta<s n="n"/></l><r>poeta<s n="n"/></r></p></e>
+    <e><p><l>profeta<s n="n"/></l><r>profeta<s n="n"/></r></p></e>
     <e><p><l>polémica<s n="n"/></l><r>polemica<s n="n"/></r></p></e>
     <e><p><l>pulpa<s n="n"/></l><r>polpa<s n="n"/></r></p></e>
     <e><p><l>pulsera<s n="n"/></l><r>monyiquera<s n="n"/></r></p></e>
@@ -16149,6 +16193,9 @@
     <e><p><l>colmena<s n="n"/></l><r>arna<s n="n"/></r></p></e>
     <e><p><l>ruta<s n="n"/></l><r>rota<s n="n"/></r></p></e>
     <e><p><l>zapatería<s n="n"/></l><r>zapatería<s n="n"/></r></p></e>
+    <e>       <p><l>sapo<s n="n"/></l>                <r>zapo<s n="n"/></r></p></e>
+    <e>       <p><l>camello<s n="n"/></l>             <r>camello<s n="n"/></r></p></e>
+    <e>       <p><l>culebra<s n="n"/></l>             <r>cullebra<s n="n"/></r></p></e>
     <e><p><l>zapatilla<s n="n"/></l><r>zapatilla<s n="n"/></r></p></e>
     <e><p><l>sacarina<s n="n"/></l><r>sacarina<s n="n"/></r></p></e>
     <e><p><l>zanahoria<s n="n"/></l><r>azanoria<s n="n"/></r></p></e>
