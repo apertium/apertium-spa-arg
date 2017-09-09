@@ -118,10 +118,10 @@
     <e r="LR"><p><l>ello<s n="prn"/><s n="tn"/></l><r>ixo<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>eso<s n="prn"/><s n="tn"/></l><r>ixo<s n="prn"/><s n="tn"/><s n="p3"/></r></p></e>
     <e r="RL"><p><l>eso<s n="prn"/><s n="tn"/></l><r>ixo<s n="prn"/><s n="tn"/></r></p></e>
-    <e><p><l>esto<s n="prn"/><s n="tn"/></l><r>isto<s n="prn"/><s n="tn"/><s n="p3"/></r></p></e>
-    <e r="RL"><p><l>esto<s n="prn"/><s n="tn"/></l><r>isto<s n="prn"/><s n="tn"/></r></p></e>
-    <e r="RL"><p><l>esto<s n="prn"/><s n="tn"/></l><r>esto<s n="prn"/><s n="tn"/><s n="p3"/></r></p></e>
+    <e><p><l>esto<s n="prn"/><s n="tn"/></l><r>esto<s n="prn"/><s n="tn"/><s n="p3"/></r></p></e>
     <e r="RL"><p><l>esto<s n="prn"/><s n="tn"/></l><r>esto<s n="prn"/><s n="tn"/></r></p></e>
+    <e r="RL"><p><l>esto<s n="prn"/><s n="tn"/></l><r>isto<s n="prn"/><s n="tn"/><s n="p3"/></r></p></e>
+    <e r="RL"><p><l>esto<s n="prn"/><s n="tn"/></l><r>isto<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     <e r="LR"><p><l>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="ND"/></r></p></e>
@@ -222,8 +222,8 @@
 
     <e>       <p><l>aquel<s n="prn"/></l>             <r>aquell<s n="prn"/></r></p></e>
     <e r="LR"><p><l>aquél<s n="prn"/></l>             <r>aquell<s n="prn"/></r></p></e>
-    <e>       <p><l>este<s n="prn"/></l>              <r>iste<s n="prn"/></r></p></e>
-    <e r="LR"><p><l>éste<s n="prn"/></l>             <r>iste<s n="prn"/></r></p></e>
+    <e>       <p><l>este<s n="prn"/></l>              <r>este<s n="prn"/></r></p></e>
+    <e r="LR"><p><l>éste<s n="prn"/></l>             <r>este<s n="prn"/></r></p></e>
     <e>       <p><l>ese<s n="prn"/></l>              <r>ixe<s n="prn"/></r></p></e>
     <e r="LR"><p><l>ése<s n="prn"/></l>             <r>ixe<s n="prn"/></r></p></e>
     <e><p><l>todos<b/>juntos<s n="prn"/></l><r>totz<b/>chuntos<s n="prn"/></r></p></e>
@@ -277,12 +277,13 @@
     <e>       <p><l>cierto<s n="det"/></l>            <r>bell<s n="det"/></r></p></e>  <!-- is it used in aragonese, or better  bell? * -->
     <e r="RL">       <p><l>cierto<s n="det"/></l>            <r>cierto<s n="det"/></r></p></e>  <!-- is it used in aragonese, or better  bell? * -->
     <e>       <p><l>sendos<s n="det"/></l>            <r>senglos<s n="det"/></r></p></e>
+    
     <e><p><l>el<s n="det"/><s n="def"/><s n="m"/></l><r>o<s n="det"/><s n="def"/><s n="m"/></r></p></e>
     <e><p><l>el<s n="det"/><s n="def"/><s n="f"/></l><r>o<s n="det"/><s n="def"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>el<s n="det"/><s n="def"/><s n="GD"/></l><r>o<s n="det"/><s n="def"/><s n="mf"/></r></p></e> <!-- descomento -->
     
     <e><p><l>ese<s n="det"/></l><r>ixe<s n="det"/></r></p></e>
-    <e><p><l>este<s n="det"/></l><r>iste<s n="det"/></r></p></e>
+    <e><p><l>este<s n="det"/></l><r>este<s n="det"/></r></p></e>
     <e><p><l>demás<s n="det"/><s n="ind"/></l><r>demás<s n="det"/><s n="ind"/></r></p></e>
    
     <e r="LR"><p><l>ninguno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></l><r>garra<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -362,6 +363,88 @@
     <!-- ******************************
           group adj_symbol
       ****************************** -->
+    
+<e>   <p><l>1.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>1<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>2.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>2<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>3.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>3<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>4.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>4<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>5.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>5<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>6.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>6<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>7.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>7<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>8.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>8<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>9.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>9<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>10.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>10<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>11.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>11<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>12.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>12<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>13.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>13<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>14.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>14<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>15.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>15<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>16.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>16<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>17.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>17<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>18.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>18<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>19.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>19<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>   <p><l>20.º<s n="n"/><s n="m"/><s n="sg"/></l>            <r>20<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+
+<e>   <p><l>1.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>1<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>2.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>2<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>3.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>3<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>4.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>4<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>5.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>5<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>6.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>6<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>7.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>7<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>8.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>8<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>9.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>9<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>10.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>10<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>11.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>11<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>12.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>12<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>13.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>13<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>14.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>14<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>15.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>15<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>16.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>16<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>17.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>17<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>18.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>18<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>19.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>19<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e>   <p><l>20.ª<s n="n"/><s n="f"/><s n="sg"/></l>            <r>20<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+
+<e>   <p><l>2.º<s n="n"/></l>            <r>2o<s n="n"/></r></p></e>
+<e>   <p><l>3.º<s n="n"/></l>            <r>3o<s n="n"/></r></p></e>
+<e>   <p><l>4.º<s n="n"/></l>            <r>4o<s n="n"/></r></p></e>
+<e>   <p><l>5.º<s n="n"/></l>            <r>5.<s n="n"/></r></p></e>
+<e>   <p><l>6.º<s n="n"/></l>            <r>6è.<s n="n"/></r></p></e>
+<e>   <p><l>7.º<s n="n"/></l>            <r>7è.<s n="n"/></r></p></e>
+<e>   <p><l>8.º<s n="n"/></l>            <r>8è.<s n="n"/></r></p></e>
+<e>   <p><l>9.º<s n="n"/></l>            <r>9è.<s n="n"/></r></p></e>
+<e>   <p><l>10.º<s n="n"/></l>            <r>10è.<s n="n"/></r></p></e>
+<e>   <p><l>11.º<s n="n"/></l>            <r>11è.<s n="n"/></r></p></e>
+<e>   <p><l>12.º<s n="n"/></l>            <r>12è.<s n="n"/></r></p></e>
+<e>   <p><l>13.º<s n="n"/></l>            <r>13è.<s n="n"/></r></p></e>
+<e>   <p><l>14.º<s n="n"/></l>            <r>14è.<s n="n"/></r></p></e>
+<e>   <p><l>15.º<s n="n"/></l>            <r>15è.<s n="n"/></r></p></e>
+<e>   <p><l>16.º<s n="n"/></l>            <r>16è.<s n="n"/></r></p></e>
+<e>   <p><l>17.º<s n="n"/></l>            <r>17è.<s n="n"/></r></p></e>
+<e>   <p><l>18.º<s n="n"/></l>            <r>18è.<s n="n"/></r></p></e>
+<e>   <p><l>19.º<s n="n"/></l>            <r>19è.<s n="n"/></r></p></e>
+<e>   <p><l>20.º<s n="n"/></l>            <r>20è.<s n="n"/></r></p></e>
+<e>   <p><l>1.ª<s n="n"/></l>            <r>1a.<s n="n"/></r></p></e>
+<e>   <p><l>2.ª<s n="n"/></l>            <r>2a.<s n="n"/></r></p></e>
+<e>   <p><l>3.ª<s n="n"/></l>            <r>3a.<s n="n"/></r></p></e>
+<e>   <p><l>4.ª<s n="n"/></l>            <r>4a.<s n="n"/></r></p></e>
+<e>   <p><l>5.ª<s n="n"/></l>            <r>5a.<s n="n"/></r></p></e>
+<e>   <p><l>6.ª<s n="n"/></l>            <r>6a.<s n="n"/></r></p></e>
+<e>   <p><l>7.ª<s n="n"/></l>            <r>7a.<s n="n"/></r></p></e>
+<e>   <p><l>8.ª<s n="n"/></l>            <r>8a.<s n="n"/></r></p></e>
+<e>   <p><l>9.ª<s n="n"/></l>            <r>9a.<s n="n"/></r></p></e>
+<e>   <p><l>10.ª<s n="n"/></l>            <r>10a.<s n="n"/></r></p></e>
+<e>   <p><l>11.ª<s n="n"/></l>            <r>11a.<s n="n"/></r></p></e>
+<e>   <p><l>12.ª<s n="n"/></l>            <r>12a.<s n="n"/></r></p></e>
+<e>   <p><l>13.ª<s n="n"/></l>            <r>13a.<s n="n"/></r></p></e>
+<e>   <p><l>14.ª<s n="n"/></l>            <r>14a.<s n="n"/></r></p></e>
+<e>   <p><l>15.ª<s n="n"/></l>            <r>15a.<s n="n"/></r></p></e>
+<e>   <p><l>16.ª<s n="n"/></l>            <r>16a.<s n="n"/></r></p></e>
+<e>   <p><l>17.ª<s n="n"/></l>            <r>17a.<s n="n"/></r></p></e>
+<e>   <p><l>18.ª<s n="n"/></l>            <r>18a.<s n="n"/></r></p></e>
+<e>   <p><l>19.ª<s n="n"/></l>            <r>19a.<s n="n"/></r></p></e>
+<e>   <p><l>20.ª<s n="n"/></l>            <r>20a.<s n="n"/></r></p></e>    
     
   <e>       <p><l>inmóvil<s n="adj"/></l>             <r>immobil<s n="adj"/></r></p></e>
   <e>       <p><l>móvil<s n="adj"/></l>             <r>mobil<s n="adj"/></r></p></e>
@@ -13066,8 +13149,8 @@
     <e><p><l>llave<s n="n"/><s n="f"/></l><r>clau<s n="n"/><s n="f"/></r></p></e>
     
    <e r="LR"><p><l>hedor<s n="n"/><s n="m"/></l>     <r>pudor<s n="n"/><s n="f"/></r></p></e>
-   <e>       <p><l>mal<b/>olor<s n="n"/><s n="m"/></l><r>mala<b/>olor<s n="n"/><s n="f"/></r></p></e>
-   <e r="RL"><p><l>mal<b/>olor<s n="n"/><s n="m"/></l><r>pudor<s n="n"/><s n="f"/></r></p></e>
+   <e r="RL">       <p><l>mal<b/>olor<s n="n"/><s n="m"/></l><r>mala<b/>olor<s n="n"/><s n="f"/></r></p></e>
+   <e><p><l>mal<b/>olor<s n="n"/><s n="m"/></l><r>pudor<s n="n"/><s n="f"/></r></p></e>
    <e>       <i>pudor<s n="n"/><s n="m"/></i></e>    
    
     <e>       <p><l>dote<s n="n"/><s n="mf"/></l>     <r>dote<s n="n"/><s n="m"/></r></p></e>
@@ -15307,8 +15390,8 @@
     <e r="RL"><p><l>brazalete<s n="n"/></l><r>brazalet<s n="n"/></r></p></e>
     <e><p><l>brasa<s n="n"/></l><r>brasa<s n="n"/></r></p></e>
     <e><p><l>broza<s n="n"/></l><r>broza<s n="n"/></r></p></e>
-    <e><p><l>bruja<s n="n"/></l><r>broixa<s n="n"/></r></p></e>
-    <e><p><l>brujo<s n="n"/></l><r>bruixón<s n="n"/></r></p></e>
+    <e><p><l>bruja<s n="n"/><s n="f"/></l><r>broixa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>brujo<s n="n"/><s n="m"/></l><r>bruixón<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>brújula<s n="n"/></l><r>bruixola<s n="n"/></r></p></e>
     <e><p><l>blusa<s n="n"/></l><r>brusa<s n="n"/></r></p></e>
     <e><p><l>suciedad<s n="n"/></l><r>bardoma<s n="n"/></r></p></e>
@@ -27547,6 +27630,8 @@
     <e><re>[a-z.]+@[a-z.]+</re><p><l><s n="web"/></l><r><s n="web"/></r></p></e>
     <e><re>(www.|http://|https://|ftp://)[áéíóúàèìòùäëïöüñça-z0-9\-./]+[áéíóúàèìòùäëïöüñça-z0-9/]</re><p><l><s n="web"/></l><r><s n="web"/></r></p></e>
     <e><re>(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9])(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))</re><p><l><s n="web"/></l><r><s n="web"/></r></p></e>
+
+    
     <!-- ******************************
           group(s) with only one element
       ****************************** -->
