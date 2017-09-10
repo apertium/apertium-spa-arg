@@ -1483,8 +1483,8 @@
     <e><p><l>interino<s n="adj"/></l><r>interino<s n="adj"/></r></p></e>
     <e><i>interior<s n="adj"/></i></e>
     <e><p><l>interlingüístico<s n="adj"/></l><r>interlingüistico<s n="adj"/></r></p></e>
-    <e><p><l>intermedio<s n="adj"/></l><r>intermeyo<s n="adj"/></r></p></e>
-    <e><p><l>intermedio<s n="n"/></l><r>intermeyo<s n="n"/></r></p></e>
+    <e><p><l>intermedio<s n="adj"/></l><r>intermedio<s n="adj"/></r></p></e>
+    <e><p><l>intermedio<s n="n"/></l><r>intermedio<s n="n"/></r></p></e>
     <e><i>interminable<s n="adj"/></i></e>
     <e><i>intermolecular<s n="adj"/></i></e>
     <e><p><l>internacional<s n="adj"/></l><r>internacional<s n="adj"/></r></p></e>
@@ -9752,9 +9752,9 @@
     <e r="RL"><p><l>debajo<b/>de<s n="pr"/></l><r>debaixo<s n="pr"/></r></p></e>
     <!-- <e r="RL"><p><l>debajo<b/>de<s n="pr"/></l><r>chus<s n="pr"/></r></p></e> -->
     <e><p><l>so<s n="pr"/></l><r>chus<s n="pr"/></r></p></e>
-    <e><p><l>so<b/>capa<b/>de<s n="pr"/></l>   <r>chus<b/>capa<b/>de<s n="pr"/></r></p></e>
-    <e><p><l>so<b/>color<b/>de<s n="pr"/></l>  <r>chus<b/>color<b/>de<s n="pr"/></r></p></e>
-    <e><p><l>so<b/>pena<b/>de<s n="pr"/></l>   <r>chus<b/>pena<b/>de<s n="pr"/></r></p></e>
+    <e><p><l>so<b/>capa<b/>de<s n="pr"/></l>   <r>baixo<b/>capa<b/>de<s n="pr"/></r></p></e>
+    <e><p><l>so<b/>color<b/>de<s n="pr"/></l>  <r>baixo<b/>color<b/>de<s n="pr"/></r></p></e>
+    <e><p><l>so<b/>pena<b/>de<s n="pr"/></l>   <r>baixo<b/>pena<b/>de<s n="pr"/></r></p></e>
     <e><p><l>detrás<b/>de<s n="pr"/></l><r>dezaga<b/>de<s n="pr"/></r></p></e>
     <e r="RL"><p><l>detrás<b/>de<s n="pr"/></l><r>dezaga<s n="pr"/></r></p></e>
     <e><p><l>delante<b/>de<s n="pr"/></l><r>debant<b/>de<s n="pr"/></r></p></e>
@@ -9774,10 +9774,10 @@
     <e><p><l>junto<b/>con<s n="pr"/></l><r>de<b/>conchunta<b/>con<s n="pr"/></r></p></e>
     <e r="RL"><p><l>junto<b/>con<s n="pr"/></l><r>en<b/>chunto<b/>con<s n="pr"/></r></p></e>
     <e r="RL"><p><l>junto<b/>con<s n="pr"/></l><r>chunto<b/>con<s n="pr"/></r></p></e>
-    <e><p><l>mediante<s n="pr"/></l><r>por<b/>meyo<b/>de<s n="pr"/></r></p></e>
-    <e r="LR"><p><l>por<b/>medio<b/>de<s n="pr"/></l><r>por<b/>meyo<b/>de<s n="pr"/></r></p></e>
-    <e r="LR"><p><l>por<b/>intermedio<b/>de<s n="pr"/></l><r>por<b/>meyo<b/>de<s n="pr"/></r></p></e>
-    <e r="RL"><p><l>por<b/>intermedio<b/>de<s n="pr"/></l><r>por<b/>intermeyo<b/>de<s n="pr"/></r></p></e>
+    <e><p><l>mediante<s n="pr"/></l><r>por<b/>medio<b/>de<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>por<b/>medio<b/>de<s n="pr"/></l><r>por<b/>medio<b/>de<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>por<b/>intermedio<b/>de<s n="pr"/></l><r>por<b/>medio<b/>de<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>por<b/>intermedio<b/>de<s n="pr"/></l><r>por<b/>intermedio<b/>de<s n="pr"/></r></p></e>
     <e>       <p><l>en<b/>medio<b/>de<s n="pr"/></l>  <r>enmeyo<b/>de<s n="pr"/></r></p></e>
     <e><p><l>por<b/>debajo<b/>de<s n="pr"/></l><r>por<b/>debaixo<b/>de<s n="pr"/></r></p></e>
     <e><p><l>por<b/>encima<b/>de<s n="pr"/></l><r>por<b/>alto<b/>de<s n="pr"/></r></p></e>
@@ -11279,6 +11279,7 @@
     <e><p><l>mecanismo<s n="n"/></l><r>mecanismo<s n="n"/></r></p></e>
     <e><p><l>mecánica<s n="n"/></l><r>mecanica<s n="n"/></r></p></e>
     <e><p><l>media<s n="n"/></l><r>meya<s n="n"/></r></p></e>
+    <e><p><l>medias<s n="n"/></l><r>meyas<s n="n"/></r></p></e>
     <e><p><l>mediana<s n="n"/></l><r>meyana<s n="n"/></r></p></e>
     <e><p><l>medio<s n="n"/></l><r>meyo<s n="n"/></r></p></e>
     <e><p><l>mendicidad<s n="n"/></l><r>mendicidat<s n="n"/></r></p></e>
@@ -12218,7 +12219,7 @@
 <e><p><l>validación<s n="n"/></l><r>validación<s n="n"/></r></p></e>
 <e><p><l>autoliquidación<s n="n"/></l><r>autoliquidación<s n="n"/></r></p></e>
 <e><p><l>retrocesión<s n="n"/></l><r>retrocesión<s n="n"/></r></p></e>
-<e><p><l>intermediación<s n="n"/></l><r>intermeyación<s n="n"/></r></p></e>
+<e><p><l>intermediación<s n="n"/></l><r>intermediación<s n="n"/></r></p></e>
 <e><p><l>imputación<s n="n"/></l><r>imputación<s n="n"/></r></p></e>
 <e><p><l>formalización<s n="n"/></l><r>formalización<s n="n"/></r></p></e>
 <e><p><l>especificación<s n="n"/></l><r>especificación<s n="n"/></r></p></e>
@@ -19890,7 +19891,7 @@
     <e><i>Argelaguer<s n="np"/></i></e>
     <e><i>Argelita<s n="np"/></i></e>
     <e><i>Argentaria<s n="np"/></i></e>
-    <e><i>Argentina<s n="np"/></i></e>
+    <e><p><l>Argentina<s n="np"/></l><r>Archentina<s n="np"/></r></p></e>
     <e><i>Argentona<s n="np"/></i></e>
     <e><i>Argençola<s n="np"/></i></e>
     <e><i>Argos<s n="np"/></i></e>
