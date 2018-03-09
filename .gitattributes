@@ -1,0 +1,23 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-spa-arg.arg-spa.lrx -text
+/apertium-spa-arg.arg-spa.t1x -text
+/apertium-spa-arg.arg-spa.t2x -text
+/apertium-spa-arg.spa-arg.dix -text
+/apertium-spa-arg.spa-arg.lrx -text
+/apertium-spa-arg.spa-arg.t1x -text
+/apertium-spa-arg.spa-arg.t2x -text
+/apertium-spa-arg.spa-arg.t3x -text
+/autogen.sh -text
+/configure.ac -text
+dev/inconsistency-summary.sh -text
+dev/inconsistency.sh -text
+dev/testvoc-summary.arg-spa.txt -text
+dev/testvoc-summary.spa-arg.txt -text
+dev/testvoc.sh -text
+/modes.xml -text

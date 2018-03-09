@@ -1,0 +1,228 @@
+﻿<rules>
+  <!-- 
+    This rule chooses "energía" as the translation of "power" when it is preceded by "wind". 
+    Add your own rules within <rule> here, using the resources below as a guide 
+  -->
+
+ <rule>
+    <match lemma="dreito"><select lemma="derecho"/></match>
+ </rule>
+
+ <rule>
+    <match lemma="pleno"><select lemma="lleno"/></match>
+ </rule>
+
+ <rule>
+    <match lemma="pro"><select lemma="bastante"/></match>
+ </rule>
+
+
+ <rule>
+    <match lemma="ta"><select lemma="para"/></match>
+ </rule>
+
+ <rule>
+    <match lemma="miqueta"><select lemma="pedazo"/></match>
+ </rule>
+
+ <rule>
+    <match lemma="chunta"><select lemma="junta"/></match>
+ </rule>
+
+ <rule>
+    <match lemma="aire"><select lemma="aire"/></match>
+ </rule>
+
+ <rule>
+    <match lemma="ordinación" tags="n.f.pl"><select lemma="estatuto" tags="n.m.pl"/></match>
+ </rule>
+
+ <rule>
+    <match lemma="ordinación" tags="n.f.sg"><select lemma="ordenación" tags="n.m.sg"/></match>
+ </rule>
+ <!-- de autonomía estatuto -->
+ 
+ <rule>
+    <match lemma="corredor"><select lemma="corredor"/></match>
+ </rule>
+<!-- pasillo -->
+
+ <rule>
+    <match lemma="eslizador"><select lemma="tobogán"/></match>
+ </rule>
+<!-- deslizador -->
+
+ <rule>
+    <match lemma="rector"><select lemma="rector"/></match>
+ </rule>
+<!-- párroco -->
+
+ <rule>
+    <match lemma="burra"><select lemma="ampolla"/></match>
+ </rule>
+<!-- burra -->
+
+ <rule>
+    <match lemma="carrera"><select lemma="calle"/></match>
+ </rule>
+<!-- carrera -->
+
+ <rule>
+    <match lemma="cullareta"><select lemma="cucharilla"/></match>
+ </rule>
+<!-- renacuajo -->
+
+ <rule>
+    <match lemma="lentilla" tags="n.f.pl"><select lemma="lenteja" tags="n.f.pl"/></match>
+ </rule>
+ <rule>
+    <match lemma="lentilla" tags="n.f.sg"><select lemma="lentilla" tags="n.f.sg"/></match>
+ </rule>
+
+ <rule>
+    <match lemma="papa"><select lemma="papá"/></match>
+ </rule>
+
+<!-- papa --> <!-- can be solved distinguishing article + papa -->
+
+ <rule>
+    <match lemma="paranza"><select lemma="preparación"/></match>
+ </rule>
+ <!-- trampa -->
+ 
+  <rule>
+    <match lemma="tradición"><select lemma="tradición"/></match>
+ </rule>
+<!-- traición -->
+
+ <rule>
+    <match lemma="correu" tags="n.m.*"><select lemma="correo" tags="n.m.*"/></match>
+ </rule>
+ 
+  <rule>
+    <match lemma="correu"  tags="n.f.*"><select lemma="cartero" tags="n.f.*"/></match>
+ </rule>
+<!-- cartero -->
+
+<rule>
+    <match lemma="rato"><select lemma="rato"/></match>
+ </rule>
+<!-- rata, rato --> 
+
+<rule>
+    <match lemma="cera"><select lemma="cera"/></match>
+ </rule>
+<!-- miedo --> 
+
+<rule>
+    <match lemma="acotolar"><select lemma="aniquilar"/></match>
+ </rule>
+<!-- agotar --> 
+
+<rule>
+    <match lemma="posar"><select lemma="poner"/></match>
+ </rule>
+<!-- sentar --> 
+
+<rule>
+    <match lemma="colar"><select lemma="colar"/></match>
+ </rule>
+<!-- meter --> 
+
+<rule>
+    <match lemma="embolicar"><select lemma="complicar"/></match>
+ </rule>
+<!-- meter --> 
+
+<rule>
+    <match lemma="sentir"><select lemma="sentir"/></match>
+ </rule>
+<!-- oír  --> 
+
+<rule>
+    <match lemma="rechirar"><select lemma="rebuscar"/></match>
+ </rule>
+<!-- revolver --> 
+    
+<rule>
+    <match lemma="emponderar"><select lemma="ensalzar"/></match>
+ </rule>
+<!-- exagerar --> 
+
+<rule>
+    <match lemma="avalar"><select lemma="engullir"/></match>
+ </rule>
+<!-- exagerar --> 
+
+<rule>
+    <match lemma="uixar"><select lemma="ahuyentar"/></match>
+ </rule>
+<!-- incitar --> 
+
+<rule>
+    <match lemma="trucar"><select lemma="golpear"/></match>
+ </rule>
+<!-- llamar --> 
+
+<rule>
+    <match lemma="faltar"><select lemma="faltar"/></match>
+ </rule>
+<!-- insultar --> 
+
+<rule>
+    <match lemma="extender"><select lemma="extender"/></match>
+ </rule>
+<!-- tender  --> 
+
+<rule>
+    <match lemma="desembolicar"><select lemma="desarrollar"/></match>
+ </rule>
+<!-- desenvolver  --> 
+
+<rule>
+    <match lemma="volver"><select lemma="girar"/></match>
+ </rule>
+<!-- desenvolver  --> 
+
+<rule>
+    <match lemma="tornar"><select lemma="volver"/></match>
+ </rule>
+<!-- devolver --> 
+
+ <rule>
+    <match lemma="andar"><select lemma="ir"/></match>
+</rule>
+<!-- andar -->
+  
+<rule>
+    <match lemma="espardir"><select lemma="difundir"/></match>
+ </rule>
+<!-- desenvolver  -->
+
+<rule>
+    <match lemma="entre"><select lemma="entre"/></match>
+ </rule>
+<!-- durante  --> 
+
+<rule>
+    <match lemma="falaguera"><select lemma="helecho"/></match>
+ </rule>
+<!-- capricho  dar falaguera  -->
+
+
+  <rule>
+    <match lemma="wind"/>
+    <match lemma="power" tags="n.*">
+      <select lemma="energía" tags="n.*"/>
+    </match>
+  </rule>
+</rules>
+
+<!-- 
+Resources: 
+    http://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
+    http://wiki.apertium.org/wiki/Constraint-based_lexical_selection
+    http://wiki.apertium.org/wiki/Lexical_selection
+    http://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
+-->
+

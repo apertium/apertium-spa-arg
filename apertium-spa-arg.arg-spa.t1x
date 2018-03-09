@@ -1,0 +1,6714 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- -*- nxml -*- -->
+<transfer>
+  <section-def-cats>
+    <def-cat n="nom">
+      <cat-item tags="n.*"/>
+    </def-cat>
+    <def-cat n="npant">
+      <cat-item tags="np.ant"/>
+    </def-cat>
+
+    <def-cat n="nploc">
+      <cat-item tags="np.loc"/>
+    </def-cat>    
+    <def-cat n="nom_loc">
+      <cat-item tags="n.*"/>
+      <cat-item tags="np.loc"/>
+    </def-cat>    
+
+    <def-cat n="det">          
+      <cat-item tags="det.*"/>
+      <cat-item tags="predet.*"/>
+    </def-cat>
+
+    <def-cat n="detdef">
+      <cat-item tags="det.def.*"/>
+    </def-cat>
+    
+    <def-cat n="predet">
+      <cat-item tags="predet.*"/>
+    </def-cat>
+
+    <def-cat n="adjec">          
+      <cat-item tags="adj.*"/>
+      <cat-item tags="vblex.pp.*"/>
+    </def-cat>
+
+    <def-cat n="adj">          
+      <cat-item tags="adj.*"/>
+    </def-cat>
+
+    <def-cat n="adv">
+      <cat-item tags="adv"/>
+      <cat-item tags="preadv"/>
+    </def-cat>
+
+    <def-cat n="prep">
+      <cat-item tags="pr"/>
+    </def-cat>    
+
+    
+    <def-cat n="relat">
+      <cat-item tags="rel.*"/>
+    </def-cat>
+
+    <def-cat n="prn">          	  	  
+      <cat-item tags="prn.tn.*"/>
+      <cat-item tags="prn.itg.*"/>	 	 	
+    </def-cat>
+
+    <def-cat n="prnenc">   	  	  
+      <cat-item tags="prn.enc.*"/>
+    </def-cat>     
+
+    <def-cat n="prnpro">   	  	  
+      <cat-item tags="prn.pro.*"/>
+    </def-cat>
+
+    <def-cat n="prnproref">   	  	  
+      <cat-item lemma="me" tags="prn.pro.p1.mf.sg"/>
+      <cat-item lemma="te" tags="prn.pro.p2.mf.sg"/>
+      <cat-item lemma="se" tags="prn.pro.ref.p3.mf.sp"/>
+      <cat-item lemma="se" tags="prn.pro.ref.p3.mf.sg"/>
+      <cat-item lemma="se" tags="prn.pro.ref.p3.mf.pl"/>
+      <cat-item lemma="nos" tags="prn.pro.p1.mf.pl"/>
+      <cat-item lemma="tos" tags="prn.pro.p2.mf.pl"/>
+    </def-cat>
+
+    <def-cat n="prnpro3">   	  	  
+      <cat-item lemma="lo" tags="prn.pro.*"/>
+      <cat-item lemma="en" tags="prn.pro.adv"/>
+    </def-cat>
+    
+    <def-cat n="lopronom">
+      <cat-item lemma="lo" tags="prn.pro.p3.mf.sg"/>
+    </def-cat>
+    
+    <def-cat n="porque">   	  	  
+      <cat-item lemma="porque" tags="cnjadv"/>
+    </def-cat>
+    
+    <def-cat n="bien">   	  	  
+      <cat-item lemma="bien" tags="preadv"/>
+    </def-cat>
+
+    <def-cat n="ir">
+      <cat-item lemma="ir" tags="vblex.pri.*"/>
+    </def-cat>
+    
+    <def-cat n="de">   	  	  
+      <cat-item lemma="de" tags="pr"/>
+    </def-cat>
+
+    <def-cat n="nusatros">
+      <cat-item lemma="nusatros" tags="prn.tn.p1.mf.pl"/>
+      <cat-item lemma="vusatros" tags="prn.tn.p2.mf.pl"/>
+    </def-cat>
+    
+
+    <def-cat n="verb">
+      <cat-item tags="vblex.*"/>
+      <cat-item tags="vbser.*"/>
+      <cat-item tags="vbhaver.*"/>
+      <cat-item tags="vbmod.*"/>
+    </def-cat>
+    <def-cat n="ser_estar">
+      <cat-item tags="vbser.*"/>
+    </def-cat>
+    
+    <def-cat n="subj">
+      <cat-item tags="vblex.pis.*"/>
+      <cat-item tags="vblex.prs.*"/>
+      <cat-item tags="vbser.pis.*"/>
+      <cat-item tags="vbser.prs.*"/>
+      <cat-item tags="vbmod.pis.*"/>
+      <cat-item tags="vbmod.prs.*"/>
+    </def-cat>
+
+    <def-cat n="haversubj">
+      <cat-item tags="vbhaver.pis.*"/>
+      <cat-item tags="vbhaver.prs.*"/>
+    </def-cat>
+
+    <def-cat n="inf">
+      <cat-item tags="vblex.inf"/>
+      <cat-item tags="vbser.inf"/>
+      <cat-item tags="vbhaver.inf"/>
+      <cat-item tags="vbmod.inf"/>
+    </def-cat>
+
+    <def-cat n="infnm">
+      <cat-item tags="vblex.inf"/>
+      <cat-item tags="vbser.inf"/>
+      <cat-item tags="vbhaver.inf"/>
+    </def-cat>
+
+    <def-cat n="infnh">
+      <cat-item tags="vblex.inf"/>
+      <cat-item tags="vbser.inf"/>
+      <cat-item tags="vbmod.inf"/>
+    </def-cat>
+
+    <def-cat n="pp">
+      <cat-item tags="vblex.pp.*"/>
+      <cat-item tags="vbser.pp.*"/>
+      <cat-item tags="vbhaver.pp.*"/>
+      <cat-item tags="vbmod.pp.*"/>
+    </def-cat>
+    
+    <def-cat n="ppf">
+      <cat-item tags="vblex.pp.f.sg"/>
+      <cat-item tags="vbhaver.pp.f.sg"/>
+      <cat-item tags="vbmod.pp.f.sg"/>
+    </def-cat>
+
+    <def-cat n="ppfmpl">
+      <cat-item tags="vblex.pp.f.*"/>
+      <cat-item tags="vbhaver.pp.f.*"/>
+      <cat-item tags="vbmod.pp.f.*"/>
+      <cat-item tags="vblex.pp.m.pl"/>
+      <cat-item tags="vbhaver.pp.m.pl"/>
+      <cat-item tags="vbmod.pp.m.pl"/>
+    </def-cat>
+
+    <def-cat n="num">
+      <cat-item tags="num.*"/>
+    </def-cat>
+
+    <def-cat n="en">
+      <cat-item lemma="en" tags="pr"/>
+    </def-cat>
+
+    <def-cat n="a">
+      <cat-item lemma="a" tags="pr"/>
+    </def-cat>
+
+    <def-cat n="ta">
+      <cat-item lemma="ta" tags="pr"/>
+    </def-cat>
+
+    <def-cat n="dicir">
+      <cat-item lemma="dicir" tags="vblex.pri.*"/>
+      <cat-item lemma="dicir" tags="vblex.fti.*"/>
+    </def-cat>
+
+    <def-cat n="haber">
+      <cat-item lemma="haber" tags="vbhaver.*"/>
+    </def-cat>
+
+    <def-cat n="tot">
+      <cat-item lemma="tot" tags="predet.*"/>
+      <cat-item lemma="tot" tags="prn.tn.m.sg"/>
+    </def-cat>
+
+    <def-cat n="y">
+      <cat-item lemma="y" tags="cnjcoo"/>
+    </def-cat>
+
+    <def-cat n="no">
+      <cat-item lemma="no" tags="adv"/>
+    </def-cat>
+
+    <def-cat n="sent">
+      <cat-item tags="sent"/>
+    </def-cat>
+
+  </section-def-cats>
+
+  <section-def-attrs>
+
+    <def-attr n="a_nom">
+      <attr-item tags="n"/>
+      <attr-item tags="n.acr"/>
+      <attr-item tags="np.loc"/>
+      <attr-item tags="num"/>
+    </def-attr>
+
+    <def-attr n="a_npant">
+      <attr-item tags="np.ant"/>
+    </def-attr>
+
+    <def-attr n="a_nploc">
+      <attr-item tags="np.loc"/>
+    </def-attr>        
+
+    <def-attr n="a_det">          
+      <attr-item tags="det.def"/>
+      <attr-item tags="det.ind"/>
+      <attr-item tags="det.dem"/>
+      <attr-item tags="det.pos"/>
+      <attr-item tags="predet"/>
+    </def-attr>
+
+    <def-attr n="a_detdef">
+      <attr-item tags="det.def"/>
+    </def-attr>
+    
+    <def-attr n="a_predet">
+      <attr-item tags="predet"/>
+    </def-attr>
+
+    <def-attr n="a_adjec">          
+      <attr-item tags="adj.ind"/>
+      <attr-item tags="adj.sup"/>
+      <attr-item tags="adj.itg"/>
+      <attr-item tags="adj.pos"/>
+      <attr-item tags="adj"/>
+      <attr-item tags="vblex.pp"/>
+      <attr-item tags="vblex.v2.pp"/>
+    </def-attr>
+
+    <def-attr n="a_adj">          
+      <attr-item tags="adj.ind"/>
+      <attr-item tags="adj.sup"/>
+      <attr-item tags="adj.itg"/>
+      <attr-item tags="adj.pos"/>
+      <attr-item tags="adj"/>
+      <attr-item tags="vblex.pp"/>
+      <attr-item tags="vblex.v2.pp"/>
+    </def-attr>
+
+    <def-attr n="a_adv">
+      <attr-item tags="adv"/>
+      <attr-item tags="preadv"/>
+    </def-attr>
+
+    <def-attr n="a_prep">
+      <attr-item tags="pr"/>
+    </def-attr>    
+
+    
+
+    <def-attr n="a_relat">
+      <attr-item tags="rel.adv"/>
+      <attr-item tags="rel.nn"/>
+      <attr-item tags="rel.aa"/>
+      <attr-item tags="rel.an"/>
+    </def-attr>
+
+    <def-attr n="a_prn">          	  	  
+      <attr-item tags="prn.tn.p1"/>
+      <attr-item tags="prn.tn.p2"/>
+      <attr-item tags="prn.tn.p3"/>
+      <attr-item tags="prn.tn"/>	 
+      <attr-item tags="prn.tn.ref.p3"/>	 
+      <attr-item tags="prn.tn.pos"/>	     
+      
+      <attr-item tags="prn.itg"/>	 	 	
+    </def-attr>
+
+    <def-attr n="a_prnenc">   	  	  
+      <attr-item tags="prn.enc"/>
+      <attr-item tags="prn.enc.ref"/>
+    </def-attr>     
+
+    <def-attr n="a_prnpro">   	  	  
+      <attr-item tags="prn.pro"/>
+      <attr-item tags="prn.pro.ref"/>
+    </def-attr>
+
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>
+      <attr-item tags="vblex.v2"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vbmod"/>
+    </def-attr>
+
+    <def-attr n="a_val">
+      <attr-item tags="v2"/>
+    </def-attr>
+
+    <def-attr n="a_inf">
+      <attr-item tags="vblex.inf"/>
+      <attr-item tags="vblex.v2.inf"/>
+      <attr-item tags="vbser.inf"/>
+      <attr-item tags="vbhaver.inf"/>
+      <attr-item tags="vbmod.inf"/>
+    </def-attr>
+
+    <def-attr n="a_infnm">
+      <attr-item tags="vblex.inf"/>
+      <attr-item tags="vblex.v2.inf"/>
+      <attr-item tags="vbser.inf"/>
+      <attr-item tags="vbhaver.inf"/>
+    </def-attr>
+
+    <def-attr n="a_infnh">
+      <attr-item tags="vblex.inf"/>
+      <attr-item tags="vblex.v2.inf"/>
+      <attr-item tags="vbser.inf"/>
+      <attr-item tags="vbmod.inf"/>
+    </def-attr>
+
+    <def-attr n="a_pp">
+      <attr-item tags="vblex.pp"/>
+      <attr-item tags="vblex.v2.pp"/>
+      <attr-item tags="vbser.pp"/>
+      <attr-item tags="vbhaver.pp"/>
+      <attr-item tags="vbmod.pp"/>
+    </def-attr>
+    
+    
+    <def-attr n="a_num">
+      <attr-item tags="num"/>
+    </def-attr>
+
+    <def-attr n="gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="GD"/>
+      <attr-item tags="nt"/>
+    </def-attr>
+
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+
+    <def-attr n="persona">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+    </def-attr>
+
+    <def-attr n="tipoadv">
+      <attr-item tags="itg"/>     
+    </def-attr>
+    
+    
+    <def-attr n="tipoenc_pro">
+      <attr-item tags="ref.p3.mf.sp"/>  
+      <attr-item tags="p1.mf.sg"/>
+      <attr-item tags="p1.mf.pl"/>
+      <attr-item tags="p2.mf.sg"/>
+      <attr-item tags="p2.mf.pl"/>
+      <attr-item tags="p3.mf.sg"/>
+      <attr-item tags="p3.mf.pl"/>
+      <attr-item tags="p3.mf.sp"/> <!--incorrecte, tradueix "li<prn><enc><p3><mf><sp>" per "se", cal canviar diccionari ja que �s li-ho<sg> i los-ho<pl> (d�rselo)-->
+      <attr-item tags="p3.m.sg"/>
+      <attr-item tags="p3.m.pl"/>
+      <attr-item tags="p3.f.sg"/>
+      <attr-item tags="p3.f.pl"/>
+      <attr-item tags="p3.nt"/>
+    </def-attr>
+
+    <def-attr n="temps">
+      <attr-item tags="inf"/>
+      <attr-item tags="ger"/>
+      <attr-item tags="pp"/>
+      <attr-item tags="pri"/>
+      <attr-item tags="ifi"/>
+      <attr-item tags="pii"/>
+      <attr-item tags="fti"/>
+      <attr-item tags="cni"/>
+      <attr-item tags="prs"/>
+      <attr-item tags="pis"/>
+      <attr-item tags="fts"/>
+      <attr-item tags="imp"/>
+    </def-attr>
+
+    
+  </section-def-attrs>
+
+  <section-def-vars>
+    <def-var n="valverb"/>
+    <def-var n="prepo"/>
+    <def-var n="bi"/>
+    <def-var n="tipusverb"/>
+    <def-var n="uno"/>
+    <def-var n="genero"/>
+    <def-var n="numero"/>
+    <def-var n="concDet"/>
+    <def-var n="concAdj"/>
+    <def-var n="concPrimero"/>
+    <def-var n="concSegundo"/>
+    <def-var n="concTercero"/>
+    <def-var n="interrogativa"/>
+    <def-var n="exclamativa"/>
+  </section-def-vars>
+  
+  <section-def-lists>
+    <def-list n="verbs_moviment">
+      <list-item v="ir"/>
+      <list-item v="tresladar"/>
+      <list-item v="viachiar"/>
+      <list-item v="emigrar"/>
+      <list-item v="immigrar"/>
+      <list-item v="mover"/>
+      <list-item v="venir"/>
+      <list-item v="salir"/>
+      <list-item v="surtir"/>
+      <list-item v="dentrar"/>
+      <list-item v="puyar"/>
+      <list-item v="baixar"/>
+      <list-item v="caminar"/>
+      <list-item v="dirichir"/>
+      <list-item v="endrezar"/>
+      <list-item v="amanar"/>      
+      <list-item v="correr"/>
+      <list-item v="levar"/>
+      <list-item v="tornar"/>
+      <list-item v="regresar"/>
+      <list-item v="arribar"/>
+      <list-item v="plegar"/>
+      <list-item v="marchar"/>
+      <list-item v="ninviar"/>
+      <list-item v="mandar"/>
+    </def-list>
+
+      <def-list n="verbs_estat">
+      <list-item v="convivir"/>
+      <list-item v="vivir"/>
+      <list-item v="actuar"/>
+      <list-item v="alochar"/>
+      <list-item v="asentar"/>
+      <list-item v="buscar"/>
+      <list-item v="celebrar"/>
+      <list-item v="centralizar"/>
+      <list-item v="colocar"/>
+      <list-item v="concentrar"/>
+      <list-item v="desembocar"/>
+      <list-item v="endinsar"/>
+      <list-item v="establir"/>
+      <list-item v="estrenar"/>
+      <list-item v="excavar"/>
+      <list-item v="exercir"/>
+      <list-item v="existir"/>
+      <list-item v="exposar"/>
+      <list-item v="ficar"/>
+      <list-item v="inaugurar"/>
+      <list-item v="incluir"/>
+      <list-item v="indagar"/>
+      <list-item v="ingresar"/>
+      <list-item v="colar"/>
+      <list-item v="calar"/>
+      <list-item v="instalar"/>
+      <list-item v="introducir"/>
+      <list-item v="irromper"/>
+      <list-item v="penetrar"/>
+      <list-item v="pescar"/>
+      <list-item v="publicar"/>
+      <list-item v="reunir"/>
+      <list-item v="remanir"/>
+      <list-item v="treballar"/>
+      <list-item v="trobar"/>
+      <list-item v="ubicar"/> 
+      <list-item v="estudiar"/> 
+      <list-item v="retener"/> 
+    </def-list>
+  </section-def-lists>
+
+  <section-def-macros>
+  <def-macro n="f_tipusverb" npar="1">
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="a_val"/>
+	      <lit-tag v="v2"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="valverb"/>
+	    <lit v="2"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+<!--	<when>
+	  <test>
+	    <in caseless="yes">
+	      <clip pos="1" side="sl" part="lem"/>
+	      <list n="per_de"/>
+	    </in>
+	  </test>
+	  <let>
+	    <var n="tipusverb"/>
+	    <lit v="vbper_de"/>
+	  </let>
+	</when>
+	-->
+	<when>
+	  <test>
+	    <in caseless="yes">
+	      <clip pos="1" side="sl" part="lem"/>
+	      <list n="verbs_estat"/>
+	    </in>
+	  </test>
+	  <let>
+	    <var n="tipusverb"/>
+	    <lit v="vba_en"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <in caseless="yes">
+	      <clip pos="1" side="sl" part="lem"/>
+	      <list n="verbs_moviment"/>
+	    </in>
+	  </test>
+	  <let>
+	    <var n="tipusverb"/>
+	    <lit v="verbmov"/>
+	  </let>
+	</when>
+      </choose>
+      <call-macro n="f_serhi">
+	<with-param pos="1"/>
+      </call-macro>
+    </def-macro>
+
+    <def-macro n="f_hi" npar="1">
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="sl" part="lem"/>
+	      <lit v="bi"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="bi"/>
+	    <lit v="yes"/>
+	  </let>
+	</when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="f_serhi" npar="1">
+      <choose>
+	<when>
+	  <test>
+	    <and>
+	      <!-- <or> -->
+		<equal>
+		  <clip pos="1" side="sl" part="a_verb"/>
+		  <lit-tag v="vbser"/>
+		</equal>
+<!--		<equal>
+		  <clip pos="1" side="sl" part="lem"/>
+		  <lit v="quedar"/>
+		</equal>
+	      </or>-->
+	      <equal>
+		<var n="bi"/>
+		<lit v="yes"/>
+	      </equal>
+	    </and>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="a_verb"/>
+	    <lit-tag v="vblex"/>
+	  </let>
+	  <let>
+	    <clip pos="1" side="tl" part="lem"/>
+	    <lit v="estar"/>
+	  </let>
+	</when>
+      </choose>
+      <let>
+	<var n="bi"/>
+	<lit v=""/>
+      </let>
+    </def-macro>
+
+    <def-macro n="f_outverb2" npar="2"><!--Comprueba si hay pronombres que se traducen por nada de aragon�s a espa�ol seg�n el diccionario ("bi" y "en") y env�a el verbo con o sin pronombres de acuerdo con esta comprobaci�n. Esta funci�n es para el caso de verbo + 1 encl�tico. Funci�n necesaria para el correcto colocamiento de la cola en multipalabras con flexi�n intercalada. -->
+      <choose>
+	<when>
+	  <test>
+	    <not>
+	      <equal>
+		<clip pos="2" side="tl" part="lem"/>
+		<lit v=""/>
+	      </equal>
+	    </not>
+	  </test>
+	  <out>
+	    <mlu>
+	      <lu>
+		<clip pos="1" side="tl" part="lemh"/>
+		<clip pos="1" side="tl" part="a_verb"/>
+		<clip pos="1" side="tl" part="temps"/>
+		<clip pos="1" side="tl" part="persona"/>
+		<clip pos="1" side="tl" part="nbr"/>
+	      </lu>
+	      <lu>
+		<clip pos="2" side="tl" part="lem"/>
+		<clip pos="2" side="tl" part="a_prnenc"/>
+		<clip pos="2" side="tl" part="persona"/>
+		<clip pos="2" side="tl" part="gen"/>
+		<clip pos="2" side="tl" part="nbr"/>
+		<clip pos="1" side="tl" part="lemq"/>
+	      </lu>  
+	    </mlu>
+	  </out>
+	</when>
+	<otherwise>
+	  <call-macro n="f_hi">
+	    <with-param pos="1"/>
+	  </call-macro>
+	  <call-macro n="f_serhi">
+	    <with-param pos="1"/>
+	  </call-macro>
+	  <out>
+	    <lu>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_verb"/>
+	      <clip pos="1" side="tl" part="temps"/>
+	      <clip pos="1" side="tl" part="persona"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </lu>
+	  </out>
+	</otherwise>
+      </choose>
+    </def-macro>
+
+    <def-macro n="f_outverb3" npar="3"><!--Comprueba si hay pronombres que se traducen por nada de catal�n a espa�ol seg�n el diccionario ("hi" y "en") y env�a el verbo con o sin pronombres de acuerdo con esta comprobaci�n. Esta funci�n es para el caso de verbo + 2 encl�ticos.-->
+      <choose>
+	<when>
+	  <test>
+	    <not>
+	      <equal>
+		<clip pos="2" side="tl" part="lem"/>
+		<lit v=""/>
+	      </equal>
+	    </not>
+	  </test>
+	  <choose>
+	    <when>
+	      <test>
+		<not>
+		  <equal>
+		    <clip pos="3" side="tl" part="lem"/>
+		    <lit v=""/>
+		  </equal>
+		</not>
+	      </test>
+	      <out>
+		<mlu>
+		  <lu>
+		    <clip pos="1" side="tl" part="lemh"/>
+		    <clip pos="1" side="tl" part="a_verb"/>
+		    <clip pos="1" side="tl" part="temps"/>
+		    <clip pos="1" side="tl" part="persona"/>
+		    <clip pos="1" side="tl" part="nbr"/>
+		  </lu>
+		  <lu>
+		    <clip pos="2" side="tl" part="lem"/>
+		    <clip pos="2" side="tl" part="a_prnenc"/>
+		    <clip pos="2" side="tl" part="persona"/>
+		    <clip pos="2" side="tl" part="gen"/>
+		    <clip pos="2" side="tl" part="nbr"/>
+		  </lu>
+		  <lu>
+		    <clip pos="3" side="tl" part="lem"/>
+		    <clip pos="3" side="tl" part="a_prnenc"/>
+		    <clip pos="3" side="tl" part="persona"/>
+		    <clip pos="3" side="tl" part="gen"/>
+		    <clip pos="3" side="tl" part="nbr"/>
+		    <clip pos="1" side="tl" part="lemq"/>
+		  </lu>    
+		</mlu>
+	      </out>
+	    </when>
+	    <otherwise>
+	      <out>
+		<mlu>
+		  <lu>
+		    <clip pos="1" side="tl" part="lemh"/>
+		    <clip pos="1" side="tl" part="a_verb"/>
+		    <clip pos="1" side="tl" part="temps"/>
+		    <clip pos="1" side="tl" part="persona"/>
+		    <clip pos="1" side="tl" part="nbr"/>
+		  </lu>
+		  <lu>
+		    <clip pos="2" side="tl" part="lem"/>
+		    <clip pos="2" side="tl" part="a_prnenc"/>
+		    <clip pos="2" side="tl" part="persona"/>
+		    <clip pos="2" side="tl" part="gen"/>
+		    <clip pos="2" side="tl" part="nbr"/>
+		    <clip pos="1" side="tl" part="lemq"/>
+		  </lu>  
+		</mlu>
+	      </out> 
+	    </otherwise>
+	  </choose>
+	</when>
+	<otherwise>
+	  <out>
+	    <lu>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_verb"/>
+	      <clip pos="1" side="tl" part="temps"/>
+	      <clip pos="1" side="tl" part="persona"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="lemq"/>
+	    </lu>
+	  </out>
+	</otherwise>
+      </choose>
+    </def-macro>
+
+
+    <def-macro n="f_bcond" npar="1"><!--Per mirar si el blanc cont� o no format. Cal posar aquesta funci� en les regles en qu� desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si cont� format cal conservar-la, si no en cont� cal eliminar-la perqu� no apareguin dos espais seguits. -->
+      <choose>
+	<when>
+	  <test>
+	    <not>
+	      <equal>
+		<b pos="1"/>
+		<lit v=" "/>
+	      </equal>
+	    </not>
+	  </test>
+	  <out>
+	    <b pos="1"/>
+	  </out>
+	</when>     	    
+      </choose>
+    </def-macro>
+    
+    <def-macro n="f_concord1" npar="1">
+      
+      <choose><!--To determine value of variables of gender and
+		  number and propagate to other rules.  Variables are
+		  not used again in this rule -->
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </equal>
+	  </test>
+	  <let><var n="genero"/><lit-tag v="m"/></let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="f"/>
+	    </equal>
+	  </test>
+	  <let><var n="genero"/><lit-tag v="f"/></let>
+	</when>
+      </choose> 
+      <choose>
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	  </test>
+	  <let><var n="numero"/><lit-tag v="sg"/></let>
+	</when>
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <lit-tag v="pl"/>
+	    </equal>
+	  </test>
+	  <let><var n="numero"/><lit-tag v="pl"/></let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test> <!-- If word has GD or ND, we try to assign the
+		      gender or number of the previous rule. If there is no
+		      value for the gender or number variable from previous
+		      rules, gender will be masculine and number singular.-->
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="GD"/>
+	    </equal>
+	  </test>
+	  <choose> 
+	    <when>
+	      <test>
+		<equal>
+		  <var n="genero"/>
+		  <lit-tag v="f"/>
+		</equal>
+	      </test>
+	      <let><clip pos="1" side="tl" part="gen"/><lit-tag v="f"/></let>
+	    </when>
+	    <otherwise>
+	      <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+	    </otherwise>
+	  </choose>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test> 
+	    <equal>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <lit-tag v="ND"/>
+	    </equal>
+	  </test>
+	  <choose> 
+	    <when>
+	      <test>
+		<equal>
+		  <var n="numero"/>
+		  <lit-tag v="pl"/>
+		</equal>
+	      </test>
+	      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>                   
+	    </when>
+	    <otherwise>
+	      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+	    </otherwise>
+	  </choose>
+	</when>
+      </choose>    
+    </def-macro>
+
+
+    <def-macro n="f_concord2" npar="2">
+      <choose>
+	<when>
+	  <test> <!-- do the main and second parameter gender agree?-->
+	    <and>
+	      <or>
+		<equal>
+		  <clip pos="2" side="sl" part="gen"/>
+		  <clip pos="1" side="sl" part="gen"/>
+		</equal>
+		<equal>
+		  <clip pos="2" side="sl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+	      </or>
+	      <or>
+		<equal> <!-- do the main and second parameter number agree?-->
+		  <clip pos="2" side="sl" part="nbr"/>
+		  <clip pos="1" side="sl" part="nbr"/>
+		</equal>
+		<equal>
+		  <clip pos="2" side="sl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	      </or>
+	    </and>
+	  </test>
+	  <let><var n="concPrimero"/><lit v="true"/></let><!-- there is gender and number agreement-->
+	</when>
+	<otherwise> 
+	  <let><var n="concPrimero"/><lit v="false"/></let><!-- there isn't gender and number agreement-->
+	</otherwise>
+      </choose>
+      
+      <choose>
+	<when>
+	  <test> <!-- Propagate the main parameter gender if it has been modified during the translation  -->
+	    <and>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <clip pos="1" side="sl" part="gen"/>
+		</equal>
+	      </not>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+	      </not>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <lit-tag v="GD"/>
+		</equal>
+	      </not>
+	    </and>
+	  </test>
+	  <choose>
+	    <when>
+	      <test>
+		<and>
+		  <not>
+		    <equal>
+		      <clip pos="2" side="tl" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		  </not>
+		  <not>
+		    <and>
+		      <equal>
+			<clip pos="2" side="sl" part="gen"/>
+			<lit-tag v="mf"/>
+		      </equal>
+		      <not>
+			<equal>
+			  <clip pos="2" side="tl" part="gen"/>
+			  <lit-tag v="GD"/>
+			</equal>
+		      </not>
+		    </and>
+		  </not>
+		  <equal>
+		    <var n="concPrimero"/>
+		    <lit v="true"/>
+		  </equal>
+		</and>
+	      </test>		 	       
+	      <let>
+		<clip pos="2" side="tl" part="gen"/>
+		<clip pos="1" side="tl" part="gen"/> 
+	      </let>
+	    </when>
+	  </choose>
+	</when>
+      </choose>  
+      <choose>
+	<when>
+	  <test> <!-- Propagate the main parameter number if it has been modified during the translation  -->
+	    <and>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <clip pos="1" side="sl" part="nbr"/>
+		</equal>
+	      </not>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	      </not>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <lit-tag v="ND"/>
+		</equal>
+	      </not>
+	    </and>
+	  </test>
+	  <choose>
+	    <when>
+	      <test>
+		<and>
+		  <not>
+		    <equal>
+		      <clip pos="2" side="tl" part="nbr"/>
+		      <lit-tag v="sp"/>
+		    </equal>
+		  </not>
+		  <not>
+		    <and>
+		      <equal>
+			<clip pos="2" side="sl" part="nbr"/>
+			<lit-tag v="sp"/>
+		      </equal>
+		      <not>
+			<equal>
+			  <clip pos="2" side="tl" part="nbr"/>
+			  <lit-tag v="ND"/>
+			</equal>
+		      </not>
+		    </and>
+		  </not>
+		  <equal>
+		    <var n="concPrimero"/>
+		    <lit v="true"/>
+		  </equal>
+		</and>
+	      </test>
+	      <let>
+		<clip pos="2" side="tl" part="nbr"/>
+		<clip pos="1" side="tl" part="nbr"/> 
+	      </let>
+	    </when>
+	  </choose>
+	</when>
+      </choose>
+      
+      <choose>
+	<when>
+	  <test> <!-- Which is the rule general gender? -->
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="m"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="f"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="f"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="m"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <lit-tag v="f"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="f"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal>
+		<clip pos="1" side="tl" part="gen"/>
+		<lit-tag v="mf"/>
+	      </equal>
+	      <not>
+		<equal>
+		  <clip pos="1" side="sl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+	      </not>
+	    </and>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <clip pos="1" side="sl" part="gen"/> 
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal>
+		<clip pos="2" side="tl" part="gen"/>
+		<lit-tag v="mf"/>
+	      </equal>
+	      <not>
+		<equal>
+		  <clip pos="2" side="sl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+	      </not>
+	    </and>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <clip pos="2" side="sl" part="gen"/> 
+	  </let>
+	</when>
+	<otherwise>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="m"/>
+	  </let>
+	</otherwise>
+      </choose>
+
+
+
+      <choose>
+	<when><!-- Which is the rule general number? -->
+	  <test> 
+	    <equal>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="sg"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <lit-tag v="pl"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="pl"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="sg"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <lit-tag v="pl"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="pl"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal>
+		<clip pos="1" side="tl" part="nbr"/>
+		<lit-tag v="sp"/>
+	      </equal>
+	      <not>
+		<equal>
+		  <clip pos="1" side="sl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	      </not>
+	    </and>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <clip pos="1" side="sl" part="nbr"/> 
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal>
+		<clip pos="2" side="tl" part="nbr"/>
+		<lit-tag v="sp"/>
+	      </equal>
+	      <not>
+		<equal>
+		  <clip pos="2" side="sl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	      </not>
+	    </and>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <clip pos="2" side="sl" part="nbr"/> 
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal>
+		<clip pos="2" side="tl" part="nbr"/>
+		<lit-tag v="sp"/>
+	      </equal>
+	      <equal>
+		<clip pos="1" side="tl" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	      <equal>
+		<clip pos="2" side="tl" part="a_num"/>
+		<lit-tag v="num"/>
+	      </equal>
+	    </and>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="pl"/>
+	  </let>
+	</when>
+	<otherwise>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="sg"/>
+	  </let>
+	</otherwise>
+      </choose>
+
+      <choose> <!-- Determine gender and number value if they are undetermined -->
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="GD"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <var n="genero"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <lit-tag v="GD"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <var n="genero"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <lit-tag v="ND"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <var n="numero"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <lit-tag v="ND"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <var n="numero"/>
+	  </let>
+	</when>
+      </choose>
+    </def-macro>
+
+
+    <def-macro n="f_concord3" npar="3"> 
+      <choose><!-- Look if in source language there is concordance between first and second element -->
+	<when>
+	  <test> 
+	    <and>
+	      <or>
+		<equal>
+		  <clip pos="2" side="sl" part="gen"/>
+		  <clip pos="1" side="sl" part="gen"/>
+		</equal>
+		<equal>
+		  <clip pos="2" side="sl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+	      </or>
+	      <or>
+		<equal>
+		  <clip pos="2" side="sl" part="nbr"/>
+		  <clip pos="1" side="sl" part="nbr"/>
+		</equal>
+		<equal>
+		  <clip pos="2" side="sl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	      </or>
+	    </and>
+	  </test>
+	  <let><var n="concPrimero"/><lit v="true"/></let>
+	</when>
+	<otherwise> 
+	  <let><var n="concPrimero"/><lit v="false"/></let>
+	</otherwise>
+      </choose>
+      <choose><!-- Look if in source language there is concordance between second and third element -->
+	<when>
+	  <test> 
+	    <and>
+	      <or>
+		<equal>
+		  <clip pos="3" side="sl" part="gen"/>
+		  <clip pos="1" side="sl" part="gen"/>
+		</equal>
+		<equal>
+		  <clip pos="3" side="sl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+	      </or>
+	      <or>
+		<equal>
+		  <clip pos="3" side="sl" part="nbr"/>
+		  <clip pos="1" side="sl" part="nbr"/>
+		</equal>
+		<equal>
+		  <clip pos="3" side="sl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	      </or>
+	    </and>
+	  </test>
+	  <let><var n="concSegundo"/><lit v="true"/></let>
+	</when>	 
+	<otherwise> 
+	  <let><var n="concSegundo"/><lit v="false"/></let>
+	</otherwise>
+      </choose>
+
+
+      <choose><!-- Propagate the main parameter gender if it has been modified during the translation -->
+	<when>
+	  <test> 
+	    <and>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <clip pos="1" side="sl" part="gen"/>
+		</equal>
+	      </not>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+	      </not>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <lit-tag v="GD"/>
+		</equal>
+	      </not>
+	    </and>
+	  </test>
+	  <choose>
+	    <when>
+	      <test>
+		<and>
+		  <not>
+		    <equal>
+		      <clip pos="2" side="tl" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		  </not>
+		  <not>
+		    <and>
+		      <equal>
+			<clip pos="2" side="sl" part="gen"/>
+			<lit-tag v="mf"/>
+		      </equal>
+		      <not>
+			<equal>
+			  <clip pos="2" side="tl" part="gen"/>
+			  <lit-tag v="GD"/>
+			</equal>
+		      </not>
+		    </and>
+		  </not>
+		  <equal>
+		    <var n="concPrimero"/>
+		    <lit v="true"/>
+		  </equal>
+		</and>
+	      </test>
+	      <let>
+		<clip pos="2" side="tl" part="gen"/>
+		<clip pos="1" side="tl" part="gen"/> 
+	      </let>
+	    </when> 
+	  </choose>   
+	  <choose>
+	    <when>
+	      <test> 
+		<and>
+		  <not>
+		    <equal>
+		      <clip pos="3" side="tl" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		  </not>
+		  <not>
+		    <and>
+		      <equal>
+			<clip pos="3" side="sl" part="gen"/>
+			<lit-tag v="mf"/>
+		      </equal>
+		      <not>
+			<equal>
+			  <clip pos="3" side="tl" part="gen"/>
+			  <lit-tag v="GD"/>
+			</equal>
+		      </not>
+		    </and>
+		  </not>
+		  <equal>
+		    <var n="concSegundo"/>
+		    <lit v="true"/>
+		  </equal>
+		</and>
+	      </test>
+	      <let>
+		<clip pos="3" side="tl" part="gen"/>
+		<clip pos="1" side="tl" part="gen"/> 
+	      </let> 
+	    </when> 
+	  </choose>
+	</when>
+      </choose>
+
+      <choose><!-- Propagate the main parameter number if it has been modified during the translation -->
+	<when>
+	  <test> 
+	    <and>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <clip pos="1" side="sl" part="nbr"/>
+		</equal>
+	      </not>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	      </not>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <lit-tag v="ND"/>
+		</equal>
+	      </not>
+	    </and>
+	  </test>
+	  <choose>
+	    <when>
+	      <test>
+		<and>
+		  <not>
+		    <equal>
+		      <clip pos="2" side="tl" part="nbr"/>
+		      <lit-tag v="sp"/>
+		    </equal>
+		  </not>
+		  <not>
+		    <and>
+		      <equal>
+			<clip pos="2" side="sl" part="nbr"/>
+			<lit-tag v="sp"/>
+		      </equal>
+		      <not>
+			<equal>
+			  <clip pos="2" side="tl" part="nbr"/>
+			  <lit-tag v="ND"/>
+			</equal>
+		      </not>
+		    </and>
+		  </not>
+		  <equal>
+		    <var n="concPrimero"/>
+		    <lit v="true"/>
+		  </equal>
+		</and>
+	      </test>
+	      <let>
+		<clip pos="2" side="tl" part="nbr"/>
+		<clip pos="1" side="tl" part="nbr"/> 
+	      </let>
+	    </when>
+	  </choose>
+	  <choose>
+	    <when>
+	      <test>
+		<and>
+		  <not>
+		    <equal>
+		      <clip pos="3" side="tl" part="nbr"/>
+		      <lit-tag v="sp"/>
+		    </equal>
+		  </not>
+		  <not>
+		    <and>
+		      <equal>
+			<clip pos="3" side="sl" part="nbr"/>
+			<lit-tag v="sp"/>
+		      </equal>
+		      <not>
+			<equal>
+			  <clip pos="3" side="tl" part="nbr"/>
+			  <lit-tag v="ND"/>
+			</equal>
+		      </not>
+		    </and>
+		  </not>
+		  <equal>
+		    <var n="concSegundo"/>
+		    <lit v="true"/>
+		  </equal>
+		</and>
+	      </test>
+	      <let>
+		<clip pos="3" side="tl" part="nbr"/>
+		<clip pos="1" side="tl" part="nbr"/> 
+	      </let>
+	    </when>
+	  </choose>
+	</when>
+      </choose>
+
+
+
+      <choose> <!-- Determine the rule general gender. Priority order: main, second and third element -->
+	<when>
+	  <test> 
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="m"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="f"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="f"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="m"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <lit-tag v="f"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="f"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="3" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="m"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="3" side="tl" part="gen"/>
+	      <lit-tag v="f"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="f"/>
+	  </let>
+	</when> 
+	<when>
+	  <test>
+	    <and>
+	      <equal>
+		<clip pos="1" side="tl" part="gen"/>
+		<lit-tag v="mf"/>
+	      </equal>
+	      <not>
+		<equal>
+		  <clip pos="1" side="sl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+	      </not>
+	    </and>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <clip pos="1" side="sl" part="gen"/> 
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal>
+		<clip pos="2" side="tl" part="gen"/>
+		<lit-tag v="mf"/>
+	      </equal>
+	      <not>
+		<equal>
+		  <clip pos="2" side="sl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+	      </not>
+	    </and>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <clip pos="2" side="sl" part="gen"/> 
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal>
+		<clip pos="3" side="tl" part="gen"/>
+		<lit-tag v="mf"/>
+	      </equal>
+	      <not>
+		<equal>
+		  <clip pos="3" side="sl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+	      </not>
+	    </and>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <clip pos="3" side="sl" part="gen"/> 
+	  </let>
+	</when>               
+	<otherwise>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="m"/>
+	  </let>
+	</otherwise>
+      </choose>
+      
+      <choose><!-- Determine the rule general number. Priority order: main, second and third element -->
+	<when>
+	  <test> 
+	    <equal>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="sg"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <lit-tag v="pl"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="pl"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="sg"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <lit-tag v="pl"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="pl"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="3" side="tl" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="sg"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="3" side="tl" part="nbr"/>
+	      <lit-tag v="pl"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="pl"/>
+	  </let>
+	</when>     
+	<when>
+	  <test>
+	    <and>
+	      <equal>
+		<clip pos="1" side="tl" part="nbr"/>
+		<lit-tag v="sp"/>
+	      </equal>
+	      <not>
+		<equal>
+		  <clip pos="1" side="sl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	      </not>
+	    </and>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <clip pos="1" side="sl" part="nbr"/> 
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal>
+		<clip pos="2" side="tl" part="nbr"/>
+		<lit-tag v="sp"/>
+	      </equal>
+	      <not>
+		<equal>
+		  <clip pos="2" side="sl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	      </not>
+	    </and>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <clip pos="2" side="sl" part="nbr"/> 
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal>
+		<clip pos="3" side="tl" part="nbr"/>
+		<lit-tag v="sp"/>
+	      </equal>
+	      <not>
+		<equal>
+		  <clip pos="3" side="sl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	      </not>
+	    </and>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <clip pos="3" side="sl" part="nbr"/> 
+	  </let>
+	</when>	
+	<when>
+	  <test>
+	    <and>
+	      <equal>
+		<clip pos="2" side="tl" part="nbr"/>
+		<lit-tag v="sp"/>
+	      </equal>
+	      <equal>
+		<clip pos="1" side="tl" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	      <equal>
+		<clip pos="2" side="tl" part="a_num"/>
+		<lit-tag v="num"/>
+	      </equal>
+	    </and>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="pl"/>
+	  </let>
+	</when>
+	
+	<otherwise>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="sg"/>
+	  </let>
+	</otherwise>
+      </choose>
+
+      <choose> <!-- Assign values to GD and ND -->
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="GD"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <var n="genero"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <lit-tag v="GD"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <var n="genero"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="3" side="tl" part="gen"/>
+	      <lit-tag v="GD"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <var n="genero"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <lit-tag v="ND"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <var n="numero"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <lit-tag v="ND"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <var n="numero"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="3" side="tl" part="nbr"/>
+	      <lit-tag v="ND"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <var n="numero"/>
+	  </let>
+	</when>
+      </choose>      
+    </def-macro>     
+    
+    
+    <def-macro n="f_concord4" npar="4">
+      <choose>
+	<when>
+	  <test> 
+	    <and>
+	      <or>
+		<equal>
+		  <clip pos="2" side="sl" part="gen"/>
+		  <clip pos="1" side="sl" part="gen"/>
+		</equal>
+		<equal>
+		  <clip pos="2" side="sl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+	      </or>
+	      <or>
+		<equal>
+		  <clip pos="2" side="sl" part="nbr"/>
+		  <clip pos="1" side="sl" part="nbr"/>
+		</equal>
+		<equal>
+		  <clip pos="2" side="sl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	      </or>
+	    </and>
+	  </test>
+	  <let><var n="concPrimero"/><lit v="true"/></let>
+	</when>
+	<otherwise> 
+	  <let><var n="concPrimero"/><lit v="false"/></let>
+	</otherwise>
+      </choose>
+      
+      <choose>
+	<when>
+	  <test> 
+	    <and>
+	      <or>
+		<equal>
+		  <clip pos="3" side="sl" part="gen"/>
+		  <clip pos="1" side="sl" part="gen"/>
+		</equal>
+		<equal>
+		  <clip pos="3" side="sl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+	      </or>
+	      <or>
+		<equal>
+		  <clip pos="3" side="sl" part="nbr"/>
+		  <clip pos="1" side="sl" part="nbr"/>
+		</equal>
+		<equal>
+		  <clip pos="3" side="sl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	      </or>
+	    </and>
+	  </test>
+	  <let><var n="concSegundo"/><lit v="true"/></let>
+	</when>	 
+	<otherwise>
+	  <let><var n="concSegundo"/><lit v="false"/></let>
+	</otherwise>
+      </choose>
+
+      <choose>
+	<when>
+	  <test> 
+	    <and>
+	      <or>
+		<equal>
+		  <clip pos="4" side="sl" part="gen"/>
+		  <clip pos="1" side="sl" part="gen"/>
+		</equal>
+		<equal>
+		  <clip pos="4" side="sl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+	      </or>
+	      <or>
+		<equal>
+		  <clip pos="4" side="sl" part="nbr"/>
+		  <clip pos="1" side="sl" part="nbr"/>
+		</equal>
+		<equal>
+		  <clip pos="4" side="sl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	      </or>
+	    </and>
+	  </test>
+	  <let><var n="concTercero"/><lit v="true"/></let>
+	</when>	 
+	<otherwise> 
+	  <let><var n="concTercero"/><lit v="false"/></let>
+	</otherwise>
+      </choose>
+      
+
+      <choose>
+	<when>
+	  <test> 
+	    <and>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <clip pos="1" side="sl" part="gen"/>
+		</equal>
+	      </not>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</equal>
+	      </not>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="gen"/>
+		  <lit-tag v="GD"/>
+		</equal>
+	      </not>
+	    </and>
+	  </test>
+	  <choose>
+	    <when>
+	      <test>
+		<and>
+		  <not>
+		    <equal>
+		      <clip pos="2" side="tl" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		  </not>
+		  <not>
+		    <and>
+		      <equal>
+			<clip pos="2" side="sl" part="gen"/>
+			<lit-tag v="mf"/>
+		      </equal>
+		      <not>
+			<equal>
+			  <clip pos="2" side="tl" part="gen"/>
+			  <lit-tag v="GD"/>
+			</equal>
+		      </not>
+		    </and>
+		  </not>
+		  <equal>
+		    <var n="concPrimero"/>
+		    <lit v="true"/>
+		  </equal>
+		</and>
+	      </test>
+	      <let>
+		<clip pos="2" side="tl" part="gen"/>
+		<clip pos="1" side="tl" part="gen"/> 
+	      </let>
+	    </when> 
+	  </choose>
+	  <choose>
+	    <when>
+	      <test>
+		<and>
+		  <not>
+		    <equal>
+		      <clip pos="3" side="tl" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		  </not>
+		  <not>
+		    <and>
+		      <equal>
+			<clip pos="3" side="sl" part="gen"/>
+			<lit-tag v="mf"/>
+		      </equal>
+		      <not>
+			<equal>
+			  <clip pos="3" side="tl" part="gen"/>
+			  <lit-tag v="GD"/>
+			</equal>
+		      </not>
+		    </and>
+		  </not>
+		  <equal>
+		    <var n="concSegundo"/>
+		    <lit v="true"/>
+		  </equal>
+		</and>
+	      </test>
+	      <let>
+		<clip pos="3" side="tl" part="gen"/>
+		<clip pos="1" side="tl" part="gen"/> 
+	      </let>
+	    </when> 
+	  </choose>  
+	  <choose>
+	    <when>
+	      <test>  
+		<and>
+		  <not>
+		    <equal>
+		      <clip pos="4" side="tl" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		  </not>
+		  <not>
+		    <and>
+		      <equal>
+			<clip pos="4" side="sl" part="gen"/>
+			<lit-tag v="mf"/>
+		      </equal>
+		      <not>
+			<equal>
+			  <clip pos="4" side="tl" part="gen"/>
+			  <lit-tag v="GD"/>
+			</equal>
+		      </not>
+		    </and>
+		  </not>
+		  <equal>
+		    <var n="concTercero"/>
+		    <lit v="true"/>
+		  </equal>
+		</and>
+	      </test>
+	      <let>
+		<clip pos="4" side="tl" part="gen"/>
+		<clip pos="1" side="tl" part="gen"/> 
+	      </let> 
+	    </when> 
+	  </choose>
+	</when>
+      </choose>
+
+      <choose>
+	<when>
+	  <test> 
+	    <and>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <clip pos="1" side="sl" part="nbr"/>
+		</equal>
+	      </not>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	      </not>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <lit-tag v="ND"/>
+		</equal>
+	      </not>
+	    </and>
+	  </test>
+	  <choose>
+	    <when>
+	      <test>
+		<and>
+		  <not>
+		    <equal>
+		      <clip pos="2" side="tl" part="nbr"/>
+		      <lit-tag v="sp"/>
+		    </equal>
+		  </not>
+		  <not>
+		    <and>
+		      <equal>
+			<clip pos="2" side="sl" part="nbr"/>
+			<lit-tag v="sp"/>
+		      </equal>
+		      <not>
+			<equal>
+			  <clip pos="2" side="tl" part="nbr"/>
+			  <lit-tag v="ND"/>
+			</equal>
+		      </not>
+		    </and>
+		  </not>
+		  <equal>
+		    <var n="concPrimero"/>
+		    <lit v="true"/>
+		  </equal>
+		</and>
+	      </test>
+	      <let>
+		<clip pos="2" side="tl" part="nbr"/>
+		<clip pos="1" side="tl" part="nbr"/> 
+	      </let>
+	    </when>
+	  </choose>
+	  <choose>
+	    <when>
+	      <test>
+		<and>
+		  <not>
+		    <equal>
+		      <clip pos="3" side="tl" part="nbr"/>
+		      <lit-tag v="sp"/>
+		    </equal>
+		  </not>
+		  <not>
+		    <and>
+		      <equal>
+			<clip pos="3" side="sl" part="nbr"/>
+			<lit-tag v="sp"/>
+		      </equal>
+		      <not>
+			<equal>
+			  <clip pos="3" side="tl" part="nbr"/>
+			  <lit-tag v="ND"/>
+			</equal>
+		      </not>
+		    </and>
+		  </not>
+		  <equal>
+		    <var n="concSegundo"/>
+		    <lit v="true"/>
+		  </equal>
+		</and>
+	      </test>
+	      <let>
+		<clip pos="3" side="tl" part="nbr"/>
+		<clip pos="1" side="tl" part="nbr"/> 
+	      </let>
+	    </when>
+	  </choose>
+	  <choose>
+	    <when>
+	      <test>
+		<and>
+		  <not>
+		    <equal>
+		      <clip pos="4" side="tl" part="nbr"/>
+		      <lit-tag v="sp"/>
+		    </equal>
+		  </not>
+		  <not>
+		    <and>
+		      <equal>
+			<clip pos="4" side="sl" part="nbr"/>
+			<lit-tag v="sp"/>
+		      </equal>
+		      <not>
+			<equal>
+			  <clip pos="4" side="tl" part="nbr"/>
+			  <lit-tag v="ND"/>
+			</equal>
+		      </not>
+		    </and>
+		  </not>
+		  <equal>
+		    <var n="concTercero"/>
+		    <lit v="true"/>
+		  </equal>
+		</and>
+	      </test>
+	      <let>
+		<clip pos="4" side="tl" part="nbr"/>
+		<clip pos="1" side="tl" part="nbr"/> 
+	      </let>
+	    </when>
+	  </choose>
+	</when>
+      </choose>
+      
+      <choose>
+	<when>
+	  <test> 
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="m"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="f"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="f"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="m"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <lit-tag v="f"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="f"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="3" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="m"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="3" side="tl" part="gen"/>
+	      <lit-tag v="f"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="f"/>
+	  </let>
+	</when> 
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="4" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="m"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="4" side="tl" part="gen"/>
+	      <lit-tag v="f"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="f"/>
+	  </let>
+	</when>
+	<otherwise>
+	  <let>
+	    <var n="genero"/>
+	    <lit-tag v="m"/>
+	  </let>
+	</otherwise>
+
+      </choose>
+      
+      <choose>
+	<when>
+	  <test> 
+	    <equal>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="sg"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <lit-tag v="pl"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="pl"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="sg"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <lit-tag v="pl"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="pl"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="3" side="tl" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="sg"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="3" side="tl" part="nbr"/>
+	      <lit-tag v="pl"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="pl"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="4" side="tl" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="sg"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="4" side="tl" part="nbr"/>
+	      <lit-tag v="pl"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="pl"/>
+	  </let>
+	</when> 
+	<otherwise>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="sg"/>
+	  </let>
+	</otherwise>
+      </choose>
+
+      <choose> 
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="GD"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <var n="genero"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <lit-tag v="GD"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <var n="genero"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="3" side="tl" part="gen"/>
+	      <lit-tag v="GD"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <var n="genero"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="4" side="tl" part="gen"/>
+	      <lit-tag v="GD"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <var n="genero"/>
+	  </let>
+	</when> 
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <lit-tag v="ND"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <var n="numero"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <lit-tag v="ND"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <var n="numero"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="3" side="tl" part="nbr"/>
+	      <lit-tag v="ND"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <var n="numero"/>
+	  </let>
+	</when>
+      </choose>
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="4" side="tl" part="nbr"/>
+	      <lit-tag v="ND"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <var n="numero"/>
+	  </let>
+	</when>
+      </choose>      
+    </def-macro> 
+
+    <def-macro n="f_lexicAdv" npar="1">
+      <choose>
+	<when>
+	  <test>
+	    <equal caseless="yes">
+	      <clip pos="1" side="sl" part="lem"/>
+	      <lit v="bien"/>
+	    </equal>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="lem"/>
+	    <lit v="muy"/>
+	  </let>
+	</when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="f_lexicAdj" npar="1"><!--para los adjetivos cuando van delante del nombre -->
+      <choose>
+	<when>
+	  <test>
+	    <and>
+	      <equal caseless="yes">
+		<clip pos="1" side="tl" part="lem"/>
+		<lit v="bueno"/>
+	      </equal>
+	      <equal>
+		<clip pos="1" side="tl" part="gen"/>
+		<lit-tag v="m"/>
+	      </equal>
+	      <equal>
+		<clip pos="1" side="tl" part="nbr"/>
+		<lit-tag v="sg"/>
+	      </equal>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="a_adj"/>
+		  <lit-tag v="adj.sup"/>
+		</equal>
+	      </not>		
+	    </and>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="lem"/>
+	    <get-case-from pos="1">
+	      <lit v="buen"/>
+	    </get-case-from>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal caseless="yes">
+		<clip pos="1" side="tl" part="lem"/>
+		<lit v="grande"/>
+	      </equal>
+	      <equal>
+		<clip pos="1" side="tl" part="gen"/>
+		<lit-tag v="mf"/>
+	      </equal>
+	      <equal>
+		<clip pos="1" side="tl" part="nbr"/>
+		<lit-tag v="sg"/>
+	      </equal>
+	    </and>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="lem"/>
+	    <get-case-from pos="1">
+	      <lit v="gran"/>
+	    </get-case-from>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal caseless="yes">
+		<clip pos="1" side="tl" part="lem"/>
+		<lit v="primero"/>
+	      </equal>
+	      <equal>
+		<clip pos="1" side="tl" part="gen"/>
+		<lit-tag v="m"/>
+	      </equal>
+	      <equal>
+		<clip pos="1" side="tl" part="nbr"/>
+		<lit-tag v="sg"/>
+	      </equal>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="a_adj"/>
+		  <lit-tag v="adj.sup"/>
+		</equal>
+	      </not>	
+	    </and>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="lem"/>
+	    <get-case-from pos="1">
+	      <lit v="primer"/>
+	    </get-case-from>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal caseless="yes">
+		<clip pos="1" side="tl" part="lem"/>
+		<lit v="tercero"/>
+	      </equal>
+	      <equal>
+		<clip pos="1" side="tl" part="gen"/>
+		<lit-tag v="m"/>
+	      </equal>
+	      <equal>
+		<clip pos="1" side="tl" part="nbr"/>
+		<lit-tag v="sg"/>
+	      </equal>
+	    </and>
+	  </test>
+	  <let>
+	    <clip pos="1" side="tl" part="lem"/>
+	    <get-case-from pos="1">
+	      <lit v="tercer"/>
+	    </get-case-from>
+	  </let>
+	</when>
+      </choose>
+    </def-macro>
+
+
+    
+  </section-def-macros>
+
+  <section-rules>
+
+    <rule> 
+      <pattern>
+	<pattern-item n="pp"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <or>
+                  <equal>
+                    <clip pos="1" side="sl" part="a_verb"/>
+                    <lit-tag v="vbser"/>
+                  </equal>
+                  <equal>
+                    <clip pos="1" side="sl" part="a_verb"/>
+                    <lit-tag v="vbhaver"/>
+                  </equal>
+              </or>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="gen"/>
+              <lit-tag v="m"/>
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit-tag v="sg"/>
+            </let>
+          </when>
+        </choose>
+	<out> 
+	  <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="temps"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+
+    <rule> <!-- REGLA: DETERMINANT -->
+      <pattern>
+	<pattern-item n="det"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord1">
+	  <with-param pos="1"/>
+	</call-macro>     
+	<out> 
+	  <lu>    
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu> 
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA: no -->
+      <pattern>
+	<pattern-item n="no"/>
+      </pattern>
+      <action>	
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	</out>
+	<let>
+	  <var n="no"/>
+	  <lit v="yes"/>
+	</let>
+      </action>
+    </rule>
+
+
+    <rule> <!-- REGLA: NOM -->
+      <pattern>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord1">
+	  <with-param pos="1"/>
+	</call-macro>     
+	<out>  
+	  <lu>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_nom"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="lemq"/> 
+	  </lu>
+	</out>
+	<let>
+	  <var n="no"/>
+	  <lit v=""/>
+	</let>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA: ADJECTIU -->
+      <pattern>
+	<pattern-item n="adj"/>
+      </pattern>
+      <action>	
+	<call-macro n="f_concord1">
+	  <with-param pos="1"/>
+	</call-macro>     
+	<out> 
+	  <lu>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_adj"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="lemq"/> 
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA: PRONOM --><!--Special case, macro f_concord1 
+				     is not applicable because gender and number can not be taken from previous rules -->
+      <pattern>
+	<pattern-item n="prn"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test> 
+	      <equal>
+		<clip pos="1" side="tl" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test> 
+	      <equal>
+		<clip pos="1" side="tl" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	</choose>	
+	<out>   
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+
+
+    <rule> <!-- REGLA: DETERMINANT NOM -->
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>     
+	<out>     
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/> 
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_nom"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/> 
+	  </lu>  
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA: NOM ADJECTIU-->
+      <pattern>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord2">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro> 
+	    <out>   
+	      <lu>
+		<clip pos="1" side="tl" part="lemh"/>
+		<clip pos="1" side="tl" part="a_nom"/>
+		<clip pos="1" side="tl" part="gen"/>
+		<clip pos="1" side="tl" part="nbr"/>
+		<clip pos="1" side="tl" part="lemq"/> 
+	      </lu>
+	      <b pos="1"/>
+	      <lu>
+		<clip pos="2" side="tl" part="lemh"/>
+		<clip pos="2" side="tl" part="a_adjec"/>
+		<clip pos="2" side="tl" part="gen"/>
+		<clip pos="2" side="tl" part="nbr"/>
+		<clip pos="2" side="tl" part="lemq"/>
+	      </lu>	    
+	    </out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA: NOM ADJECTIU ADJECTIU -->
+      <pattern>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord3">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>     
+	<out>   
+	  <lu>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_nom"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="lemq"/> 
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_adjec"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>	    
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_adjec"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>	    
+	</out>
+      </action>
+    </rule>
+    
+    <rule> <!-- REGLA: ADJECTIU NOM -->
+      <pattern>
+	<pattern-item n="adj"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro> 
+<!--	<call-macro n="f_lexicAdj">
+	  <with-param pos="1"/>
+	</call-macro>-->
+	<out>  
+	  <lu>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_adj"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="lemq"/>   
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_nom"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>  
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA: DET NOM ADJECTIU -->
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord3">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	  <with-param pos="1"/>
+	</call-macro>     
+	<out>    
+	  <lu>  
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu> 
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_nom"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/> 
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_adjec"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA: DET NOM ADJECTIU ADJECTIU-->
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord4">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	  <with-param pos="1"/>
+	</call-macro>     
+	<out>    
+	  <lu>  
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu> 
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_nom"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/> 
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_adjec"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_adjec"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA NOVA 2: DET NOM VERB ADJECTIU: El n�vol �s vermell - La nube es roja (suposo que serveix per a qualsevol verb) "mireiafarrus"-->
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="ser_estar"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord3">
+	  <with-param pos="2"/>
+	  <with-param pos="4"/>
+	  <with-param pos="1"/>
+	</call-macro>     
+	<out>    
+	  <lu>  
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu> 
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_nom"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/> 
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_verb"/>
+	    <clip pos="3" side="tl" part="temps"/>
+	    <clip pos="3" side="tl" part="persona"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_adjec"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA NOVA 1: DETERMINANT NOM ADJECTIU cnjcoo ADJECTIU "mireiafarrus"-->
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+	<pattern-item n="y"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord4">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	  <with-param pos="5"/>
+	  <with-param pos="1"/>
+	</call-macro>     
+	<out>    
+	  <lu>  
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu> 
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_nom"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/> 
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_adjec"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>  
+	    <clip pos="4" side="tl" part="whole"/>
+	  </lu> 
+	  <b pos="4"/>
+	  <lu>
+	    <clip pos="5" side="tl" part="lemh"/>
+	    <clip pos="5" side="tl" part="a_adjec"/>
+	    <clip pos="5" side="tl" part="gen"/>
+	    <clip pos="5" side="tl" part="nbr"/>
+	    <clip pos="5" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA: NOM ADJECTIU ADJECTIU-->
+      <pattern>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord3">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>     
+	<out>    
+	  <lu>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_nom"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="lemq"/>   
+	  </lu> 
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_adjec"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_adjec"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+
+    <rule> <!-- REGLA: DET ADJECTIU NOM-->
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="adjec"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord3">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>  
+	<call-macro n="f_lexicAdj">
+	  <with-param pos="2"/>
+	</call-macro>
+	<out>  
+	  <lu>    
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_adjec"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/> 
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+
+    <rule> <!-- REGLA: PREDET DET NOM-->
+      <pattern>
+	<pattern-item n="predet"/>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord3">
+	  <with-param pos="3"/>           
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>     
+	<out> 
+	  <lu>    
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/> 
+	  </lu>	    
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA: PREDET DET NOM ADJECTIU-->
+      <pattern>
+	<pattern-item n="predet"/>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord4">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>     
+	<out> 
+	  <lu>    
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/> 
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_adjec"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+
+
+    <rule> <!-- REGLA: DETERMINANT ADJECTIU-->
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>     
+	<out>     
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_adjec"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA: ADJECTIU NOM ADJECTIU-->
+      <pattern> 
+	<pattern-item n="adj"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord3">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	  <with-param pos="1"/>
+	</call-macro>  
+	<call-macro n="f_lexicAdj">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>  
+	  <lu>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_adj"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="lemq"/>     
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_nom"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/> 
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_adjec"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA: DET ADJECTIU NOM ADJECTIU -->
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="adjec"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord4">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>  
+<!--	<call-macro n="f_lexicAdj">
+	  <with-param pos="2"/>
+	</call-macro>-->
+	<out> 
+	  <lu>    
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_adjec"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/> 
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_adjec"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+
+    <rule> <!-- REGLA: NOM ADVERBI ADJECTIU-->
+      <pattern>
+	<pattern-item n="nom"/>
+	<pattern-item n="adv"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+<!--	<call-macro n="f_lexicAdv">
+	  <with-param pos="2"/>
+	</call-macro>     -->
+	<call-macro n="f_concord2">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>     
+	<out>   
+	  <lu>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_nom"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="lemq"/> 
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_adjec"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA: DET NOM ADVERBI ADJECTIU -->
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adv"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+<!--	<call-macro n="f_lexicAdv">
+	  <with-param pos="3"/>
+	</call-macro>     -->
+	<call-macro n="f_concord3">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	  <with-param pos="4"/>
+	</call-macro>     
+	<out>  
+	  <lu>    
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_nom"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>     
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_adjec"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+
+    <rule> <!-- REGLA: DET ADVERBI NOM-->
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="adv"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord2">
+	  <with-param pos="3"/>
+	  <with-param pos="1"/>
+	</call-macro>     
+	<out>   
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/> 
+	  </lu>  
+	</out>
+      </action>
+    </rule>
+
+
+    <rule> <!-- REGLA: NUMERAL NOM -->
+      <pattern>
+	<pattern-item n="num"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>   
+	<out>     
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>	  
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_nom"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/> 
+	  </lu>  
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA: NUMERAL ADJECTIU -->
+      <pattern>
+	<pattern-item n="num"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>     
+	<out>     
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_adjec"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+
+    <rule> <!-- REGLA: NUMERAL NOM ADJECTIU -->
+      <pattern>
+	<pattern-item n="num"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord3">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>     
+	<out>     
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_nom"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/> 
+	  </lu>  
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_adjec"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA: NUMERAL ADJECTIU NOM -->
+      <pattern>
+	<pattern-item n="num"/>
+	<pattern-item n="adjec"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord3">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro> 
+	<call-macro n="f_lexicAdj">
+	  <with-param pos="2"/>
+	</call-macro>
+	<out>     
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_adjec"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/> 
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+
+    <rule> <!-- REGLA NOVA 3: DET NUMERAL "mireiafarrus"-->
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="num"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>  
+	<out>     
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>  
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA: DET NUMERAL NOM -->
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="num"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord3">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>  
+	<out>     
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>  
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/> 
+	  </lu>
+	</out>
+      </action>
+    </rule>
+    
+    <rule> <!-- REGLA: DET NUMERAL ADJ -->
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="num"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord3">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>  
+	<out>     
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>  
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_adjec"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/> 
+	  </lu>
+	</out>
+      </action>
+    </rule>
+    
+<!--    <rule> <!-x- REGLA: PREP NOM-x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>	
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_concord1">
+	  <with-param pos="2"/>
+	</call-macro>
+	<out>   
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_nom"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+    
+    <rule> <!-x- REGLA: PREP ADJECTIU -x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="adj"/>
+      </pattern>
+      <action>	
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_concord1">
+	  <with-param pos="2"/>
+	</call-macro>     
+	<out>   
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_adj"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+    
+    
+    <rule> <!-x- REGLA: PREP PRONOM -x-><!-x-Special case, macro f_concord1 
+					  is not applicable because gender and number cannot be taken from previous rules -x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="prn"/>
+      </pattern>
+      <action>	
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test> 
+	      <equal>
+		<clip pos="2" side="tl" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test> 
+	      <equal>
+		<clip pos="2" side="tl" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </let>
+	  </when>
+	</choose>	
+	<out>   
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+    
+    
+    <rule> <!-x- REGLA: PREP NUMERAL-x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="num"/>
+      </pattern>
+      <action>	
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>     
+	<call-macro n="f_concord1">
+	  <with-param pos="2"/>
+	</call-macro>     
+	<out>  
+	  <lu> 
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+    
+    
+    
+    <rule> <!-x- REGLA: PREP NOM ADJECTIU-x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>	
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>     
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>  
+	<out>   
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_nom"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_adjec"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+	
+      </action>
+    </rule>
+    
+    
+    <rule> <!-x- REGLA: PREP ADJECTIU NOM -x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="adj"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>	
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>     
+	<call-macro n="f_concord2">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_lexicAdj">
+	  <with-param pos="2"/>
+	</call-macro>
+	<out>  
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_adj"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>  
+	  </lu>
+	  <b pos="2"/>
+	  <lu> 
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+	
+      </action>
+    </rule>
+    
+    <rule> <!-x- REGLA: PREP DET NOM ADJECTIU-x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>		  
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="f_concord3">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	  <with-param pos="2"/>
+	</call-macro>     
+	<out>    
+	  <lu>  
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu> 
+	  <b pos="2"/>	   
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_adjec"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+	
+      </action>
+    </rule>
+    <rule> <!-x- REGLA: PREP DET NOM-x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>		  
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="f_concord2">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	</call-macro>     
+	<out>    
+	  <lu>  
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu> 
+	  <b pos="2"/>	   
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+	
+      </action>
+    </rule>
+    
+    
+    <rule> <!-x- REGLA: PREP DET NOM ADJECTIU ADJECTIU-x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>	
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>     
+	
+	<call-macro n="f_concord4">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	  <with-param pos="5"/>
+	  <with-param pos="2"/>
+	</call-macro>     
+	<out>    
+	  <lu>  
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu> 
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_adjec"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="4"/>
+	  <lu>
+	    <clip pos="5" side="tl" part="lemh"/>
+	    <clip pos="5" side="tl" part="a_adjec"/>
+	    <clip pos="5" side="tl" part="gen"/>
+	    <clip pos="5" side="tl" part="nbr"/>
+	    <clip pos="5" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+    
+    <rule> <!-x- REGLA: PREP NOM ADJECTIU ADJECTIU-x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>	
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="f_concord3">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	</call-macro>     
+	<out>    
+	  <lu>  
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_nom"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu> 
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_adjec"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_adjec"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+    
+    
+    
+    <rule> <!-x- REGLA: PREP DET ADJECTIU NOM-x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="det"/>
+	<pattern-item n="adjec"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>	
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="f_concord3">
+	  <with-param pos="4"/>
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	</call-macro>  
+	<call-macro n="f_lexicAdj">
+	  <with-param pos="3"/>
+	</call-macro>
+	<out>  
+	  <lu>    
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_adjec"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_nom"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>
+	</out>      
+      </action>
+    </rule>
+    
+    
+    <rule> <!-x- REGLA: PREP PREDET DET NOM-x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="predet"/>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>	
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="f_concord3">
+	  <with-param pos="4"/>           
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	</call-macro>     
+	<out> 
+	  <lu>    
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_nom"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>	    
+	</out>
+	
+      </action>
+    </rule>
+    
+    <rule> <!-x- REGLA: PREP PREDET DET NOM ADJECTIU-x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="predet"/>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>		   
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="4"/>
+	</call-macro>     
+	
+	<call-macro n="f_concord4">
+	  <with-param pos="4"/>
+	  <with-param pos="5"/>
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	</call-macro>     
+	<out> 
+	  <lu>    
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_nom"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="4"/>
+	  <lu>
+	    <clip pos="5" side="tl" part="lemh"/>
+	    <clip pos="5" side="tl" part="a_adjec"/>
+	    <clip pos="5" side="tl" part="gen"/>
+	    <clip pos="5" side="tl" part="nbr"/>
+	    <clip pos="5" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+	
+      </action>
+    </rule>
+    
+    
+    
+    <rule> <!-x- REGLA: PREP DETERMINANT ADJECTIU-x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="det"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>		   
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="f_concord2">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	</call-macro>     
+	<out>     
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_adjec"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+	
+      </action>
+    </rule>
+    
+    <rule> <!-x- REGLA: PREP ADJECTIU NOM ADJECTIU-x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="adj"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>     
+	<call-macro n="f_concord3">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	  <with-param pos="2"/>
+	</call-macro> 
+	<call-macro n="f_lexicAdj">
+	  <with-param pos="2"/>
+	</call-macro>
+	<out>  
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_adj"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>    
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_adjec"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+	
+      </action>
+    </rule>
+    
+    <rule> <!-x- REGLA: PREP DET ADJECTIU NOM ADJECTIU -x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="det"/>
+	<pattern-item n="adjec"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>		   
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="f_concord4">
+	  <with-param pos="4"/>
+	  <with-param pos="5"/>
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	</call-macro> 
+	<call-macro n="f_lexicAdj">
+	  <with-param pos="3"/>
+	</call-macro>
+	<out> 
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_adjec"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_nom"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="4"/>
+	  <lu>
+	    <clip pos="5" side="tl" part="lemh"/>
+	    <clip pos="5" side="tl" part="a_adjec"/>
+	    <clip pos="5" side="tl" part="gen"/>
+	    <clip pos="5" side="tl" part="nbr"/>
+	    <clip pos="5" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+	
+      </action>
+    </rule>
+    
+    
+    <rule> <!-x- REGLA: PREP NOM ADVERBI ADJECTIU-x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adv"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>	
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>     
+	<call-macro n="f_lexicAdv">
+	  <with-param pos="3"/>
+	</call-macro>     
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="4"/>
+	</call-macro>     
+	<out>   
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_nom"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_adjec"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+	
+      </action>
+    </rule>
+    
+    <rule> <!-x- REGLA: PREP DET NOM ADVERBI ADJECTIU -x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adv"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>		   
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="f_lexicAdv">
+	  <with-param pos="4"/>
+	</call-macro>     
+	<call-macro n="f_concord3">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	  <with-param pos="5"/>
+	</call-macro>     
+	<out>  
+	  <lu>    
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>    
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="4"/>
+	  <lu>
+	    <clip pos="5" side="tl" part="lemh"/>
+	    <clip pos="5" side="tl" part="a_adjec"/>
+	    <clip pos="5" side="tl" part="gen"/>
+	    <clip pos="5" side="tl" part="nbr"/>
+	    <clip pos="5" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+	
+      </action>
+    </rule>
+    
+    
+    <rule> <!-x- REGLA: PREP DET ADVERBI NOM-x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="det"/>
+	<pattern-item n="adv"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>		   
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="4"/>
+	</call-macro>     
+	<call-macro n="f_lexicAdv">
+	  <with-param pos="3"/>
+	</call-macro> 	
+	<call-macro n="f_concord2">
+	  <with-param pos="4"/>
+	  <with-param pos="2"/>
+	</call-macro>     
+	<out>   
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_nom"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>  
+	</out>
+	
+      </action>
+    </rule>-->
+    
+    
+    <rule> <!-- REGLA: ADVERBI ADJECTIU-->
+      <pattern>
+	<pattern-item n="adv"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+<!--	<call-macro n="f_lexicAdv">
+	  <with-param pos="1"/>
+	</call-macro>   -->
+	<call-macro n="f_concord1">
+	  <with-param pos="2"/>
+	</call-macro>   
+	<out>   
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="tags"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	</out>	
+      </action>
+    </rule>
+<!--
+    <rule> <!-x- REGLA: PREP NUMERAL NOM -x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="num"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>		   
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>     
+	
+	<call-macro n="f_concord2">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	</call-macro>     
+	<out>     
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>	    
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>  
+	</out>
+	
+      </action>
+    </rule>
+    
+    <rule> <!-x- REGLA: PREP NUMERAL ADJECTIU -x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="num"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>		  
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>     
+	
+	<call-macro n="f_concord2">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	</call-macro>     
+	<out>     
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_adjec"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	</out>       
+      </action>
+    </rule>
+    
+    
+    <rule> <!-x- REGLA: PREP NUMERAL NOM ADJECTIU -x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="num"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>		   
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>     
+	
+	<call-macro n="f_concord3">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	  <with-param pos="4"/>
+	</call-macro>     
+	<out>     
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>	    
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>  
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_adjec"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+	
+      </action>
+    </rule>
+    
+    <rule> <!-x- REGLA: PREP NUMERAL ADJECTIU NOM -x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="num"/>
+	<pattern-item n="adjec"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>	
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="4"/>
+	</call-macro>     
+	
+	<call-macro n="f_concord3">
+	  <with-param pos="4"/>
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	</call-macro> 
+	<call-macro n="f_lexicAdj">
+	  <with-param pos="3"/>
+	</call-macro>
+	<out>     
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_adjec"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_nom"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+	
+      </action>
+    </rule>
+    
+    
+    
+    <rule> <!-x- REGLA: PREP DET NUMERAL NOM -x->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="det"/>
+	<pattern-item n="num"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>		   
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="f_concord3">
+	  <with-param pos="4"/>
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <equal caseless="yes">
+		<clip pos="2" side="sl" part="lem"/>
+		<lit v="tot"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="2" side="tl" part="lem"/>
+	      <get-case-from pos="1">
+		<lit v="o"/>
+	      </get-case-from>
+	    </let>
+	    <let>
+	      <clip pos="2" side="tl" part="a_det"/>
+	      <lit-tag v="det.def"/>
+	    </let>
+	  </when>
+	</choose>    
+	<out>     
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>	    
+	  <lu>
+	    <clip pos="3" side="tl" part="whole"/>
+	  </lu>  
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_nom"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+	
+      </action>
+    </rule>-->
+    
+
+
+    <rule> <!--REGLA: PRONOM DETERMINANT NOM: "Nosaltres les dones : Nosotras las mujeres" -->
+      <pattern>
+	<pattern-item n="nusatros"/>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord3">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>     
+	<out>  
+	  <lu>  
+	    <clip pos="1" side="tl" part="lem"/>
+	    <clip pos="1" side="tl" part="a_prn"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	  </lu> 
+	  <b pos="1"/>
+	  
+	  <lu>
+	    <clip pos="2" side="tl" part="lem"/>
+	    <clip pos="2" side="tl" part="a_det"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/> 
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!--REGLA: PRONOM DETERMINANT ADJECTIU-->
+      <pattern>
+	<pattern-item n="nusatros"/>
+	<pattern-item n="det"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord3">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>     
+	<out>  
+	  <lu>  
+	    <clip pos="1" side="tl" part="lem"/>
+	    <clip pos="1" side="tl" part="a_prn"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	  </lu> 
+	  <b pos="1"/>
+	  
+	  <lu>
+	    <clip pos="2" side="tl" part="lem"/>
+	    <clip pos="2" side="tl" part="a_det"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_adjec"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+
+   <rule> <!--REGLA: DETDEF + NOM PROPI (antrop�nim)-->
+      <pattern>
+	<pattern-item n="detdef"/>
+	<pattern-item n="npant"/>
+      </pattern>
+      <action>
+	<call-macro n="f_bcond">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <lu>
+	    <clip pos="2" side="tl" part="lem"/>
+	    <clip pos="2" side="tl" part="a_npant"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA: RELAT --> <!-- revisar qu� fa aquesta regla!!!! : qui <ND>?-->
+      <pattern>
+	<pattern-item n="relat"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord1">
+	  <with-param pos="1"/>
+	</call-macro>     
+	<out>  
+	  <lu> 
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    
+    
+    <rule> <!-- prnrpo -->
+      <pattern>
+	<pattern-item n="prnpro"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord1">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="lem"/>
+		  <lit v=""/>
+		</equal>
+	      </not>
+	    </test>
+	    <out>  
+	      <lu> 
+		<clip pos="1" side="tl" part="whole"/>
+	      </lu>
+	    </out>
+	  </when>
+	  <otherwise>
+	    <call-macro n="f_hi">
+	      <with-param pos="1"/>
+	    </call-macro>
+	    <!--<call-macro n="f_bcond">
+		<with-param pos="1"/>
+		</call-macro>-->
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+
+    <rule> <!-- x- REGLA: PRET�RIT INDEFINIT --><!-- Para traducir "vas fer" por "hiciste" -->
+      <pattern>
+	<pattern-item n="ir"/>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<call-macro n="f_tipusverb">
+	  <with-param pos="2"/>
+	</call-macro>
+	<out>
+	  <lu>
+	    <get-case-from pos="1">
+	      <clip pos="2" side="tl" part="lemh"/>
+	    </get-case-from>
+	    <clip pos="2" side="tl" part="a_verb"/>
+	    <lit-tag v="ifi"/>
+	    <clip pos="1" side="tl" part="persona"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>    
+	  </lu>
+	</out>
+	<call-macro n="f_bcond">
+	  <with-param pos="1"/>
+	</call-macro>
+      </action>
+    </rule>
+
+
+
+    <rule> <!--- REGLA: PRET�RIT INDEFINIT + ENCL�TIC --><!-- Para traducir "van acabar-se" por "se acabaron" -->
+      <pattern>
+	<pattern-item n="ir"/>
+	<pattern-item n="inf"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<call-macro n="f_tipusverb">
+	  <with-param pos="2"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <not>
+		<equal>
+		  <clip pos="3" side="tl" part="whole"/><!---Comprueba que el pronombre no se traduzca por nada (pronombres "bi" y "en" -->
+		  <lit v=""/>
+		</equal>
+	      </not>
+	    </test>
+	    <out>
+	      <lu>
+		<get-case-from pos="1">
+		  <clip pos="3" side="tl" part="lem"/>
+		</get-case-from> 
+		<lit-tag v="prn.pro"/>
+		<clip pos="3" side="sl" part="tipoenc_pro"/>
+	      </lu>
+	      <b pos="1"/>
+	      <lu>
+		<clip pos="2" side="tl" part="lemh"/>
+		<clip pos="2" side="tl" part="a_verb"/>
+		<lit-tag v="ifi"/>
+		<clip pos="1" side="tl" part="persona"/>
+		<clip pos="1" side="tl" part="nbr"/>
+		<clip pos="2" side="tl" part="lemq"/>                  
+	      </lu> 
+	    </out>
+	  </when>
+	  <otherwise><!--En caso de que el pronombre no se traduzca, env�a s�lo el verbo -->
+	    <out>
+	      <lu>
+		<get-case-from pos="1">            
+		  <clip pos="2" side="tl" part="lemh"/>
+		</get-case-from>
+		<clip pos="2" side="tl" part="a_verb"/>
+		<lit-tag v="ifi"/>
+		<clip pos="1" side="tl" part="persona"/>
+		<clip pos="1" side="tl" part="nbr"/>
+		<clip pos="2" side="tl" part="lemq"/>                  
+	      </lu>
+	    </out> 
+	    <call-macro n="f_bcond">
+	      <with-param pos="1"/>
+	    </call-macro>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+
+    <rule> <!-- REGLA: PRET�RIT INDEFINIT + ENCL�TIC + ENCL�TIC --><!-- Para traducir "van acabar-se'ls" por "se los acabaron" -->
+      <pattern>
+	<pattern-item n="ir"/>
+	<pattern-item n="inf"/>
+	<pattern-item n="prnenc"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<call-macro n="f_tipusverb">
+	  <with-param pos="2"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test> <!--si el primer pronom no desapareix (traducci� buida, p. ex: "bi", "en"), envia'l i assigna-li les maj�scules -->
+	      <not>
+		<equal>
+		  <clip pos="3" side="tl" part="whole"/>
+		  <lit v=""/>
+		</equal>
+	      </not>
+	    </test>
+	    <out>
+	      <lu>
+		<get-case-from pos="1">
+		  <clip pos="3" side="tl" part="lem"/>
+		</get-case-from> 
+		<lit-tag v="prn.pro"/>
+		<clip pos="3" side="sl" part="tipoenc_pro"/>
+	      </lu>
+	      <b pos="1"/>
+	    </out>
+	    <choose>
+	      <when>
+		<test><!-- Si el segon pronom no desapareix, envia'l tamb� (si desapareix el 2n, ja no s'envia) -->
+		  <not>
+		    <equal>
+		      <clip pos="4" side="tl" part="whole"/> 
+		      <lit v=""/>
+		    </equal>
+		  </not>
+		</test>
+		<out>
+		  <lu>		
+		    <clip pos="4" side="tl" part="lem"/>                
+		    <lit-tag v="prn.pro"/>
+		    <clip pos="4" side="sl" part="tipoenc_pro"/>
+		  </lu>
+		  <b/>			
+		</out>
+	      </when>
+	    </choose>
+	    <out>
+	      <lu>
+		<clip pos="2" side="tl" part="lemh"/>
+		<clip pos="2" side="tl" part="a_verb"/>
+		<lit-tag v="ifi"/>
+		<clip pos="1" side="tl" part="persona"/>
+		<clip pos="1" side="tl" part="nbr"/>
+		<clip pos="2" side="tl" part="lemq"/>                  
+	      </lu> 
+	    </out>
+	  </when>
+	  <when> <!--Si el primer pronom desapareix...el segon tamb�... (mai no es d�na el cas que desapareix el primer i el segon no) -->
+	    <test>
+	      <equal>
+		<clip pos="3" side="tl" part="whole"/>
+		<lit v=""/>
+	      </equal>
+	    </test>
+	    <out>
+	      <lu>
+		<get-case-from pos="1">            
+		  <clip pos="2" side="tl" part="lemh"/>
+		</get-case-from>
+		<clip pos="2" side="tl" part="a_verb"/>
+		<lit-tag v="ifi"/>
+		<clip pos="1" side="tl" part="persona"/>
+		<clip pos="1" side="tl" part="nbr"/>
+		<clip pos="2" side="tl" part="lemq"/>                  
+	      </lu>
+	    </out>
+	    <call-macro n="f_bcond">
+	      <with-param pos="1"/>
+	    </call-macro>
+	  </when>
+	</choose>
+      </action>
+    </rule>
+
+    <rule> <!--REGLA: VERB (per a multiparaules sense encl�tics)-->
+      <pattern>
+	<pattern-item n="verb"/>
+      </pattern>
+      <action>	
+	<out>                
+	  <lu>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="a_verb"/>
+	    <clip pos="1" side="tl" part="temps"/>
+	    <clip pos="1" side="tl" part="persona"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="lemq"/>
+	  </lu>		
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!--REGLA: VERB + ENCL�TIC-->
+      <pattern>
+	<pattern-item n="verb"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<call-macro n="f_outverb2">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>      
+      </action>
+    </rule>
+
+    <rule> <!--REGLA: VERB + ENCL�TIC + ENCL�TIC-->
+      <pattern>
+	<pattern-item n="verb"/>
+	<pattern-item n="prnenc"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<call-macro n="f_outverb3">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>       
+      </action>
+    </rule>
+
+<!--
+    <rule> <!-x-REGLA: EN + INF-x->
+      <pattern>
+	<pattern-item n="en"/>
+	<pattern-item n="infnm"/>
+      </pattern>
+      <action>
+	<call-macro n="f_tipusverb">
+	  <with-param pos="2"/>
+	</call-macro>
+	<out>
+	  <lu>
+	    <get-case-from pos="1">            
+	      <lit v="a"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	  </lu>
+	  <b/>
+	  <lu>
+	    <lit v="o"/>
+	    <lit-tag v="det.def.m.sg"/>              
+	  </lu>                 
+	  <b pos="1"/>	   
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_infnm"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!-x-REGLA: EN + INF + ENCL�TIC-x->
+      <pattern>
+	<pattern-item n="en"/>
+	<pattern-item n="infnm"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<call-macro n="f_tipusverb">
+	  <with-param pos="2"/>
+	</call-macro>
+	<out>
+	  <lu>
+	    <get-case-from pos="1">            
+	      <lit v="a"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	  </lu>
+	  <b/>
+	  <lu>
+	    <lit v="o"/>
+	    <lit-tag v="det.def.m.sg"/>              
+	  </lu>                 
+	  <b pos="1"/>
+	</out>
+	<call-macro n="f_outverb2">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>
+      </action>
+    </rule>
+
+    <rule> <!-x-REGLA: EN + INF + ENCL�TIC + ENCL�TIC-x->
+      <pattern>
+	<pattern-item n="en"/>
+	<pattern-item n="infnm"/>
+	<pattern-item n="prnenc"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<call-macro n="f_tipusverb">
+	  <with-param pos="2"/>
+	</call-macro>
+	<out>
+	  <lu>
+	    <get-case-from pos="1">            
+	      <lit v="a"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	  </lu>
+	  <b/>
+	  <lu>
+	    <lit v="o"/>
+	    <lit-tag v="det.def.m.sg"/>              
+	  </lu>                 
+	  <b pos="1"/>
+	</out>
+	<call-macro n="f_outverb3">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	</call-macro>	
+      </action>
+    </rule>
+-->
+
+    <rule> <!--REGLA: TA + infinitiu = per trobar -> para encontrar-->
+      <pattern>
+	<pattern-item n="ta"/>
+	<pattern-item n="infnh"/>
+      </pattern>
+      <action>	             
+	<out>
+	  <lu>
+	    <get-case-from pos="1">
+	      <lit v="para"/>
+	    </get-case-from>
+	    <clip pos="1" side="tl" part="a_prep"/>
+	  </lu> 
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_infnh"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	</out>   
+      </action>
+    </rule> 
+
+
+    <rule> <!--REGLA: TA + infinitiu + encl�tic= per trobar-se -> para encontrarse-->
+      <pattern>
+	<pattern-item n="ta"/>
+	<pattern-item n="infnh"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <get-case-from pos="1">
+	      <lit v="para"/>
+	    </get-case-from>
+	    <clip pos="1" side="tl" part="a_prep"/>
+	  </lu> 
+	  <b pos="1"/>
+	</out>
+	<call-macro n="f_outverb2">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>	 
+      </action>
+    </rule>
+
+    <rule> <!--REGLA: PER + infinitiu + encl�tic + encl�tic = per explicar-los-ho -> para explic�rselo-->
+      <pattern>
+	<pattern-item n="ta"/>
+	<pattern-item n="infnh"/>
+	<pattern-item n="prnenc"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <get-case-from pos="1">
+	      <lit v="para"/>
+	    </get-case-from>
+	    <clip pos="1" side="tl" part="a_prep"/>
+	  </lu> 
+	  <b pos="1"/>
+	</out>
+	<call-macro n="f_outverb3">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	</call-macro>	 
+      </action>
+    </rule>
+
+    <rule> <!--REGLA: PER + adv + infinitiu = per no trobar -> para no encontrar-->
+      <pattern>
+	<pattern-item n="ta"/>
+	<pattern-item n="adv"/>
+	<pattern-item n="infnh"/>
+      </pattern>
+      <action>	             
+	<out>
+	  <lu>
+	    <get-case-from pos="1">
+	      <lit v="para"/>
+	    </get-case-from>
+	    <clip pos="1" side="tl" part="a_prep"/>
+	  </lu> 
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_infnh"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	</out>   
+      </action>
+    </rule> 
+
+
+    <rule> <!--REGLA: PER + adv + infinitiu + encl�tic= per no trobar-se -> para no encontrarse-->
+      <pattern>
+	<pattern-item n="ta"/>
+	<pattern-item n="adv"/>
+	<pattern-item n="infnh"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <get-case-from pos="1">
+	      <lit v="para"/>
+	    </get-case-from>
+	    <clip pos="1" side="tl" part="a_prep"/>
+	  </lu> 
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	</out>
+	<call-macro n="f_outverb2">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	</call-macro>	 
+      </action>
+    </rule>
+
+    <rule> <!--REGLA: PER + adv + infinitiu + encl�tic + encl�tic = per no explicar-los-ho -> para no explic�rselo-->
+      <pattern>
+	<pattern-item n="ta"/>
+	<pattern-item n="adv"/>
+	<pattern-item n="infnh"/>
+	<pattern-item n="prnenc"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <get-case-from pos="1">
+	      <lit v="para"/>
+	    </get-case-from>
+	    <clip pos="1" side="tl" part="a_prep"/>
+	  </lu> 
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	</out>
+	<call-macro n="f_outverb3">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	  <with-param pos="5"/>
+	</call-macro>	 
+      </action>
+    </rule>
+
+
+<!--
+    <rule> <!-x-REGLA: a + nploc = a Barcelona -> en Barcelona-x->
+      <pattern>
+	<pattern-item n="a"/>
+	<pattern-item n="nploc"/>
+      </pattern>
+      <action>	             
+	<out>
+	  <lu>
+	    <get-case-from pos="1">
+	      <lit v="en"/>
+	    </get-case-from>
+	    <clip pos="1" side="tl" part="a_prep"/>
+	  </lu> 
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lem"/>
+	    <clip pos="2" side="tl" part="a_nploc"/> 
+	  </lu>
+	</out>   
+      </action>
+    </rule> 
+
+
+    <rule> <!-x-REGLA NOVA 6: a + DET + nploc = al Segri� -> en el Segri� "mireiafarrus"-x->
+      <pattern>
+	<pattern-item n="a"/>
+	<pattern-item n="det"/>
+	<pattern-item n="nploc"/>
+      </pattern>
+      <action>	
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="2" side="tl" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let><!-x-haur�em de mirar d'assignar g�nere d'una altra manera (l'Am�rica llatina / l'Europa Occiental / l'Amazones) -x->
+		<clip pos="2" side="tl" part="gen"/>
+		<lit-tag v="f"/>
+	    </let>
+	  </when>
+	</choose>		
+	<out>
+	  <lu>
+	    <get-case-from pos="1">
+	      <lit v="en"/>
+	    </get-case-from>
+	    <clip pos="1" side="tl" part="a_prep"/>
+	  </lu> 
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/> 
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lem"/>
+	    <clip pos="3" side="tl" part="a_nploc"/> 
+	  </lu>
+	</out>   
+      </action>
+    </rule> 
+
+
+    <rule> <!-x-REGLA: verb + prep + nploc/noms_locatius: Estudio a Madrid  - Estudio en Madrid. S�c a Sabadell - Estoy en Sabadell. S�c a casa - Estoy en casa (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si �s un nom de la llista "locatiu". Molts canvis de prep ja es tracten amb la macro f_preps, per� no permet fer el canvi de 'ser' a 'estar', cosa que s� que es fa amb aquesta regla i les 3 posteriors) -x->
+      <pattern>
+	<pattern-item n="verb"/>
+	<pattern-item n="a"/>
+	<pattern-item n="nom_loc"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<in caseless="yes">
+		  <clip pos="3" side="sl" part="lem"/>
+		  <list n="locatiu"/>
+		</in>
+		<equal>
+		  <clip pos="3" side="sl" part="a_nploc"/>
+		  <lit-tag v="np.loc"/>
+		</equal>
+	      </or>
+	    </test>
+	    <choose>
+	      <when>
+		<test>
+		  <and>
+		    <not>
+		      <in caseless="yes">
+			<clip pos="1" side="sl" part="lem"/>
+			<list n="verbs_moviment"/>
+		      </in>
+		    </not>
+		    <or>
+		      <equal>  
+			<clip pos="1" side="tl" part="a_verb"/>
+			<lit-tag v="vblex"/>
+		      </equal>
+		      <equal>  
+			<clip pos="1" side="tl" part="a_verb"/>
+			<lit-tag v="vblex.v2"/>
+		      </equal>  
+		      <equal>  
+			<clip pos="1" side="tl" part="a_verb"/>
+			<lit-tag v="vbmod"/>  
+		      </equal>
+		    </or>
+		  </and>
+		</test>    
+		<out>
+		  <lu>
+		    <clip pos="1" side="tl" part="lemh"/>
+		    <clip pos="1" side="tl" part="a_verb"/>
+		    <clip pos="1" side="tl" part="temps"/>
+		    <clip pos="1" side="tl" part="persona"/>
+		    <clip pos="1" side="tl" part="gen"/>
+		    <clip pos="1" side="tl" part="nbr"/>
+		    <clip pos="1" side="tl" part="lemq"/>
+		  </lu>
+		  <b pos="1"/>
+		  <lu>
+		    <get-case-from pos="2">
+		      <lit v="en"/>
+		    </get-case-from>
+		    <clip pos="2" side="tl" part="a_prep"/> 
+		  </lu>
+		  <b pos="2"/>
+		  <lu>
+		    <clip pos="3" side="tl" part="lemh"/>
+		    <clip pos="3" side="tl" part="a_nom"/>
+		    <clip pos="3" side="tl" part="gen"/>
+		    <clip pos="3" side="tl" part="nbr"/>
+		    <clip pos="3" side="tl" part="lemq"/> 
+		  </lu> 
+		</out> 
+	      </when> 
+	      <when>
+		<test>
+		  <equal>  
+		    <clip pos="1" side="tl" part="a_verb"/>
+		    <lit-tag v="vbser"/>
+		  </equal>  
+		</test>  
+		<out>
+		  <lu>    
+		    <get-case-from pos="1">
+		      <lit v="estar"/>
+		    </get-case-from>
+		    <lit-tag v="vblex"/> 
+		    <clip pos="1" side="tl" part="temps"/>
+		    <clip pos="1" side="tl" part="persona"/>
+		    <clip pos="1" side="tl" part="gen"/>
+		    <clip pos="1" side="tl" part="nbr"/>
+		  </lu> 
+		  <b pos="1"/>
+		  <lu>
+		    <get-case-from pos="2">
+		      <lit v="en"/>
+		    </get-case-from>
+		    <clip pos="2" side="tl" part="a_prep"/> 
+		  </lu>
+		  <b pos="2"/>
+		  <lu>
+		    <clip pos="3" side="tl" part="lemh"/>
+		    <clip pos="3" side="tl" part="a_nom"/>
+		    <clip pos="3" side="tl" part="gen"/>
+		    <clip pos="3" side="tl" part="nbr"/>
+		    <clip pos="3" side="tl" part="lemq"/> 
+		  </lu> 
+		</out> 
+	      </when>
+	      <otherwise>
+		<out>
+		  <lu>
+		    <clip pos="1" side="tl" part="lemh"/>
+		    <clip pos="1" side="tl" part="a_verb"/>
+		    <clip pos="1" side="tl" part="temps"/>
+		    <clip pos="1" side="tl" part="persona"/>
+		    <clip pos="1" side="tl" part="gen"/>
+		    <clip pos="1" side="tl" part="nbr"/>
+		    <clip pos="1" side="tl" part="lemq"/>
+		  </lu> 
+		  <b pos="1"/>
+		  <lu>
+		    <clip pos="2" side="tl" part="whole"/>
+		  </lu>
+		  <b pos="2"/>
+		  <lu>
+		    <clip pos="3" side="tl" part="lemh"/>
+		    <clip pos="3" side="tl" part="a_nom"/>
+		    <clip pos="3" side="tl" part="gen"/>
+		    <clip pos="3" side="tl" part="nbr"/>
+		    <clip pos="3" side="tl" part="lemq"/> 
+		  </lu> 
+		</out> 
+	      </otherwise>
+	    </choose>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <lu>
+		<clip pos="1" side="tl" part="lemh"/>
+		<clip pos="1" side="tl" part="a_verb"/>
+		<clip pos="1" side="tl" part="temps"/>
+		<clip pos="1" side="tl" part="persona"/>
+		<clip pos="1" side="tl" part="gen"/>
+		<clip pos="1" side="tl" part="nbr"/>
+		<clip pos="1" side="tl" part="lemq"/>
+	      </lu> 
+	      <b pos="1"/>
+	      <lu>
+		<clip pos="2" side="tl" part="whole"/>
+	      </lu>
+	      <b pos="2"/>
+	      <lu>
+		<clip pos="3" side="tl" part="lemh"/>
+		<clip pos="3" side="tl" part="a_nom"/>
+		<clip pos="3" side="tl" part="gen"/>
+		<clip pos="3" side="tl" part="nbr"/>
+		<clip pos="3" side="tl" part="lemq"/> 
+	      </lu> 
+	    </out> 
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>   
+
+    <rule> <!-x-REGLA: "ir" + inf + prep + nploc: Estudio a Madrid - Estudio en Madrid. S�c a Sabadell - Estoy en Sabadell (igual que l'anterior per� amb verb en forma perifr�stica (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si �s un nom de la llista "locatiu")-x->
+      <pattern>
+	<pattern-item n="ir"/>
+	<pattern-item n="inf"/>
+	<pattern-item n="a"/>
+	<pattern-item n="nom_loc"/>
+      </pattern>
+      <action>  
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<in caseless="yes">
+		  <clip pos="4" side="sl" part="lem"/>
+		  <list n="locatiu"/>
+		</in>
+		<equal>
+		  <clip pos="4" side="sl" part="a_nploc"/>
+		  <lit-tag v="np.loc"/>
+		</equal>
+	      </or>
+	    </test>
+	    <choose>
+	      <when>
+		<test>
+		  <and>
+		    <not>
+		      <in caseless="yes">
+			<clip pos="2" side="sl" part="lem"/>
+			<list n="verbs_moviment"/>
+		      </in>
+		    </not>
+		    <or>
+		      <equal>  
+			<clip pos="2" side="tl" part="a_verb"/>
+			<lit-tag v="vblex"/>
+		      </equal> 
+		      <equal>  
+			<clip pos="2" side="tl" part="a_verb"/>
+			<lit-tag v="vblex.v2"/>
+		      </equal> 
+		      <equal>  
+			<clip pos="2" side="tl" part="a_verb"/>
+			<lit-tag v="vbmod"/>  
+		      </equal>
+		    </or>
+		  </and>
+		</test>    
+		<out>
+		  <lu>
+		    <get-case-from pos="1">            
+		      <clip pos="2" side="tl" part="lemh"/>
+		    </get-case-from>
+		    <clip pos="2" side="tl" part="a_verb"/>
+		    <lit-tag v="ifi"/>
+		    <clip pos="1" side="tl" part="persona"/>
+		    <clip pos="1" side="tl" part="nbr"/>
+		    <clip pos="2" side="tl" part="lemq"/>                  
+		  </lu>  
+		</out>  
+		<call-macro n="f_bcond">
+		  <with-param pos="1"/>
+		</call-macro>
+		<out>
+		  <b pos="2"/>
+		  <lu>
+		    <get-case-from pos="3">
+		      <lit v="en"/>
+		    </get-case-from>
+		    <clip pos="3" side="tl" part="a_prep"/> 
+		  </lu>
+		  <b pos="3"/>
+		  <lu>
+		    <clip pos="4" side="tl" part="lemh"/>
+		    <clip pos="4" side="tl" part="a_nom"/>
+		    <clip pos="4" side="tl" part="gen"/>
+		    <clip pos="4" side="tl" part="nbr"/>
+		    <clip pos="4" side="tl" part="lemq"/> 
+		  </lu>
+		</out> 
+	      </when> 
+	      <when>
+		<test>
+		  <equal>  
+		    <clip pos="2" side="tl" part="a_verb"/>
+		    <lit-tag v="vbser"/>
+		  </equal>  
+		</test>  
+		<out>
+		  <lu>    
+		    <get-case-from pos="2">
+		      <lit v="estar"/>
+		    </get-case-from>
+		    <lit-tag v="vblex.ifi"/> 
+		    <clip pos="1" side="tl" part="persona"/>
+		    <clip pos="1" side="tl" part="nbr"/>
+		  </lu> 
+		</out>  
+		<call-macro n="f_bcond">
+		  <with-param pos="1"/>
+		</call-macro>
+		<out>
+		  <b pos="2"/>
+		  <lu>
+		    <get-case-from pos="3">
+		      <lit v="en"/>
+		    </get-case-from>
+		    <clip pos="3" side="tl" part="a_prep"/> 
+		  </lu>
+		  <b pos="3"/>
+		  <lu>
+		    <clip pos="4" side="tl" part="lemh"/>
+		    <clip pos="4" side="tl" part="a_nom"/>
+		    <clip pos="4" side="tl" part="gen"/>
+		    <clip pos="4" side="tl" part="nbr"/>
+		    <clip pos="4" side="tl" part="lemq"/> 
+		  </lu>
+		</out> 
+	      </when>
+	      <otherwise>
+		<out>
+		  <lu>
+		    <get-case-from pos="1">            
+		      <clip pos="2" side="tl" part="lemh"/>
+		    </get-case-from>
+		    <clip pos="2" side="tl" part="a_verb"/>
+		    <lit-tag v="ifi"/>
+		    <clip pos="1" side="tl" part="persona"/>
+		    <clip pos="1" side="tl" part="nbr"/>
+		    <clip pos="2" side="tl" part="lemq"/>                  
+		  </lu>  
+		</out>  
+		<call-macro n="f_bcond">
+		  <with-param pos="1"/>
+		</call-macro>
+		<out>
+		  <b pos="2"/>
+		  <lu>
+		    <clip pos="3" side="tl" part="whole"/>
+		  </lu>
+		  <b pos="3"/>
+		  <lu>
+		    <clip pos="4" side="tl" part="lemh"/>
+		    <clip pos="4" side="tl" part="a_nom"/>
+		    <clip pos="4" side="tl" part="gen"/>
+		    <clip pos="4" side="tl" part="nbr"/>
+		    <clip pos="4" side="tl" part="lemq"/> 
+		  </lu>
+		</out> 
+	      </otherwise>
+	    </choose>
+	  </when>	  
+	  <otherwise>
+	    <out>
+	      <lu>
+		<get-case-from pos="1">            
+		  <clip pos="2" side="tl" part="lemh"/>
+		</get-case-from>
+		<clip pos="2" side="tl" part="a_verb"/>
+		<lit-tag v="ifi"/>
+		<clip pos="1" side="tl" part="persona"/>
+		<clip pos="1" side="tl" part="nbr"/>
+		<clip pos="2" side="tl" part="lemq"/>                  
+	      </lu>  
+	    </out>  
+	    <call-macro n="f_bcond">
+	      <with-param pos="1"/>
+	    </call-macro>
+	    <out>
+	      <b pos="2"/>
+	      <lu>
+		<clip pos="3" side="tl" part="whole"/>
+	      </lu>
+	      <b pos="3"/>
+	      <lu>
+		<clip pos="4" side="tl" part="lemh"/>
+		<clip pos="4" side="tl" part="a_nom"/>
+		<clip pos="4" side="tl" part="gen"/>
+		<clip pos="4" side="tl" part="nbr"/>
+		<clip pos="4" side="tl" part="lemq"/> 
+	      </lu>
+	    </out> 
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
+
+   <rule> <!-x-REGLA: verb + prep + det + nploc/noms_locatius: era al domicili - estaba en el domicilio -x->
+      <pattern>
+	<pattern-item n="verb"/>
+	<pattern-item n="a"/>
+	<pattern-item n="det"/>
+	<pattern-item n="nom_loc"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord2">
+	  <with-param pos="4"/>
+	  <with-param pos="3"/>
+	</call-macro>   
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<in caseless="yes">
+		  <clip pos="4" side="sl" part="lem"/>
+		  <list n="locatiu"/>
+		</in>
+		<equal>
+		  <clip pos="4" side="sl" part="a_nploc"/>
+		  <lit-tag v="np.loc"/>
+		</equal>
+	      </or>
+	    </test>
+	    <choose>
+	      <when>
+		<test>
+		  <and>
+		    <not>
+		      <in caseless="yes">
+			<clip pos="1" side="sl" part="lem"/>
+			<list n="verbs_moviment"/>
+		      </in>
+		    </not>
+		    <or>
+		      <equal>  
+			<clip pos="1" side="tl" part="a_verb"/>
+			<lit-tag v="vblex"/>
+		      </equal>  
+		      <equal>  
+			<clip pos="1" side="tl" part="a_verb"/>
+			<lit-tag v="vblex.v2"/>
+		      </equal>  
+		      <equal>  
+			<clip pos="1" side="tl" part="a_verb"/>
+			<lit-tag v="vbmod"/>  
+		      </equal>
+		    </or>
+		  </and>
+		</test>    
+		<out>
+		  <lu>
+		    <clip pos="1" side="tl" part="lemh"/>
+		    <clip pos="1" side="tl" part="a_verb"/>
+		    <clip pos="1" side="tl" part="temps"/>
+		    <clip pos="1" side="tl" part="persona"/>
+		    <clip pos="1" side="tl" part="gen"/>
+		    <clip pos="1" side="tl" part="nbr"/>
+		    <clip pos="1" side="tl" part="lemq"/>
+		  </lu>
+		  <b pos="1"/>
+		  <lu>
+		    <get-case-from pos="2">
+		      <lit v="en"/>
+		    </get-case-from>
+		    <clip pos="2" side="tl" part="a_prep"/> 
+		  </lu>
+		  <b pos="2"/>
+		  <lu>
+		    <clip pos="3" side="tl" part="whole"/>
+		  </lu>
+		  <b pos="3"/>
+		  <lu>
+		    <clip pos="4" side="tl" part="lemh"/>
+		    <clip pos="4" side="tl" part="a_nom"/>
+		    <clip pos="4" side="tl" part="gen"/>
+		    <clip pos="4" side="tl" part="nbr"/>
+		    <clip pos="4" side="tl" part="lemq"/> 
+		  </lu>
+		</out> 
+	      </when> 
+	      <when>
+		<test>
+		  <equal>  
+		    <clip pos="1" side="tl" part="a_verb"/>
+		    <lit-tag v="vbser"/>
+		  </equal>  
+		</test>  
+		<out>
+		  <lu>    
+		    <get-case-from pos="1">
+		      <lit v="estar"/>
+		    </get-case-from>
+		    <lit-tag v="vblex"/> 
+		    <clip pos="1" side="tl" part="temps"/>
+		    <clip pos="1" side="tl" part="persona"/>
+		    <clip pos="1" side="tl" part="gen"/>
+		    <clip pos="1" side="tl" part="nbr"/>
+		  </lu> 
+		  <b pos="1"/>
+		  <lu>
+		    <get-case-from pos="2">
+		      <lit v="en"/>
+		    </get-case-from>
+		    <clip pos="2" side="tl" part="a_prep"/> 
+		  </lu>
+		  <b pos="2"/>
+		  <lu>
+		    <clip pos="3" side="tl" part="whole"/>
+		  </lu>
+		  <b pos="3"/>
+		  <lu>
+		    <clip pos="4" side="tl" part="lemh"/>
+		    <clip pos="4" side="tl" part="a_nom"/>
+		    <clip pos="4" side="tl" part="gen"/>
+		    <clip pos="4" side="tl" part="nbr"/>
+		    <clip pos="4" side="tl" part="lemq"/> 
+		  </lu>
+		</out> 
+	      </when>
+	      <otherwise>
+		<out>
+		  <lu>
+		    <clip pos="1" side="tl" part="lemh"/>
+		    <clip pos="1" side="tl" part="a_verb"/>
+		    <clip pos="1" side="tl" part="temps"/>
+		    <clip pos="1" side="tl" part="persona"/>
+		    <clip pos="1" side="tl" part="gen"/>
+		    <clip pos="1" side="tl" part="nbr"/>
+		    <clip pos="1" side="tl" part="lemq"/>
+		  </lu> 
+		  <b pos="1"/>
+		  <lu>
+		    <clip pos="2" side="tl" part="whole"/>
+		  </lu>
+		  <b pos="2"/>
+		  <lu>
+		    <clip pos="3" side="tl" part="whole"/>
+		  </lu>
+		  <b pos="3"/>
+		  <lu>
+		    <clip pos="4" side="tl" part="lemh"/>
+		    <clip pos="4" side="tl" part="a_nom"/>
+		    <clip pos="4" side="tl" part="gen"/>
+		    <clip pos="4" side="tl" part="nbr"/>
+		    <clip pos="4" side="tl" part="lemq"/> 
+		  </lu>
+		</out> 
+	      </otherwise>
+	    </choose>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <lu>
+		<clip pos="1" side="tl" part="lemh"/>
+		<clip pos="1" side="tl" part="a_verb"/>
+		<clip pos="1" side="tl" part="temps"/>
+		<clip pos="1" side="tl" part="persona"/>
+		<clip pos="1" side="tl" part="gen"/>
+		<clip pos="1" side="tl" part="nbr"/>
+		<clip pos="1" side="tl" part="lemq"/>
+	      </lu> 
+	      <b pos="1"/>
+	      <lu>
+		<clip pos="2" side="tl" part="whole"/>
+	      </lu>
+	      <b pos="2"/>
+	      <lu>
+		<clip pos="3" side="tl" part="whole"/>
+	      </lu>
+	      <b pos="3"/>
+	      <lu>
+		<clip pos="4" side="tl" part="lemh"/>
+		<clip pos="4" side="tl" part="a_nom"/>
+		<clip pos="4" side="tl" part="gen"/>
+		<clip pos="4" side="tl" part="nbr"/>
+		<clip pos="4" side="tl" part="lemq"/> 
+	      </lu>
+	    </out> 
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>   
+
+    <rule> <!-x-REGLA: "ir" + inf + prep + nploc: va treballar al poble - trabaj� en el pueblo (igual que l'anterior per� amb verb en forma perifr�stica) -x->
+      <pattern>
+	<pattern-item n="ir"/>
+	<pattern-item n="inf"/>
+	<pattern-item n="a"/>
+	<pattern-item n="det"/>
+	<pattern-item n="nom_loc"/>
+      </pattern>
+      <action> 
+	<call-macro n="f_concord2">
+	  <with-param pos="5"/>
+	  <with-param pos="4"/>
+	</call-macro>  
+	<choose>
+	  <when>
+	    <test>
+	      <or>
+		<in caseless="yes">
+		  <clip pos="5" side="sl" part="lem"/>
+		  <list n="locatiu"/>
+		</in>
+		<equal>
+		  <clip pos="5" side="sl" part="a_nploc"/>
+		  <lit-tag v="np.loc"/>
+		</equal>
+	      </or>
+	    </test>
+	    <choose>
+	      <when>
+		<test>
+		  <and>
+		    <not>
+		      <in caseless="yes">
+			<clip pos="2" side="sl" part="lem"/>
+			<list n="verbs_moviment"/>
+		      </in>
+		    </not>
+		    <or>
+		      <equal>  
+			<clip pos="2" side="tl" part="a_verb"/>
+			<lit-tag v="vblex"/>
+		      </equal>  
+		      <equal>  
+			<clip pos="2" side="tl" part="a_verb"/>
+			<lit-tag v="vblex.v2"/>
+		      </equal>  
+		      <equal>  
+			<clip pos="2" side="tl" part="a_verb"/>
+			<lit-tag v="vbmod"/>  
+		      </equal>
+		    </or>
+		  </and>
+		</test>    
+		<out>
+		  <lu>
+		    <get-case-from pos="1">            
+		      <clip pos="2" side="tl" part="lemh"/>
+		    </get-case-from>
+		    <clip pos="2" side="tl" part="a_verb"/>
+		    <lit-tag v="ifi"/>
+		    <clip pos="1" side="tl" part="persona"/>
+		    <clip pos="1" side="tl" part="nbr"/>
+		    <clip pos="2" side="tl" part="lemq"/>                  
+		  </lu>  
+		</out>  
+		<call-macro n="f_bcond">
+		  <with-param pos="1"/>
+		</call-macro>
+		<out>
+		  <b pos="2"/>
+		  <lu>
+		    <get-case-from pos="3">
+		      <lit v="en"/>
+		    </get-case-from>
+		    <clip pos="3" side="tl" part="a_prep"/> 
+		  </lu>
+		  <b pos="3"/>
+		  <lu>
+		    <clip pos="4" side="tl" part="whole"/>
+		  </lu>
+		  <b pos="4"/>
+		  <lu>
+		    <clip pos="5" side="tl" part="lemh"/>
+		    <clip pos="5" side="tl" part="a_nom"/>
+		    <clip pos="5" side="tl" part="gen"/>
+		    <clip pos="5" side="tl" part="nbr"/>
+		    <clip pos="5" side="tl" part="lemq"/> 
+		  </lu>
+		</out> 
+	      </when> 
+	      <when>
+		<test>
+		  <equal>  
+		    <clip pos="2" side="tl" part="a_verb"/>
+		    <lit-tag v="vbser"/>
+		  </equal>  
+		</test>  
+		<out>
+		  <lu>    
+		    <get-case-from pos="2">
+		      <lit v="estar"/>
+		    </get-case-from>
+		    <lit-tag v="vblex.ifi"/> 
+		    <clip pos="1" side="tl" part="persona"/>
+		    <clip pos="1" side="tl" part="nbr"/>
+		  </lu> 
+		</out>  
+		<call-macro n="f_bcond">
+		  <with-param pos="1"/>
+		</call-macro>
+		<out>
+		  <b pos="2"/>
+		  <lu>
+		    <get-case-from pos="3">
+		      <lit v="en"/>
+		    </get-case-from>
+		    <clip pos="3" side="tl" part="a_prep"/> 
+		  </lu>
+		  <b pos="3"/>
+		  <lu>
+		    <clip pos="4" side="tl" part="whole"/>
+		  </lu>
+		  <b pos="4"/>
+		  <lu>
+		    <clip pos="5" side="tl" part="lemh"/>
+		    <clip pos="5" side="tl" part="a_nom"/>
+		    <clip pos="5" side="tl" part="gen"/>
+		    <clip pos="5" side="tl" part="nbr"/>
+		    <clip pos="5" side="tl" part="lemq"/> 
+		  </lu>
+		</out> 
+	      </when>
+	      <otherwise>
+		<out>
+		  <lu>
+		    <get-case-from pos="1">            
+		      <clip pos="2" side="tl" part="lemh"/>
+		    </get-case-from>
+		    <clip pos="2" side="tl" part="a_verb"/>
+		    <lit-tag v="ifi"/>
+		    <clip pos="1" side="tl" part="persona"/>
+		    <clip pos="1" side="tl" part="nbr"/>
+		    <clip pos="2" side="tl" part="lemq"/>                  
+		  </lu>  
+		</out>  
+		<call-macro n="f_bcond">
+		  <with-param pos="1"/>
+		</call-macro>
+		<out>
+		  <b pos="2"/>
+		  <lu>
+		    <clip pos="3" side="tl" part="whole"/>
+		  </lu>
+		  <b pos="3"/>
+		  <lu>
+		    <clip pos="4" side="tl" part="whole"/>
+		  </lu>
+		  <b pos="4"/>
+		  <lu>
+		    <clip pos="5" side="tl" part="lemh"/>
+		    <clip pos="5" side="tl" part="a_nom"/>
+		    <clip pos="5" side="tl" part="gen"/>
+		    <clip pos="5" side="tl" part="nbr"/>
+		    <clip pos="5" side="tl" part="lemq"/> 
+		  </lu>
+		</out> 
+	      </otherwise>
+	    </choose>
+	  </when>
+	  
+	  <otherwise>
+	    <out>
+	      <lu>
+		<get-case-from pos="1">            
+		  <clip pos="2" side="tl" part="lemh"/>
+		</get-case-from>
+		<clip pos="2" side="tl" part="a_verb"/>
+		<lit-tag v="ifi"/>
+		<clip pos="1" side="tl" part="persona"/>
+		<clip pos="1" side="tl" part="nbr"/>
+		<clip pos="2" side="tl" part="lemq"/>                  
+	      </lu>  
+	    </out>  
+	    <call-macro n="f_bcond">
+	      <with-param pos="1"/>
+	    </call-macro>
+	    <out>
+	      <b pos="2"/>
+	      <lu>
+		<clip pos="3" side="tl" part="whole"/>
+	      </lu>
+	      <b pos="3"/>
+	      <lu>
+		<clip pos="4" side="tl" part="whole"/>
+	      </lu>
+	      <b pos="4"/>
+	      <lu>
+		<clip pos="5" side="tl" part="lemh"/>
+		<clip pos="5" side="tl" part="a_nom"/>
+		<clip pos="5" side="tl" part="gen"/>
+		<clip pos="5" side="tl" part="nbr"/>
+		<clip pos="5" side="tl" part="lemq"/> 
+	      </lu>
+	    </out> 
+	  </otherwise>
+	</choose>
+      </action>
+    </rule> 
+-->
+
+     
+
+
+    <rule> <!-- dir-se -> llamarse -->
+      <pattern>
+	<pattern-item n="prnproref"/>
+	<pattern-item n="dicir"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="1" side="sl" part="persona"/>
+		<clip pos="2" side="sl" part="persona"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="2" side="tl" part="lem"/>
+	      <lit v="llamar"/>
+	    </let>
+	  </when>
+	</choose>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	</out>
+      </action>
+
+    </rule> 
+
+    <rule> <!-- l'he trobada -> la he encontrado -->
+      <pattern>
+	<pattern-item n="lopronom"/>
+	<pattern-item n="haber"/>
+	<pattern-item n="ppf"/>
+      </pattern>
+      <action>      
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="lem"/>
+	    <lit-tag v="prn.pro.p3.f.sg"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_verb"/>
+	    <clip pos="3" side="tl" part="temps"/>
+	    <lit-tag v="m"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <!--REGLA: prnpro haver partipi -> prnpro haver participi-masc-sg-->
+    <rule> 
+      <pattern>
+	<pattern-item n="prnpro3"/>
+	<pattern-item n="haber"/>
+	<pattern-item n="ppfmpl"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="whole"/><!--Comprueba que el pronombre no tenga traducci�n vac�a (pronombres "bi" y "en" -->
+		  <lit v=""/>
+		</equal>
+	      </not>
+	    </test>
+	    <out>
+	      <lu>
+		<clip pos="1" side="tl" part="lem"/>
+		<clip pos="1" side="tl" part="a_prnpro"/>
+		<clip pos="1" side="tl" part="persona"/>
+		<clip pos="1" side="tl" part="gen"/>
+		<clip pos="1" side="tl" part="nbr"/>
+	      </lu>
+	      <b pos="1"/>
+	      <lu>
+		<clip pos="2" side="tl" part="whole"/>
+	      </lu>
+	    </out>
+	  </when>
+	  <otherwise><!--En caso de que el pronombre no se traduzca, env�a s�lo el verbo -->
+	    <out>
+	      <lu>
+		<get-case-from pos="1">            
+		  <clip pos="2" side="tl" part="lem"/>
+		</get-case-from>
+		<clip pos="2" side="tl" part="a_verb"/>
+		<clip pos="2" side="tl" part="temps"/>
+		<clip pos="2" side="tl" part="persona"/>
+		<clip pos="2" side="tl" part="nbr"/>                
+	      </lu>
+	    </out>
+	    <call-macro n="f_bcond">
+	      <with-param pos="1"/>
+	    </call-macro>
+	  </otherwise>
+	</choose>
+	<out>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_verb"/>
+	    <clip pos="3" side="tl" part="temps"/>
+	    <lit-tag v="m"/>
+	    <lit-tag v="sg"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule> 
+
+
+    <rule> <!--REGLA: haver-enc participi (femen� sg i pl, mascul� pl) -> haver-enc participi-masc-sg-->
+      <pattern>
+	<pattern-item n="haber"/>
+	<pattern-item n="prnenc"/>
+	<pattern-item n="ppfmpl"/>
+      </pattern>
+      <action>
+	<call-macro n="f_outverb2">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<out>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_verb"/>
+	    <clip pos="3" side="tl" part="temps"/>
+	    <lit-tag v="m"/>
+	    <lit-tag v="sg"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+    <rule> <!--REGLA: haver-enc-enc participi (femen� sg i pl, mascul� pl) -> haver-enc-enc participi-masc-sg-->
+      <pattern>
+	<pattern-item n="haber"/>
+	<pattern-item n="prnenc"/>
+	<pattern-item n="prnenc"/>
+	<pattern-item n="ppfmpl"/>
+      </pattern>
+      <action>
+	<call-macro n="f_outverb3">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<out>
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_verb"/>
+	    <clip pos="4" side="tl" part="temps"/>
+	    <lit-tag v="m"/>
+	    <lit-tag v="sg"/>
+	    <clip pos="4" side="tl" part="lemh"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+
+<!-- based on UNDHR, but seems to hold up on inspecting Wikipedia -->
+<!--REGLA: ben de + INF -> deber + INF   
+  <rule> 
+      <pattern>
+	<pattern-item n="ben"/>
+	<pattern-item n="de"/>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<out> 
+	  <lu>
+	    <get-case-from pos="1">
+ 	      <lit v="deber"/>
+	    </get-case-from>
+	    <lit-tag v="vblex"/>   
+	    <lit-tag v="pri"/>   
+	    <lit-tag v="p3"/>   
+	    <lit-tag v="pl"/>   
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="tags"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+-->
+<!--REGLA: ben de + INF + ENCL�TIC -> deber + INF + ENCL�TIC
+    <rule> 
+      <pattern>
+	<pattern-item n="ben"/>
+	<pattern-item n="de"/>
+	<pattern-item n="inf"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<out> 
+	  <lu>
+	    <get-case-from pos="1">
+ 	      <lit v="deber"/>
+	    </get-case-from>
+	    <lit-tag v="vblex"/>   
+	    <lit-tag v="pri"/>   
+	    <lit-tag v="p3"/>   
+	    <lit-tag v="pl"/>   
+	  </lu>
+	  <b pos="1"/>	
+	</out>
+	<call-macro n="f_outverb2">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	</call-macro>
+      </action>
+    </rule>
+-->
+ <!--REGLA: ben de + INF + ENCL�TIC + ENCL�TIC  -> deber + INF + ENCL�TIC + ENCL�TIC
+    <rule>
+      <pattern>
+	<pattern-item n="ben"/>
+	<pattern-item n="de"/>
+	<pattern-item n="inf"/>
+	<pattern-item n="prnenc"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<out> 
+	  <lu>
+	    <get-case-from pos="1">
+ 	      <lit v="deber"/>
+	    </get-case-from>
+	    <lit-tag v="vblex"/>   
+	    <lit-tag v="pri"/>   
+	    <lit-tag v="p3"/>   
+	    <lit-tag v="pl"/>   
+	  </lu>
+	  <b pos="1"/>	
+	</out>
+	<call-macro n="f_outverb3">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	</call-macro>	
+      </action>
+    </rule>
+  -->
+    <rule> <!-- REGLA: reset variables-->
+      <pattern>
+	<pattern-item n="sent"/>
+      </pattern>
+      <action>
+	<let>
+	  <var n="numero"/>
+	  <lit-tag v="sg"/>
+	</let>
+	<let>
+	  <var n="genero"/>
+	  <lit-tag v="m"/>
+	</let>
+	<let>
+	  <var n="bi"/>
+	  <lit v=""/>
+	</let>
+	<let>
+	  <var n="prepo"/>
+	  <lit v=""/>
+	</let>
+	<let>
+	  <var n="no"/>
+	  <lit v=""/>
+	</let>
+	<let>
+	  <var n="tipusverb"/>
+	  <lit v=""/>
+	</let>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+    
+
+
+  </section-rules>
+
+</transfer>

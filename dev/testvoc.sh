@@ -1,2 +1,2 @@
-bash inconsistency.sh es-an > es-an.testvoc ; bash inconsistency-summary.sh es-an.testvoc es-an
-bash inconsistency.sh an-es > an-es.testvoc ; bash inconsistency-summary.sh an-es.testvoc an-es
+bash inconsistency.sh spa-arg > spa-arg.testvoc ; bash inconsistency-summary.sh spa-arg.testvoc spa-arg
+bash inconsistency.sh arg-spa > arg-spa.testvoc ; bash inconsistency-summary.sh arg-spa.testvoc arg-spa

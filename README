@@ -1,40 +1,88 @@
-**************Spanish--Aragonese******************
+Spanish and Aragonese
 
-You need apertium-3.0 and lttoolbox-3.0 to use this translator.  To compile
-the linguistic data simply do:
+                            apertium-spa-arg
+===============================================================================
 
-./configure
-make
-make install
+This is an Apertium language pair for translating between Spanish and
+Aragonese. What you can use this language package for:
 
-inside of this directory.
+* Translating between Spanish and Aragonese
+* Morphological analysis of Spanish and Aragonese
+* Part-of-speech tagging of Spanish and Aragonese
 
-To use the translator, use the commands:
+For information on the latter two points, see subheading "For more
+information" below
 
-apertium es-an  (to translate from Spanish to Aragonese)
+Requirements
+===============================================================================
 
-Type the suitable command in the terminal, press Enter, type the text and press Ctrl+D to get the translation.
+You will need the following software installed:
 
-**************TAGGER *****************************
+* lttoolbox (>= 3.4.0)
+* apertium (>= 3.3.2)
+* vislcg3 (>= 0.9.9.10297)
+* apertium-spa
+* apertium-arg
 
-To use this language-pair package with apertium YOU DO NOT NEED TO
-RETRAIN THE TAGGER. Probabilities and auxiliary data are provided for
-both the ca-es and the es-ca translation directions which should be
-acceptable for most applications, and should work even if you change
-the dictionaries in a reasonably way.
+If this does not make any sense, we recommend you look at: www.apertium.org
 
-If for some reason you need to retrain the tagger (for example, you
-have made really extensive changes to the dictionaries such as
-creating new lexical categories), please see the documentation
-on our Wiki:
- 
-  http://wiki.apertium.org/wiki/Tagger_training
+Compiling
+===============================================================================
 
+Given the requirements being installed, you should be able to just run:
 
+$ ./configure
+$ make
+# make install
 
-===================================================================
+You can use ./autogen.sh instead of ./configure you're compiling from
+SVN. If you installed any prerequisite language packages using a --prefix
+to ./configure, make sure to give the same --prefix to ./configure here.
 
-More information about this module, and others can be found on
-the Apertium: Wiki, http://wiki.apertium.org
+Testing
+===============================================================================
 
+If you are in the source directory after running make, the following
+commands should work:
 
+$  echo "TODO test sentence 1" | apertium -d . spa-arg
+TODO test translated sentence 1
+
+$ echo "TODO test sentence 2" | apertium -d . arg-spa
+TODO test translated sentence 2
+
+After installing somewhere in $PATH, you should be able to do e.g.
+
+$  echo "TODO test sentence 1" | apertium spa-arg
+TODO test translated sentence 1
+
+Files and data
+===============================================================================
+
+* apertium-spa-arg.spa-arg.dix  - Bilingual dictionary
+* apertium-spa-arg.spa-arg.t1x  - Chunking rules for translating into Spanish
+* apertium-spa-arg.arg-spa.t1x  - Chunking rules for translating into Aragonese
+* apertium-spa-arg.spa-arg.t2x  - Interchunk rules for translating into Spanish
+* apertium-spa-arg.arg-spa.t2x  - Interchunk rules for translating into Aragonese
+* apertium-spa-arg.spa-arg.t3x  - Postchunk rules for translating into Spanish
+* apertium-spa-arg.arg-spa.t3x  - Postchunk rules for translating into Aragonese
+* apertium-spa-arg.spa-arg.lrx  - Lexical selection rules for translating into Spanish
+* apertium-spa-arg.arg-spa.lrx  - Lexical selection rules for translating into Aragonese
+* modes.xml                     - Translation modes
+
+For more information
+===============================================================================
+
+* http://wiki.apertium.org/wiki/Installation
+* http://wiki.apertium.org/wiki/apertium-spa-arg
+* http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
+
+Help and support
+===============================================================================
+
+If you need help using this language pair or data, you can contact:
+
+* Mailing list: apertium-stuff@lists.sourceforge.net
+* IRC: #apertium on irc.freenode.net
+
+See also the file AUTHORS included in this distribution.

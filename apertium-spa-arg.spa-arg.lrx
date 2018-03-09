@@ -1,0 +1,185 @@
+﻿<rules>
+  <!-- 
+    This rule chooses "energía" as the translation of "power" when it is preceded by "wind". 
+    Add your own rules within <rule> here, using the resources below as a guide 
+  -->
+  <rule>
+    <match lemma="malo" tags="adj.*"><select lemma="malo"/></match>
+  </rule>
+  <!-- dolent -->
+
+  <rule>
+    <match lemma="real" tags="adj.*"><select lemma="real"/></match>
+  </rule>
+  <!-- reyal -->
+
+  <rule>
+    <match lemma="muela"><select lemma="caixal"/></match>
+  </rule>
+  <!-- dolent -->
+
+  <rule>
+    <match lemma="archivo"><select lemma="fichero"/></match>
+  </rule>
+  <!-- archivo -->
+
+  <rule>
+    <match lemma="articulación"><select lemma="articulación"/></match>
+  </rule>
+  <!-- chugadero -->
+
+ <rule>
+    <match lemma="número"><select lemma="numero"/></match>
+  </rule>
+  <!-- numbro -->
+  
+  <rule>
+    <match lemma="hogar"><select lemma="fogar"/></match>
+  </rule>
+  <!-- fogaril -->
+  
+ <rule>
+    <match lemma="longitud"><select lemma="longaria"/></match>
+  </rule>
+  <!-- numbro -->
+
+<rule>
+    <match lemma="pueblo"><select lemma="lugar"/></match>
+  </rule>
+  <!-- pueblo -->
+  
+  <rule>
+    <match lemma="dirección"><select lemma="adreza"/></match>
+  </rule>
+  <!-- dirección -->
+  
+    <rule>
+    <match lemma="bala"><select lemma="bala"/></match>
+  </rule>
+  <!-- paca -->
+  
+  <rule>
+    <match lemma="bote"><select lemma="pote"/></match>
+  </rule>
+  <!-- bote? -->
+  
+  <rule>
+    <match lemma="reja"><select lemma="reixa"/></match>
+  </rule>
+  <!-- rella (aladro) -->
+  
+  <rule>
+    <match lemma="carrera"><select lemma="corrida"/></match>
+  </rule>
+  <!-- carrera -->
+  
+   <rule>
+    <match lemma="banco"><select lemma="banco"/></match>
+  </rule>
+  <!-- cadiera -->
+  
+   <rule>
+    <match lemma="regla"><select lemma="regla"/></match>
+  </rule>
+  <!-- regle -->
+  
+    <rule>
+    <match lemma="bolsa"><select lemma="bolsa"/></match>
+  </rule>
+  <!-- bursa (mayuscla?) -->
+
+  <rule>
+    <match lemma="medicina"><select lemma="medicina"/></match>
+  </rule>
+  <!-- medecina -->
+
+ <rule>
+    <match lemma="rastro"><select lemma="rastro"/></match>
+  </rule>
+  <!-- bayo -->
+   
+ <rule>
+    <match lemma="esperar"><select lemma="asperar"/></match>
+  </rule>
+  <!-- aguardar -->   
+   
+  <rule>
+    <match lemma="dirigir"><select lemma="endrezar"/></match>
+  </rule>
+  <!-- dirichir -->   
+  
+    <rule>
+    <match lemma="echar"><select lemma="chitar"/></match>
+  </rule>
+  <!-- tirar -->
+  
+  <rule>
+    <match lemma="comer"><select lemma="minchar"/></match>
+  </rule>
+  <!-- chentar -->
+
+  <rule>
+    <match lemma="poner"><select lemma="meter"/></match>
+  </rule>
+  <!-- poner -->
+  
+  <rule>
+    <match lemma="explotar"><select lemma="esclatar"/></match>
+  </rule>
+  <!-- espleitar -->
+
+  <rule>
+    <match lemma="tocar"><select lemma="tocar"/></match>
+  </rule>
+  <!-- tanyer -->
+
+  <rule>
+    <match lemma="recibir"><select lemma="recibir"/></match>
+  </rule>
+  <!-- recullir -->
+  
+  <rule>
+    <match lemma="arreglar"><select lemma="apanyar"/></match>
+  </rule>
+  <!-- acotraciar -->
+  
+   <rule>
+    <match lemma="vista" tags="n.f.pl"><select lemma="vista"/></match>
+  </rule>
+  <!-- anvista -->
+  
+   <rule>
+    <match lemma="estatuto" tags="n.m.pl"><select lemma="ordinación" tags="n.f.pl"/></match>
+ </rule>
+
+ <rule>
+    <match lemma="estatuto" tags="n.m.sg"><select lemma="estatuto" tags="n.m.sg"/></match>
+ </rule>
+ 
+ 
+ <!-- de autonomía estatuto-->
+ 
+  <rule>
+    <match lemma="caballería" tags="n.f.pl"><select lemma="abrío"  tags="n.m.pl"/></match>
+ </rule>
+  <rule>
+    <match lemma="caballería" tags="n.f.sg"><select lemma="caballería"  tags="n.f.sg"/></match>
+ </rule>
+ <!-- caballería -->
+  
+  <rule>
+    <match lemma="wind"/>
+    <match lemma="power" tags="n.*">
+      <select lemma="energía" tags="n.*"/>
+    </match>
+  </rule>
+</rules>
+
+<!-- 
+Resources: 
+    http://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
+    http://wiki.apertium.org/wiki/Constraint-based_lexical_selection
+    http://wiki.apertium.org/wiki/Lexical_selection
+    http://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
+-->
+

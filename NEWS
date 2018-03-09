@@ -1,3 +1,25 @@
+Sun 04 Jan 2015 00:10:00 UTC
+* Release 0.4 (with change in the language codes apertium-es-an --> apertium-spa-arg)
+* Main changes since version 0.3:
+   * Adoption of three-letter codes: spa (old es) and arg (old an).
+   * Use monolingual packages apertium-spa and apertium-arg (separated monolingual and bilingual data).
+   * Trimming of the monolingual dictionary (in both directions, although only the spa monodix is really trimmed     since arg monodix has grown in paralell to the bidix).
+   * Added lexical selection support (translate-to-default-equivalent.xsl not used anymore).
+   * Improvement in coverage and morphology of Aragonese monolingual dictionary.
+     > 552 paradigms,
+     > 21271 lemmae (26103 entries, of which, 8150 proper nouns), including 2518 multi-words.
+     Naïve coverage: from 89.8% in an.wikipedia to 92.4% in a corpus of narrative texts.
+   * Some improvements an fixes in verbal morphology.
+   * Several agrammatical or rare combinations of enclitic pronouns are now ignored.
+   * Some changes in the preferred (generated form): 'pa' (instead of 'ta') to translate 'para', 'cantatz' (instead of 'cantat') as p2.pl imperative, 'coixeyo' rather than 'coixeo'...
+   * Extended support for dialectal verbal morphology analysis ('anatz', 'veden', 'anirem', 'quisto', benasques strong infinitives)
+   * new paradigms ("coch/ín__n", "troz__n", "restaur/ant__n", "contpa__pr")
+   * duplicated paradigms eliminated (e.g. "tapi/z__n")
+* Main pending Issues:
+   * Still room to improve on coverage.
+   * Still much to work on transfer.
+   * Develop lexical selection rules
+
 Tue 29 Dec 2012 9:00:00 UTC
 * Release 0.3
 * Improvements since version 0.2:
