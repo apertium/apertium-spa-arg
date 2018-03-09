@@ -1,0 +1,1644 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="test"/>
+  </sdefs>
+<!-- o a ta enta de me te se lo les le en i no -->
+  <pardefs>
+    <pardef n="caracter_general">
+      <e>
+        <i>;</i>
+      </e>
+      <e>
+        <i>#</i>
+      </e>
+      <e>
+        <i>)</i>
+      </e>
+      <e>
+        <i>:</i>
+      </e>
+      <e>
+        <i>(</i>
+      </e>
+      <e>
+        <i>[</i>
+      </e>
+      <e>
+        <i>]</i>
+      </e>
+      <e>
+        <i>"</i>
+      </e>
+      <e>
+        <i>'</i>
+      </e>
+      <e>
+        <i>*</i>
+      </e>
+      <e>
+        <i>@</i>
+      </e>
+      <e>
+        <i>«</i>
+      </e>
+      <e>
+        <i>-</i>
+      </e>
+      <e>
+        <i>,</i>
+      </e>
+      <e>
+        <i>?</i>
+      </e>
+      <e>
+        <i>/</i>
+      </e>
+      <e>
+        <i>`</i>
+      </e>
+      <e>
+        <i>±</i>
+      </e>
+      <e>
+        <i>­</i>
+      </e>
+      <e>
+        <i>$</i>
+      </e>
+      <e>
+        <i>.</i>
+      </e>
+    </pardef>
+    
+    <pardef n="numeros">
+      <e>
+        <i>1</i>
+      </e>
+      <e>
+        <i>2</i>
+      </e>
+      <e>
+        <i>3</i>
+      </e>
+      <e>
+        <i>4</i>
+      </e>
+      <e>
+        <i>5</i>
+      </e>
+      <e>
+        <i>6</i>
+      </e>
+      <e>
+        <i>7</i>
+      </e>
+      <e>
+        <i>8</i>
+      </e>
+      <e>
+        <i>9</i>
+      </e>
+      <e>
+        <i>0</i>
+      </e>
+    </pardef>
+
+    <pardef n="consonant_graf">
+      <e>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <par n="numeros"/>
+      </e>
+      <e>
+        <i>b</i>
+      </e>
+      <e>
+        <i>c</i>
+      </e>
+      <e>
+        <i>ç</i>
+      </e>
+      <e>
+        <i>d</i>
+      </e>
+      <e>
+        <i>f</i>
+      </e>
+      <e>
+        <i>g</i>
+      </e>
+      <e>
+        <i>j</i>
+      </e>
+      <e>
+        <i>k</i>
+      </e>
+      <e>
+        <i>l</i>
+      </e>
+      <e>
+        <i>m</i>
+      </e>
+      <e>
+        <i>n</i>
+      </e>
+      <e>
+        <i>ñ</i>
+      </e>
+      <e>
+        <i>p</i>
+      </e>
+      <e>
+        <i>q</i>
+      </e>
+      <e>
+        <i>r</i>
+      </e>
+      <e>
+        <i>s</i>
+      </e>
+      <e>
+        <i>t</i>
+      </e>
+      <e>
+        <i>v</i>
+      </e>
+      <e>
+        <i>w</i>
+      </e>
+      <e>
+        <i>x</i>
+      </e>
+      <e>
+        <i>y</i>
+      </e>
+      <e>
+        <i>z</i>
+      </e>
+    </pardef>
+
+   
+     <pardef n="vocals_no_apost">
+     <e>
+        <i>ia</i>
+      </e>
+     <e>
+        <i>ie</i>
+      </e>
+     <e>
+        <i>io</i>
+     </e>
+     <e>
+        <i>iu</i>
+      </e>
+     <e>
+        <i>iá</i>
+      </e>
+     <e>
+        <i>ié</i>
+      </e>
+     <e>
+        <i>ió</i>
+     </e>
+     <e>
+        <i>iú</i>
+      </e>
+     <e>
+        <i>hia</i>
+      </e>
+     <e>
+        <i>hie</i>
+      </e>
+     <e>
+        <i>hio</i>
+     </e>
+     <e>
+        <i>hiu</i>
+      </e>
+     <e>
+        <i>hiá</i>
+      </e>
+     <e>
+        <i>hié</i>
+      </e>
+     <e>
+        <i>hió</i>
+     </e>
+     <e>
+        <i>hiú</i>
+      </e>
+      <e>
+        <i>ua</i>
+      </e>
+     <e>
+        <i>ue</i>
+      </e>
+     <e>
+        <i>uo</i>
+     </e>
+     <e>
+        <i>ui</i>
+      </e>
+     <e>
+        <i>uá</i>
+      </e>
+     <e>
+        <i>ué</i>
+      </e>
+     <e>
+        <i>uó</i>
+     </e>
+     <e>
+        <i>uí</i>
+      </e>      
+     <e>
+        <i>hua</i>
+      </e>
+     <e>
+        <i>hue</i>
+      </e>
+     <e>
+        <i>huo</i>
+     </e>
+     <e>
+        <i>hui</i>
+      </e>
+     <e>
+        <i>huá</i>
+      </e>
+     <e>
+        <i>hué</i>
+      </e>
+     <e>
+        <i>huó</i>
+     </e>
+     <e>
+        <i>huí</i>
+      </e>      
+    </pardef>    
+   
+    <pardef n="consonant">
+      <e>
+        <par n="consonant_graf"/>
+      </e>
+      <e>
+        <par n="vocals_no_apost"/>
+      </e>
+    </pardef>    
+    
+    <pardef n="vocals_apost">
+      <e>
+        <i>a</i>
+      </e>
+      <e>
+        <i>e</i>
+      </e>
+      <e>
+        <i>i</i>
+      </e>
+      <e>
+        <i>o</i>
+      </e>
+      <e>
+        <i>u</i>
+      </e>
+      <e>
+        <i>é</i>
+      </e>
+      <e>
+        <i>í</i>
+      </e>
+      <e>
+        <i>ó</i>
+      </e>
+      <e>
+        <i>ú</i>
+      </e>
+      <e>
+        <i>á</i>
+      </e>      
+      <e>
+      <i>ha</i>
+      </e>
+      <e>
+       <i>he</i>
+      </e>
+      <e>
+        <i>hi</i>
+      </e>
+      <e>
+        <i>ho</i>
+      </e>
+      <e>
+        <i>hu</i>
+      </e>
+      <e>
+        <i>há</i>
+      </e>
+      <e>
+      <i>hé</i>
+      </e>
+      <e>
+      <i>hí</i>
+      </e>
+      <e>
+      <i>hó</i>
+      </e>
+      <e>
+      <i>hú</i>    
+      </e>  
+      <e>
+      <i>1<b/></i>
+      </e>  
+      <e>
+      <i>1</i>
+      <par n="caracter_general"/>
+      </e>  
+      <e>
+      <i>11<b/></i>
+      </e>  
+      <e>
+      <i>11</i>
+      <par n="caracter_general"/>
+      </e>  
+
+    </pardef>    
+    
+    <pardef n="vocals_apost_a">
+      <e>
+        <i>a</i>
+      </e>
+      <e>
+        <i>á</i>
+      </e>
+      <e>
+        <i>ha</i>
+      </e>
+      <e>
+        <i>há</i>
+      </e>
+    </pardef>    
+    
+    <pardef n="vocals_apost_lo">
+      <e>
+        <i>a</i>
+      </e>
+      <e>
+        <i>á</i>
+      </e>
+      <e>
+        <i>ha</i>
+      </e>
+      <e>
+        <i>há</i>
+      </e>
+      <e>
+        <i>e</i>
+      </e>
+      <e>
+        <i>é</i>
+      </e>
+      <e>
+        <i>he</i>
+      </e>
+      <e>
+        <i>hé</i>
+      </e>
+      <e>
+        <i>o</i>
+      </e>
+      <e>
+        <i>ó</i>
+      </e>
+      <e>
+        <i>ho</i>
+      </e>
+      <e>
+        <i>hó</i>
+      </e>
+    </pardef>    
+
+ 
+    <pardef n="vocals_no_apost_o">
+     <e>
+        <i>es</i>
+      </e>
+     <e>
+        <i>hes</i>
+      </e>
+    </pardef>    
+
+<!--
+    <pardef n="el">
+      <e>
+        <p>
+          <l><a/>el<b/></l> 
+          <r>l<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>el<b/></l>
+          <r>l<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>el</l>
+          <r>l</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+    </pardef>
+-->
+   
+   <pardef n="le">
+      <e>
+        <p>
+          <l><b/></l>
+          <r>le<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r>le</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>en<b/></l>
+          <r>le'n<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>la<b/></l>
+          <r>le'n<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>las<b/></l>
+          <r>le'n<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>lo<b/></l>
+          <r>le'n<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>los<b/></l>
+          <r>le'n<b/></r>
+        </p>
+      </e>      
+    </pardef>
+   <pardef n="les">
+      <e>
+        <p>
+          <l><b/><a/>en<b/></l>
+          <r>les<b/>ne<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>la<b/></l>
+          <r>les<b/>ne<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>las<b/></l>
+          <r>les<b/>ne<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>lo<b/></l>
+          <r>les<b/>ne<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>los<b/></l>
+          <r>les<b/>ne<b/></r>
+        </p>
+      </e>      
+    </pardef>
+
+    <pardef n="o">
+      <e>
+        <p>
+          <l><b/></l>
+          <r>l'</r>
+        </p>
+        <par n="vocals_apost"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/></l>
+          <r>l'</r>
+        </p>
+        <par n="vocals_apost"/>
+      </e>
+      <e>
+        <p>
+          <l><b/></l>
+          <r>o<b/></r>
+        </p>
+        <par n="vocals_no_apost_o"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/></l>
+          <r>o<b/></r>
+        </p>
+        <par n="vocals_no_apost_o"/>
+      </e>
+        <e>
+        <p>
+          <l/>
+          <r>o</r>
+        </p>
+        <par n="consonant"/>
+      </e>
+      <e>
+        <p>
+          <l><b/></l>
+          <r>o<b/></r>
+        </p>
+        <par n="consonant"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/></l>
+          <r>o<b/></r>
+        </p>
+        <par n="consonant"/>
+      </e>
+    </pardef>
+
+    <pardef n="a">  <!-- a is an article -->
+      <e>
+        <p>
+          <l><b/></l>
+          <r>l'</r>
+        </p>
+        <par n="vocals_apost_a"/>
+      </e>
+    </pardef>
+
+   <pardef n="de"> 
+
+      <e>
+        <p>
+          <l><b/><a/></l>
+          <r>d'</r>
+        </p>
+        <par n="vocals_apost"/>
+      </e>
+      <e>
+        <p>
+          <l><b/></l>
+          <r>d'</r>
+        </p>
+        <par n="vocals_apost"/>
+      </e>
+      <e>
+        <p>
+          <l/>
+          <r>de</r>
+        </p>
+        <par n="consonant"/>
+      </e>
+      <e>
+        <p>
+          <l><b/></l>
+          <r>de<b/></r>
+        </p>
+        <par n="consonant"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>d'a<b/></r>
+        </p>
+      </e>
+      <e>
+      <p>
+          <l><b/><a/>o<b/></l>
+          <r>d'o<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>de<b/>l'</r>
+        </p>
+        <par n="vocals_apost" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>d'o<b/></r>
+        </p>
+        <par n="vocals_no_apost" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>d'o<b/></r>
+        </p>
+        <par n="vocals_no_apost_o" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>de<b/>l'</r>
+        </p>
+        <par n="vocals_apost_a" />
+      </e>      
+      <e>
+        <p>
+          <l><b/>as<b/></l>
+          <r>d'as<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>os<b/></l>
+          <r>d'os<b/></r>
+        </p>
+      </e>
+ <!--     <e>         jp: not in standard
+        <p>
+          <l><b/><a/>e</l>
+          <r>de</r>
+        </p>
+        <par n="contrac"/>
+      </e>   --><!--      
+      <e>
+        <p>
+          <l><b/>el<b/></l>
+          <r>d'el<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>els<b/></l>
+          <r>d'els<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>es<b/></l>
+          <r>d'es<b/></r>
+        </p>
+      </e>
+-->
+<!--      
+      <e>
+        <p>
+          <l><a/>de<b/></l>
+          <r>de</r>
+        </p>
+        <par n="el"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>de</l>
+          <r>de</r>
+        </p>
+        <par n="el"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>a<b/></l>
+          <r>a</r>
+        </p>
+        <par n="el"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>a</l>
+          <r>a</r>
+        </p>
+        <par n="el"/>
+      </e>      
+      -->
+    </pardef>
+
+
+   <pardef n="ta">   <!-- ta which makes, t'o, t'a, t'os, t'as, especially when meaning hacia-->
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>t'a<b/></r>
+        </p>
+      </e>
+      <e>
+      <p>
+          <l><b/><a/>o<b/></l>
+          <r>t'o<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>ta<b/>l'</r>
+        </p>
+        <par n="vocals_apost" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>t'o<b/></r>
+        </p>
+        <par n="consonant" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>t'o<b/></r>
+        </p>
+        <par n="vocals_no_apost_o" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>ta<b/>l'</r>
+        </p>
+        <par n="vocals_apost_a" />
+      </e>      
+      <e>
+        <p>
+          <l><b/>as<b/></l>
+          <r>t'as<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>os<b/></l>
+          <r>t'os<b/></r>
+        </p>
+      </e>
+ <!--     <e>         jp: not in standard
+        <p>
+          <l><b/><a/>e</l>
+          <r>ta</r>
+        </p>
+        <par n="contrac"/>
+      </e>   -->
+<!--      
+      <e>
+        <p>
+          <l><b/>el<b/></l>
+          <r>ta'l<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>els<b/></l>
+          <r>ta'ls<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>es<b/></l>
+          <r>ta's<b/></r>
+        </p>
+      </e>
+-->
+    </pardef>
+
+
+   <pardef n="ta2"> <!-- ta which makes, ta o, ta la, ta os, as, especially when meaning para-->
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>ta<b/>la<b/></r>
+        </p>
+      </e>
+      <e>
+      <p>
+          <l><b/><a/>o<b/></l>
+          <r>ta<b/>o<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>ta<b/>l'</r>
+        </p>
+        <par n="vocals_apost" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>ta<b/>o<b/></r>
+        </p>
+        <par n="consonant" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>ta<b/>o<b/></r>
+        </p>
+        <par n="vocals_no_apost_o" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>ta<b/>l'</r>
+        </p>
+        <par n="vocals_apost_a" />
+      </e>      
+      <e>
+        <p>
+          <l><b/>as<b/></l>
+          <r>ta<b/>las<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>os<b/></l>
+          <r>ta<b/>os<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/></l>
+          <r>ta<b/></r>
+        </p>
+      </e>
+
+ <!--     <e>         jp: not in standard
+        <p>
+          <l><b/><a/>e</l>
+          <r>ta</r>
+        </p>
+        <par n="contrac"/>
+      </e>   -->
+<!--      
+      <e>
+        <p>
+          <l><b/>el<b/></l>
+          <r>ta'l<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>els<b/></l>
+          <r>ta'ls<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>es<b/></l>
+          <r>ta's<b/></r>
+        </p>
+      </e>
+-->
+    </pardef>
+
+<pardef n="enta"> 
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>ent'a<b/></r>
+        </p>
+      </e>
+      <e>
+      <p>
+          <l><b/><a/>o<b/></l>
+          <r>ent'o<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>enta<b/>l'</r>
+        </p>
+        <par n="vocals_apost" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>ent'o<b/></r>
+        </p>
+        <par n="consonant" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>ent'o<b/></r>
+        </p>
+        <par n="vocals_no_apost_o" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>enta<b/>l'</r>
+        </p>
+        <par n="vocals_apost_a" />
+      </e>      
+      <e>
+        <p>
+          <l><b/>as<b/></l>
+          <r>ent'as<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>os<b/></l>
+          <r>ent'os<b/></r>
+        </p>
+      </e>
+ <!--     <e>         jp: not in standard
+        <p>
+          <l><b/><a/>e</l>
+          <r>enta</r>
+        </p>
+        <par n="contrac"/>
+      </e>   -->
+<!--      
+      <e>
+        <p>
+          <l><b/>el<b/></l>
+          <r>enta'l<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>els<b/></l>
+          <r>enta'ls<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>es<b/></l>
+          <r>enta's<b/></r>
+        </p>
+      </e>
+-->
+   </pardef>
+  
+   <pardef n="a_prep">  <!-- a is a preposition -->
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>a<b/>la<b/></r>
+        </p>
+      </e>
+      <e>
+      <p>
+          <l><b/><a/>o<b/></l>
+          <r>a<b/>o<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>a<b/>l'</r>
+        </p>
+        <par n="vocals_apost" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>a<b/>o<b/></r>
+        </p>
+        <par n="consonant" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o<b/></l>
+          <r>a<b/>o<b/></r>
+        </p>
+        <par n="vocals_no_apost_o" />
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>a<b/></l>
+          <r>a<b/>l'</r>
+        </p>
+        <par n="vocals_apost_a" />
+      </e>      
+      <e>
+        <p>
+          <l><b/>as<b/></l>
+          <r>a<b/>las<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>os<b/></l>
+          <r>a<b/>os<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/></l>
+          <r>a<b/></r>
+        </p>
+      </e>
+
+ <!--     <e>         jp: not in standard
+        <p>
+          <l><b/><a/>e</l>
+          <r>a</r>
+        </p>
+        <par n="contrac"/>
+      </e>   -->
+<!--      
+      <e>
+        <p>
+          <l><b/>el<b/></l>
+          <r>a'l<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>els<b/></l>
+          <r>a'ls<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>es<b/></l>
+          <r>a's<b/></r>
+        </p>
+      </e>
+-->
+    </pardef>
+
+
+  <pardef n="o_de">
+     <e>
+        <p>
+          <l><b/><a/>de</l>
+          <r>o<b/></r>
+        </p>
+        <par n="de"/>
+      </e> 
+  </pardef>
+
+  <pardef n="a_de">
+     <e>
+        <p>
+          <l><b/><a/>de</l>
+          <r>a<b/></r>
+        </p>
+        <par n="de"/>
+      </e> 
+  </pardef>
+
+
+  <pardef n="nos_tos">
+        <e>
+        <p>
+          <l>os<b/><a/>en<b/></l>
+          <r>os<b/>ne<b/></r>
+        </p>
+        <par n="consonant"/>
+      </e> 
+        <e>
+        <p>
+          <l>os<b/><a/>en</l>
+          <r>os<b/>ne</r>
+        </p>
+        <par n="caracter_general"/>
+      </e> 
+        <e>
+        <p>
+          <l>os<b/><a/>en<b/></l>
+          <r>os<b/>n'</r>
+        </p>
+        <par n="vocals_apost"/>
+      </e> 
+        <e>
+        <p>
+          <l>os<b/><a/>en<b/><a/></l>
+          <r>os<b/>n'</r>
+        </p>
+        <par n="vocals_apost"/>
+      </e> 
+        <e>
+        <p>
+          <l>os<b/><a/>en<b/><a/></l>
+          <r>os<b/>ne<b/></r>
+        </p>
+        <par n="consonant"/>
+      </e> 
+      <e>
+        <p>
+          <l>os<b/><a/>lo<b/></l>
+          <r>os<b/>l'</r>
+        </p>
+        <par n="vocals_apost_lo"/>
+      </e>      
+      <e>
+        <p>
+          <l>os<b/><a/>lo<b/><a/>en<b/></l>
+          <r>os<b/>lo'n<b/></r>
+        </p>
+      </e>      
+        <e>
+        <p>
+          <l>os<b/><a/>en<b/><a/>lo<b/></l>
+          <r>os<b/>ne<b/>l'</r>
+        </p>
+        <par n="vocals_apost_lo"/>
+      </e>       
+  </pardef>
+
+
+  <pardef n="me_te_se_zaguera">
+      <e>
+        <p>
+          <l>e<b/></l>
+          <r>'</r>
+        </p>
+        <par n="vocals_apost"/>
+      </e> 
+      <e>
+        <p>
+          <l>e<b/></l>
+          <r>e<b/></r>
+        </p>
+        <par n="consonant"/>
+      </e> 
+      <e>
+        <p>
+          <l>e</l>
+          <r>e</r>
+        </p>
+        <par n="caracter_general"/>
+      </e> 
+      <e>
+        <p>
+          <l>e<b/><a/>en<b/></l>
+          <r>e'n<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>e<b/><a/>lo<b/></l>
+          <r>e<b/>l'</r>
+        </p>
+        <par n="vocals_apost_lo"/>
+      </e>
+      <e>
+        <p>
+          <l>e<b/><a/>lo<b/><a/>en<b/></l>
+          <r>e<b/>lo'n<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>e<b/><a/>n</l>
+          <r>e<b/>n</r>
+        </p>
+        <par n="nos_tos"/>
+      </e>
+      <e>
+        <p>
+          <l>e<b/><a/>t</l>
+          <r>e<b/>t</r>
+        </p>
+        <par n="nos_tos"/>
+      </e>      
+
+  </pardef>
+
+  <pardef n="me_te_se_intermedia">
+      <e>
+        <p>
+          <l></l>
+          <r></r>
+        </p>
+        <par n="me_te_se_zaguera"/>
+      </e>
+      <e>
+        <p>
+          <l>e<b/><a/>m</l>
+          <r>e<b/>m</r>
+        </p>
+        <par n="me_te_se_zaguera"/>
+      </e>
+      <e>
+        <p>
+          <l>e<b/><a/>t</l>
+          <r>e<b/>t</r>
+        </p>
+        <par n="me_te_se_zaguera"/>
+      </e>
+      <e>
+        <p>
+          <l>e<b/><a/>s</l>
+          <r>e<b/>s</r>
+        </p>
+        <par n="me_te_se_zaguera"/>
+      </e>
+  </pardef>
+  
+  <pardef n="me_te_se">
+      <e>
+        <p>
+          <l></l>
+          <r></r>
+        </p>
+        <par n="me_te_se_zaguera"/>
+      </e>
+      <e>
+        <p>
+          <l>e<b/><a/>m</l>
+          <r>e<b/>m</r>
+        </p>
+        <par n="me_te_se_intermedia"/>
+      </e>
+      <e>
+        <p>
+          <l>e<b/><a/>t</l>
+          <r>e<b/>t</r>
+        </p>
+        <par n="me_te_se_intermedia"/>
+      </e>
+      <e>
+        <p>
+          <l>e<b/><a/>s</l>
+          <r>e<b/>s</r>
+        </p>
+        <par n="me_te_se_intermedia"/>
+      </e>
+  </pardef>
+
+  <pardef n="lo">
+        <e>
+        <p>
+          <l><b/></l>
+          <r>l'</r>
+        </p>
+        <par n="vocals_apost_lo"/>
+      </e> 
+      <e>
+        <p>
+          <l><b/><a/>en<b/></l>
+          <r>lo'n<b/></r>
+        </p>
+      </e> 
+      <e>
+        <p>
+          <l><b/><a/>m</l>
+          <r>lo<b/>m</r>
+        </p>
+        <par n="me_te_se"/>
+      </e> 
+
+  </pardef>      
+  
+  <pardef n="en">
+        <e>
+        <p>
+          <l><b/></l>
+          <r>n'</r>
+        </p>
+        <par n="vocals_apost"/>
+      </e> 
+        <e>
+        <p>
+          <l><b/><a/></l>
+          <r>n'</r>
+        </p>
+        <par n="vocals_apost"/>
+      </e> 
+      <e>
+        <p>
+          <l><b/></l>
+          <r>en<b/></r>
+        </p>
+        <par n="consonant"/>
+      </e>  
+      <e>
+        <p>
+          <l></l>
+          <r>en</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>  
+  </pardef>
+
+
+  <pardef n="no">
+      <e>
+        <p>
+          <l><b/><a/>en<b/></l>
+          <r>no'n<b/></r>
+        </p>
+      </e> 
+      <e>
+        <p>
+          <l><b/><a/>m</l>
+          <r>no<b/>m</r>
+        </p>
+        <par n="me_te_se"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>t</l>
+          <r>no<b/>t</r>
+        </p>
+        <par n="me_te_se"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>s</l>
+          <r>no<b/>s</r>
+        </p>
+        <par n="me_te_se"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>le</l>
+          <r>no<b/></r>
+        </p>
+        <par n="le"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>les</l>
+          <r>no<b/></r>
+        </p>
+        <par n="les"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>lo</l>
+          <r>no<b/></r>
+        </p>
+        <par n="lo"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>enta</l>
+          <r>no<b/></r>
+        </p>
+        <par n="enta"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>ta</l>
+          <r>no<b/></r>
+        </p>
+        <par n="ta"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>ta2</l>
+          <r>no<b/></r>
+        </p>
+        <par n="ta2"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>a2</l>
+          <r>no<b/></r>
+        </p>
+        <par n="a_prep"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>de</l>
+          <r>no<b/></r>
+        </p>
+        <par n="de"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o</l>
+          <r>no<b/></r>
+        </p>
+        <par n="o"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>a</l>
+          <r>no<b/></r>
+        </p>
+        <par n="a"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>o</l>
+          <r>no<b/></r>
+        </p>
+        <par n="o_de"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>a</l>
+          <r>no<b/></r>
+        </p>
+        <par n="a_de"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>n</l>
+          <r>no<b/>n</r>
+        </p>
+        <par n="nos_tos"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>t</l>
+          <r>no<b/>t</r>
+        </p>
+        <par n="nos_tos"/>
+      </e>      
+  </pardef>      
+  </pardefs>
+
+  <section id="main" type="standard">
+        <e>
+        <p>
+          <l><a/>o</l>
+          <r/>
+        </p>
+        <par n="o"/>
+       </e>
+       <e>
+        <p>
+          <l><a/>o</l>
+          <r/>
+        </p>
+        <par n="o_de"/>
+       </e>
+       <e>  <!-- a as an article-->
+        <p>
+          <l><a/>a</l>
+          <r/>
+        </p>
+        <par n="a"/>
+       </e>
+       <e>
+        <p>
+          <l><a/>a</l>
+          <r/>
+        </p>
+        <par n="a_de"/>
+       </e>
+        <e>
+        <p>
+          <l><a/>de</l>
+          <r/>
+        </p>
+        <par n="de"/>
+      </e>
+        <e>  <!-- ta with the meaning of 'hacia' -->
+        <p>
+          <l><a/>ta</l>
+          <r/>
+        </p>
+        <par n="ta"/>
+      </e>
+        <e> <!-- ta with the meaning of 'para' -->
+        <p>
+          <l><a/>ta2</l>
+          <r/>
+        </p>
+        <par n="ta2"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>enta</l>
+          <r/>
+        </p>
+        <par n="enta"/>
+      </e>
+        <e>
+        <p>
+          <l><a/>a2</l>  <!-- a2 is 'a' preposition -->
+          <r/>
+        </p>
+        <par n="a_prep"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>m</l>
+          <r>m</r>
+        </p>
+        <par n="me_te_se"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>t</l>
+          <r>t</r>
+        </p>
+        <par n="me_te_se"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>s</l>
+          <r>s</r>
+        </p>
+        <par n="me_te_se"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>n</l>
+          <r>n</r>
+        </p>
+        <par n="nos_tos"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>t</l>
+          <r>t</r>
+        </p>
+        <par n="nos_tos"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>lo</l>
+          <r/>
+        </p>
+        <par n="lo"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>en</l>
+          <r/>
+        </p>
+        <par n="en"/>
+      </e>
+
+      <e>
+        <p>
+          <l><a/>no</l>
+          <r/>
+        </p>
+        <par n="no"/>
+      </e>
+
+<!--      
+      <e>
+        <p>
+          <l><a/>pa<b/>el<b/></l>
+          <r>pa'l<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>pa<b/>els<b/></l>
+          <r>pa'ls<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>pa<b/>es<b/></l>
+          <r>pa's<b/></r>
+        </p>
+      </e>
+-->
+
+      <e>
+        <p>
+          <l><a/>le</l>
+          <r/>
+        </p>
+        <par n="le"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>les</l>
+          <r/>
+        </p>
+        <par n="les"/>
+      </e>
+<!--      
+      <e>
+        <p>
+          <l><a/>li<b/><a/>en<b/></l>
+          <r>li'n<b/></r>
+        </p>
+      </e> 
+-->
+<!--
+      <e>
+        <p>
+          <l><a/>bi<b/><a/>en<b/></l>
+          <r>bi'n<b/></r>
+        </p>
+      </e> 
+-->      
+
+  </section>
+
+</dictionary>
