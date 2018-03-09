@@ -10,8 +10,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-es-an.trules-an-es.xml"/>
-        <file name="trules-an-es.bin"/>
+        <file name="apertium-es-an.an-es.t1x"/>
+        <file name="an-es.t1x.bin"/>
         <file name="an-es.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
@@ -66,8 +66,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-es-an.trules-an-es.xml"/>
-        <file name="trules-an-es.bin"/>
+        <file name="apertium-es-an.an-es.t1x"/>
+        <file name="an-es.t1x.bin"/>
         <file name="an-es.autobil.bin"/>
       </program>
     </pipeline>
@@ -83,8 +83,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-es-an.trules-an-es.xml"/>
-        <file name="trules-an-es.bin"/>
+        <file name="apertium-es-an.an-es.t1x"/>
+        <file name="an-es.t1x.bin"/>
         <file name="an-es.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
@@ -103,8 +103,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-es-an.trules-es-an.xml"/>
-        <file name="trules-es-an.bin"/>
+        <file name="apertium-es-an.es-an.t1x"/>
+        <file name="es-an.t1x.bin"/>
         <file name="es-an.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
@@ -159,8 +159,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-es-an.trules-es-an.xml"/>
-        <file name="trules-es-an.bin"/>
+        <file name="apertium-es-an.es-an.t1x"/>
+        <file name="es-an.t1x.bin"/>
         <file name="es-an.autobil.bin"/>
       </program>
     </pipeline>
@@ -177,8 +177,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="apertium-es-an.trules-es-an.xml"/>
-        <file name="trules-es-an.bin"/>
+        <file name="apertium-es-an.es-an.t1x"/>
+        <file name="es-an.t1x.bin"/>
         <file name="es-an.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
