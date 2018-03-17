@@ -16840,7 +16840,6 @@
 <e>       <i>Alberola<s n="np"/></i></e>
 <e>       <i>Albert<s n="np"/></i></e>
 <e>       <i>Alberta<s n="np"/></i></e>
-<e>       <i>Albertis<s n="np"/></i></e>
 <e>       <i>Alberto<s n="np"/></i></e>
 <e>       <i>Albesa<s n="np"/></i></e>
 <e>       <i>Albeza<s n="np"/></i></e>
@@ -17108,7 +17107,6 @@
 <e>       <i>Anasagasti<s n="np"/></i></e>
 <e>       <i>Anatólia<s n="np"/></i></e>
 <e>       <i>Anaxágoras<s n="np"/></i></e>
-<e>       <i>Anbar<s n="np"/></i></e>
 <e>       <i>Ancona<s n="np"/></i></e>
 <e>       <p><l>Andalucía<s n="np"/></l>               <r>Andalucía<s n="np"/></r></p></e>
 <e r="RL"><i>Andalucía<s n="np"/></i></e>
@@ -17136,7 +17134,6 @@
 <e>       <i>Angela<s n="np"/></i></e>
 <e>       <i>Angeles<s n="np"/></i></e>
 <e>       <i>Angelina<s n="np"/></i></e>
-<e>       <i>Angelis<s n="np"/></i></e>
 <e>       <i>Angers<s n="np"/></i></e>
 <e>       <i>Anglada<s n="np"/></i></e>
 <e>       <i>Anglesola<s n="np"/></i></e>
@@ -17367,7 +17364,7 @@
 <e>       <i>Aruba<s n="np"/></i></e>
 <e>       <i>Arvelo<s n="np"/></i></e>
 <e>       <i>Arzalluz<s n="np"/></i></e>
-<e>       <i>Arzua<s n="np"/></i></e>
+<e>       <p><l>Arzua<s n="np"/></l><r>Arzúa<s n="np"/></r></p></e>
 <e>       <i>Aráguez<s n="np"/></i></e>
 <e>       <i>Arévalo<s n="np"/></i></e>
 <e>       <i>Arístides<s n="np"/></i></e>
@@ -17968,7 +17965,6 @@
 <e>       <i>Bocairente<s n="np"/></i></e>
 <e>       <i>Bocanegra<s n="np"/></i></e>
 <e>       <i>Boeing<s n="np"/></i></e>
-<e>       <i>Boer<s n="np"/></i></e>
 <e>       <i>Bofill<s n="np"/></i></e>
 <e>       <i>Bogotá<s n="np"/></i></e>
 <e>       <i>Boix<s n="np"/></i></e>
@@ -18023,7 +18019,7 @@
 <e>       <i>Borjas<b/>Blancas<s n="np"/></i></e>
 <e>       <i>Boronat<s n="np"/></i></e>
 <e>       <i>Borrassà<s n="np"/></i></e>
-<e>       <i>Borreda<s n="np"/></i></e>
+<e r="LR">       <p><l>Borredá<s n="np"/></l>           <r>Borredà<s n="np"/></r></p></e>
 <e>       <i>Borredà<s n="np"/></i></e>
 <e>       <i>Borrel<s n="np"/></i></e>
 <e>       <i>Borrell<s n="np"/></i></e>
@@ -18435,6 +18431,7 @@
 <e>       <i>Casserres<b/>de<b/>Berguedà<s n="np"/></i></e>
 <e>       <i>Casso<s n="np"/></i></e>
 <e>       <i>Cassà<b/>de<b/>la<b/>Selva<s n="np"/></i></e>
+<e r="LR"><p><l>Caçà<b/>de<b/>la<b/>Selva<s n="np"/></l><r>Cassà<b/>de<b/>la<b/>Selva<s n="np"/></r></p></e>
 <e>       <i>Castalla<s n="np"/></i></e>
 <e>       <i>Castanyer<s n="np"/></i></e>
 <e>       <i>Castañeda<s n="np"/></i></e>
@@ -18491,7 +18488,8 @@
 <e>       <i>Castellón<b/>de<b/>Rugat<s n="np"/></i></e>
 <e>       <i>Castellón<b/>de<b/>la<b/>Plana<s n="np"/></i></e>
 <e>       <i>Castielfabib<s n="np"/></i></e>
-<e>       <p><l>Castilla<s n="np"/></l>                <r>Castiella<s n="np"/></r></p></e>
+<e>       <p><l>Castilla<s n="np"/><s n="loc"/></l>                <r>Castiella<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Castilla<s n="np"/><s n="ant"/></l>                <r>Castilla<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Castilla-La<b/>Mancha<s n="np"/></l>   <r>Castiella-La<b/>Mancha<s n="np"/></r></p></e>
 <e>       <p><l>Castilla-León<s n="np"/></l>           <r>Castiella-Leyón<s n="np"/></r></p></e>
 <e>       <p><l>Castilla<b/>y<b/>León<s n="np"/></l>   <r>Castiella<b/>y<b/>Leyón<s n="np"/></r></p></e>
@@ -18528,7 +18526,6 @@
 <e>       <i>Cayetano<s n="np"/></i></e>
 <e>       <i>Cayuela<s n="np"/></i></e>
 <e>       <i>Cazorla<s n="np"/></i></e>
-<e>       <i>Caçà<b/>de<b/>la<b/>Selva<s n="np"/></i></e>
 <e>       <i>Cañada<s n="np"/></i></e>
 <e>       <i>Cañaveras<s n="np"/></i></e>
 <e>       <i>Cañete<s n="np"/></i></e>
@@ -18575,7 +18572,6 @@
 <e>       <i>Cerro<s n="np"/></i></e>
 <e>       <i>Cervantes<s n="np"/></i></e>
 <e>       <i>Cervelló<s n="np"/></i></e>
-<e>       <i>Cervera<s n="np"/></i></e>
 <e>       <i>Cervera<b/>del<b/>Maestrat<s n="np"/></i></e>
 <e>       <i>Cervera<b/>del<b/>Maestre<s n="np"/></i></e>
 <e>       <i>Cerveró<s n="np"/></i></e>
@@ -18657,7 +18653,6 @@
 <e>       <i>Cicely<s n="np"/></i></e>
 <e>       <i>Cicerón<s n="np"/></i></e>
 <e>       <i>Cid<s n="np"/></i></e>
-<e>       <i>Cienuegos<s n="np"/></i></e>
 <e>       <i>Cieza<s n="np"/></i></e>
 <e>       <i>Cifuentes<s n="np"/></i></e>
 <e>       <i>Cigarrán<s n="np"/></i></e>
@@ -19080,9 +19075,13 @@
 <e>       <i>E.ON<s n="np"/></i></e>
 <e>       <i>EAED<s n="np"/></i></e>
 <e>       <i>EDIF<s n="np"/></i></e>
-<e>       <i>EE.UU.<s n="np"/></i></e>
-<e>       <i>EE<b/>UU<s n="np"/></i></e>
-<e>       <i>EEUU<s n="np"/></i></e>
+<e>       <p><l>EE.UU.<s n="np"/></l>             <r>EUA<s n="np"/></r></p></e>
+<e r="LR"><p><l>EEUU<s n="np"/></l>               <r>EUA<s n="np"/></r></p></e>
+<e r="LR"><p><l>EE<b/>UU<s n="np"/></l>           <r>EUA<s n="np"/></r></p></e>
+<e r="RL"><p><l>EE.UU.<s n="np"/></l>             <r>EE.UU.<s n="np"/></r></p></e>
+<e r="RL"><p><l>EEUU<s n="np"/></l>             <r>EEUU<s n="np"/></r></p></e>
+<e r="RL"><p><l>EE<b/>UU<s n="np"/></l>             <r>EE<b/>UU<s n="np"/></r></p></e>
+<e r="RL"><p><l>EE<b/>UU<s n="np"/></l>             <r>E.U.A.<s n="np"/></r></p></e>
 <e>       <i>EGB<s n="np"/></i></e>
 <e>       <i>EU<s n="np"/></i></e>
 <e>       <i>EUNoM<s n="np"/></i></e>
@@ -19747,7 +19746,6 @@
 <e>       <i>Gastón<s n="np"/></i></e>
 <e>       <i>Gata<b/>de<b/>Gorgos<s n="np"/></i></e>
 <e>       <i>Gates<s n="np"/></i></e>
-<e>       <i>Gatxagaetxebarria<s n="np"/></i></e>
 <e>       <i>Gaudí<s n="np"/></i></e>
 <e>       <i>Gausac<s n="np"/></i></e>
 <e>       <i>Gavaldà<s n="np"/></i></e>
@@ -19845,7 +19843,6 @@
 <e>       <i>Godes<s n="np"/></i></e>
 <e>       <i>Godfrey<s n="np"/></i></e>
 <e>       <i>Godoy<s n="np"/></i></e>
-<e>       <i>Gogh<s n="np"/></i></e>
 <e>       <i>Goikoetxea<s n="np"/></i></e>
 <e>       <i>Golmés<s n="np"/></i></e>
 <e>       <i>Gombrèn<s n="np"/></i></e>
@@ -20005,7 +20002,7 @@
 <e>       <i>Hamás<s n="np"/></i></e>
 <e>       <i>Haneef<s n="np"/></i></e>
 <e>       <i>Hanes<s n="np"/></i></e>
-<e>       <i>Haniye<s n="np"/></i></e>
+<e>       <p><l>Haniye<s n="np"/><s n="ant"/></l>      <r>Haniyeh<s n="np"/><s n="ant"/></r></p></e>
 <e>       <i>Hanks<s n="np"/></i></e>
 <e>       <i>Hannover<s n="np"/></i></e>
 <e>       <i>Hanoi<s n="np"/></i></e>
@@ -20233,7 +20230,7 @@
 <e>       <i>Isidoro<s n="np"/></i></e>
 <e>       <i>Isidre<s n="np"/></i></e>
 <e>       <i>Isidro<s n="np"/></i></e>
-<e>       <i>Isinbayeva<s n="np"/></i></e>
+<e>       <p><l>Isinbayeva<s n="np"/></l>  <r>Issinbayeva<s n="np"/></r></p></e>
 <e>       <i>Isla<b/>Bouvet<s n="np"/></i></e>
 <e>       <i>Isla<b/>Heard<s n="np"/></i></e>
 <e>       <i>Isla<b/>Mágica<s n="np"/></i></e>
@@ -20248,6 +20245,7 @@
 <e>       <i>Islas<b/>Canarias<s n="np"/></i></e>
 <e>       <i>Islas<b/>Cocos<s n="np"/></i></e>
 <e>       <i>Islas<b/>Cook<s n="np"/></i></e>
+<e>       <p><l>islas<b/>de<b/>las<b/>Antípodas<s n="np"/></l><r>islas<b/>Antipodas<s n="np"/></r></p></e>
 <e>       <p><l>Islas<b/>Marianas<b/>del<b/>Norte<s n="np"/></l><r>Islas<b/>Marianas<b/>d'o<b/>Norte<s n="np"/></r></p></e>
 <e>       <i>Islas<b/>Marshall<s n="np"/></i></e>
 <e>       <i>Islas<b/>Salomón<s n="np"/></i></e>
@@ -20820,7 +20818,7 @@
 <e>       <i>Lola<s n="np"/></i></e>
 <e>       <i>Loli<s n="np"/></i></e>
 <e>       <i>Lolita<s n="np"/></i></e>
-<e>       <i>Lombardia<s n="np"/></i></e>
+<e>       <p><l>Lombardia<s n="np"/></l> <r>Lombardía<s n="np"/></r></p></e>
 <e>       <i>Lomé<s n="np"/></i></e>
 <e>       <i>Lon<s n="np"/></i></e>
 <e>       <i>Londres<s n="np"/></i></e>
@@ -20874,7 +20872,7 @@
 <e>       <i>Lugar<b/>Nuevo<b/>de<b/>San<b/>Jerónimo<s n="np"/></i></e>
 <e>       <i>Lugar<b/>Nuevo<b/>de<b/>la<b/>Corona<s n="np"/></i></e>
 <e>       <i>Lugo<s n="np"/></i></e>
-<e>       <i>Lugovói<s n="np"/></i></e>
+<e>       <p><l>Lugovói<s n="np"/></l>     <r>Lugovoi<s n="np"/></r></p></e>
 <e>       <i>Luigi<s n="np"/></i></e>
 <e>       <i>Luis<s n="np"/></i></e>
 <e>       <i>Luisa<s n="np"/></i></e>
@@ -20929,8 +20927,8 @@
 <e>       <i>Madonna<s n="np"/></i></e>
 <e>       <i>Madrazo<s n="np"/></i></e>
 <e>       <i>Madremanya<s n="np"/></i></e>
-<e>       <p><l>Madrid<s n="np"/></l>                  <r>Madrit<s n="np"/></r></p></e>
-<e>       <p><l>Madrid<s n="np"/></l>                  <r>Madrit<s n="np"/></r></p></e>
+<e>       <p><l>Madrid<s n="np"/><s n="loc"/></l>                  <r>Madrit<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Madrid<s n="np"/><s n="ant"/></l>                  <r>Madrid<s n="np"/><s n="ant"/></r></p></e>
 <e>       <i>Maestre<s n="np"/></i></e>
 <e>       <i>Maestro<s n="np"/></i></e>
 <e>       <i>Magda<s n="np"/></i></e>
@@ -20941,7 +20939,7 @@
 <e>       <i>Maguncia<s n="np"/></i></e>
 <e>       <i>Magán<s n="np"/></i></e>
 <e>       <i>Magí<s n="np"/></i></e>
-<e>       <i>Mahdi<s n="np"/></i></e>
+<e>       <p><l>Mahdi<s n="np"/><s n="ant"/></l>       <r>Mahdí<s n="np"/><s n="ant"/></r></p></e>
 <e>       <i>Mahfuz<s n="np"/></i></e>
 <e>       <i>Mahmud<s n="np"/></i></e>
 <e>       <i>Mahoma<s n="np"/></i></e>
@@ -21241,6 +21239,7 @@
 <e>       <i>Meranges<s n="np"/></i></e>
 <e>       <i>Meras<s n="np"/></i></e>
 <e>       <i>Merce<s n="np"/></i></e>
+<e>       <i>Mercé<s n="np"/></i></e>
 <e>       <i>Mercedes<s n="np"/></i></e>
 <e>       <i>Mercurio<s n="np"/></i></e>
 <e>       <i>Mercè<s n="np"/></i></e>
@@ -21692,9 +21691,7 @@
 <e>       <i>Nimes<s n="np"/></i></e>
 <e>       <i>Nin<s n="np"/></i></e>
 <e>       <i>Nintendo<s n="np"/></i></e>
-<e>       <i>Niro<s n="np"/></i></e>
 <e>       <i>Nissan<s n="np"/></i></e>
-<e>       <i>Nistelrooy<s n="np"/></i></e>
 <e>       <i>Niue<s n="np"/></i></e>
 <e>       <i>Niurka<s n="np"/></i></e>
 <e>       <i>Niza<s n="np"/></i></e>
@@ -22253,7 +22250,6 @@
 <e>       <i>Polinyà<b/>de<b/>Xúquer<s n="np"/></i></e>
 <e>       <i>Polinyà<b/>del<b/>Vallès<s n="np"/></i></e>
 <e>       <i>Politkovskaya<s n="np"/></i></e>
-<e>       <i>Politkòvskaia<s n="np"/></i></e>
 <e>       <i>Politkóvskaya<s n="np"/></i></e>
 <e>       <i>Politècnica<s n="np"/></i></e>
 <e>       <i>Poliñá<b/>del<b/>Júcar<s n="np"/></i></e>
@@ -22360,7 +22356,7 @@
 <e>       <i>Puebla<b/>del<b/>Duc<s n="np"/></i></e>
 <e>       <i>Puente<s n="np"/></i></e>
 <e>       <i>Pueo<s n="np"/></i></e>
-<e>       <i>Puerto<b/>España<s n="np"/></i></e>
+<e>       <p><l>Puerto<b/>España<s n="np"/></l>   <r>Port-of-Spain<s n="np"/></r></p></e>
 <e>       <i>Puerto<b/>Lumbreras<s n="np"/></i></e>
 <e>       <i>Puerto<b/>Príncipe<s n="np"/></i></e>
 <e>       <i>Puerto<b/>Rico<s n="np"/></i></e>
@@ -22397,6 +22393,7 @@
 <e>       <i>Pérez<s n="np"/></i></e>
 <e>       <i>Pérgamo<s n="np"/></i></e>
 <e>       <i>Pérsico<s n="np"/></i></e>
+<e>       <p><l>Pérsico<s n="np"/></l>           <r>Persico<s n="adj"/></r></p></e>
 <e>       <i>Pío<s n="np"/></i></e>
 <e>       <i>Píramo<s n="np"/></i></e>
 <e>       <i>Pòrtulas<s n="np"/></i></e>
@@ -22809,7 +22806,7 @@
 <e>       <i>Saez<s n="np"/></i></e>
 <e>       <i>Saffir-Simpson<s n="np"/></i></e>
 <e>       <i>Safor<s n="np"/></i></e>
-<e>       <i>Sagarra<s n="np"/></i></e>
+<e>       <p><l>Sagarra<s n="np"/></l>     <r>Segarra<s n="np"/></r></p></e>
 <e>       <i>Sagarzazu<s n="np"/></i></e>
 <e>       <i>Sagitari<s n="np"/></i></e>
 <e>       <i>Sagra<s n="np"/></i></e>
@@ -22820,7 +22817,7 @@
 <e>       <i>Sahuquillo<s n="np"/></i></e>
 <e>       <i>Said<s n="np"/></i></e>
 <e>       <i>Saigón<s n="np"/></i></e>
-<e>       <i>Saint<b/>Gaudens<s n="np"/></i></e>
+<e>       <p><l>Saint<b/>Gaudens<s n="np"/></l><r>Sent<b/>Gaudenç<s n="np"/></r></p></e>
 <e>       <i>Saint<b/>George's<s n="np"/></i></e>
 <e>       <i>Saint<b/>John's<s n="np"/></i></e>
 <e>       <i>Sainz<s n="np"/></i></e>
@@ -23173,7 +23170,6 @@
 <e>       <i>Scimago<s n="np"/></i></e>
 <e>       <i>Scooby<s n="np"/></i></e>
 <e>       <i>Scorsese<s n="np"/></i></e>
-<e>       <i>Scotland<s n="np"/></i></e>
 <e>       <i>Scotland<b/>Yard<s n="np"/></i></e>
 <e>       <i>Scott<s n="np"/></i></e>
 <e>       <i>Sean<s n="np"/></i></e>
@@ -23386,7 +23382,6 @@
 <e>       <i>Suazilandia<s n="np"/></i></e>
 <e>       <i>Subirachs<s n="np"/></i></e>
 <e>       <i>Subirada<s n="np"/></i></e>
-<e>       <i>Subirat<s n="np"/></i></e>
 <e>       <i>Subirats<s n="np"/></i></e>
 <e>       <i>Sucaina<s n="np"/></i></e>
 <e>       <i>Such<s n="np"/></i></e>
@@ -23726,7 +23721,7 @@
 <e>       <i>Trichet<s n="np"/></i></e>
 <e>       <i>Trillo<s n="np"/></i></e>
 <e>       <i>Trillo-Figueroa<s n="np"/></i></e>
-<e>       <i>Trinidad<b/>y<b/>Tobago<s n="np"/></i></e>
+<e>       <p><l>Trinidad<b/>y<b/>Tobago<s n="np"/><s n="loc"/></l><r>Trinidad<b/>y<b/>Tobago<s n="np"/><s n="loc"/></r></p></e>
 <e>       <i>Triodos<b/>Bank<s n="np"/></i></e>
 <e>       <i>Tris<s n="np"/></i></e>
 <e>       <i>Tritón<s n="np"/></i></e>
@@ -24118,7 +24113,6 @@
 <e>       <i>Vinaròs<s n="np"/></i></e>
 <e>       <i>Vince<s n="np"/></i></e>
 <e>       <i>Vincent<s n="np"/></i></e>
-<e>       <i>Vinci<s n="np"/></i></e>
 <e>       <i>Vinebre<s n="np"/></i></e>
 <e>       <i>Vinhana<s n="np"/></i></e>
 <e>       <i>Vinokourov<s n="np"/></i></e>
@@ -24305,7 +24299,6 @@
 <e>       <i>Zarra<s n="np"/></i></e>
 <e>       <i>Zarranz<s n="np"/></i></e>
 <e>       <i>Zarzoso<s n="np"/></i></e>
-<e>       <i>Zawahiri<s n="np"/></i></e>
 <e>       <i>Zedillo<s n="np"/></i></e>
 <e>       <i>Zeta<s n="np"/></i></e>
 <e>       <i>Zeus<s n="np"/></i></e>
@@ -24334,7 +24327,7 @@
 <e>       <i>cabo<b/>de<b/>la<b/>Nao<s n="np"/></i></e>
 <e>       <i>cabo<b/>de<b/>las<b/>Huertas<s n="np"/></i></e>
 <e>       <i>casadellibro.com<s n="np"/></i></e>
-<e>       <i>centroamérica<s n="np"/></i></e>
+<e>       <p><l>Centroamérica<s n="np"/></l><r>Centroamerica<s n="np"/></r></p></e>
 <e>       <i>da<b/>Silva<s n="np"/></i></e>
 <e>       <i>don<b/>Juan<s n="np"/></i></e>
 <e>       <i>don<b/>Juan<b/>Tenorio<s n="np"/></i></e>
@@ -24442,7 +24435,7 @@
 <e>       <i>isla<b/>de<b/>Granada<s n="np"/></i></e>
 <e>       <i>isla<b/>de<b/>Guadalupe<s n="np"/></i></e>
 <e>       <i>islas<b/>McDonald<s n="np"/></i></e>
-<e>       <i>islas<b/>de<b/>las<b/>Antípodas<s n="np"/></i></e>
+<e>       <p><l>islas<b/>de<b/>las<b/>Antipodas<s n="np"/></l><r>illes<b/>Antipodas<s n="np"/></r></p></e>
 <e>       <i>kutxa<s n="np"/></i></e>
 <e>       <i>l'Alacantí<s n="np"/></i></e>
 <e>       <i>l'Albagés<s n="np"/></i></e>
@@ -24495,7 +24488,6 @@
 <e>       <i>la<b/>Cellera<b/>de<b/>Ter<s n="np"/></i></e>
 <e>       <i>la<b/>Coma<b/>i<b/>la<b/>Pedra<s n="np"/></i></e>
 <e>       <i>la<b/>Comunidad<b/>Valenciana<s n="np"/></i></e>
-<e>       <i>la<b/>Comunitat<s n="np"/></i></e>
 <e>       <i>la<b/>Eliana<s n="np"/></i></e>
 <e>       <i>la<b/>Fatarella<s n="np"/></i></e>
 <e>       <i>la<b/>Febró<s n="np"/></i></e>
@@ -24637,7 +24629,8 @@
 <e>       <i>les<b/>Piles<b/>de<b/>Gaià<s n="np"/></i></e>
 <e>       <i>les<b/>Planes<b/>d'Hostoles<s n="np"/></i></e>
 <e>       <i>les<b/>Preses<s n="np"/></i></e>
-<e>       <i>les<b/>Salines<s n="np"/></i></e>
+<e>       <p><l>Ses<b/>Salines<s n="np"/></l><r>Ses<b/>Salines<s n="np"/></r></p></e>
+<e>       <p><l>les<b/>Salines<s n="np"/></l><r>les<b/>Salines<s n="np"/></r></p></e>
 <e>       <i>les<b/>Useres<s n="np"/></i></e>
 <e>       <i>les<b/>Valls<b/>d'Aguilar<s n="np"/></i></e>
 <e>       <i>les<b/>Valls<b/>de<b/>Valira<s n="np"/></i></e>
@@ -24650,9 +24643,9 @@
 <e>       <i>río<b/>Jordán<s n="np"/></i></e>
 <e>       <i>río<b/>Misisipí<s n="np"/></i></e>
 <e>       <i>sa<b/>Pobla<s n="np"/></i></e>
-<e>       <i>ses<b/>Salines<s n="np"/></i></e>
-<e>       <i>son<b/>Cervera<s n="np"/></i></e>
-<e>       <i>son<b/>Servera<s n="np"/></i></e>
+<e>       <p><l>Ses<b/>Salines<s n="np"/></l><r>les<b/>Salines<s n="np"/></r></p></e>
+<e>       <p><l>Son<b/>Cervera<s n="np"/></l><r>son<b/>Cervera<s n="np"/></r></p></e>
+<e>       <p><l>Son<b/>Cervera<s n="np"/></l><r>son<b/>Servera<s n="np"/></r></p></e>
 <e>       <i>tv3<s n="np"/></i></e>
 <e>       <i>via<b/>Laietana<s n="np"/></i></e>
 <e>       <i>vía<b/>Laietana<s n="np"/></i></e>
@@ -24664,7 +24657,7 @@
 <e>       <i>Àngela<s n="np"/></i></e>
 <e>       <i>Àngels<s n="np"/></i></e>
 <e>       <i>Àvila<s n="np"/></i></e>
-<e>       <i>África<s n="np"/></i></e>
+<e>       <p><l>África<s n="np"/></l>                   <r>Africa<s n="np"/></r></p></e>
 <e>       <i>Águilas<s n="np"/></i></e>
 <e>       <p><l>Álava<s n="np"/></l>                   <r>Alaba<s n="np"/></r></p></e>
 <e r="RL"><p><l>Álava<s n="np"/></l>                   <r>Alava<s n="np"/></r></p></e>
