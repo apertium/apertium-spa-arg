@@ -18491,7 +18491,7 @@
 <e>       <p><l>Castilla<s n="np"/><s n="loc"/></l>                <r>Castiella<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Castilla<s n="np"/><s n="ant"/></l>                <r>Castilla<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Castilla-La<b/>Mancha<s n="np"/></l>   <r>Castiella-La<b/>Mancha<s n="np"/></r></p></e>
-<e>       <p><l>Castilla-León<s n="np"/></l>           <r>Castiella-Leyón<s n="np"/></r></p></e>
+<e r="LR">       <p><l>Castilla-León<s n="np"/></l>           <r>Castiella<b>y</b>Leyón<s n="np"/></r></p></e>
 <e>       <p><l>Castilla<b/>y<b/>León<s n="np"/></l>   <r>Castiella<b/>y<b/>Leyón<s n="np"/></r></p></e>
 <e>       <i>Castillo<s n="np"/></i></e>
 <e>       <i>Castillo<b/>de<b/>Vilamalefa<s n="np"/></i></e>
@@ -18594,7 +18594,6 @@
 <e>       <i>Chan<s n="np"/></i></e>
 <e>       <i>Chandler<s n="np"/></i></e>
 <e>       <i>Chaos<s n="np"/></i></e>
-<e>       <i>Chaparral<s n="np"/></i></e>
 <e>       <i>Charente<s n="np"/></i></e>
 <e>       <i>Charles<s n="np"/></i></e>
 <e>       <i>Charlie<s n="np"/></i></e>
@@ -19722,6 +19721,7 @@
 <e>       <i>Garona<s n="np"/></i></e>
 <e>       <i>Garraf<s n="np"/></i></e>
 <e>       <i>Garrido<s n="np"/></i></e>
+<e>       <i>Garriga<s n="np"/></i></e>
 <e>       <i>Garrigoles<s n="np"/></i></e>
 <e>       <i>Garrigosa<s n="np"/></i></e>
 <e>       <i>Garriguella<s n="np"/></i></e>
@@ -20237,15 +20237,15 @@
 <e>       <i>Islamabad<s n="np"/></i></e>
 <e>       <i>Islandia<s n="np"/></i></e>
 <e>       <i>Islas<b/>Andamán<b/>y<b/>Nicobar<s n="np"/></i></e>
-<e>       <p><l>Islas<b/>Baleares<s n="np"/></l>       <r>Islas<b/>Balears<s n="np"/></r></p></e>
-<e>       <i>Islas<b/>Caimán<s n="np"/></i></e>
-<e>       <i>Islas<b/>Canarias<s n="np"/></i></e>
-<e>       <i>Islas<b/>Cocos<s n="np"/></i></e>
-<e>       <i>Islas<b/>Cook<s n="np"/></i></e>
+<e>       <p><l>Islas<b/>Baleares<s n="np"/></l>       <r>islas<b/>Balears<s n="np"/></r></p></e>
+<e>       <p><l>Islas<b/>Caimán<s n="np"/></l>       <r>islas<b/>Caimán<s n="np"/></r></p></e>
+<e>       <p><l>Islas<b/>Canarias<s n="np"/></l>       <r>islas<b/>Canarias<s n="np"/></r></p></e>
+<e>       <p><l>Islas<b/>Cocos<s n="np"/></l>       <r>islas<b/>Cocos<s n="np"/></r></p></e>
+<e>       <p><l>Islas<b/>Cook<s n="np"/></l>       <r>islas<b/>Cook<s n="np"/></r></p></e>
 <e>       <p><l>islas<b/>de<b/>las<b/>Antípodas<s n="np"/></l><r>islas<b/>Antipodas<s n="np"/></r></p></e>
-<e>       <p><l>Islas<b/>Marianas<b/>del<b/>Norte<s n="np"/></l><r>Islas<b/>Marianas<b/>d'o<b/>Norte<s n="np"/></r></p></e>
-<e>       <i>Islas<b/>Marshall<s n="np"/></i></e>
-<e>       <i>Islas<b/>Salomón<s n="np"/></i></e>
+<e>       <p><l>Islas<b/>Marianas<b/>del<b/>Norte<s n="np"/></l><r>islas<b/>Marianas<b/>d'o<b/>Norte<s n="np"/></r></p></e>
+<e>       <p><l>Islas<b/>Marshall<s n="np"/></l>       <r>islas<b/>Marshall<s n="np"/></r></p></e>
+<e>       <p><l>Islas<b/>Salomón<s n="np"/></l>       <r>islas<b/>Salomón<s n="np"/></r></p></e>
 <e>       <i>Islas<b/>Turcas<b/>y<b/>Caicos<s n="np"/></i></e>
 <e>       <i>Ismael<s n="np"/></i></e>
 <e>       <i>Isona<s n="np"/></i></e>
@@ -20316,7 +20316,8 @@
 <e>       <i>Jarafuel<s n="np"/></i></e>
 <e>       <i>Jarque<s n="np"/></i></e>
 <e>       <i>Jartum<s n="np"/></i></e>
-<e>       <i>Jasa<s n="np"/></i></e>
+<e r="RL">       <i>Jasa<s n="np"/></i></e>
+<e>       <p><l>Jasa<s n="np"/></l>                   <r>Chasa<s n="np"/></r></p></e>
 <e>       <i>Jasikevicius<s n="np"/></i></e>
 <e>       <i>Jason<s n="np"/></i></e>
 <e>       <i>Jasón<s n="np"/></i></e>
@@ -20633,7 +20634,7 @@
 <e>       <i>Larrinaga<s n="np"/></i></e>
 <e>       <i>Larrosa<s n="np"/></i></e>
 <e>       <i>Larry<s n="np"/></i></e>
-<e>       <i>Las<b/>Landas<s n="np"/></i></e>
+<e>       <p><l>Las<b/>Landas<s n="np"/></l>       <r>las<b/>Landas<s n="np"/></r></p></e>
 <e>       <i>Las<b/>Palmas<s n="np"/></i></e>
 <e>       <i>Las<b/>Vegas<s n="np"/></i></e>
 <e>       <i>Lasarte<s n="np"/></i></e>
