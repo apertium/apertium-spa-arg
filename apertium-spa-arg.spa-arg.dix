@@ -16642,9 +16642,7 @@
     <!-- ******************************
           group np_symbol
       ****************************** -->
-    <!-- ******************************
-          group np_symbol
-      ****************************** -->
+
 <e>       <i>20<b/>minutos<s n="np"/></i></e>
 <e>       <i>3xl.net<s n="np"/></i></e>
 <e>       <i>A<b/>Coruña<s n="np"/></i></e>
@@ -16732,7 +16730,7 @@
 <e>       <i>Adzaneta<s n="np"/></i></e>
 <e>       <p><l>Adzaneta<b/>de<b/>Albaida<s n="np"/></l><r>Adzaneta<b/>d'Albaida<s n="np"/></r></p></e>
 <e>       <i>Adán<s n="np"/></i></e>
-<e>       <i>Adén<s n="np"/></i></e>
+<e>       <p><l>Adén<s n="np"/><s n="loc"/></l><r>Adén<s n="np"/><s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <i>Adís<b/>Abeba<s n="np"/></i></e>
 <e>       <i>Aena<s n="np"/></i></e>
 <e>       <i>Afganistán<s n="np"/></i></e>
@@ -17920,7 +17918,7 @@
 <e>       <i>Bienvenida<s n="np"/></i></e>
 <e>       <i>Bigastre<s n="np"/></i></e>
 <e>       <i>Bigastro<s n="np"/></i></e>
-<e>       <i>Bigorra<s n="np"/></i></e>
+<e>       <p><l>Bigorra<s n="np"/><s n="loc"/></l><r>Bigorra<s n="np"/><s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <i>Bigues<s n="np"/></i></e>
 <e>       <i>Bigues<b/>i<b/>Riells<s n="np"/></i></e>
 <e>       <i>Bilbao<s n="np"/></i></e>
@@ -18491,7 +18489,7 @@
 <e>       <p><l>Castilla<s n="np"/><s n="loc"/></l>                <r>Castiella<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Castilla<s n="np"/><s n="ant"/></l>                <r>Castilla<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Castilla-La<b/>Mancha<s n="np"/></l>   <r>Castiella-La<b/>Mancha<s n="np"/></r></p></e>
-<e r="LR">       <p><l>Castilla-León<s n="np"/></l>           <r>Castiella<b>y</b>Leyón<s n="np"/></r></p></e>
+<e r="LR">       <p><l>Castilla-León<s n="np"/></l>           <r>Castiella<b/>y<b/>Leyón<s n="np"/></r></p></e>
 <e>       <p><l>Castilla<b/>y<b/>León<s n="np"/></l>   <r>Castiella<b/>y<b/>Leyón<s n="np"/></r></p></e>
 <e>       <i>Castillo<s n="np"/></i></e>
 <e>       <i>Castillo<b/>de<b/>Vilamalefa<s n="np"/></i></e>
@@ -19721,7 +19719,7 @@
 <e>       <i>Garona<s n="np"/></i></e>
 <e>       <i>Garraf<s n="np"/></i></e>
 <e>       <i>Garrido<s n="np"/></i></e>
-<e>       <i>Garriga<s n="np"/></i></e>
+<e>       <p><l>Garriga<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Garriga<s n="np"/><s n="loc"/></r></p></e>
 <e>       <i>Garrigoles<s n="np"/></i></e>
 <e>       <i>Garrigosa<s n="np"/></i></e>
 <e>       <i>Garriguella<s n="np"/></i></e>
@@ -21252,7 +21250,7 @@
 <e>       <i>Meseguer<s n="np"/></i></e>
 <e>       <i>Mesela<s n="np"/></i></e>
 <e>       <i>Mesenia<s n="np"/></i></e>
-<e>       <i>Mesina<s n="np"/></i></e>
+<e>       <p><l>Mesina<s n="np"/><s n="loc"/></l><r>Mesina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <i>Mesquida<s n="np"/></i></e>
 <e>       <i>Messeguer<s n="np"/></i></e>
 <e>       <i>Messenger<s n="np"/></i></e>
@@ -22796,7 +22794,7 @@
 <e>       <i>Sabio<s n="np"/></i></e>
 <e>       <i>Sabiote<s n="np"/></i></e>
 <e>       <i>Sabonis<s n="np"/></i></e>
-<e>       <i>Saboya<s n="np"/></i></e>
+<e>       <p><l>Saboya<s n="np"/><s n="loc"/></l><r>Saboya<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <i>Sacanyet<s n="np"/></i></e>
 <e>       <i>Sacañet<s n="np"/></i></e>
 <e>       <i>Saco<s n="np"/></i></e>
@@ -23912,8 +23910,6 @@
 <e>       <i>Varanasi<s n="np"/></i></e>
 <e>       <i>Varea<s n="np"/></i></e>
 <e>       <i>Varela<s n="np"/></i></e>
-
-<!-- extracted from es monodix -->
 <e>       <i>Varennes<s n="np"/></i></e>
 <e>       <i>Vargas<s n="np"/></i></e>
 <e>       <i>Varradòs<s n="np"/></i></e>
