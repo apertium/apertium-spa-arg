@@ -76,6 +76,7 @@
     <sdef n="sup" /> 
     <sdef n="num" /> 
     <sdef n="ij" /> 
+    <sdef n="ord" />
     <sdef n="sent" /> 
     <sdef n="cm" /> 
     <sdef n="lpar" /> 
@@ -799,7 +800,6 @@
 <e>       <p><l>centrífugo<s n="adj"/></l>             <r>centrifugo<s n="adj"/></r></p></e>
 <e>       <p><l>centrípeto<s n="adj"/></l>             <r>centripeto<s n="adj"/></r></p></e>
 <e>       <p><l>cercano<s n="adj"/></l>                <r>cercano<s n="adj"/></r></p></e>
-<e>       <p><l>cercano<s n="adj"/></l>                <r>cercano<s n="adj"/></r></p></e>
 <e r="RL"><p><l>cercano<s n="adj"/></l>                <r>amanau<s n="adj"/></r></p></e>
 <e>       <p><l>cerebral<s n="adj"/></l>               <r>cerebral<s n="adj"/></r></p></e>
 <e>       <p><l>ceremonioso<s n="adj"/></l>            <r>ceremonioso<s n="adj"/></r></p></e>
@@ -1180,7 +1180,8 @@
 <e>       <p><l>cuantificable<s n="adj"/></l>          <r>quantificable<s n="adj"/></r></p></e>
 <e>       <p><l>cuantioso<s n="adj"/></l>              <r>quantioso<s n="adj"/></r></p></e>
 <e>       <p><l>cuantitativo<s n="adj"/></l>           <r>quantitativo<s n="adj"/></r></p></e>
-<e>       <p><l>cuarto<s n="adj"/></l>                 <r>quatreno<s n="adj"/></r></p></e>
+<e>       <p><l>cuarto<s n="adj"/></l>                 <r>quarto<s n="adj"/></r></p></e>
+<e r="RL">       <p><l>cuarto<s n="adj"/></l>                 <r>quatreno<s n="adj"/></r></p></e>
 <e>       <p><l>cuasiobjetivo<s n="adj"/></l>          <r>quasiobchectivo<s n="adj"/></r></p></e>
 <e>       <p><l>cuaternario<s n="adj"/></l>            <r>quaternario<s n="adj"/></r></p></e>
 <e>       <p><l>cuatrimestral<s n="adj"/></l>          <r>quadrimestral<s n="adj"/></r></p></e>
@@ -3712,7 +3713,7 @@
 <e>       <p><l>notorio<s n="adj"/></l>                <r>notorio<s n="adj"/></r></p></e>
 <e>       <i>novel<s n="adj"/></i></e>
 <e>       <p><l>novelístico<s n="adj"/></l>            <r>novelistico<s n="adj"/></r></p></e>
-<e>       <p><l>noveno<s n="adj"/></l>                 <r>nueno<s n="adj"/></r></p></e>
+<e r="RL">       <p><l>noveno<s n="adj"/></l>                 <r>nueno<s n="adj"/></r></p></e>
 <e r="LR"><p><l>nublado<s n="adj"/><s n="m"/></l>      <r>nuble<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>nublado<s n="adj"/><s n="m"/></l>      <r>nuble<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>nublado<s n="adj"/><s n="sup"/></l>    <r>nuble<s n="adj"/><s n="sup"/></r></p></e>
@@ -3996,8 +3997,8 @@
 <e>       <p><l>pensador<s n="adj"/></l>               <r>pensador<s n="adj"/></r></p></e>
 <e>       <p><l>pensativo<s n="adj"/></l>              <r>pensativo<s n="adj"/></r></p></e>
 <e>       <i>pentagonal<s n="adj"/></i></e>
-<e>       <p><l>penúltimo<s n="adj"/></l>              <r>antezaguer<s n="adj"/></r></p></e>
-<e r="RL"><p><l>penúltimo<s n="adj"/><s n="GD"/></l>   <r>antezaguer<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>penúltimo<s n="adj"/></l>              <r>antezaguer<s n="adj"/><s n="ord"/></r></p></e>
+<e r="RL"><p><l>penúltimo<s n="adj"/><s n="GD"/></l>   <r>antezaguer<s n="adj"/><s n="ord"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>penúltimo<s n="adj"/></l>              <r>penultimo<s n="adj"/></r></p></e>
 <e>       <p><l>peor<s n="adj"/></l>                   <r>pior<s n="adj"/></r></p></e>
 <e>       <p><l>pequeño<s n="adj"/></l>                <r>chicot<s n="adj"/></r></p></e>
@@ -4393,7 +4394,21 @@
 <e>       <p><l>querido<s n="adj"/></l>                <r>queriu<s n="adj"/></r></p></e>
 <e>       <p><l>quieto<s n="adj"/></l>                 <r>quieto<s n="adj"/></r></p></e>
 <e>       <p><l>quincenal<s n="adj"/></l>              <r>quincenal<s n="adj"/></r></p></e>
-<e>       <p><l>quinto<s n="adj"/></l>                 <r>quinto<s n="adj"/></r></p></e>
+<e r="RL">       <p><l>quinto<s n="adj"/></l>                 <r>quinto<s n="adj"/></r></p></e>
+<e>       <p><l>quinto<s n="adj"/></l>                 <r>cinqueno<s n="adj"/></r></p></e>
+<e>       <p><l>sexto<s n="adj"/></l>                 <r>seiseno<s n="adj"/></r></p></e>
+<e>       <p><l>noveno<s n="adj"/></l>                 <r>noveno<s n="adj"/></r></p></e>
+<e>       <p><l>duodécimo<s n="adj"/></l>                 <r>dotzeno<s n="adj"/></r></p></e>
+<e r="LR">       <p><l>decimosegundo<s n="adj"/></l>                 <r>dotzeno<s n="adj"/></r></p></e>
+<e>       <p><l>decimotercero<s n="adj"/></l>                 <r>tretzeno<s n="adj"/></r></p></e>
+<e>       <p><l>decimocuarto<s n="adj"/></l>                 <r>catorceno<s n="adj"/></r></p></e>
+<e>       <p><l>decimoquinto<s n="adj"/></l>                 <r>quinceno<s n="adj"/></r></p></e>
+<e>       <p><l>decimosexto<s n="adj"/></l>                 <r>setzeno<s n="adj"/></r></p></e>
+<e r="RL">       <p><l>decimosexto<s n="adj"/></l>                 <r>deciseiseno<s n="adj"/></r></p></e>
+<e>       <p><l>decimoséptimo<s n="adj"/></l>                 <r>deciseteno<s n="adj"/></r></p></e>
+<e>       <p><l>decimoctavo<s n="adj"/></l>                 <r>deciuiteno<s n="adj"/></r></p></e>
+<e>       <p><l>decimonoveno<s n="adj"/></l>                 <r>decinoveno<s n="adj"/></r></p></e>
+<e>       <p><l>vigésimo<s n="adj"/></l>                 <r>vinteno<s n="adj"/></r></p></e>
 <e>       <p><l>quirúrgico<s n="adj"/></l>             <r>cirurchico<s n="adj"/></r></p></e>
 <e>       <p><l>qué<s n="adj"/></l>                    <r>qué<s n="adj"/></r></p></e>
 <e>       <p><l>químico<s n="adj"/></l>                <r>quimico<s n="adj"/></r></p></e>
@@ -4784,7 +4799,7 @@
 <e>       <p><l>severo<s n="adj"/></l>                 <r>severo<s n="adj"/></r></p></e>
 <e>       <p><l>sevillano<s n="adj"/></l>              <r>sevillano<s n="adj"/></r></p></e>
 <e>       <p><l>sexista<s n="adj"/></l>                <r>sexista<s n="adj"/></r></p></e>
-<e>       <p><l>sexto<s n="adj"/></l>                  <r>sexto<s n="adj"/></r></p></e>
+<e r="RL">       <p><l>sexto<s n="adj"/></l>                  <r>sexto<s n="adj"/></r></p></e>
 <e>       <i>sexual<s n="adj"/></i></e>
 <e>       <p><l>sexual<s n="adj"/></l>                 <r>sexual<s n="adj"/></r></p></e>
 <e>       <p><l>señorial<s n="adj"/></l>               <r>senyorial<s n="adj"/></r></p></e>
@@ -5260,6 +5275,7 @@
 <e>       <i>umbilical<s n="adj"/></i></e>
 <e>       <p><l>umbilical<s n="adj"/></l>              <r>umbilical<s n="adj"/></r></p></e>
 <e>       <p><l>undécimo<s n="adj"/></l>               <r>onceno<s n="adj"/></r></p></e>
+<e r="LR">       <p><l>decimoprimero<s n="adj"/></l>                 <r>onceno<s n="adj"/></r></p></e>
 <e>       <p><l>unidimensional<s n="adj"/></l>         <r>unidimensional<s n="adj"/></r></p></e>
 <e>       <p><l>unidireccional<s n="adj"/></l>         <r>unidireccional<s n="adj"/></r></p></e>
 <e>       <p><l>unido<s n="adj"/></l>                  <r>uniu<s n="adj"/></r></p></e>
@@ -5474,7 +5490,7 @@
 <e>       <p><l>yugoslavo<s n="adj"/></l>              <r>yugoslavo<s n="adj"/></r></p></e>
 <e>       <p><l>yámbico<s n="adj"/></l>                <r>yambico<s n="adj"/></r></p></e>
 <e r="LR"><p><l>zafio<s n="adj"/></l>                  <r>grosero<s n="adj"/></r></p></e>
-<e r="LR"><p><l>zaguero<s n="adj"/></l>                <r>zaguer<s n="adj"/></r></p></e>
+<e r="LR"><p><l>zaguero<s n="adj"/></l>                <r>zaguer<s n="adj"/><s n="ord"/></r></p></e>
 <e>       <i>zapatista<s n="adj"/></i></e>
 <e>       <i>zaragocista<s n="adj"/></i></e>
 <e>       <p><l>zaragozano<s n="adj"/></l>             <r>zaragozano<s n="adj"/></r></p></e>
@@ -5502,8 +5518,8 @@
 <e>       <p><l>íntimo<s n="adj"/></l>                 <r>intimo<s n="adj"/></r></p></e>
 <e>       <p><l>óptico<s n="adj"/></l>                 <r>optico<s n="adj"/></r></p></e>
 <e>       <p><l>óptimo<s n="adj"/></l>                 <r>optimo<s n="adj"/></r></p></e>
-<e>       <p><l>último<s n="adj"/></l>                 <r>zaguer<s n="adj"/></r></p></e>
-<e r="RL"><p><l>último<s n="adj"/><s n="GD"/></l>      <r>zaguer<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>último<s n="adj"/></l>                 <r>zaguer<s n="adj"/><s n="ord"/></r></p></e>
+<e r="RL"><p><l>último<s n="adj"/><s n="GD"/></l>      <r>zaguer<s n="adj"/><s n="ord"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>último<s n="adj"/></l>                 <r>ultimo<s n="adj"/></r></p></e>
 <e>       <p><l>único<s n="adj"/></l>                  <r>solo<s n="adj"/></r></p></e>
 <e r="RL"><p><l>único<s n="adj"/></l>                  <r>unico<s n="adj"/></r></p></e>
@@ -6031,8 +6047,8 @@
 <e>       <p><l>centralmente<s n="adv"/></l>           <r>centralment<s n="adv"/></r></p></e>
 <e>       <p><l>centrífugamente<s n="adv"/></l>        <r>centrifugament<s n="adv"/></r></p></e>
 <e>       <p><l>centrípetamente<s n="adv"/></l>        <r>centripetament<s n="adv"/></r></p></e>
-<e r="RL"><p><l>cerca<s n="adv"/></l>                  <r>cerca<s n="adv"/></r></p></e>
-<e>       <p><l>cerca<s n="adv"/></l>                  <r>amán<s n="adv"/></r></p></e>
+<e><p><l>cerca<s n="adv"/></l>                  <r>cerca<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>cerca<s n="adv"/></l>                  <r>amán<s n="adv"/></r></p></e>
 <e>       <p><l>cercanamente<s n="adv"/></l>           <r>cercanament<s n="adv"/></r></p></e>
 <e r="RL"><p><l>cercanamente<s n="adv"/></l>           <r>amanadament<s n="adv"/></r></p></e>
 <e>       <p><l>cerebralmente<s n="adv"/></l>          <r>cerebralment<s n="adv"/></r></p></e>
@@ -8409,8 +8425,8 @@
 <e r="RL"><p><l>primeramente<s n="adv"/></l>           <r>primerament<s n="adv"/></r></p></e>
 <e r="LR"><p><l>primeramente<s n="adv"/></l>           <r>en<b/>primeras<s n="adv"/></r></p></e>
 <e r="RL"><p><l>primeramente<s n="adv"/></l>           <r>en<b/>primerías<s n="adv"/></r></p></e>
-<e r="RL"><p><l>primero<s n="adv"/></l>                <r>primero<s n="adv"/></r></p></e>
-<e>       <p><l>primero<s n="adv"/></l>                <r>en<b/>primeras<s n="adv"/></r></p></e>
+<e><p><l>primero<s n="adv"/></l>                <r>primero<s n="adv"/></r></p></e>
+<!--<e>       <p><l>primero<s n="adv"/></l>                <r>en<b/>primeras<s n="adv"/></r></p></e>-->
 <e>       <p><l>primigeniamente<s n="adv"/></l>        <r>primicheniament<s n="adv"/></r></p></e>
 <e>       <p><l>primitivamente<s n="adv"/></l>         <r>primitivament<s n="adv"/></r></p></e>
 <e>       <p><l>primordialmente<s n="adv"/></l>        <r>primordialment<s n="adv"/></r></p></e>
@@ -11099,7 +11115,7 @@
 <e>       <p><l>centrocampista<s n="n"/></l>           <r>centrocampista<s n="n"/></r></p></e>
 <e>       <p><l>cepa<s n="n"/></l>                     <r>cepa<s n="n"/></r></p></e>
 <e srl="cera D"><p><l>cera<s n="n"/><s n="f"/></l>     <r>cera<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>cerca<s n="n"/></l>                    <r>barzada<s n="n"/></r></p></e>
+<e r="RL">       <p><l>cerca<s n="n"/></l>                    <r>barzada<s n="n"/></r></p></e>
 <e>       <p><l>cercamiento<s n="n"/><s n="m"/></l>    <r>barzada<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>cerda<s n="n"/><s n="f"/></l>          <r>tocino<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cerda<s n="n"/><s n="f"/></l>          <r>cochín<s n="n"/><s n="f"/></r></p></e>
@@ -14189,7 +14205,11 @@
 <e>       <p><l>mierda<s n="n"/></l>                   <r>mierda<s n="n"/></r></p></e>
 <e>       <p><l>migración<s n="n"/></l>                <r>migración<s n="n"/></r></p></e>
 <e>       <p><l>milanista<s n="n"/></l>                <r>milanista<s n="n"/></r></p></e>
-<e>       <p><l>milanista<s n="n"/></l>                <r>milanista<s n="n"/></r></p></e>
+<e>       <p><l>mil<s n="n"/><s n="m"/><s n="pl"/></l><r>milar<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e>       <p><l>millar<s n="n"/><s n="m"/><s n="sg"/></l><r>milar<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>millar<s n="n"/><s n="m"/><s n="pl"/></l><r>milar<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL">       <p><l>mil<s n="n"/><s n="m"/><s n="sg"/></l><r>mil<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL">       <p><l>mil<s n="n"/><s n="m"/><s n="pl"/></l><r>mil<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>mileurista<s n="n"/></l>               <r>mileurista<s n="n"/></r></p></e>
 <e>       <p><l>mili<s n="n"/></l>                     <r>mili<s n="n"/></r></p></e>
 <e>       <p><l>militancia<s n="n"/></l>               <r>militancia<s n="n"/></r></p></e>
@@ -15721,6 +15741,7 @@
 <e>       <p><l>salvador<s n="n"/></l>                 <r>salvador<s n="n"/></r></p></e>
 <e>       <p><l>salvoconducto<s n="n"/></l>            <r>guiache<s n="n"/></r></p></e>
 <e r="RL"><p><l>salvoconducto<s n="n"/></l>            <r>salvoconducto<s n="n"/></r></p></e>
+<e>       <p><l>san<s n="n"/></l>                  <r>sant<s n="n"/></r></p></e>
 <e>       <p><l>sanción<s n="n"/></l>                  <r>sanción<s n="n"/></r></p></e>
 <e>       <p><l>sandalia<s n="n"/></l>                 <r>sandalia<s n="n"/></r></p></e>
 <e>       <p><l>sandinista<s n="n"/></l>               <r>sandinista<s n="n"/></r></p></e>
@@ -15768,9 +15789,9 @@
 <e>       <p><l>segmento<s n="n"/></l>                 <r>segmento<s n="n"/></r></p></e>
 <e>       <p><l>segregación<s n="n"/></l>              <r>segregación<s n="n"/></r></p></e>
 <e>       <p><l>seguimiento<s n="n"/></l>              <r>seguimiento<s n="n"/></r></p></e>
-<e>       <p><l>seguridad<s n="n"/></l>                <r>seguridat<s n="n"/></r></p></e>
+<e r="RL">       <p><l>seguridad<s n="n"/></l>                <r>seguridat<s n="n"/></r></p></e>
 <e>       <p><l>seguridad<s n="n"/></l>                <r>seguranza<s n="n"/></r></p></e>
-<e>       <p><l>seguro<s n="n"/><s n="m"/></l>         <r>seguranza<s n="n"/><s n="f"/></r></p></e>
+<e r="LR">       <p><l>seguro<s n="n"/><s n="m"/></l>         <r>seguranza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>selección<s n="n"/></l>                <r>selección<s n="n"/></r></p></e>
 <e>       <p><l>selector<s n="n"/></l>                 <r>selector<s n="n"/></r></p></e>
 <e>       <p><l>selva<s n="n"/></l>                    <r>chungla<s n="n"/></r></p></e>
@@ -24996,10 +25017,10 @@
 <e r="LR"><p><l>lo<b/>afirmado<b/>por<s n="pr"/></l>   <r>as<b/>afirmacions<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>mediante<s n="pr"/></l>                <r>por<b/>medio<b/>de<s n="pr"/></r></p></e>
 <e r="LR"><p><l>merced<b/>a<s n="pr"/></l>             <r>gracias<b/>a<s n="pr"/></r></p></e>
-<e>       <p><l>miles<b/>de<s n="pr"/></l>             <r>milars<b/>de<s n="pr"/></r></p></e>
+<!--<e>       <p><l>miles<b/>de<s n="pr"/></l>             <r>milars<b/>de<s n="pr"/></r></p></e>
 <e r="RL"><p><l>miles<b/>de<s n="pr"/></l>             <r>mils<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>miles<b/>y<b/>miles<b/>de<s n="pr"/></l><r>milars<b/>y<b/>milars<b/>de<s n="pr"/></r></p></e>
-<e r="RL"><p><l>miles<b/>y<b/>miles<b/>de<s n="pr"/></l><r>mils<b/>y<b/>mils<b/>de<s n="pr"/></r></p></e>
+<e r="RL"><p><l>miles<b/>y<b/>miles<b/>de<s n="pr"/></l><r>mils<b/>y<b/>mils<b/>de<s n="pr"/></r></p></e>-->
 <e>       <p><l>más<b/>allá<b/>de<s n="pr"/></l>       <r>dillá<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>nada<b/>que<b/>ver<b/>con<s n="pr"/></l><r>cosa<b/>a<b/>veyer<b/>con<s n="pr"/></r></p></e>
 <e r="LR"><p><l>ni<b/>un<b/>ápice<b/>de<s n="pr"/></l> <r>brenca<b/>de<s n="pr"/></r></p></e>
@@ -27400,7 +27421,7 @@
 <e r="RL"><p><l>deber<g><b/>de</g><s n="vbmod"/></l>   <r>deber<g><b/>de</g><s n="vbmod"/></r></p></e>
 <e r="LR"><p><l>haber<b/>que<s n="vbmod"/></l>         <r>caler<s n="vbmod"/></r></p></e>
 <e r="LR"><p><l>haber<g><b/>de</g><s n="vbmod"/></l>   <r>haber<g><b/>de</g><s n="vbmod"/></r></p></e>
-<e r="RL"><p><l>hacer<b/>falta<s n="vbmod"/></l>       <r>caler<s n="vbmod"/></r></p></e>
+<e r="RL"><p><l>hacer<g><b/>falta</g><s n="vbmod"/></l>       <r>caler<s n="vbmod"/></r></p></e>
 
     <!-- ******************************
           group vbmod_symbol
