@@ -2,7 +2,6 @@
 ## Makefile for Spanish--Aragonese
 ###############################################################################
 
-VERSION=0.4.0
 LANG1=spa
 LANG2=arg
 PREFIX1=$(LANG1)-$(LANG2)
