@@ -1,4 +1,23 @@
-Sun 04 Jan 2015 00:10:00 UTC
+8 January 2021
+* Release 0.5 (with change in the language codes apertium-es-an --> apertium-spa-arg)
+   * Added constraint grammar support (included in spa->arg direction, added support in arg->spa direction)
+   * Changed arg.prob file
+   * Adapted to changes in apertium-spa and apertium-arg
+   * Added support for new np labels and acronyms
+   * Definite articles generated according to "Gramatica Basica de l'Aragonés" neutral standard paradigm.
+   * Support for short ordinals and digital hour
+   * Improved apostrophation rules in post generation. Fix problems with "de + en (prep)".
+   * Added support for superlatives with "muito/muit/molt"
+   * Minor fixes performed
+   * Bilingual dictionary: 
+     > 25040 entries (8038 proper nouns)
+
+* Main pending Issues:
+   * Still room to improve on coverage (in apertium-arg).
+   * Still much to work on transfer.
+   * Improve morphological disambiguation, mainly in arg->spa direction (GC rules)
+   * Develop lexical selection rules.
+
 * Release 0.4 (with change in the language codes apertium-es-an --> apertium-spa-arg)
 * Main changes since version 0.3:
    * Adoption of three-letter codes: spa (old es) and arg (old an).
@@ -9,7 +28,7 @@ Sun 04 Jan 2015 00:10:00 UTC
      > 552 paradigms,
      > 21271 lemmae (26103 entries, of which, 8150 proper nouns), including 2518 multi-words.
      Naïve coverage: from 89.8% in an.wikipedia to 92.4% in a corpus of narrative texts.
-   * Some improvements an fixes in verbal morphology.
+   * Some improvements and fixes in verbal morphology.
    * Several agrammatical or rare combinations of enclitic pronouns are now ignored.
    * Some changes in the preferred (generated form): 'pa' (instead of 'ta') to translate 'para', 'cantatz' (instead of 'cantat') as p2.pl imperative, 'coixeyo' rather than 'coixeo'...
    * Extended support for dialectal verbal morphology analysis ('anatz', 'veden', 'anirem', 'quisto', benasques strong infinitives)
