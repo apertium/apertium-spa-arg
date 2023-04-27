@@ -412,7 +412,7 @@
 <e>       <p><l>ardiente<s n="adj"/></l>               <r>ardient<s n="adj"/></r></p></e>
 <e>       <p><l>arduo<s n="adj"/></l>                  <r>arduo<s n="adj"/></r></p></e>
 <e>       <p><l>arenoso<s n="adj"/></l>                <r>arenoso<s n="adj"/></r></p></e>
-<e>       <p><l>argentino<s n="adj"/></l>              <r>archentín<s n="adj"/></r></p></e>
+<e>       <p><l>argentino<s n="adj"/></l>              <r>archentino<s n="adj"/></r></p></e>
 <e>       <i>argumental<s n="adj"/></i></e>
 <e>       <p><l>argumental<s n="adj"/></l>             <r>argumental<s n="adj"/></r></p></e>
 <e>       <p><l>argumentativo<s n="adj"/></l>          <r>argumentativo<s n="adj"/></r></p></e>
@@ -471,7 +471,7 @@
 <e>       <p><l>asqueroso<s n="adj"/></l>              <r>fastigoso<s n="adj"/></r></p></e>
 <e>       <p><l>astronómico<s n="adj"/></l>            <r>astronomico<s n="adj"/></r></p></e>
 <e>       <p><l>asturiano<s n="adj"/></l>              <r>asturiano<s n="adj"/></r></p></e>
-<e>       <p><l>astuto<s n="adj"/></l>                 <r>astuto<s n="adj"/></r></p></e>
+<e>       <p><l>astuto<s n="adj"/></l>                 <r>estuto<s n="adj"/></r></p></e>
 <e>       <p><l>asumible<s n="adj"/></l>               <r>asumible<s n="adj"/></r></p></e>
 <e>       <p><l>asustadizo<s n="adj"/></l>             <r>espantadizo<s n="adj"/></r></p></e>
 <e>       <p><l>aséptico<s n="adj"/></l>               <r>aseptico<s n="adj"/></r></p></e>
@@ -656,7 +656,7 @@
 <e>       <p><l>boscoso<s n="adj"/></l>                <r>boscoso<s n="adj"/></r></p></e>
 <e>       <p><l>bosnio<s n="adj"/></l>                 <r>bosnio<s n="adj"/></r></p></e>
 <e>       <p><l>botánico<s n="adj"/></l>               <r>botanico<s n="adj"/></r></p></e>
-<e>       <p><l>bovino<s n="adj"/></l>                 <r>bovín<s n="adj"/></r></p></e>
+<e>       <p><l>bovino<s n="adj"/></l>                 <r>bovino<s n="adj"/></r></p></e>
 <e r="LR"><p><l>boyante<s n="adj"/><s n="mf"/></l>     <r>prospero<s n="adj"/><s n="GD"/></r></p></e>
 <e>       <p><l>brasileño<s n="adj"/></l>              <r>brasilenyo<s n="adj"/></r></p></e>
 <e>       <p><l>bravo<s n="adj"/></l>                  <r>bravo<s n="adj"/></r></p></e>
@@ -1488,7 +1488,9 @@
 <e>       <p><l>directivo<s n="adj"/></l>              <r>directivo<s n="adj"/></r></p></e>
 <e>       <p><l>directivo<s n="adj"/></l>              <r>directivo<s n="adj"/></r></p></e>
 <e>       <p><l>directo<s n="adj"/></l>                <r>directo<s n="adj"/></r></p></e>
-<e>       <p><l>dirigente<s n="adj"/></l>              <r>dirichent<s n="adj"/></r></p></e>
+<e>       <p><l>dirigente<s n="adj"/><s n="mf"/></l>              <r>dirichent<s n="adj"/><s n="mf"/></r></p></e>
+<e r="RL">       <p><l>dirigente<s n="adj"/><s n="mf"/></l>              <r>dirichent<s n="adj"/><s n="m"/></r></p></e>
+<e r="RL">       <p><l>dirigente<s n="adj"/><s n="mf"/></l>              <r>dirichent<s n="adj"/><s n="f"/></r></p></e>
 <e>       <p><l>disciplinario<s n="adj"/></l>          <r>disciplinario<s n="adj"/></r></p></e>
 <e>       <p><l>discográfico<s n="adj"/></l>           <r>discografico<s n="adj"/></r></p></e>
 <e>       <p><l>discontinuo<s n="adj"/></l>            <r>discontino<s n="adj"/></r></p></e>
@@ -1894,9 +1896,9 @@
 <e>       <p><l>estupefacto<s n="adj"/></l>            <r>estupefacto<s n="adj"/></r></p></e>
 <e>       <p><l>estupendo<s n="adj"/></l>              <r>estupendo<s n="adj"/></r></p></e>
 <e>       <p><l>estupendo<s n="adj"/></l>              <r>estupendo<s n="adj"/></r></p></e>
-<e r="LR"><p><l>estándar<s n="adj"/><s n="mf"/><s n="sg"/></l><r>estandard<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>estándar<s n="adj"/><s n="mf"/><s n="pl"/></l><r>estandard<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>estándar<s n="adj"/><s n="mf"/><s n="ND"/></l><r>estandard<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>estándar<s n="adj"/><s n="mf"/><s n="sg"/></l><r>standard<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>estándar<s n="adj"/><s n="mf"/><s n="pl"/></l><r>standard<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="RL"><p><l>estándar<s n="adj"/><s n="mf"/><s n="ND"/></l><r>standard<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>estático<s n="adj"/></l>               <r>estatico<s n="adj"/></r></p></e>
 <e>       <p><l>estéril<s n="adj"/></l>                <r>esteril<s n="adj"/></r></p></e>
 <e>       <p><l>estéril<s n="adj"/></l>                <r>esteril<s n="adj"/></r></p></e>
@@ -2090,8 +2092,7 @@
 <e>       <p><l>federativo<s n="adj"/></l>             <r>federativo<s n="adj"/></r></p></e>
 <e>       <p><l>fehaciente<s n="adj"/></l>             <r>fefacient<s n="adj"/></r></p></e>
 <e>       <p><l>feliz<s n="adj"/></l>                  <r>feliz<s n="adj"/></r></p></e>
-<e>       <p><l>femenino<s n="adj"/></l>               <r>femenín<s n="adj"/></r></p></e>
-<e r="RL"><p><l>femenino<s n="adj"/></l>               <r>femenino<s n="adj"/></r></p></e>
+<e>       <p><l>femenino<s n="adj"/></l>               <r>femenino<s n="adj"/></r></p></e>
 <e>       <i>feminista<s n="adj"/></i></e>
 <e>       <p><l>fenicio<s n="adj"/></l>                <r>fenicio<s n="adj"/></r></p></e>
 <e>       <p><l>fenomenal<s n="adj"/></l>              <r>fenomenal<s n="adj"/></r></p></e>
@@ -2425,7 +2426,6 @@
 <e>       <p><l>hidroelectrolítico<s n="adj"/></l>     <r>hidroelectrolitico<s n="adj"/></r></p></e>
 <e>       <p><l>hidrográfico<s n="adj"/></l>           <r>hidrografico<s n="adj"/></r></p></e>
 <e>       <p><l>hidrológico<s n="adj"/></l>            <r>hidrolochico<s n="adj"/></r></p></e>
-<e>       <p><l>hidráulico<s n="adj"/></l>             <r>hidráulico<s n="adj"/></r></p></e>
 <e>       <p><l>hidráulico<s n="adj"/></l>             <r>hidraulico<s n="adj"/></r></p></e>
 <e>       <p><l>higiénico<s n="adj"/></l>              <r>hichienico<s n="adj"/></r></p></e>
 <e>       <p><l>hinchable<s n="adj"/></l>              <r>inflable<s n="adj"/></r></p></e>
@@ -2467,13 +2467,10 @@
 <e>       <p><l>honrado<s n="adj"/></l>                <r>honrau<s n="adj"/></r></p></e>
 <e>       <p><l>horario<s n="adj"/></l>                <r>horario<s n="adj"/></r></p></e>
 <e>       <i>horizontal<s n="adj"/></i></e>
-<e>       <p><l>horizontal<s n="adj"/></l>             <r>horizontal<s n="adj"/></r></p></e>
-<e>       <p><l>horizontal<s n="adj"/></l>             <r>horizontal<s n="adj"/></r></p></e>
 <e>       <p><l>horrible<s n="adj"/></l>               <r>horrible<s n="adj"/></r></p></e>
 <e>       <p><l>horripilante<s n="adj"/></l>           <r>horripilant<s n="adj"/></r></p></e>
 <e>       <p><l>horroroso<s n="adj"/></l>              <r>horroroso<s n="adj"/></r></p></e>
-<e>       <p><l>hospitalario<s n="adj"/></l>           <r>hospitalario<s n="adj"/></r></p></e>
-<e>       <p><l>hospitalario<s n="adj"/></l>           <r>hospitalario<s n="adj"/></r></p></e>
+<e>       <p><l>hospitalario<s n="adj"/></l>           <r>hespitalario<s n="adj"/></r></p></e>
 <e>       <p><l>hostil<s n="adj"/></l>                 <r>hostil<s n="adj"/></r></p></e>
 <e>       <p><l>hotelero<s n="adj"/></l>               <r>hotelero<s n="adj"/></r></p></e>
 <e>       <p><l>huidizo<s n="adj"/></l>                <r>fuyidizo<s n="adj"/></r></p></e>
@@ -2483,16 +2480,14 @@
 <e>       <p><l>humanístico<s n="adj"/></l>            <r>humanistico<s n="adj"/></r></p></e>
 <e>       <p><l>humeante<s n="adj"/></l>               <r>fumeyant<s n="adj"/></r></p></e>
 <e>       <p><l>humilde<s n="adj"/></l>                <r>humil<s n="adj"/></r></p></e>
-<e>       <p><l>humilde<s n="adj"/></l>                <r>humil<s n="adj"/></r></p></e>
 <e>       <p><l>huraño<s n="adj"/></l>                 <r>furón<s n="adj"/></r></p></e>
 <e>       <p><l>huérfano<s n="adj"/></l>               <r>uerfano<s n="adj"/></r></p></e>
 <e>       <p><l>hábil<s n="adj"/></l>                  <r>habil<s n="adj"/></r></p></e>
 <e>       <p><l>híbrido<s n="adj"/></l>                <r>hibrido<s n="adj"/></r></p></e>
-<e>       <p><l>híbrido<s n="adj"/></l>                <r>hibrido<s n="adj"/></r></p></e>
 <e>       <p><l>hídrico<s n="adj"/></l>                <r>hidrico<s n="adj"/></r></p></e>
 <e>       <p><l>húmedo<s n="adj"/></l>                 <r>húmedo<s n="adj"/></r></p></e>
 <e>       <p><l>húmedo<s n="adj"/></l>                 <r>humido<s n="adj"/></r></p></e>
-<e>       <p><l>húngaro<s n="adj"/></l>                <r>húngaro<s n="adj"/></r></p></e>
+<e>       <p><l>húngaro<s n="adj"/></l>                <r>hongaro<s n="adj"/></r></p></e>
 <e>       <p><l>iberoamericano<s n="adj"/></l>         <r>iberoamericán<s n="adj"/></r></p></e>
 <e>       <p><l>ibérico<s n="adj"/></l>                <r>iberico<s n="adj"/></r></p></e>
 <e>       <p><l>ibérico<s n="adj"/></l>                <r>iberico<s n="adj"/></r></p></e>
@@ -3158,7 +3153,8 @@
 <e>       <p><l>laminado<s n="adj"/></l>               <r>laminau<s n="adj"/></r></p></e>
 <e>       <p><l>largo<s n="adj"/></l>                  <r>largo<s n="adj"/></r></p></e>
 <e>       <p><l>largo<s n="adj"/></l>                  <r>largo<s n="adj"/></r></p></e>
-<e r="RL"><p><l>largo<s n="adj"/></l>                  <r>luengo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>largo<s n="adj"/><s n="m"/></l>                  <r>luengo<s n="adj"/><s n="m"/></r></p></e>
+<e r="RL" i="yes"><p><l>largo<s n="adj"/><s n="f"/></l>                  <r>luengo<s n="adj"/><s n="f"/></r></p></e> <!-- ignore feminine: archaic in aragonese, and gives problems with tagger, comment until solved -->
 <e>       <p><l>latente<s n="adj"/></l>                <r>latent<s n="adj"/></r></p></e>
 <e>       <i>lateral<s n="adj"/></i></e>
 <e>       <p><l>lateral<s n="adj"/></l>                <r>lateral<s n="adj"/></r></p></e>
@@ -3358,8 +3354,7 @@
 <e>       <i>marroquí<s n="adj"/></i></e>
 <e>       <i>marrón<s n="adj"/></i></e>
 <e>       <i>marxista<s n="adj"/></i></e>
-<e>       <p><l>masculino<s n="adj"/></l>              <r>masculín<s n="adj"/></r></p></e>
-<e r="RL"><p><l>masculino<s n="adj"/></l>              <r>masculino<s n="adj"/></r></p></e>
+<e>       <p><l>masculino<s n="adj"/></l>              <r>masculino<s n="adj"/></r></p></e>
 <e>       <p><l>masivo<s n="adj"/></l>                 <r>masivo<s n="adj"/></r></p></e>
 <e>       <p><l>masivo<s n="adj"/></l>                 <r>masivo<s n="adj"/></r></p></e>
 <e>       <p><l>matador<s n="adj"/></l>                <r>matador<s n="adj"/></r></p></e>
@@ -3465,7 +3460,6 @@
 <e>       <p><l>milenario<s n="adj"/></l>              <r>milenario<s n="adj"/></r></p></e>
 <e>       <p><l>miliciano<s n="adj"/></l>              <r>miliciano<s n="adj"/></r></p></e>
 <e>       <p><l>milimétrico<s n="adj"/></l>            <r>milimetrico<s n="adj"/></r></p></e>
-<e>       <i>militar<s n="adj"/></i></e>
 <e>       <p><l>militar<s n="adj"/></l>                <r>militar<s n="adj"/></r></p></e>
 <e>       <i>militarista<s n="adj"/></i></e>
 <e>       <p><l>millonésimo<s n="adj"/></l>            <r>millonesimo<s n="adj"/></r></p></e>
@@ -3752,7 +3746,9 @@
 <e>       <p><l>nítido<s n="adj"/></l>                 <r>nitido<s n="adj"/></r></p></e>
 <e>       <p><l>nítrico<s n="adj"/></l>                <r>nitrico<s n="adj"/></r></p></e>
 <e>       <p><l>nórdico<s n="adj"/></l>                <r>nordico<s n="adj"/></r></p></e>
-<e>       <p><l>obediente<s n="adj"/></l>              <r>obedient<s n="adj"/></r></p></e>
+<e>       <p><l>obediente<s n="adj"/><s n="mf"/></l>              <r>obedient<s n="adj"/><s n="mf"/></r></p></e>
+<e r="RL">       <p><l>obediente<s n="adj"/><s n="mf"/></l>              <r>obedient<s n="adj"/><s n="m"/></r></p></e>
+<e r="RL">       <p><l>obediente<s n="adj"/><s n="mf"/></l>              <r>obedient<s n="adj"/><s n="f"/></r></p></e>
 <e>       <p><l>obeso<s n="adj"/></l>                  <r>obeso<s n="adj"/></r></p></e>
 <e>       <p><l>objetivo<s n="adj"/></l>               <r>objetivo<s n="adj"/></r></p></e>
 <e>       <p><l>objetivo<s n="adj"/></l>               <r>obchectivo<s n="adj"/></r></p></e>
@@ -4009,7 +4005,7 @@
 <e>       <p><l>perceptivo<s n="adj"/></l>             <r>perceptivo<s n="adj"/></r></p></e>
 <e>       <p><l>perdedor<s n="adj"/></l>               <r>perdedor<s n="adj"/></r></p></e>
 <e>       <p><l>perdurable<s n="adj"/></l>             <r>perdurable<s n="adj"/></r></p></e>
-<e>       <p><l>peregrino<s n="adj"/></l>              <r>pelegrino<s n="adj"/></r></p></e>
+<e>       <p><l>peregrino<s n="adj"/></l>              <r>pelegrín<s n="adj"/></r></p></e>
 <e>       <i>perenne<s n="adj"/></i></e>
 <e>       <p><l>perenne<s n="adj"/></l>                <r>perenne<s n="adj"/></r></p></e>
 <e>       <p><l>perentorio<s n="adj"/></l>             <r>perentorio<s n="adj"/></r></p></e>
@@ -4767,7 +4763,8 @@
 <e>       <i>sensacional<s n="adj"/></i></e>
 <e>       <p><l>sensato<s n="adj"/></l>                <r>sensato<s n="adj"/></r></p></e>
 <e>       <p><l>sensato<s n="adj"/></l>                <r>sensato<s n="adj"/></r></p></e>
-<e r="RL"><p><l>sensato<s n="adj"/></l>                <r>asentau<s n="adj"/></r></p></e>
+<e><p><l>sentado<s n="adj"/></l>                <r>asentau<s n="adj"/></r></p></e>
+<e r="RL" i="yes"><p><l>sensato<s n="adj"/></l>                <r>asentau<s n="adj"/></r></p></e>
 <e>       <i>sensible<s n="adj"/></i></e>
 <e>       <p><l>sensible<s n="adj"/></l>               <r>sensible<s n="adj"/></r></p></e>
 <e>       <p><l>sensitivo<s n="adj"/></l>              <r>sensitivo<s n="adj"/></r></p></e>
@@ -5858,7 +5855,7 @@
 <e r="LR"><p><l>asombrosamente<s n="adv"/></l>         <r>sorprendentment<s n="adv"/></r></p></e>
 <e>       <p><l>asquerosamente<s n="adv"/></l>         <r>fastigosament<s n="adv"/></r></p></e>
 <e>       <p><l>astronómicamente<s n="adv"/></l>       <r>astronomicament<s n="adv"/></r></p></e>
-<e>       <p><l>astutamente<s n="adv"/></l>            <r>astutament<s n="adv"/></r></p></e>
+<e>       <p><l>astutamente<s n="adv"/></l>            <r>estutament<s n="adv"/></r></p></e>
 <e>       <p><l>asumiblemente<s n="adv"/></l>          <r>asumiblement<s n="adv"/></r></p></e>
 <e>       <p><l>asustadizamente<s n="adv"/></l>        <r>espantadizament<s n="adv"/></r></p></e>
 <e>       <p><l>asépticamente<s n="adv"/></l>          <r>asepticament<s n="adv"/></r></p></e>
@@ -9995,7 +9992,7 @@
 <e>       <p><l>abismo<s n="n"/></l>                   <r>abismo<s n="n"/></r></p></e>
 <e>       <p><l>abjuración<s n="n"/></l>               <r>abchuración<s n="n"/></r></p></e>
 <e>       <p><l>ablación<s n="n"/></l>                 <r>ablación<s n="n"/></r></p></e>
-<e r="RL"><p><l>ablandamiento<s n="n"/></l>            <r>sotobamiento<s n="n"/></r></p></e>
+<e r="RL"><p><l>ablandamiento<s n="n"/></l>            <r>sotovamiento<s n="n"/></r></p></e>
 <e>       <p><l>ablandamiento<s n="n"/></l>            <r>ablandimiento<s n="n"/></r></p></e>
 <e>       <p><l>abnegación<s n="n"/></l>               <r>abnegación<s n="n"/></r></p></e>
 <e>       <p><l>abogado<s n="n"/></l>                  <r>advogau<s n="n"/></r></p></e>
@@ -12601,7 +12598,7 @@
 <e>       <p><l>estampación<s n="n"/></l>              <r>estampación<s n="n"/></r></p></e>
 <e>       <p><l>estancamiento<s n="n"/></l>            <r>estancamiento<s n="n"/></r></p></e>
 <e>       <p><l>estancia<s n="n"/></l>                 <r>estancia<s n="n"/></r></p></e>
-<e>       <p><l>estandarización<s n="n"/></l>          <r>estandardización<s n="n"/></r></p></e>
+<e>       <p><l>estandarización<s n="n"/></l>          <r>standardización<s n="n"/></r></p></e>
 <e>       <p><l>estanflación<s n="n"/></l>             <r>estanflación<s n="n"/></r></p></e>
 <e>       <p><l>estanqueidad<s n="n"/></l>             <r>estanqueidat<s n="n"/></r></p></e>
 <e>       <p><l>estante<s n="n"/></l>                  <r>aparador<s n="n"/></r></p></e>
@@ -14521,7 +14518,7 @@
 <e>       <p><l>obra<s n="n"/></l>                     <r>obra<s n="n"/></r></p></e>
 <e>       <p><l>obrero<s n="n"/></l>                   <r>obrero<s n="n"/></r></p></e>
 <e>       <p><l>obscenidad<s n="n"/></l>               <r>obscenidat<s n="n"/></r></p></e>
-<e>       <p><l>observación<s n="n"/></l>              <r>obserbación<s n="n"/></r></p></e>
+<e>       <p><l>observación<s n="n"/></l>              <r>observación<s n="n"/></r></p></e>
 <e>       <p><l>observancia<s n="n"/></l>              <r>observancia<s n="n"/></r></p></e>
 <e>       <p><l>obsesión<s n="n"/></l>                 <r>obsesión<s n="n"/></r></p></e>
 <e>       <p><l>obsolescencia<s n="n"/></l>            <r>obsolescencia<s n="n"/></r></p></e>
@@ -25326,7 +25323,7 @@
 <e>       <p><l>abarcar<s n="vblex"/></l>              <r>abarcar<s n="vblex"/></r></p></e>
 <e>       <p><l>abastecer<s n="vblex"/></l>            <r>fornir<s n="vblex"/></r></p></e>
 <e>       <p><l>abdicar<s n="vblex"/></l>              <r>abdicar<s n="vblex"/></r></p></e>
-<e r="RL"><p><l>ablandar<s n="vblex"/></l>             <r>sotobar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>ablandar<s n="vblex"/></l>             <r>sotovar<s n="vblex"/></r></p></e>
 <e>       <p><l>ablandar<s n="vblex"/></l>             <r>ablandir<s n="vblex"/></r></p></e>
 <e>       <p><l>abofetear<s n="vblex"/></l>            <r>bofetiar<s n="vblex"/></r></p></e>
 <e>       <p><l>abolir<s n="vblex"/></l>               <r>abolir<s n="vblex"/></r></p></e>
@@ -25428,8 +25425,7 @@
 <e>       <p><l>afilar<s n="vblex"/></l>               <r>esmolar<s n="vblex"/></r></p></e>
 <e>       <p><l>afirmar<s n="vblex"/></l>              <r>afirmar<s n="vblex"/></r></p></e>
 <e>       <p><l>afligir<s n="vblex"/></l>              <r>aflichir<s n="vblex"/></r></p></e>
-<e>       <p><l>aflojar<s n="vblex"/></l>              <r>afloixar<s n="vblex"/></r></p></e>
-<e>       <p><l>aflojar<s n="vblex"/></l>              <r>afloixar<s n="vblex"/></r></p></e>
+<e>       <p><l>aflojar<s n="vblex"/></l>              <r>floixar<s n="vblex"/></r></p></e>
 <e>       <p><l>aflorar<s n="vblex"/></l>              <r>aflorar<s n="vblex"/></r></p></e>
 <e>       <p><l>afrontar<s n="vblex"/></l>             <r>afrontar<s n="vblex"/></r></p></e>
 <e>       <p><l>agachar<s n="vblex"/></l>              <r>acochar<s n="vblex"/></r></p></e>
@@ -25875,7 +25871,7 @@
 <e>       <p><l>coser<s n="vblex"/></l>                <r>cusir<s n="vblex"/></r></p></e>
 <e>       <p><l>costar<s n="vblex"/></l>               <r>costar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>costear<s n="vblex"/></l>              <r>pagar<s n="vblex"/></r></p></e>
-<e>       <p><l>crear<s n="vblex"/></l>                <r>creyar<s n="vblex"/></r></p></e>
+<e>       <p><l>crear<s n="vblex"/></l>                <r>crear<s n="vblex"/></r></p></e>
 <e>       <p><l>crecer<s n="vblex"/></l>               <r>creixer<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>crecer<s n="vblex"/></l>               <r>medrar<s n="vblex"/></r></p></e>
 <e>       <p><l>creer<s n="vblex"/></l>                <r>creyer<s n="vblex"/></r></p></e>
@@ -26322,7 +26318,7 @@
 <e>       <p><l>esconder<s n="vblex"/></l>             <r>amagar<s n="vblex"/></r></p></e>
 <e>       <p><l>escribir<s n="vblex"/></l>             <r>escribir<s n="vblex"/></r></p></e>
 <e>       <p><l>escrutar<s n="vblex"/></l>             <r>escrutar<s n="vblex"/></r></p></e>
-<e>       <p><l>escuchar<s n="vblex"/></l>             <r>escuitar<s n="vblex"/></r></p></e>
+<e>       <p><l>escuchar<s n="vblex"/></l>             <r>ascuitar<s n="vblex"/></r></p></e>
 <e>       <p><l>esculpir<s n="vblex"/></l>             <r>esculpir<s n="vblex"/></r></p></e>
 <e>       <p><l>escupir<s n="vblex"/></l>              <r>escupir<s n="vblex"/></r></p></e>
 <e>       <p><l>escurrir<s n="vblex"/></l>             <r>escorrer<s n="vblex"/></r></p></e>
@@ -26362,7 +26358,7 @@
 <e>       <p><l>estreñir<s n="vblex"/></l>             <r>repretar<s n="vblex"/></r></p></e>
 <e>       <p><l>estropear<s n="vblex"/></l>            <r>estorbar<s n="vblex"/></r></p></e>
 <e>       <p><l>estudiar<s n="vblex"/></l>             <r>estudiar<s n="vblex"/></r></p></e>
-<e>       <p><l>evacuar<s n="vblex"/></l>              <r>evaquar<s n="vblex"/></r></p></e>
+<e>       <p><l>evacuar<s n="vblex"/></l>              <r>evacuar<s n="vblex"/></r></p></e>
 <e>       <p><l>evadir<s n="vblex"/></l>               <r>evadir<s n="vblex"/></r></p></e>
 <e>       <p><l>evaluar<s n="vblex"/></l>              <r>avaluar<s n="vblex"/></r></p></e>
 <e>       <p><l>evaporar<s n="vblex"/></l>             <r>evaporar<s n="vblex"/></r></p></e>
@@ -27254,7 +27250,7 @@
 <e>       <p><l>soportar<s n="vblex"/></l>             <r>suportar<s n="vblex"/></r></p></e>
 <e>       <p><l>sorber<s n="vblex"/></l>               <r>chorrupar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>sorber<s n="vblex"/></l>               <r>pipar<s n="vblex"/></r></p></e>
-<e>       <p><l>sorprender<s n="vblex"/></l>           <r>sorprender<s n="vblex"/></r></p></e>
+<e>       <p><l>sorprender<s n="vblex"/></l>           <r>sosprender<s n="vblex"/></r></p></e>
 <e>       <p><l>sortear<s n="vblex"/></l>              <r>sortiar<s n="vblex"/></r></p></e>
 <e>       <p><l>sospechar<s n="vblex"/></l>            <r>sospeitar<s n="vblex"/></r></p></e>
 <e>       <p><l>sostener<s n="vblex"/></l>             <r>sostener<s n="vblex"/></r></p></e>
