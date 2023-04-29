@@ -5248,7 +5248,7 @@
 
 
 
-    <rule> <!-- prep + el que -> prep o qual -->
+    <rule> <!-- prep + el que -> prep o cual -->
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="el_que"/>
@@ -5260,7 +5260,7 @@
 	  </lu>
 	  <b pos="1"/>
 	  <lu>
-	    <lit v="o qual"/>
+	    <lit v="o cual"/>
 	    <lit-tag v="rel.an"/>
 	    <clip pos="2" side="sl" part="gen"/>
 	    <clip pos="2" side="sl" part="nbr"/>
@@ -5676,7 +5676,7 @@
       </action>
     </rule>
 
-<!--REGLA: cuyo + nom = det nom del qual -->
+<!--REGLA: cuyo + nom = det nom del cual -->
 <!--
     <rule> 
       <pattern>
@@ -5885,7 +5885,7 @@
 	  <b/>
 	  <lu> 
 	    <get-case-from pos="1">
-	      <lit v="d'o qual"/>
+	      <lit v="d'o cual"/>
 	    </get-case-from>
 	    <clip pos="1" side="sl" part="a_cuyo"/>
 	    <clip pos="1" side="tl" part="gen"/>
@@ -5896,7 +5896,7 @@
       </action>
     </rule>
     -->
-    <!--REGLA: cuyo + nom + adjetivo= det nom del qual (modificat MG 16/11/05) -->
+    <!--REGLA: cuyo + nom + adjetivo= det nom del cual (modificat MG 16/11/05) -->
     <!-- 
     <rule> 
       <pattern>
@@ -6404,7 +6404,7 @@
 	  <b/>
 	  <lu>  
 	    <get-case-from pos="3">
-	      <lit v="d'o qual"/>
+	      <lit v="d'o cual"/>
 	    </get-case-from>
 	    <clip pos="1" side="sl" part="a_cuyo"/>
 	    <clip pos="1" side="tl" part="gen"/>
@@ -6414,7 +6414,7 @@
       </action>
     </rule> 
 -->    
- <!--REGLA: cuyo + adjetivo + nom= det nom adj del qual (modificat MG 15/11/05) -->
+ <!--REGLA: cuyo + adjetivo + nom= det nom adj del cual (modificat MG 15/11/05) -->
  <!--
     <rule>
       <pattern>
@@ -6925,7 +6925,7 @@
 	  <b/>
 	  <lu>  
 	    <get-case-from pos="3">
-	      <lit v="d'o qual"/>
+	      <lit v="d'o cual"/>
 	    </get-case-from>
 	    <clip pos="1" side="sl" part="a_cuyo"/>
 	    <clip pos="1" side="tl" part="gen"/>
@@ -7551,7 +7551,7 @@
 	  </lu>
 	  <b pos="1"/>
 	  <lu>
-	    <lit v="a qual cosa"/>
+	    <lit v="a cual cosa"/>
 	    <lit-tag v="rel.an.nt"/>
 	  </lu>
 	</out>
@@ -7576,7 +7576,7 @@
 	  </lu>
 	  <b pos="2"/>
 	  <lu>
-	    <lit v="a qual cosa"/>
+	    <lit v="a cual cosa"/>
 	    <lit-tag v="rel.an.nt"/>
 	  </lu>
 	</out>
