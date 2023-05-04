@@ -1355,6 +1355,8 @@
 <e>       <p><l>desesperado<s n="adj"/></l>            <r>desasperau<s n="adj"/></r></p></e>
 <e>       <p><l>desestimatorio<s n="adj"/></l>         <r>desestimatorio<s n="adj"/></r></p></e>
 <e>       <i>desfavorable<s n="adj"/></i></e>
+<e>       <p><l>hidráulico<s n="adj"/></l>             <r>hidraulico<s n="adj"/></r></p></e>
+<e>       <p><l>hidráulicamente<s n="adj"/></l>             <r>hidraulicament<s n="adj"/></r></p></e>
 <e>       <p><l>desfavorable<s n="adj"/></l>           <r>desfavorable<s n="adj"/></r></p></e>
 <e>       <p><l>desgarrador<s n="adj"/></l>            <r>esgarrador<s n="adj"/></r></p></e>
 <e>       <p><l>desgraciado<s n="adj"/></l>            <r>desgraciau<s n="adj"/></r></p></e>
@@ -2418,7 +2420,6 @@
 <e>       <p><l>hidroelectrolítico<s n="adj"/></l>     <r>hidroelectrolitico<s n="adj"/></r></p></e>
 <e>       <p><l>hidrográfico<s n="adj"/></l>           <r>hidrografico<s n="adj"/></r></p></e>
 <e>       <p><l>hidrológico<s n="adj"/></l>            <r>hidrolochico<s n="adj"/></r></p></e>
-<e>       <p><l>hidráulico<s n="adj"/></l>             <r>hidraulico<s n="adj"/></r></p></e>
 <e>       <p><l>higiénico<s n="adj"/></l>              <r>hichienico<s n="adj"/></r></p></e>
 <e>       <p><l>hinchable<s n="adj"/></l>              <r>inflable<s n="adj"/></r></p></e>
 <e>       <i>hindú<s n="adj"/></i></e>
@@ -7151,7 +7152,6 @@
 <e>       <p><l>hidroelectrolíticamente<s n="adv"/></l><r>hidroelectroliticament<s n="adv"/></r></p></e>
 <e>       <p><l>hidrográficamente<s n="adv"/></l>      <r>hidrograficament<s n="adv"/></r></p></e>
 <e>       <p><l>hidrológicamente<s n="adv"/></l>       <r>hidrolochicament<s n="adv"/></r></p></e>
-<e>       <p><l>hidráulicamente<s n="adv"/></l>        <r>hidraulicament<s n="adv"/></r></p></e>
 <e>       <p><l>higiénicamente<s n="adv"/></l>         <r>hichienicament<s n="adv"/></r></p></e>
 <e>       <p><l>hinchablemente<s n="adv"/></l>         <r>inflablement<s n="adv"/></r></p></e>
 <e>       <p><l>hiperbólicamente<s n="adv"/></l>       <r>hiperbolicament<s n="adv"/></r></p></e>
@@ -14485,8 +14485,7 @@
 <e>       <p><l>nuca<s n="n"/></l>                     <r>foyeta<s n="n"/></r></p></e>
 <e srl="nudillo"><p><l>nudillo<s n="n"/><s n="m"/></l> <r>chunta<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>nudo<s n="n"/></l>                     <r>nyudo<s n="n"/></r></p></e>
-<e r="LR">       <p><l>nuera<s n="n"/><s n="f"/></l>                    <r>choven<s n="n"/><s n="f"/></r></p></e>
-<e r="RL">       <p><l>nuera<s n="n"/><s n="f"/></l>                    <r>choven<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>nuera<s n="n"/><s n="f"/></l>                    <r>choven<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>nulidad<s n="n"/></l>                  <r>nulidat<s n="n"/></r></p></e>
 <e>       <p><l>numeración<s n="n"/></l>               <r>numeración<s n="n"/></r></p></e>
 <e>       <p><l>nutricionista<s n="n"/></l>            <r>nutricionista<s n="n"/></r></p></e>

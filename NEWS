@@ -1,10 +1,20 @@
+May 5, 2023
+* Release 0.6
+  * Change in generated Orthography - Adapted to the official orthograpy of the Academia Aragonesa de la Lengua (https://www.academiaaragonesadelalengua.org/sites/default/files/ficheros-pdf/Ortograf%C3%ADa%20de%20l%27aragon%C3%A9s_web_an.pdf)
+  * Keeps analysis compatibility with previous orthography (apertium-arg)
+  * New entries added.
+  * Minor fixes performed.
+  * Bilingual dictionary:
+     > 26437 entries (8015 proper nouns).
+  * Main pending issues: improve disambiguation with CG, add support for generating dialectal preferences
+
 8 January 2021
 * Release 0.5 (with change in the language codes apertium-es-an --> apertium-spa-arg)
    * Added constraint grammar support (included in spa->arg direction, added support in arg->spa direction)
    * Changed arg.prob file
    * Adapted to changes in apertium-spa and apertium-arg
    * Added support for new np labels and acronyms
-   * Definite articles generated according to "Gramatica Basica de l'Aragonés" neutral standard paradigm.
+   * Definite articles generated according to "Gramatica Basica de l'AragonÃ©s" neutral standard paradigm.
    * Support for short ordinals and digital hour
    * Improved apostrophation rules in post generation. Fix problems with "de + en (prep)".
    * Added support for superlatives with "muito/muit/molt"
@@ -27,12 +37,12 @@
    * Improvement in coverage and morphology of Aragonese monolingual dictionary.
      > 552 paradigms,
      > 21271 lemmae (26103 entries, of which, 8150 proper nouns), including 2518 multi-words.
-     Naïve coverage: from 89.8% in an.wikipedia to 92.4% in a corpus of narrative texts.
+     Naï¿½ve coverage: from 89.8% in an.wikipedia to 92.4% in a corpus of narrative texts.
    * Some improvements and fixes in verbal morphology.
    * Several agrammatical or rare combinations of enclitic pronouns are now ignored.
    * Some changes in the preferred (generated form): 'pa' (instead of 'ta') to translate 'para', 'cantatz' (instead of 'cantat') as p2.pl imperative, 'coixeyo' rather than 'coixeo'...
    * Extended support for dialectal verbal morphology analysis ('anatz', 'veden', 'anirem', 'quisto', benasques strong infinitives)
-   * new paradigms ("coch/ín__n", "troz__n", "restaur/ant__n", "contpa__pr")
+   * new paradigms ("coch/ï¿½n__n", "troz__n", "restaur/ant__n", "contpa__pr")
    * duplicated paradigms eliminated (e.g. "tapi/z__n")
 * Main pending Issues:
    * Still room to improve on coverage.
@@ -49,10 +59,10 @@ Tue 29 Dec 2012 9:00:00 UTC
      > 21073 lemmae (of which, 8047 proper nouns), including 1921 multi-words. 
      ~568 000 different analyzable surface forms, 
      ~117 500 different generated surface forms. 
-     Naïve coverage: from 88.4% in an.wikipedia to 94.0% in a corpus of narrative texts.
+     Naï¿½ve coverage: from 88.4% in an.wikipedia to 94.0% in a corpus of narrative texts.
    * Some paradigms fixed (e.g. seguir)
    * Some rules fixed (e.g. prep+el+que --> prep+o+que)
-   * Some rules added (véase --> se veiga, léaselo --> se lo leiga, behaviour of
+   * Some rules added (vï¿½ase --> se veiga, lï¿½aselo --> se lo leiga, behaviour of
    buen, mal before a noun)
    * Improved distinction beteen a<pr> and a<det> (a2) and two meanings of "ta" so
    that the postgenerator can apply different rules to them.
@@ -92,15 +102,15 @@ Sun 10 Jul 2011 19:20:14 IST
      > 17500 lemmae (of which, 8025 proper nouns), including 1786 multi-words. 
      ~500 000 analyzable surface forms, 
      ~120 000 generated surface forms. 
-     86.3% naïve coverage in wikipedia.
+     86.3% naï¿½ve coverage in wikipedia.
    * es monodix trimmed to bidix using ignore label (i="yes").
 * Main pending Issues:
    * Still room to improve on coverage.
    * Still much to work on transfer (current version based on a reduced and 
      tuned subset of rules from es-ca).
    * Current POS disambiguator is directly taken from es-ca.
-     Note: Orthography is taken from "Academia de l'Aragonés - Estudio de 
-     Filolochía Aragonesa", a board created in the II Congreso de l'Aragonés.  
+     Note: Orthography is taken from "Academia de l'Aragonï¿½s - Estudio de 
+     Filolochï¿½a Aragonesa", a board created in the II Congreso de l'Aragonï¿½s.  
      http://www.academiadelaragones.org/biblio/EDACAR7_2.pdf . 
      It is the orthography used in Wikipedia in Aragonese 
      (http://an.wikipedia.org). 
@@ -128,11 +138,11 @@ Sun Sep 26 15:42:44 IST 2010
      filtering unknowns repeatedly before passing the result through the
      analyser, to pluck out the results. Much of the ~8000 words in the
      bilingual lexicon are mere variations. (In a particularly ironic
-     twist, it has 3 variations of 'normalización'). These variants will 
+     twist, it has 3 variations of 'normalizaciï¿½n'). These variants will 
      need to be sorted out to have es->an: the first translation made with
      this system before release was of the document on an.wikipedia 
      describing the new spelling rules.
-     Although I got some notes from Juan Pablo Martínez on the equivalents
+     Although I got some notes from Juan Pablo Martï¿½nez on the equivalents
      of ser and estar, I was not able to get further information. My  
      "solution" is to ignore the issue and come back to it later.
      Also, Juan Pablo added some vocabulary to the analyser, most of which
