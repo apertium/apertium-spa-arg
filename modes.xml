@@ -26,6 +26,7 @@
         <file name="apertium-spa-arg.spa-arg.t1x"/>
         <file name="spa-arg.t1x.bin"/>
       </program>
+      <program name="apertium-posttransfer"/>
       <program name="lt-proc $1">
         <file name="spa-arg.autogen.bin"/>
       </program>
@@ -83,6 +84,7 @@
         <file name="apertium-spa-arg.arg-spa.t1x"/>
         <file name="arg-spa.t1x.bin"/>
       </program>
+      <program name="apertium-posttransfer"/>
       <program name="lt-proc $1">
         <file name="arg-spa.autogen.bin"/>
       </program>
@@ -111,6 +113,7 @@
         <file name="apertium-spa-arg.arg-spa.t1x"/>
         <file name="arg-spa.t1x.bin"/>
       </program>
+      <program name="apertium-posttransfer"/>
       <program name="lt-proc $1">
         <file name="arg-spa.autogen.bin"/>
       </program>
