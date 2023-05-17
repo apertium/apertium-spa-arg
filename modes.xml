@@ -19,16 +19,19 @@
       <program name="lt-proc -b">
         <file name="spa-arg.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc" debug-suff="lex">
         <file name="spa-arg.autolex.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="apertium-spa-arg.spa-arg.t1x"/>
         <file name="spa-arg.t1x.bin"/>
       </program>
       <program name="apertium-posttransfer"/>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="spa-arg.autogen.bin"/>
+      </program>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="spa-arg.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="spa-arg.autopgen.bin"/>
@@ -77,10 +80,10 @@
       <program name="lt-proc -b">
         <file name="arg-spa.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc" debug-suff="lex">
         <file name="arg-spa.autolex.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="apertium-spa-arg.arg-spa.t1x"/>
         <file name="arg-spa.t1x.bin"/>
       </program>
