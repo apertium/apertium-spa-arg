@@ -415,6 +415,8 @@
     </def-attr>
 
     
+    <!-- Used only by f_title_pos, never by rule matching. -->
+    <def-attr n="a_title_pos"><attr-item tags="adj"/></def-attr>
   </section-def-attrs>
 
   <section-def-vars>
@@ -432,6 +434,10 @@
     <def-var n="concTercero"/>
     <def-var n="interrogativa"/>
     <def-var n="exclamativa"/>
+    <def-var n="title_pos"/>
+    <def-var n="title_pos_1"/>
+    <def-var n="title_pos_2"/>
+    <def-var n="title_pos_3"/>
   </section-def-vars>
   
   <section-def-lists>
@@ -506,6 +512,21 @@
   </section-def-lists>
 
   <section-def-macros>
+    <!-- Return the original POS, except for the bilingual don/donya title mapping. -->
+    <def-macro n="f_title_pos" npar="1">
+      <let><var n="title_pos"/><clip pos="1" side="tl" part="a_nom"/></let>
+      <choose>
+        <when>
+          <test><and>
+            <or><equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="don"/></equal><equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="donya"/></equal></or>
+            <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="don"/></equal>
+            <equal><clip pos="1" side="tl" part="a_title_pos"/><lit-tag v="adj"/></equal>
+          </and></test>
+          <let><var n="title_pos"/><lit-tag v="adj"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
   <def-macro n="f_tipusverb" npar="1">
       <choose>
 	<when>
@@ -2934,10 +2955,12 @@
 	<call-macro n="f_concord1">
 	  <with-param pos="1"/>
 	</call-macro>     
+	<call-macro n="f_title_pos"><with-param pos="1"/></call-macro>
+	<let><var n="title_pos_1"/><var n="title_pos"/></let>
 	<out>  
 	  <lu>
 	    <clip pos="1" side="tl" part="lemh"/>
-	    <clip pos="1" side="tl" part="a_nom"/>
+	    <var n="title_pos_1"/>
 	    <clip pos="1" side="tl" part="gen"/>
 	    <clip pos="1" side="tl" part="nbr"/>
 	    <clip pos="1" side="tl" part="lemq"/> 
@@ -3024,6 +3047,8 @@
 	  <with-param pos="2"/>
 	  <with-param pos="1"/>
 	</call-macro>     
+	<call-macro n="f_title_pos"><with-param pos="2"/></call-macro>
+	<let><var n="title_pos_2"/><var n="title_pos"/></let>
 	<out>     
 	  <lu>
 	    <clip pos="1" side="tl" part="whole"/>
@@ -3031,7 +3056,7 @@
 	  <b pos="1"/> 
 	  <lu>
 	    <clip pos="2" side="tl" part="lemh"/>
-	    <clip pos="2" side="tl" part="a_nom"/>
+	    <var n="title_pos_2"/>
 	    <clip pos="2" side="tl" part="gen"/>
 	    <clip pos="2" side="tl" part="nbr"/>
 	    <clip pos="2" side="tl" part="lemq"/> 
@@ -3050,10 +3075,12 @@
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
 	</call-macro> 
+	    <call-macro n="f_title_pos"><with-param pos="1"/></call-macro>
+	    <let><var n="title_pos_1"/><var n="title_pos"/></let>
 	    <out>   
 	      <lu>
 		<clip pos="1" side="tl" part="lemh"/>
-		<clip pos="1" side="tl" part="a_nom"/>
+		<var n="title_pos_1"/>
 		<clip pos="1" side="tl" part="gen"/>
 		<clip pos="1" side="tl" part="nbr"/>
 		<clip pos="1" side="tl" part="lemq"/> 
@@ -3082,10 +3109,12 @@
 	  <with-param pos="2"/>
 	  <with-param pos="3"/>
 	</call-macro>     
+	<call-macro n="f_title_pos"><with-param pos="1"/></call-macro>
+	<let><var n="title_pos_1"/><var n="title_pos"/></let>
 	<out>   
 	  <lu>
 	    <clip pos="1" side="tl" part="lemh"/>
-	    <clip pos="1" side="tl" part="a_nom"/>
+	    <var n="title_pos_1"/>
 	    <clip pos="1" side="tl" part="gen"/>
 	    <clip pos="1" side="tl" part="nbr"/>
 	    <clip pos="1" side="tl" part="lemq"/> 
@@ -3123,6 +3152,8 @@
 <!--	<call-macro n="f_lexicAdj">
 	  <with-param pos="1"/>
 	</call-macro>-->
+	<call-macro n="f_title_pos"><with-param pos="2"/></call-macro>
+	<let><var n="title_pos_2"/><var n="title_pos"/></let>
 	<out>  
 	  <lu>
 	    <clip pos="1" side="tl" part="lemh"/>
@@ -3134,7 +3165,7 @@
 	  <b pos="1"/>
 	  <lu>
 	    <clip pos="2" side="tl" part="lemh"/>
-	    <clip pos="2" side="tl" part="a_nom"/>
+	    <var n="title_pos_2"/>
 	    <clip pos="2" side="tl" part="gen"/>
 	    <clip pos="2" side="tl" part="nbr"/>
 	    <clip pos="2" side="tl" part="lemq"/>  
@@ -3155,6 +3186,8 @@
 	  <with-param pos="3"/>
 	  <with-param pos="1"/>
 	</call-macro>     
+	<call-macro n="f_title_pos"><with-param pos="2"/></call-macro>
+	<let><var n="title_pos_2"/><var n="title_pos"/></let>
 	<out>    
 	  <lu>  
 	    <clip pos="1" side="tl" part="whole"/>
@@ -3162,7 +3195,7 @@
 	  <b pos="1"/>
 	  <lu>
 	    <clip pos="2" side="tl" part="lemh"/>
-	    <clip pos="2" side="tl" part="a_nom"/>
+	    <var n="title_pos_2"/>
 	    <clip pos="2" side="tl" part="gen"/>
 	    <clip pos="2" side="tl" part="nbr"/>
 	    <clip pos="2" side="tl" part="lemq"/> 
@@ -3193,6 +3226,8 @@
 	  <with-param pos="4"/>
 	  <with-param pos="1"/>
 	</call-macro>     
+	<call-macro n="f_title_pos"><with-param pos="2"/></call-macro>
+	<let><var n="title_pos_2"/><var n="title_pos"/></let>
 	<out>    
 	  <lu>  
 	    <clip pos="1" side="tl" part="whole"/>
@@ -3200,7 +3235,7 @@
 	  <b pos="1"/>
 	  <lu>
 	    <clip pos="2" side="tl" part="lemh"/>
-	    <clip pos="2" side="tl" part="a_nom"/>
+	    <var n="title_pos_2"/>
 	    <clip pos="2" side="tl" part="gen"/>
 	    <clip pos="2" side="tl" part="nbr"/>
 	    <clip pos="2" side="tl" part="lemq"/> 
@@ -3238,6 +3273,8 @@
 	  <with-param pos="4"/>
 	  <with-param pos="1"/>
 	</call-macro>     
+	<call-macro n="f_title_pos"><with-param pos="2"/></call-macro>
+	<let><var n="title_pos_2"/><var n="title_pos"/></let>
 	<out>    
 	  <lu>  
 	    <clip pos="1" side="tl" part="whole"/>
@@ -3245,7 +3282,7 @@
 	  <b pos="1"/>
 	  <lu>
 	    <clip pos="2" side="tl" part="lemh"/>
-	    <clip pos="2" side="tl" part="a_nom"/>
+	    <var n="title_pos_2"/>
 	    <clip pos="2" side="tl" part="gen"/>
 	    <clip pos="2" side="tl" part="nbr"/>
 	    <clip pos="2" side="tl" part="lemq"/> 
@@ -3287,6 +3324,8 @@
 	  <with-param pos="5"/>
 	  <with-param pos="1"/>
 	</call-macro>     
+	<call-macro n="f_title_pos"><with-param pos="2"/></call-macro>
+	<let><var n="title_pos_2"/><var n="title_pos"/></let>
 	<out>    
 	  <lu>  
 	    <clip pos="1" side="tl" part="whole"/>
@@ -3294,7 +3333,7 @@
 	  <b pos="1"/>
 	  <lu>
 	    <clip pos="2" side="tl" part="lemh"/>
-	    <clip pos="2" side="tl" part="a_nom"/>
+	    <var n="title_pos_2"/>
 	    <clip pos="2" side="tl" part="gen"/>
 	    <clip pos="2" side="tl" part="nbr"/>
 	    <clip pos="2" side="tl" part="lemq"/> 
@@ -3335,10 +3374,12 @@
 	  <with-param pos="2"/>
 	  <with-param pos="3"/>
 	</call-macro>     
+	<call-macro n="f_title_pos"><with-param pos="1"/></call-macro>
+	<let><var n="title_pos_1"/><var n="title_pos"/></let>
 	<out>    
 	  <lu>
 	    <clip pos="1" side="tl" part="lemh"/>
-	    <clip pos="1" side="tl" part="a_nom"/>
+	    <var n="title_pos_1"/>
 	    <clip pos="1" side="tl" part="gen"/>
 	    <clip pos="1" side="tl" part="nbr"/>
 	    <clip pos="1" side="tl" part="lemq"/>   
@@ -3379,6 +3420,8 @@
 	<call-macro n="f_lexicAdj">
 	  <with-param pos="2"/>
 	</call-macro>
+	<call-macro n="f_title_pos"><with-param pos="3"/></call-macro>
+	<let><var n="title_pos_3"/><var n="title_pos"/></let>
 	<out>  
 	  <lu>    
 	    <clip pos="1" side="tl" part="whole"/>
@@ -3394,7 +3437,7 @@
 	  <b pos="2"/>
 	  <lu>
 	    <clip pos="3" side="tl" part="lemh"/>
-	    <clip pos="3" side="tl" part="a_nom"/>
+	    <var n="title_pos_3"/>
 	    <clip pos="3" side="tl" part="gen"/>
 	    <clip pos="3" side="tl" part="nbr"/>
 	    <clip pos="3" side="tl" part="lemq"/> 
@@ -3416,6 +3459,8 @@
 	  <with-param pos="2"/>
 	  <with-param pos="1"/>
 	</call-macro>     
+	<call-macro n="f_title_pos"><with-param pos="3"/></call-macro>
+	<let><var n="title_pos_3"/><var n="title_pos"/></let>
 	<out> 
 	  <lu>    
 	    <clip pos="1" side="tl" part="whole"/>
@@ -3427,7 +3472,7 @@
 	  <b pos="2"/>
 	  <lu>
 	    <clip pos="3" side="tl" part="lemh"/>
-	    <clip pos="3" side="tl" part="a_nom"/>
+	    <var n="title_pos_3"/>
 	    <clip pos="3" side="tl" part="gen"/>
 	    <clip pos="3" side="tl" part="nbr"/>
 	    <clip pos="3" side="tl" part="lemq"/> 
@@ -3450,6 +3495,8 @@
 	  <with-param pos="2"/>
 	  <with-param pos="1"/>
 	</call-macro>     
+	<call-macro n="f_title_pos"><with-param pos="3"/></call-macro>
+	<let><var n="title_pos_3"/><var n="title_pos"/></let>
 	<out> 
 	  <lu>    
 	    <clip pos="1" side="tl" part="whole"/>
@@ -3461,7 +3508,7 @@
 	  <b pos="2"/>
 	  <lu>
 	    <clip pos="3" side="tl" part="lemh"/>
-	    <clip pos="3" side="tl" part="a_nom"/>
+	    <var n="title_pos_3"/>
 	    <clip pos="3" side="tl" part="gen"/>
 	    <clip pos="3" side="tl" part="nbr"/>
 	    <clip pos="3" side="tl" part="lemq"/> 
@@ -3521,6 +3568,8 @@
 	<call-macro n="f_lexicAdj">
 	  <with-param pos="1"/>
 	</call-macro>
+	<call-macro n="f_title_pos"><with-param pos="2"/></call-macro>
+	<let><var n="title_pos_2"/><var n="title_pos"/></let>
 	<out>  
 	  <lu>
 	    <clip pos="1" side="tl" part="lemh"/>
@@ -3532,7 +3581,7 @@
 	  <b pos="1"/>
 	  <lu>
 	    <clip pos="2" side="tl" part="lemh"/>
-	    <clip pos="2" side="tl" part="a_nom"/>
+	    <var n="title_pos_2"/>
 	    <clip pos="2" side="tl" part="gen"/>
 	    <clip pos="2" side="tl" part="nbr"/>
 	    <clip pos="2" side="tl" part="lemq"/> 
@@ -3566,6 +3615,8 @@
 <!--	<call-macro n="f_lexicAdj">
 	  <with-param pos="2"/>
 	</call-macro>-->
+	<call-macro n="f_title_pos"><with-param pos="3"/></call-macro>
+	<let><var n="title_pos_3"/><var n="title_pos"/></let>
 	<out> 
 	  <lu>    
 	    <clip pos="1" side="tl" part="whole"/>
@@ -3581,7 +3632,7 @@
 	  <b pos="2"/>
 	  <lu>
 	    <clip pos="3" side="tl" part="lemh"/>
-	    <clip pos="3" side="tl" part="a_nom"/>
+	    <var n="title_pos_3"/>
 	    <clip pos="3" side="tl" part="gen"/>
 	    <clip pos="3" side="tl" part="nbr"/>
 	    <clip pos="3" side="tl" part="lemq"/> 
@@ -3613,10 +3664,12 @@
 	  <with-param pos="1"/>
 	  <with-param pos="3"/>
 	</call-macro>     
+	<call-macro n="f_title_pos"><with-param pos="1"/></call-macro>
+	<let><var n="title_pos_1"/><var n="title_pos"/></let>
 	<out>   
 	  <lu>
 	    <clip pos="1" side="tl" part="lemh"/>
-	    <clip pos="1" side="tl" part="a_nom"/>
+	    <var n="title_pos_1"/>
 	    <clip pos="1" side="tl" part="gen"/>
 	    <clip pos="1" side="tl" part="nbr"/>
 	    <clip pos="1" side="tl" part="lemq"/> 
@@ -3653,6 +3706,8 @@
 	  <with-param pos="1"/>
 	  <with-param pos="4"/>
 	</call-macro>     
+	<call-macro n="f_title_pos"><with-param pos="2"/></call-macro>
+	<let><var n="title_pos_2"/><var n="title_pos"/></let>
 	<out>  
 	  <lu>    
 	    <clip pos="1" side="tl" part="whole"/>
@@ -3660,7 +3715,7 @@
 	  <b pos="1"/>
 	  <lu>
 	    <clip pos="2" side="tl" part="lemh"/>
-	    <clip pos="2" side="tl" part="a_nom"/>
+	    <var n="title_pos_2"/>
 	    <clip pos="2" side="tl" part="gen"/>
 	    <clip pos="2" side="tl" part="nbr"/>
 	    <clip pos="2" side="tl" part="lemq"/>     
@@ -3693,6 +3748,8 @@
 	  <with-param pos="3"/>
 	  <with-param pos="1"/>
 	</call-macro>     
+	<call-macro n="f_title_pos"><with-param pos="3"/></call-macro>
+	<let><var n="title_pos_3"/><var n="title_pos"/></let>
 	<out>   
 	  <lu>
 	    <clip pos="1" side="tl" part="whole"/>
@@ -3704,7 +3761,7 @@
 	  <b pos="2"/>
 	  <lu>
 	    <clip pos="3" side="tl" part="lemh"/>
-	    <clip pos="3" side="tl" part="a_nom"/>
+	    <var n="title_pos_3"/>
 	    <clip pos="3" side="tl" part="gen"/>
 	    <clip pos="3" side="tl" part="nbr"/>
 	    <clip pos="3" side="tl" part="lemq"/> 
@@ -3724,6 +3781,8 @@
 	  <with-param pos="2"/>
 	  <with-param pos="1"/>
 	</call-macro>   
+	<call-macro n="f_title_pos"><with-param pos="2"/></call-macro>
+	<let><var n="title_pos_2"/><var n="title_pos"/></let>
 	<out>     
 	  <lu>
 	    <clip pos="1" side="tl" part="whole"/>
@@ -3731,7 +3790,7 @@
 	  <b pos="1"/>	  
 	  <lu>
 	    <clip pos="2" side="tl" part="lemh"/>
-	    <clip pos="2" side="tl" part="a_nom"/>
+	    <var n="title_pos_2"/>
 	    <clip pos="2" side="tl" part="gen"/>
 	    <clip pos="2" side="tl" part="nbr"/>
 	    <clip pos="2" side="tl" part="lemq"/> 
@@ -3779,6 +3838,8 @@
 	  <with-param pos="1"/>
 	  <with-param pos="3"/>
 	</call-macro>     
+	<call-macro n="f_title_pos"><with-param pos="2"/></call-macro>
+	<let><var n="title_pos_2"/><var n="title_pos"/></let>
 	<out>     
 	  <lu>
 	    <clip pos="1" side="tl" part="whole"/>
@@ -3787,7 +3848,7 @@
 	  
 	  <lu>
 	    <clip pos="2" side="tl" part="lemh"/>
-	    <clip pos="2" side="tl" part="a_nom"/>
+	    <var n="title_pos_2"/>
 	    <clip pos="2" side="tl" part="gen"/>
 	    <clip pos="2" side="tl" part="nbr"/>
 	    <clip pos="2" side="tl" part="lemq"/> 
@@ -3819,6 +3880,8 @@
 	<call-macro n="f_lexicAdj">
 	  <with-param pos="2"/>
 	</call-macro>
+	<call-macro n="f_title_pos"><with-param pos="3"/></call-macro>
+	<let><var n="title_pos_3"/><var n="title_pos"/></let>
 	<out>     
 	  <lu>
 	    <clip pos="1" side="tl" part="whole"/>
@@ -3834,7 +3897,7 @@
 	  <b pos="2"/>
 	  <lu>
 	    <clip pos="3" side="tl" part="lemh"/>
-	    <clip pos="3" side="tl" part="a_nom"/>
+	    <var n="title_pos_3"/>
 	    <clip pos="3" side="tl" part="gen"/>
 	    <clip pos="3" side="tl" part="nbr"/>
 	    <clip pos="3" side="tl" part="lemq"/> 
@@ -3878,6 +3941,8 @@
 	  <with-param pos="2"/>
 	  <with-param pos="1"/>
 	</call-macro>  
+	<call-macro n="f_title_pos"><with-param pos="3"/></call-macro>
+	<let><var n="title_pos_3"/><var n="title_pos"/></let>
 	<out>     
 	  <lu>
 	    <clip pos="1" side="tl" part="whole"/>
@@ -3890,7 +3955,7 @@
 	  <b pos="2"/>
 	  <lu>
 	    <clip pos="3" side="tl" part="lemh"/>
-	    <clip pos="3" side="tl" part="a_nom"/>
+	    <var n="title_pos_3"/>
 	    <clip pos="3" side="tl" part="gen"/>
 	    <clip pos="3" side="tl" part="nbr"/>
 	    <clip pos="3" side="tl" part="lemq"/> 
@@ -4965,6 +5030,8 @@
 	  <with-param pos="2"/>
 	  <with-param pos="1"/>
 	</call-macro>     
+	<call-macro n="f_title_pos"><with-param pos="3"/></call-macro>
+	<let><var n="title_pos_3"/><var n="title_pos"/></let>
 	<out>  
 	  <lu>  
 	    <clip pos="1" side="tl" part="lem"/>
@@ -4983,7 +5050,7 @@
 	  <b pos="2"/>
 	  <lu>
 	    <clip pos="3" side="tl" part="lemh"/>
-	    <clip pos="3" side="tl" part="a_nom"/>
+	    <var n="title_pos_3"/>
 	    <clip pos="3" side="tl" part="gen"/>
 	    <clip pos="3" side="tl" part="nbr"/>
 	    <clip pos="3" side="tl" part="lemq"/> 
