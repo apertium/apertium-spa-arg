@@ -282,7 +282,11 @@
       <cat-item tags="sent"/>
     </def-cat>
 
-  </section-def-cats>
+  
+    <!-- masculine saint title before a personal name only. -->
+    <def-cat n="saint_title_m_sg"><cat-item lemma="santo" tags="adj.m.sg"/><cat-item lemma="santo" tags="n.m.sg"/></def-cat>
+    <def-cat n="saint_person"><cat-item tags="np.ant"/><cat-item tags="np.ant.*"/></def-cat>
+</section-def-cats>
 
   <section-def-attrs>
     <def-attr n="a_nom">
@@ -2836,6 +2840,14 @@
   </section-def-macros>
 
   <section-rules>
+    <!-- Santo Francisco -> Sant Francisco. -->
+    <rule><pattern><pattern-item n="saint_title_m_sg"/><pattern-item n="saint_person"/></pattern>
+      <action>
+        <call-macro n="f_concord1"><with-param pos="2"/></call-macro>
+        <out><lu><get-case-from pos="1"><lit v="sant"/></get-case-from><lit-tag v="n.m.sg"/></lu><b pos="1"/><lu><clip pos="2" side="tl" part="whole"/></lu></out>
+      </action>
+    </rule>
+
 
 
     <rule> <!-- REGLA: DETERMINANT -->
