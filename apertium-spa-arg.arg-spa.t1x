@@ -637,7 +637,13 @@
       <list-item v="volcánico&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
       <list-item v="volcánico&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
       <list-item v="volcánico&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
-    </def-list>
+          <list-item v="ausente&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
+      <list-item v="ausente&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
+      <list-item v="ausente&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
+      <list-item v="ausente&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
+      <list-item v="español&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
+      <list-item v="español&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
+</def-list>
     <def-list n="sup_positive_mf">
       <list-item v="acorde&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
       <list-item v="acorde&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
@@ -651,7 +657,11 @@
       <list-item v="imprudente&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
       <list-item v="imprudente&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
       <list-item v="imprudente&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
-    </def-list>
+          <list-item v="ausente&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
+      <list-item v="ausente&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
+      <list-item v="ausente&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
+      <list-item v="ausente&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
+</def-list>
   </section-def-lists>
 
   <section-def-macros>

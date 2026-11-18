@@ -1546,7 +1546,7 @@
 <e>       <p><l>divulgativo<s n="adj"/></l>            <r>divulgativo<s n="adj"/></r></p></e>
 <e>       <p><l>diáfano<s n="adj"/></l>                <r>diafano<s n="adj"/></r></p></e>
 <e>       <p><l>diédrico<s n="adj"/></l>               <r>diedrico<s n="adj"/></r></p></e>
-<e>       <p><l>doble<s n="adj"/></l>                  <r>dople<s n="adj"/></r></p></e>
+<e>       <p><l>doble<s n="adj"/></l>                  <r>doble<s n="adj"/></r></p></e>
 <e>       <p><l>docente<s n="adj"/></l>                <r>docent<s n="adj"/></r></p></e>
 <e>       <p><l>docto<s n="adj"/></l>                  <r>docto<s n="adj"/></r></p></e>
 <e>       <i>doctoral<s n="adj"/></i></e>
@@ -1695,7 +1695,7 @@
 <e r="LR"><p><l>endeble<s n="adj"/><s n="mf"/></l>     <r>arguellau<s n="adj"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>endeble<s n="adj"/><s n="mf"/></l>     <r>arguellau<s n="adj"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>endeble<s n="adj"/><s n="mf"/></l>     <r>arguellau<s n="adj"/><s n="f"/></r></p></e>
-<e>       <p><l>endemoniado<s n="adj"/></l>            <r>endemoniau<s n="adj"/></r></p></e>
+<e>       <p><l>endemoniado<s n="adj"/></l>            <r>endimonau<s n="adj"/></r></p></e>
 <e>       <p><l>endogámico<s n="adj"/></l>             <r>endogamico<s n="adj"/></r></p></e>
 <e>       <p><l>endoplasmático<s n="adj"/></l>         <r>endoplasmatico<s n="adj"/></r></p></e>
 <e>       <p><l>endotérmico<s n="adj"/></l>            <r>endotermico<s n="adj"/></r></p></e>
@@ -2412,7 +2412,6 @@
 <e>       <p><l>heroico<s n="adj"/></l>                <r>heroico<s n="adj"/></r></p></e>
 <e>       <p><l>heroico<s n="adj"/></l>                <r>heroico<s n="adj"/></r></p></e>
 <e>       <p><l>heroinómano<s n="adj"/></l>            <r>heroinomano<s n="adj"/></r></p></e>
-<e>       <p><l>heráldico<s n="adj"/></l>              <r>heráldico<s n="adj"/></r></p></e>
 <e>       <p><l>heráldico<s n="adj"/></l>              <r>heraldico<s n="adj"/></r></p></e>
 <e>       <p><l>heterodoxo<s n="adj"/></l>             <r>heterodoxo<s n="adj"/></r></p></e>
 <e>       <p><l>heterogéneo<s n="adj"/></l>            <r>heterochenio<s n="adj"/></r></p></e>
@@ -2440,7 +2439,6 @@
 <e>       <p><l>hispánico<s n="adj"/></l>              <r>hispanico<s n="adj"/></r></p></e>
 <e>       <p><l>historiográfico<s n="adj"/></l>        <r>historiografico<s n="adj"/></r></p></e>
 <e>       <p><l>histérico<s n="adj"/></l>              <r>histerico<s n="adj"/></r></p></e>
-<e>       <p><l>histórico<s n="adj"/></l>              <r>histórico<s n="adj"/></r></p></e>
 <e>       <p><l>histórico<s n="adj"/></l>              <r>historico<s n="adj"/></r></p></e>
 <e>       <i>hitita<s n="adj"/></i></e>
 <e>       <p><l>holgado<s n="adj"/></l>                <r>folgau<s n="adj"/></r></p></e>
@@ -2792,7 +2790,7 @@
 <e>       <p><l>infructuoso<s n="adj"/></l>            <r>infructuoso<s n="adj"/></r></p></e>
 <e>       <p><l>infundado<s n="adj"/></l>              <r>infundau<s n="adj"/></r></p></e>
 <e>       <p><l>infuso<s n="adj"/></l>                 <r>infuso<s n="adj"/></r></p></e>
-<e>       <p><l>ingenioso<s n="adj"/></l>              <r>inchenioso<s n="adj"/></r></p></e>
+
 <e>       <p><l>ingenioso<s n="adj"/></l>              <r>inchenyoso<s n="adj"/></r></p></e>
 <e>       <p><l>ingente<s n="adj"/></l>                <r>inchent<s n="adj"/></r></p></e>
 <e>       <p><l>ingenuo<s n="adj"/></l>                <r>inchenuo<s n="adj"/></r></p></e>
@@ -5935,7 +5933,6 @@
 <e>       <p><l>bidireccionalmente<s n="adv"/></l>     <r>bidireccionalment<s n="adv"/></r></p></e>
 <e>       <p><l>bien<s n="adv"/></l>                   <r>bien<s n="adv"/></r></p></e>
 <e>       <p><l>bienvenidamente<s n="adv"/></l>        <r>bienvenidament<s n="adv"/></r></p></e>
-<e r="RL"><p><l>bienvenidamente<s n="adv"/></l>        <r>bienplegadament<s n="adv"/></r></p></e>
 <e>       <p><l>bifurcadamente<s n="adv"/></l>         <r>bifurcadament<s n="adv"/></r></p></e>
 <e>       <p><l>bilabialmente<s n="adv"/></l>          <r>bilabialment<s n="adv"/></r></p></e>
 <e>       <p><l>bilateralmente<s n="adv"/></l>         <r>bilateralment<s n="adv"/></r></p></e>
@@ -6129,12 +6126,12 @@
 <e>       <p><l>computablemente<s n="adv"/></l>        <r>computablement<s n="adv"/></r></p></e>
 <e>       <p><l>computacionalmente<s n="adv"/></l>     <r>computacionalment<s n="adv"/></r></p></e>
 <e>       <p><l>comunalmente<s n="adv"/></l>           <r>comunalment<s n="adv"/></r></p></e>
-<e r="LR"><p><l>comunamente<s n="adv"/></l>            <r>comunament<s n="adv"/></r></p></e>
+<e r="LR"><p><l>comunamente<s n="adv"/></l>            <r>comunment<s n="adv"/></r></p></e>
 <e>       <p><l>comunicablemente<s n="adv"/></l>       <r>comunicablement<s n="adv"/></r></p></e>
 <e>       <p><l>comunicantemente<s n="adv"/></l>       <r>comunicantment<s n="adv"/></r></p></e>
 <e>       <p><l>comunicativamente<s n="adv"/></l>      <r>comunicativament<s n="adv"/></r></p></e>
 <e>       <p><l>comunitariamente<s n="adv"/></l>       <r>comunitariament<s n="adv"/></r></p></e>
-<e>       <p><l>comúnmente<s n="adv"/></l>             <r>comunament<s n="adv"/></r></p></e>
+<e>       <p><l>comúnmente<s n="adv"/></l>             <r>comunment<s n="adv"/></r></p></e>
 <e>       <p><l>con<b/>pleno<b/>derecho<s n="adv"/></l><r>con<b/>tot<b/>lo<b/>dreito<s n="adv"/></r></p></e>
 <e>       <p><l>concebiblemente<s n="adv"/></l>        <r>concebiblement<s n="adv"/></r></p></e>
 <e>       <p><l>conceptualmente<s n="adv"/></l>        <r>conceptualment<s n="adv"/></r></p></e>
@@ -6427,7 +6424,7 @@
 <e>       <p><l>deslealmente<s n="adv"/></l>           <r>desleyalment<s n="adv"/></r></p></e>
 <e>       <p><l>deslizaderamente<s n="adv"/></l>       <r>eslizaderament<s n="adv"/></r></p></e>
 <e>       <p><l>deslizantemente<s n="adv"/></l>        <r>eslizantment<s n="adv"/></r></p></e>
-<e>       <p><l>deslumbrantemente<s n="adv"/></l>      <r>enlucernadorament<s n="adv"/></r></p></e>
+<e>       <p><l>deslumbrantemente<s n="adv"/></l>      <r>eslucernadorament<s n="adv"/></r></p></e>
 <e r="LR"><p><l>desmedidamente<s n="adv"/></l>         <r>desmesuradament<s n="adv"/></r></p></e>
 <e>       <p><l>desmelenadamente<s n="adv"/></l>       <r>escabelladament<s n="adv"/></r></p></e>
 <e>       <p><l>desmesuradamente<s n="adv"/></l>       <r>desmesuradament<s n="adv"/></r></p></e>
@@ -6550,12 +6547,11 @@
 <e>       <p><l>divinamente<s n="adv"/></l>            <r>divinament<s n="adv"/></r></p></e>
 <e>       <p><l>divisiblemente<s n="adv"/></l>         <r>divisiblement<s n="adv"/></r></p></e>
 <e>       <p><l>divisoriamente<s n="adv"/></l>         <r>divisoriament<s n="adv"/></r></p></e>
-<e>       <p><l>divorciadamente<s n="adv"/></l>        <r>esvurciadament<s n="adv"/></r></p></e>
 <e>       <p><l>divulgativamente<s n="adv"/></l>       <r>divulgativament<s n="adv"/></r></p></e>
 <e>       <p><l>diáfanamente<s n="adv"/></l>           <r>diafanament<s n="adv"/></r></p></e>
 <e>       <p><l>diédricamente<s n="adv"/></l>          <r>diedricament<s n="adv"/></r></p></e>
 <e i="yes">       <p><l>do.<s n="adv"/></l>                    <r>do.<s n="adv"/></r></p></e>
-<e>       <p><l>doblemente<s n="adv"/></l>             <r>doplement<s n="adv"/></r></p></e>
+<e>       <p><l>doblemente<s n="adv"/></l>             <r>doblement<s n="adv"/></r></p></e>
 <e>       <p><l>doctamente<s n="adv"/></l>             <r>doctament<s n="adv"/></r></p></e>
 <e>       <p><l>doctoralmente<s n="adv"/></l>          <r>doctoralment<s n="adv"/></r></p></e>
 <e>       <p><l>doctrinalmente<s n="adv"/></l>         <r>doctrinalment<s n="adv"/></r></p></e>
@@ -6586,7 +6582,7 @@
 <e r="RL"><p><l>débilmente<s n="adv"/></l>             <r>debilment<s n="adv"/></r></p></e>
 <e>       <p><l>díscolamente<s n="adv"/></l>           <r>discolament<s n="adv"/></r></p></e>
 <e>       <p><l>dísticamente<s n="adv"/></l>           <r>disticament<s n="adv"/></r></p></e>
-<e>       <p><l>dócilmente<s n="adv"/></l>             <r>dócilment<s n="adv"/></r></p></e>
+<e>       <p><l>dócilmente<s n="adv"/></l>             <r>docilment<s n="adv"/></r></p></e>
 <e>       <p><l>dónde<s n="adv"/></l>                  <r>án<s n="adv"/></r></p></e>
 <e>       <p><l>dóricamente<s n="adv"/></l>            <r>doricament<s n="adv"/></r></p></e>
 <e r="LR"><p><l>e.<b/>p.<b/>d.<s n="adv"/></l>         <r>q.<b/>e.<b/>p.<b/>d.<s n="adv"/></r></p></e>
@@ -6664,7 +6660,7 @@
 <e>       <p><l>enconadamente<s n="adv"/></l>          <r>endinadament<s n="adv"/></r></p></e>
 <e r="LR"><p><l>encontradamente<s n="adv"/></l>        <r>oposadament<s n="adv"/></r></p></e>
 <e>       <p><l>endeblemente<s n="adv"/></l>           <r>arguelladament<s n="adv"/></r></p></e>
-<e>       <p><l>endemoniadamente<s n="adv"/></l>       <r>endemoniadament<s n="adv"/></r></p></e>
+<e>       <p><l>endemoniadamente<s n="adv"/></l>       <r>endimonadament<s n="adv"/></r></p></e>
 <e>       <p><l>endogámicamente<s n="adv"/></l>        <r>endogamicament<s n="adv"/></r></p></e>
 <e>       <p><l>endoplasmáticamente<s n="adv"/></l>    <r>endoplasmaticament<s n="adv"/></r></p></e>
 <e>       <p><l>endotérmicamente<s n="adv"/></l>       <r>endotermicament<s n="adv"/></r></p></e>
@@ -7689,7 +7685,7 @@
 <e>       <p><l>juzgablemente<s n="adv"/></l>          <r>chuchablement<s n="adv"/></r></p></e>
 <e>       <p><l>jónicamente<s n="adv"/></l>            <r>chonicament<s n="adv"/></r></p></e>
 <e>       <p><l>k.o.<s n="adv"/></l>                   <r>KO<s n="adv"/></r></p></e>
-<e r="LR"><p><l>l.<b/>cit.<s n="adv"/></l>             <r>loc.<b/>cit.<s n="adv"/></r></p></e>
+
 <e>       <p><l>labialmente<s n="adv"/></l>            <r>labialment<s n="adv"/></r></p></e>
 <e>       <p><l>laborablemente<s n="adv"/></l>         <r>laborablement<s n="adv"/></r></p></e>
 <e>       <p><l>laboralmente<s n="adv"/></l>           <r>laboralment<s n="adv"/></r></p></e>
@@ -7765,8 +7761,8 @@
 <e r="LR"><p><l>lo<b/>suficiente<s n="adv"/></l>       <r>pro<s n="adv"/></r></p></e>
 <e r="LR"><p><l>lo<b/>suficientemente<s n="adv"/></l>  <r>pro<s n="adv"/></r></p></e>
 <e>       <p><l>loablemente<s n="adv"/></l>            <r>lobablement<s n="adv"/></r></p></e>
-<e>       <i>loc.<b/>cit.<s n="adv"/></i></e>
-<e>       <i>loc.<b/>cit.<s n="adv"/></i></e>
+
+
 <e>       <p><l>localistamente<s n="adv"/></l>         <r>localistament<s n="adv"/></r></p></e>
 <e>       <p><l>localizablemente<s n="adv"/></l>       <r>localizablement<s n="adv"/></r></p></e>
 <e>       <p><l>localmente<s n="adv"/></l>             <r>localment<s n="adv"/></r></p></e>
@@ -9088,7 +9084,7 @@
 <e r="RL"><p><l>un<b/>poco<s n="adv"/></l>             <r>bella<b/>miqueta<s n="adv"/></r></p></e>
 <e>       <p><l>un<b/>poquito<s n="adv"/></l>          <r>una<b/>micarrona<s n="adv"/></r></p></e>
 <e r="RL"><p><l>un<b/>poquito<s n="adv"/></l>          <r>bella<b/>micarrona<s n="adv"/></r></p></e>
-<e r="RL"><p><l>un<b/>poquito<s n="adv"/></l>          <r>un<b/>sinyalín<s n="adv"/></r></p></e>
+
 <e r="RL"><p><l>un<b/>poquito<s n="adv"/></l>          <r>bel<b/>sinyalín<s n="adv"/></r></p></e>
 <e>       <p><l>unidimensionalmente<s n="adv"/></l>    <r>unidimensionalment<s n="adv"/></r></p></e>
 <e>       <p><l>unidireccionalmente<s n="adv"/></l>    <r>unidireccionalment<s n="adv"/></r></p></e>
@@ -9156,7 +9152,7 @@
 <e>       <p><l>verdosamente<s n="adv"/></l>           <r>verdosament<s n="adv"/></r></p></e>
 <e r="RL"><p><l>verdosamente<s n="adv"/></l>           <r>verdosencament<s n="adv"/></r></p></e>
 <e>       <p><l>vergonzantemente<s n="adv"/></l>       <r>vergonyantment<s n="adv"/></r></p></e>
-<e>       <p><l>vergonzosamente<s n="adv"/></l>        <r>vergüenyosament<s n="adv"/></r></p></e>
+<e>       <p><l>vergonzosamente<s n="adv"/></l>        <r>vergonyosament<s n="adv"/></r></p></e>
 <e>       <p><l>vernáculamente<s n="adv"/></l>         <r>vernaclament<s n="adv"/></r></p></e>
 <e>       <p><l>verosímilmente<s n="adv"/></l>         <r>verisimilment<s n="adv"/></r></p></e>
 <e>       <p><l>versátilmente<s n="adv"/></l>          <r>versatilment<s n="adv"/></r></p></e>
@@ -11832,7 +11828,7 @@
 <e>       <p><l>democristiano-socialista<s n="n"/></l> <r>democristiano-socialista<s n="n"/></r></p></e>
 <e>       <p><l>demografía<s n="n"/></l>               <r>demografía<s n="n"/></r></p></e>
 <e>       <p><l>demolición<s n="n"/></l>               <r>demolición<s n="n"/></r></p></e>
-<e>       <p><l>demonio<s n="n"/></l>                  <r>demonio<s n="n"/></r></p></e>
+<e>       <p><l>demonio<s n="n"/></l>                  <r>dimonio<s n="n"/></r></p></e>
 <e>       <p><l>demostración<s n="n"/></l>             <r>demostración<s n="n"/></r></p></e>
 <e>       <p><l>demócrata<s n="n"/></l>                <r>democrata<s n="n"/></r></p></e>
 <e>       <p><l>dendrocronología<s n="n"/></l>         <r>dendrocronolochía<s n="n"/></r></p></e>
@@ -13531,8 +13527,8 @@
 <e>       <p><l>infravaloración<s n="n"/></l>          <r>infravaloración<s n="n"/></r></p></e>
 <e>       <p><l>infrutescencia<s n="n"/></l>           <r>infrutescencia<s n="n"/></r></p></e>
 <e>       <p><l>infusión<s n="n"/></l>                 <r>infusión<s n="n"/></r></p></e>
-<e>       <p><l>ingeniero<s n="n"/></l>                <r>incheniero<s n="n"/></r></p></e>
-<e>       <p><l>ingeniería<s n="n"/></l>               <r>incheniería<s n="n"/></r></p></e>
+<e>       <p><l>ingeniero<s n="n"/></l>                <r>inchenyero<s n="n"/></r></p></e>
+<e>       <p><l>ingeniería<s n="n"/></l>               <r>inchenyería<s n="n"/></r></p></e>
 <e>       <p><l>ingestión<s n="n"/></l>                <r>inchestión<s n="n"/></r></p></e>
 <e>       <p><l>inglés<s n="n"/></l>                   <r>anglés<s n="n"/></r></p></e>
 <e>       <p><l>ingratitud<s n="n"/></l>               <r>ingratitut<s n="n"/></r></p></e>
@@ -26001,7 +25997,7 @@
 <e r="LR"><p><l>desechar<s n="vblex"/></l>             <r>repuyar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>desembalar<s n="vblex"/></l>           <r>desembalar<s n="vblex"/></r></p></e>
 <e>       <p><l>desembalar<s n="vblex"/></l>           <r>desempacar<s n="vblex"/></r></p></e>
-<e>       <p><l>desembarazar<s n="vblex"/></l>         <r>desembarazar<s n="vblex"/></r></p></e>
+<e>       <p><l>desembarazar<s n="vblex"/></l>         <r>desembrazar<s n="vblex"/></r></p></e>
 <e>       <p><l>desembarcar<s n="vblex"/></l>          <r>desembarcar<s n="vblex"/></r></p></e>
 <e>       <p><l>desembocar<s n="vblex"/></l>           <r>desembocar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>desempacar<s n="vblex"/></l>           <r>desempacar<s n="vblex"/></r></p></e>
@@ -27578,5 +27574,16 @@
 <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 <e>       <re>[\)\]]</re><p><l><s n="rpar"/></l>       <r><s n="rpar"/></r></p></e>
 <e>       <re>[.\?;:!]</re><p><l><s n="sent"/></l>     <r><s n="sent"/></r></p></e>
-  </section>
+  
+<e><p><l>litro<s n="n"/></l><r>litro<s n="n"/></r></p></e>
+<e>       <p><l>divorciadamente<s n="adv"/></l>        <r>esvurciadament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>Baden-Wurtemberg<s n="np"/><s n="loc"/></l><r>Baden-Wurttemberg<s n="np"/><s n="loc"/></r></p></e>
+<e r="RL"><p><l>CC.<b/>AA.<s n="n"/><s n="acr"/><s n="f"/><s n="pl"/></l><r>CCAA<s n="n"/><s n="acr"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>CC.<b/>AA.<s n="n"/><s n="acr"/><s n="f"/><s n="pl"/></l><r>CCAA<s n="n"/><s n="acr"/><s n="f"/><s n="sp"/></r></p></e>
+<e r="RL"><p><l>Pyme<s n="n"/><s n="f"/><s n="sg"/></l><r>Pyme<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>Sant<b/>Joan<b/>de<b/>l'Énova<s n="np"/><s n="loc"/></l><r>Sant<b/>Joan<b/>de<b/>l'Ènova<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>l'Énova<s n="np"/><s n="loc"/></l><r>l'Ènova<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>cartero<s n="n"/><s n="f"/></l><r>correu<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>asistente<s n="n"/><s n="mf"/></l><r>asistent<s n="n"/><s n="GD"/></r></p></e>
+</section>
 </dictionary>

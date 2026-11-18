@@ -462,7 +462,8 @@
 
     <!-- Used only by f_title_pos, never by rule matching. -->
     <def-attr n="a_title_pos"><attr-item tags="n"/></def-attr>
-  </section-def-attrs>
+  <def-attr n="a_ar_sup"><attr-item tags="adj.sup"/></def-attr>
+</section-def-attrs>
 
   <section-def-vars>
     <def-var n="numvist"/>
@@ -483,7 +484,8 @@
     <def-var n="temp"/>
     <def-var n="title_pos"/>
     <def-var n="title_pos_1"/>
-  </section-def-vars>
+  <def-var n="sup_ar_gen"/>
+</section-def-vars>
 
   <section-def-lists>
     <def-list n="per_de">
@@ -613,7 +615,315 @@
       <list-item v="trabajar"/>
     </def-list>
 
-  </section-def-lists>
+  
+<def-list n="sup_ar_analytic_lemmas">
+  <list-item v="accesible"/>
+  <list-item v="adverso"/>
+  <list-item v="aerio"/>
+  <list-item v="agresivo"/>
+  <list-item v="aislau"/>
+  <list-item v="alternativo"/>
+  <list-item v="amagau"/>
+  <list-item v="anglicano"/>
+  <list-item v="anomalo"/>
+  <list-item v="anonimo"/>
+  <list-item v="apasionau"/>
+  <list-item v="archentino"/>
+  <list-item v="arduo"/>
+  <list-item v="arido"/>
+  <list-item v="artesano"/>
+  <list-item v="atonito"/>
+  <list-item v="atractivo"/>
+  <list-item v="austero"/>
+  <list-item v="australiano"/>
+  <list-item v="automatico"/>
+  <list-item v="autonomo"/>
+  <list-item v="avido"/>
+  <list-item v="azul"/>
+  <list-item v="basico"/>
+  <list-item v="bovino"/>
+  <list-item v="brusco"/>
+  <list-item v="calido"/>
+  <list-item v="calvo"/>
+  <list-item v="canso"/>
+  <list-item v="castellán"/>
+  <list-item v="celebre"/>
+  <list-item v="chenuino"/>
+  <list-item v="chunto"/>
+  <list-item v="civil"/>
+  <list-item v="clasico"/>
+  <list-item v="cognitivo"/>
+  <list-item v="colectivo"/>
+  <list-item v="colombiano"/>
+  <list-item v="compasivo"/>
+  <list-item v="competitivo"/>
+  <list-item v="compromeso"/>
+  <list-item v="conchenito"/>
+  <list-item v="conchunto"/>
+  <list-item v="confuso"/>
+  <list-item v="conscient"/>
+  <list-item v="considerable"/>
+  <list-item v="constructivo"/>
+  <list-item v="consultivo"/>
+  <list-item v="contemporanio"/>
+  <list-item v="convexo"/>
+  <list-item v="corrosivo"/>
+  <list-item v="costero"/>
+  <list-item v="creativo"/>
+  <list-item v="cristiano"/>
+  <list-item v="cruento"/>
+  <list-item v="cuantitativo"/>
+  <list-item v="cubano"/>
+  <list-item v="cucho"/>
+  <list-item v="decisivo"/>
+  <list-item v="definitivo"/>
+  <list-item v="desasperau"/>
+  <list-item v="descontento"/>
+  <list-item v="desierto"/>
+  <list-item v="despectivo"/>
+  <list-item v="difuso"/>
+  <list-item v="discontino"/>
+  <list-item v="distintivo"/>
+  <list-item v="distinto"/>
+  <list-item v="diurno"/>
+  <list-item v="divino"/>
+  <list-item v="divulgativo"/>
+  <list-item v="duradero"/>
+  <list-item v="dócil"/>
+  <list-item v="dúctil"/>
+  <list-item v="educativo"/>
+  <list-item v="eficient"/>
+  <list-item v="electo"/>
+  <list-item v="enesimo"/>
+  <list-item v="entero"/>
+  <list-item v="erronio"/>
+  <list-item v="erudito"/>
+  <list-item v="escrito"/>
+  <list-item v="esplendiu"/>
+  <list-item v="espontanio"/>
+  <list-item v="esportivo"/>
+  <list-item v="estupendo"/>
+  <list-item v="estéril"/>
+  <list-item v="eterno"/>
+  <list-item v="etiope"/>
+  <list-item v="europeu"/>
+  <list-item v="evolutivo"/>
+  <list-item v="exacerbau"/>
+  <list-item v="excesivo"/>
+  <list-item v="exclusivo"/>
+  <list-item v="executivo"/>
+  <list-item v="expansivo"/>
+  <list-item v="explosivo"/>
+  <list-item v="extranchero"/>
+  <list-item v="extremo"/>
+  <list-item v="fambrudo"/>
+  <list-item v="favorito"/>
+  <list-item v="ferrio"/>
+  <list-item v="figurativo"/>
+  <list-item v="fluido"/>
+  <list-item v="fosco"/>
+  <list-item v="franco"/>
+  <list-item v="fresco"/>
+  <list-item v="fráchil"/>
+  <list-item v="futuro"/>
+  <list-item v="fácil"/>
+  <list-item v="fértil"/>
+  <list-item v="fútil"/>
+  <list-item v="galo"/>
+  <list-item v="gratuito"/>
+  <list-item v="griego"/>
+  <list-item v="grieu"/>
+  <list-item v="guerrero"/>
+  <list-item v="hebreu"/>
+  <list-item v="heterodoxo"/>
+  <list-item v="hibrido"/>
+  <list-item v="homonimo"/>
+  <list-item v="humano"/>
+  <list-item v="hábil"/>
+  <list-item v="igual"/>
+  <list-item v="ilechitimo"/>
+  <list-item v="imbécil"/>
+  <list-item v="immóbil"/>
+  <list-item v="imperativo"/>
+  <list-item v="imperfecto"/>
+  <list-item v="impopular"/>
+  <list-item v="impreso"/>
+  <list-item v="imprevisto"/>
+  <list-item v="inaccesible"/>
+  <list-item v="inchenuo"/>
+  <list-item v="incierto"/>
+  <list-item v="incisivo"/>
+  <list-item v="inclusivo"/>
+  <list-item v="incompleto"/>
+  <list-item v="indeciso"/>
+  <list-item v="indicativo"/>
+  <list-item v="infeccioso"/>
+  <list-item v="infinito"/>
+  <list-item v="insipido"/>
+  <list-item v="insolito"/>
+  <list-item v="instantanio"/>
+  <list-item v="intensivo"/>
+  <list-item v="interactivo"/>
+  <list-item v="interno"/>
+  <list-item v="intimo"/>
+  <list-item v="intuitivo"/>
+  <list-item v="inverisímil"/>
+  <list-item v="inútil"/>
+  <list-item v="irreprensible"/>
+  <list-item v="italián"/>
+  <list-item v="laico"/>
+  <list-item v="lamentable"/>
+  <list-item v="latín"/>
+  <list-item v="lechislativo"/>
+  <list-item v="lechitimo"/>
+  <list-item v="licito"/>
+  <list-item v="liquido"/>
+  <list-item v="madrilenyo"/>
+  <list-item v="magro"/>
+  <list-item v="mamifero"/>
+  <list-item v="manuscrito"/>
+  <list-item v="marciano"/>
+  <list-item v="marino"/>
+  <list-item v="masculino"/>
+  <list-item v="mediterranio"/>
+  <list-item v="mesmo"/>
+  <list-item v="metropolitán"/>
+  <list-item v="mexicano"/>
+  <list-item v="meyo"/>
+  <list-item v="microbiano"/>
+  <list-item v="mixto"/>
+  <list-item v="monotono"/>
+  <list-item v="multiple"/>
+  <list-item v="mutuo"/>
+  <list-item v="móvil"/>
+  <list-item v="nativo"/>
+  <list-item v="nefasto"/>
+  <list-item v="negativo"/>
+  <list-item v="nicheriano"/>
+  <list-item v="nocivo"/>
+  <list-item v="nocturno"/>
+  <list-item v="normativo"/>
+  <list-item v="notable"/>
+  <list-item v="nuevo"/>
+  <list-item v="nulo"/>
+  <list-item v="obchectivo"/>
+  <list-item v="obeso"/>
+  <list-item v="obligau"/>
+  <list-item v="obsoleto"/>
+  <list-item v="obtuso"/>
+  <list-item v="olfativo"/>
+  <list-item v="opaco"/>
+  <list-item v="operativo"/>
+  <list-item v="optimo"/>
+  <list-item v="palido"/>
+  <list-item v="parco"/>
+  <list-item v="pardo"/>
+  <list-item v="pasachero"/>
+  <list-item v="pasivo"/>
+  <list-item v="pelegrín"/>
+  <list-item v="pesimo"/>
+  <list-item v="portátil"/>
+  <list-item v="positivo"/>
+  <list-item v="practico"/>
+  <list-item v="preciso"/>
+  <list-item v="previsto"/>
+  <list-item v="primitivo"/>
+  <list-item v="productivo"/>
+  <list-item v="profuso"/>
+  <list-item v="proximo"/>
+  <list-item v="radical"/>
+  <list-item v="rechenerativo"/>
+  <list-item v="recreativo"/>
+  <list-item v="redondo"/>
+  <list-item v="reivindicativo"/>
+  <list-item v="relativo"/>
+  <list-item v="repleto"/>
+  <list-item v="republicano"/>
+  <list-item v="respectivo"/>
+  <list-item v="restrictivo"/>
+  <list-item v="retrospectivo"/>
+  <list-item v="richido"/>
+  <list-item v="ridiclo"/>
+  <list-item v="romano"/>
+  <list-item v="rosau"/>
+  <list-item v="rumano"/>
+  <list-item v="ruso"/>
+  <list-item v="salino"/>
+  <list-item v="selectivo"/>
+  <list-item v="sereno"/>
+  <list-item v="significativo"/>
+  <list-item v="simpatico"/>
+  <list-item v="soberano"/>
+  <list-item v="soliu"/>
+  <list-item v="solo"/>
+  <list-item v="subchectivo"/>
+  <list-item v="subterranio"/>
+  <list-item v="succinto"/>
+  <list-item v="suficient"/>
+  <list-item v="supremo"/>
+  <list-item v="taciturno"/>
+  <list-item v="tardano"/>
+  <list-item v="tenso"/>
+  <list-item v="timido"/>
+  <list-item v="tranquilo"/>
+  <list-item v="tremendo"/>
+  <list-item v="trobau"/>
+  <list-item v="táctil"/>
+  <list-item v="ubierto"/>
+  <list-item v="uerfano"/>
+  <list-item v="unanime"/>
+  <list-item v="uniu"/>
+  <list-item v="urbano"/>
+  <list-item v="valenciano"/>
+  <list-item v="valido"/>
+  <list-item v="verdadero"/>
+  <list-item v="verisímil"/>
+  <list-item v="versátil"/>
+  <list-item v="virchen"/>
+  <list-item v="vuedo"/>
+  <list-item v="áchil"/>
+</def-list>
+<def-list n="sup_ar_positive_mf_lemmas">
+  <list-item v="accesible"/>
+  <list-item v="azul"/>
+  <list-item v="celebre"/>
+  <list-item v="civil"/>
+  <list-item v="conscient"/>
+  <list-item v="considerable"/>
+  <list-item v="dócil"/>
+  <list-item v="dúctil"/>
+  <list-item v="eficient"/>
+  <list-item v="estéril"/>
+  <list-item v="etiope"/>
+  <list-item v="fráchil"/>
+  <list-item v="fácil"/>
+  <list-item v="fértil"/>
+  <list-item v="fútil"/>
+  <list-item v="grieu"/>
+  <list-item v="hábil"/>
+  <list-item v="igual"/>
+  <list-item v="imbécil"/>
+  <list-item v="immóbil"/>
+  <list-item v="impopular"/>
+  <list-item v="inaccesible"/>
+  <list-item v="inverisímil"/>
+  <list-item v="inútil"/>
+  <list-item v="irreprensible"/>
+  <list-item v="lamentable"/>
+  <list-item v="multiple"/>
+  <list-item v="móvil"/>
+  <list-item v="notable"/>
+  <list-item v="portátil"/>
+  <list-item v="radical"/>
+  <list-item v="suficient"/>
+  <list-item v="táctil"/>
+  <list-item v="unanime"/>
+  <list-item v="verisímil"/>
+  <list-item v="versátil"/>
+  <list-item v="virchen"/>
+  <list-item v="áchil"/>
+</def-list>
+</section-def-lists>
   <section-def-macros>
     <!-- Return the original POS, except for the bilingual don/donya title mapping. -->
     <def-macro n="f_title_pos" npar="1">
@@ -2899,7 +3209,7 @@
 	</call-macro>     
 	<call-macro n="f_title_pos"><with-param pos="1"/></call-macro>
 	<let><var n="title_pos_1"/><var n="title_pos"/></let>
-	<out>   
+	<choose><when><test><and><equal><clip pos="1" side="tl" part="a_ar_sup"/><lit-tag v="adj.sup"/></equal><in caseless="yes"><clip pos="1" side="tl" part="lemh"/><list n="sup_ar_analytic_lemmas"/></in></and></test><let><var n="sup_ar_gen"/><clip pos="1" side="tl" part="gen"/></let><choose><when><test><in caseless="yes"><clip pos="1" side="tl" part="lemh"/><list n="sup_ar_positive_mf_lemmas"/></in></test><let><var n="sup_ar_gen"/><lit-tag v="mf"/></let></when></choose><choose><when><test><equal><case-of pos="1" side="sl" part="lemh"/><lit v="Aa"/></equal></test><modify-case><clip pos="1" side="tl" part="lemh"/><lit v="aa"/></modify-case></when></choose><out><get-case-from pos="1"><lit v="muit"/></get-case-from><b/><lu><clip pos="1" side="tl" part="lemh"/><lit-tag v="adj"/><var n="sup_ar_gen"/><clip pos="1" side="tl" part="nbr"/><clip pos="1" side="tl" part="lemq"/></lu></out></when><otherwise><out>   
 	  <lu>
 	    <clip pos="1" side="tl" part="lemh"/>
 	    <var n="title_pos_1"/>
@@ -2907,7 +3217,7 @@
 	    <clip pos="1" side="tl" part="nbr"/>
 	    <clip pos="1" side="tl" part="lemq"/>
 	  </lu>
-	</out>
+	</out></otherwise></choose>
       </action>
     </rule>
 
