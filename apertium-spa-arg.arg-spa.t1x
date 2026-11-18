@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- -*- nxml -*- -->
 <transfer>
   <section-def-cats>
@@ -391,7 +391,7 @@
       <attr-item tags="p2.mf.pl"/>
       <attr-item tags="p3.mf.sg"/>
       <attr-item tags="p3.mf.pl"/>
-      <attr-item tags="p3.mf.sp"/> <!--incorrecte, tradueix "li<prn><enc><p3><mf><sp>" per "se", cal canviar diccionari ja que �s li-ho<sg> i los-ho<pl> (d�rselo)-->
+      <attr-item tags="p3.mf.sp"/> <!--incorrecte, tradueix "li<prn><enc><p3><mf><sp>" per "se", cal canviar diccionari ja que ï¿½s li-ho<sg> i los-ho<pl> (dï¿½rselo)-->
       <attr-item tags="p3.m.sg"/>
       <attr-item tags="p3.m.pl"/>
       <attr-item tags="p3.f.sg"/>
@@ -533,10 +533,10 @@
       <list-item v="campestre&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
       <list-item v="campestre&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
       <list-item v="campestre&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
-      <list-item v="cer�mico&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
-      <list-item v="cer�mico&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
-      <list-item v="cer�mico&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
-      <list-item v="cer�mico&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
+      <list-item v="cerámico&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
+      <list-item v="cerámico&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
+      <list-item v="cerámico&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
+      <list-item v="cerámico&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
       <list-item v="ciudadano&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
       <list-item v="ciudadano&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
       <list-item v="ciudadano&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
@@ -545,10 +545,10 @@
       <list-item v="cumplido&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
       <list-item v="cumplido&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
       <list-item v="cumplido&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
-      <list-item v="c�vico&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
-      <list-item v="c�vico&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
-      <list-item v="c�vico&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
-      <list-item v="c�vico&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
+      <list-item v="cívico&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
+      <list-item v="cívico&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
+      <list-item v="cívico&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
+      <list-item v="cívico&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
       <list-item v="desprovisto&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
       <list-item v="desprovisto&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
       <list-item v="desprovisto&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
@@ -581,14 +581,14 @@
       <list-item v="lanudo&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
       <list-item v="lanudo&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
       <list-item v="lanudo&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
-      <list-item v="mand�n&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
-      <list-item v="mand�n&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
-      <list-item v="mand�n&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
-      <list-item v="mand�n&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
-      <list-item v="monta�oso&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
-      <list-item v="monta�oso&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
-      <list-item v="monta�oso&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
-      <list-item v="monta�oso&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
+      <list-item v="mandón&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
+      <list-item v="mandón&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
+      <list-item v="mandón&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
+      <list-item v="mandón&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
+      <list-item v="montañoso&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
+      <list-item v="montañoso&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
+      <list-item v="montañoso&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
+      <list-item v="montañoso&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
       <list-item v="mortecino&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
       <list-item v="mortecino&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
       <list-item v="mortecino&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
@@ -625,24 +625,24 @@
       <list-item v="torcido&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
       <list-item v="torcido&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
       <list-item v="torcido&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
-      <list-item v="trasl�cido&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
-      <list-item v="trasl�cido&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
-      <list-item v="trasl�cido&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
-      <list-item v="trasl�cido&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
+      <list-item v="traslúcido&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
+      <list-item v="traslúcido&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
+      <list-item v="traslúcido&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
+      <list-item v="traslúcido&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
       <list-item v="vago&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
       <list-item v="vago&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
       <list-item v="vago&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
       <list-item v="vago&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
-      <list-item v="volc�nico&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
-      <list-item v="volc�nico&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
-      <list-item v="volc�nico&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
-      <list-item v="volc�nico&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
+      <list-item v="volcánico&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
+      <list-item v="volcánico&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
+      <list-item v="volcánico&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
+      <list-item v="volcánico&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
           <list-item v="ausente&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
       <list-item v="ausente&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
       <list-item v="ausente&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;pl&gt;"/>
       <list-item v="ausente&lt;adj&gt;&lt;sup&gt;&lt;m&gt;&lt;sg&gt;"/>
-      <list-item v="espa�ol&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
-      <list-item v="espa�ol&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
+      <list-item v="español&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
+      <list-item v="español&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;sg&gt;"/>
 </def-list>
     <def-list n="sup_positive_mf">
       <list-item v="acorde&lt;adj&gt;&lt;sup&gt;&lt;f&gt;&lt;pl&gt;"/>
@@ -793,7 +793,7 @@
       </let>
     </def-macro>
 
-    <def-macro n="f_outverb2" npar="2"><!--Comprueba si hay pronombres que se traducen por nada de aragon�s a espa�ol seg�n el diccionario ("bi" y "en") y env�a el verbo con o sin pronombres de acuerdo con esta comprobaci�n. Esta funci�n es para el caso de verbo + 1 encl�tico. Funci�n necesaria para el correcto colocamiento de la cola en multipalabras con flexi�n intercalada. -->
+    <def-macro n="f_outverb2" npar="2"><!--Comprueba si hay pronombres que se traducen por nada de aragonï¿½s a espaï¿½ol segï¿½n el diccionario ("bi" y "en") y envï¿½a el verbo con o sin pronombres de acuerdo con esta comprobaciï¿½n. Esta funciï¿½n es para el caso de verbo + 1 enclï¿½tico. Funciï¿½n necesaria para el correcto colocamiento de la cola en multipalabras con flexiï¿½n intercalada. -->
       <choose>
 	<when>
 	  <test>
@@ -845,7 +845,7 @@
       </choose>
     </def-macro>
 
-    <def-macro n="f_outverb3" npar="3"><!--Comprueba si hay pronombres que se traducen por nada de catal�n a espa�ol seg�n el diccionario ("hi" y "en") y env�a el verbo con o sin pronombres de acuerdo con esta comprobaci�n. Esta funci�n es para el caso de verbo + 2 encl�ticos.-->
+    <def-macro n="f_outverb3" npar="3"><!--Comprueba si hay pronombres que se traducen por nada de catalï¿½n a espaï¿½ol segï¿½n el diccionario ("hi" y "en") y envï¿½a el verbo con o sin pronombres de acuerdo con esta comprobaciï¿½n. Esta funciï¿½n es para el caso de verbo + 2 enclï¿½ticos.-->
       <choose>
 	<when>
 	  <test>
@@ -932,7 +932,7 @@
     </def-macro>
 
 
-    <def-macro n="f_bcond" npar="1"><!--Per mirar si el blanc cont� o no format. Cal posar aquesta funci� en les regles en qu� desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si cont� format cal conservar-la, si no en cont� cal eliminar-la perqu� no apareguin dos espais seguits. -->
+    <def-macro n="f_bcond" npar="1"><!--Per mirar si el blanc contï¿½ o no format. Cal posar aquesta funciï¿½ en les regles en quï¿½ desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si contï¿½ format cal conservar-la, si no en contï¿½ cal eliminar-la perquï¿½ no apareguin dos espais seguits. -->
       <choose>
 	<when>
 	  <test>
@@ -3446,7 +3446,7 @@
       </action>
     </rule>
 
-    <rule> <!-- REGLA NOVA 2: DET NOM VERB ADJECTIU: El n�vol �s vermell - La nube es roja (suposo que serveix per a qualsevol verb) "mireiafarrus"-->
+    <rule> <!-- REGLA NOVA 2: DET NOM VERB ADJECTIU: El nï¿½vol ï¿½s vermell - La nube es roja (suposo que serveix per a qualsevol verb) "mireiafarrus"-->
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -5181,7 +5181,7 @@
     </rule>
 
 
-   <rule> <!--REGLA: DETDEF + NOM PROPI (antrop�nim)-->
+   <rule> <!--REGLA: DETDEF + NOM PROPI (antropï¿½nim)-->
       <pattern>
 	<pattern-item n="detdef"/>
 	<pattern-item n="npant"/>
@@ -5199,7 +5199,7 @@
       </action>
     </rule>
 
-    <rule> <!-- REGLA: RELAT --> <!-- revisar qu� fa aquesta regla!!!! : qui <ND>?-->
+    <rule> <!-- REGLA: RELAT --> <!-- revisar quï¿½ fa aquesta regla!!!! : qui <ND>?-->
       <pattern>
 	<pattern-item n="relat"/>
       </pattern>
@@ -5254,7 +5254,7 @@
     </rule>
 
 
-    <rule> <!-- x- REGLA: PRET�RIT INDEFINIT --><!-- Para traducir "vas fer" por "hiciste" -->
+    <rule> <!-- x- REGLA: PRETï¿½RIT INDEFINIT --><!-- Para traducir "vas fer" por "hiciste" -->
       <pattern>
 	<pattern-item n="ir"/>
 	<pattern-item n="inf"/>
@@ -5283,7 +5283,7 @@
 
 
 
-    <rule> <!--- REGLA: PRET�RIT INDEFINIT + ENCL�TIC --><!-- Para traducir "van acabar-se" por "se acabaron" -->
+    <rule> <!--- REGLA: PRETï¿½RIT INDEFINIT + ENCLï¿½TIC --><!-- Para traducir "van acabar-se" por "se acabaron" -->
       <pattern>
 	<pattern-item n="ir"/>
 	<pattern-item n="inf"/>
@@ -5322,7 +5322,7 @@
 	      </lu> 
 	    </out>
 	  </when>
-	  <otherwise><!--En caso de que el pronombre no se traduzca, env�a s�lo el verbo -->
+	  <otherwise><!--En caso de que el pronombre no se traduzca, envï¿½a sï¿½lo el verbo -->
 	    <out>
 	      <lu>
 		<get-case-from pos="1">            
@@ -5344,7 +5344,7 @@
     </rule>
 
 
-    <rule> <!-- REGLA: PRET�RIT INDEFINIT + ENCL�TIC + ENCL�TIC --><!-- Para traducir "van acabar-se'ls" por "se los acabaron" -->
+    <rule> <!-- REGLA: PRETï¿½RIT INDEFINIT + ENCLï¿½TIC + ENCLï¿½TIC --><!-- Para traducir "van acabar-se'ls" por "se los acabaron" -->
       <pattern>
 	<pattern-item n="ir"/>
 	<pattern-item n="inf"/>
@@ -5357,7 +5357,7 @@
 	</call-macro>
 	<choose>
 	  <when>
-	    <test> <!--si el primer pronom no desapareix (traducci� buida, p. ex: "bi", "en"), envia'l i assigna-li les maj�scules -->
+	    <test> <!--si el primer pronom no desapareix (traducciï¿½ buida, p. ex: "bi", "en"), envia'l i assigna-li les majï¿½scules -->
 	      <not>
 		<equal>
 		  <clip pos="3" side="tl" part="whole"/>
@@ -5377,7 +5377,7 @@
 	    </out>
 	    <choose>
 	      <when>
-		<test><!-- Si el segon pronom no desapareix, envia'l tamb� (si desapareix el 2n, ja no s'envia) -->
+		<test><!-- Si el segon pronom no desapareix, envia'l tambï¿½ (si desapareix el 2n, ja no s'envia) -->
 		  <not>
 		    <equal>
 		      <clip pos="4" side="tl" part="whole"/> 
@@ -5406,7 +5406,7 @@
 	      </lu> 
 	    </out>
 	  </when>
-	  <when> <!--Si el primer pronom desapareix...el segon tamb�... (mai no es d�na el cas que desapareix el primer i el segon no) -->
+	  <when> <!--Si el primer pronom desapareix...el segon tambï¿½... (mai no es dï¿½na el cas que desapareix el primer i el segon no) -->
 	    <test>
 	      <equal>
 		<clip pos="3" side="tl" part="whole"/>
@@ -5433,7 +5433,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: VERB (per a multiparaules sense encl�tics)-->
+    <rule> <!--REGLA: VERB (per a multiparaules sense enclï¿½tics)-->
       <pattern>
 	<pattern-item n="verb"/>
       </pattern>
@@ -5452,7 +5452,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: VERB + ENCL�TIC-->
+    <rule> <!--REGLA: VERB + ENCLï¿½TIC-->
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="prnenc"/>
@@ -5465,7 +5465,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: VERB + ENCL�TIC + ENCL�TIC-->
+    <rule> <!--REGLA: VERB + ENCLï¿½TIC + ENCLï¿½TIC-->
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="prnenc"/>
@@ -5512,7 +5512,7 @@
       </action>
     </rule>
 
-    <rule> <!-x-REGLA: EN + INF + ENCL�TIC-x->
+    <rule> <!-x-REGLA: EN + INF + ENCLï¿½TIC-x->
       <pattern>
 	<pattern-item n="en"/>
 	<pattern-item n="infnm"/>
@@ -5543,7 +5543,7 @@
       </action>
     </rule>
 
-    <rule> <!-x-REGLA: EN + INF + ENCL�TIC + ENCL�TIC-x->
+    <rule> <!-x-REGLA: EN + INF + ENCLï¿½TIC + ENCLï¿½TIC-x->
       <pattern>
 	<pattern-item n="en"/>
 	<pattern-item n="infnm"/>
@@ -5601,7 +5601,7 @@
     </rule> 
 
 
-    <rule> <!--REGLA: TA + infinitiu + encl�tic= per trobar-se -> para encontrarse-->
+    <rule> <!--REGLA: TA + infinitiu + enclï¿½tic= per trobar-se -> para encontrarse-->
       <pattern>
 	<pattern-item n="ta"/>
 	<pattern-item n="infnh"/>
@@ -5624,7 +5624,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: PER + infinitiu + encl�tic + encl�tic = per explicar-los-ho -> para explic�rselo-->
+    <rule> <!--REGLA: PER + infinitiu + enclï¿½tic + enclï¿½tic = per explicar-los-ho -> para explicï¿½rselo-->
       <pattern>
 	<pattern-item n="ta"/>
 	<pattern-item n="infnh"/>
@@ -5678,7 +5678,7 @@
     </rule> 
 
 
-    <rule> <!--REGLA: PER + adv + infinitiu + encl�tic= per no trobar-se -> para no encontrarse-->
+    <rule> <!--REGLA: PER + adv + infinitiu + enclï¿½tic= per no trobar-se -> para no encontrarse-->
       <pattern>
 	<pattern-item n="ta"/>
 	<pattern-item n="adv"/>
@@ -5706,7 +5706,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: PER + adv + infinitiu + encl�tic + encl�tic = per no explicar-los-ho -> para no explic�rselo-->
+    <rule> <!--REGLA: PER + adv + infinitiu + enclï¿½tic + enclï¿½tic = per no explicar-los-ho -> para no explicï¿½rselo-->
       <pattern>
 	<pattern-item n="ta"/>
 	<pattern-item n="adv"/>
@@ -5761,7 +5761,7 @@
     </rule> 
 
 
-    <rule> <!-x-REGLA NOVA 6: a + DET + nploc = al Segri� -> en el Segri� "mireiafarrus"-x->
+    <rule> <!-x-REGLA NOVA 6: a + DET + nploc = al Segriï¿½ -> en el Segriï¿½ "mireiafarrus"-x->
       <pattern>
 	<pattern-item n="a"/>
 	<pattern-item n="det"/>
@@ -5776,7 +5776,7 @@
 		<lit-tag v="GD"/>
 	      </equal>
 	    </test>
-	    <let><!-x-haur�em de mirar d'assignar g�nere d'una altra manera (l'Am�rica llatina / l'Europa Occiental / l'Amazones) -x->
+	    <let><!-x-haurï¿½em de mirar d'assignar gï¿½nere d'una altra manera (l'Amï¿½rica llatina / l'Europa Occiental / l'Amazones) -x->
 		<clip pos="2" side="tl" part="gen"/>
 		<lit-tag v="f"/>
 	    </let>
@@ -5803,7 +5803,7 @@
     </rule> 
 
 
-    <rule> <!-x-REGLA: verb + prep + nploc/noms_locatius: Estudio a Madrid  - Estudio en Madrid. S�c a Sabadell - Estoy en Sabadell. S�c a casa - Estoy en casa (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si �s un nom de la llista "locatiu". Molts canvis de prep ja es tracten amb la macro f_preps, per� no permet fer el canvi de 'ser' a 'estar', cosa que s� que es fa amb aquesta regla i les 3 posteriors) -x->
+    <rule> <!-x-REGLA: verb + prep + nploc/noms_locatius: Estudio a Madrid  - Estudio en Madrid. Sï¿½c a Sabadell - Estoy en Sabadell. Sï¿½c a casa - Estoy en casa (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si ï¿½s un nom de la llista "locatiu". Molts canvis de prep ja es tracten amb la macro f_preps, perï¿½ no permet fer el canvi de 'ser' a 'estar', cosa que sï¿½ que es fa amb aquesta regla i les 3 posteriors) -x->
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="a"/>
@@ -5968,7 +5968,7 @@
       </action>
     </rule>   
 
-    <rule> <!-x-REGLA: "ir" + inf + prep + nploc: Estudio a Madrid - Estudio en Madrid. S�c a Sabadell - Estoy en Sabadell (igual que l'anterior per� amb verb en forma perifr�stica (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si �s un nom de la llista "locatiu")-x->
+    <rule> <!-x-REGLA: "ir" + inf + prep + nploc: Estudio a Madrid - Estudio en Madrid. Sï¿½c a Sabadell - Estoy en Sabadell (igual que l'anterior perï¿½ amb verb en forma perifrï¿½stica (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si ï¿½s un nom de la llista "locatiu")-x->
       <pattern>
 	<pattern-item n="ir"/>
 	<pattern-item n="inf"/>
@@ -6342,7 +6342,7 @@
       </action>
     </rule>   
 
-    <rule> <!-x-REGLA: "ir" + inf + prep + nploc: va treballar al poble - trabaj� en el pueblo (igual que l'anterior per� amb verb en forma perifr�stica) -x->
+    <rule> <!-x-REGLA: "ir" + inf + prep + nploc: va treballar al poble - trabajï¿½ en el pueblo (igual que l'anterior perï¿½ amb verb en forma perifrï¿½stica) -x->
       <pattern>
 	<pattern-item n="ir"/>
 	<pattern-item n="inf"/>
@@ -6630,7 +6630,7 @@
 	    <test>
 	      <not>
 		<equal>
-		  <clip pos="1" side="tl" part="whole"/><!--Comprueba que el pronombre no tenga traducci�n vac�a (pronombres "bi" y "en" -->
+		  <clip pos="1" side="tl" part="whole"/><!--Comprueba que el pronombre no tenga traducciï¿½n vacï¿½a (pronombres "bi" y "en" -->
 		  <lit v=""/>
 		</equal>
 	      </not>
@@ -6649,7 +6649,7 @@
 	      </lu>
 	    </out>
 	  </when>
-	  <otherwise><!--En caso de que el pronombre no se traduzca, env�a s�lo el verbo -->
+	  <otherwise><!--En caso de que el pronombre no se traduzca, envï¿½a sï¿½lo el verbo -->
 	    <out>
 	      <lu>
 		<get-case-from pos="1">            
@@ -6681,7 +6681,7 @@
     </rule> 
 
 
-    <rule> <!--REGLA: haver-enc participi (femen� sg i pl, mascul� pl) -> haver-enc participi-masc-sg-->
+    <rule> <!--REGLA: haver-enc participi (femenï¿½ sg i pl, masculï¿½ pl) -> haver-enc participi-masc-sg-->
       <pattern>
 	<pattern-item n="haber"/>
 	<pattern-item n="prnenc"/>
@@ -6706,7 +6706,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: haver-enc-enc participi (femen� sg i pl, mascul� pl) -> haver-enc-enc participi-masc-sg-->
+    <rule> <!--REGLA: haver-enc-enc participi (femenï¿½ sg i pl, masculï¿½ pl) -> haver-enc-enc participi-masc-sg-->
       <pattern>
 	<pattern-item n="haber"/>
 	<pattern-item n="prnenc"/>
@@ -6763,7 +6763,7 @@
       </action>
     </rule>
 -->
-<!--REGLA: ben de + INF + ENCL�TIC -> deber + INF + ENCL�TIC
+<!--REGLA: ben de + INF + ENCLï¿½TIC -> deber + INF + ENCLï¿½TIC
     <rule> 
       <pattern>
 	<pattern-item n="ben"/>
@@ -6791,7 +6791,7 @@
       </action>
     </rule>
 -->
- <!--REGLA: ben de + INF + ENCL�TIC + ENCL�TIC  -> deber + INF + ENCL�TIC + ENCL�TIC
+ <!--REGLA: ben de + INF + ENCLï¿½TIC + ENCLï¿½TIC  -> deber + INF + ENCLï¿½TIC + ENCLï¿½TIC
     <rule>
       <pattern>
 	<pattern-item n="ben"/>

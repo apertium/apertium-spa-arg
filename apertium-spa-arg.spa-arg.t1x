@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- -*- nxml -*- -->
 <transfer>
   <section-def-cats>
@@ -142,8 +142,8 @@
       <cat-item tags="num"/>
       <cat-item tags="num.*"/>
     </def-cat>
-    <def-cat n="número">
-      <cat-item lemma="número" tags="n.m.sg"/>
+    <def-cat n="nÃºmero">
+      <cat-item lemma="nÃºmero" tags="n.m.sg"/>
     </def-cat>
     
     <def-cat n="en">
@@ -246,8 +246,8 @@
     </def-cat>
 
     
-    <def-cat n="ser_de_aplicación">
-      <cat-item lemma="ser# de aplicación" tags="vbser.*"/>
+    <def-cat n="ser_de_aplicaciÃ³n">
+      <cat-item lemma="ser# de aplicaciÃ³n" tags="vbser.*"/>
     </def-cat>
     <def-cat n="poder">
       <cat-item lemma="poder" tags="vbmod.*"/>
@@ -259,14 +259,14 @@
     <def-cat n="dies">
       <cat-item lemma="lunes" tags="n.m.sp"/>
       <cat-item lemma="martes" tags="n.m.sp"/>
-      <cat-item lemma="miércoles" tags="n.m.sp"/>
+      <cat-item lemma="miÃ©rcoles" tags="n.m.sp"/>
       <cat-item lemma="jueves" tags="n.m.sp"/>
       <cat-item lemma="viernes" tags="n.m.sp"/>
-      <cat-item lemma="sábado" tags="n.m.sg"/>
+      <cat-item lemma="sÃ¡bado" tags="n.m.sg"/>
       <cat-item lemma="domingo" tags="n.m.sg"/>
     </def-cat>
     <def-cat n="matitarda">
-      <cat-item lemma="mañana" tags="n.f.sg"/>
+      <cat-item lemma="maÃ±ana" tags="n.f.sg"/>
       <cat-item lemma="tarde" tags="n.f.sg"/>
     </def-cat>
     <def-cat n="cm">
@@ -485,6 +485,7 @@
     <def-var n="title_pos"/>
     <def-var n="title_pos_1"/>
   <def-var n="sup_ar_gen"/>
+  <def-var n="sup_ar_degree_word"/>
 </section-def-vars>
 
   <section-def-lists>
@@ -511,7 +512,7 @@
       <list-item v="ciudat"/>
       <list-item v="provincia"/>
       <list-item v="isla"/>
-      <list-item v="país"/>
+      <list-item v="paÃ­s"/>
       <list-item v="planeta"/>
       <list-item v="parlament"/>
       <list-item v="casa"/>
@@ -521,12 +522,12 @@
       <list-item v="escuela"/>
       <list-item v="congreso"/>
       <list-item v="domicilio"/>
-      <list-item v="urbanización"/>
-      <list-item v="prisión"/>
+      <list-item v="urbanizaciÃ³n"/>
+      <list-item v="prisiÃ³n"/>
       <list-item v="fabrica"/>
       <list-item v="montanya"/>
       <list-item v="cambra"/>
-      <list-item v="habitación"/>
+      <list-item v="habitaciÃ³n"/>
       <list-item v="val"/>
       <list-item v="valle"/>
       <list-item v="vall"/>
@@ -535,7 +536,7 @@
       <list-item v="muga"/>
       <list-item v="castiello"/>
       <list-item v="sala"/>
-      <list-item v="declaración"/>
+      <list-item v="declaraciÃ³n"/>
       <list-item v="ilesia"/>
       <list-item v="fiesta"/>
       <list-item v="explanada"/>
@@ -550,7 +551,7 @@
       <list-item v="tierra"/>
       <list-item v="torre"/>
       <list-item v="patio"/>
-      <list-item v="programación"/>
+      <list-item v="programaciÃ³n"/>
       <list-item v="programa"/>
       <list-item v="aula"/>
       <list-item v="edificio"/>
@@ -581,7 +582,7 @@
       <list-item v="rete"/>
       <list-item v="parque"/>
       <list-item v="ducha"/>
-      <list-item v="rechión"/>
+      <list-item v="rechiÃ³n"/>
       <list-item v="catalogo"/>  --><!-- a="mireiafarrus" -->
       <!--
       <list-item v="biblioteca"/> --> <!-- a="mireiafarrus" -->
@@ -601,7 +602,7 @@
       <list-item v="diciembre"/>
       <list-item v="semana"/>
       <list-item v="fin de semana"/>
-      <list-item v="lustro"/> <!-- jp: tamién días d'a semana??? -->
+      <list-item v="lustro"/> <!-- jp: tamiÃ©n dÃ­as d'a semana??? -->
 
     </def-list>
 
@@ -646,7 +647,7 @@
   <list-item v="calido"/>
   <list-item v="calvo"/>
   <list-item v="canso"/>
-  <list-item v="castellán"/>
+  <list-item v="castellÃ¡n"/>
   <list-item v="celebre"/>
   <list-item v="chenuino"/>
   <list-item v="chunto"/>
@@ -689,8 +690,8 @@
   <list-item v="divino"/>
   <list-item v="divulgativo"/>
   <list-item v="duradero"/>
-  <list-item v="dócil"/>
-  <list-item v="dúctil"/>
+  <list-item v="dÃ³cil"/>
+  <list-item v="dÃºctil"/>
   <list-item v="educativo"/>
   <list-item v="eficient"/>
   <list-item v="electo"/>
@@ -703,7 +704,7 @@
   <list-item v="espontanio"/>
   <list-item v="esportivo"/>
   <list-item v="estupendo"/>
-  <list-item v="estéril"/>
+  <list-item v="estÃ©ril"/>
   <list-item v="eterno"/>
   <list-item v="etiope"/>
   <list-item v="europeu"/>
@@ -724,11 +725,11 @@
   <list-item v="fosco"/>
   <list-item v="franco"/>
   <list-item v="fresco"/>
-  <list-item v="fráchil"/>
+  <list-item v="frÃ¡chil"/>
   <list-item v="futuro"/>
-  <list-item v="fácil"/>
-  <list-item v="fértil"/>
-  <list-item v="fútil"/>
+  <list-item v="fÃ¡cil"/>
+  <list-item v="fÃ©rtil"/>
+  <list-item v="fÃºtil"/>
   <list-item v="galo"/>
   <list-item v="gratuito"/>
   <list-item v="griego"/>
@@ -739,11 +740,11 @@
   <list-item v="hibrido"/>
   <list-item v="homonimo"/>
   <list-item v="humano"/>
-  <list-item v="hábil"/>
+  <list-item v="hÃ¡bil"/>
   <list-item v="igual"/>
   <list-item v="ilechitimo"/>
-  <list-item v="imbécil"/>
-  <list-item v="immóbil"/>
+  <list-item v="imbÃ©cil"/>
+  <list-item v="immÃ³bil"/>
   <list-item v="imperativo"/>
   <list-item v="imperfecto"/>
   <list-item v="impopular"/>
@@ -767,13 +768,13 @@
   <list-item v="interno"/>
   <list-item v="intimo"/>
   <list-item v="intuitivo"/>
-  <list-item v="inverisímil"/>
-  <list-item v="inútil"/>
+  <list-item v="inverisÃ­mil"/>
+  <list-item v="inÃºtil"/>
   <list-item v="irreprensible"/>
-  <list-item v="italián"/>
+  <list-item v="italiÃ¡n"/>
   <list-item v="laico"/>
   <list-item v="lamentable"/>
-  <list-item v="latín"/>
+  <list-item v="latÃ­n"/>
   <list-item v="lechislativo"/>
   <list-item v="lechitimo"/>
   <list-item v="licito"/>
@@ -787,7 +788,7 @@
   <list-item v="masculino"/>
   <list-item v="mediterranio"/>
   <list-item v="mesmo"/>
-  <list-item v="metropolitán"/>
+  <list-item v="metropolitÃ¡n"/>
   <list-item v="mexicano"/>
   <list-item v="meyo"/>
   <list-item v="microbiano"/>
@@ -795,7 +796,7 @@
   <list-item v="monotono"/>
   <list-item v="multiple"/>
   <list-item v="mutuo"/>
-  <list-item v="móvil"/>
+  <list-item v="mÃ³vil"/>
   <list-item v="nativo"/>
   <list-item v="nefasto"/>
   <list-item v="negativo"/>
@@ -820,9 +821,9 @@
   <list-item v="pardo"/>
   <list-item v="pasachero"/>
   <list-item v="pasivo"/>
-  <list-item v="pelegrín"/>
+  <list-item v="pelegrÃ­n"/>
   <list-item v="pesimo"/>
-  <list-item v="portátil"/>
+  <list-item v="portÃ¡til"/>
   <list-item v="positivo"/>
   <list-item v="practico"/>
   <list-item v="preciso"/>
@@ -868,7 +869,7 @@
   <list-item v="tranquilo"/>
   <list-item v="tremendo"/>
   <list-item v="trobau"/>
-  <list-item v="táctil"/>
+  <list-item v="tÃ¡ctil"/>
   <list-item v="ubierto"/>
   <list-item v="uerfano"/>
   <list-item v="unanime"/>
@@ -877,11 +878,11 @@
   <list-item v="valenciano"/>
   <list-item v="valido"/>
   <list-item v="verdadero"/>
-  <list-item v="verisímil"/>
-  <list-item v="versátil"/>
+  <list-item v="verisÃ­mil"/>
+  <list-item v="versÃ¡til"/>
   <list-item v="virchen"/>
   <list-item v="vuedo"/>
-  <list-item v="áchil"/>
+  <list-item v="Ã¡chil"/>
 </def-list>
 <def-list n="sup_ar_positive_mf_lemmas">
   <list-item v="accesible"/>
@@ -890,38 +891,38 @@
   <list-item v="civil"/>
   <list-item v="conscient"/>
   <list-item v="considerable"/>
-  <list-item v="dócil"/>
-  <list-item v="dúctil"/>
+  <list-item v="dÃ³cil"/>
+  <list-item v="dÃºctil"/>
   <list-item v="eficient"/>
-  <list-item v="estéril"/>
+  <list-item v="estÃ©ril"/>
   <list-item v="etiope"/>
-  <list-item v="fráchil"/>
-  <list-item v="fácil"/>
-  <list-item v="fértil"/>
-  <list-item v="fútil"/>
+  <list-item v="frÃ¡chil"/>
+  <list-item v="fÃ¡cil"/>
+  <list-item v="fÃ©rtil"/>
+  <list-item v="fÃºtil"/>
   <list-item v="grieu"/>
-  <list-item v="hábil"/>
+  <list-item v="hÃ¡bil"/>
   <list-item v="igual"/>
-  <list-item v="imbécil"/>
-  <list-item v="immóbil"/>
+  <list-item v="imbÃ©cil"/>
+  <list-item v="immÃ³bil"/>
   <list-item v="impopular"/>
   <list-item v="inaccesible"/>
-  <list-item v="inverisímil"/>
-  <list-item v="inútil"/>
+  <list-item v="inverisÃ­mil"/>
+  <list-item v="inÃºtil"/>
   <list-item v="irreprensible"/>
   <list-item v="lamentable"/>
   <list-item v="multiple"/>
-  <list-item v="móvil"/>
+  <list-item v="mÃ³vil"/>
   <list-item v="notable"/>
-  <list-item v="portátil"/>
+  <list-item v="portÃ¡til"/>
   <list-item v="radical"/>
   <list-item v="suficient"/>
-  <list-item v="táctil"/>
+  <list-item v="tÃ¡ctil"/>
   <list-item v="unanime"/>
-  <list-item v="verisímil"/>
-  <list-item v="versátil"/>
+  <list-item v="verisÃ­mil"/>
+  <list-item v="versÃ¡til"/>
   <list-item v="virchen"/>
-  <list-item v="áchil"/>
+  <list-item v="Ã¡chil"/>
 </def-list>
 </section-def-lists>
   <section-def-macros>
@@ -973,7 +974,7 @@
     </def-macro>
     -->
     
-    <def-macro n="f_bcond" npar="1"><!--Para mirar si el blanco contiene o no formato. Hay que poner esta función en las reglas en que desaparezca alguna palabra, con tal de decidir si el blanco de la palabra eliminada debe eliminarse también o conservarse. Si contiene formato hay que conservarla, si no contiene formato hay que eliminarla para que no aparezcan dos espacios seguidos. -->
+    <def-macro n="f_bcond" npar="1"><!--Para mirar si el blanco contiene o no formato. Hay que poner esta funciÃ³n en las reglas en que desaparezca alguna palabra, con tal de decidir si el blanco de la palabra eliminada debe eliminarse tambiÃ©n o conservarse. Si contiene formato hay que conservarla, si no contiene formato hay que eliminarla para que no aparezcan dos espacios seguidos. -->
       <choose>
 	<when>
 	  <test>
@@ -3209,7 +3210,7 @@
 	</call-macro>     
 	<call-macro n="f_title_pos"><with-param pos="1"/></call-macro>
 	<let><var n="title_pos_1"/><var n="title_pos"/></let>
-	<choose><when><test><and><equal><clip pos="1" side="tl" part="a_ar_sup"/><lit-tag v="adj.sup"/></equal><in caseless="yes"><clip pos="1" side="tl" part="lemh"/><list n="sup_ar_analytic_lemmas"/></in></and></test><let><var n="sup_ar_gen"/><clip pos="1" side="tl" part="gen"/></let><choose><when><test><in caseless="yes"><clip pos="1" side="tl" part="lemh"/><list n="sup_ar_positive_mf_lemmas"/></in></test><let><var n="sup_ar_gen"/><lit-tag v="mf"/></let></when></choose><choose><when><test><equal><case-of pos="1" side="sl" part="lemh"/><lit v="Aa"/></equal></test><modify-case><clip pos="1" side="tl" part="lemh"/><lit v="aa"/></modify-case></when></choose><out><get-case-from pos="1"><lit v="muit"/></get-case-from><b/><lu><clip pos="1" side="tl" part="lemh"/><lit-tag v="adj"/><var n="sup_ar_gen"/><clip pos="1" side="tl" part="nbr"/><clip pos="1" side="tl" part="lemq"/></lu></out></when><otherwise><out>   
+	<choose><when><test><and><equal><clip pos="1" side="tl" part="a_ar_sup"/><lit-tag v="adj.sup"/></equal><in caseless="yes"><clip pos="1" side="tl" part="lemh"/><list n="sup_ar_analytic_lemmas"/></in></and></test><let><var n="sup_ar_gen"/><clip pos="1" side="tl" part="gen"/></let><choose><when><test><in caseless="yes"><clip pos="1" side="tl" part="lemh"/><list n="sup_ar_positive_mf_lemmas"/></in></test><let><var n="sup_ar_gen"/><lit-tag v="mf"/></let></when></choose><choose><when><test><equal><case-of pos="1" side="sl" part="lemh"/><lit v="Aa"/></equal></test><modify-case><clip pos="1" side="tl" part="lemh"/><lit v="aa"/></modify-case></when></choose><let><var n="sup_ar_degree_word"/><get-case-from pos="1"><lit v="muit"/></get-case-from></let><out><var n="sup_ar_degree_word"/><b/><lu><clip pos="1" side="tl" part="lemh"/><lit-tag v="adj"/><var n="sup_ar_gen"/><clip pos="1" side="tl" part="nbr"/><clip pos="1" side="tl" part="lemq"/></lu></out></when><otherwise><out>   
 	  <lu>
 	    <clip pos="1" side="tl" part="lemh"/>
 	    <var n="title_pos_1"/>
@@ -3389,7 +3390,7 @@
       </action>
     </rule>
     
-     <rule> <!-- REGLA NOVA 2: DET NOM VERB ADJECTIU: La nube es roja - El núvol és vermell-->
+     <rule> <!-- REGLA NOVA 2: DET NOM VERB ADJECTIU: La nube es roja - El nÃºvol Ã©s vermell-->
        <pattern>
  	<pattern-item n="det"/>
  	<pattern-item n="nom"/>
@@ -3429,7 +3430,7 @@
 		</not>
 	      </and>
 	    </test>
-	    <let><!--el dinero es - els diners són -->
+	    <let><!--el dinero es - els diners sÃ³n -->
 	      <clip pos="3" side="tl" part="nbr"/>
 	      <clip pos="2" side="tl" part="nbr"/>
 	    </let>
@@ -3665,7 +3666,7 @@
 		        <and>
 		          <equal caseless="yes">
 		            <clip pos="2" side="sl" part="lem"/>
-		            <lit v="próximo"/>
+		            <lit v="prÃ³ximo"/>
 		          </equal>
 		          <equal>
 		            <clip pos="2" side="sl" part="nbr"/>
@@ -3684,7 +3685,7 @@
 		      <test>
 		        <equal caseless="yes">
 		          <clip pos="2" side="sl" part="lem"/>
-		          <lit v="próximo"/>
+		          <lit v="prÃ³ximo"/>
 		        </equal>
 		      </test>
 		      <let>
@@ -4770,7 +4771,7 @@
 		  <and>
 		    <equal caseless="yes">
 		      <clip pos="3" side="sl" part="lem"/>
-		      <lit v="próximo"/>
+		      <lit v="prÃ³ximo"/>
 		    </equal>
 		    <equal>
 		      <clip pos="3" side="sl" part="nbr"/>
@@ -4789,7 +4790,7 @@
 		<test>
 		  <equal caseless="yes">
 		    <clip pos="3" side="sl" part="lem"/>
-		    <lit v="próximo"/>
+		    <lit v="prÃ³ximo"/>
 		  </equal>
 		</test>
 		<let>
@@ -5567,7 +5568,7 @@
 	<pattern-item n="que"/>
       </pattern>
       <action>
-	<choose><!-- aquí no eliminem la prep 'amb' con en la regla anterior, pq pot portar a més errors i no està massa clar ; es pot canviar en un futur si el tagger funciona bé -->
+	<choose><!-- aquÃ­ no eliminem la prep 'amb' con en la regla anterior, pq pot portar a mÃ©s errors i no estÃ  massa clar ; es pot canviar en un futur si el tagger funciona bÃ© -->
 	  <when>
 	    <test>
 	      <equal>
@@ -5679,7 +5680,7 @@
 	 </rule> -->
     
 
-    <rule> <!--REGLA: VERB (per a multiparaules sense enclítics)-->
+    <rule> <!--REGLA: VERB (per a multiparaules sense enclÃ­tics)-->
       <pattern>
 	<pattern-item n="verb"/>
       </pattern>
@@ -5704,7 +5705,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: VERB + ENCLÍTIC cómelo/mincha-lo, pero véase / se veiga, háganlo / lo faigan a="juanpablo"-->
+    <rule> <!--REGLA: VERB + ENCLÃTIC cÃ³melo/mincha-lo, pero vÃ©ase / se veiga, hÃ¡ganlo / lo faigan a="juanpablo"-->
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="prnenc"/>
@@ -5713,7 +5714,7 @@
 	<call-macro n="f_tipusverb">
 	  <with-param pos="1"/>
 	</call-macro>   
-	<choose><!-- véase : se veiga-->
+	<choose><!-- vÃ©ase : se veiga-->
 	  <when>
 	    <test>
 	      <and>
@@ -5776,7 +5777,7 @@
     </rule>
 
 
-    <rule> <!--REGLA: VERB + ENCLÍTIC + ENCLÍTIC juanpablo cómetelo/ mincha-te-lo pero démelo / me lo dé -->
+    <rule> <!--REGLA: VERB + ENCLÃTIC + ENCLÃTIC juanpablo cÃ³metelo/ mincha-te-lo pero dÃ©melo / me lo dÃ© -->
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="prnenc"/>
@@ -5786,7 +5787,7 @@
 	<call-macro n="f_tipusverb">
 	  <with-param pos="1"/>
 	</call-macro>   
-	<choose><!-- véase : se veiga-->
+	<choose><!-- vÃ©ase : se veiga-->
 	  <when>
 	    <test>
 	      <and>
@@ -5896,7 +5897,7 @@
       </action>
     </rule>
 
- <rule> <!--REGLA: prep "al" + haber_inf + pp (para cambiar la traducción de la 3ª persona ("haver-hi") por la traducción del verbo "haver" en forma auxiliar ("haver"). Se hace esta regla porque sino, entra por la regla anterior y traduce (en haver-hi fet)-->
+ <rule> <!--REGLA: prep "al" + haber_inf + pp (para cambiar la traducciÃ³n de la 3Âª persona ("haver-hi") por la traducciÃ³n del verbo "haver" en forma auxiliar ("haver"). Se hace esta regla porque sino, entra por la regla anterior y traduce (en haver-hi fet)-->
       <pattern>
 	<pattern-item n="a"/>
 	<pattern-item n="el"/>
@@ -7283,7 +7284,7 @@
     </rule>
   -->
     
-    <rule> <!--REGLA: elimina el signo de apertura ¿ y ¡ -->
+    <rule> <!--REGLA: elimina el signo de apertura Â¿ y Â¡ -->
       <pattern>
 	<pattern-item n="lquest"/>
       </pattern>
@@ -7295,7 +7296,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: HABER 3ª persona + PP (para cambiar la traducción de la 3ª persona ("haver-hi") por la traducción del verbo "haver" en forma auxiliar ("haver")-->
+    <rule> <!--REGLA: HABER 3Âª persona + PP (para cambiar la traducciÃ³n de la 3Âª persona ("haver-hi") por la traducciÃ³n del verbo "haver" en forma auxiliar ("haver")-->
       <pattern>
 	<pattern-item n="haber3p"/>
 	<pattern-item n="pp_nohaber"/>
@@ -7338,7 +7339,7 @@
 		  <clip pos="2" side="sl" part="persona"/>
 		</equal>
 		<and>
-		  <equal><!--Trampeta: perquè de vegades el tagger s'equivoca amb el gènere de "llamaba" (p1 o p3) -->
+		  <equal><!--Trampeta: perquÃ¨ de vegades el tagger s'equivoca amb el gÃ¨nere de "llamaba" (p1 o p3) -->
 		    <clip pos="1" side="sl" part="persona"/>
 		    <lit-tag v="p3"/>
 		  </equal>
@@ -7393,13 +7394,13 @@
     </rule> 
 
 
-    <rule> <!-- Verbos pronominales en español y no pronominales en catalán. Los pronombres enclíticos (pospuestos) se eliminan a través del diccionario catalán -->
+    <rule> <!-- Verbos pronominales en espaÃ±ol y no pronominales en catalÃ¡n. Los pronombres enclÃ­ticos (pospuestos) se eliminan a travÃ©s del diccionario catalÃ¡n -->
       <pattern>
 	<pattern-item n="prnproref"/>
 	<pattern-item n="verbospron"/>
       </pattern>
       <action>
-	<choose><!--Si la persona del pronombre y el verbo concuerdan, no envíes el pronombre -->
+	<choose><!--Si la persona del pronombre y el verbo concuerdan, no envÃ­es el pronombre -->
 	  <when>
 	    <test>
 	      <or>
@@ -7408,7 +7409,7 @@
 		  <clip pos="2" side="sl" part="persona"/>
 		</equal>
 		<and>
-		  <equal><!--Trampeta: perquè de vegades el tagger s'equivoca amb la persona de "caía" (p1 o p3) -->
+		  <equal><!--Trampeta: perquÃ¨ de vegades el tagger s'equivoca amb la persona de "caÃ­a" (p1 o p3) -->
 		    <clip pos="1" side="sl" part="persona"/>
 		    <lit-tag v="p3"/>
 		  </equal>
@@ -7419,14 +7420,14 @@
 		</and>
 	      </or>
 	    </test>
-	    <call-macro n="f_bcond"><!--Envía el blanco sólo si tiene formato -->
+	    <call-macro n="f_bcond"><!--EnvÃ­a el blanco sÃ³lo si tiene formato -->
 	      <with-param pos="1"/>
 	    </call-macro>   
-	    <call-macro n="f_pretind"><!--Traduce el pretérito indefinido si es el caso y envía el verbo -->
+	    <call-macro n="f_pretind"><!--Traduce el pretÃ©rito indefinido si es el caso y envÃ­a el verbo -->
 	      <with-param pos="2"/>
 	    </call-macro> 
 	  </when>
-	  <otherwise><!--Si no concuerdan el pronombre y el verbo, envíalo todo -->
+	  <otherwise><!--Si no concuerdan el pronombre y el verbo, envÃ­alo todo -->
 	    <out>
 	      <lu>
 		<clip pos="1" side="tl" part="whole"/>
@@ -7441,7 +7442,7 @@
       </action>
     </rule> 
 
-    <rule> <!-- Verbos pronominales en español y no pronominales en catalán--><!--los pronombres enclíticos (pospuestos) se eliminan a través del diccionario catalán -->
+    <rule> <!-- Verbos pronominales en espaÃ±ol y no pronominales en catalÃ¡n--><!--los pronombres enclÃ­ticos (pospuestos) se eliminan a travÃ©s del diccionario catalÃ¡n -->
       <pattern>
 	<pattern-item n="prnproref"/>
 	<pattern-item n="haber"/>
@@ -7449,7 +7450,7 @@
       </pattern>
       <action>
 	<choose>
-	  <when><!--Si la persona del pronombre y el verbo concuerdan, no envíes el pronombre -->
+	  <when><!--Si la persona del pronombre y el verbo concuerdan, no envÃ­es el pronombre -->
 	    <test>
 	      <or>
 		<equal>
@@ -7457,7 +7458,7 @@
 		  <clip pos="2" side="sl" part="persona"/>
 		</equal>
 		<and>
-		  <equal><!--Trampeta: perquè de vegades el tagger s'equivoca amb el gènere de "había" (p1 o p3) -->
+		  <equal><!--Trampeta: perquÃ¨ de vegades el tagger s'equivoca amb el gÃ¨nere de "habÃ­a" (p1 o p3) -->
 		    <clip pos="1" side="sl" part="persona"/>
 		    <lit-tag v="p3"/>
 		  </equal>
@@ -7475,7 +7476,7 @@
 	    <out>	 
 	      <lu>    
 		<clip pos="2" side="tl" part="lem"/>
-		<lit-tag v="vaux"/><!--Para que traduzca "haber" como auxiliar (lo mismo que hace la regla HABER 3ª persona -->
+		<lit-tag v="vaux"/><!--Para que traduzca "haber" como auxiliar (lo mismo que hace la regla HABER 3Âª persona -->
 		<clip pos="2" side="tl" part="temps"/>
 		<clip pos="2" side="tl" part="persona"/>
 		<clip pos="2" side="tl" part="nbr"/>
@@ -7491,7 +7492,7 @@
 	      </lu>
 	    </out>
 	  </when>
-	  <otherwise><!--Si no concuerdan el pronombre y el verbo, envíalo todo -->
+	  <otherwise><!--Si no concuerdan el pronombre y el verbo, envÃ­alo todo -->
 	    <out>
 	      <lu>
 		<clip pos="1" side="tl" part="whole"/>
@@ -7522,7 +7523,7 @@
       </action>
     </rule> 
 
-    <rule> <!-- Verbos pronominales en español y no pronominales en catalán--><!--los pronombres enclíticos (pospuestos) se eliminan a través del diccionario catalán -->
+    <rule> <!-- Verbos pronominales en espaÃ±ol y no pronominales en catalÃ¡n--><!--los pronombres enclÃ­ticos (pospuestos) se eliminan a travÃ©s del diccionario catalÃ¡n -->
       <pattern>
 	<pattern-item n="prnproref3"/>
 	<pattern-item n="prnproobj"/>
@@ -7547,7 +7548,7 @@
       </action>
     </rule> 
 
-    <rule> <!-- Verbos pronominales en español y no pronominales en catalán--><!--los pronombres enclíticos (pospuestos) se eliminan a través del diccionario catalán -->
+    <rule> <!-- Verbos pronominales en espaÃ±ol y no pronominales en catalÃ¡n--><!--los pronombres enclÃ­ticos (pospuestos) se eliminan a travÃ©s del diccionario catalÃ¡n -->
       <pattern>
 	<pattern-item n="prnproref3"/>
 	<pattern-item n="prnproobj"/>
@@ -7588,7 +7589,7 @@
     </rule> 
 
 
-  <rule> <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
+  <rule> <!--REGLA: perÃ­frasis verbales: VENIR + GER (ser)-->
       <pattern>
 	<pattern-item n="venir"/>
 	<pattern-item n="ger"/>
@@ -7635,7 +7636,7 @@
       </action>
   </rule>
 
-    <rule> <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
+    <rule> <!--REGLA: perÃ­frasis verbales: VENIR + GER (ser)-->
       <pattern>
 	<pattern-item n="venir"/>
 	<pattern-item n="ger"/>
@@ -7700,7 +7701,7 @@
   </rule>
 
 
-  <rule> <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
+  <rule> <!--REGLA: perÃ­frasis verbales: VENIR + GER (ser)-->
       <pattern>
 	<pattern-item n="venir"/>
 	<pattern-item n="ger"/>
@@ -7930,18 +7931,18 @@
       </action>
 </rule>
 --> 
-<!-- REGLA: NÚMERO en es-an cal una diferent  -->
+<!-- REGLA: NÃšMERO en es-an cal una diferent  -->
 <!--
  <rule> 
       <pattern>
 	<pattern-item n="det"/>
-	<pattern-item n="número"/>
+	<pattern-item n="nÃºmero"/>
 	<pattern-item n="xifra"/>
       </pattern>
       <action>
 	<let>
 	  <clip pos="2" side="tl" part="lem"/>
-	  <lit v="número"/>
+	  <lit v="nÃºmero"/>
 	</let>  
 	<choose>
 	  <when>
@@ -7978,13 +7979,13 @@
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="det"/>
-	<pattern-item n="número"/>
+	<pattern-item n="nÃºmero"/>
 	<pattern-item n="xifra"/>
       </pattern>
       <action>	
 	<let>
 	  <clip pos="3" side="tl" part="lem"/>
-	  <lit v="número"/>
+	  <lit v="nÃºmero"/>
 	</let>  
 	<call-macro n="f_preps_det">
 	  <with-param pos="1"/>
@@ -8023,9 +8024,9 @@
     </rule> -->
 
 <!--
- <rule> <!-+- REGLA: ser de aplicación + ADJ (perquè els del servei ling UA volen que tradueixi "ser aplicable", cal aquesta regla per quan va seguit d'adjectiu-+->
+ <rule> <!-+- REGLA: ser de aplicaciÃ³n + ADJ (perquÃ¨ els del servei ling UA volen que tradueixi "ser aplicable", cal aquesta regla per quan va seguit d'adjectiu-+->
       <pattern>
-	<pattern-item n="ser_de_aplicación"/>
+	<pattern-item n="ser_de_aplicaciÃ³n"/>
 	<pattern-item n="adjec"/>
       </pattern>
       <action>
@@ -8058,7 +8059,7 @@
 	  </lu>
 	  <b/>
 	  <lu>
-	    <lit v="aplicación"/>
+	    <lit v="aplicaciÃ³n"/>
 	    <lit-tag v="n.f.sg"/>
 	  </lu>
 	  <b pos="1"/>
