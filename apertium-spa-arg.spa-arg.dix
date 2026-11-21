@@ -9805,7 +9805,7 @@
 <e>       <i>OPA<s n="n"/></i></e>
 <e>       <i>OPEP<s n="n"/></i></e>
 <e>       <i>OTAN<s n="n"/></i></e>
-<e>       <i>Once<s n="n"/></i></e>
+<e><p><l>Once<s n="n"/></l><r>ONCE<s n="n"/></r></p></e>
 <e>       <i>P.V.P.<s n="n"/></i></e>
 <e>       <i>PA<s n="n"/></i></e>
 <e>       <i>PAI<s n="n"/></i></e>
@@ -9951,7 +9951,7 @@
 <e>       <i>UdL<s n="n"/></i></e>
 <e>       <i>UEFA<s n="n"/></i></e>
 <e>       <i>Unesco<s n="n"/></i></e>
-<e>       <i>Unicef<s n="n"/></i></e>
+<e><p><l>UNICEF<s n="n"/><s n="acr"/></l><r>Unicef<s n="n"/><s n="acr"/></r></p></e>
 <e>       <i>VIH<s n="n"/></i></e>
 <e>       <i>VPO<s n="n"/></i></e>
 <e i="yes">       <p><l>W<s n="n"/></l>                        <r>W<s n="n"/></r></p></e>
@@ -10002,7 +10002,7 @@
 <e>       <p><l>abstención<s n="n"/></l>               <r>abstención<s n="n"/></r></p></e>
 <e>       <p><l>abstinencia<s n="n"/></l>              <r>abstinencia<s n="n"/></r></p></e>
 <e>       <p><l>abstracción<s n="n"/></l>              <r>abstracción<s n="n"/></r></p></e>
-<e>       <p><l>abuelo<s n="n"/></l>                   <r>güelo<s n="n"/></r></p></e>
+<e>       <p><l>abuelo<s n="n"/></l>                   <r>avuelo<s n="n"/></r></p></e>
 <e r="LR"><p><l>abultamiento<s n="n"/></l>             <r>bulligón<s n="n"/></r></p></e>
 <e>       <p><l>abundamiento<s n="n"/></l>             <r>abundamiento<s n="n"/></r></p></e>
 <e>       <p><l>abundancia<s n="n"/></l>               <r>abundancia<s n="n"/></r></p></e>
@@ -10835,7 +10835,6 @@
 <e>       <p><l>buenas<b/>tardes<s n="n"/><s n="f"/><s n="pl"/></l><r>buena<b/>tarde<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>buenas<b/>tardes<s n="n"/><s n="f"/><s n="pl"/></l><r>buenas<b/>tardes<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>buenos<b/>días<s n="n"/><s n="m"/><s n="pl"/></l><r>buen<b/>día<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>buenos<b/>días<s n="n"/><s n="m"/><s n="pl"/></l><r>buenos<b/>días<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>buey<s n="n"/></l>                     <r>bue<s n="n"/></r></p></e>
     <!-- <e r="RL" srl="cometa_D"><p><l>cometa<s n="n"/><s n="f"/></l><r>cometa<s n="n"/><s n="f"/></r></p></e> -->
    <!-- <e r="RL" srl="comilla"><p><l>comilla<s n="n"/><s n="f"/></l><r>cometa<s n="n"/><s n="f"/></r></p></e> -->
@@ -11040,7 +11039,7 @@
 <e>       <p><l>catalán<s n="n"/></l>                  <r>catalán<s n="n"/></r></p></e>
 <e>       <p><l>catastrofista<s n="n"/></l>            <r>catastrofista<s n="n"/></r></p></e>
 <e>       <p><l>catecismo<s n="n"/></l>                <r>catecismo<s n="n"/></r></p></e>
-<e>       <p><l>catedral<s n="n"/></l>                 <r>seu<s n="n"/></r></p></e>
+<e><p><l>catedral<s n="n"/><s n="f"/></l><r>seu<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>catedral<s n="n"/></l>                 <r>catedral<s n="n"/></r></p></e>
 <e>       <p><l>categorización<s n="n"/></l>           <r>categorización<s n="n"/></r></p></e>
 <e>       <p><l>categoría<s n="n"/></l>                <r>categoría<s n="n"/></r></p></e>
@@ -11103,7 +11102,7 @@
 <e r="RL"><p><l>cerdo<s n="n"/><s n="m"/></l>          <r>tocino<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cerdo<s n="n"/><s n="m"/></l>          <r>cochín<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cerebro<s n="n"/></l>                  <r>celebro<s n="n"/></r></p></e>
-<e>       <p><l>ceremonia<s n="n"/></l>                <r>ceremonia<s n="n"/></r></p></e>
+<e>       <p><l>ceremonia<s n="n"/></l>                <r>cerimonia<s n="n"/></r></p></e>
 <e>       <p><l>cereza<s n="n"/></l>                   <r>ciresa<s n="n"/></r></p></e>
 <e>       <p><l>cerezo<s n="n"/><s n="m"/></l>         <r>ciresera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cerradura<s n="n"/></l>                <r>zarralla<s n="n"/></r></p></e>
@@ -11690,7 +11689,8 @@
 <e>       <p><l>cuaresma<s n="n"/></l>                 <r>cuaresma<s n="n"/></r></p></e>
 <e>       <p><l>cuartel<s n="n"/></l>                  <r>cuartel<s n="n"/></r></p></e>
 <e>       <p><l>cuartilla<s n="n"/></l>                <r>cuartilla<s n="n"/></r></p></e>
-<e>       <p><l>cuarto<s n="n"/></l>                   <r>cuarto<s n="n"/></r></p></e>
+<e><p><l>cuarto<s n="n"/><s n="m"/></l><r>cuarto<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>cuarta<s n="n"/><s n="f"/></l><r>cuarto<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cubano<s n="n"/></l>                   <r>cubano<s n="n"/></r></p></e>
 <e>       <p><l>cubeta<s n="n"/></l>                   <r>cubeta<s n="n"/></r></p></e>
 <e>       <p><l>cubismo<s n="n"/></l>                  <r>cubismo<s n="n"/></r></p></e>
@@ -12131,7 +12131,7 @@
 <e>       <p><l>discordancia<s n="n"/></l>             <r>discordancia<s n="n"/></r></p></e>
 <e>       <p><l>discordia<s n="n"/></l>                <r>discordia<s n="n"/></r></p></e>
 <e>       <p><l>discoteca<s n="n"/></l>                <r>discoteca<s n="n"/></r></p></e>
-<e>       <p><l>discreción<s n="n"/></l>               <r>discrección<s n="n"/></r></p></e>
+<e>       <p><l>discreción<s n="n"/></l>               <r>discreción<s n="n"/></r></p></e>
 <e>       <p><l>discrepancia<s n="n"/></l>             <r>discrepancia<s n="n"/></r></p></e>
 <e>       <p><l>discriminación<s n="n"/></l>           <r>discriminación<s n="n"/></r></p></e>
 <e>       <i>discurso<s n="n"/></i></e>
@@ -15236,7 +15236,8 @@
 <e>       <p><l>puma<s n="n"/></l>                     <r>puma<s n="n"/></r></p></e>
 <e>       <p><l>punición<s n="n"/></l>                 <r>punición<s n="n"/></r></p></e>
 <e>       <p><l>punta<s n="n"/></l>                    <r>punta<s n="n"/></r></p></e>
-<e>       <p><l>puntero<s n="n"/></l>                  <r>puntero<s n="n"/></r></p></e>
+<e><p><l>puntero<s n="n"/><s n="m"/></l><r>puntero<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>puntera<s n="n"/><s n="f"/></l><r>puntero<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>punto<s n="n"/></l>                    <r>punto<s n="n"/></r></p></e>
 <e>       <p><l>puntuación<s n="n"/></l>               <r>puntuación<s n="n"/></r></p></e>
 <e>       <p><l>puntualización<s n="n"/></l>           <r>puntualización<s n="n"/></r></p></e>
